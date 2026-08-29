@@ -1,0 +1,14 @@
+{
+  "pageid": 2232,
+  "title": "HPL3/SOMA/Scripting/iMouse",
+  "missing": false,
+  "redirect": false,
+  "length": 1067,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3904,
+  "revisionTimestamp": "2020-08-06T15:03:35Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\niMouse has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || ButtonIsDown || [[../eMouseButton|<syntaxhighlight lang=\"c++\" inline>eMouseButton</syntaxhighlight>]] ||\n|-\n| [[../cVector2l|<syntaxhighlight lang=\"c++\" inline>cVector2l</syntaxhighlight>]] || GetAbsPosition ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || GetRelativeMouseModeActive ||   ||\n|-\n| [[../cVector2l|<syntaxhighlight lang=\"c++\" inline>cVector2l</syntaxhighlight>]] || GetRelPosition ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetRelativeMouseModeActive || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Update ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iMouse",
+  "requestedTitle": "HPL3/SOMA/Scripting/iMouse"
+}

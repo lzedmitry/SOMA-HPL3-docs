@@ -1,0 +1,14 @@
+{
+  "pageid": 2310,
+  "title": "HPL3/SOMA/Scripting/eGamepadButton",
+  "missing": false,
+  "redirect": false,
+  "length": 2063,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3790,
+  "revisionTimestamp": "2020-08-06T14:38:03Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eGamepadButton_0</code> || <code>0</code> ||\n|-\n| <code>eGamepadButton_1</code> || <code>1</code> ||\n|-\n| <code>eGamepadButton_2</code> || <code>2</code> ||\n|-\n| <code>eGamepadButton_3</code> || <code>3</code> ||\n|-\n| <code>eGamepadButton_4</code> || <code>4</code> ||\n|-\n| <code>eGamepadButton_5</code> || <code>5</code> ||\n|-\n| <code>eGamepadButton_6</code> || <code>6</code> ||\n|-\n| <code>eGamepadButton_7</code> || <code>7</code> ||\n|-\n| <code>eGamepadButton_8</code> || <code>8</code> ||\n|-\n| <code>eGamepadButton_9</code> || <code>9</code> ||\n|-\n| <code>eGamepadButton_10</code> || <code>10</code> ||\n|-\n| <code>eGamepadButton_11</code> || <code>11</code> ||\n|-\n| <code>eGamepadButton_12</code> || <code>12</code> ||\n|-\n| <code>eGamepadButton_13</code> || <code>13</code> ||\n|-\n| <code>eGamepadButton_14</code> || <code>14</code> ||\n|-\n| <code>eGamepadButton_15</code> || <code>15</code> ||\n|-\n| <code>eGamepadButton_16</code> || <code>16</code> ||\n|-\n| <code>eGamepadButton_17</code> || <code>17</code> ||\n|-\n| <code>eGamepadButton_18</code> || <code>18</code> ||\n|-\n| <code>eGamepadButton_19</code> || <code>19</code> ||\n|-\n| <code>eGamepadButton_20</code> || <code>20</code> ||\n|-\n| <code>eGamepadButton_21</code> || <code>21</code> ||\n|-\n| <code>eGamepadButton_22</code> || <code>22</code> ||\n|-\n| <code>eGamepadButton_23</code> || <code>23</code> ||\n|-\n| <code>eGamepadButton_24</code> || <code>24</code> ||\n|-\n| <code>eGamepadButton_25</code> || <code>25</code> ||\n|-\n| <code>eGamepadButton_26</code> || <code>26</code> ||\n|-\n| <code>eGamepadButton_27</code> || <code>27</code> ||\n|-\n| <code>eGamepadButton_28</code> || <code>28</code> ||\n|-\n| <code>eGamepadButton_29</code> || <code>29</code> ||\n|-\n| <code>eGamepadButton_LastEnum</code> || <code>30</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadButton",
+  "requestedTitle": "HPL3/SOMA/Scripting/eGamepadButton"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 3359,
+  "title": "HPL3/Areas/PathNode Area",
+  "missing": false,
+  "redirect": false,
+  "length": 1188,
+  "touched": "2024-02-01T14:58:31Z",
+  "revisionId": 6754,
+  "revisionTimestamp": "2024-02-01T14:58:31Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "== Overview ==\nHelper Function: [[Ai_Helper | helper_ai.hps]]\n\nThe PathNode Area is an area that acts as a point entity that generates a navigable path for agents to use for pathfinding. Each area much be assigned to each enemy entity using the function <code>Pathfinder_Track_Add()</code> and the agent must be started on the path using the function <code>Pathfinder_Track_Start()</code>. These Functions require the helper_ai.hps script to be included in the map file. Not all agents can be used with the pathnode system as some are designed to be used in specific situations.\n\n== Properties ==\nThe PathNode Area takes no properties\n\n== Script Example ==\nA simple for loop can be used to add <code>n</code> path nodes to an agents pathfinding.\n<syntaxhighlight lang=\"c++\">\nfor(int i = 1; i <= n; i++)\n{\n\tPathfinder_Track_Add(\"_agent_\", \"PathNodeArea_\" + n, 0.0f, 0.5f, \"\", false);\n}</syntaxhighlight>\n\nwhere <code>\"_agent_\"</code> is the name of the agent to assign to the node.\n\nTo start the agent on the path node network you can call the <code>Pathfinder_Track_Start()</code> function.\n\n<syntaxhighlight lang=\"c++\">Pathfinder_Track_Start(\"_agent_\", true, 1.0f, \"\");</syntaxhighlight>",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/PathNode_Area",
+  "requestedTitle": "HPL3/Areas/PathNode Area"
+}

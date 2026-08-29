@@ -1,0 +1,15 @@
+{
+  "pageid": 2606,
+  "title": "HPL3/Level Design/Level Information",
+  "missing": false,
+  "redirect": false,
+  "length": 208,
+  "touched": "2026-07-30T09:26:15Z",
+  "revisionId": 7070,
+  "revisionTimestamp": "2026-07-30T09:26:15Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Level Information window =\n\n[[File:window_levelinfo.png]]\n\nIn this window you will find information of interest on the current level, such as:\n* '''Estimated memory usage''' for static objects and entities.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Information",
+  "requestedTitle": "HPL3/SOMA/Level Design/Level Information",
+  "resolvedTitle": "HPL3/Level Design/Level Information"
+}

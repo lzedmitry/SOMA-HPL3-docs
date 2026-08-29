@@ -1,0 +1,14 @@
+{
+  "pageid": 3418,
+  "title": "HPL3/Level Design/Fog Areas",
+  "missing": false,
+  "redirect": false,
+  "length": 1054,
+  "touched": "2026-07-30T09:56:11Z",
+  "revisionId": 7092,
+  "revisionTimestamp": "2026-07-30T09:56:11Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= FogAreas =\n\nFogAreas are bounding boxes that apply a fog effect inside their limits\n\n== General Parameters ==\n* '''Name''': Name of the FogArea\n* '''Position''': 3D Vector storing the position in the world of the FogArea center.\n* '''Rotation''': 3D Vector storing the rotation of the FogArea box.\n* '''Size''': 3D Vector storing the size of the FogArea box.\n\n== Specific Parameters ==\n* '''Color''': color of the fog.\n* '''Start''':\n* '''End''':\n* '''FalloffExp''':\n* '''Show backside when inside''': if set, the fog effect will not affect what lies beyond the area when seen from inside it. \n* '''Show backside when outside''': if set, the fog effect will not affect what lies beyond the area when seen from outside it.\n\n=FogArea EditMode=\n\n\nFogAreas are bounding boxes that apply a fog effect inside their limits.\n\n\nThe creation window consists only of an input to select the fog color the area will be created with.\n\n\nTo create an area, just click anywhere on the grid, and a 1x1x1 FogArea should appear.\n\n\nMore on FogAreas [[HPL2/Fog Areas|here]].",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Fog_Areas",
+  "requestedTitle": "HPL3/Level Design/Fog Areas"
+}

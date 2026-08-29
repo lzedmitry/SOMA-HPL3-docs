@@ -1,0 +1,14 @@
+{
+  "pageid": 3430,
+  "title": "HPL3/SOMA/Getting Started/Edit Your First Map",
+  "missing": false,
+  "redirect": false,
+  "length": 1985,
+  "touched": "2026-07-30T10:50:16Z",
+  "revisionId": 7117,
+  "revisionTimestamp": "2026-07-30T10:47:43Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{Hpl3SomaGettingStarted|step=4}}\n\nYou will use the working sample as your first map and make one visible editor change. Starting from the sample avoids mixing basic editor learning with player-start and launch-configuration problems.\n\n== Open the map ==\n\n# In <code>LevelEditor.exe</code>, choose '''File → Open'''.\n# Open <code>MyFirstMod/maps/sample_map/sample_map.hpm</code>.\n# Move around the perspective viewport and inspect the existing room. See [[HPL3/SOMA/Level Design/Level Editor View|Level Editor View]] if the viewport controls are unfamiliar.\n\n== Make one visible change ==\n\nSelect an existing object and move it a small, obvious distance with the translation tool. Save the map, close it, and reopen <code>sample_map.hpm</code>.\n\n{{tip|For the first checkpoint, change only one existing object. Add new objects, lighting, and gameplay entities after the edit-save-launch loop is proven.}}\n\nHPL3 stores different object categories in files beside the main map, such as <code>sample_map.hpm_Entity</code>, <code>sample_map.hpm_Light</code>, and <code>sample_map.hpm_StaticObject</code>. Keep these files together with <code>sample_map.hpm</code>.\n\n== Test in-game ==\n\nLaunch your mod again and confirm that the object moved. If the old version appears, close the game and relaunch the mod to rule out cached state.\n\n== Checkpoint ==\n\nContinue when the changed object:\n\n* remains moved after reopening the map in the editor; and\n* appears in its new position in-game.\n\n== If it does not work ==\n\n* Confirm the editor title bar says <code>(Working on mod)</code>.\n* Confirm you opened the map inside your copied mod, not the bundled example.\n* Confirm the complete set of <code>.hpm</code> and <code>.hpm_*</code> files is writable and remains in the same folder.\n* If the editor view is the problem, use [[HPL3/SOMA/Level Design/Level Editor View|Level Editor View]]. For individual object types, use the relevant section of [[HPL3/SOMA/Level Design|SOMA Level Design]].",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Edit_Your_First_Map",
+  "requestedTitle": "HPL3/SOMA/Getting Started/Edit Your First Map"
+}

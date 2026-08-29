@@ -1,0 +1,14 @@
+{
+  "pageid": 2210,
+  "title": "HPL3/SOMA/Scripting/cXmlNodeListIterator",
+  "missing": false,
+  "redirect": false,
+  "length": 631,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3759,
+  "revisionTimestamp": "2020-08-06T14:32:00Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncXmlNodeListIterator has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || HasNext ||   ||\n|-\n| [[../iXmlNode|<syntaxhighlight lang=\"c++\" inline>iXmlNode@</syntaxhighlight>]] || Next ||   ||\n|-\n| [[../iXmlNode|<syntaxhighlight lang=\"c++\" inline>iXmlNode@</syntaxhighlight>]] || PeekNext ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cXmlNodeListIterator",
+  "requestedTitle": "HPL3/SOMA/Scripting/cXmlNodeListIterator"
+}

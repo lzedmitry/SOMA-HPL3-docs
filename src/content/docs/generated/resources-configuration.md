@@ -1,0 +1,77 @@
+---
+title: Resources Configuration
+description: "Every HPL3 mod needs to point out all of the resources that are to be used in the mod. Resources are essentially collections of folders and files which are going to be used by the mod. For example: 3D Models, Scripts, Au"
+category: generated
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Resources_Configuration"
+sourceRevision: 6425
+sourceUpdated: "2023-06-08T13:29:59Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - generated
+sidebar:
+  hidden: true
+---
+Every HPL3 mod needs to point out all of the resources that are to be used in the mod. Resources are essentially collections of folders and files which are going to be used by the mod. For example: 3D Models, Scripts, Audio, Textures, etc.
+This article explains how to configure the resources for a mod.
+
+:::tip[Tip]
+It is recommended to use the [HPL3 Mod Manager](https://wiki.frictionalgames.com/page/HPL3/Third_Party_Tools/HPL3_Mod_Manager) to configure everything that is listed on this page.
+:::
+  
+
+## Resources Configuration File
+In order to make the mod load our assets and maps, we need to list where exactly those resources are located. All of the resources for the mod are listed inside a single XML file, called `resources.cfg`. The file should be located inside the main mod folder.
+
+The syntax for adding a resource directory is as follows:
+
+```
+<Resources>
+    <Directory Path="/FolderName" AddSubDirs="true" />
+</Resources>
+```
+
+| Path | The relative path to the folder that contains the resources. |
+| --- | --- |
+| AddSubDirs | Whether to include sub-folders that are located inside the folder specified in `Path` as part of the resources or not (recursive). It is recommended to always set this to `true`. |
+
+:::note[Note]
+The file lists directories in which the resources are located at in the form of relative path to the mod. That means you do not need to provide a full path for the folder.
+:::
+
+### Example
+Given the following mod structure:
+
+```
+modFolder/
+├── config/
+│   ├── lang/
+│   │   ├── english.lang
+│   ├── main_init.cfg
+├── maps/
+├── script/
+├── static_objects/
+├── entry.hpc
+├── resources.cfg
+```
+
+The resources file will look like this:
+
+```
+<Resources>
+    <Directory Path="/config" AddSubDirs="true" />
+    <Directory Path="/maps" AddSubDirs="true" />
+    <Directory Path="/script" AddSubDirs="true" />
+    <Directory Path="/static_objects" AddSubDirs="true" />
+</Resources>
+```
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/Resources Configuration](https://wiki.frictionalgames.com/page/HPL3/Resources_Configuration)
+- Revision: `6425`
+- Source update: `2023-06-08T13:29:59Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

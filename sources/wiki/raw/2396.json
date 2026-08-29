@@ -1,0 +1,14 @@
+{
+  "pageid": 2396,
+  "title": "HPL3/SOMA/Scripting/eVertexBufferDrawType",
+  "missing": false,
+  "redirect": false,
+  "length": 964,
+  "touched": "2020-08-27T22:05:51Z",
+  "revisionId": 3876,
+  "revisionTimestamp": "2020-08-06T14:56:57Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eVertexBufferDrawType_Tri</code> || <code>0</code> ||\n|-\n| <code>eVertexBufferDrawType_TriStrip</code> || <code>1</code> ||\n|-\n| <code>eVertexBufferDrawType_TriFan</code> || <code>2</code> ||\n|-\n| <code>eVertexBufferDrawType_Quad</code> || <code>3</code> ||\n|-\n| <code>eVertexBufferDrawType_QuadStrip</code> || <code>4</code> ||\n|-\n| <code>eVertexBufferDrawType_Line</code> || <code>5</code> ||\n|-\n| <code>eVertexBufferDrawType_LineLoop</code> || <code>6</code> ||\n|-\n| <code>eVertexBufferDrawType_LineStrip</code> || <code>7</code> ||\n|-\n| <code>eVertexBufferDrawType_Point</code> || <code>8</code> ||\n|-\n| <code>eVertexBufferDrawType_LastEnum</code> || <code>10</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eVertexBufferDrawType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eVertexBufferDrawType"
+}

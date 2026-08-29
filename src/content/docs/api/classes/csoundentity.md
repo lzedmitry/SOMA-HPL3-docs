@@ -1,0 +1,619 @@
+---
+title: cSoundEntity
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSoundEntity"
+sourceRevision: 3715
+sourceUpdated: "2020-08-06T14:20:04Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: undocumented
+generated: true
+tags:
+  - api
+  - api
+sidebar:
+  hidden: true
+---
+:::note[SOURCE STATUS: Undocumented]
+This API page was auto-generated on the Frictional Wiki and has no written descriptions.
+:::
+
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Fields
+cSoundEntity has no public fields.
+
+## Functions
+| Return Type | Function Name | Parameters | Description |
+| --- | --- | --- | --- |
+| 
+```
+void
+```
+ | AddChild | [
+```
+iEntity3D@ apEntity
+```
+](https://wiki.frictionalgames.com/page/../iEntity3D) |   |
+| 
+```
+void
+```
+ | FadeIn | 
+```
+float afSpeed
+```
+ |   |
+| 
+```
+void
+```
+ | FadeIn | 
+```
+float afSpeed
+```
+,  
+
+```
+float afTargetVol
+```
+ |   |
+| 
+```
+void
+```
+ | FadeOut | 
+```
+float afSpeed
+```
+ |   |
+| 
+```
+void
+```
+ | FadeSpeedMul | 
+```
+float afDest
+```
+,  
+
+```
+float afSpeed
+```
+ |   |
+| 
+```
+void
+```
+ | FadeVolumeMul | 
+```
+float afDest
+```
+,  
+
+```
+float afSpeed
+```
+ |   |
+| 
+```
+void
+```
+ | GetAverageSpectrum | ,  
+
+```
+int alNumValues = 64
+```
+ |   |
+| [
+```
+cBoundingVolume@+
+```
+](https://wiki.frictionalgames.com/page/../cBoundingVolume) | GetBoundingVolume |   |   |
+| [
+```
+cEntity3DIterator@
+```
+](https://wiki.frictionalgames.com/page/../cEntity3DIterator) | GetChildIterator |   |   |
+| 
+```
+int
+```
+ | GetCreationID |   |   |
+| 
+```
+float
+```
+ | GetCustomMaxDistance |   |   |
+| 
+```
+float
+```
+ | GetCustomMinDistance |   |   |
+| [
+```
+eSoundEntityDataType
+```
+](https://wiki.frictionalgames.com/page/../eSoundEntityDataType) | GetDataType |   |   |
+| 
+```
+float
+```
+ | GetElapsedTime |   |   |
+| [
+```
+iEntity3D@
+```
+](https://wiki.frictionalgames.com/page/../iEntity3D) | GetEntityParent |   |   |
+| [
+```
+eEntityType
+```
+](https://wiki.frictionalgames.com/page/../eEntityType) | GetEntityType |   |   |
+| [
+```
+tID
+```
+](https://wiki.frictionalgames.com/page/../tID) | GetID |   |   |
+| [
+```
+cMatrixf&
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) | GetLocalMatrix |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetLocalPosition |   |   |
+| 
+```
+float
+```
+ | GetMaxDistance |   |   |
+| 
+```
+float
+```
+ | GetMinDistance |   |   |
+| [
+```
+const tString&
+```
+](https://wiki.frictionalgames.com/page/../tString) | GetName |   |   |
+| 
+```
+float
+```
+ | GetParam | 
+```
+int alIdx
+```
+ |   |
+| 
+```
+float
+```
+ | GetParam | [
+```
+const tString &in asName
+```
+](https://wiki.frictionalgames.com/page/../tString) |   |
+| 
+```
+bool
+```
+ | GetRemoveWhenOver |   |   |
+| 
+```
+bool
+```
+ | GetReverbActive |   |   |
+| 
+```
+float
+```
+ | GetReverbAmount |   |   |
+| 
+```
+bool
+```
+ | GetScriptableIsSaved |   |   |
+| [
+```
+cSoundEntry@
+```
+](https://wiki.frictionalgames.com/page/../cSoundEntry) | GetSoundEntry | 
+```
+bool abCheckEntryValidity
+```
+ |   |
+| [
+```
+const tString&
+```
+](https://wiki.frictionalgames.com/page/../tString) | GetSoundFile |   |   |
+| 
+```
+bool
+```
+ | GetSoundFile3D |   |   |
+| 
+```
+bool
+```
+ | GetSoundFileBlockable |   |   |
+| 
+```
+float
+```
+ | GetSoundFileBlockMul |   |   |
+| [
+```
+eSoundEntryType
+```
+](https://wiki.frictionalgames.com/page/../eSoundEntryType) | GetSoundFileEntryType |   |   |
+| 
+```
+bool
+```
+ | GetSoundFileLoop |   |   |
+| 
+```
+int
+```
+ | GetSoundFilePriority |   |   |
+| 
+```
+bool
+```
+ | GetSoundFileStream |   |   |
+| 
+```
+int
+```
+ | GetTransformUpdateCount |   |   |
+| 
+```
+int
+```
+ | GetUniqueID |   |   |
+| 
+```
+bool
+```
+ | GetUseCustomProperties |   |   |
+| 
+```
+float
+```
+ | GetVolume |   |   |
+| [
+```
+cMatrixf&
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) | GetWorldMatrix |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetWorldPosition |   |   |
+| 
+```
+bool
+```
+ | HasParent |   |   |
+| 
+```
+bool
+```
+ | IsActive |   |   |
+| 
+```
+bool
+```
+ | IsChild | [
+```
+iEntity3D@ apEntity
+```
+](https://wiki.frictionalgames.com/page/../iEntity3D) |   |
+| 
+```
+bool
+```
+ | IsFadingOut |   |   |
+| 
+```
+bool
+```
+ | IsOneShot |   |   |
+| 
+```
+bool
+```
+ | IsStopped |   |   |
+| 
+```
+void
+```
+ | Play |   |   |
+| 
+```
+void
+```
+ | RemoveChild | [
+```
+iEntity3D@ apEntity
+```
+](https://wiki.frictionalgames.com/page/../iEntity3D) |   |
+| 
+```
+void
+```
+ | SetActive | 
+```
+bool abActive
+```
+ |   |
+| 
+```
+void
+```
+ | SetCustomMaxDistance | 
+```
+float afX
+```
+ |   |
+| 
+```
+void
+```
+ | SetCustomMinDistance | 
+```
+float afX
+```
+ |   |
+| 
+```
+void
+```
+ | SetElapsedTime | 
+```
+float afX
+```
+ |   |
+| 
+```
+void
+```
+ | SetMatrix | [
+```
+const cMatrixf &in a_mtxTransform
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) |   |
+| 
+```
+void
+```
+ | SetName | [
+```
+const tString &in asName
+```
+](https://wiki.frictionalgames.com/page/../tString) |   |
+| 
+```
+void
+```
+ | SetParam | 
+```
+int alIdx
+```
+,  
+
+```
+float afValue
+```
+ |   |
+| 
+```
+void
+```
+ | SetParam | [
+```
+const tString &in asName
+```
+](https://wiki.frictionalgames.com/page/../tString),  
+
+```
+float afValue
+```
+ |   |
+| 
+```
+void
+```
+ | SetParamHash | 
+```
+int alHash
+```
+,  
+
+```
+float afValue
+```
+ |   |
+| 
+```
+void
+```
+ | SetPosition | [
+```
+const cVector3f &in avPos
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | SetReverbActive | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetReverbAmount | 
+```
+float afX
+```
+ |   |
+| 
+```
+void
+```
+ | SetScriptableIsSaved | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetSoundFile3D | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetSoundFileBlockable | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetSoundFileBlockMul | 
+```
+float afX
+```
+ |   |
+| 
+```
+void
+```
+ | SetSoundFileEntryType | [
+```
+eSoundEntryType aType
+```
+](https://wiki.frictionalgames.com/page/../eSoundEntryType) |   |
+| 
+```
+void
+```
+ | SetSoundFileLoop | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetSoundFilePriority | 
+```
+int alX
+```
+ |   |
+| 
+```
+void
+```
+ | SetSoundFileStream | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetupSoundFile | [
+```
+const tString &in asFile
+```
+](https://wiki.frictionalgames.com/page/../tString),  
+
+```
+bool abLoop
+```
+ |   |
+| 
+```
+void
+```
+ | SetUseCustomProperties | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetVolume | 
+```
+float afX
+```
+ |   |
+| 
+```
+void
+```
+ | SetWorldMatrix | [
+```
+const cMatrixf &in a_mtxWorldTransform
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) |   |
+| 
+```
+void
+```
+ | SetWorldPosition | [
+```
+const cVector3f &in avWorldPos
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | Stop | 
+```
+bool abPlayEndSound
+```
+ |   |
+| 
+```
+void
+```
+ | UpdateLogic | 
+```
+float afTimeStep
+```
+ |   |
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/cSoundEntity](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSoundEntity)
+- Revision: `3715`
+- Source update: `2020-08-06T14:20:04Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

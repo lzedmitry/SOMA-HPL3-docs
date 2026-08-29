@@ -1,0 +1,14 @@
+{
+  "pageid": 1994,
+  "title": "HPL3/SOMA/Scripting/cClothEntityIterator",
+  "missing": false,
+  "redirect": false,
+  "length": 647,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3541,
+  "revisionTimestamp": "2020-08-06T13:24:23Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncClothEntityIterator has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || HasNext ||   ||\n|-\n| [[../cClothEntity|<syntaxhighlight lang=\"c++\" inline>cClothEntity@</syntaxhighlight>]] || Next ||   ||\n|-\n| [[../cClothEntity|<syntaxhighlight lang=\"c++\" inline>cClothEntity@</syntaxhighlight>]] || PeekNext ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cClothEntityIterator",
+  "requestedTitle": "HPL3/SOMA/Scripting/cClothEntityIterator"
+}

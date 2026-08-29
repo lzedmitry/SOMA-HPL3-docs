@@ -1,0 +1,14 @@
+{
+  "pageid": 3453,
+  "title": "HPL3/Particles/Particle Movement",
+  "missing": false,
+  "redirect": false,
+  "length": 1504,
+  "touched": "2026-07-30T22:15:18Z",
+  "revisionId": 7158,
+  "revisionTimestamp": "2026-07-30T22:15:18Z",
+  "revisionUser": "TiMan",
+  "wikitext": "\n=== Movement ===\n\n* '''Velocity type''': The way in which the starting velocity is generated.\n* '''Box velocity''': The same as box start but with velocity instead.\n* '''Sphere Velocity''': The same as sphere start but with velocity instead.\n* '''Coord system''': The way in which the particles are related to the world and the object the system is attached to (if any). In world all the particles have an individual postion that does change depending on the parent object. In local however the particle position is dependant on the parent object so if that the particle moves and turns along with the parent.\n* '''Uses direction''': If the direction of the start velocity depends on the way the particle system is “facing” (with no rotation it faces up). This is useful for systems like steam where the system has a direction.\n* '''Gravity Type''': The type of gravity being applied to the particles.\n''' '''None''': No gravity it applied.\n''' '''Vector''': The gravity acceleration is applied.\n''' '''Centre''': The particles are drawn towards the centre of the particle system with Gravity Acceleration Y as acceleration.\n* '''Gravity Acceleration''': Used differently according by the gravity type.\n* '''Acceleration''': Acceleration applied to all bodies.\n* '''Speed multiplier''': How much the speed is multiplied by each second. For example, 0.5 means that the speed halfed each second. 2 means it is doubled each second.\n* '''Maximum speed''': The maximum speed that the particles can reach.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Movement",
+  "requestedTitle": "HPL3/Particles/Particle Movement"
+}

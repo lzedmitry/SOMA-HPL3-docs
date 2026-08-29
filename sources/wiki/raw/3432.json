@@ -1,0 +1,14 @@
+{
+  "pageid": 3432,
+  "title": "HPL3/SOMA/Getting Started/Test Debug and Continue",
+  "missing": false,
+  "redirect": false,
+  "length": 2355,
+  "touched": "2026-07-30T10:50:15Z",
+  "revisionId": 7119,
+  "revisionTimestamp": "2026-07-30T10:50:15Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{Hpl3SomaGettingStarted|step=6}}\n\nYour mod, map, and first script now work. This final step establishes a repeatable development loop and points to deeper documentation.\n\n== Use the development loop ==\n\n# Make one small map or script change.\n# Save the changed file.\n# Return to the running game.\n# Press <code>F5</code> when the map must be restarted.\n# If the change fails, press <code>F1</code> and check '''Show Error List''' and '''Show HPL Log''' before changing anything else.\n\nFor faster testing, launch the mod in development mode with the <code>-mod</code> command-line argument:\n\n<pre>\nSoma.exe -mod \"C:\\full\\path\\to\\SOMA\\mods\\MyFirstMod\\entry.hpc\"\n</pre>\n\nThe path passed to <code>-mod</code> is the full path to the mod's <code>entry.hpc</code>. See [[HPL3/SOMA/Developer Commands|Developer Commands]] for <code>-map</code>, <code>-mapfolder</code>, <code>-mappos</code>, and other launch options.\n\n== When something breaks ==\n\nWork backward to the last passing checkpoint:\n\n# If the script fails, temporarily remove only your newest script change and read the first relevant error.\n# If the map fails, reopen it in the editor and check that its split <code>.hpm_*</code> files are present.\n# If the mod fails before loading the map, compare <code>entry.hpc</code>, <code>resources.cfg</code>, and <code>config/main_init.cfg</code> with the clean <code>MinimalCustomMapMod</code>.\n# If the editor cannot find mod content, recheck <code>WIPMod.cfg</code> and the <code>(Working on mod)</code> indicator.\n\nSee [[HPL3/SOMA/Modding/Developer Debug Menu|Developer Debug Menu]] for the full set of debug controls.\n\n== Where to go next ==\n\nChoose documentation by task rather than reading the entire wiki in order:\n\n* '''Build a larger environment:''' [[HPL3/SOMA/Level Design|SOMA Level Design]]\n* '''Learn map scripting:''' [[HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide]]\n* '''Learn programming fundamentals:''' [[HPL3/Scripting/AngelScript Fundamentals|AngelScript Fundamentals]]\n* '''Understand mod configuration:''' [[HPL3/SOMA/Modding|SOMA Modding]]\n* '''Prepare for release:''' [[Mod Distribution]]\n\n== Final checkpoint ==\n\nYou have completed Getting Started when you can:\n\n* launch your copied mod;\n* edit and save its map;\n* edit its map script and see the result;\n* reload the map; and\n* locate script errors and the HPL log.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Test_Debug_and_Continue",
+  "requestedTitle": "HPL3/SOMA/Getting Started/Test Debug and Continue"
+}

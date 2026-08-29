@@ -1,0 +1,321 @@
+---
+title: Prop
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Prop"
+sourceRevision: 5047
+sourceUpdated: "2020-08-24T20:58:10Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - api
+---
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Summary
+| Return | Function | Description |
+| --- | --- | --- |
+| `void` | [`Prop_AddAttachedProp`](#prop-addattachedprop)([tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, [tString](https://wiki.frictionalgames.com/page/../../tString) &in asAttachName, [tString](https://wiki.frictionalgames.com/page/../../tString) &in asAttachFile, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosOffset, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avRotOffset) | Attaches a prop mesh (any other data is skipped) to a Prop |
+| `void` | [`Prop_AddHealth`](#prop-addhealth)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, float afHealth) | Adds health to a prop |
+| `void` | [`Prop_AlignRotation`](#prop-alignrotation)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asTargetEntity, float afAcceleration, float afMaxSpeed, float afSlowDownDist, bool abResetSpeed, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asCallback = "") | Aligns the rotation of the specified prop to the current rotation of the target entity |
+| `void` | [`Prop_ClearVelocity`](#prop-clearvelocity)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName) | Clear out all velocity on a prop |
+| `void` | [`Prop_DisableCollisionUntilOutsidePlayer`](#prop-disablecollisionuntiloutsideplayer)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName) | *Undocumented in the original Wiki.* |
+| `float` | [`Prop_GetHealth`](#prop-gethealth)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName) | Gets the health of a prop |
+| `void` | [`Prop_MoveLinearTo`](#prop-movelinearto)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asTargetEntity, float afAcceleration, float afMaxSpeed, float afSlowDownDist, bool abResetSpeed, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asCallback = "") | Moves the specified prop to the current position of the target entity |
+| `void` | [`Prop_RemoveAttachedProp`](#prop-removeattachedprop)([tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, [tString](https://wiki.frictionalgames.com/page/../../tString) &in asAttachName) | Removes an attached prop from a prop |
+| `void` | [`Prop_RotateToSpeed`](#prop-rotatetospeed)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, float afAcc, float afGoalSpeed, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAxis, bool abResetSpeed, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asOffsetEntity) | Rotates a prop to a target speed |
+| `void` | [`Prop_RotateToSpeed`](#prop-rotatetospeed)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, float afAcc, float afGoalSpeed, bool abResetSpeed, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asOffsetEntity) | Rotates a prop to a target speed |
+| `void` | [`Prop_SetActiveAndFade`](#prop-setactiveandfade)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, bool abActive, float afFadeTime) | Activates or deactivates a entity and fades the mesh in or out |
+| `void` | [`Prop_SetAllowMapTransfer`](#prop-setallowmaptransfer)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, bool abX) | Sets if a prop should be transfered |
+| `void` | [`Prop_SetHealth`](#prop-sethealth)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, float afHealth) | Sets the health of a prop |
+| `void` | [`Prop_SetStaticPhysics`](#prop-setstaticphysics)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, bool abX) | Sets the physics of the object to static or dynamic |
+| `void` | [`Prop_StopMovement`](#prop-stopmovement)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName) | Stops the static movement of a prop |
+
+## Function Detail
+    1. `Prop_AddAttachedProp`
+
+```angelscript
+void Prop_AddAttachedProp(tString &in asPropName,
+                          tString &in asAttachName,
+                          tString &in asAttachFile,
+                          cVector3f &in avPosOffset,
+                          cVector3f &in avRotOffset)
+```
+
+Attaches a prop mesh (any other data is skipped) to a Prop
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * are supported. |
+| `asAttachName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | the internal name of the attached prop |
+| `asAttachFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | the entity file of the prop to attach |
+| `avPosOffset` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | the postion offset for the attached prop |
+| `avRotOffset` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | the rotational offset for the attached prop |
+
+**Returns:** `void`
+
+    1. `Prop_AddHealth`
+
+```angelscript
+void Prop_AddHealth(const tString &in asPropName,
+                    float afHealth)
+```
+
+Adds health to a prop.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * supported. |
+| `afHealth` | `float` | health to add, can be negative to reduce health. |
+
+**Returns:** `void`
+
+    1. `Prop_AlignRotation`
+
+```angelscript
+void Prop_AlignRotation(const tString &in asName,
+                        const tString &in asTargetEntity,
+                        float afAcceleration,
+                        float afMaxSpeed,
+                        float afSlowDownDist,
+                        bool abResetSpeed,
+                        const tString &in asCallback = "")
+```
+
+Aligns the rotation of the specified prop to the current rotation of the target entity.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of prop to move. |
+| `asTargetEntity` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the entity to align with. |
+| `afAcceleration` | `float` | acceleration of rotation. |
+| `afMaxSpeed` | `float` | the maximum speed of movement. |
+| `afSlowDownDist` | `float` | the distance at which movement slows down. |
+| `abResetSpeed` | `bool` | if all static movement for the prop should be stopped before starting this movement. |
+| `asCallback` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | callback when movement is done: void (const tString& in asPropName) |
+
+**Returns:** `void`
+
+    1. `Prop_ClearVelocity`
+
+```angelscript
+void Prop_ClearVelocity(const tString &in asPropName)
+```
+
+Clear out all velocity on a prop.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * are supported. |
+
+**Returns:** `void`
+
+    1. `Prop_DisableCollisionUntilOutsidePlayer`
+
+```angelscript
+void Prop_DisableCollisionUntilOutsidePlayer(const tString &in asPropName)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `Prop_GetHealth`
+
+```angelscript
+float Prop_GetHealth(const tString &in asPropName)
+```
+
+Gets the health of a prop.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. |
+
+**Returns:** `float` — the health of the specified prop.
+
+    1. `Prop_MoveLinearTo`
+
+```angelscript
+void Prop_MoveLinearTo(const tString &in asName,
+                       const tString &in asTargetEntity,
+                       float afAcceleration,
+                       float afMaxSpeed,
+                       float afSlowDownDist,
+                       bool abResetSpeed,
+                       const tString &in asCallback = "")
+```
+
+Moves the specified prop to the current position of the target entity.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of prop to move. |
+| `asTargetEntity` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the entity to move the prop to. |
+| `afAcceleration` | `float` | acceleration in m/s^2 |
+| `afMaxSpeed` | `float` | the maximum speed of movement. |
+| `afSlowDownDist` | `float` | the distance at which movement slows down. |
+| `abResetSpeed` | `bool` | if all static movement for the prop should be stopped before starting this movement. |
+| `asCallback` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | callback when movement is done: void (const tString& in asPropName) |
+
+**Returns:** `void`
+
+    1. `Prop_RemoveAttachedProp`
+
+```angelscript
+void Prop_RemoveAttachedProp(tString &in asPropName,
+                             tString &in asAttachName)
+```
+
+Removes an attached prop from a prop
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * are supported. |
+| `asAttachName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | the internal name of the attached prop |
+
+**Returns:** `void`
+
+    1. `Prop_RotateToSpeed`
+
+```angelscript
+void Prop_RotateToSpeed(const tString &in asPropName,
+                        float afAcc,
+                        float afGoalSpeed,
+                        const cVector3f &in avAxis,
+                        bool abResetSpeed,
+                        const tString &in asOffsetEntity)
+```
+
+Rotates a prop to a target speed.  
+the prop will rotate around its own axis.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * are supported. |
+| `afAcc` | `float` | acceleration to target speed |
+| `afGoalSpeed` | `float` | target speed |
+| `avAxis` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | axis to rotate around |
+| `abResetSpeed` | `bool` | if the speed should be reset before beginning rotation. |
+| `asOffsetEntity` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of entity to rotate around. If left as "", |
+
+**Returns:** `void`
+
+    1. `Prop_RotateToSpeed`
+
+```angelscript
+void Prop_RotateToSpeed(const tString &in asPropName,
+                        float afAcc,
+                        float afGoalSpeed,
+                        bool abResetSpeed,
+                        const tString &in asOffsetEntity)
+```
+
+Rotates a prop to a target speed. Using the up vector of offset entity as axis.  
+If left as , the prop will rotate around its own up axis.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * are supported. |
+| `afAcc` | `float` | acceleration to target speed |
+| `afGoalSpeed` | `float` | target speed |
+| `abResetSpeed` | `bool` | if the speed should be reset before beginning rotation. |
+| `asOffsetEntity` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of entity to rotate around along the entity up axis. |
+
+**Returns:** `void`
+
+    1. `Prop_SetActiveAndFade`
+
+```angelscript
+void Prop_SetActiveAndFade(const tString &in asPropName,
+                           bool abActive,
+                           float afFadeTime)
+```
+
+Activates or deactivates a entity and fades the mesh in or out.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * are supported. |
+| `abActive` | `bool` | true = activates prop - false = deactivates prop. |
+| `afFadeTime` | `float` | time to fade over. |
+
+**Returns:** `void`
+
+    1. `Prop_SetAllowMapTransfer`
+
+```angelscript
+void Prop_SetAllowMapTransfer(const tString &in asPropName,
+                              bool abX)
+```
+
+Sets if a prop should be transfered
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * supported. |
+| `abX` | `bool` | should transfer be allowed |
+
+**Returns:** `void`
+
+    1. `Prop_SetHealth`
+
+```angelscript
+void Prop_SetHealth(const tString &in asPropName,
+                    float afHealth)
+```
+
+Sets the health of a prop
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * supported. |
+| `afHealth` | `float` | health to set. |
+
+**Returns:** `void`
+
+    1. `Prop_SetStaticPhysics`
+
+```angelscript
+void Prop_SetStaticPhysics(const tString &in asPropName,
+                           bool abX)
+```
+
+Sets the physics of the object to static or dynamic
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * are supported. |
+| `abX` | `bool` | true = static physics - false = dynamic physics |
+
+**Returns:** `void`
+
+    1. `Prop_StopMovement`
+
+```angelscript
+void Prop_StopMovement(const tString &in asPropName)
+```
+
+Stops the static movement of a prop.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of the prop. Wildcard(s) * are supported. |
+
+**Returns:** `void`
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Prop](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Prop)
+- Revision: `5047`
+- Source update: `2020-08-24T20:58:10Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

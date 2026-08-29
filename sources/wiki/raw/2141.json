@@ -1,0 +1,14 @@
+{
+  "pageid": 2141,
+  "title": "HPL3/SOMA/Scripting/cPhysicsContactData",
+  "missing": false,
+  "redirect": false,
+  "length": 727,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3685,
+  "revisionTimestamp": "2020-08-06T14:13:22Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mfMaxContactNormalSpeed || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfMaxContactTangentSpeed || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mvContactNormal || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>cVector3f</syntaxhighlight>]] ||\n|-\n| mvContactPosition || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>cVector3f</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\ncPhysicsContactData has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPhysicsContactData",
+  "requestedTitle": "HPL3/SOMA/Scripting/cPhysicsContactData"
+}

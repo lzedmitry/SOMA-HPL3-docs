@@ -1,0 +1,14 @@
+{
+  "pageid": 2025,
+  "title": "HPL3/SOMA/Scripting/cGuiPopUpMessageBox",
+  "missing": false,
+  "redirect": false,
+  "length": 771,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3572,
+  "revisionTimestamp": "2020-08-06T13:34:11Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncGuiPopUpMessageBox has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || GetKillOnEscapeKey ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetKillOnEscapeKey || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetNextFocusWidget || [[../iWidget|<syntaxhighlight lang=\"c++\" inline>iWidget@ apNewFocused</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiPopUpMessageBox",
+  "requestedTitle": "HPL3/SOMA/Scripting/cGuiPopUpMessageBox"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 2156,
+  "title": "HPL3/SOMA/Scripting/cQuaternion",
+  "missing": false,
+  "redirect": false,
+  "length": 1674,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3700,
+  "revisionTimestamp": "2020-08-06T14:17:01Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| w || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| x || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| y || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| z || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|}\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || FromAngleAxis || <syntaxhighlight lang=\"c++\" inline>float afAngle</syntaxhighlight>,<br />[[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& in</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || FromRotationMatrix || [[../cMatrixf|<syntaxhighlight lang=\"c++\" inline>const cMatrixf& in</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || Length ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || LengthXYZ ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Normalize ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetXYZ || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& avVec</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || SqrLength ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || SqrLengthXYZ ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cQuaternion",
+  "requestedTitle": "HPL3/SOMA/Scripting/cQuaternion"
+}

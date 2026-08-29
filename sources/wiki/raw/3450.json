@@ -1,0 +1,14 @@
+{
+  "pageid": 3450,
+  "title": "HPL3/Particles/Particle Editor View",
+  "missing": false,
+  "redirect": false,
+  "length": 1945,
+  "touched": "2026-07-30T22:13:51Z",
+  "revisionId": 7155,
+  "revisionTimestamp": "2026-07-30T22:13:51Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Particle Editor =\nThe Particle Editor is used to create Particle Systems to be used in maps or entities.\n\n== Foreword ==\n\n=== Min and Max values ===\nA lot of values in this editor have both a min and max. This means that when the value is applied to a particle a value between min and max is randomly selected.\n\n\n=== Fading ===\nFading can be used to fade in and/or out some property like size or colour. The fading works like this. There are three relative values that are relative to the start value of the particle. The names for these values are start, middle and end and are used in that order. There are also two times that are relative to the life of the particle, for example if a particle has 2 seconds life time and the middle time is 0.5 then this occurs after 1 second (0.5 * 2). The first time is called middle time and this is when the start value is entirely faded from start to middle. The middle length is how long the middle value lasts. After middle time + middle length the middle value is faded to the end value.\n\n\n== Overview ==\nWhen run, the first screen we get to see is like this:\n\n[[File:particle_editor.png]]\n\nEach part of the screen has a specific function, as follows:\n\n\n== Main Menu ==\nThis is a menu bar, just like in any other windowed application. Available options for this particular editor are as follows:\n\n* '''File'''\n''' '''New''': This command will reset the Particle System to an empty one, and the editor to a default state as well.\n''' '''Open''': This will load a Particle System file (.ps) in the editor.\n''' '''Save''': Use this to save your work to a file in disk. Will ask for a file name when no file has been created.\n''' '''Save As''': This will also save your work, but will ask for a file name everytime it is called.\n''' '''Open Recent''': This will show a list of up to 10 files that have been recently loaded or saved.\n''' '''Quit''': This will exit the program.\n* '''Edit'''\n* '''View'''",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Editor_View",
+  "requestedTitle": "HPL3/Particles/Particle Editor View"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 2313,
+  "title": "HPL3/SOMA/Scripting/eGamepadInputType",
+  "missing": false,
+  "redirect": false,
+  "length": 594,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3793,
+  "revisionTimestamp": "2020-08-06T14:38:36Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eGamepadInputType_Button</code> || <code>0</code> ||\n|-\n| <code>eGamepadInputType_Hat</code> || <code>1</code> ||\n|-\n| <code>eGamepadInputType_Axis</code> || <code>2</code> ||\n|-\n| <code>eGamepadInputType_Ball</code> || <code>3</code> ||\n|-\n| <code>eGamepadInputType_LastEnum</code> || <code>4</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadInputType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eGamepadInputType"
+}

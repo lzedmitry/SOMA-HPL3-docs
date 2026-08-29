@@ -1,0 +1,39 @@
+---
+title: Terminology
+description: Short definitions for the words the rest of this documentation assumes. Full glossary lives at /glossary/.
+difficulty: beginner
+category: start
+---
+
+These are the terms that show up before the original Wiki explains them. Longer entries: [Glossary](/glossary/).
+
+| Term | Meaning |
+| --- | --- |
+| **HPL3** | Frictional's engine as shipped with SOMA. Editors + AngelScript runtime. |
+| **Mod** | Extra content in its own folder, loaded via `entry.hpc`. |
+| **Stand-alone mod** | A mod with its own maps; launched from the SOMA mod launcher. |
+| **Add-on** | A mod that can ride along with a stand-alone mod. |
+| **`.hpc`** | Mod entry file. |
+| **`.hpm`** | Level/map file. Keep its `.hpm_*` companions. |
+| **`.hps`** | AngelScript source. Map scripts sit next to the map. |
+| **Area** | Invisible volume used as the engine's input/output system. |
+| **Entity** | World object with behaviour. Most interactive ones are **props**. |
+| **Prop** | Entity the player or a script can interact with. |
+| **Agent** | Enemy / NPC-style entity. |
+| **Critter** | Small background creature without a full agent script. |
+| **Static object** | Collision/visual mesh without entity behaviour. |
+| **Helper** | Shared `.hps` include used from map scripts. Wiki lists categories; most helper *pages* were never written. |
+| **WIP mod** | A mod still in development. The Wiki uses this in launcher/setup docs. |
+| **SH probe** | Spherical-harmonic lighting probe. Linked from Level Design; the SOMA page is a redlink. |
+| **ID handle** | Engine object identity used from script. See [ID Handles](/scripting/id-handles/). |
+| **User module** | Script module hooked into the game. See [User modules](/scripting/user-modules-overview/). |
+
+:::note
+The original Glossary page is a stub and still marked under construction. Definitions above stay inside what that page and the surrounding articles actually say.
+:::
+
+## Related
+
+- [Glossary](/glossary/)
+- [Areas overview](/areas/)
+- [Entities](/entities/)

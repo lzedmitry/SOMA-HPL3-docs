@@ -1,0 +1,529 @@
+---
+title: cGraphics
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGraphics"
+sourceRevision: 5016
+sourceUpdated: "2020-08-24T20:48:07Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: undocumented
+generated: true
+tags:
+  - api
+  - api
+sidebar:
+  hidden: true
+---
+:::note[SOURCE STATUS: Undocumented]
+This API page was auto-generated on the Frictional Wiki and has no written descriptions.
+:::
+
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Summary
+| Return | Function | Description |
+| --- | --- | --- |
+| `iDepthStencilBuffer` | [`cGraphics_CreateDepthStencilBuffer`](#cgraphics-createdepthstencilbuffer)(const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avSize, int alDepthBits, int alStencilBits, bool abLookForMatchingFirst) | *Undocumented in the original Wiki.* |
+| `iFrameBuffer` | [`cGraphics_CreateFrameBuffer`](#cgraphics-createframebuffer)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName) | *Undocumented in the original Wiki.* |
+| `iGpuProgram` | [`cGraphics_CreateGpuProgram`](#cgraphics-creategpuprogram)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName) | *Undocumented in the original Wiki.* |
+| `iGpuProgram` | [`cGraphics_CreateGpuProgramFromShaders`](#cgraphics-creategpuprogramfromshaders)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVtxShader, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asFragShader, [cPrepParserVarContainer](https://wiki.frictionalgames.com/page/../../cPrepParserVarContainer) @apVarContainer) | *Undocumented in the original Wiki.* |
+| `cHeightMap` | [`cGraphics_CreateHeightMap`](#cgraphics-createheightmap)() | *Undocumented in the original Wiki.* |
+| `cHeightMap` | [`cGraphics_CreateHeightMapResizedCopy`](#cgraphics-createheightmapresizedcopy)([cHeightMap](https://wiki.frictionalgames.com/page/../../cHeightMap) @apHeightMap, const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avSize) | *Undocumented in the original Wiki.* |
+| `cPostEffect_ChromaticAberration` | [`cGraphics_CreatePostEffect_ChromaticAberration`](#cgraphics-createposteffect-chromaticaberration)() | *Undocumented in the original Wiki.* |
+| `cPostEffect_ImageFadeFX` | [`cGraphics_CreatePostEffect_ImageFadeFX`](#cgraphics-createposteffect-imagefadefx)() | *Undocumented in the original Wiki.* |
+| `cPostEffect_ImageTrail` | [`cGraphics_CreatePostEffect_ImageTrail`](#cgraphics-createposteffect-imagetrail)() | *Undocumented in the original Wiki.* |
+| `cPostEffect_RadialBlur` | [`cGraphics_CreatePostEffect_RadialBlur`](#cgraphics-createposteffect-radialblur)() | *Undocumented in the original Wiki.* |
+| `cPostEffect_ToneMapping` | [`cGraphics_CreatePostEffect_ToneMapping`](#cgraphics-createposteffect-tonemapping)() | *Undocumented in the original Wiki.* |
+| `cPostEffect_VideoDistortion` | [`cGraphics_CreatePostEffect_VideoDistortion`](#cgraphics-createposteffect-videodistortion)() | *Undocumented in the original Wiki.* |
+| `cPostEffectComposite` | [`cGraphics_CreatePostEffectComposite`](#cgraphics-createposteffectcomposite)() | *Undocumented in the original Wiki.* |
+| `iTexture` | [`cGraphics_CreateTexture`](#cgraphics-createtexture)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, [eTextureType](https://wiki.frictionalgames.com/page/../../eTextureType) aType, [eTextureUsage](https://wiki.frictionalgames.com/page/../../eTextureUsage) aUsage) | *Undocumented in the original Wiki.* |
+| `void` | [`cGraphics_DestoroyDepthStencilBuffer`](#cgraphics-destoroydepthstencilbuffer)([iDepthStencilBuffer@](https://wiki.frictionalgames.com/page/../../iDepthStencilBuffer) apBuffer) | *Undocumented in the original Wiki.* |
+| `void` | [`cGraphics_DestroyFrameBuffer`](#cgraphics-destroyframebuffer)([iFrameBuffer@](https://wiki.frictionalgames.com/page/../../iFrameBuffer) apFrameBuffer) | *Undocumented in the original Wiki.* |
+| `void` | [`cGraphics_DestroyGpuProgram`](#cgraphics-destroygpuprogram)([iGpuProgram@](https://wiki.frictionalgames.com/page/../../iGpuProgram) apProgram) | *Undocumented in the original Wiki.* |
+| `void` | [`cGraphics_DestroyHeightMap`](#cgraphics-destroyheightmap)([cHeightMap@](https://wiki.frictionalgames.com/page/../../cHeightMap) apHeightMap) | *Undocumented in the original Wiki.* |
+| `void` | [`cGraphics_DestroyPostEffect`](#cgraphics-destroyposteffect)([iPostEffect@](https://wiki.frictionalgames.com/page/../../iPostEffect) apPostEffect) | *Undocumented in the original Wiki.* |
+| `void` | [`cGraphics_DestroyPostEffectComposite`](#cgraphics-destroyposteffectcomposite)([cPostEffectComposite@](https://wiki.frictionalgames.com/page/../../cPostEffectComposite) apComposite) | *Undocumented in the original Wiki.* |
+| `void` | [`cGraphics_DestroyTexture`](#cgraphics-destroytexture)([iTexture@](https://wiki.frictionalgames.com/page/../../iTexture) apTexture) | *Undocumented in the original Wiki.* |
+| `iDepthStencilBuffer` | [`cGraphics_FindDepthStencilBuffer`](#cgraphics-finddepthstencilbuffer)(const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avSize, int alMinDepthBits, int alMinStencilBits) | *Undocumented in the original Wiki.* |
+| `iLowLevelGraphics` | [`cGraphics_GetLowLevel`](#cgraphics-getlowlevel)() | *Undocumented in the original Wiki.* |
+| `iMaterialType` | [`cGraphics_GetMaterialType`](#cgraphics-getmaterialtype)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName) | *Undocumented in the original Wiki.* |
+| `iRenderer` | [`cGraphics_GetRenderer`](#cgraphics-getrenderer)([eRenderer](https://wiki.frictionalgames.com/page/../../eRenderer) aType) | *Undocumented in the original Wiki.* |
+| `iFrameBuffer` | [`cGraphics_GetTempFrameBuffer`](#cgraphics-gettempframebuffer)(const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avSize, [ePixelFormat](https://wiki.frictionalgames.com/page/../../ePixelFormat) aPixelFormat, int alIndex) | *Undocumented in the original Wiki.* |
+| `cHeightMap` | [`cGraphics_LoadHeightMapPackedRGB`](#cgraphics-loadheightmappackedrgb)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asFileName) | *Undocumented in the original Wiki.* |
+| `cHeightMap` | [`cGraphics_LoadHeightMapRaw`](#cgraphics-loadheightmapraw)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asFileName, const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avSize) | *Undocumented in the original Wiki.* |
+| `void` | [`cGraphics_ReloadMaterials`](#cgraphics-reloadmaterials)() | *Undocumented in the original Wiki.* |
+| `void` | [`cGraphics_ReloadRendererData`](#cgraphics-reloadrendererdata)() | *Undocumented in the original Wiki.* |
+
+## Function Detail
+    1. `cGraphics_CreateDepthStencilBuffer`
+
+```angelscript
+iDepthStencilBuffer@ cGraphics_CreateDepthStencilBuffer(const cVector2l &in avSize,
+                                                        int alDepthBits,
+                                                        int alStencilBits,
+                                                        bool abLookForMatchingFirst)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSize` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+| `alDepthBits` | `int` | — |
+| `alStencilBits` | `int` | — |
+| `abLookForMatchingFirst` | `bool` | — |
+
+**Returns:** `iDepthStencilBuffer@`
+
+    1. `cGraphics_CreateFrameBuffer`
+
+```angelscript
+iFrameBuffer@ cGraphics_CreateFrameBuffer(const tString &in asName)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `iFrameBuffer@`
+
+    1. `cGraphics_CreateGpuProgram`
+
+```angelscript
+iGpuProgram@ cGraphics_CreateGpuProgram(const tString &in asName)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `iGpuProgram@`
+
+    1. `cGraphics_CreateGpuProgramFromShaders`
+
+```angelscript
+iGpuProgram@ cGraphics_CreateGpuProgramFromShaders(const tString &in asName,
+                                                   const tString &in asVtxShader,
+                                                   const tString &in asFragShader,
+                                                   cPrepParserVarContainer @apVarContainer)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVtxShader` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asFragShader` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `@apVarContainer` | `[cPrepParserVarContainer](https://wiki.frictionalgames.com/page/../../cPrepParserVarContainer)` | — |
+
+**Returns:** `iGpuProgram@`
+
+    1. `cGraphics_CreateHeightMap`
+
+```angelscript
+cHeightMap@ cGraphics_CreateHeightMap()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cHeightMap@`
+
+    1. `cGraphics_CreateHeightMapResizedCopy`
+
+```angelscript
+cHeightMap@ cGraphics_CreateHeightMapResizedCopy(cHeightMap @apHeightMap,
+                                                 const cVector2l &in avSize)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apHeightMap` | `[cHeightMap](https://wiki.frictionalgames.com/page/../../cHeightMap)` | — |
+| `avSize` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+
+**Returns:** `cHeightMap@`
+
+    1. `cGraphics_CreatePostEffect_ChromaticAberration`
+
+```angelscript
+cPostEffect_ChromaticAberration@ cGraphics_CreatePostEffect_ChromaticAberration()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cPostEffect_ChromaticAberration@`
+
+    1. `cGraphics_CreatePostEffect_ImageFadeFX`
+
+```angelscript
+cPostEffect_ImageFadeFX@ cGraphics_CreatePostEffect_ImageFadeFX()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cPostEffect_ImageFadeFX@`
+
+    1. `cGraphics_CreatePostEffect_ImageTrail`
+
+```angelscript
+cPostEffect_ImageTrail@ cGraphics_CreatePostEffect_ImageTrail()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cPostEffect_ImageTrail@`
+
+    1. `cGraphics_CreatePostEffect_RadialBlur`
+
+```angelscript
+cPostEffect_RadialBlur@ cGraphics_CreatePostEffect_RadialBlur()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cPostEffect_RadialBlur@`
+
+    1. `cGraphics_CreatePostEffect_ToneMapping`
+
+```angelscript
+cPostEffect_ToneMapping@ cGraphics_CreatePostEffect_ToneMapping()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cPostEffect_ToneMapping@`
+
+    1. `cGraphics_CreatePostEffect_VideoDistortion`
+
+```angelscript
+cPostEffect_VideoDistortion@ cGraphics_CreatePostEffect_VideoDistortion()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cPostEffect_VideoDistortion@`
+
+    1. `cGraphics_CreatePostEffectComposite`
+
+```angelscript
+cPostEffectComposite@ cGraphics_CreatePostEffectComposite()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cPostEffectComposite@`
+
+    1. `cGraphics_CreateTexture`
+
+```angelscript
+iTexture@ cGraphics_CreateTexture(const tString &in asName,
+                                  eTextureType aType,
+                                  eTextureUsage aUsage)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `aType` | `[eTextureType](https://wiki.frictionalgames.com/page/../../eTextureType)` | — |
+| `aUsage` | `[eTextureUsage](https://wiki.frictionalgames.com/page/../../eTextureUsage)` | — |
+
+**Returns:** `iTexture@`
+
+    1. `cGraphics_DestoroyDepthStencilBuffer`
+
+```angelscript
+void cGraphics_DestoroyDepthStencilBuffer(iDepthStencilBuffer@ apBuffer)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `apBuffer` | `[iDepthStencilBuffer@](https://wiki.frictionalgames.com/page/../../iDepthStencilBuffer)` | — |
+
+**Returns:** `void`
+
+    1. `cGraphics_DestroyFrameBuffer`
+
+```angelscript
+void cGraphics_DestroyFrameBuffer(iFrameBuffer@ apFrameBuffer)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `apFrameBuffer` | `[iFrameBuffer@](https://wiki.frictionalgames.com/page/../../iFrameBuffer)` | — |
+
+**Returns:** `void`
+
+    1. `cGraphics_DestroyGpuProgram`
+
+```angelscript
+void cGraphics_DestroyGpuProgram(iGpuProgram@ apProgram)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `apProgram` | `[iGpuProgram@](https://wiki.frictionalgames.com/page/../../iGpuProgram)` | — |
+
+**Returns:** `void`
+
+    1. `cGraphics_DestroyHeightMap`
+
+```angelscript
+void cGraphics_DestroyHeightMap(cHeightMap@ apHeightMap)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `apHeightMap` | `[cHeightMap@](https://wiki.frictionalgames.com/page/../../cHeightMap)` | — |
+
+**Returns:** `void`
+
+    1. `cGraphics_DestroyPostEffect`
+
+```angelscript
+void cGraphics_DestroyPostEffect(iPostEffect@ apPostEffect)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `apPostEffect` | `[iPostEffect@](https://wiki.frictionalgames.com/page/../../iPostEffect)` | — |
+
+**Returns:** `void`
+
+    1. `cGraphics_DestroyPostEffectComposite`
+
+```angelscript
+void cGraphics_DestroyPostEffectComposite(cPostEffectComposite@ apComposite)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `apComposite` | `[cPostEffectComposite@](https://wiki.frictionalgames.com/page/../../cPostEffectComposite)` | — |
+
+**Returns:** `void`
+
+    1. `cGraphics_DestroyTexture`
+
+```angelscript
+void cGraphics_DestroyTexture(iTexture@ apTexture)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `apTexture` | `[iTexture@](https://wiki.frictionalgames.com/page/../../iTexture)` | — |
+
+**Returns:** `void`
+
+    1. `cGraphics_FindDepthStencilBuffer`
+
+```angelscript
+iDepthStencilBuffer@ cGraphics_FindDepthStencilBuffer(const cVector2l &in avSize,
+                                                      int alMinDepthBits,
+                                                      int alMinStencilBits)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSize` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+| `alMinDepthBits` | `int` | — |
+| `alMinStencilBits` | `int` | — |
+
+**Returns:** `iDepthStencilBuffer@`
+
+    1. `cGraphics_GetLowLevel`
+
+```angelscript
+iLowLevelGraphics@ cGraphics_GetLowLevel()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `iLowLevelGraphics@`
+
+    1. `cGraphics_GetMaterialType`
+
+```angelscript
+iMaterialType@ cGraphics_GetMaterialType(const tString &in asName)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `iMaterialType@`
+
+    1. `cGraphics_GetRenderer`
+
+```angelscript
+iRenderer@ cGraphics_GetRenderer(eRenderer aType)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aType` | `[eRenderer](https://wiki.frictionalgames.com/page/../../eRenderer)` | — |
+
+**Returns:** `iRenderer@`
+
+    1. `cGraphics_GetTempFrameBuffer`
+
+```angelscript
+iFrameBuffer@ cGraphics_GetTempFrameBuffer(const cVector2l &in avSize,
+                                           ePixelFormat aPixelFormat,
+                                           int alIndex)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSize` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+| `aPixelFormat` | `[ePixelFormat](https://wiki.frictionalgames.com/page/../../ePixelFormat)` | — |
+| `alIndex` | `int` | — |
+
+**Returns:** `iFrameBuffer@`
+
+    1. `cGraphics_LoadHeightMapPackedRGB`
+
+```angelscript
+cHeightMap@ cGraphics_LoadHeightMapPackedRGB(const tString &in asFileName)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asFileName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `cHeightMap@`
+
+    1. `cGraphics_LoadHeightMapRaw`
+
+```angelscript
+cHeightMap@ cGraphics_LoadHeightMapRaw(const tString &in asFileName,
+                                       const cVector2l &in avSize)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asFileName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `avSize` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+
+**Returns:** `cHeightMap@`
+
+    1. `cGraphics_ReloadMaterials`
+
+```angelscript
+void cGraphics_ReloadMaterials()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `void`
+
+    1. `cGraphics_ReloadRendererData`
+
+```angelscript
+void cGraphics_ReloadRendererData()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `void`
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cGraphics](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGraphics)
+- Revision: `5016`
+- Source update: `2020-08-24T20:48:07Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

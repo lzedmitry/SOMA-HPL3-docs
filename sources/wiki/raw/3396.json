@@ -1,0 +1,15 @@
+{
+  "pageid": 3396,
+  "title": "HPL3/Level Design/Working with Primitives",
+  "missing": false,
+  "redirect": false,
+  "length": 1128,
+  "touched": "2026-07-30T09:25:22Z",
+  "revisionId": 7060,
+  "revisionTimestamp": "2026-07-30T09:25:22Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Primitives =\n\nPrimitives are basic geometrical objects that can be used to shape up map geometry along with Static Objects\n\n== General Parameters ==\n* '''Name''': Name of the primitive.\n* '''Position''': 3D Vector storing the position in world of the '''primitive pivot'''.\n* '''Rotation''': 3D Vector storing the rotation.\n* '''Scale''': 3D Vector storing the scale of the primitive.\n\n== Primitive Specific ==\n\n* '''Material''': Material file for the primitive.\n* '''Collides''': If enabled, the primitive will keep entities (player included) from getting through it.\n* '''Cast Shadows''': If enabled, the primitive will cast shadows when illuminated by a properly set up light.\n\n== Plane Specific ==\n\n* '''Tile amount''': amount of repetition of the texture along the axes. The less, the bigger the texture pattern will look.\n* '''Tile offset''': offset on the texture coordinates.\n* '''Texture angle''': rotation of the texture applied on the plane.\n* '''Align To World Coords''': if enabled, texture coordinates will be set according to world coordinates. Useful to get seamless floors/ceilings made out of several planes.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Working_with_Primitives",
+  "requestedTitle": "HPL3/SOMA/Level Design/Working with Primitives",
+  "resolvedTitle": "HPL3/Level Design/Working with Primitives"
+}

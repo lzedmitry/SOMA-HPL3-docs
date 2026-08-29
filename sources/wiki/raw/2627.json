@@ -1,0 +1,14 @@
+{
+  "pageid": 2627,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/EnergySource",
+  "missing": false,
+  "redirect": false,
+  "length": 844,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5028,
+  "revisionTimestamp": "2020-08-24T20:52:19Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|void|[[#EnergySource_SetEnergy|EnergySource_SetEnergy]](const [[../../tString|tString]] &in asName, float afX)|Sets the energy level of an energy source}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|EnergySource_SetEnergy}}\n<syntaxhighlight lang=\"c++\">void EnergySource_SetEnergy(const tString &in asName,\n                            float afX)</syntaxhighlight>\n{{CodeDocDetailBody|Sets the energy level of an energy source}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asName|[[../../tString|tString]]|the name of the energy source.}}\n{{CodeDocDetailParam|afX|float|the energy amount}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/EnergySource",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/EnergySource"
+}

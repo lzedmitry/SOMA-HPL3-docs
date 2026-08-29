@@ -1,0 +1,360 @@
+---
+title: cFrustum
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFrustum"
+sourceRevision: 3565
+sourceUpdated: "2020-08-06T13:31:51Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: undocumented
+generated: true
+tags:
+  - api
+  - api
+sidebar:
+  hidden: true
+---
+:::note[SOURCE STATUS: Undocumented]
+This API page was auto-generated on the Frictional Wiki and has no written descriptions.
+:::
+
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Fields
+cFrustum has no public fields.
+
+## Functions
+| Return Type | Function Name | Parameters | Description |
+| --- | --- | --- | --- |
+| 
+```
+bool
+```
+ | CheckAABBNearPlaneIntersection | [
+```
+const cVector3f& avMin
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+[
+```
+const cVector3f& avMax
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+bool
+```
+ | CheckBVNearPlaneIntersection | [
+```
+cBoundingVolume@+ aBV
+```
+](https://wiki.frictionalgames.com/page/../cBoundingVolume) |   |
+| 
+```
+bool
+```
+ | CheckFrustumNearPlaneIntersection | [
+```
+cFrustum@+ aFrustum
+```
+](https://wiki.frictionalgames.com/page/../cFrustum) |   |
+| 
+```
+bool
+```
+ | CheckLineIntersection | [
+```
+const cVector3f &in avStart
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+[
+```
+const cVector3f& avEnd
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+[
+```
+cVector3f& avIntersection
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+bool
+```
+ | CheckPyramidNearPlaneIntersection | [
+```
+cFrustum@+ aFrustum
+```
+](https://wiki.frictionalgames.com/page/../cFrustum) |   |
+| 
+```
+bool
+```
+ | CheckSphereNearPlaneIntersection | [
+```
+const cVector3f& avCenter
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+
+```
+float afRadius
+```
+ |   |
+| [
+```
+eCollision
+```
+](https://wiki.frictionalgames.com/page/../eCollision) | CollideAABB | [
+```
+const cVector3f &in avMin
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+[
+```
+const cVector3f &in avMax
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+
+```
+int alMaxPlanes
+```
+ |   |
+| [
+```
+eCollision
+```
+](https://wiki.frictionalgames.com/page/../eCollision) | CollideBoundingVolume | [
+```
+cBoundingVolume@+ apBV
+```
+](https://wiki.frictionalgames.com/page/../cBoundingVolume) |   |
+| [
+```
+eCollision
+```
+](https://wiki.frictionalgames.com/page/../eCollision) | CollideFrustum | [
+```
+cFrustum@+ apFrustum
+```
+](https://wiki.frictionalgames.com/page/../cFrustum) |   |
+| [
+```
+eCollision
+```
+](https://wiki.frictionalgames.com/page/../eCollision) | CollideFustrumSphere | [
+```
+const cVector3f &in avCenter
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+
+```
+float afRadius
+```
+ |   |
+| 
+```
+bool
+```
+ | CollidePoint | [
+```
+const cVector3f &in avPoint
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| [
+```
+eCollision
+```
+](https://wiki.frictionalgames.com/page/../eCollision) | CollideSphere | [
+```
+const cVector3f &in avCenter
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+
+```
+float afRadius
+```
+,  
+
+```
+int alMaxPlanes
+```
+ |   |
+| 
+```
+float
+```
+ | GetAspect |   |   |
+| [
+```
+const cBoundingVolume@+
+```
+](https://wiki.frictionalgames.com/page/../cBoundingVolume) | GetBoundingVolume |   |   |
+| 
+```
+float
+```
+ | GetFarPlane |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetForward |   |   |
+| 
+```
+float
+```
+ | GetFOV |   |   |
+| 
+```
+bool
+```
+ | GetInfFarPlane |   |   |
+| 
+```
+bool
+```
+ | GetInvertsCullMode |   |   |
+| 
+```
+float
+```
+ | GetNearPlane |   |   |
+| [
+```
+const cVector3f&
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetOrigin |   |   |
+| [
+```
+cBoundingVolume@+
+```
+](https://wiki.frictionalgames.com/page/../cBoundingVolume) | GetOriginBV |   |   |
+| [
+```
+const cVector2f&
+```
+](https://wiki.frictionalgames.com/page/../cVector2f) | GetOrthoViewSize |   |   |
+| [
+```
+const cPlanef&
+```
+](https://wiki.frictionalgames.com/page/../cPlanef) | GetPlane | [
+```
+eFrustumPlane aType
+```
+](https://wiki.frictionalgames.com/page/../eFrustumPlane) |   |
+| [
+```
+const cMatrixf&
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) | GetProjectionMatrix |   |   |
+| [
+```
+eProjectionType
+```
+](https://wiki.frictionalgames.com/page/../eProjectionType) | GetProjectionType |   |   |
+| [
+```
+const cVector3f&
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetVertex | 
+```
+int alIdx
+```
+ |   |
+| [
+```
+const cMatrixf&
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) | GetViewMatrix |   |   |
+| 
+```
+void
+```
+ | SetInvertsCullMode | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetupOrthoProj | [
+```
+const cMatrixf &in a_mtxProj
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf),  
+[
+```
+const cMatrixf &in a_mtxView
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf),  
+
+```
+float afFarPlane
+```
+,  
+
+```
+float afNearPlane
+```
+,  
+[
+```
+const cVector2f& avViewSize
+```
+](https://wiki.frictionalgames.com/page/../cVector2f),  
+[
+```
+const cVector3f& avOrigin
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | SetupPerspectiveProj | [
+```
+const cMatrixf &in a_mtxProj
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf),  
+[
+```
+const cMatrixf &in a_mtxView
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf),  
+
+```
+float afFarPlane
+```
+,  
+
+```
+float afNearPlane
+```
+,  
+
+```
+float afFOV
+```
+,  
+
+```
+float afAspect
+```
+,  
+[
+```
+const cVector3f& avOrigin
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/cFrustum](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFrustum)
+- Revision: `3565`
+- Source update: `2020-08-06T13:31:51Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

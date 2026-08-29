@@ -1,0 +1,14 @@
+{
+  "pageid": 2040,
+  "title": "HPL3/SOMA/Scripting/cImGuiGaugeData",
+  "missing": false,
+  "redirect": false,
+  "length": 1803,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3586,
+  "revisionTimestamp": "2020-08-06T13:40:53Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mbUseBackgroundGfx || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseDisabledColor || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseFillUV || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseFrame || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mColorBase || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorDisabled || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorText || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mFont || [[../cImGuiFont|<syntaxhighlight lang=\"c++\" inline>cImGuiFont</syntaxhighlight>]] ||\n|-\n| mFontAlign || [[../eFontAlign|<syntaxhighlight lang=\"c++\" inline>eFontAlign</syntaxhighlight>]] ||\n|-\n| mGfxBackground || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxFill || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxFrame || [[../cImGuiFrameGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiFrameGfx</syntaxhighlight>]] ||\n|-\n| mOrientation || [[../eImGuiGaugeOrientation|<syntaxhighlight lang=\"c++\" inline>eImGuiGaugeOrientation</syntaxhighlight>]] ||\n|-\n| mvDefaultSize || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|-\n| mvPadding || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\ncImGuiGaugeData has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiGaugeData",
+  "requestedTitle": "HPL3/SOMA/Scripting/cImGuiGaugeData"
+}

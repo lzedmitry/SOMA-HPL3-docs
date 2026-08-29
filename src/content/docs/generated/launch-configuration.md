@@ -1,0 +1,143 @@
+---
+title: Launch Configuration
+description: "When a mod is launched, some initialization occurs and the game is configured before the mod shows up. This article explains how to configure the startup of a mod."
+category: generated
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Launch_Configuration"
+sourceRevision: 6430
+sourceUpdated: "2023-07-15T18:31:02Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - generated
+sidebar:
+  hidden: true
+---
+When a mod is launched, some initialization occurs and the game is configured before the mod shows up. This article explains how to configure the startup of a mod.
+
+## Launch Configuration File
+In order to make the mod launch, we need to list some configurations and settings that affect the initialization of the mod. All of the configurations are listed inside a single XML file, called `main_init.cfg`. The file should be located inside the `config` folder of the mod. When launching a mod, either via debug mode or via the game, the mod will first read the data from this file.
+
+### Minimal Configuration
+These are the minimal settings that should be inside a `main_init.cfg` file:
+
+```
+<Directories  
+	MainSaveFolder = "Save Folder Name"
+	GameLanguageFolder = "config/lang/"
+/>
+
+<Variables
+	GameName = "Mod Name"
+/>
+
+<StartMap 
+	File = "map_name.hpm" 
+	Folder = "maps/" 
+	Pos = "PlayerStartArea_1" 
+/>
+```
+
+:::note[Note]
+**Note:** Amnesia: The Bunker has different syntax for the StartMap key. 
+
+```
+<StartMap 
+    File = "Main:intro_map.hpm, PostIntro:main_map.hpm" 
+    Folder = "maps/" 
+    Pos = "PlayerStartArea_1" 
+/>
+```
+
+:::
+
+### Extended Configuration
+These are the full settings that can be inside a `main_init.cfg` file in order to apply further customization:
+
+```
+<ConfigFiles 
+	Resources = "resources.cfg" 
+	Materials = "materials.cfg"
+	SoundData = "sounddata.cfg"
+	
+	DefaultBaseLanguage = "base_english.lang"
+	DefaultGameLanguage = "english.lang"
+	
+	Modules = "config/Modules.cfg"
+	EntityTypes = "config/EntityTypes.cfg"
+	Effects = "config/Effects.cfg"
+	PlayerStates = "config/PlayerStates.cfg"
+/>
+
+<Directories  
+	MainSaveFolder = "Main"
+	
+	BaseLanguageFolder = "config/"		
+	GameLanguageFolder = "config/lang_main/"
+/>
+
+<Variables
+	GameName = "Mod Name"
+/>
+
+<MainMenu
+  File="main_menu.hpm"  
+  Folder="maps/"
+  Pos=""
+/>
+
+<StartMap 
+	File = "map_name.hpm" 
+	Folder = "maps/" 
+	Pos = "PlayerStartArea_1" 
+/>
+```
+
+:::note[Note]
+it is recommended to not change most of the settings, and only edit things that should really be customized for your mod, such as mod name, save folder name, etc.
+:::
+
+### Attributes
+
+---
+
+#### ConfigFiles
+| Attribute | Description |
+| --- | --- |
+| Resources | Points to the [resources configuration](/generated/resources-configuration/) file. |
+| Materials | Points to the material configuration file. |
+| SoundData | Points to the sound data configuration file. |
+| DefaultBaseLanguage | Points to the default base [language file](/generated/language-configuration/). |
+| DefaultGameLanguage | Points to the default game [language file](/generated/language-configuration/). |
+| Modules | Points to the [modules file](https://wiki.frictionalgames.com/page/HPL3/Modules_Configuration). |
+| EntityTypes | Points to [entity types](/entities/entity-types/) configuration file. |
+| Effects | Points to the effects configuration file. |
+| PlayerStates | Points to the player states configuration file. |
+
+#### Directories
+| Attribute | Description |
+| --- | --- |
+| MainSaveFolder | The name of the folder which the save files will be placed into. |
+| BaseLanguageFolder | The name of the folder where [base_english.lang](/generated/language-configuration/) is located at. |
+| GameLanguageFolder | The name of the folder where [english.lang](/generated/language-configuration/) is located at. |
+
+#### Variables
+| Attribute | Description |
+| --- | --- |
+| GameName | The name of the mod. Will appear at the title of the game and at the task bar. |
+
+#### StartMap
+| Attribute | Description |
+| --- | --- |
+| File | The name of the map file + file extension (`.hpm`). |
+| Folder | The name of the map folder. |
+| Pos | The [primary start position](/areas/playerstart-area/) of the map. |
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/Launch Configuration](https://wiki.frictionalgames.com/page/HPL3/Launch_Configuration)
+- Revision: `6430`
+- Source update: `2023-07-15T18:31:02Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

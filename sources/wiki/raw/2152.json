@@ -1,0 +1,14 @@
+{
+  "pageid": 2152,
+  "title": "HPL3/SOMA/Scripting/cPostEffectComposite",
+  "missing": false,
+  "redirect": false,
+  "length": 1357,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3696,
+  "revisionTimestamp": "2020-08-06T14:15:50Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncPostEffectComposite has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || AddPostEffect || [[../iPostEffect|<syntaxhighlight lang=\"c++\" inline>iPostEffect@ apPostEffect</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>int alPrio</syntaxhighlight> ||\n|-\n| [[../iPostEffect|<syntaxhighlight lang=\"c++\" inline>iPostEffect@</syntaxhighlight>]] || GetPostEffect || <syntaxhighlight lang=\"c++\" inline>int alIdx</syntaxhighlight> ||\n|-\n| [[../iPostEffect|<syntaxhighlight lang=\"c++\" inline>iPostEffect@</syntaxhighlight>]] || GetPostEffectFromType || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asType</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetPostEffectNum ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || HasActiveEffects ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || RemovePostEffect || [[../iPostEffect|<syntaxhighlight lang=\"c++\" inline>iPostEffect@ apPostEffect</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffectComposite",
+  "requestedTitle": "HPL3/SOMA/Scripting/cPostEffectComposite"
+}

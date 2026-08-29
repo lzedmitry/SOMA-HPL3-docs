@@ -1,0 +1,104 @@
+---
+import { appLocale, englishSlug, localeHref } from "../lib/locale";
+import { t, qualityLabel } from "../lib/ui-strings";
+import {
+  describe,
+  formatDuration,
+  privacyEmbedUrl,
+  videoCountForPage,
+  videosForPage,
+  canonicalWatchUrl,
+} from "../lib/videos";
+
+const route = Astro.locals.starlightRoute;
+const locale = appLocale(route.locale);
+const slug = englishSlug(route.id || route.entry.id);
+const videos = videosForPage(slug, locale, 3);
+const total = videoCountForPage(slug);
+const langName: Record<string, string> = {
+  en: t("englishLabel", locale),
+  ru: "русский",
+  de: "Deutsch",
+  fr: "français",
+  it: "italiano",
+  es: "español",
+};
+---
+
+{
+  videos.length > 0 && (
+    <section class="related-videos" id="related-videos" aria-label={t("relatedVideos", locale)}>
+      <p class="related-videos-kicker">{t("relatedVideos", locale)}</p>
+      <ul class="video-row-list">
+        {videos.map((v) => {
+          const dur = formatDuration(v.duration);
+          const watch = canonicalWatchUrl(v.youtubeId);
+          const embed = privacyEmbedUrl(v.youtubeId);
+          const meta = [v.channel, dur, langName[v.language] || v.language].filter(Boolean).join(" · ");
+          return (
+            <li class="video-row" data-youtube-id={v.youtubeId} data-embed={embed}>
+              <div class="video-row-main">
+                <p class="video-row-title">
+                  <span class="video-play-mark" aria-hidden="true">▶</span>
+                  <a href={watch} rel="noreferrer">{v.title}</a>
+                </p>
+                <p class="video-row-meta">
+                  {meta}
+                  <span class:list={["video-quality", v.quality]}>{qualityLabel(v.quality, locale)}</span>
+                </p>
+                {describe(v, locale) && <p class="video-row-desc">{describe(v, locale)}</p>}
+                {v.warnings?.length ? (
+                  <p class="video-row-warn">
+                    {t("warning", locale)}: {v.warnings[0]}
+                  </p>
+                ) : null}
+                <p class="video-row-actions">
+                  <button type="button" class="video-inline-play" data-play={v.youtubeId}>
+                    {t("playInline", locale)}
+                  </button>
+                  <a href={watch} rel="noreferrer">
+                    {t("playOnYoutube", locale)}
+                  </a>
+                </p>
+              </div>
+              <div class="video-embed-slot" hidden></div>
+            </li>
+          );
+        })}
+      </ul>
+      <p class="video-row-more">
+        <a href={localeHref("videos", locale)}>
+          {total > 3 ? `${t("viewAllCount", locale)} (${total})` : t("viewAllVideos", locale)} →
+        </a>
+      </p>
+      <p class="video-host-note">{t("hostedOnYoutube", locale)}</p>
+    </section>
+  )
+}
+
+<script>
+  document.querySelectorAll(".video-inline-play").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const row = btn.closest(".video-row") as HTMLElement | null;
+      if (!row) return;
+      const slot = row.querySelector(".video-embed-slot") as HTMLElement | null;
+      const src = row.dataset.embed;
+      if (!slot || !src) return;
+      if (slot.hidden === false && slot.querySelector("iframe")) {
+        slot.innerHTML = "";
+        slot.hidden = true;
+        return;
+      }
+      const iframe = document.createElement("iframe");
+      iframe.src = src;
+      iframe.title = "YouTube";
+      iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+      iframe.setAttribute("allowfullscreen", "true");
+      iframe.loading = "lazy";
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+      slot.innerHTML = "";
+      slot.appendChild(iframe);
+      slot.hidden = false;
+    });
+  });
+</script>

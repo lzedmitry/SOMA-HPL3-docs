@@ -1,0 +1,43 @@
+---
+title: eImGuiStateVar
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiStateVar"
+sourceRevision: 3811
+sourceUpdated: "2020-08-06T14:43:26Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: undocumented
+generated: true
+tags:
+  - api
+  - api
+sidebar:
+  hidden: true
+---
+:::note[SOURCE STATUS: Undocumented]
+This API page was auto-generated on the Frictional Wiki and has no written descriptions.
+:::
+
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Values
+| Enum Name | Integer Value | Description |
+| --- | --- | --- |
+| `eImGuiStateVar_Triggered` | `0` |   |
+| `eImGuiStateVar_RepeatTimer` | `1` |   |
+| `eImGuiStateVar_Value` | `2` |   |
+| `eImGuiStateVar_ValueDefault` | `3` |   |
+| `eImGuiStateVar_Checked` | `4` |   |
+| `eImGuiStateVar_CheckedDefault` | `5` |   |
+| `eImGuiStateVar_SelectedItem` | `6` |   |
+| `eImGuiStateVar_SelectedItemDefault` | `7` |   |
+| `eImGuiStateVar_LastEnum` | `8` |   |
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/eImGuiStateVar](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiStateVar)
+- Revision: `3811`
+- Source update: `2020-08-06T14:43:26Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

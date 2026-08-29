@@ -1,0 +1,14 @@
+{
+  "pageid": 3365,
+  "title": "HPL3/SOMA/Areas/Tool Area",
+  "missing": false,
+  "redirect": false,
+  "length": 718,
+  "touched": "2024-02-08T17:10:07Z",
+  "revisionId": 6768,
+  "revisionTimestamp": "2024-02-08T17:10:07Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "== Overview ==\nThis area when entered by the player will hold out a specified tool from the players inventory and be holstered when exiting the area.\n\n== Properties ==\n[[File:Tool area.png|thumb|A functioning Omnitool panel using an orange Tool Area]]\n=== Tool ===\n* '''ToolsToEquip''': The Tool to hold out when a player is inside the area. Must be in the players inventory.\n* '''ConnectedToolArea''': Additional [[HPL3/SOMA/Areas/Tool Area|Tool Areas]] that can be passed through without holstering the tool that is equipped. Areas must be at least touching.\n* '''LookEntities''':An entity that must be looked at to raise the tool\n* '''LookEntityLOS''': If the '''LookEntities''' must have uninterupted line of sight",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/Tool_Area",
+  "requestedTitle": "HPL3/SOMA/Areas/Tool Area"
+}

@@ -1,0 +1,64 @@
+---
+import Default from "@astrojs/starlight/components/TableOfContents.astro";
+import { appLocale, englishSlug, localeHref } from "../lib/locale";
+import { t } from "../lib/ui-strings";
+import { videoCountForPage } from "../lib/videos";
+
+const id = Astro.locals.starlightRoute.entry.id;
+const isHome = id === "" || id === "index" || id === "/" || /^(ru|de|fr|it|es)\/index$/.test(id) || /^(ru|de|fr|it|es)$/.test(id);
+const locale = appLocale(Astro.locals.starlightRoute.locale);
+const slug = englishSlug(Astro.locals.starlightRoute.id || id);
+const videoCount = videoCountForPage(slug);
+const data = Astro.locals.starlightRoute.entry.data as {
+  sourceStatus?: string;
+  sourceRevision?: string | number;
+  category?: string;
+  difficulty?: string;
+  generated?: boolean;
+};
+const status = (data.sourceStatus || "").toLowerCase();
+const kind = data.generated ? "Reference" : data.difficulty ? "Guide" : "Docs";
+---
+
+{
+  !isHome && (
+    <>
+      <Default />
+      {videoCount > 0 && (
+        <div class="page-meta">
+          <p class="page-meta-kicker">{t("preferVideo", locale)}</p>
+          <p>
+            <a href="#related-videos">{t("relatedVideos", locale)}</a>
+            {" · "}
+            <a href={localeHref("videos", locale)}>{t("viewAllVideos", locale)}</a>
+          </p>
+        </div>
+      )}
+      <div class="page-meta">
+        <p class="page-meta-kicker">{t("pageKicker", locale)}</p>
+        <p>
+          SOMA
+          {data.category && <> · {data.category}</>}
+          <> · {kind}</>
+        </p>
+        {
+          (data.sourceRevision !== undefined && data.sourceRevision !== "") || status ? (
+            <>
+              <p class="page-meta-kicker">{t("sourceKicker", locale)}</p>
+              <p>
+                {data.sourceRevision !== undefined && data.sourceRevision !== "" && (
+                  <span>Rev. {data.sourceRevision}</span>
+                )}
+                {status && (
+                  <span class:list={["status", status]}>
+                    {status === "verified" ? t("verified", locale) : status.replace("wip", "WIP")}
+                  </span>
+                )}
+              </p>
+            </>
+          ) : null
+        }
+      </div>
+    </>
+  )
+}

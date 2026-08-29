@@ -1,0 +1,14 @@
+{
+  "pageid": 2683,
+  "title": "HPL3/Scripting/ID Handles",
+  "missing": false,
+  "redirect": false,
+  "length": 2378,
+  "touched": "2020-08-27T19:29:55Z",
+  "revisionId": 5227,
+  "revisionTimestamp": "2020-08-27T19:29:55Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{wip}}\n\n= ID Handles =\n\n== General ==\n\n'''Storing'''\n\nAn ID handle is used to store and retrieve a object. Instead of storing the object handle directly the ID of the object should be stored.\n\n<syntaxhighlight lang=\"cpp\">\nclass cMyClass {\n  iPhysicsBody@ mpBody; // unsafe\n  tID mBodyID; // safe\n}\n</syntaxhighlight>\n\nStoring an ID instead of class handle is safer and allows for saving of the handle.\n\n<syntaxhighlight lang=\"cpp\">\nvoid OnStart()\n{\n // Retrive the object from name and setup the id\n iPhysicsBody@ pBody = Map_GetEntityFromName(\"...\");\n mBodyID = pBody.GetID();\n}\n</syntaxhighlight>\n\nThe ID of a object is returned from the GetID() function or by calling one of the functions that return the ID of an object directly.\n\n'''Accessing'''\n\nAfter storing the ID it can be used to retrieve the object. Retrieving the object is safe and will return a null pointer if it has been deleted.\n\n<syntaxhighlight lang=\"cpp\">\nvoid OnUpdate()\n{\n  cLux_ID_Body(mBodyID).SetMass(2.0); // Retrieve object and set mass to 2.0\n}\n</syntaxhighlight>\n\nEven if the body has been deleted elsewhere the code will not crash, since accessing a null pointer only generates a warning.\n\nRetrieving the object using the ID handle is very fast and can be used directly. When changing multiple properties of a object it is adviced to retrieve it once and then call all the function from the object itself.\n\n<syntaxhighlight lang=\"cpp\">\nvoid OnUpdate()\n{\n  // Retrieve the object\n  iPhysicsBody@ pBody = cLux_ID_Body(mBodyID);\n\n  if(pBody !is null) { // Check if it is valid\n    pBody.SetMass(2.0);\n    pBody.ApplyForce(cVector3f(1.0, 0.0 ,0.0);\n  }\n}\n</syntaxhighlight>\n\nThe retrieval functions performs a safe cast. The ID for a Prop can be used to retrieve a Entity, but if you use it to try to retrieve an Area then it will return null.\n\n'''Default Value'''\n\nThe default value of the tID class is tID_Invalid. Calling any retrieval function with that value will cause the function to return null. When a handle is no longer in use it should have its value set to tID_Invalid.\n\n'''Saving and loading'''\n\nA ID handle can be saved to the save file and it will retrieve the same object after load. The ID will also stay the same when working on the map which means that the save file will stay valid even after a patch on a map. This will also work with the realtime reload of the entity maptrack.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/ID_Handles",
+  "requestedTitle": "HPL3/Scripting/ID Handles"
+}

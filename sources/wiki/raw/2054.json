@@ -1,0 +1,14 @@
+{
+  "pageid": 2054,
+  "title": "HPL3/SOMA/Scripting/cLightDirectional ShadowSlice",
+  "missing": false,
+  "redirect": false,
+  "length": 674,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3601,
+  "revisionTimestamp": "2020-08-06T13:45:00Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mCastersAffected || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| mfFarPlane || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfOffsetBias || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfOffsetSlopeScaleBias || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|}\n\n==Functions==\n\ncLightDirectional_ShadowSlice has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightDirectional_ShadowSlice",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLightDirectional ShadowSlice"
+}

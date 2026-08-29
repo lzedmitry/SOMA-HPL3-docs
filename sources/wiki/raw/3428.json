@@ -1,0 +1,14 @@
+{
+  "pageid": 3428,
+  "title": "HPL3/SOMA/Getting Started/Create and Launch Your Mod",
+  "missing": false,
+  "redirect": false,
+  "length": 2397,
+  "touched": "2026-07-30T10:50:16Z",
+  "revisionId": 7115,
+  "revisionTimestamp": "2026-07-30T10:47:04Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{Hpl3SomaGettingStarted|step=2}}\n\nIn this step, you will copy SOMA's known-working example mod and launch the copy before changing it.\n\n== Make your own copy ==\n\n# Open <code>SOMA/mods/</code>.\n# Copy the entire <code>MinimalCustomMapMod</code> folder.\n# Rename the copy to a short project name, such as <code>MyFirstMod</code>.\n# Open the copied <code>entry.hpc</code> in a text editor.\n# Change at least <code>Title</code>, <code>Author</code>, and <code>Description</code>. Leave <code>Type=\"StandAlone\"</code> and <code>InitCfg=\"config/main_init.cfg\"</code> unchanged for this tutorial.\n\n{{warning|Do not rename or edit the original <code>MinimalCustomMapMod</code>. Keeping a clean copy gives you a working comparison if your configuration later breaks.}}\n\nYour copied folder should contain at least:\n\n<pre>\nMyFirstMod/\n├── config/\n│   ├── lang/\n│   │   └── english.lang\n│   └── main_init.cfg\n├── maps/\n│   └── sample_map/\n│       ├── sample_map.hpm\n│       ├── sample_map.hpm_*\n│       └── sample_map.hps\n├── entry.hpc\n├── LauncherPic.png\n└── resources.cfg\n</pre>\n\nThe <code>.hpm_*</code> entries above represent the map's split data files. They are part of the map and must remain beside <code>sample_map.hpm</code>.\n\n== Launch the untouched copy ==\n\n# Run <code>ModLauncher.exe</code>, or <code>ModLauncher_NoSteam.exe</code> for a non-Steam installation.\n# Choose '''Play Custom Content'''.\n# Select the title you placed in <code>entry.hpc</code>.\n# Launch the mod.\n\nThe included <code>config/main_init.cfg</code> starts <code>sample_map.hpm</code> from the <code>maps/</code> folder at <code>PlayerStartArea_1</code>.\n\n== Checkpoint ==\n\nContinue only when your copied mod appears in the launcher and loads its sample map.\n\n== If it does not work ==\n\n* '''The mod is absent from the launcher:''' confirm the copy is inside <code>SOMA/mods/</code> and has <code>entry.hpc</code> at its root.\n* '''The game starts but the map does not:''' restore <code>config/main_init.cfg</code>, <code>resources.cfg</code>, and the complete <code>maps/sample_map/</code> folder from the clean example.\n* '''You want to understand the files:''' read [[HPL3/SOMA/Modding/Creating a Mod|Creating a Mod]], [[HPL3/Resources Configuration|Resources Configuration]], and [[HPL3/Launch Configuration|Launch Configuration]].",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Create_and_Launch_Your_Mod",
+  "requestedTitle": "HPL3/SOMA/Getting Started/Create and Launch Your Mod"
+}

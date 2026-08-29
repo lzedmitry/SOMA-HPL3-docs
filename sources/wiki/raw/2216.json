@@ -1,0 +1,14 @@
+{
+  "pageid": 2216,
+  "title": "HPL3/SOMA/Scripting/iEyeTracker",
+  "missing": false,
+  "redirect": false,
+  "length": 1450,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3889,
+  "revisionTimestamp": "2020-08-06T15:00:21Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\niEyeTracker has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] || GetDisplaySize ||   ||\n|-\n| [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] || GetFixationPosition ||   ||\n|-\n| [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] || GetGazePosition ||   ||\n|-\n| [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>cVector3f</syntaxhighlight>]] || GetLeftEyePosition ||   ||\n|-\n| [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>cVector3f</syntaxhighlight>]] || GetRightEyePosition ||   ||\n|-\n| [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] || GetScreenBounds ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || HasBlinked ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsFixating ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsTracking ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsTrackingGaze ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsUserPresent ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iEyeTracker",
+  "requestedTitle": "HPL3/SOMA/Scripting/iEyeTracker"
+}

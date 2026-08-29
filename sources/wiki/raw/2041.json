@@ -1,0 +1,14 @@
+{
+  "pageid": 2041,
+  "title": "HPL3/SOMA/Scripting/cImGuiGfx",
+  "missing": false,
+  "redirect": false,
+  "length": 2357,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3587,
+  "revisionTimestamp": "2020-08-06T13:41:04Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mbCrossfadeAnimation || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUVFlipH || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUVFlipV || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mColor || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorCornerBotLeft || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorCornerBotRight || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorCornerTopLeft || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorCornerTopRight || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mfAnimationTime || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mMaterial || [[../eGuiMaterial|<syntaxhighlight lang=\"c++\" inline>eGuiMaterial</syntaxhighlight>]] ||\n|-\n| mType || [[../eImGuiGfx|<syntaxhighlight lang=\"c++\" inline>eImGuiGfx</syntaxhighlight>]] ||\n|-\n| mvOffset || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>cVector3f</syntaxhighlight>]] ||\n|-\n| mvUVMax || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|-\n| mvUVMin || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|-\n| mWrapMode || [[../eImGuiWrapMode|<syntaxhighlight lang=\"c++\" inline>eImGuiWrapMode</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || CopyFrom || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>const cImGuiGfx& aGfx</syntaxhighlight>]] ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString&</syntaxhighlight>]] || GetFile ||  ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>uint64</syntaxhighlight> || GetId ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetFile || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asFile</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiGfx",
+  "requestedTitle": "HPL3/SOMA/Scripting/cImGuiGfx"
+}

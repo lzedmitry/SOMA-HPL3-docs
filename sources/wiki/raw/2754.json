@@ -1,0 +1,14 @@
+{
+  "pageid": 2754,
+  "title": "HPL3/Areas/Crawl Area",
+  "missing": false,
+  "redirect": false,
+  "length": 257,
+  "touched": "2024-01-25T21:30:43Z",
+  "revisionId": 6747,
+  "revisionTimestamp": "2024-01-25T21:30:43Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "== Overview ==\nForces the player into a slow crawl that cannot be overridden. Jumping is disabled while the player is inside the area. Once the area is exited the player will return to the previous state.\n\n== Properties ==\nThe Crawl Area takes no properties",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Crawl_Area",
+  "requestedTitle": "HPL3/Areas/Crawl Area"
+}

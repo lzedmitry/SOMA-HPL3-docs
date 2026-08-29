@@ -1,0 +1,14 @@
+{
+  "pageid": 2009,
+  "title": "HPL3/SOMA/Scripting/cExposureAreaIterator",
+  "missing": false,
+  "redirect": false,
+  "length": 652,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3557,
+  "revisionTimestamp": "2020-08-06T13:29:23Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncExposureAreaIterator has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || HasNext ||   ||\n|-\n| [[../cExposureArea|<syntaxhighlight lang=\"c++\" inline>cExposureArea@</syntaxhighlight>]] || Next ||   ||\n|-\n| [[../cExposureArea|<syntaxhighlight lang=\"c++\" inline>cExposureArea@</syntaxhighlight>]] || PeekNext ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cExposureAreaIterator",
+  "requestedTitle": "HPL3/SOMA/Scripting/cExposureAreaIterator"
+}

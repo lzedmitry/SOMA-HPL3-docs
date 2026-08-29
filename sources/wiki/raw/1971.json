@@ -1,0 +1,14 @@
+{
+  "pageid": 1971,
+  "title": "HPL3/SOMA/Scripting/cVector2f",
+  "missing": false,
+  "redirect": false,
+  "length": 2216,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3725,
+  "revisionTimestamp": "2020-08-06T14:22:53Z",
+  "revisionUser": "Abion47",
+  "wikitext": "A two dimensional vector unit whose elements are stored as floats.\n\n==Constructors==\n\n{| class=\"wikitable\"\n! Constructor !! Description\n|- \n| <syntaxhighlight lang=\"c++\" inline>cVector2f(float, float)</syntaxhighlight> || Creates a <code>cVector2f</code> with the given element data.\n|}\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| x || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || The x value of the vector. \n|-\n| y || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || The y value of the vector. \n|}\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetElement || <syntaxhighlight lang=\"c++\" inline>uint64 alIdx</syntaxhighlight> || Gets the value at the given index. (Indices 0 and 1 are equal to x and y, respectively.) \n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || Length ||  ||  Returns the length of this vector. \n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || Normalize ||   || Returns the normalization factor for this vector. (See Remarks.) \n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetElement || <syntaxhighlight lang=\"c++\" inline>uint64 alIdx</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || Sets the value at the given index to the given value. (Indices 0 and 1 are equal to x and y, respectively.) \n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || SqrLength ||  || Returns the length-squared of this vector. \n|}\n\n==Remarks==\n\nA normalized vector is a vector whose length is equal to one, otherwise known as a unit vector. To convert a vector into a unit vector, get the normalization factor by calling the ''Normalize'' function, then divide each of the vector's x and y coordinates by that factor.\n\n<syntaxhighlight lang=\"c++\">cVector2f vBaseVector(2.0, 5.0);\nfloat fNormFactor = vBaseVector.Normalize();\ncVector2f vNormalizedVector(vBaseVector.x / fNormFactor, \n                            vBaseVector.y / fNormFactor);</syntaxhighlight>\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cVector2f",
+  "requestedTitle": "HPL3/SOMA/Scripting/cVector2f"
+}

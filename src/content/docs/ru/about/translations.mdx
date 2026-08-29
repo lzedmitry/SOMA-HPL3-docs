@@ -1,0 +1,39 @@
+---
+title: "Переводы"
+description: "Покрытие языков этой неофициальной документации SOMA / HPL3. Английский — канонический источник. Отсутствующие страницы не 404."
+category: about
+tableOfContents: false
+translation:
+  locale: ru
+  sourceLocale: en
+  sourceRevision: 1
+  translationRevision: 1
+  status: current
+---
+
+import TranslationsCoverage from "../../../../components/TranslationsCoverage.astro";
+
+<p class="section-kicker">00 // TRANSLATIONS &nbsp; REF 00.04</p>
+
+Английский — каноническая документация SOMA / HPL3. Другие языки сначала переводят обучающие страницы TIER 1 и хабы TIER 2. Технические идентификаторы остаются по-английски в каждой локали: `Area`, `Entity`, `OnStart`, `.hps`, `cScript_GetGlobalArgBool`.
+
+Если страница ещё не переведена, переключатель языка оставляет вас на этой теме (fallback Starlight) и показывает короткое уведомление. Он не сбрасывает на главную локали.
+
+## Покрытие
+
+Счётчики берутся из `data/translation-manifest.json`, не из зашитых процентов.
+
+<TranslationsCoverage />
+
+## Что переводится первым
+
+**TIER 1** — главная, Быстрый старт, Первый мод, Термины, Настройка мода, Level Editor, Сборка уровней, Areas, Скрипты, Отладка, Конвейер ассетов, Глоссарий.
+
+**TIER 2** — Рецепты, Helpers, Entities, Materials, Particles, Audio, Dialogue, индекс API, библиотека видео.
+
+**TIER 3** — полные страницы классов API, legacy-справочник, индекс Original Wiki. Английский, пока нет перевода.
+
+## Связанное
+
+- [Статус документации](/ru/about/)
+- [Участие](/ru/about/contributing/)

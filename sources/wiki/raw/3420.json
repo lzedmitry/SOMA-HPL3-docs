@@ -1,0 +1,15 @@
+{
+  "pageid": 3420,
+  "title": "HPL3/Level Design/Working with Entities",
+  "missing": false,
+  "redirect": false,
+  "length": 2158,
+  "touched": "2026-07-30T09:59:41Z",
+  "revisionId": 7098,
+  "revisionTimestamp": "2026-07-30T09:59:41Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Entities =\n\nEntities are vital components for a map, be it decoration or be it gameplay wise. They are the dynamic part of the level: interactable objects, disappearing walls, anything that should not remain constant when playing through a level falls into this category.\n\n== General Parameters ==\n* '''Name''': Name for the entity.\n* '''Active''': If the entity should start as active. When set to inactive, the entity will be drawn dissolved according to the \"Disabled mesh coverage\" setting in options.\n* '''Position''': 3D Vector storing the position in world.\n* '''Rotation''': 3D Vector storing the rotation.\n* '''Scale''': 3D Vector storing the scale of the placed object.\n* '''Entity File''': file name (.ent) for the entity.\n* '''Notes''': pressing this button will show any notes defined for the currently selected entity. If the button is disabled, that means there are no defined notes.\n* '''Pose''': if the button is enabled, it means the currently selected entity has a poseable skeleton. Pressing the button will start the entity poser mode. More on this mode [[hpl3:tools:maineditors:level_editor:entityposer_editmode|here]].\n* '''Body names''': this list will display the body names in the entity.\n''' '''Copy name''': pressing this button will copy the body name selected in the list.\n\n== Specific Parameters ==\n\nThis tab will show inputs instance variables specific to the current entity. Moving the mouse pointer over them will pop up a tip text describing them in detail.\n\n=Entity EditMode=\n\n\nEntities are vital components for a map, be it decoration or be it gameplay wise. Creation of Static Objects and Entities are very much alike, and so are creation tools for both.\n\n\nThe only point that differs in the Entity creation window is the Create on surface feature, that will help creating stuff on already created surfaces. The buttons next to this option indicate what kind of geometry objects will be considered by the tool (St: Static Objects, Pr: Primitives, En: Entities). The tool will try to position and align the object according to the orientation of the surface it is pointing to.\n\n\nMore on entities [[HPL2/Entities|here]].",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Working_with_Entities",
+  "requestedTitle": "HPL3/SOMA/Level Design/Working with Entities",
+  "resolvedTitle": "HPL3/Level Design/Working with Entities"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 2324,
+  "title": "HPL3/SOMA/Scripting/eImGuiAction",
+  "missing": false,
+  "redirect": false,
+  "length": 936,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3804,
+  "revisionTimestamp": "2020-08-06T14:41:35Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eImGuiAction_MouseRight</code> || <code>0</code> ||\n|-\n| <code>eImGuiAction_MouseLeft</code> || <code>1</code> ||\n|-\n| <code>eImGuiAction_Confirm</code> || <code>2</code> ||\n|-\n| <code>eImGuiAction_Cancel</code> || <code>3</code> ||\n|-\n| <code>eImGuiAction_Up</code> || <code>4</code> ||\n|-\n| <code>eImGuiAction_Down</code> || <code>5</code> ||\n|-\n| <code>eImGuiAction_Right</code> || <code>6</code> ||\n|-\n| <code>eImGuiAction_Left</code> || <code>7</code> ||\n|-\n| <code>eImGuiAction_ScrollUp</code> || <code>8</code> ||\n|-\n| <code>eImGuiAction_ScrollDown</code> || <code>9</code> ||\n|-\n| <code>eImGuiAction_LastEnum</code> || <code>10</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiAction",
+  "requestedTitle": "HPL3/SOMA/Scripting/eImGuiAction"
+}

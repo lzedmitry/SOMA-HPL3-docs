@@ -1,0 +1,14 @@
+{
+  "pageid": 2022,
+  "title": "HPL3/SOMA/Scripting/cGuiMessageData",
+  "missing": false,
+  "redirect": false,
+  "length": 867,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3570,
+  "revisionTimestamp": "2020-08-06T13:33:42Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mfVal || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mKeyPress || [[../cKeyPress|<syntaxhighlight lang=\"c++\" inline>cKeyPress</syntaxhighlight>]] ||\n|-\n| mlVal || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| mMessage || [[../eGuiMessage|<syntaxhighlight lang=\"c++\" inline>eGuiMessage</syntaxhighlight>]] ||\n|-\n| mvPos || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|-\n| mvRel || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\ncGuiMessageData has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiMessageData",
+  "requestedTitle": "HPL3/SOMA/Scripting/cGuiMessageData"
+}

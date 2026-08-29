@@ -1,0 +1,595 @@
+---
+title: Terminal
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Terminal"
+sourceRevision: 5053
+sourceUpdated: "2020-08-24T20:59:59Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - api
+---
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Summary
+| Return | Function | Description |
+| --- | --- | --- |
+| `void` | [`Terminal_FadeImGuiStateColor`](#terminal-fadeimguistatecolor)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, [cColor](https://wiki.frictionalgames.com/page/../../cColor) aGoalVal, float afTime, [eEasing](https://wiki.frictionalgames.com/page/../../eEasing) aType = eEasing_QuadInOut, bool abReplaceIfExist = true) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_FadeImGuiStateFloat`](#terminal-fadeimguistatefloat)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, float afGoalVal, float afTime, [eEasing](https://wiki.frictionalgames.com/page/../../eEasing) aType = eEasing_QuadInOut, bool abReplaceIfExist = true) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_FadeImGuiStateVector3f`](#terminal-fadeimguistatevector3f)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) avGoalVal, float afTime, [eEasing](https://wiki.frictionalgames.com/page/../../eEasing) aType = eEasing_QuadInOut, bool abReplaceIfExist = true) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_ForceCacheUpdate`](#terminal-forcecacheupdate)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName) | Forces the terminal to update its cache |
+| `bool` | [`Terminal_GetImGuiStateBool`](#terminal-getimguistatebool)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, bool alDefault = false) | *Undocumented in the original Wiki.* |
+| `cColor` | [`Terminal_GetImGuiStateColor`](#terminal-getimguistatecolor)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, const [cColor](https://wiki.frictionalgames.com/page/../../cColor) &in aDefault) | *Undocumented in the original Wiki.* |
+| `float` | [`Terminal_GetImGuiStateFloat`](#terminal-getimguistatefloat)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, float afDefault = 0.0f) | *Undocumented in the original Wiki.* |
+| `int` | [`Terminal_GetImGuiStateInt`](#terminal-getimguistateint)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, int alDefault = 0) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`Terminal_GetImGuiStateVector3f`](#terminal-getimguistatevector3f)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avDefault) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_IncImGuiStateColor`](#terminal-incimguistatecolor)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, const [cColor](https://wiki.frictionalgames.com/page/../../cColor) &in aVal) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_IncImGuiStateFloat`](#terminal-incimguistatefloat)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, float afVal) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_IncImGuiStateInt`](#terminal-incimguistateint)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, int alVal) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_IncImGuiStateVector3f`](#terminal-incimguistatevector3f)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVal) | *Undocumented in the original Wiki.* |
+| `bool` | [`Terminal_IsGuiActive`](#terminal-isguiactive)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName) | Get if the terminal GUI is active |
+| `void` | [`Terminal_SetAllowInteraction`](#terminal-setallowinteraction)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, bool abX) | Set if the terminal should allow interaction from player |
+| `void` | [`Terminal_SetEnterCallback`](#terminal-setentercallback)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asCallback) | Set the terminal's Enter callback |
+| `void` | [`Terminal_SetFPSWhenIdle`](#terminal-setfpswhenidle)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, float afFPS) | Sets the FPS of the terminal when not in focus |
+| `void` | [`Terminal_SetGuiActive`](#terminal-setguiactive)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, bool abX, float afFadeTime = 0.0f) | Set if the terminal should visible |
+| `void` | [`Terminal_SetImGuiStateBool`](#terminal-setimguistatebool)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, bool abVal) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_SetImGuiStateColor`](#terminal-setimguistatecolor)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, const [cColor](https://wiki.frictionalgames.com/page/../../cColor) &in aVal) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_SetImGuiStateFloat`](#terminal-setimguistatefloat)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, float afVal) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_SetImGuiStateInt`](#terminal-setimguistateint)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, int alVal) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_SetImGuiStateVector3f`](#terminal-setimguistatevector3f)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVal) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_SetLeaveCallback`](#terminal-setleavecallback)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asCallback) | Set the terminal's Leave callback |
+| `void` | [`Terminal_SetOnGuiFunction`](#terminal-setonguifunction)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asCallback) | Set the terminal's GUI method |
+| `void` | [`Terminal_SetShowMouse`](#terminal-setshowmouse)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, bool abShow) | *Undocumented in the original Wiki.* |
+| `void` | [`Terminal_SetUpdateWhenOutOfView`](#terminal-setupdatewhenoutofview)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, bool abX) | Set if the terminal should update when not visible |
+| `void` | [`Terminal_StopImGuiFade`](#terminal-stopimguifade)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPropName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asVarName) | *Undocumented in the original Wiki.* |
+
+## Function Detail
+    1. `Terminal_FadeImGuiStateColor`
+
+```angelscript
+void Terminal_FadeImGuiStateColor(const tString &in asPropName,
+                                  const tString &in asVarName,
+                                  cColor aGoalVal,
+                                  float afTime,
+                                  eEasing aType = eEasing_QuadInOut,
+                                  bool abReplaceIfExist = true)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `aGoalVal` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+| `afTime` | `float` | — |
+| `aType` | `[eEasing](https://wiki.frictionalgames.com/page/../../eEasing)` | — |
+| `abReplaceIfExist` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_FadeImGuiStateFloat`
+
+```angelscript
+void Terminal_FadeImGuiStateFloat(const tString &in asPropName,
+                                  const tString &in asVarName,
+                                  float afGoalVal,
+                                  float afTime,
+                                  eEasing aType = eEasing_QuadInOut,
+                                  bool abReplaceIfExist = true)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `afGoalVal` | `float` | — |
+| `afTime` | `float` | — |
+| `aType` | `[eEasing](https://wiki.frictionalgames.com/page/../../eEasing)` | — |
+| `abReplaceIfExist` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_FadeImGuiStateVector3f`
+
+```angelscript
+void Terminal_FadeImGuiStateVector3f(const tString &in asPropName,
+                                     const tString &in asVarName,
+                                     cVector3f avGoalVal,
+                                     float afTime,
+                                     eEasing aType = eEasing_QuadInOut,
+                                     bool abReplaceIfExist = true)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `avGoalVal` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afTime` | `float` | — |
+| `aType` | `[eEasing](https://wiki.frictionalgames.com/page/../../eEasing)` | — |
+| `abReplaceIfExist` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_ForceCacheUpdate`
+
+```angelscript
+void Terminal_ForceCacheUpdate(const tString &in asName)
+```
+
+Forces the terminal to update its cache. Used to stop drastic changes to the look of a  
+GUI from popping into view when the terminal switches from cache to normal rendering.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of terminal. |
+
+**Returns:** `void`
+
+    1. `Terminal_GetImGuiStateBool`
+
+```angelscript
+bool Terminal_GetImGuiStateBool(const tString &in asPropName,
+                                const tString &in asVarName,
+                                bool alDefault = false)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `alDefault` | `bool` | — |
+
+**Returns:** `bool`
+
+    1. `Terminal_GetImGuiStateColor`
+
+```angelscript
+cColor Terminal_GetImGuiStateColor(const tString &in asPropName,
+                                   const tString &in asVarName,
+                                   const cColor &in aDefault)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `aDefault` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+
+**Returns:** `cColor`
+
+    1. `Terminal_GetImGuiStateFloat`
+
+```angelscript
+float Terminal_GetImGuiStateFloat(const tString &in asPropName,
+                                  const tString &in asVarName,
+                                  float afDefault = 0.0f)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `afDefault` | `float` | — |
+
+**Returns:** `float`
+
+    1. `Terminal_GetImGuiStateInt`
+
+```angelscript
+int Terminal_GetImGuiStateInt(const tString &in asPropName,
+                              const tString &in asVarName,
+                              int alDefault = 0)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `alDefault` | `int` | — |
+
+**Returns:** `int`
+
+    1. `Terminal_GetImGuiStateVector3f`
+
+```angelscript
+cVector3f Terminal_GetImGuiStateVector3f(const tString &in asPropName,
+                                         const tString &in asVarName,
+                                         const cVector3f &in avDefault)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `avDefault` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `Terminal_IncImGuiStateColor`
+
+```angelscript
+void Terminal_IncImGuiStateColor(const tString &in asPropName,
+                                 const tString &in asVarName,
+                                 const cColor &in aVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `aVal` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_IncImGuiStateFloat`
+
+```angelscript
+void Terminal_IncImGuiStateFloat(const tString &in asPropName,
+                                 const tString &in asVarName,
+                                 float afVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `afVal` | `float` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_IncImGuiStateInt`
+
+```angelscript
+void Terminal_IncImGuiStateInt(const tString &in asPropName,
+                               const tString &in asVarName,
+                               int alVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `alVal` | `int` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_IncImGuiStateVector3f`
+
+```angelscript
+void Terminal_IncImGuiStateVector3f(const tString &in asPropName,
+                                    const tString &in asVarName,
+                                    const cVector3f &in avVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `avVal` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_IsGuiActive`
+
+```angelscript
+bool Terminal_IsGuiActive(const tString &in asName)
+```
+
+Get if the terminal GUI is active.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of terminal. |
+
+**Returns:** `bool`
+
+    1. `Terminal_SetAllowInteraction`
+
+```angelscript
+void Terminal_SetAllowInteraction(const tString &in asName,
+                                  bool abX)
+```
+
+Set if the terminal should allow interaction from player
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of terminal. Wildcards are allowed. |
+| `abX` | `bool` | if interactions are allowed or not |
+
+**Returns:** `void`
+
+    1. `Terminal_SetEnterCallback`
+
+```angelscript
+void Terminal_SetEnterCallback(const tString &in asName,
+                               const tString &in asCallback)
+```
+
+Set the terminal's Enter callback  
+Syntax for callback function: void FuncName(const tString&in asEntityName)
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of terminal. |
+| `asCallback` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | Callback called when entering terminal. |
+
+**Returns:** `void`
+
+    1. `Terminal_SetFPSWhenIdle`
+
+```angelscript
+void Terminal_SetFPSWhenIdle(const tString &in asName,
+                             float afFPS)
+```
+
+Sets the FPS of the terminal when not in focus.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of terminal. |
+| `afFPS` | `float` | times/second to update the terminal when not in focus. |
+
+**Returns:** `void`
+
+    1. `Terminal_SetGuiActive`
+
+```angelscript
+void Terminal_SetGuiActive(const tString &in asName,
+                           bool abX,
+                           float afFadeTime = 0.0f)
+```
+
+Set if the terminal should visible. If off, the offline color is used.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of terminal. Wildcards are allowed. |
+| `abX` | `bool` | if the GUI should be active or not. |
+| `afFadeTime` | `float` | time the GUI will be fading in/out (in seconds). |
+
+**Returns:** `void`
+
+    1. `Terminal_SetImGuiStateBool`
+
+```angelscript
+void Terminal_SetImGuiStateBool(const tString &in asPropName,
+                                const tString &in asVarName,
+                                bool abVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `abVal` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_SetImGuiStateColor`
+
+```angelscript
+void Terminal_SetImGuiStateColor(const tString &in asPropName,
+                                 const tString &in asVarName,
+                                 const cColor &in aVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `aVal` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_SetImGuiStateFloat`
+
+```angelscript
+void Terminal_SetImGuiStateFloat(const tString &in asPropName,
+                                 const tString &in asVarName,
+                                 float afVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `afVal` | `float` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_SetImGuiStateInt`
+
+```angelscript
+void Terminal_SetImGuiStateInt(const tString &in asPropName,
+                               const tString &in asVarName,
+                               int alVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `alVal` | `int` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_SetImGuiStateVector3f`
+
+```angelscript
+void Terminal_SetImGuiStateVector3f(const tString &in asPropName,
+                                    const tString &in asVarName,
+                                    const cVector3f &in avVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `avVal` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_SetLeaveCallback`
+
+```angelscript
+void Terminal_SetLeaveCallback(const tString &in asName,
+                               const tString &in asCallback)
+```
+
+Set the terminal's Leave callback  
+Syntax for callback function: void FuncName(const tString&in asEntityName)
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of terminal. |
+| `asCallback` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | Callback called when leaving terminal. |
+
+**Returns:** `void`
+
+    1. `Terminal_SetOnGuiFunction`
+
+```angelscript
+void Terminal_SetOnGuiFunction(const tString &in asName,
+                               const tString &in asCallback)
+```
+
+Set the terminal's GUI method
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of terminal. |
+| `asCallback` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | terminal update method, prototype 	void OnGUI(const tString &in asEntityName, float afTimeStep) |
+
+**Returns:** `void`
+
+    1. `Terminal_SetShowMouse`
+
+```angelscript
+void Terminal_SetShowMouse(const tString &in asPropName,
+                           bool abShow)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `abShow` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `Terminal_SetUpdateWhenOutOfView`
+
+```angelscript
+void Terminal_SetUpdateWhenOutOfView(const tString &in asName,
+                                     bool abX)
+```
+
+Set if the terminal should update when not visible. Use sparingly.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of terminal. |
+| `abX` | `bool` | if it should update when not visible. |
+
+**Returns:** `void`
+
+    1. `Terminal_StopImGuiFade`
+
+```angelscript
+void Terminal_StopImGuiFade(const tString &in asPropName,
+                            const tString &in asVarName)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPropName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asVarName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Terminal](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Terminal)
+- Revision: `5053`
+- Source update: `2020-08-24T20:59:59Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

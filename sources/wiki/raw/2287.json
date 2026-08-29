@@ -1,0 +1,14 @@
+{
+  "pageid": 2287,
+  "title": "HPL3/SOMA/Scripting/eBillboardType",
+  "missing": false,
+  "redirect": false,
+  "length": 525,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3767,
+  "revisionTimestamp": "2020-08-06T14:33:26Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eBillboardType_Point</code> || <code>0</code> ||\n|-\n| <code>eBillboardType_Axis</code> || <code>1</code> ||\n|-\n| <code>eBillboardType_FixedAxis</code> || <code>2</code> ||\n|-\n| <code>eBillboardType_LastEnum</code> || <code>3</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eBillboardType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eBillboardType"
+}

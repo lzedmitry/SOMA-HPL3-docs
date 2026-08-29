@@ -1,0 +1,14 @@
+{
+  "pageid": 2368,
+  "title": "HPL3/SOMA/Scripting/ePixelFormat",
+  "missing": false,
+  "redirect": false,
+  "length": 2030,
+  "touched": "2020-08-27T22:05:51Z",
+  "revisionId": 3848,
+  "revisionTimestamp": "2020-08-06T14:50:21Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>ePixelFormat_Unknown</code> || <code>0</code> ||\n|-\n| <code>ePixelFormat_Alpha</code> || <code>1</code> ||\n|-\n| <code>ePixelFormat_Luminance</code> || <code>2</code> ||\n|-\n| <code>ePixelFormat_LuminanceAlpha</code> || <code>3</code> ||\n|-\n| <code>ePixelFormat_RGB</code> || <code>4</code> ||\n|-\n| <code>ePixelFormat_RGBA</code> || <code>5</code> ||\n|-\n| <code>ePixelFormat_BGR</code> || <code>6</code> ||\n|-\n| <code>ePixelFormat_BGRA</code> || <code>7</code> ||\n|-\n| <code>ePixelFormat_DXT1</code> || <code>8</code> ||\n|-\n| <code>ePixelFormat_DXT2</code> || <code>9</code> ||\n|-\n| <code>ePixelFormat_DXT3</code> || <code>10</code> ||\n|-\n| <code>ePixelFormat_DXT4</code> || <code>11</code> ||\n|-\n| <code>ePixelFormat_DXT5</code> || <code>12</code> ||\n|-\n| <code>ePixelFormat_3DC</code> || <code>13</code> ||\n|-\n| <code>ePixelFormat_Depth16</code> || <code>14</code> ||\n|-\n| <code>ePixelFormat_Depth24</code> || <code>15</code> ||\n|-\n| <code>ePixelFormat_Depth32</code> || <code>16</code> ||\n|-\n| <code>ePixelFormat_Alpha16</code> || <code>17</code> ||\n|-\n| <code>ePixelFormat_Luminance16</code> || <code>18</code> ||\n|-\n| <code>ePixelFormat_LuminanceAlpha16</code> || <code>19</code> ||\n|-\n| <code>ePixelFormat_RG16</code> || <code>21</code> ||\n|-\n| <code>ePixelFormat_RGB16</code> || <code>22</code> ||\n|-\n| <code>ePixelFormat_RGBA16</code> || <code>23</code> ||\n|-\n| <code>ePixelFormat_Alpha32</code> || <code>24</code> ||\n|-\n| <code>ePixelFormat_Luminance32</code> || <code>25</code> ||\n|-\n| <code>ePixelFormat_LuminanceAlpha32</code> || <code>26</code> ||\n|-\n| <code>ePixelFormat_RGB32</code> || <code>27</code> ||\n|-\n| <code>ePixelFormat_RGBA32</code> || <code>28</code> ||\n|-\n| <code>ePixelFormat_LastEnum</code> || <code>31</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/ePixelFormat",
+  "requestedTitle": "HPL3/SOMA/Scripting/ePixelFormat"
+}

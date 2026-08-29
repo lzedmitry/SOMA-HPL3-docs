@@ -1,0 +1,14 @@
+{
+  "pageid": 2634,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/LensFlare",
+  "missing": false,
+  "redirect": false,
+  "length": 925,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5035,
+  "revisionTimestamp": "2020-08-24T20:55:13Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|void|[[#LensFlare_SetVisible|LensFlare_SetVisible]](const [[../../tString|tString]] &in asLensFlareName, bool abVisible)|Sets if a lens flare should be rendered or not}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|LensFlare_SetVisible}}\n<syntaxhighlight lang=\"c++\">void LensFlare_SetVisible(const tString &in asLensFlareName,\n                          bool abVisible)</syntaxhighlight>\n{{CodeDocDetailBody|Sets if a lens flare should be rendered or not.}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asLensFlareName|[[../../tString|tString]]|name of lens flare. Can contain wildcards.}}\n{{CodeDocDetailParam|abVisible|bool|if the lens flare should be visible or not.}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/LensFlare",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/LensFlare"
+}

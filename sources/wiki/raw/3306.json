@@ -1,0 +1,14 @@
+{
+  "pageid": 3306,
+  "title": "HPL3/Areas/PlayerStart Area",
+  "missing": false,
+  "redirect": false,
+  "length": 515,
+  "touched": "2024-01-25T19:26:33Z",
+  "revisionId": 6729,
+  "revisionTimestamp": "2024-01-25T19:26:33Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "= PlayerStart Area =\n\n== Overview ==\n\nThe PlayerStart Area is an area that a player can start at or return to in a map. \nThis entity can be referenced by the main_init.cfg file in a mod directory to be the PlayerStart area that a player starts at when loading into a new game.\n\n{{tip|Clicking to create the area instead of dragging the boundaries of the area will automatically generate a correctly scaled volume.}}\n\n== Properties ==\n\n=== Crouching ===\nCauses the player to be crouched when spawning at this entity.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/PlayerStart_Area",
+  "requestedTitle": "HPL3/Areas/PlayerStart Area"
+}

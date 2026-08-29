@@ -1,0 +1,180 @@
+---
+title: Button
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Button"
+sourceRevision: 5012
+sourceUpdated: "2020-08-24T20:45:58Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - api
+---
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Summary
+| Return | Function | Description |
+| --- | --- | --- |
+| `void` | [`Button_Blink`](#button-blink)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName) | Makes the button blink in accordance to how it is set up in the ent file |
+| `bool` | [`Button_IsDisabled`](#button-isdisabled)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName) | Checks if the button is disabled (will not light up or respond to presses) |
+| `bool` | [`Button_IsLocked`](#button-islocked)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName) | Checks if the button is locked |
+| `bool` | [`Button_IsSwitchedOn`](#button-isswitchedon)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName) | Returns true if button is currently switched on |
+| `void` | [`Button_SetCanBeSwitchedOff`](#button-setcanbeswitchedoff)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, bool abState) | Sets if the button can be switched off by the player or not |
+| `void` | [`Button_SetCanBeSwitchedOn`](#button-setcanbeswitchedon)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, bool abState) | Sets if the button can be switched on by the player or not |
+| `void` | [`Button_SetDisabled`](#button-setdisabled)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, bool abState, bool abUseEffects = true) | Sets the buttons disabled state |
+| `void` | [`Button_SetLocked`](#button-setlocked)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, bool abState, bool abUseEffects = true) | Sets the button's locked state |
+| `void` | [`Button_SetSwitchedOn`](#button-setswitchedon)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, bool abState, bool abEffects) | Switches a button on/off |
+
+## Function Detail
+    1. `Button_Blink`
+
+```angelscript
+void Button_Blink(const tString &in asName)
+```
+
+Makes the button blink in accordance to how it is set up in the ent file.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of button. |
+
+**Returns:** `void`
+
+    1. `Button_IsDisabled`
+
+```angelscript
+bool Button_IsDisabled(const tString &in asName)
+```
+
+Checks if the button is disabled (will not light up or respond to presses).
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of button. |
+
+**Returns:** `bool` — true = disabled, false = enabled.
+
+    1. `Button_IsLocked`
+
+```angelscript
+bool Button_IsLocked(const tString &in asName)
+```
+
+Checks if the button is locked.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of button. |
+
+**Returns:** `bool` — true = locked, false = unlocked.
+
+    1. `Button_IsSwitchedOn`
+
+```angelscript
+bool Button_IsSwitchedOn(const tString &in asName)
+```
+
+Returns true if button is currently switched on.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of button. |
+
+**Returns:** `bool` — if the button is switched on.
+
+    1. `Button_SetCanBeSwitchedOff`
+
+```angelscript
+void Button_SetCanBeSwitchedOff(const tString &in asName,
+                                bool abState)
+```
+
+Sets if the button can be switched off by the player or not
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of button. |
+| `abState` | `bool` | true = can be switched off - false = can't be switched off. |
+
+**Returns:** `void`
+
+    1. `Button_SetCanBeSwitchedOn`
+
+```angelscript
+void Button_SetCanBeSwitchedOn(const tString &in asName,
+                               bool abState)
+```
+
+Sets if the button can be switched on by the player or not
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of button. |
+| `abState` | `bool` | true = can be switched on - false = can't be switched on. |
+
+**Returns:** `void`
+
+    1. `Button_SetDisabled`
+
+```angelscript
+void Button_SetDisabled(const tString &in asName,
+                        bool abState,
+                        bool abUseEffects = true)
+```
+
+Sets the buttons disabled state
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of button. |
+| `abState` | `bool` | true = disabled, false = not disabled |
+| `abUseEffects` | `bool` | if color should fade in or be set instantly. |
+
+**Returns:** `void`
+
+    1. `Button_SetLocked`
+
+```angelscript
+void Button_SetLocked(const tString &in asName,
+                      bool abState,
+                      bool abUseEffects = true)
+```
+
+Sets the button's locked state
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of button. |
+| `abState` | `bool` | true = locked, false = unlocked. |
+| `abUseEffects` | `bool` | if color should fade in or be set instantly. |
+
+**Returns:** `void`
+
+    1. `Button_SetSwitchedOn`
+
+```angelscript
+void Button_SetSwitchedOn(const tString &in asName,
+                          bool abState,
+                          bool abEffects)
+```
+
+Switches a button on/off.  
+the change will not be apparent to the player.
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | name of button. |
+| `abState` | `bool` | true = on - false = off. |
+| `abEffects` | `bool` | if the change should activate effects associated with it. If false, |
+
+**Returns:** `void`
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Button](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Button)
+- Revision: `5012`
+- Source update: `2020-08-24T20:45:58Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -1,0 +1,50 @@
+---
+title: Working with Materials
+description: "In HPL3, materials are used on every 3D object, be it a model, entity, terrain or even a 2D plane. Materials are created using the Material Editor, and then assigned to the 3D object. There are several ways to assign a m"
+category: materials
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Materials/Working_with_Materials"
+sourceRevision: 5335
+sourceUpdated: "2020-09-09T06:31:02Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - materials
+---
+In HPL3, materials are used on every 3D object, be it a model, entity, terrain or even a 2D plane.
+Materials are created using the Material Editor, and then assigned to the 3D object. There are several ways to assign a material to a 3D object, depending on the type of object.
+
+## Assigning Materials to Entities
+In order to assign a material to an entity, you need to use the Model Editor. By selecting the mesh, you will have the option to add an existing `.mat` file.
+
+## Assigning Materials to Static Objects
+In order to assign a material to a static object, you need to make sure that:
+
+#The diffuse texture is assigned to the model file. For example, a `dae` file should have a texture assignment like so: 
+```
+  <library_images>
+    <image id="Map #1-image" name="Map #1">
+      <init_from>file://path_to_texture_file/my_texture_file.dds</init_from>
+    </image>
+  </library_images>
+```
+
+#The material file name must have the same name as the base texture file (diffuse). For example, if your texture file is called `my_texture_file.dds`, the material file should be named `my_texture_file.mat`. This way, the game will automatically know what material file to pick for the static object.
+
+  
+
+:::tip[Tip]
+Multiple static objects can reference to the same material file/texture if needed.
+:::
+
+## See More
+*[Static Objects](https://wiki.frictionalgames.com/page/HPL3/Modeling/Static_Objects)
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/Materials/Working with Materials](https://wiki.frictionalgames.com/page/HPL3/Materials/Working_with_Materials)
+- Revision: `5335`
+- Source update: `2020-09-09T06:31:02Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

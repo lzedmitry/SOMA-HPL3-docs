@@ -1,0 +1,14 @@
+{
+  "pageid": 2092,
+  "title": "HPL3/SOMA/Scripting/cLuxForceEmitter",
+  "missing": false,
+  "redirect": false,
+  "length": 2202,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3638,
+  "revisionTimestamp": "2020-08-06T13:54:10Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncLuxForceEmitter has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || FadeIn || <syntaxhighlight lang=\"c++\" inline>float afTime</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || FadeOut || <syntaxhighlight lang=\"c++\" inline>float afTime</syntaxhighlight> ||\n|-\n| [[../iLuxEntity|<syntaxhighlight lang=\"c++\" inline>iLuxEntity@</syntaxhighlight>]] || GetEntity ||   ||\n|-\n| [[../eLuxEntityComponentType|<syntaxhighlight lang=\"c++\" inline>eLuxEntityComponentType</syntaxhighlight>]] || GetType ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsActive ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetActive || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetCharacterBody || [[../iCharacterBody|<syntaxhighlight lang=\"c++\" inline>iCharacterBody@ apCharBody</syntaxhighlight>]],<br />[[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& avOffset</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>bool abAtFoot</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetForce || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetFreq || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetMaxForceSpeed || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetMinForceSpeed || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetRadius || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxForceEmitter",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLuxForceEmitter"
+}

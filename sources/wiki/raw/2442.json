@@ -1,0 +1,15 @@
+{
+  "pageid": 2442,
+  "title": "HPL3/Scripting/Scripting Guide/The Basics - Introduction",
+  "missing": false,
+  "redirect": false,
+  "length": 1946,
+  "touched": "2026-07-29T23:55:12Z",
+  "revisionId": 4354,
+  "revisionTimestamp": "2020-08-14T23:20:25Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{note|'''Important:''' This guide only overviews the main and most commonly-used features of HPL3's scripting capabilities. It does not delve into the inner workings or into the full capabilities of the engine. You can read about a specific topic in more detail at the main scripting page of the game you are working with. Please see this guide as a springboard into HPL3 scripting.}}\n{{shortPageTitle}}\n{{Hpl3ScriptingGuideMenuBasic}}\n{| style=\"border:0px;\" cellspacing=\"0\"\n|- valign=\"top\"\n| style=\"padding-right:0.2em\" |\n'''Welcome to the scripting guide for the HPL3 Engine.'''\n\nThe guide is split into two sections: Basics and Advanced.\n\n*The basic section touches on how to set up the tools necessary for scripting and coverage of commonly-used features: The workflow of scripting in HPL3, how to script your maps, callbacks, timers, etc.\n*The advanced section touches on subjects beyond map scripting such as Modules and Ai.\n\n'''Bear in mind that this tutorial mostly covers the most essential things you need to know in order to script your maps.'''\n\n==Prerequisites==\nThere are a few necessary things you need to know before getting into this guide:\n#The scripting language of HPL3 is called '''AngelScript''', which is similar to some of the more popular programming languages. If you have ''zero'' programming knowledge, you should start with the [[HPL3/Scripting/AngelScript_Fundamentals|AngelScript Fundamentals]] guide, and read '''<u>at least the first five chapters</u>.'''\n#You should know how to create or edit a basic mod for one of the HPL3 games:\n#*[[HPL3/SOMA/Modding/Creating_a_Mod| Creating a Mod]] - SOMA\n#*[[HPL3/Amnesia: Rebirth/Modding/Creating_a_Mod| Creating a Mod]] - Amnesia: Rebirth\n| style=\"width:0.1%\" |\n|}\n{{NavBar|||HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide|HPL3/Scripting/Scripting Guide/What is scripting in HPL3?|What is scripting in HPL3?}}\n\n[[Category:HPL3 Scripting]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/The_Basics_-_Introduction",
+  "requestedTitle": "HPL3/Scripting/The Basics - Introduction",
+  "resolvedTitle": "HPL3/Scripting/Scripting Guide/The Basics - Introduction"
+}

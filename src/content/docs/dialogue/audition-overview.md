@@ -1,0 +1,83 @@
+---
+title: Audition Overview
+description: "= Best Practices ="
+category: dialogue
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Audition/Audition_Overview"
+sourceRevision: 7177
+sourceUpdated: "2026-07-30T22:25:31Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - dialogue
+---
+= Best Practices =
+
+Here are a few practices that should be used when adding voices in the game:
+
+**- Sound effects are between *:s **  
+When adding sound effects, like *gasp*, *pants*, *cries*, etc then always put them between *:s. This way we can easily remove them for people that do not want the hearing impaired option.
+
+**- Pure sound effects is a separate line**  
+When implementing a subject that contains parts where there is only (non character related) sound effects playing you shall add this as Line on its own. The character containing it shall be called "_SoundEffect". If the sound effects need to come from special position in the world, then do add a "_" followed by a prefix to the name, for instance "_SoundEffect_Trees" (this should be pretty rare though and these sort of effects are better added through callback functions, but there might be some rare instance that require it).
+
+Important note is that this only meant for sound effects that are not specific to a character voice. Examples:  
+Do **NOT** use it for: *cough*, *clears throat*, *spits*, etc.  
+**DO** use it for: *steps are heard coming down the stairs*, *large metal door opens*, *Anne carefully steps on the creaking floor*, etc.  
+
+**- All protagonist dialog come from the character "Player"**  
+Make sure that all the dialog that the player is supposed to say outloud comes from the character "Player", as this allow the game to not play breathing, etc when a voice over from the player character is playing.
+
+**- Use proper prefix for subjects**  
+Have prefixes on the subjects that give some hint where they belong and make it easier to sort. For instance a blackbox subject should start with "Blackbox_", eg "Blackbox_FriedRobot". Another examples would be a situation that many subjects belong. Say Simon meets a farmer and there is a lot of subjects related to this, then use the prefix "SimonMeetsFarmer_", eg "SimonMeetsFarmer_Intro".
+
+This is also true for special characters, for instance when a certain character speak in a recording. So for instnace a character that appears in a SOMA blackbox message (that does not come from a world position), should have "Blackbox_" as prefix, eg "Blackbox_Amy".
+
+**- Write temp dialog in square brackets**  
+If you add some writing that is only temporary then add this between square brackets. Also briefly summarize what is supposed to be going on, or what the is supposed to be expressed. Examples:  
+[Player gets his finger caught in bear trap]  
+[Hint that the screw needs to be bigger]  
+
+If you need to have further info that feels wrong to show in-game then you can add extra info under the line direction, but make sure to start the line with INFO:, so it is not confused with proper line direction. Examples:  
+INFO: The player tries to hold the pain inside.  
+INFO: The solution is to use the file on the screw, can have slight hint for that.  
+= File Format =
+
+(You shouldn't need this - everything can be edited using the VoiceHandler exe!)
+
+```
+<VoiceData>
+  <Characters>
+    <Character [Properties] />
+    ...
+  </Characters>
+  <Effects>
+    <Effect [Properties] />
+    ...
+  </Effects>
+  <Scenes>
+    <Scene [Properties] />
+    ...
+  </Scenes>
+  <Subjects>
+    <Subject [Properties] >
+      <Line [Properties] >
+        <Sound [Properties] />
+        ...
+      </Line>
+      ...
+    </Subject>
+  </Subjects>
+</VoiceData>
+```
+
+For information on the Properties that can be used, see Properties section above.
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Audition/Audition Overview](https://wiki.frictionalgames.com/page/HPL3/SOMA/Audition/Audition_Overview)
+- Revision: `7177`
+- Source update: `2026-07-30T22:25:31Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

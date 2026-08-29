@@ -1,0 +1,14 @@
+{
+  "pageid": 2349,
+  "title": "HPL3/SOMA/Scripting/eLuxEntityMessage",
+  "missing": false,
+  "redirect": false,
+  "length": 1774,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3829,
+  "revisionTimestamp": "2020-08-06T14:46:49Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eLuxEntityMessage_MoveToPos</code> || <code>0</code> ||\n|-\n| <code>eLuxEntityMessage_StuckCounterIsAtMax</code> || <code>1</code> ||\n|-\n| <code>eLuxEntityMessage_EndOfPath</code> || <code>2</code> ||\n|-\n| <code>eLuxEntityMessage_AnimationOver</code> || <code>3</code> ||\n|-\n| <code>eLuxEntityMessage_SoundHeard</code> || <code>4</code> ||\n|-\n| <code>eLuxEntityMessage_TurningDone</code> || <code>5</code> ||\n|-\n| <code>eLuxEntityMessage_StopTurning</code> || <code>6</code> ||\n|-\n| <code>eLuxEntityMessage_ProceduralAnimPause</code> || <code>7</code> ||\n|-\n| <code>eLuxEntityMessage_PlayerDetected</code> || <code>8</code> ||\n|-\n| <code>eLuxEntityMessage_PlayerUndetected</code> || <code>9</code> ||\n|-\n| <code>eLuxEntityMessage_PlayerDead</code> || <code>10</code> ||\n|-\n| <code>eLuxEntityMessage_AtTrackNode</code> || <code>11</code> ||\n|-\n| <code>eLuxEntityMessage_EndOfTrack</code> || <code>12</code> ||\n|-\n| <code>eLuxEntityMessage_AnimationMessageEvent</code> || <code>13</code> ||\n|-\n| <code>eLuxEntityMessage_TransformUpdated</code> || <code>14</code> ||\n|-\n| <code>eLuxEntityMessage_TakeDamage</code> || <code>15</code> ||\n|-\n| <code>eLuxEntityMessage_HitByProp</code> || <code>16</code> ||\n|-\n| <code>eLuxEntityMessage_SensesDeactivated</code> || <code>17</code> ||\n|-\n| <code>eLuxEntityMessage_NearDoor</code> || <code>18</code> ||\n|-\n| <code>eLuxEntityMessage_ForceToPosition</code> || <code>19</code> ||\n|-\n| <code>eLuxEntityMessage_LastEnum</code> || <code>20</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxEntityMessage",
+  "requestedTitle": "HPL3/SOMA/Scripting/eLuxEntityMessage"
+}

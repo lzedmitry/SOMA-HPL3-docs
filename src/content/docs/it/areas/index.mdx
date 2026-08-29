@@ -1,0 +1,111 @@
+---
+title: "Areas e trigger"
+description: "Un’Area è un volume invisibile. È il sistema di input/output principale dei livelli HPL3."
+category: areas
+translation:
+  locale: it
+  sourceLocale: en
+  sourceRevision: 1
+  translationRevision: 1
+  status: current
+---
+
+Un’**Area** è un cuboide invisibile nel livello. L’hub Areas originale chiama le Area il sistema di input/output principale di HPL3.
+
+<p class="section-kicker">03 // AREAS &nbsp; REF 03.10</p>
+
+Usale quando qualcosa deve succedere perché il giocatore (o un’altra Entity) è entrato in un volume, ha guardato qualcosa, o perché il volume stesso è un effetto (fog, soundscape, exposure).
+
+:::caution[SOURCE STATUS: WIP]
+L’hub Areas SOMA originale è marked as undergoing major editing. Diversi tipi sono elencati ma non hanno articolo (redlink). I parametri non sono inventati qui.
+:::
+
+## Workflow tipico
+
+1. Piazza l’Area nel Level Editor (strumento Areas).
+2. Dallle un nome. Nome semplice; gli script la cercano per nome.
+3. Compila le proprietà che il tipo documenta davvero (collide callbacks, attachment, look-at, campi specifici).
+4. Se spara script, metti il callback sulla `.hps` della mappa (o un helper file).
+5. Testa in-game. Se non parte mai: note collide-callback di [Trigger Area](/it/areas/trigger-area/) e [Troubleshooting](/it/debugging/).
+
+Helper file nominato dall’articolo Trigger: `helper_area.hps`. Le **pagine** helper dedicate sono redlink; vedi [Helpers](/it/scripting/helpers/).
+
+## Core
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/it/areas/playerstart-area/">PlayerStart</a><span>Player spawn position.</span></div>
+<div class="catalog-row"><a href="/it/areas/trigger-area/">Trigger</a><span>Generic callback volume. Start here.</span></div>
+<div class="catalog-row"><a href="/it/areas/doorwaytrigger-area/">DoorwayTrigger</a><span>Doorway-related trigger volume.</span></div>
+<div class="catalog-row"><a href="/it/areas/pathnode-area/">PathNode</a><span>AI path node.</span></div>
+<div class="catalog-row"><a href="/it/areas/sticky-area/">Sticky</a><span>Attaches bodies. FAQ: wait a timer before making the body a static collider.</span></div>
+<div class="catalog-row"><a href="/it/areas/interactaux-area/">InteractAux</a><span>Auxiliary interaction volume.</span></div>
+</div>
+
+
+## Environment
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/it/areas/fog-area/">Fog</a><span>Local fog. Also level-wide fog in Level Settings.</span></div>
+<div class="catalog-row"><a href="/it/areas/soundscape-area/">Soundscape</a><span>Local soundscape. See Audio.</span></div>
+<div class="catalog-row"><a href="/it/areas/camera-animation-area/">Camera Animation</a><span>Camera animation volume.</span></div>
+<div class="catalog-row"><a href="/it/areas/ambient-light-area/">Ambient Light</a><span>Local ambient light volume.</span></div>
+<div class="catalog-row"><span>Liquid <span class="legacy-tag">Wiki redlink</span></span><span>Listed on the hub. No article.</span></div>
+<div class="catalog-row"><span>Exposure <span class="legacy-tag">Wiki redlink</span></span><span>Related: <a href="/it/level-building/exposure-areas/">Exposure Areas (level design)</a>.</span></div>
+</div>
+
+
+## Player
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/it/areas/climb-area/">Climb</a><span>Climb volume.</span></div>
+<div class="catalog-row"><a href="/it/areas/crawl-area/">Crawl</a><span>Crawl volume.</span></div>
+<div class="catalog-row"><a href="/it/areas/hide-area/">Hide</a><span>Hide volume.</span></div>
+<div class="catalog-row"><a href="/it/areas/ladder-area/">Ladder</a><span>Ladder volume.</span></div>
+<div class="catalog-row"><a href="/it/areas/zoom-area/">Zoom</a><span>Zoom volume.</span></div>
+</div>
+
+
+## Technical
+
+<div class="catalog-group">
+<div class="catalog-row"><span>Visibility <span class="legacy-tag">Wiki redlink</span></span><span>Listed on the hub. No article.</span></div>
+<div class="catalog-row"><span>VisibilityPortal <span class="legacy-tag">Wiki redlink</span></span><span>Listed on the hub. No article.</span></div>
+<div class="catalog-row"><span>MapTransfer <span class="legacy-tag">Wiki redlink</span></span><span>Listed on the hub. No article.</span></div>
+</div>
+
+
+## SOMA
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/it/areas/tool-area/">Tool</a><span>SOMA tool interaction volume.</span></div>
+<div class="catalog-row"><span>Sit <span class="legacy-tag">Wiki redlink</span></span><span>Game-specific Area. No article.</span></div>
+<div class="catalog-row"><a href="/it/areas/distortion-area/">Distortion</a><span>SOMA distortion volume.</span></div>
+<div class="catalog-row"><a href="/it/areas/datamine-area/">Datamine</a><span>SOMA datamine volume.</span></div>
+<div class="catalog-row"><a href="/it/areas/agentrepel-area/">AgentRepel</a><span>Repels agents.</span></div>
+</div>
+
+
+## Legacy / unused
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/it/areas/description-area/">Description</a><span>Marked unused on the hub. Page exists.</span></div>
+<div class="catalog-row"><span>DatamineAudioSource <span class="legacy-tag">Unused, redlink</span></span><span>Listed unused. No article.</span></div>
+<div class="catalog-row"><span>DatamineAnimNode <span class="legacy-tag">Unused, redlink</span></span><span>Listed unused. No article.</span></div>
+<div class="catalog-row"><span>PosNode <span class="legacy-tag">Unused, redlink</span></span><span>Listed unused. No article.</span></div>
+<div class="catalog-row"><span>Rope <span class="legacy-tag">Unused, redlink</span></span><span>Listed unused. No article.</span></div>
+</div>
+
+
+## Correlati
+
+- [Scripting](/it/scripting/)
+- [Common patterns](/it/scripting/common-patterns/)
+- [Soundscape and audio](/it/audio/)
+- [Level settings (global fog)](/it/level-editor/level-settings/)
+- [Recipe: enter an Area](/it/recipes/enter-area/)
+
+## Fonti
+
+- [HPL3/SOMA/Areas](https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas)
+- Individual `HPL3/Areas/*` and `HPL3/SOMA/Areas/*` articles
+

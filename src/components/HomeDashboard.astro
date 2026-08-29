@@ -1,0 +1,129 @@
+---
+import { getDocsStats } from "../lib/docs-stats";
+import { appLocale, localeHref } from "../lib/locale";
+import { homeCopy, refSmall } from "../lib/home-copy";
+import { t } from "../lib/ui-strings";
+
+const locale = appLocale(Astro.locals.starlightRoute.locale);
+const copy = homeCopy(locale);
+const stats = getDocsStats();
+const b = (slug: string) => localeHref(slug.replace(/\/$/, ""), locale);
+---
+
+<div class="home-shell">
+  <header class="home-mast">
+    <p class="home-kicker">
+      <span>{copy.kicker}</span>
+      <span class="unofficial-flag">{t("unofficial", locale)}</span>
+    </p>
+    <p class="home-facility">{copy.facility}</p>
+    <div class="home-title-row">
+      <h1 set:html={copy.titleHtml} />
+      <span class="home-ref">REF 00.01</span>
+    </div>
+    <p class="home-lede">{copy.lede}</p>
+  </header>
+
+  <button type="button" class="search-launch" id="home-search" aria-keyshortcuts="/ Control+K Meta+K">
+    <span class="search-launch-label">{copy.search}</span>
+    <span class="search-launch-keys">
+      <kbd>/</kbd>
+      <kbd>Ctrl</kbd><kbd>K</kbd>
+    </span>
+  </button>
+
+  <nav class="jump-row" aria-label="Primary jumps">
+    <a href={b("start")}>{copy.jumpStart}</a>
+    <a href={b("api")}>{copy.jumpApi}</a>
+    <a href={b("areas")}>{copy.jumpAreas}</a>
+    <a href={b("debugging")}>{copy.jumpDebug}</a>
+  </nav>
+
+  <section class="home-section">
+    <h2>{t("learnYourWay", locale)}</h2>
+    <nav class="learn-way" aria-label={t("learnYourWay", locale)}>
+      <a href={b("start")}>{t("documentation", locale)}</a>
+      <a href={b("videos")}>{t("videoGuides", locale)}</a>
+      <a href={b("api")}>{t("apiReference", locale)}</a>
+    </nav>
+  </section>
+
+  <section class="home-section">
+    <h2>{copy.startHere}</h2>
+    <ol class="path-ol">
+      {
+        copy.steps.map((step) => (
+          <li>
+            <div>
+              <a href={b(step.href)}>{step.title}</a>
+              <small>{step.small}</small>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <section class="home-section">
+    <h2>{copy.iWantTo}</h2>
+    <div class="two-col">
+      {
+        copy.wants.map((item) => (
+          <a href={b(item.href)}>
+            {item.title}
+            <small>{item.small}</small>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="home-section">
+    <h2>{copy.reference}</h2>
+    <div class="two-col">
+      {
+        copy.refs.map((item) => (
+          <a href={b(item.href)}>
+            {item.title}
+            <small>
+              {item.smallKey === "api"
+                ? refSmall("api", locale, stats.apiFunctions)
+                : item.smallKey
+                  ? refSmall(item.smallKey, locale)
+                  : ""}
+            </small>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="home-section">
+    <h2>{copy.status}</h2>
+    <div class="stats-line">
+      <div>{stats.sourcePages} {t("wikiSources", locale)}</div>
+      <div>{stats.apiFunctions} {t("apiIndexed", locale)}</div>
+      <div>{stats.undocumented} {t("undocumentedApi", locale)}</div>
+      <div>{stats.wip} {t("wipPages", locale)}</div>
+      <div>{t("lastSync", locale)}: {stats.syncedAt}</div>
+      <div>{t("imagesNote", locale)}</div>
+    </div>
+  </section>
+</div>
+
+<script>
+  function openSiteSearch(event?: Event) {
+    event?.preventDefault();
+    event?.stopPropagation();
+    const dialog = document.querySelector("site-search dialog") as HTMLDialogElement | null;
+    if (dialog?.open) return;
+    window.dispatchEvent(new KeyboardEvent("keydown", { key: "k", ctrlKey: true, bubbles: true }));
+  }
+  document.getElementById("home-search")?.addEventListener("click", openSiteSearch);
+  document.getElementById("home-search")?.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      openSiteSearch(event);
+    }
+  });
+</script>

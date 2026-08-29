@@ -1,0 +1,14 @@
+{
+  "pageid": 2703,
+  "title": "HPL3/Particles",
+  "missing": false,
+  "redirect": false,
+  "length": 1184,
+  "touched": "2026-07-30T22:16:46Z",
+  "revisionId": 5492,
+  "revisionTimestamp": "2020-11-06T20:39:10Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{constructionNotice|This category is undergoing major editing, as information about different articles is still being gathered and researched. More pages and information will gradually be added.}}\n\n'''This category deals with the HPL3 Particle Editor and deals with creating and using particles.'''\n{{CategoryHeader}}\n{{CategoryNewcolumn}}\n\n== Getting Started ==\n* [[HPL3/Particles/Particles Overview|Particles Overview]]\n\n== General ==\n* [[HPL3/Particles/Working with Particles|Working with Particles]]\n\n== Particle Editor ==\n* [[HPL3/Particles/Particle Editor View|Particle Editor View]]\n* [[HPL3/Particles/Particle Editor Controls|Particle Editor Controls]]\n* [[HPL3/Particles/Emitter Management|Emitter Management]]\n* [[HPL3/Particles/Particle General|Particle General]]\n* [[HPL3/Particles/Particle Start|Particle Start]]\n* [[HPL3/Particles/Particle Movement|Particle Movement]]\n* [[HPL3/Particles/Particle Rendering|Particle Rendering]]\n* [[HPL3/Particles/Particle Color|Particle Color]]\n* [[HPL3/Particles/Particle Rotation|Particle Rotation]]\n* [[HPL3/Particles/Particle Collision|Particle Collision]]\n\n{{CategoryEnd}}\n\n__NOTOC__\n\n[[Category:English]]\n[[Category:Entry pages]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles",
+  "requestedTitle": "HPL3/Particles"
+}

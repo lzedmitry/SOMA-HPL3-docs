@@ -1,0 +1,14 @@
+{
+  "pageid": 2314,
+  "title": "HPL3/SOMA/Scripting/eGraphicCaps",
+  "missing": false,
+  "redirect": false,
+  "length": 2205,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3794,
+  "revisionTimestamp": "2020-08-06T14:38:47Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eGraphicCaps_TextureTargetRectangle</code> || <code>0</code> ||\n|-\n| <code>eGraphicCaps_VertexBufferObject</code> || <code>1</code> ||\n|-\n| <code>eGraphicCaps_TwoSideStencil</code> || <code>2</code> ||\n|-\n| <code>eGraphicCaps_MaxTextureImageUnits</code> || <code>3</code> ||\n|-\n| <code>eGraphicCaps_MaxTextureCoordUnits</code> || <code>4</code> ||\n|-\n| <code>eGraphicCaps_MaxUserClipPlanes</code> || <code>5</code> ||\n|-\n| <code>eGraphicCaps_AnisotropicFiltering</code> || <code>8</code> ||\n|-\n| <code>eGraphicCaps_MaxAnisotropicFiltering</code> || <code>9</code> ||\n|-\n| <code>eGraphicCaps_Multisampling</code> || <code>10</code> ||\n|-\n| <code>eGraphicCaps_TextureCompression</code> || <code>11</code> ||\n|-\n| <code>eGraphicCaps_TextureCompression_DXTC</code> || <code>12</code> ||\n|-\n| <code>eGraphicCaps_TextureCompression_3DC</code> || <code>13</code> ||\n|-\n| <code>eGraphicCaps_GeometryInstancing</code> || <code>15</code> ||\n|-\n| <code>eGraphicCaps_AutoGenerateMipMaps</code> || <code>16</code> ||\n|-\n| <code>eGraphicCaps_RenderToTexture</code> || <code>17</code> ||\n|-\n| <code>eGraphicCaps_MaxDrawBuffers</code> || <code>18</code> ||\n|-\n| <code>eGraphicCaps_PackedDepthStencil</code> || <code>19</code> ||\n|-\n| <code>eGraphicCaps_TextureFloat</code> || <code>20</code> ||\n|-\n| <code>eGraphicCaps_PolygonOffset</code> || <code>21</code> ||\n|-\n| <code>eGraphicCaps_ShaderModel_2</code> || <code>22</code> ||\n|-\n| <code>eGraphicCaps_ShaderModel_3</code> || <code>23</code> ||\n|-\n| <code>eGraphicCaps_ShaderModel_4</code> || <code>24</code> ||\n|-\n| <code>eGraphicCaps_MaxShaderUniform_Vertex</code> || <code>25</code> ||\n|-\n| <code>eGraphicCaps_MaxShaderUniform_Fragment</code> || <code>26</code> ||\n|-\n| <code>eGraphicCaps_OGL_ATIFragmentShader</code> || <code>27</code> ||\n|-\n| <code>eGraphicCaps_MaxColorRenderTargets</code> || <code>28</code> ||\n|-\n| <code>eGraphicCaps_LastEnum</code> || <code>33</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGraphicCaps",
+  "requestedTitle": "HPL3/SOMA/Scripting/eGraphicCaps"
+}

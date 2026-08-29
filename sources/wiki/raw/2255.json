@@ -1,0 +1,14 @@
+{
+  "pageid": 2255,
+  "title": "HPL3/SOMA/Scripting/iScrEffect Interface",
+  "missing": false,
+  "redirect": false,
+  "length": 1329,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3926,
+  "revisionTimestamp": "2020-08-06T15:08:33Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\niScrEffect_Interface has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../cLuxEffect|<syntaxhighlight lang=\"c++\" inline>cLuxEffect@</syntaxhighlight>]] || GetBase ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || OnDestroy ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || OnDraw || <syntaxhighlight lang=\"c++\" inline>float afFrameTime</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || OnMapEnter || [[../cLuxMap|<syntaxhighlight lang=\"c++\" inline>cLuxMap@ apMap</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || OnMapLeave || [[../cLuxMap|<syntaxhighlight lang=\"c++\" inline>cLuxMap@ apMap</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || OnStart ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Reset ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Update || <syntaxhighlight lang=\"c++\" inline>float afTimeStep</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrEffect_Interface",
+  "requestedTitle": "HPL3/SOMA/Scripting/iScrEffect Interface"
+}

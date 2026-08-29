@@ -1,0 +1,14 @@
+{
+  "pageid": 2691,
+  "title": "HPL3/Materials/Working with Materials",
+  "missing": false,
+  "redirect": false,
+  "length": 1490,
+  "touched": "2020-09-09T06:31:02Z",
+  "revisionId": 5335,
+  "revisionTimestamp": "2020-09-09T06:31:02Z",
+  "revisionUser": "TiMan",
+  "wikitext": "In HPL3, materials are used on every 3D object, be it a model, entity, terrain or even a 2D plane.\nMaterials are created using the Material Editor, and then assigned to the 3D object. There are several ways to assign a material to a 3D object, depending on the type of object.\n\n==Assigning Materials to Entities==\nIn order to assign a material to an entity, you need to use the Model Editor. By selecting the mesh, you will have the option to add an existing <code>.mat</code> file.\n\n==Assigning Materials to Static Objects==\nIn order to assign a material to a static object, you need to make sure that:\n\n#The diffuse texture is assigned to the model file. For example, a <code>dae</code> file should have a texture assignment like so: <syntaxhighlight lang=\"xml\">\n  <library_images>\n    <image id=\"Map #1-image\" name=\"Map #1\">\n      <init_from>file://path_to_texture_file/my_texture_file.dds</init_from>\n    </image>\n  </library_images>\n</syntaxhighlight>\n#The material file name must have the same name as the base texture file (diffuse). For example, if your texture file is called <code>my_texture_file.dds</code>, the material file should be named <code>my_texture_file.mat</code>. This way, the game will automatically know what material file to pick for the static object.\n\n<br>\n{{tip|Multiple static objects can reference to the same material file/texture if needed.}}\n\n==See More==\n\n*[[HPL3/Modeling/Static_Objects|Static Objects]]\n\n[[Category:HPL3 Materials]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Materials/Working_with_Materials",
+  "requestedTitle": "HPL3/Materials/Working with Materials"
+}

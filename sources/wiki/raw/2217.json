@@ -1,0 +1,14 @@
+{
+  "pageid": 2217,
+  "title": "HPL3/SOMA/Scripting/iFontData",
+  "missing": false,
+  "redirect": false,
+  "length": 1064,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3890,
+  "revisionTimestamp": "2020-08-06T15:00:30Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\niFontData has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetHeight ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetLength || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>const cVector2f &in avSize</syntaxhighlight>]],<br />[[../tWString|<syntaxhighlight lang=\"c++\" inline>const tWString &in asString</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || GetWordWrapRows || <syntaxhighlight lang=\"c++\" inline>float afLength</syntaxhighlight>,<br />[[../cVector2f|<syntaxhighlight lang=\"c++\" inline>const cVector2f &in avSize</syntaxhighlight>]],<br />[[../tWString|<syntaxhighlight lang=\"c++\" inline>const tWString &in asString</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iFontData",
+  "requestedTitle": "HPL3/SOMA/Scripting/iFontData"
+}

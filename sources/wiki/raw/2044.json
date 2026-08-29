@@ -1,0 +1,14 @@
+{
+  "pageid": 2044,
+  "title": "HPL3/SOMA/Scripting/cImGuiSliderData",
+  "missing": false,
+  "redirect": false,
+  "length": 2263,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3590,
+  "revisionTimestamp": "2020-08-06T13:42:36Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mbUseBackgroundGfx || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseBaseInFocusGfx || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseButtonGfx || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseButtonInFocusGfx || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseButtonTriggeredGfx || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseDisabledColor || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mColorBase || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorDisabled || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorText || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mfDefaultStepSize || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mFont || [[../cImGuiFont|<syntaxhighlight lang=\"c++\" inline>cImGuiFont</syntaxhighlight>]] ||\n|-\n| mFontAlign || [[../eFontAlign|<syntaxhighlight lang=\"c++\" inline>eFontAlign</syntaxhighlight>]] ||\n|-\n| mfRepeatDelay || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mGfxBackground || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxBaseInFocus || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxButton || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxButtonInFocus || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxButtonTriggered || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mvButtonSize || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|-\n| mvDefaultSize || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\ncImGuiSliderData has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiSliderData",
+  "requestedTitle": "HPL3/SOMA/Scripting/cImGuiSliderData"
+}

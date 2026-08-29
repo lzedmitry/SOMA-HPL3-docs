@@ -1,0 +1,26 @@
+name: Documentation issue
+description: Report a wrong, missing, or outdated page
+title: "[docs] "
+labels: ["docs"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page path
+      placeholder: /areas/trigger-area/
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Original Wiki URL
+  - type: input
+    id: revision
+    attributes:
+      label: Source revision
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true

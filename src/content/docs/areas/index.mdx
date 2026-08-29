@@ -1,0 +1,98 @@
+---
+title: Areas & triggers
+description: Areas are invisible volumes. They are the main input/output system in HPL3 levels. This catalog groups the types the SOMA Wiki lists, including unused ones.
+category: areas
+---
+
+An **Area** is an invisible cuboid in the level. The original Areas hub calls Areas the main Input and Output system of HPL3 and the backbone of every level.
+
+<p class="section-kicker">03 // AREAS &nbsp; REF 03.10</p>
+
+Use them when something should happen because the player (or another entity) entered a volume, looked at something, or because the volume itself is an effect (fog, soundscape, exposure).
+
+:::caution[SOURCE STATUS: WIP]
+The original SOMA Areas hub is marked as undergoing major editing. Several types are listed but have no article (redlinks). Those rows are marked below. This site does not invent their parameters.
+:::
+
+## Typical workflow
+
+1. Place the Area in the Level Editor (Areas tool).
+2. Name it. Keep the name simple; scripts look it up by name.
+3. Fill the properties the type actually documents (collide callbacks, attachment, look-at, type-specific fields).
+4. If it fires script, put the callback on the map `.hps` (or a helper file).
+5. Test in-game. If it never fires, read [Trigger Area](/areas/trigger-area/) collide-callback notes and [Troubleshooting](/debugging/).
+
+Helper file named by the Trigger article: `helper_area.hps`. Dedicated helper **pages** are redlinks; see [Helpers](/scripting/helpers/).
+
+## Core
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/areas/playerstart-area/">PlayerStart</a><span>Player spawn position.</span></div>
+<div class="catalog-row"><a href="/areas/trigger-area/">Trigger</a><span>Generic callback volume. Start here.</span></div>
+<div class="catalog-row"><a href="/areas/doorwaytrigger-area/">DoorwayTrigger</a><span>Doorway-related trigger volume.</span></div>
+<div class="catalog-row"><a href="/areas/pathnode-area/">PathNode</a><span>AI path node.</span></div>
+<div class="catalog-row"><a href="/areas/sticky-area/">Sticky</a><span>Attaches bodies. FAQ: wait a timer before making the body a static collider.</span></div>
+<div class="catalog-row"><a href="/areas/interactaux-area/">InteractAux</a><span>Auxiliary interaction volume.</span></div>
+</div>
+
+## Environment
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/areas/fog-area/">Fog</a><span>Local fog. Also level-wide fog in Level Settings.</span></div>
+<div class="catalog-row"><a href="/areas/soundscape-area/">Soundscape</a><span>Local soundscape. See Audio.</span></div>
+<div class="catalog-row"><a href="/areas/camera-animation-area/">Camera Animation</a><span>Camera animation volume.</span></div>
+<div class="catalog-row"><a href="/areas/ambient-light-area/">Ambient Light</a><span>Local ambient light volume.</span></div>
+<div class="catalog-row"><span>Liquid <span class="legacy-tag">Wiki redlink</span></span><span>Listed on the hub. No article.</span></div>
+<div class="catalog-row"><span>Exposure <span class="legacy-tag">Wiki redlink</span></span><span>Related: <a href="/level-building/exposure-areas/">Exposure Areas (level design)</a>.</span></div>
+</div>
+
+## Player
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/areas/climb-area/">Climb</a><span>Climb volume.</span></div>
+<div class="catalog-row"><a href="/areas/crawl-area/">Crawl</a><span>Crawl volume.</span></div>
+<div class="catalog-row"><a href="/areas/hide-area/">Hide</a><span>Hide volume.</span></div>
+<div class="catalog-row"><a href="/areas/ladder-area/">Ladder</a><span>Ladder volume.</span></div>
+<div class="catalog-row"><a href="/areas/zoom-area/">Zoom</a><span>Zoom volume.</span></div>
+</div>
+
+## Technical
+
+<div class="catalog-group">
+<div class="catalog-row"><span>Visibility <span class="legacy-tag">Wiki redlink</span></span><span>Listed on the hub. No article.</span></div>
+<div class="catalog-row"><span>VisibilityPortal <span class="legacy-tag">Wiki redlink</span></span><span>Listed on the hub. No article.</span></div>
+<div class="catalog-row"><span>MapTransfer <span class="legacy-tag">Wiki redlink</span></span><span>Listed on the hub. No article.</span></div>
+</div>
+
+## SOMA
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/areas/tool-area/">Tool</a><span>SOMA tool interaction volume.</span></div>
+<div class="catalog-row"><span>Sit <span class="legacy-tag">Wiki redlink</span></span><span>Game-specific Area. No article.</span></div>
+<div class="catalog-row"><a href="/areas/distortion-area/">Distortion</a><span>SOMA distortion volume.</span></div>
+<div class="catalog-row"><a href="/areas/datamine-area/">Datamine</a><span>SOMA datamine volume.</span></div>
+<div class="catalog-row"><a href="/areas/agentrepel-area/">AgentRepel</a><span>Repels agents.</span></div>
+</div>
+
+## Legacy / unused
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/areas/description-area/">Description</a><span>Marked unused on the hub. Page exists.</span></div>
+<div class="catalog-row"><span>DatamineAudioSource <span class="legacy-tag">Unused, redlink</span></span><span>Listed unused. No article.</span></div>
+<div class="catalog-row"><span>DatamineAnimNode <span class="legacy-tag">Unused, redlink</span></span><span>Listed unused. No article.</span></div>
+<div class="catalog-row"><span>PosNode <span class="legacy-tag">Unused, redlink</span></span><span>Listed unused. No article.</span></div>
+<div class="catalog-row"><span>Rope <span class="legacy-tag">Unused, redlink</span></span><span>Listed unused. No article.</span></div>
+</div>
+
+## Related
+
+- [Scripting](/scripting/)
+- [Common patterns](/scripting/common-patterns/)
+- [Soundscape and audio](/audio/)
+- [Level settings (global fog)](/level-editor/level-settings/)
+- [Recipe: enter an Area](/recipes/enter-area/)
+
+## Sources
+
+- [HPL3/SOMA/Areas](https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas)
+- Individual `HPL3/Areas/*` and `HPL3/SOMA/Areas/*` articles

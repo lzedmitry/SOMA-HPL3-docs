@@ -1,0 +1,14 @@
+{
+  "pageid": 3419,
+  "title": "HPL3/Level Design/Exposure Areas",
+  "missing": false,
+  "redirect": false,
+  "length": 1246,
+  "touched": "2026-07-30T09:56:28Z",
+  "revisionId": 7093,
+  "revisionTimestamp": "2026-07-30T09:56:28Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Exposure Areas =\n\nAn area that changes the tone mapping parameters when entered. Used to simulate automatic correction of exposure that occurs when eyes get used to bright/dim lit environments.\n\n== General Parameters ==\n* '''Name''': Name for the billboard. Should be unique for all objects in map.\n* '''Position''': 3D Vector storing the position in world.\n* '''Rotation''': 3D Vector storing the rotation.\n* '''Size''': 3D Vector storing the size of the area box.\n\n== Specific Parameters ==\n* '''Exposure''': The total light that is allowed through the camera, increasing this value makes the image brighter. In the range of -10 to +10.\n* '''WhitePoint''': A real value that sets which value that should be considered the brightest.\n* '''Transition time''': The time it takes for the new exposure to apply.\n\n= ExposureArea EditMode =\n\nThis creates ExposureArea objects, which are areas that change the tone mapping parameters when entered. Used to simulate automatic correction of exposure that occurs when eyes get used to bright/dim lit environments. The edit mode window can set what will be used by every new exposure area.\n\n[[File:exposurearea_mode.png]]\n\nMore on ExposureAreas [[hpl3:tools:maineditors:level_editor:exposure_areas|here]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Exposure_Areas",
+  "requestedTitle": "HPL3/Level Design/Exposure Areas"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 2346,
+  "title": "HPL3/SOMA/Scripting/eLuxDialogOptionCondition",
+  "missing": false,
+  "redirect": false,
+  "length": 578,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3826,
+  "revisionTimestamp": "2020-08-06T14:46:17Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eLuxDialogOptionCondition_VarEqual</code> || <code>0</code> ||\n|-\n| <code>eLuxDialogOptionCondition_VarLesser</code> || <code>1</code> ||\n|-\n| <code>eLuxDialogOptionCondition_VarGreater</code> || <code>2</code> ||\n|-\n| <code>eLuxDialogOptionCondition_LastEnum</code> || <code>3</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxDialogOptionCondition",
+  "requestedTitle": "HPL3/SOMA/Scripting/eLuxDialogOptionCondition"
+}

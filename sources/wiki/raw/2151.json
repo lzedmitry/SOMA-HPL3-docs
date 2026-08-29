@@ -1,0 +1,14 @@
+{
+  "pageid": 2151,
+  "title": "HPL3/SOMA/Scripting/cPostEffect VideoDistortion",
+  "missing": false,
+  "redirect": false,
+  "length": 2116,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3695,
+  "revisionTimestamp": "2020-08-06T14:15:39Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncPostEffect_VideoDistortion has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || GetParams || <syntaxhighlight lang=\"c++\" inline>float& afAmount</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float &out afRandomSeed</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float &out afLineDensity</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float &out afOffsetMul</syntaxhighlight>,<br />[[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f &out avScreenOffset</syntaxhighlight>]],<br />[[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f &out avScreenBendAmount</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsActive ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsDisabled ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Reset ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetActive || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetDisabled || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetParams || <syntaxhighlight lang=\"c++\" inline>float afAmount</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afRandomSeed</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afLineDensity</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afOffsetMul</syntaxhighlight>,<br />[[../cVector2f|<syntaxhighlight lang=\"c++\" inline>const cVector2f &in avScreenOffset</syntaxhighlight>]],<br />[[../cVector2f|<syntaxhighlight lang=\"c++\" inline>const cVector2f &in avScreenBendAmount</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_VideoDistortion",
+  "requestedTitle": "HPL3/SOMA/Scripting/cPostEffect VideoDistortion"
+}

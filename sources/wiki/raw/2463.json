@@ -1,0 +1,14 @@
+{
+  "pageid": 2463,
+  "title": "HPL3/Scripting/Scripting Guide/Hello World",
+  "missing": false,
+  "redirect": false,
+  "length": 2352,
+  "touched": "2026-07-29T23:55:12Z",
+  "revisionId": 4630,
+  "revisionTimestamp": "2020-08-16T10:58:27Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{Hpl3ScriptingGuideMenuBasic}}\n{{shortPageTitle}}\n\n{| style=\"border:0px;\" cellspacing=\"0\"\n|- valign=\"top\"\n| style=\"padding-right:0.2em\" |\n{{Note|From this moment in this guide, we will write out script on the MinimalCustomMapMod mod that comes with SOMA and Amnesia: Rebirth.}}\n\nLet’s start by writing a very simple script. Like every programming tutorial, we will start with a \"Hello World” message.\n\nWe want the message to be displayed on the screen when we load our map, so for that, we will go to <code>OnStart</code>, and inside those curly brackets, add: <pre>\ncLux_AddDebugMessage(\"Hello World!\");\n</pre>Don’t worry about what it means just yet.\n\nThe code should look something like this:<syntaxhighlight lang=\"c++\">\n////////////////////////////\n// Run first time starting map\nvoid OnStart()\n{\n\tcLux_AddDebugMessage(\"Hello World!\");\n}\n</syntaxhighlight>Let’s save our script and launch our mod via CodeLite.\n\nOnce our map is loaded, we should get basically a black screen with a handful of text around the edges. In the lower left corner, you should see the text “Hello World!”.\n\n<span>{{Note|If you cannot see the text, press F5, which reloads the map.}}</span>\n| style=\"width:0.1%\" |\n|}\n[[File:Debug message tut.png|thumb|\"Hello World!\" will appear at the bottom left when using printing it to the screen.|alt=|left]] {{clr}}\n==Conclusion==\nwe used the code <code>cLux_AddDebugMessage</code> followed by an opening and closing parentheses. This is a '''function call''', which you will learn more about in the next chapter.\n\nFor now, just know that this function’s job is to print text onto the screen. Within the parentheses is some text within quotation marks, '''“Hello World!”'''.\nThis is what is known as a <code>[[HPL3/SOMA/Scripting/tString|string]]</code>. The important part to note here is that it is the text that actually appeared in the game itself.\n\n== See Also ==\n*[[HPL3/Scripting/AngelScript_Fundamentals/Chapter_2_-_Structure_of_a_Script#Hello_World|Hello World - AngelScript]]\n\n{{NavBar|HPL3/Scripting/Scripting_Guide/Scripting Workflow and Structure|Scripting Workflow and Structure|HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide|HPL3/Scripting/Scripting_Guide/Calling Functions and Function Callbacks|Calling Functions and Function Callbacks}}\n\n[[Category:HPL3 Scripting]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Hello_World",
+  "requestedTitle": "HPL3/Scripting/Scripting Guide/Hello World"
+}

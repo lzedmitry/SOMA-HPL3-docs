@@ -1,0 +1,300 @@
+---
+title: Chapter 6 - Functions
+description: "So what happens if, as you're making a program, you have a lot of places where you are copying and pasting the same code over and over again? This is repetitive and wordy, not to mention if you find out you have to chang"
+category: scripting
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_6_-_Functions"
+sourceRevision: 4615
+sourceUpdated: "2020-08-16T08:55:01Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - scripting
+---
+So what happens if, as you're making a program, you have a lot of places where you are copying and pasting the same code over and over again? This is repetitive and wordy, not to mention if you find out you have to change that code then you have to change everywhere else that you used that code as well. This is where functions come in.
+
+A function is a construct in programming that takes a section of code and wraps it up into a package that you can then refer to any time you want to call that code. This is immensely useful if like in the hypothetical example you need to run a subsection of your code many times over the course of your program. It also helps you to organize your program, separating your code into easily describable and readable chunks.
+
+## Function Structure
+The structure of a function is similar to that of the statements that you learned about in the previous chapter:
+
+```
+    void FunctionName()
+    {
+        // some code goes in here
+    }
+```
+
+As you can see, a function consists of several parts.
+
+First, you have the `void` keyword. This says that the function does not return a value. (More on returning values in a bit.)
+
+Next, you have the function name. This name is an identifier, just like a variable name is an identifier, and it follows the same rules for what you can name it. And just like how you use variable names to get the values within variables, you use the function name when you want to run the function's code.
+
+Then you have a set of empty parentheses. I explain the importance of these parentheses in more detail in the "Parameters" section of this lesson, but know that having opening and closing parentheses is the bare minimum required.
+
+And finally, you have a code block, shown by the curly braces. Just like the statements in Lesson 4, the code inside the code block "belongs" to the function.
+
+So now you have a function defined (that's what it's called when you create a function), but how do you run that function's code? See this example:
+
+```
+    // Elsewhere in your code
+    FunctionName();
+```
+
+It's just that simple. All you need to do is write out the name of the function followed by those parentheses again. This is known as *calling* a function. It tells the program to jump to where you defined the function and run its code. Once it finishes that code, it will jump right back to this spot and continue on. 
+
+{{note|Functions are everywhere, not just in AngelScript, but in many other popular languages as well. This is because most languages have a special function (usually called `Main`) that tells the computer where the program should start running. 
+
+In fact, nearly all the code you write is going to be within a function somewhere. Remember the "Hello World" example from Lesson 1?
+
+```
+    ////////////////////////////
+    // Run when entering map
+    void OnEnter()
+    {
+        cLux_AddDebugMessage("Hello SOMA");
+    }
+```
+ 
+
+There's a function right there! The function is called `OnEnter`, and as the comment says, it is called by the HPL3 engine whenever the map is entered.}}
+
+## Parameters
+I promised that I would explain the importance of those parameters in greater detail, and I will do that now. The parentheses are for defining a function's *parameters*.
+
+A parameter (also known as an argument) is how you pass information into the function from outside. You do this like so:
+
+```
+    void FunctionName(int x)
+    {
+        int y = x + 5;
+    }
+    
+    // ...
+    // Elsewhere in your code
+    
+    FunctionName(2);
+```
+
+Inside the parentheses, we do something that looks a lot like declaring a variable. What this does is it defines a parameter called `x` which is of type `int`. When calling the function, we pass an `int` value inside the parameters, which is what the value of `x` will be inside the function.
+
+:::note[Note]
+If you've dealt with functions in algebra, this might be a bit familiar:
+
+```
+    f(x)   =     x + 5
+    
+    f(1)   =   (1) + 5
+    f(2)   =   (2) + 5
+    f(-12) = (-12) + 5
+```
+
+In the algebra function `f(x)`, when you put a number in for `x` on the left, you substitute that number everywhere where `x` appears on the right.
+:::
+
+It's also possible to define more than one parameter:
+
+```
+    void FunctionName(int x, tString y)
+    {
+        tString z = y + x;
+    }
+    
+    // ...
+    // Elsewhere in your code
+    
+    FunctionName(5, "abc");
+```
+
+The parameters are separated by a comma, both when defining them in the function and when passing the values in calling the function. The order that the parameters appear stays the same - the `5` goes to `x`, and the `"abc"` goes to `y`.
+
+Keep in mind that you cannot pass a value of the wrong type to a function. If, for example, you were to do this:
+
+```
+    FunctionName(5, 10);
+```
+
+That second parameter is defined as being a string, but `10` is not a string (not to be confused with `"10"`, which *is* a string). If you tried to do this, then HPL3 would consider it an error, and your code will not run.
+
+## Returning Values
+In addition to receiving information, a function can also be set up to give information back to the code where it was called:
+
+```
+    int FunctionName()
+    {
+        return 5;
+    }
+```
+
+There are a couple of new things here.
+
+First, the `void` from before has been changed to an `int`. This means that the function will be returning an `int` value when its code finishes running. You can define this type as anything you want - the function could return a `bool`, a `tString`, a `float`, or anything. (Or nothing, as in the case of our `void` examples before.)
+
+Second, we have a new keyword in `return`. What it does is it signals the function to stop running the code (similar to `break` from Lesson 4) and take the specified value as the return value. Back where the function was called, the code can take that value and do something with it:
+
+```
+    int y = FunctionName();
+    // y is 5
+```
+
+Keep in mind, however, that if you define that a function returns a value, you *must* return a value with `return` somewhere in the function code. If you had a function like this, for example:
+
+```
+    int FunctionName()
+    {
+        int x = 5;
+    }
+```
+
+Notice that the function was defined with `int` as the return type, but the code doesn't use `return` anywhere. This will be recognized as an error by HPL3.
+
+{{note|A function must always return a value, so beware of cases where you are putting your `return` inside conditional statements. Take the following example:
+
+```
+    int FunctionName()
+    {
+        bool b = false;
+        if (b)
+        {
+            return 5;
+        }
+    }
+```
+
+Even though there is a `return` in the function, it is inside an `if` block. The condition for the `if` statement is `b`, which happens to be false. In this case, the `if` code will not run, which means that the program will never reach the `return`. This leaves a path in the code in which a `return` doesn't get called, which will still result in an error. To prevent this, you need to make sure that your function has a `return` no matter which path your code decides to take:
+
+```
+    int FunctionName()
+    {
+        bool b = false;
+        if (b)
+        {
+            return 5;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+```
+
+Now there is an `else` alongside the `if`, which guarantees that no matter what `b` is, the function will reach a `return` at some point.}}
+
+So now we have both parameters and a return type. Bringing them together, let's create a function that performs a useful action that we might want to do many times over the course of the program.
+
+```
+    int AddFive(int x)
+    {
+        return x + 5;
+    }
+```
+
+Now in our program, whenever we need to add 5 to a value, we can just do this:
+
+```
+    int y = 5;
+    int z = AddFive(y);
+    // z is 10 (5 + 5)
+```
+
+In this code, `y` is passed to the function with a value of 5, so `x` within the function gets that value. The function then adds 5 to that value (resulting in 10) and returns it. Back outside the function, the return value is assigned to the variable `z`.
+
+:::note[Note]
+If you were to take the above function and compress it down to the following form:
+
+```
+    int AddFive(int)
+```
+
+This is called a function's *signature*. It takes all the relevant information for identifying a function and discards everything else (return type, function identifier, parameter types). Note that the identifier for the parameter has been removed. This is because the identifier for the parameters are not actually necessary in determining the signature of a function - all it needs to know is how many parameters there are and what types they are.
+:::
+
+Note that in this example, `y` is passed as a parameter. However, nothing that happens inside the function will change the value of `y`. Even if we did this:
+
+```
+    void AddFiveToY(int y)
+    {
+        y = y + 5;
+    }
+    
+    // ...
+    // Elsewhere in your code
+    int y = 5;
+    AddFiveToY(y);
+    // y is still 5
+```
+
+This is because when you pass a variable as a parameter to a function, it does not pass the variable itself. Instead, it takes the value *inside* the variable and copies it into the parameter of the function. This is called *passing by value*, and this happens whever you pass something as a parameter in AngelScript.
+
+:::note[Note]
+The alternative to passing by value is called *passing by reference*, in which you do actually pass the variable itself to the function. This concept is a bit more advanced for this tutorial series, but you can read about it in [Chapter 9](/scripting/angelscript/chapter-9-miscellaneous-angelscript-features/#passing_parameters_by_reference_2).)
+:::
+
+## Function Overloading
+Sometimes, we want to create multiple functions that behave similarly but take different types as their parameters. For example, if we wanted to do the following:
+
+```
+    void PrintIntToDebug(int i)
+    {
+        cLux_AddDebugMessage("Debug: " + i);
+    }
+    
+    void PrintStringToDebug(tString s)
+    {
+        cLux_AddDebugMessage("Debug: " + s);
+    }
+```
+
+As you can see, these two functions behave almost identically, but since they take two different types as parameters, they cannot be made into a single function. However, there is one thing you can do to make your code simpler - function overloading.
+
+When you overload a function, that means you are defining a function that has the same name as another function. Normally this isn't allowed, but it is when the second function has either a different type for its parameter(s) or a different number of parameters. In this case, we can use function overloading because our two functions have different types as parameters:
+
+```
+    void PrintToDebug(int i)
+    {
+        cLux_AddDebugMessage("Debug: " + i);
+    }
+    
+    void PrintToDebug(tString s)
+    {
+        cLux_AddDebugMessage("Debug: " + s);
+    }
+```
+
+Now you can call both functions using the same identifier:
+
+```
+    PrintToDebug(5);
+    PrintToDebug("abc");
+```
+
+HPL3 is smart enough to look at the type of the value you are passing as a parameter and automatically pick the correct function for that type.
+
+{{note|While you can overload functions by having different parameter types, you cannot overload a function by giving it a different return type. Doing so will result in an error when HPL3 tries to run your code. This is because when HPL3 looks at different functions, it only looks at the function name and the parameter types, *not* the return type. So while the above overload is perfectly legal, the following overload is not:
+
+```
+    // First function, minding its own business
+    int SomeFunction(int x)
+    {
+        return 5;
+    }
+    
+    // This function differs from the first only by return type, so it's not a legal overload
+    tString SomeFunction(int x)
+    {
+        return "abc";
+    }
+```
+}}
+
+HPL3/Scripting/AngelScript Fundamentals/Chapter 5 - Statements and Flow Control|Chapter 5 - Statements and Flow Control|HPL3/Scripting/AngelScript Fundamentals|AngelScript Fundamentals|HPL3/Scripting/AngelScript Fundamentals/Chapter 7 - Calling Other Scripts|Chapter 7 - Calling Other Scripts
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/Scripting/AngelScript Fundamentals/Chapter 6 - Functions](https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_6_-_Functions)
+- Revision: `4615`
+- Source update: `2020-08-16T08:55:01Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

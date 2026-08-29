@@ -1,0 +1,31 @@
+name: Quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm build
+      - run: python3 scripts/wiki/check_links.py
+      - run: python3 scripts/wiki/classify_links.py
+      - name: Manifest sanity
+        run: python3 -c "import json; d=json.load(open('data/source-manifest.json')); assert d.get('pages')"
+      - name: Translation QA
+        run: pnpm i18n:qa
+      - name: Video liveness (YouTube oEmbed, no download)
+        continue-on-error: true
+        run: pnpm videos:check

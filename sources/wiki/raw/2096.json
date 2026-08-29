@@ -1,0 +1,14 @@
+{
+  "pageid": 2096,
+  "title": "HPL3/SOMA/Scripting/cLuxHeadTracker",
+  "missing": false,
+  "redirect": false,
+  "length": 1950,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3642,
+  "revisionTimestamp": "2020-08-06T13:55:53Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncLuxHeadTracker has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../iLuxEntity|<syntaxhighlight lang=\"c++\" inline>iLuxEntity@</syntaxhighlight>]] || GetEntity ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetMaxAngle ||   ||\n|-\n| [[../eLuxEntityComponentType|<syntaxhighlight lang=\"c++\" inline>eLuxEntityComponentType</syntaxhighlight>]] || GetType ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsActive ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || LoadFromVariables || [[../cResourceVarsObject|<syntaxhighlight lang=\"c++\" inline>cResourceVarsObject@ apVars</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetActive || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetAngleOffset || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetMaxAngle || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetMoveMaxSpeed || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetMoveSpeedMul || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetTrackEntity || [[../iLuxEntity|<syntaxhighlight lang=\"c++\" inline>iLuxEntity@ apEntity</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Setup ||  ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxHeadTracker",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLuxHeadTracker"
+}

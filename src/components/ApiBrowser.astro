@@ -1,0 +1,73 @@
+---
+import api from "../data/api-index.json";
+import { withBase } from "../lib/base";
+
+type Fn = {
+  name: string;
+  class: string;
+  returnType: string;
+  params: string;
+  signature: string;
+  href: string;
+};
+
+const functions = (api as Fn[]).slice().sort((a, b) => a.name.localeCompare(b.name));
+const classes = [...new Set(functions.map((f) => f.class))].sort();
+---
+
+<label class="sr-only" for="api-filter">Filter API</label>
+<input
+  id="api-filter"
+  class="api-filter"
+  type="search"
+  placeholder="Filter API: cScript_  /  GetGlobalArg  /  tString"
+  autocomplete="off"
+  spellcheck="false"
+/>
+<p class="stats-line" id="api-count">{functions.length} functions in {classes.length} classes</p>
+
+<div style="max-height: 70vh; overflow: auto; border: 1px solid var(--border-subtle);">
+  <table class="api-table" id="api-table">
+    <thead>
+      <tr>
+        <th>Return</th>
+        <th>Function</th>
+        <th>Class</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        functions.map((fn) => (
+          <tr data-name={fn.name.toLowerCase()} data-class={fn.class.toLowerCase()} data-sig={fn.signature.toLowerCase()}>
+            <td class="ret">{fn.returnType || "—"}</td>
+            <td>
+              <a class="fn" href={withBase(fn.href)}>
+                {fn.name}
+              </a>
+              <div class="cls">{fn.params ? `(${fn.params.replace(/\s+/g, " ").slice(0, 120)})` : "()"}</div>
+            </td>
+            <td class="cls">{fn.class}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
+
+<script>
+  const input = document.getElementById("api-filter") as HTMLInputElement | null;
+  const rows = Array.from(document.querySelectorAll("#api-table tbody tr")) as HTMLElement[];
+  const count = document.getElementById("api-count");
+  function apply() {
+    const q = (input?.value || "").trim().toLowerCase();
+    let n = 0;
+    for (const row of rows) {
+      const hay = `${row.dataset.name} ${row.dataset.class} ${row.dataset.sig}`;
+      const show = !q || hay.includes(q);
+      row.hidden = !show;
+      if (show) n += 1;
+    }
+    if (count) count.textContent = q ? `${n} matching / ${rows.length}` : `${rows.length} functions`;
+  }
+  input?.addEventListener("input", apply);
+</script>

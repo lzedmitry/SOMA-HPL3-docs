@@ -1,0 +1,14 @@
+{
+  "pageid": 3444,
+  "title": "HPL3/Entities/Entity Rig",
+  "missing": false,
+  "redirect": false,
+  "length": 396,
+  "touched": "2026-07-30T22:00:58Z",
+  "revisionId": 7144,
+  "revisionTimestamp": "2026-07-30T22:00:58Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Bones =\nIf the imported mesh has a skeleton, its component bones will be created along with the submeshes. Subentities can be attached to bones.\n\nGeneral parameters:\n* '''Name''': Name of the bone. Cannot be edited.\n\nAttachments Tab:\n\nJust like with bodies, stuff can be attached to a bone. To do so, just set up the filter and press the attach button, then click on objects you want to attach.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Rig",
+  "requestedTitle": "HPL3/Entities/Entity Rig"
+}

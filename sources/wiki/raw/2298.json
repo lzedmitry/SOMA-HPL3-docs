@@ -1,0 +1,14 @@
+{
+  "pageid": 2298,
+  "title": "HPL3/SOMA/Scripting/eEntityType",
+  "missing": false,
+  "redirect": false,
+  "length": 1872,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3778,
+  "revisionTimestamp": "2020-08-06T14:35:45Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eEntityType_Beam</code> || <code>0</code> ||\n|-\n| <code>eEntityType_BeamEnd</code> || <code>1</code> ||\n|-\n| <code>eEntityType_Billboard</code> || <code>2</code> ||\n|-\n| <code>eEntityType_BillboardGroup</code> || <code>3</code> ||\n|-\n| <code>eEntityType_MeshEntity</code> || <code>4</code> ||\n|-\n| <code>eEntityType_SubMeshEntity</code> || <code>5</code> ||\n|-\n| <code>eEntityType_ClothEntity</code> || <code>6</code> ||\n|-\n| <code>eEntityType_DummyRenderable</code> || <code>7</code> ||\n|-\n| <code>eEntityType_RopeEntityBillboard</code> || <code>8</code> ||\n|-\n| <code>eEntityType_RopeEntity3D</code> || <code>9</code> ||\n|-\n| <code>eEntityType_FogArea</code> || <code>10</code> ||\n|-\n| <code>eEntityType_ForceField</code> || <code>11</code> ||\n|-\n| <code>eEntityType_GuiSetEntity</code> || <code>12</code> ||\n|-\n| <code>eEntityType_LensFlare</code> || <code>13</code> ||\n|-\n| <code>eEntityType_LightSpot</code> || <code>14</code> ||\n|-\n| <code>eEntityType_LightPoint</code> || <code>15</code> ||\n|-\n| <code>eEntityType_LightBox</code> || <code>16</code> ||\n|-\n| <code>eEntityType_LightDirectional</code> || <code>17</code> ||\n|-\n| <code>eEntityType_ExposureArea</code> || <code>18</code> ||\n|-\n| <code>eEntityType_LightMaskBox</code> || <code>19</code> ||\n|-\n| <code>eEntityType_PhysicsBody</code> || <code>20</code> ||\n|-\n| <code>eEntityType_ParticleSystem</code> || <code>21</code> ||\n|-\n| <code>eEntityType_ParticleEmitter</code> || <code>22</code> ||\n|-\n| <code>eEntityType_SoundEntity</code> || <code>23</code> ||\n|-\n| <code>eEntityType_LastEnum</code> || <code>24</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eEntityType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eEntityType"
+}

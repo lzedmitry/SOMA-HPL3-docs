@@ -1,0 +1,14 @@
+{
+  "pageid": 3422,
+  "title": "HPL3/Level Design/Entity Poser",
+  "missing": false,
+  "redirect": false,
+  "length": 726,
+  "touched": "2026-07-30T10:00:25Z",
+  "revisionId": 7101,
+  "revisionTimestamp": "2026-07-30T10:00:25Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Entity Poser EditMode =\n\nThis mode is used for posing entities, via transforming its skeleton. Once the mode is started, the bones in the entity's skeleton are visible and selectable. To pose the skeleton, just select the bones you want to transform and translate or rotate them to fit your needs, one at a time.\n\n* '''Bone list''': bone names and hierarchy is displayed here. One can select a bone by selecting its name in this list.\n* '''Clear pose''': this button resets the skeleton to its initial state.\n* '''Save''': exits the mode, saving your changes.\n* '''Cancel posing''': exits the mode, discarding any changes.\n* '''Import''': loads the current pose from a file.\n* '''Export''': saves the current pose to a file.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Entity_Poser",
+  "requestedTitle": "HPL3/Level Design/Entity Poser"
+}

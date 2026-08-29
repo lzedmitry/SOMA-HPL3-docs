@@ -1,0 +1,40 @@
+---
+title: "Справочник API"
+description: "Индекс функций AngelScript из дампа Wiki CodeDoc для SOMA. Сигнатуры сохранены."
+category: api
+translation:
+  locale: ru
+  sourceLocale: en
+  sourceRevision: 1
+  translationRevision: 1
+  status: current
+---
+
+import ApiBrowser from "../../../../components/ApiBrowser.astro";
+
+<p class="section-kicker">04 // API &nbsp; REF 04.90</p>
+
+Этот индекс собран из сгенерированных страниц `CodeDoc` Wiki в `HPL3/SOMA/Scripting`. У большинства функций **нет описания** в исходной Wiki. Сигнатура, имена параметров и типы возврата сохранены. Ничего не додумано.
+
+Фильтр — простой текст по имени, классу и сигнатуре. Работают и `cScript_`, и `GetGlobalArg`.
+
+<ApiBrowser />
+
+## Как читать страницу класса
+
+Каждая страница класса/категории держит: таблицу функций, сигнатуру (AngelScript), таблицу параметров и пометку «Undocumented», если на Wiki не было текста.
+
+Связанные типы (`tString`, `cVector3f`, …) — отдельные страницы классов, если они были на Wiki.
+
+Игровые группы helper (`Entity`, `Prop`, `Map`, `Light`, …) живут в [api/categories](/ru/api/categories/entity/).
+
+## Связанное
+
+- [Scripting guide](/ru/scripting/)
+- [Common patterns](/ru/scripting/common-patterns/)
+- [Helpers](/ru/scripting/helpers/)
+
+## Источники
+
+- [HPL3/SOMA/Scripting/Scripting Api](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api)
+

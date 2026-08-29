@@ -1,0 +1,14 @@
+{
+  "pageid": 2607,
+  "title": "HPL3/SOMA/Level Design/Compounds",
+  "missing": false,
+  "redirect": false,
+  "length": 551,
+  "touched": "2020-08-23T20:25:07Z",
+  "revisionId": 4983,
+  "revisionTimestamp": "2020-08-23T20:25:07Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Compound Objects =\nCompound objects are actually groups of simple objects that are put together and transformed as a single one.\n\nParameter:\n* '''Name''': Name for the compound.\n* '''Position''': 3D Vector storing the position of the center of the compound. \n* '''Rotation''': 3D Vector storing the compound rotation. There can be restrictions on this, if a non rotatable object is included in the compound.\n* '''Scale''': 3D Vector storing the compound scale. There can be restrictions on this, if a non scalable object is included in the compound.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Compounds",
+  "requestedTitle": "HPL3/SOMA/Level Design/Compounds"
+}

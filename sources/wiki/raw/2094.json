@@ -1,0 +1,14 @@
+{
+  "pageid": 2094,
+  "title": "HPL3/SOMA/Scripting/cLuxGuiHandler",
+  "missing": false,
+  "redirect": false,
+  "length": 2359,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3640,
+  "revisionTimestamp": "2020-08-06T13:54:49Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncLuxGuiHandler has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || AttachCameraTextureToEntity || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asName</syntaxhighlight>]],<br />[[../iLuxEntity|<syntaxhighlight lang=\"c++\" inline>iLuxEntity@ apEnt</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || CreateCameraTexture || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asName</syntaxhighlight>]],<br />[[../cVector2l|<syntaxhighlight lang=\"c++\" inline>const cVector2l &in avSize</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>uint alFrameRate</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afFOV</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afNearPlane</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afFarPlane</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || DestroyCameraTexture || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asName</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || GetGameHudInputFocus ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetCameraTextureMatrix || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asName</syntaxhighlight>]],<br />[[../cMatrixf|<syntaxhighlight lang=\"c++\" inline>const cMatrixf &in a_mtxCamera</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetCameraTextureSettings || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asName</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>float afFOV</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afNearPlane</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afFarPlane</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetGameHudInputFocus || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxGuiHandler",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLuxGuiHandler"
+}

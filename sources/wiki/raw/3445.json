@@ -1,0 +1,14 @@
+{
+  "pageid": 3445,
+  "title": "HPL3/Entities/Entity Settings",
+  "missing": false,
+  "redirect": false,
+  "length": 419,
+  "touched": "2026-07-30T22:02:12Z",
+  "revisionId": 7145,
+  "revisionTimestamp": "2026-07-30T22:02:12Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Entity Class window =\nWith this window, one can set up properties for the entity. First, a class shall be picked from the combo box at the top of the window. When this is done, a list of variables will appear below them.\n\n[[File:window_entityclass.png]]\n\nIf defined, you can get information on a variable by moving the mouse over it.\n\n[[File:window_entityclass_tooltip.png]]\n\n\nNOTE: These variables are game-specific.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Settings",
+  "requestedTitle": "HPL3/Entities/Entity Settings"
+}

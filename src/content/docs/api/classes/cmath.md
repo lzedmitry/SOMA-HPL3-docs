@@ -1,0 +1,3914 @@
+---
+title: cMath
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cMath"
+sourceRevision: 5021
+sourceUpdated: "2020-08-24T20:50:00Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: undocumented
+generated: true
+tags:
+  - api
+  - api
+sidebar:
+  hidden: true
+---
+:::note[SOURCE STATUS: Undocumented]
+This API page was auto-generated on the Frictional Wiki and has no written descriptions.
+:::
+
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Summary
+| Return | Function | Description |
+| --- | --- | --- |
+| `float` | [`cMath_Abs`](#cmath-abs)(float afX) | *Undocumented in the original Wiki.* |
+| `int` | [`cMath_Abs`](#cmath-abs)(int alX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_ACos`](#cmath-acos)(float afX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_ASin`](#cmath-asin)(float afX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_ATan`](#cmath-atan)(float afX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_ATan2`](#cmath-atan2)(float afY, float afX) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckAABBInside`](#cmath-checkaabbinside)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avInsideMin, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avInsideMax, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avOutsideMin, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avOutsideMax) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckAABBIntersection`](#cmath-checkaabbintersection)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMin1, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMax1, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMin2, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMax2) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckAABBLineIntersection`](#cmath-checkaabblineintersection)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMin, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMax, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avLineStart, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avLineEnd, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avIntersectionPos, float &out afT) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckAABBSphereCollision`](#cmath-checkaabbspherecollision)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMin, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMax, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avCenter, float afRadius) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckBVIntersection`](#cmath-checkbvintersection)([cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume) aBV1, [cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume) aBV2) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckPlaneAABBCollision`](#cmath-checkplaneaabbcollision)(const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlane, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMin, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMax, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avSphereCenter, float afSphereRadius) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckPlaneAABBCollision`](#cmath-checkplaneaabbcollision)(const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlane, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMin, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMax) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckPlaneBVCollision`](#cmath-checkplanebvcollision)(const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlane, [cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume) aBV) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckPlaneLineIntersection`](#cmath-checkplanelineintersection)(const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlane, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avLineStart, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avLineEnd, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avIntersectionPos, float &out afT) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckPlaneSphereCollision`](#cmath-checkplanespherecollision)(const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlane, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avCenter, float afRadius) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckPointInAABBIntersection`](#cmath-checkpointinaabbintersection)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPoint, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMin, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMax) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckPointInBVIntersection`](#cmath-checkpointinbvintersection)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPoint, [cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume) aBV) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckPointInRectIntersection`](#cmath-checkpointinrectintersection)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avPoint, const [cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f) &in aRect) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckPointInSphereIntersection`](#cmath-checkpointinsphereintersection)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPoint, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avSpherePos, float afSphereRadius) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckRectFit`](#cmath-checkrectfit)(const [cRect2l](https://wiki.frictionalgames.com/page/../../cRect2l) &in aRectSrc, const [cRect2l](https://wiki.frictionalgames.com/page/../../cRect2l) &in aRectDest) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckRectFit`](#cmath-checkrectfit)(const [cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f) &in aRectSrc, const [cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f) &in aRectDest) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckRectIntersection`](#cmath-checkrectintersection)(const [cRect2l](https://wiki.frictionalgames.com/page/../../cRect2l) &in aRect1, const [cRect2l](https://wiki.frictionalgames.com/page/../../cRect2l) &in aRect2) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckRectIntersection`](#cmath-checkrectintersection)(const [cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f) &in aRect1, const [cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f) &in aRect2) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckRectIntersection`](#cmath-checkrectintersection)(const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avMin1, const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avMax1, const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avMin2, const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avMax2) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckRectIntersection`](#cmath-checkrectintersection)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avMin1, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avMax1, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avMin2, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avMax2) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckSphereIntersection`](#cmath-checksphereintersection)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosA, float afRadiusA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosB, float afRadiusB) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_CheckSphereLineIntersection`](#cmath-checkspherelineintersection)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avSpherePos, float afSphereRadius, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avLineStart, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avLineEnd, float &out afT1, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out afIntersection1, float &out afT2, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avIntersection2) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Clamp`](#cmath-clamp)(float afX, float afMin, float afMax) | *Undocumented in the original Wiki.* |
+| `int` | [`cMath_Clamp`](#cmath-clamp)(int alX, int alMin, int alMax) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Cos`](#cmath-cos)(float afX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Easing`](#cmath-easing)([eEasing](https://wiki.frictionalgames.com/page/../../eEasing) aType, float afT, float afMin = 0, float afMax = 1) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_ExpandAABBMax`](#cmath-expandaabbmax)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avBaseMax, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAddMax) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_ExpandAABBMin`](#cmath-expandaabbmin)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avBaseMin, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAddMin) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_FastRandomFloat`](#cmath-fastrandomfloat)(int alSeed) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_GetAngleDistance`](#cmath-getangledistance)(float afAngle1, float afAngle2, float afMaxAngle) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_GetAngleDistanceDeg`](#cmath-getangledistancedeg)(float afAngle1, float afAngle2) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_GetAngleDistanceRad`](#cmath-getangledistancerad)(float afAngle1, float afAngle2) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_GetAngleDistanceVector2f`](#cmath-getangledistancevector2f)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avAngle1, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avAngle2, float afMaxAngle) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_GetAngleDistanceVector2fDeg`](#cmath-getangledistancevector2fdeg)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avAngle1, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avAngle2) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_GetAngleDistanceVector2fRad`](#cmath-getangledistancevector2frad)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avAngle1, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avAngle2) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_GetAngleDistanceVector3f`](#cmath-getangledistancevector3f)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngle1, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngle2, float afMaxAngle) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_GetAngleDistanceVector3fDeg`](#cmath-getangledistancevector3fdeg)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngle1, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngle2) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_GetAngleDistanceVector3fRad`](#cmath-getangledistancevector3frad)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngle1, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngle2) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_GetAngleFromPoints2D`](#cmath-getanglefrompoints2d)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in aStartPos, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avGoalPos) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_GetAngleFromPoints3D`](#cmath-getanglefrompoints3d)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avStartPos, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avGoalPos) | *Undocumented in the original Wiki.* |
+| `void` | [`cMath_GetAngleFromVector`](#cmath-getanglefromvector)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVec, float &out afAngle, float &out afLength) | *Undocumented in the original Wiki.* |
+| `int` | [`cMath_GetBit`](#cmath-getbit)(int alBitNum) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_GetBitFlag`](#cmath-getbitflag)(int alFlagNum, int alBit) | *Undocumented in the original Wiki.* |
+| `cRect2f` | [`cMath_GetClipRect`](#cmath-getcliprect)(const [cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f) &in aRectSrc, const [cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f) &in aRectDest) | *Undocumented in the original Wiki.* |
+| `void` | [`cMath_GetClipRectFromBV`](#cmath-getcliprectfrombv)([cRect2l](https://wiki.frictionalgames.com/page/../../cRect2l) &out aDestRect, [cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume) aBV, [cFrustum@+](https://wiki.frictionalgames.com/page/../../cFrustum) apFrustum, const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avScreenSize) | *Undocumented in the original Wiki.* |
+| `cRect2l` | [`cMath_GetClipRectFromNormalizedMinMax`](#cmath-getcliprectfromnormalizedminmax)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMin, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMax, const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avScreenSize) | *Undocumented in the original Wiki.* |
+| `cRect2l` | [`cMath_GetClipRectFromSphere`](#cmath-getcliprectfromsphere)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosition, float afRadius, [cFrustum@+](https://wiki.frictionalgames.com/page/../../cFrustum) apFrustum, const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avScreenSize, bool abPositionIsScreenSpace) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_GetCorrectSignOfSpeed`](#cmath-getcorrectsignofspeed)(float afCurrent, float afDest, float afSpeed) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_GetFraction`](#cmath-getfraction)(float afVal) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_GetNormalizedClipRectFromBV`](#cmath-getnormalizedcliprectfrombv)([cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avDestMin, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avDestMax, [cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume) aBV, [cFrustum@+](https://wiki.frictionalgames.com/page/../../cFrustum) aFrustum) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_GetPoint3DFromSphericalCoords`](#cmath-getpoint3dfromsphericalcoords)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avSphCenter, float afSphRadius, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avSphCoords) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_GetSphericalCoordsFromPoint3D`](#cmath-getsphericalcoordsfrompoint3d)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avSphCenter, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPoint) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_GetVectorFromAngle2D`](#cmath-getvectorfromangle2d)(float afAngle, float afLength) | *Undocumented in the original Wiki.* |
+| `cColor` | [`cMath_HexToRGB`](#cmath-hextorgb)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asHex) | *Undocumented in the original Wiki.* |
+| `cColor` | [`cMath_HexWToRGB`](#cmath-hexwtorgb)(const [tWString](https://wiki.frictionalgames.com/page/../../tWString) &in asHex) | *Undocumented in the original Wiki.* |
+| `cColor` | [`cMath_HSBToRGB`](#cmath-hsbtorgb)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avHSB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_IncreaseTo`](#cmath-increaseto)(float afX, float afAdd, float afDest) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_InterpolateCosine`](#cmath-interpolatecosine)(float afA, float afB, float afT) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_InterpolateCubic`](#cmath-interpolatecubic)(float afX0, float afX1, float afX2, float afX3, float afT) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_InterpolateHermite`](#cmath-interpolatehermite)(float afX0, float afX1, float afX2, float afX3, float afT, float afTension, float afBias) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_InterpolateLinear`](#cmath-interpolatelinear)(float afA, float afB, float afT) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_InterpolateSigmoid`](#cmath-interpolatesigmoid)(float afA, float afB, float afT) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_IsPow2`](#cmath-ispow2)(int alX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Log`](#cmath-log)(float afX) | *Undocumented in the original Wiki.* |
+| `int` | [`cMath_Log2ToInt`](#cmath-log2toint)(int alX) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_MatrixEulerAngleDistance`](#cmath-matrixeulerangledistance)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA, const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxB) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixInverse`](#cmath-matrixinverse)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixMul`](#cmath-matrixmul)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA, const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxB) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_MatrixMul`](#cmath-matrixmul)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avB) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_MatrixMul3x3`](#cmath-matrixmul3x3)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avB) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_MatrixMulDivideW`](#cmath-matrixmuldividew)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avB) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixMulScalar`](#cmath-matrixmulscalar)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA, float afB) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixOrthographicProjection`](#cmath-matrixorthographicprojection)(float afNearClipPlane, float afFarClipPlane, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avViewSize) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixPerspectiveProjection`](#cmath-matrixperspectiveprojection)(float afNearClipPlane, float afFarClipPlane, float afFOV, float afAspect, bool abInfFarPlane) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixPlaneMirror`](#cmath-matrixplanemirror)(const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlane) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixQuaternion`](#cmath-matrixquaternion)(const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqRot) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixRotateX`](#cmath-matrixrotatex)(float afAngle) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixRotateXYZ`](#cmath-matrixrotatexyz)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avRot) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixRotateXZY`](#cmath-matrixrotatexzy)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avRot) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixRotateY`](#cmath-matrixrotatey)(float afAngle) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixRotateYXZ`](#cmath-matrixrotateyxz)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avRot) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixRotateYZX`](#cmath-matrixrotateyzx)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avRot) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixRotateZ`](#cmath-matrixrotatez)(float afAngle) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixRotateZXY`](#cmath-matrixrotatezxy)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avRot) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixRotateZYX`](#cmath-matrixrotatezyx)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avRot) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixScale`](#cmath-matrixscale)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avScale) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixSlerp`](#cmath-matrixslerp)(float afT, const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA, const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxB, bool abShortestPath) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_MatrixToEulerAngles`](#cmath-matrixtoeulerangles)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_MatrixToEulerAnglesMultiSolution`](#cmath-matrixtoeuleranglesmultisolution)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avSolution1, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avSolution2) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixTranslate`](#cmath-matrixtranslate)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avTrans) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_MatrixUnitVectors`](#cmath-matrixunitvectors)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avRight, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avUp, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avForward, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avTranslate) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Max`](#cmath-max)(float afX, float afY) | *Undocumented in the original Wiki.* |
+| `int` | [`cMath_Max`](#cmath-max)(int alX, int alY) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Min`](#cmath-min)(float afX, float afY) | *Undocumented in the original Wiki.* |
+| `int` | [`cMath_Min`](#cmath-min)(int alX, int alY) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Modulus`](#cmath-modulus)(float afDividend, float afDivisor) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_PlaneDot`](#cmath-planedot)(const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlaneA, const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlaneB) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_PlaneIntersectionPoint`](#cmath-planeintersectionpoint)(const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aP1, const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aP2, const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aP3, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPoint) | *Undocumented in the original Wiki.* |
+| `bool` | [`cMath_PlaneParallel`](#cmath-planeparallel)(const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlaneA, const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlaneB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_PlaneToPointDist`](#cmath-planetopointdist)(const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlane, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Pow`](#cmath-pow)(float afX, float afExp) | *Undocumented in the original Wiki.* |
+| `int` | [`cMath_Pow2`](#cmath-pow2)(int alX) | *Undocumented in the original Wiki.* |
+| `cMatrixf` | [`cMath_ProjectionMatrixObliqueNearClipPlane`](#cmath-projectionmatrixobliquenearclipplane)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxProjMatrix, const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aClipPlane) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_ProjectVector2D`](#cmath-projectvector2d)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avSrcVec, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avDestVec) | *Undocumented in the original Wiki.* |
+| `cQuaternion` | [`cMath_QuaternionConjugate`](#cmath-quaternionconjugate)(const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqA) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_QuaternionDot`](#cmath-quaterniondot)(const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqA, const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqB) | *Undocumented in the original Wiki.* |
+| `cQuaternion` | [`cMath_QuaternionEuler`](#cmath-quaternioneuler)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avEuler, [eEulerRotationOrder](https://wiki.frictionalgames.com/page/../../eEulerRotationOrder) aOrder) | *Undocumented in the original Wiki.* |
+| `cQuaternion` | [`cMath_QuaternionInverse`](#cmath-quaternioninverse)(const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqA) | *Undocumented in the original Wiki.* |
+| `cQuaternion` | [`cMath_QuaternionLerp`](#cmath-quaternionlerp)(float afT, const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqA, const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqB) | *Undocumented in the original Wiki.* |
+| `cQuaternion` | [`cMath_QuaternionMatrix`](#cmath-quaternionmatrix)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxA) | *Undocumented in the original Wiki.* |
+| `cQuaternion` | [`cMath_QuaternionMul`](#cmath-quaternionmul)(const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqA, const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqB) | *Undocumented in the original Wiki.* |
+| `cQuaternion` | [`cMath_QuaternionNlerp`](#cmath-quaternionnlerp)(float afT, const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqA, const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqB) | *Undocumented in the original Wiki.* |
+| `cQuaternion` | [`cMath_QuaternionNormalize`](#cmath-quaternionnormalize)(const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqA) | *Undocumented in the original Wiki.* |
+| `cQuaternion` | [`cMath_QuaternionSlerp`](#cmath-quaternionslerp)(float afT, const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqA, const [cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion) &in aqB, bool abShortestPath) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_RandomCircleEdgePoint`](#cmath-randomcircleedgepoint)(float afRadius) | *Undocumented in the original Wiki.* |
+| `void` | [`cMath_Randomize`](#cmath-randomize)(int alSeed) | *Undocumented in the original Wiki.* |
+| `cColor` | [`cMath_RandRectColor`](#cmath-randrectcolor)(const [cColor](https://wiki.frictionalgames.com/page/../../cColor) &in aMin, const [cColor](https://wiki.frictionalgames.com/page/../../cColor) &in aMax) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_RandRectf`](#cmath-randrectf)(float alMin, float alMax) | *Undocumented in the original Wiki.* |
+| `int` | [`cMath_RandRectl`](#cmath-randrectl)(int alMin, int alMax) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_RandRectVector2f`](#cmath-randrectvector2f)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avMin, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avMax) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_RandRectVector3f`](#cmath-randrectvector3f)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMin, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avMax) | *Undocumented in the original Wiki.* |
+| `tString` | [`cMath_RGBToHex`](#cmath-rgbtohex)(const [cColor](https://wiki.frictionalgames.com/page/../../cColor) &in aRGB) | *Undocumented in the original Wiki.* |
+| `tWString` | [`cMath_RGBToHexW`](#cmath-rgbtohexw)(const [cColor](https://wiki.frictionalgames.com/page/../../cColor) &in aRGB) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_RGBToHSB`](#cmath-rgbtohsb)(const [cColor](https://wiki.frictionalgames.com/page/../../cColor) &in aX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Round`](#cmath-round)(float afVal) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_RoundFloatToDecimals`](#cmath-roundfloattodecimals)(float afVal, int alPrecision) | *Undocumented in the original Wiki.* |
+| `int` | [`cMath_RoundToInt`](#cmath-roundtoint)(float afVal) | *Undocumented in the original Wiki.* |
+| `cVector2l` | [`cMath_RoundToInt`](#cmath-roundtoint)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avX) | *Undocumented in the original Wiki.* |
+| `cVector3l` | [`cMath_RoundToInt`](#cmath-roundtoint)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avX) | *Undocumented in the original Wiki.* |
+| `void` | [`cMath_SetBitFlag`](#cmath-setbitflag)(int &out alFlagNum, int alBit, bool abSet) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_SigmoidCurve`](#cmath-sigmoidcurve)(float afX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Sign`](#cmath-sign)(float afX) | *Undocumented in the original Wiki.* |
+| `int` | [`cMath_Sign`](#cmath-sign)(int alX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Sin`](#cmath-sin)(float afX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Sqrt`](#cmath-sqrt)(float afX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Tan`](#cmath-tan)(float afX) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_ToDeg`](#cmath-todeg)(float afAngle) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_ToRad`](#cmath-torad)(float afAngle) | *Undocumented in the original Wiki.* |
+| `cPlanef` | [`cMath_TransformPlane`](#cmath-transformplane)(const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxTransform, const [cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef) &in aPlane) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_TurnAngle`](#cmath-turnangle)(float afAngle, float afFinalAngle, float afSpeed, float afMaxAngle) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_TurnAngleDeg`](#cmath-turnangledeg)(float afAngle, float afFinalAngle, float afSpeed) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_TurnAngleRad`](#cmath-turnanglerad)(float afAngle, float afFinalAngle, float afSpeed) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2Abs`](#cmath-vector2abs)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2CatmullRom`](#cmath-vector2catmullrom)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avP0, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avP1, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avP2, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avP3, float afFract) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2Ceil`](#cmath-vector2ceil)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVec) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2Dist`](#cmath-vector2dist)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avPosA, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avPosB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2DistSqr`](#cmath-vector2distsqr)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avPosA, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avPosB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2DistSqrXY`](#cmath-vector2distsqrxy)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2DistSqrXZ`](#cmath-vector2distsqrxz)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2DistSqrYZ`](#cmath-vector2distsqryz)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2DistXY`](#cmath-vector2distxy)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2DistXZ`](#cmath-vector2distxz)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2DistYZ`](#cmath-vector2distyz)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2Dot`](#cmath-vector2dot)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avPosA, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avPosB) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2Floor`](#cmath-vector2floor)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2IncreaseTo`](#cmath-vector2increaseto)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avX, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avAdd, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avDest) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2Max`](#cmath-vector2max)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVecA, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVecB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2MaxElement`](#cmath-vector2maxelement)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2Min`](#cmath-vector2min)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVecA, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVecB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector2MinElement`](#cmath-vector2minelement)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2Normalize`](#cmath-vector2normalize)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2Rotate`](#cmath-vector2rotate)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVec, float afAngle) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2ToDeg`](#cmath-vector2todeg)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cMath_Vector2ToRad`](#cmath-vector2torad)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3Abs`](#cmath-vector3abs)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector3Angle`](#cmath-vector3angle)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVecA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVecB) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3AngleDistance`](#cmath-vector3angledistance)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngles1, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngles2, float afMaxAngle) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3AngleDistanceDeg`](#cmath-vector3angledistancedeg)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngles1, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngles2) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3AngleDistanceRad`](#cmath-vector3angledistancerad)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngles1, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAngles2) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3CatmullRom`](#cmath-vector3catmullrom)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avP0, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avP1, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avP2, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avP3, float afFract) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3Ceil`](#cmath-vector3ceil)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3ClampLength`](#cmath-vector3clamplength)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec, float afMinLength, float afMaxLength) | *Undocumented in the original Wiki.* |
+| `void` | [`cMath_Vector3ClampToLength`](#cmath-vector3clamptolength)([cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec, float afMaxLength) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3Cross`](#cmath-vector3cross)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVecA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVecB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector3Dist`](#cmath-vector3dist)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avStartPos, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avEndPos) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector3DistSqr`](#cmath-vector3distsqr)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avStartPos, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avEndPos) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector3Dot`](#cmath-vector3dot)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVecA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVecB) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3Floor`](#cmath-vector3floor)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3IncreaseTo`](#cmath-vector3increaseto)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avX, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avAdd, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avDest) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3Max`](#cmath-vector3max)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVecA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVecB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector3MaxElement`](#cmath-vector3maxelement)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3MaxLength`](#cmath-vector3maxlength)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec, float afMaxLength) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3Min`](#cmath-vector3min)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVecA, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVecB) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Vector3MinElement`](#cmath-vector3minelement)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3MinLength`](#cmath-vector3minlength)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec, float afMinLength) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3Normalize`](#cmath-vector3normalize)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec) | *Undocumented in the original Wiki.* |
+| `void` | [`cMath_Vector3OrthonormalizeBasis`](#cmath-vector3orthonormalizebasis)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avSrcRight, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avSrcUp, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avSrcForward, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avDstRight, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avDstUp, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avDstForward) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3Project`](#cmath-vector3project)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avSrcVec, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avDestVec) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3ProjectOnPlane`](#cmath-vector3projectonplane)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avSrcVec, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPlaneNormal) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3Reflect`](#cmath-vector3reflect)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avNormal) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3SphereSurfacePoint`](#cmath-vector3spheresurfacepoint)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avSeed, float afRadius) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3ToDeg`](#cmath-vector3todeg)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3ToRad`](#cmath-vector3torad)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec) | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cMath_Vector3UnProject`](#cmath-vector3unproject)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avVec, const [cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f) &in aScreenRect, const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxViewProj) | *Undocumented in the original Wiki.* |
+| `float` | [`cMath_Wrap`](#cmath-wrap)(float afX, float afMin, float afMax) | *Undocumented in the original Wiki.* |
+
+## Function Detail
+    1. `cMath_Abs`
+
+```angelscript
+float cMath_Abs(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Abs`
+
+```angelscript
+int cMath_Abs(int alX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+
+**Returns:** `int`
+
+    1. `cMath_ACos`
+
+```angelscript
+float cMath_ACos(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_ASin`
+
+```angelscript
+float cMath_ASin(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_ATan`
+
+```angelscript
+float cMath_ATan(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_ATan2`
+
+```angelscript
+float cMath_ATan2(float afY,
+                  float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afY` | `float` | — |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_CheckAABBInside`
+
+```angelscript
+bool cMath_CheckAABBInside(const cVector3f &in avInsideMin,
+                           const cVector3f &in avInsideMax,
+                           const cVector3f &in avOutsideMin,
+                           const cVector3f &in avOutsideMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avInsideMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avInsideMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avOutsideMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avOutsideMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckAABBIntersection`
+
+```angelscript
+bool cMath_CheckAABBIntersection(const cVector3f &in avMin1,
+                                 const cVector3f &in avMax1,
+                                 const cVector3f &in avMin2,
+                                 const cVector3f &in avMax2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avMin1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMax1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMin2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMax2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckAABBLineIntersection`
+
+```angelscript
+bool cMath_CheckAABBLineIntersection(const cVector3f &in avMin,
+                                     const cVector3f &in avMax,
+                                     const cVector3f &in avLineStart,
+                                     const cVector3f &in avLineEnd,
+                                     cVector3f &out avIntersectionPos,
+                                     float &out afT)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avLineStart` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avLineEnd` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avIntersectionPos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afT` | `float` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckAABBSphereCollision`
+
+```angelscript
+bool cMath_CheckAABBSphereCollision(const cVector3f &in avMin,
+                                    const cVector3f &in avMax,
+                                    const cVector3f &in avCenter,
+                                    float afRadius)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avCenter` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afRadius` | `float` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckBVIntersection`
+
+```angelscript
+bool cMath_CheckBVIntersection(cBoundingVolume@+ aBV1,
+                               cBoundingVolume@+ aBV2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aBV1` | `[cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume)` | — |
+| `aBV2` | `[cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckPlaneAABBCollision`
+
+```angelscript
+bool cMath_CheckPlaneAABBCollision(const cPlanef &in aPlane,
+                                   const cVector3f &in avMin,
+                                   const cVector3f &in avMax,
+                                   const cVector3f &in avSphereCenter,
+                                   float afSphereRadius)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aPlane` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `avMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avSphereCenter` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afSphereRadius` | `float` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckPlaneAABBCollision`
+
+```angelscript
+bool cMath_CheckPlaneAABBCollision(const cPlanef &in aPlane,
+                                   const cVector3f &in avMin,
+                                   const cVector3f &in avMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aPlane` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `avMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckPlaneBVCollision`
+
+```angelscript
+bool cMath_CheckPlaneBVCollision(const cPlanef &in aPlane,
+                                 cBoundingVolume@+ aBV)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aPlane` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `aBV` | `[cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckPlaneLineIntersection`
+
+```angelscript
+bool cMath_CheckPlaneLineIntersection(const cPlanef &in aPlane,
+                                      const cVector3f &in avLineStart,
+                                      const cVector3f &in avLineEnd,
+                                      cVector3f &out avIntersectionPos,
+                                      float &out afT)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aPlane` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `avLineStart` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avLineEnd` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avIntersectionPos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afT` | `float` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckPlaneSphereCollision`
+
+```angelscript
+bool cMath_CheckPlaneSphereCollision(const cPlanef &in aPlane,
+                                     const cVector3f &in avCenter,
+                                     float afRadius)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aPlane` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `avCenter` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afRadius` | `float` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckPointInAABBIntersection`
+
+```angelscript
+bool cMath_CheckPointInAABBIntersection(const cVector3f &in avPoint,
+                                        const cVector3f &in avMin,
+                                        const cVector3f &in avMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPoint` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckPointInBVIntersection`
+
+```angelscript
+bool cMath_CheckPointInBVIntersection(const cVector3f &in avPoint,
+                                      cBoundingVolume@+ aBV)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPoint` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `aBV` | `[cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckPointInRectIntersection`
+
+```angelscript
+bool cMath_CheckPointInRectIntersection(const cVector2f &in avPoint,
+                                        const cRect2f &in aRect)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPoint` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `aRect` | `[cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckPointInSphereIntersection`
+
+```angelscript
+bool cMath_CheckPointInSphereIntersection(const cVector3f &in avPoint,
+                                          const cVector3f &in avSpherePos,
+                                          float afSphereRadius)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPoint` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avSpherePos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afSphereRadius` | `float` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckRectFit`
+
+```angelscript
+bool cMath_CheckRectFit(const cRect2l &in aRectSrc,
+                        const cRect2l &in aRectDest)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aRectSrc` | `[cRect2l](https://wiki.frictionalgames.com/page/../../cRect2l)` | — |
+| `aRectDest` | `[cRect2l](https://wiki.frictionalgames.com/page/../../cRect2l)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckRectFit`
+
+```angelscript
+bool cMath_CheckRectFit(const cRect2f &in aRectSrc,
+                        const cRect2f &in aRectDest)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aRectSrc` | `[cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f)` | — |
+| `aRectDest` | `[cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckRectIntersection`
+
+```angelscript
+bool cMath_CheckRectIntersection(const cRect2l &in aRect1,
+                                 const cRect2l &in aRect2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aRect1` | `[cRect2l](https://wiki.frictionalgames.com/page/../../cRect2l)` | — |
+| `aRect2` | `[cRect2l](https://wiki.frictionalgames.com/page/../../cRect2l)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckRectIntersection`
+
+```angelscript
+bool cMath_CheckRectIntersection(const cRect2f &in aRect1,
+                                 const cRect2f &in aRect2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aRect1` | `[cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f)` | — |
+| `aRect2` | `[cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckRectIntersection`
+
+```angelscript
+bool cMath_CheckRectIntersection(const cVector2l &in avMin1,
+                                 const cVector2l &in avMax1,
+                                 const cVector2l &in avMin2,
+                                 const cVector2l &in avMax2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avMin1` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+| `avMax1` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+| `avMin2` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+| `avMax2` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckRectIntersection`
+
+```angelscript
+bool cMath_CheckRectIntersection(const cVector2f &in avMin1,
+                                 const cVector2f &in avMax1,
+                                 const cVector2f &in avMin2,
+                                 const cVector2f &in avMax2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avMin1` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avMax1` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avMin2` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avMax2` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckSphereIntersection`
+
+```angelscript
+bool cMath_CheckSphereIntersection(const cVector3f &in avPosA,
+                                   float afRadiusA,
+                                   const cVector3f &in avPosB,
+                                   float afRadiusB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afRadiusA` | `float` | — |
+| `avPosB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afRadiusB` | `float` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_CheckSphereLineIntersection`
+
+```angelscript
+bool cMath_CheckSphereLineIntersection(const cVector3f &in avSpherePos,
+                                       float afSphereRadius,
+                                       const cVector3f &in avLineStart,
+                                       const cVector3f &in avLineEnd,
+                                       float &out afT1,
+                                       cVector3f &out afIntersection1,
+                                       float &out afT2,
+                                       cVector3f &out avIntersection2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSpherePos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afSphereRadius` | `float` | — |
+| `avLineStart` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avLineEnd` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afT1` | `float` | — |
+| `afIntersection1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afT2` | `float` | — |
+| `avIntersection2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_Clamp`
+
+```angelscript
+float cMath_Clamp(float afX,
+                  float afMin,
+                  float afMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+| `afMin` | `float` | — |
+| `afMax` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Clamp`
+
+```angelscript
+int cMath_Clamp(int alX,
+                int alMin,
+                int alMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+| `alMin` | `int` | — |
+| `alMax` | `int` | — |
+
+**Returns:** `int`
+
+    1. `cMath_Cos`
+
+```angelscript
+float cMath_Cos(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Easing`
+
+```angelscript
+float cMath_Easing(eEasing aType,
+                   float afT,
+                   float afMin = 0,
+                   float afMax = 1)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aType` | `[eEasing](https://wiki.frictionalgames.com/page/../../eEasing)` | — |
+| `afT` | `float` | — |
+| `afMin` | `float` | — |
+| `afMax` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_ExpandAABBMax`
+
+```angelscript
+cVector3f cMath_ExpandAABBMax(const cVector3f &in avBaseMax,
+                              const cVector3f &in avAddMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avBaseMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avAddMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_ExpandAABBMin`
+
+```angelscript
+cVector3f cMath_ExpandAABBMin(const cVector3f &in avBaseMin,
+                              const cVector3f &in avAddMin)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avBaseMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avAddMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_FastRandomFloat`
+
+```angelscript
+float cMath_FastRandomFloat(int alSeed)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alSeed` | `int` | — |
+
+**Returns:** `float`
+
+    1. `cMath_GetAngleDistance`
+
+```angelscript
+float cMath_GetAngleDistance(float afAngle1,
+                             float afAngle2,
+                             float afMaxAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle1` | `float` | — |
+| `afAngle2` | `float` | — |
+| `afMaxAngle` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_GetAngleDistanceDeg`
+
+```angelscript
+float cMath_GetAngleDistanceDeg(float afAngle1,
+                                float afAngle2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle1` | `float` | — |
+| `afAngle2` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_GetAngleDistanceRad`
+
+```angelscript
+float cMath_GetAngleDistanceRad(float afAngle1,
+                                float afAngle2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle1` | `float` | — |
+| `afAngle2` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_GetAngleDistanceVector2f`
+
+```angelscript
+cVector2f cMath_GetAngleDistanceVector2f(const cVector2f &in avAngle1,
+                                         const cVector2f &in avAngle2,
+                                         float afMaxAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avAngle1` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avAngle2` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `afMaxAngle` | `float` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_GetAngleDistanceVector2fDeg`
+
+```angelscript
+cVector2f cMath_GetAngleDistanceVector2fDeg(const cVector2f &in avAngle1,
+                                            const cVector2f &in avAngle2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avAngle1` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avAngle2` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_GetAngleDistanceVector2fRad`
+
+```angelscript
+cVector2f cMath_GetAngleDistanceVector2fRad(const cVector2f &in avAngle1,
+                                            const cVector2f &in avAngle2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avAngle1` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avAngle2` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_GetAngleDistanceVector3f`
+
+```angelscript
+cVector3f cMath_GetAngleDistanceVector3f(const cVector3f &in avAngle1,
+                                         const cVector3f &in avAngle2,
+                                         float afMaxAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avAngle1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avAngle2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afMaxAngle` | `float` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_GetAngleDistanceVector3fDeg`
+
+```angelscript
+cVector3f cMath_GetAngleDistanceVector3fDeg(const cVector3f &in avAngle1,
+                                            const cVector3f &in avAngle2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avAngle1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avAngle2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_GetAngleDistanceVector3fRad`
+
+```angelscript
+cVector3f cMath_GetAngleDistanceVector3fRad(const cVector3f &in avAngle1,
+                                            const cVector3f &in avAngle2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avAngle1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avAngle2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_GetAngleFromPoints2D`
+
+```angelscript
+float cMath_GetAngleFromPoints2D(const cVector2f &in aStartPos,
+                                 const cVector2f &in avGoalPos)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aStartPos` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avGoalPos` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_GetAngleFromPoints3D`
+
+```angelscript
+cVector3f cMath_GetAngleFromPoints3D(const cVector3f &in avStartPos,
+                                     const cVector3f &in avGoalPos)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avStartPos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avGoalPos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_GetAngleFromVector`
+
+```angelscript
+void cMath_GetAngleFromVector(const cVector2f &in avVec,
+                              float &out afAngle,
+                              float &out afLength)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `afAngle` | `float` | — |
+| `afLength` | `float` | — |
+
+**Returns:** `void`
+
+    1. `cMath_GetBit`
+
+```angelscript
+int cMath_GetBit(int alBitNum)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alBitNum` | `int` | — |
+
+**Returns:** `int`
+
+    1. `cMath_GetBitFlag`
+
+```angelscript
+bool cMath_GetBitFlag(int alFlagNum,
+                      int alBit)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alFlagNum` | `int` | — |
+| `alBit` | `int` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_GetClipRect`
+
+```angelscript
+cRect2f cMath_GetClipRect(const cRect2f &in aRectSrc,
+                          const cRect2f &in aRectDest)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aRectSrc` | `[cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f)` | — |
+| `aRectDest` | `[cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f)` | — |
+
+**Returns:** `cRect2f`
+
+    1. `cMath_GetClipRectFromBV`
+
+```angelscript
+void cMath_GetClipRectFromBV(cRect2l &out aDestRect,
+                             cBoundingVolume@+ aBV,
+                             cFrustum@+ apFrustum,
+                             const cVector2l &in avScreenSize)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aDestRect` | `[cRect2l](https://wiki.frictionalgames.com/page/../../cRect2l)` | — |
+| `aBV` | `[cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume)` | — |
+| `apFrustum` | `[cFrustum@+](https://wiki.frictionalgames.com/page/../../cFrustum)` | — |
+| `avScreenSize` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+
+**Returns:** `void`
+
+    1. `cMath_GetClipRectFromNormalizedMinMax`
+
+```angelscript
+cRect2l cMath_GetClipRectFromNormalizedMinMax(const cVector3f &in avMin,
+                                              const cVector3f &in avMax,
+                                              const cVector2l &in avScreenSize)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avScreenSize` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+
+**Returns:** `cRect2l`
+
+    1. `cMath_GetClipRectFromSphere`
+
+```angelscript
+cRect2l cMath_GetClipRectFromSphere(const cVector3f &in avPosition,
+                                    float afRadius,
+                                    cFrustum@+ apFrustum,
+                                    const cVector2l &in avScreenSize,
+                                    bool abPositionIsScreenSpace)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosition` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afRadius` | `float` | — |
+| `apFrustum` | `[cFrustum@+](https://wiki.frictionalgames.com/page/../../cFrustum)` | — |
+| `avScreenSize` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+| `abPositionIsScreenSpace` | `bool` | — |
+
+**Returns:** `cRect2l`
+
+    1. `cMath_GetCorrectSignOfSpeed`
+
+```angelscript
+float cMath_GetCorrectSignOfSpeed(float afCurrent,
+                                  float afDest,
+                                  float afSpeed)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afCurrent` | `float` | — |
+| `afDest` | `float` | — |
+| `afSpeed` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_GetFraction`
+
+```angelscript
+float cMath_GetFraction(float afVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afVal` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_GetNormalizedClipRectFromBV`
+
+```angelscript
+bool cMath_GetNormalizedClipRectFromBV(cVector3f &out avDestMin,
+                                       cVector3f &out avDestMax,
+                                       cBoundingVolume@+ aBV,
+                                       cFrustum@+ aFrustum)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avDestMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avDestMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `aBV` | `[cBoundingVolume@+](https://wiki.frictionalgames.com/page/../../cBoundingVolume)` | — |
+| `aFrustum` | `[cFrustum@+](https://wiki.frictionalgames.com/page/../../cFrustum)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_GetPoint3DFromSphericalCoords`
+
+```angelscript
+cVector3f cMath_GetPoint3DFromSphericalCoords(const cVector3f &in avSphCenter,
+                                              float afSphRadius,
+                                              const cVector2f &in avSphCoords)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSphCenter` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afSphRadius` | `float` | — |
+| `avSphCoords` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_GetSphericalCoordsFromPoint3D`
+
+```angelscript
+cVector2f cMath_GetSphericalCoordsFromPoint3D(const cVector3f &in avSphCenter,
+                                              const cVector3f &in avPoint)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSphCenter` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avPoint` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_GetVectorFromAngle2D`
+
+```angelscript
+cVector2f cMath_GetVectorFromAngle2D(float afAngle,
+                                     float afLength)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle` | `float` | — |
+| `afLength` | `float` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_HexToRGB`
+
+```angelscript
+cColor cMath_HexToRGB(const tString &in asHex)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asHex` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `cColor`
+
+    1. `cMath_HexWToRGB`
+
+```angelscript
+cColor cMath_HexWToRGB(const tWString &in asHex)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asHex` | `[tWString](https://wiki.frictionalgames.com/page/../../tWString)` | — |
+
+**Returns:** `cColor`
+
+    1. `cMath_HSBToRGB`
+
+```angelscript
+cColor cMath_HSBToRGB(const cVector3f &in avHSB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avHSB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cColor`
+
+    1. `cMath_IncreaseTo`
+
+```angelscript
+float cMath_IncreaseTo(float afX,
+                       float afAdd,
+                       float afDest)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+| `afAdd` | `float` | — |
+| `afDest` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_InterpolateCosine`
+
+```angelscript
+float cMath_InterpolateCosine(float afA,
+                              float afB,
+                              float afT)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afA` | `float` | — |
+| `afB` | `float` | — |
+| `afT` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_InterpolateCubic`
+
+```angelscript
+float cMath_InterpolateCubic(float afX0,
+                             float afX1,
+                             float afX2,
+                             float afX3,
+                             float afT)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX0` | `float` | — |
+| `afX1` | `float` | — |
+| `afX2` | `float` | — |
+| `afX3` | `float` | — |
+| `afT` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_InterpolateHermite`
+
+```angelscript
+float cMath_InterpolateHermite(float afX0,
+                               float afX1,
+                               float afX2,
+                               float afX3,
+                               float afT,
+                               float afTension,
+                               float afBias)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX0` | `float` | — |
+| `afX1` | `float` | — |
+| `afX2` | `float` | — |
+| `afX3` | `float` | — |
+| `afT` | `float` | — |
+| `afTension` | `float` | — |
+| `afBias` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_InterpolateLinear`
+
+```angelscript
+float cMath_InterpolateLinear(float afA,
+                              float afB,
+                              float afT)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afA` | `float` | — |
+| `afB` | `float` | — |
+| `afT` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_InterpolateSigmoid`
+
+```angelscript
+float cMath_InterpolateSigmoid(float afA,
+                               float afB,
+                               float afT)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afA` | `float` | — |
+| `afB` | `float` | — |
+| `afT` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_IsPow2`
+
+```angelscript
+bool cMath_IsPow2(int alX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_Log`
+
+```angelscript
+float cMath_Log(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Log2ToInt`
+
+```angelscript
+int cMath_Log2ToInt(int alX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+
+**Returns:** `int`
+
+    1. `cMath_MatrixEulerAngleDistance`
+
+```angelscript
+cVector3f cMath_MatrixEulerAngleDistance(const cMatrixf &in a_mtxA,
+                                         const cMatrixf &in a_mtxB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `a_mtxB` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_MatrixInverse`
+
+```angelscript
+cMatrixf cMath_MatrixInverse(const cMatrixf &in a_mtxA)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixMul`
+
+```angelscript
+cMatrixf cMath_MatrixMul(const cMatrixf &in a_mtxA,
+                         const cMatrixf &in a_mtxB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `a_mtxB` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixMul`
+
+```angelscript
+cVector3f cMath_MatrixMul(const cMatrixf &in a_mtxA,
+                          const cVector3f &in avB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `avB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_MatrixMul3x3`
+
+```angelscript
+cVector3f cMath_MatrixMul3x3(const cMatrixf &in a_mtxA,
+                             const cVector3f &in avB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `avB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_MatrixMulDivideW`
+
+```angelscript
+cVector3f cMath_MatrixMulDivideW(const cMatrixf &in a_mtxA,
+                                 const cVector3f &in avB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `avB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_MatrixMulScalar`
+
+```angelscript
+cMatrixf cMath_MatrixMulScalar(const cMatrixf &in a_mtxA,
+                               float afB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `afB` | `float` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixOrthographicProjection`
+
+```angelscript
+cMatrixf cMath_MatrixOrthographicProjection(float afNearClipPlane,
+                                            float afFarClipPlane,
+                                            const cVector2f &in avViewSize)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afNearClipPlane` | `float` | — |
+| `afFarClipPlane` | `float` | — |
+| `avViewSize` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixPerspectiveProjection`
+
+```angelscript
+cMatrixf cMath_MatrixPerspectiveProjection(float afNearClipPlane,
+                                           float afFarClipPlane,
+                                           float afFOV,
+                                           float afAspect,
+                                           bool abInfFarPlane)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afNearClipPlane` | `float` | — |
+| `afFarClipPlane` | `float` | — |
+| `afFOV` | `float` | — |
+| `afAspect` | `float` | — |
+| `abInfFarPlane` | `bool` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixPlaneMirror`
+
+```angelscript
+cMatrixf cMath_MatrixPlaneMirror(const cPlanef &in aPlane)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aPlane` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixQuaternion`
+
+```angelscript
+cMatrixf cMath_MatrixQuaternion(const cQuaternion &in aqRot)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aqRot` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixRotateX`
+
+```angelscript
+cMatrixf cMath_MatrixRotateX(float afAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle` | `float` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixRotateXYZ`
+
+```angelscript
+cMatrixf cMath_MatrixRotateXYZ(const cVector3f &in avRot)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avRot` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixRotateXZY`
+
+```angelscript
+cMatrixf cMath_MatrixRotateXZY(const cVector3f &in avRot)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avRot` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixRotateY`
+
+```angelscript
+cMatrixf cMath_MatrixRotateY(float afAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle` | `float` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixRotateYXZ`
+
+```angelscript
+cMatrixf cMath_MatrixRotateYXZ(const cVector3f &in avRot)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avRot` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixRotateYZX`
+
+```angelscript
+cMatrixf cMath_MatrixRotateYZX(const cVector3f &in avRot)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avRot` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixRotateZ`
+
+```angelscript
+cMatrixf cMath_MatrixRotateZ(float afAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle` | `float` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixRotateZXY`
+
+```angelscript
+cMatrixf cMath_MatrixRotateZXY(const cVector3f &in avRot)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avRot` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixRotateZYX`
+
+```angelscript
+cMatrixf cMath_MatrixRotateZYX(const cVector3f &in avRot)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avRot` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixScale`
+
+```angelscript
+cMatrixf cMath_MatrixScale(const cVector3f &in avScale)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avScale` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixSlerp`
+
+```angelscript
+cMatrixf cMath_MatrixSlerp(float afT,
+                           const cMatrixf &in a_mtxA,
+                           const cMatrixf &in a_mtxB,
+                           bool abShortestPath)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afT` | `float` | — |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `a_mtxB` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `abShortestPath` | `bool` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixToEulerAngles`
+
+```angelscript
+cVector3f cMath_MatrixToEulerAngles(const cMatrixf &in a_mtxA)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_MatrixToEulerAnglesMultiSolution`
+
+```angelscript
+cVector3f cMath_MatrixToEulerAnglesMultiSolution(const cMatrixf &in a_mtxA,
+                                                 cVector3f &out avSolution1,
+                                                 cVector3f &out avSolution2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `avSolution1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avSolution2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_MatrixTranslate`
+
+```angelscript
+cMatrixf cMath_MatrixTranslate(const cVector3f &in avTrans)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avTrans` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_MatrixUnitVectors`
+
+```angelscript
+cMatrixf cMath_MatrixUnitVectors(const cVector3f &in avRight,
+                                 const cVector3f &in avUp,
+                                 const cVector3f &in avForward,
+                                 const cVector3f &in avTranslate)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avRight` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avUp` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avForward` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avTranslate` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_Max`
+
+```angelscript
+float cMath_Max(float afX,
+                float afY)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+| `afY` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Max`
+
+```angelscript
+int cMath_Max(int alX,
+              int alY)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+| `alY` | `int` | — |
+
+**Returns:** `int`
+
+    1. `cMath_Min`
+
+```angelscript
+float cMath_Min(float afX,
+                float afY)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+| `afY` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Min`
+
+```angelscript
+int cMath_Min(int alX,
+              int alY)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+| `alY` | `int` | — |
+
+**Returns:** `int`
+
+    1. `cMath_Modulus`
+
+```angelscript
+float cMath_Modulus(float afDividend,
+                    float afDivisor)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afDividend` | `float` | — |
+| `afDivisor` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_PlaneDot`
+
+```angelscript
+float cMath_PlaneDot(const cPlanef &in aPlaneA,
+                     const cPlanef &in aPlaneB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aPlaneA` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `aPlaneB` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_PlaneIntersectionPoint`
+
+```angelscript
+bool cMath_PlaneIntersectionPoint(const cPlanef &in aP1,
+                                  const cPlanef &in aP2,
+                                  const cPlanef &in aP3,
+                                  cVector3f &in avPoint)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aP1` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `aP2` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `aP3` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `avPoint` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_PlaneParallel`
+
+```angelscript
+bool cMath_PlaneParallel(const cPlanef &in aPlaneA,
+                         const cPlanef &in aPlaneB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aPlaneA` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `aPlaneB` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+
+**Returns:** `bool`
+
+    1. `cMath_PlaneToPointDist`
+
+```angelscript
+float cMath_PlaneToPointDist(const cPlanef &in aPlane,
+                             const cVector3f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aPlane` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Pow`
+
+```angelscript
+float cMath_Pow(float afX,
+                float afExp)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+| `afExp` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Pow2`
+
+```angelscript
+int cMath_Pow2(int alX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+
+**Returns:** `int`
+
+    1. `cMath_ProjectionMatrixObliqueNearClipPlane`
+
+```angelscript
+cMatrixf cMath_ProjectionMatrixObliqueNearClipPlane(const cMatrixf &in a_mtxProjMatrix,
+                                                    const cPlanef &in aClipPlane)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxProjMatrix` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `aClipPlane` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+
+**Returns:** `cMatrixf`
+
+    1. `cMath_ProjectVector2D`
+
+```angelscript
+cVector2f cMath_ProjectVector2D(const cVector2f &in avSrcVec,
+                                const cVector2f &in avDestVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSrcVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avDestVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_QuaternionConjugate`
+
+```angelscript
+cQuaternion cMath_QuaternionConjugate(const cQuaternion &in aqA)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aqA` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+
+**Returns:** `cQuaternion`
+
+    1. `cMath_QuaternionDot`
+
+```angelscript
+float cMath_QuaternionDot(const cQuaternion &in aqA,
+                          const cQuaternion &in aqB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aqA` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+| `aqB` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_QuaternionEuler`
+
+```angelscript
+cQuaternion cMath_QuaternionEuler(const cVector3f &in avEuler,
+                                  eEulerRotationOrder aOrder)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avEuler` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `aOrder` | `[eEulerRotationOrder](https://wiki.frictionalgames.com/page/../../eEulerRotationOrder)` | — |
+
+**Returns:** `cQuaternion`
+
+    1. `cMath_QuaternionInverse`
+
+```angelscript
+cQuaternion cMath_QuaternionInverse(const cQuaternion &in aqA)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aqA` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+
+**Returns:** `cQuaternion`
+
+    1. `cMath_QuaternionLerp`
+
+```angelscript
+cQuaternion cMath_QuaternionLerp(float afT,
+                                 const cQuaternion &in aqA,
+                                 const cQuaternion &in aqB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afT` | `float` | — |
+| `aqA` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+| `aqB` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+
+**Returns:** `cQuaternion`
+
+    1. `cMath_QuaternionMatrix`
+
+```angelscript
+cQuaternion cMath_QuaternionMatrix(const cMatrixf &in a_mtxA)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxA` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+
+**Returns:** `cQuaternion`
+
+    1. `cMath_QuaternionMul`
+
+```angelscript
+cQuaternion cMath_QuaternionMul(const cQuaternion &in aqA,
+                                const cQuaternion &in aqB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aqA` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+| `aqB` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+
+**Returns:** `cQuaternion`
+
+    1. `cMath_QuaternionNlerp`
+
+```angelscript
+cQuaternion cMath_QuaternionNlerp(float afT,
+                                  const cQuaternion &in aqA,
+                                  const cQuaternion &in aqB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afT` | `float` | — |
+| `aqA` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+| `aqB` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+
+**Returns:** `cQuaternion`
+
+    1. `cMath_QuaternionNormalize`
+
+```angelscript
+cQuaternion cMath_QuaternionNormalize(const cQuaternion &in aqA)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aqA` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+
+**Returns:** `cQuaternion`
+
+    1. `cMath_QuaternionSlerp`
+
+```angelscript
+cQuaternion cMath_QuaternionSlerp(float afT,
+                                  const cQuaternion &in aqA,
+                                  const cQuaternion &in aqB,
+                                  bool abShortestPath)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afT` | `float` | — |
+| `aqA` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+| `aqB` | `[cQuaternion](https://wiki.frictionalgames.com/page/../../cQuaternion)` | — |
+| `abShortestPath` | `bool` | — |
+
+**Returns:** `cQuaternion`
+
+    1. `cMath_RandomCircleEdgePoint`
+
+```angelscript
+cVector2f cMath_RandomCircleEdgePoint(float afRadius)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afRadius` | `float` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Randomize`
+
+```angelscript
+void cMath_Randomize(int alSeed)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alSeed` | `int` | — |
+
+**Returns:** `void`
+
+    1. `cMath_RandRectColor`
+
+```angelscript
+cColor cMath_RandRectColor(const cColor &in aMin,
+                           const cColor &in aMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aMin` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+| `aMax` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+
+**Returns:** `cColor`
+
+    1. `cMath_RandRectf`
+
+```angelscript
+float cMath_RandRectf(float alMin,
+                      float alMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alMin` | `float` | — |
+| `alMax` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_RandRectl`
+
+```angelscript
+int cMath_RandRectl(int alMin,
+                    int alMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alMin` | `int` | — |
+| `alMax` | `int` | — |
+
+**Returns:** `int`
+
+    1. `cMath_RandRectVector2f`
+
+```angelscript
+cVector2f cMath_RandRectVector2f(const cVector2f &in avMin,
+                                 const cVector2f &in avMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avMin` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avMax` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_RandRectVector3f`
+
+```angelscript
+cVector3f cMath_RandRectVector3f(const cVector3f &in avMin,
+                                 const cVector3f &in avMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avMin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avMax` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_RGBToHex`
+
+```angelscript
+tString cMath_RGBToHex(const cColor &in aRGB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aRGB` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+
+**Returns:** `tString`
+
+    1. `cMath_RGBToHexW`
+
+```angelscript
+tWString cMath_RGBToHexW(const cColor &in aRGB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aRGB` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+
+**Returns:** `tWString`
+
+    1. `cMath_RGBToHSB`
+
+```angelscript
+cVector3f cMath_RGBToHSB(const cColor &in aX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aX` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Round`
+
+```angelscript
+float cMath_Round(float afVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afVal` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_RoundFloatToDecimals`
+
+```angelscript
+float cMath_RoundFloatToDecimals(float afVal,
+                                 int alPrecision)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afVal` | `float` | — |
+| `alPrecision` | `int` | — |
+
+**Returns:** `float`
+
+    1. `cMath_RoundToInt`
+
+```angelscript
+int cMath_RoundToInt(float afVal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afVal` | `float` | — |
+
+**Returns:** `int`
+
+    1. `cMath_RoundToInt`
+
+```angelscript
+cVector2l cMath_RoundToInt(const cVector2f &in avX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avX` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2l`
+
+    1. `cMath_RoundToInt`
+
+```angelscript
+cVector3l cMath_RoundToInt(const cVector3f &in avX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avX` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3l`
+
+    1. `cMath_SetBitFlag`
+
+```angelscript
+void cMath_SetBitFlag(int &out alFlagNum,
+                      int alBit,
+                      bool abSet)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alFlagNum` | `int` | — |
+| `alBit` | `int` | — |
+| `abSet` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cMath_SigmoidCurve`
+
+```angelscript
+float cMath_SigmoidCurve(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Sign`
+
+```angelscript
+float cMath_Sign(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Sign`
+
+```angelscript
+int cMath_Sign(int alX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+
+**Returns:** `int`
+
+    1. `cMath_Sin`
+
+```angelscript
+float cMath_Sin(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Sqrt`
+
+```angelscript
+float cMath_Sqrt(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Tan`
+
+```angelscript
+float cMath_Tan(float afX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_ToDeg`
+
+```angelscript
+float cMath_ToDeg(float afAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_ToRad`
+
+```angelscript
+float cMath_ToRad(float afAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_TransformPlane`
+
+```angelscript
+cPlanef cMath_TransformPlane(const cMatrixf &in a_mtxTransform,
+                             const cPlanef &in aPlane)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `a_mtxTransform` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `aPlane` | `[cPlanef](https://wiki.frictionalgames.com/page/../../cPlanef)` | — |
+
+**Returns:** `cPlanef`
+
+    1. `cMath_TurnAngle`
+
+```angelscript
+float cMath_TurnAngle(float afAngle,
+                      float afFinalAngle,
+                      float afSpeed,
+                      float afMaxAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle` | `float` | — |
+| `afFinalAngle` | `float` | — |
+| `afSpeed` | `float` | — |
+| `afMaxAngle` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_TurnAngleDeg`
+
+```angelscript
+float cMath_TurnAngleDeg(float afAngle,
+                         float afFinalAngle,
+                         float afSpeed)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle` | `float` | — |
+| `afFinalAngle` | `float` | — |
+| `afSpeed` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_TurnAngleRad`
+
+```angelscript
+float cMath_TurnAngleRad(float afAngle,
+                         float afFinalAngle,
+                         float afSpeed)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afAngle` | `float` | — |
+| `afFinalAngle` | `float` | — |
+| `afSpeed` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2Abs`
+
+```angelscript
+cVector2f cMath_Vector2Abs(const cVector2f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector2CatmullRom`
+
+```angelscript
+cVector2f cMath_Vector2CatmullRom(const cVector2f &in avP0,
+                                  const cVector2f &in avP1,
+                                  const cVector2f &in avP2,
+                                  const cVector2f &in avP3,
+                                  float afFract)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avP0` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avP1` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avP2` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avP3` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `afFract` | `float` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector2Ceil`
+
+```angelscript
+cVector2f cMath_Vector2Ceil(const cVector2f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector2Dist`
+
+```angelscript
+float cMath_Vector2Dist(const cVector2f &in avPosA,
+                        const cVector2f &in avPosB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosA` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avPosB` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2DistSqr`
+
+```angelscript
+float cMath_Vector2DistSqr(const cVector2f &in avPosA,
+                           const cVector2f &in avPosB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosA` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avPosB` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2DistSqrXY`
+
+```angelscript
+float cMath_Vector2DistSqrXY(const cVector3f &in avPosA,
+                             const cVector3f &in avPosB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avPosB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2DistSqrXZ`
+
+```angelscript
+float cMath_Vector2DistSqrXZ(const cVector3f &in avPosA,
+                             const cVector3f &in avPosB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avPosB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2DistSqrYZ`
+
+```angelscript
+float cMath_Vector2DistSqrYZ(const cVector3f &in avPosA,
+                             const cVector3f &in avPosB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avPosB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2DistXY`
+
+```angelscript
+float cMath_Vector2DistXY(const cVector3f &in avPosA,
+                          const cVector3f &in avPosB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avPosB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2DistXZ`
+
+```angelscript
+float cMath_Vector2DistXZ(const cVector3f &in avPosA,
+                          const cVector3f &in avPosB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avPosB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2DistYZ`
+
+```angelscript
+float cMath_Vector2DistYZ(const cVector3f &in avPosA,
+                          const cVector3f &in avPosB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avPosB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2Dot`
+
+```angelscript
+float cMath_Vector2Dot(const cVector2f &in avPosA,
+                       const cVector2f &in avPosB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPosA` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avPosB` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2Floor`
+
+```angelscript
+cVector2f cMath_Vector2Floor(const cVector2f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector2IncreaseTo`
+
+```angelscript
+cVector2f cMath_Vector2IncreaseTo(const cVector2f &in avX,
+                                  const cVector2f &in avAdd,
+                                  const cVector2f &in avDest)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avX` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avAdd` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avDest` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector2Max`
+
+```angelscript
+cVector2f cMath_Vector2Max(const cVector2f &in avVecA,
+                           const cVector2f &in avVecB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVecA` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avVecB` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector2MaxElement`
+
+```angelscript
+float cMath_Vector2MaxElement(const cVector2f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2Min`
+
+```angelscript
+cVector2f cMath_Vector2Min(const cVector2f &in avVecA,
+                           const cVector2f &in avVecB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVecA` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avVecB` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector2MinElement`
+
+```angelscript
+float cMath_Vector2MinElement(const cVector2f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector2Normalize`
+
+```angelscript
+cVector2f cMath_Vector2Normalize(const cVector2f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector2Rotate`
+
+```angelscript
+cVector2f cMath_Vector2Rotate(const cVector2f &in avVec,
+                              float afAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `afAngle` | `float` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector2ToDeg`
+
+```angelscript
+cVector2f cMath_Vector2ToDeg(const cVector2f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector2ToRad`
+
+```angelscript
+cVector2f cMath_Vector2ToRad(const cVector2f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `cVector2f`
+
+    1. `cMath_Vector3Abs`
+
+```angelscript
+cVector3f cMath_Vector3Abs(const cVector3f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3Angle`
+
+```angelscript
+float cMath_Vector3Angle(const cVector3f &in avVecA,
+                         const cVector3f &in avVecB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVecA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avVecB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector3AngleDistance`
+
+```angelscript
+cVector3f cMath_Vector3AngleDistance(const cVector3f &in avAngles1,
+                                     const cVector3f &in avAngles2,
+                                     float afMaxAngle)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avAngles1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avAngles2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afMaxAngle` | `float` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3AngleDistanceDeg`
+
+```angelscript
+cVector3f cMath_Vector3AngleDistanceDeg(const cVector3f &in avAngles1,
+                                        const cVector3f &in avAngles2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avAngles1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avAngles2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3AngleDistanceRad`
+
+```angelscript
+cVector3f cMath_Vector3AngleDistanceRad(const cVector3f &in avAngles1,
+                                        const cVector3f &in avAngles2)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avAngles1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avAngles2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3CatmullRom`
+
+```angelscript
+cVector3f cMath_Vector3CatmullRom(const cVector3f &in avP0,
+                                  const cVector3f &in avP1,
+                                  const cVector3f &in avP2,
+                                  const cVector3f &in avP3,
+                                  float afFract)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avP0` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avP1` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avP2` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avP3` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afFract` | `float` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3Ceil`
+
+```angelscript
+cVector3f cMath_Vector3Ceil(const cVector3f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3ClampLength`
+
+```angelscript
+cVector3f cMath_Vector3ClampLength(const cVector3f &in avVec,
+                                   float afMinLength,
+                                   float afMaxLength)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afMinLength` | `float` | — |
+| `afMaxLength` | `float` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3ClampToLength`
+
+```angelscript
+void cMath_Vector3ClampToLength(cVector3f &in avVec,
+                                float afMaxLength)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afMaxLength` | `float` | — |
+
+**Returns:** `void`
+
+    1. `cMath_Vector3Cross`
+
+```angelscript
+cVector3f cMath_Vector3Cross(const cVector3f &in avVecA,
+                             const cVector3f &in avVecB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVecA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avVecB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3Dist`
+
+```angelscript
+float cMath_Vector3Dist(const cVector3f &in avStartPos,
+                        const cVector3f &in avEndPos)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avStartPos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avEndPos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector3DistSqr`
+
+```angelscript
+float cMath_Vector3DistSqr(const cVector3f &in avStartPos,
+                           const cVector3f &in avEndPos)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avStartPos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avEndPos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector3Dot`
+
+```angelscript
+float cMath_Vector3Dot(const cVector3f &in avVecA,
+                       const cVector3f &in avVecB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVecA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avVecB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector3Floor`
+
+```angelscript
+cVector3f cMath_Vector3Floor(const cVector3f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3IncreaseTo`
+
+```angelscript
+cVector3f cMath_Vector3IncreaseTo(const cVector3f &in avX,
+                                  const cVector3f &in avAdd,
+                                  const cVector3f &in avDest)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avX` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avAdd` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avDest` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3Max`
+
+```angelscript
+cVector3f cMath_Vector3Max(const cVector3f &in avVecA,
+                           const cVector3f &in avVecB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVecA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avVecB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3MaxElement`
+
+```angelscript
+float cMath_Vector3MaxElement(const cVector3f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector3MaxLength`
+
+```angelscript
+cVector3f cMath_Vector3MaxLength(const cVector3f &in avVec,
+                                 float afMaxLength)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afMaxLength` | `float` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3Min`
+
+```angelscript
+cVector3f cMath_Vector3Min(const cVector3f &in avVecA,
+                           const cVector3f &in avVecB)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVecA` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avVecB` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3MinElement`
+
+```angelscript
+float cMath_Vector3MinElement(const cVector3f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `float`
+
+    1. `cMath_Vector3MinLength`
+
+```angelscript
+cVector3f cMath_Vector3MinLength(const cVector3f &in avVec,
+                                 float afMinLength)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afMinLength` | `float` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3Normalize`
+
+```angelscript
+cVector3f cMath_Vector3Normalize(const cVector3f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3OrthonormalizeBasis`
+
+```angelscript
+void cMath_Vector3OrthonormalizeBasis(const cVector3f &in avSrcRight,
+                                      const cVector3f &in avSrcUp,
+                                      const cVector3f &in avSrcForward,
+                                      cVector3f &out avDstRight,
+                                      cVector3f &out avDstUp,
+                                      cVector3f &out avDstForward)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSrcRight` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avSrcUp` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avSrcForward` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avDstRight` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avDstUp` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avDstForward` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `void`
+
+    1. `cMath_Vector3Project`
+
+```angelscript
+cVector3f cMath_Vector3Project(const cVector3f &in avSrcVec,
+                               const cVector3f &in avDestVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSrcVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avDestVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3ProjectOnPlane`
+
+```angelscript
+cVector3f cMath_Vector3ProjectOnPlane(const cVector3f &in avSrcVec,
+                                      const cVector3f &in avPlaneNormal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSrcVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avPlaneNormal` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3Reflect`
+
+```angelscript
+cVector3f cMath_Vector3Reflect(const cVector3f &in avVec,
+                               const cVector3f &in avNormal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avNormal` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3SphereSurfacePoint`
+
+```angelscript
+cVector3f cMath_Vector3SphereSurfacePoint(const cVector2f &in avSeed,
+                                          float afRadius)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avSeed` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `afRadius` | `float` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3ToDeg`
+
+```angelscript
+cVector3f cMath_Vector3ToDeg(const cVector3f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3ToRad`
+
+```angelscript
+cVector3f cMath_Vector3ToRad(const cVector3f &in avVec)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Vector3UnProject`
+
+```angelscript
+cVector3f cMath_Vector3UnProject(const cVector3f &in avVec,
+                                 const cRect2f &in aScreenRect,
+                                 const cMatrixf &in a_mtxViewProj)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avVec` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `aScreenRect` | `[cRect2f](https://wiki.frictionalgames.com/page/../../cRect2f)` | — |
+| `a_mtxViewProj` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+
+**Returns:** `cVector3f`
+
+    1. `cMath_Wrap`
+
+```angelscript
+float cMath_Wrap(float afX,
+                 float afMin,
+                 float afMax)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afX` | `float` | — |
+| `afMin` | `float` | — |
+| `afMax` | `float` | — |
+
+**Returns:** `float`
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cMath](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cMath)
+- Revision: `5021`
+- Source update: `2020-08-24T20:50:00Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

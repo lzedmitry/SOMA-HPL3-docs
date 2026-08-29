@@ -1,0 +1,15 @@
+{
+  "pageid": 2601,
+  "title": "HPL3/Level Design/Level Editor Preferences",
+  "missing": false,
+  "redirect": false,
+  "length": 1314,
+  "touched": "2026-07-30T09:25:56Z",
+  "revisionId": 7066,
+  "revisionTimestamp": "2026-07-30T09:25:56Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Preferences window =\n\n== General ==\n\n[[File:window_preferences_general.png]]\n\n* '''Resolution''': sets the size of the main editor window. Needs restart.\n* '''Max undo steps''': modifies the number of steps that can be undone/redone in a session.\n* '''BG color''': changes the color of the viewport background.\n* '''Disabled entity coverage''': determines how \"transparent\" a mesh becomes when disabled (only for entities)\n\n== Performance ==\n\n[[File:window_preferences_performance.png]]\n\n* '''Texture quality''': changes the quality for the texture mapping on objects. Possible values are: high, medium, low, very low. Needs restart\n* '''Lights active''': turns off all ligths in the scene, except for the edition helper ones (ambient and point)\n* '''Particle systems active''': turns off all particle systems in the scene.\n* '''SSAO active''': toggles showing of SSAO.\n* Undergrowth\n''' '''Show undergrowth''': toggles showing of undergrowth on terrain. The undergrowth will still be there, just not shown.\n''' '''Custom undergrowth fade start''': sets a custom range for the terrain undergrowth to show.\n* '''Show skybox''': toggles showing of skybox.\n* '''Show fog''': toggles showing of the global fog.\n* '''Continuous rendering''': sets if the viewports should be refreshed continuously or only when needed.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Editor_Preferences",
+  "requestedTitle": "HPL3/SOMA/Level Design/Level Editor Preferences",
+  "resolvedTitle": "HPL3/Level Design/Level Editor Preferences"
+}

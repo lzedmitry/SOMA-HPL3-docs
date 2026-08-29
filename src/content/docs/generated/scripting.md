@@ -1,0 +1,154 @@
+---
+title: Scripting
+description: "This category and its sub-pages are undergoing major editing, as some information in this category and all the sub pages is currently in the process of being formatted or re-written from scratch to achieve a higher stand"
+category: scripting
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting"
+sourceRevision: 7182
+sourceUpdated: "2026-08-09T07:42:34Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - scripting
+sidebar:
+  hidden: true
+---
+:::caution[SOURCE STATUS: WIP]
+This source page is marked as undergoing editing on the Frictional Wiki.
+:::
+
+This category and its sub-pages are undergoing major editing, as some information in this category and all the sub pages is currently in the process of being formatted or re-written from scratch to achieve a higher standard of formatting, or not everything is yet available. More pages and information will gradually be added.
+
+**This category deals with Scripting and Programming in HPL3 and SOMA. Everything regarding map scripting, gameplay programming and low-level engine topics are covered here.**
+
+## Advice
+- [Advice for Scripting](https://wiki.frictionalgames.com/page/Advice_for_Scripting)
+
+## Getting Started
+- [HPL3 Scripting Guide](/scripting/hpl3-scripting-guide/)
+- [AngelScript Fundamentals Guide](/scripting/angelscript/angelscript-fundamentals/)
+
+---
+
+- [Level Scripting - Best Practices](/scripting/level-scripting-best-practices/)
+- [Scripting Conventions](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Conventions)
+
+## General
+***[Scripting Function Reference Api](/api/wiki-index/)**
+- [Props](https://wiki.frictionalgames.com/page/HPL3/Scripting/Props)
+- [Areas](https://wiki.frictionalgames.com/page/HPL3/Scripting/Areas)
+- [Level Streaming](https://wiki.frictionalgames.com/page/HPL3/Scripting/Level_Streaming)
+- [Entity Components](/scripting/entity-components/)
+- [ID Handles](/scripting/id-handles/)
+
+## Helpers
+<table>
+<tr style="vertical-align:top">
+<td>
+- [Game Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Game_Helper)
+- [Map Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Map_Helper)
+- [Player Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Player_Helper)
+- [Audio Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Audio_Helper)
+- [Effects Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Effects_Helper)
+- [Areas Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Areas_Helper)
+- [Ai Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Ai_Helper)
+</td>
+<td>
+- [Modules Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Modules_Helper)
+- [Physics Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Physics_Helper)
+- [Props Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Props_Helper)
+- [Sequences Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Sequences_Helper)
+- [Geneal Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Geneal_Helper)
+- [ImGui Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/ImGui_Helper)
+- [EventDB Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/EventDB_Helper)
+</td>
+</tr>
+</table>
+
+## User Modules
+- [User Modules Overview](/scripting/user-modules-overview/)
+- [Module Interface](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Module_Interface)
+
+### General
+- [Menu Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Menu_Handler)
+- [Eye Tracking Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Eye_Tracking_Handler)
+- [Game Over Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Game_Over_Handler)
+- [Hint Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Hint_Handler)
+- [Credits Handler](https://wiki.frictionalgames.com/page/HPL3/Scripting/Credits_Overview)
+
+### Player
+- [Player Energy Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Player_Energy_Handler)
+- [Player Hands Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Player_Hands_Handler)
+- [Player Pickup Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Player_Pickup_Handler)
+- [Player Tool Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Player_Tool_Handler)
+
+### Gameplay
+- [Attack Meter Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Attack_Meter_Handler)
+- [Datamine Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Datamine_Handler)
+- [Infection Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Infection_Handler)
+- [Inventory Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Inventory_Handler)
+
+### Effects
+- [Distortion Effect Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Distortion_Effect_Handler)
+- [Wake Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Wake_Handler)
+- [Description Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Description_Handler)
+- [Map Effects Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Map_Effects_Handler)
+- [Light Flash Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Light_Flash_Handler)
+- [Emotion Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Emotion_Handler)
+- [Highlight Effect Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Highlight_Effect_Handler)
+- [Terrain Particle Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Terrain_Particle_Handler)
+
+## Interfaces
+- [Interfaces Overview](https://wiki.frictionalgames.com/page/HPL3/Interfaces_Overview)
+
+## GUI
+- [Gui Overview](/generated/gui/)
+- [Making Terminals](/scripting/terminals-overview/)
+- [Station Terminals](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Station_Terminal)
+
+## NPCs
+- [NPCs Overview](https://wiki.frictionalgames.com/page/HPL3/NPCs)
+- [Agents Overview](https://wiki.frictionalgames.com/page/HPL3/Agents)
+- [Critter Overview](https://wiki.frictionalgames.com/page/HPL3/Critter)
+
+## Player
+- [Player Overview](https://wiki.frictionalgames.com/page/HPL3/Player_Overview)
+- [Player States](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Player_States)
+
+## Effects
+- [Effects Overview](https://wiki.frictionalgames.com/page/HPL3/Scripting/Effects_Overview)
+- [Effects Interfaces](https://wiki.frictionalgames.com/page/HPL3/Scripting/Effects_Interfaces)
+- [Depth of Field](https://wiki.frictionalgames.com/page/HPL3/Scripting/Depth_of_Field)
+- [Radial Blur](https://wiki.frictionalgames.com/page/HPL3/Scripting/Radial_Blur)
+- [Screen](https://wiki.frictionalgames.com/page/HPL3/Scripting/Screen)
+- [Shake](https://wiki.frictionalgames.com/page/HPL3/Scripting/Shake)
+- [Sway](https://wiki.frictionalgames.com/page/HPL3/Scripting/Sway)
+- [Tone Mapping](https://wiki.frictionalgames.com/page/HPL3/Scripting/Tone_Mapping)
+- [ImageFadeFx](https://wiki.frictionalgames.com/page/HPL3/Scripting/ImageFadeFx)
+- [Image Trail](https://wiki.frictionalgames.com/page/HPL3/Scripting/Image_Trail)
+- [Time Glitch](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Time_Glitch)
+- [Flash](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Flash)
+- [Gamepad](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Gamepad)
+- [Lens Distortion](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Lens_Distortion)
+- [Video Distortion](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Video_Distortion)
+
+## Base
+### Input
+- [Input Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Input_Handler)
+- [Input Types](/scripting/input-types/)
+
+### Game Achievements
+- [Achievement Handler](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Achievement_Handler)
+- [Achievement Types](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Achievement_Types)
+
+## Resources
+*[AngelScript Documentation](https://www.angelcode.com/angelscript/sdk/docs/manual/index.html)
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting)
+- Revision: `7182`
+- Source update: `2026-08-09T07:42:34Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

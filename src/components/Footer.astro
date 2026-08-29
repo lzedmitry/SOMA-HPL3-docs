@@ -1,0 +1,51 @@
+---
+import Default from "@astrojs/starlight/components/Footer.astro";
+import RelatedVideos from "./RelatedVideos.astro";
+import { appLocale, englishSlug } from "../lib/locale";
+import { t } from "../lib/ui-strings";
+
+const locale = appLocale(Astro.locals.starlightRoute.locale);
+const data = Astro.locals.starlightRoute.entry.data as {
+  sourceUrl?: string;
+};
+const slug = englishSlug(Astro.locals.starlightRoute.id || Astro.locals.starlightRoute.entry.id);
+const issueTitle = encodeURIComponent(`Doc issue: ${slug}`);
+const issueBody = encodeURIComponent(
+  `Page: ${slug}\nSource: ${data.sourceUrl || "(editorial)"}\n\nWhat is wrong?\n`,
+);
+const repo = process.env.GITHUB_REPO_URL;
+---
+
+<RelatedVideos />
+<Default />
+<p class="page-actions">
+  {
+    data.sourceUrl && (
+      <a href={data.sourceUrl} rel="noreferrer">
+        {t("viewWiki", locale)}
+      </a>
+    )
+  }
+  {repo && <a href={`${repo}/issues/new?title=${issueTitle}&body=${issueBody}`}>{t("reportIssue", locale)}</a>}
+</p>
+<p class="footer-disclaimer">
+  {t("footerDisclaimer", locale)}
+</p>
+
+<style>
+  .page-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 24px 0 8px;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .footer-disclaimer {
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    margin: 0 0 24px;
+  }
+</style>

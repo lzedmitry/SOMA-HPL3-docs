@@ -1,0 +1,33 @@
+---
+import { appLocale, englishHref, englishSlug, translationStatus } from "../lib/locale";
+import { t } from "../lib/ui-strings";
+
+const route = Astro.locals.starlightRoute;
+const locale = appLocale(route.locale);
+const slug = englishSlug(route.id || route.entry.id);
+const data = route.entry.data as {
+  translation?: { status?: string; locale?: string };
+};
+const isFallback = Boolean(route.isFallback);
+const status = data.translation?.status || translationStatus(slug, locale);
+const showMissing = isFallback && locale !== "en";
+const showOutdated = !isFallback && status === "outdated" && locale !== "en";
+---
+
+{
+  showMissing && (
+    <p class="translation-banner" role="status">
+      <span class="translation-kicker">{t("translationKicker", locale)}</span>
+      {t("translationMissing", locale)}
+    </p>
+  )
+}
+{
+  showOutdated && (
+    <p class="translation-banner is-outdated" role="status">
+      <span class="translation-kicker">{t("translationStatus", locale)} · {t("outdated", locale)}</span>
+      {t("translationOutdated", locale)}
+      <a href={englishHref(slug)}>{t("viewEnglish", locale)}</a>
+    </p>
+  )
+}

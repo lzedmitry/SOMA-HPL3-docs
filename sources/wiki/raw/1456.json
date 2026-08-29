@@ -1,0 +1,14 @@
+{
+  "pageid": 1456,
+  "title": "HPL3/SOMA/Modding",
+  "missing": false,
+  "redirect": false,
+  "length": 1610,
+  "touched": "2020-11-06T11:27:30Z",
+  "revisionId": 5440,
+  "revisionTimestamp": "2020-11-06T11:27:30Z",
+  "revisionUser": "TiMan",
+  "wikitext": "'''This category deals with creating, managing and releasing SOMA mods, including managing and organizing a team.'''\n{{CategoryHeader}}\n{{CategoryNewcolumn}}\n\n== Advice ==\n* [[Making a Mod - Best Practices]]\n* [[Online Presence]]\n* [[Efficient Teamwork]]\n\n== Getting Started ==\n* [[HPL3/SOMA/Modding/Creating a Mod|Creating a Mod]]\n* [[HPL3/SOMA/Modding/Setup Modding Environment|Setup Modding Environment]]\n* [[Setting up an Online Repository|Setting up an Online Repository]]\n* [[HPL3/SOMA/Developer Commands|Developer Commands]]\n* [[HPL3/SOMA/Modding/Developer Debug Menu|Developer Debug Menu]]\n* [[Mod Content Usage|Mod Content Usage]]\n\n== Releasing ==\n* [[Pre-Publication Evaluation]]\n* [[Mod Distribution]]\n\n== Community ==\n* [https://discord.com/invite/frictionalgames Discord Server]\n* [https://www.moddb.com/games/soma/mods ModDB Homepage]\n\n{{CategoryNewcolumn}}\n\n== Mod Configuration ==\n* [[HPL3/Resources Configuration|Resources Configuration]]\n* [[HPL3/Launch Configuration|Launch Configuration]]\n* [[HPL3/Language Configuration|Language Configuration]]\n* [[HPL3/Modding/Mod Dependencies|Mod Dependencies]]\n\n== Resources ==\n*[[HPL3/SOMA/Modding/MinimalAddOnMod|Minimal AddOn Mod]]\n*[[HPL3/SOMA/Modding/MinimalCustomMapMod|Minimal Custom Map Mod]]\n*[[HPL3/SOMA/Modding/Non-Safe Mode Menu|Non-Safe Mode Menu]]\n\n== Tools ==\n*[[HPL3/SOMA/Modding/SOMA_Mod_Launcher|SOMA Mod Launcher]]\n*[[HPL3/SOMA/Third_Party_Tools/SOMA Mod Manager|SOMA Mod Manager]]\n*[[HPL3/SOMA/Third_Party_Tools/SOMA Text Search Tool|SOMA Text Search Tool]]\n\n{{CategoryEnd}}\n\n__NOTOC__\n\n[[Category:Entry pages]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding",
+  "requestedTitle": "HPL3/SOMA/Modding"
+}

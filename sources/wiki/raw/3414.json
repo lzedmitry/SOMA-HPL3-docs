@@ -1,0 +1,14 @@
+{
+  "pageid": 3414,
+  "title": "HPL3/Level Design/Lens Flares",
+  "missing": false,
+  "redirect": false,
+  "length": 931,
+  "touched": "2026-07-30T09:53:19Z",
+  "revisionId": 7088,
+  "revisionTimestamp": "2026-07-30T09:53:19Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= LensFlares =\n\n\nGeneral Parameters:\n* '''Name''': Name for the lens flare object.\n* '''Position''': 3D Vector storing the position in world.\n* '''Rotation''': 3D Vector storting the rotation. Only useful when the billboard type is Axis or FixedAxis.\n\nSpecific Parameters:\n* For each flare type\n''' '''Material File''': material file for this flare type.\n''' '''Color''': color for this flare type.\n''' '''Size''': size for this flare type.\n* Brigthness\n* MultiIris count\n* MultiIris texture atlas grid (subdiv)\n* Use parent mesh for occlusion\n* Mul glare with multiiris\n* Min/max range\n* Inner/outer FOV\n* Glare brightness\n* Glare StareAt\n* Glare range\n* Source size\n* Size change based on distance (percent)\n\n\n[[File:lensflare_mode.png]]\n\n* Flare type: set to active if the next created lensflare object is to have this flare type.\n''' Material: material for showing this type of flare\n''' Color: flare color\n''' Size: flare size",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Lens_Flares",
+  "requestedTitle": "HPL3/Level Design/Lens Flares"
+}

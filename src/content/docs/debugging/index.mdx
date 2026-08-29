@@ -1,0 +1,42 @@
+---
+title: Troubleshooting
+description: Diagnostic paths assembled from Getting Started, the debug menu, developer commands, and the Wiki FAQ. No invented magic fixes.
+category: debugging
+---
+
+If a step in Getting Started fails, stop there. The original path is designed so launcher, editor, map, and script failures stay separable.
+
+## Fast path
+
+1. Confirm you are in **your copied mod**, not `MinimalCustomMapMod` and not the base game.
+2. Launch from the SOMA mod launcher.
+3. Press **F1** in development mode: Show Error List, Show HPL Log ([Debug menu](/modding/developer-debug-menu/)).
+4. Press **F5** to reload the map after a script change.
+5. Read [Developer commands](/modding/developer-commands/).
+
+## Symptoms
+
+| Symptom | Start here |
+| --- | --- |
+| Mod does not appear | [Creating a mod](/modding/creating-a-mod/), [Launcher](/modding/soma-mod-launcher/), entry file name `entry.hpc` |
+| Mod does not launch | Same, plus [FAQ](/debugging/faq/) |
+| Editor does not see mod assets | [Setup environment](/modding/setup-modding-environment/) — title bar must say `(Working on mod)` |
+| Missing resources | [resources.cfg](/modding/creating-a-mod/), [Resources configuration](/generated/resources-configuration/) |
+| Script compile error | [Add your first script](/start/add-your-first-script/), error list, [Hello World](/scripting/hello-world/) |
+| Map does not load | Keep `.hpm` and `.hpm_*` together |
+| Entity not found | [Finding objects](/level-editor/finding-objects/), names in script vs editor |
+| Area does not trigger | [Trigger Area](/areas/trigger-area/) — `CC_Entities` must include `player` if the player should fire it |
+| Sound not playing | [Playing sounds](/audio/playing-sounds/), [Soundscape](/areas/soundscape-area/) |
+| Texture / material | [Materials](/materials/) — many type pages are missing on the Wiki |
+| Broken references | Re-open the editor on the mod; relative paths only |
+| Performance | [Indoor](/level-building/indoor-level-performance/), [Outdoor](/level-building/outdoor-level-performance/) |
+| Sticky area + static collider | [FAQ](/debugging/faq/) — wait on a timer |
+| MoveObject and multi-body entities | [FAQ](/debugging/faq/) — `MainPhysicsBody` |
+| Callback gets a wrong C++ return | [FAQ](/debugging/faq/) — store in a temporary |
+| Lever interaction inverts | [FAQ](/debugging/faq/) |
+
+## Sources
+
+- Getting Started recovery sections
+- [HPL3/Troubleshooting](https://wiki.frictionalgames.com/page/HPL3/Troubleshooting)
+- [Developer Debug Menu](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Developer_Debug_Menu)

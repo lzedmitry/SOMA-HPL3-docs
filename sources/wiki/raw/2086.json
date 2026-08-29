@@ -1,0 +1,14 @@
+{
+  "pageid": 2086,
+  "title": "HPL3/SOMA/Scripting/cLuxEffectHandler",
+  "missing": false,
+  "redirect": false,
+  "length": 1821,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3632,
+  "revisionTimestamp": "2020-08-06T13:52:39Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncLuxEffectHandler has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || AddEdgeGlowObject || [[../iLuxEntity|<syntaxhighlight lang=\"c++\" inline>iLuxEntity@ apEntity</syntaxhighlight>]],<br />[[../cColor|<syntaxhighlight lang=\"c++\" inline>const cColor& aColor</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>float afAlpha</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afEdgeThickness</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afLightLimit</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || AddGlowObject || [[../iLuxEntity|<syntaxhighlight lang=\"c++\" inline>iLuxEntity@ apEntity</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>float afAlpha</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afY</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || FadeIn || <syntaxhighlight lang=\"c++\" inline>float afTime</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || FadeOut || <syntaxhighlight lang=\"c++\" inline>float afTime</syntaxhighlight> ||\n|-\n| [[../iScrEffect_Interface|<syntaxhighlight lang=\"c++\" inline>iScrEffect_Interface@</syntaxhighlight>]] || GetEffect || <syntaxhighlight lang=\"c++\" inline>int alId</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetFadeAlpha ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsFading ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxEffectHandler",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLuxEffectHandler"
+}

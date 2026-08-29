@@ -1,0 +1,14 @@
+{
+  "pageid": 2258,
+  "title": "HPL3/SOMA/Scripting/iScrInputHandler Interface",
+  "missing": false,
+  "redirect": false,
+  "length": 936,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3929,
+  "revisionTimestamp": "2020-08-06T15:09:08Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\niScrInputHandler_Interface has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || CreateActions ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || CreateGamepadProfiles ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || CreateInputLayoutMapping ||   ||\n|-\n| [[../cLuxInputHandler|<syntaxhighlight lang=\"c++\" inline>cLuxInputHandler@</syntaxhighlight>]] || GetBase ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || LoadKeyConfig || [[../cConfigFile|<syntaxhighlight lang=\"c++\" inline>cConfigFile@ apKeyConfig</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrInputHandler_Interface",
+  "requestedTitle": "HPL3/SOMA/Scripting/iScrInputHandler Interface"
+}

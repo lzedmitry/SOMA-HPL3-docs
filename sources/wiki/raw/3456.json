@@ -1,0 +1,14 @@
+{
+  "pageid": 3456,
+  "title": "HPL3/Particles/Particle Rotation",
+  "missing": false,
+  "redirect": false,
+  "length": 585,
+  "touched": "2026-07-30T22:15:47Z",
+  "revisionId": 7161,
+  "revisionTimestamp": "2026-07-30T22:15:47Z",
+  "revisionUser": "TiMan",
+  "wikitext": "=== Rotation ===\n* '''Use Particle Spinning''': If enabled, particles will rotate around themselves.\n* '''Spin Type''': Type for the particle spinning. Can be:\n''' '''Constant''': A value will be picked from the spin velocity range at random.\n''' '''Movement''': The rotation will be linked to how fast the particle is moving.\n* '''Particle spin velocity range (rad/s)''': Spin velocity for constant spin type.\n* '''Use Revolution''': If enabled, particles will rotate around some axis.\n* '''Revolution speed''': 3D Vector that will determine the axis and rotation speed for particles.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Rotation",
+  "requestedTitle": "HPL3/Particles/Particle Rotation"
+}

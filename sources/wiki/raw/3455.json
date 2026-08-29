@@ -1,0 +1,14 @@
+{
+  "pageid": 3455,
+  "title": "HPL3/Particles/Particle Color",
+  "missing": false,
+  "redirect": false,
+  "length": 450,
+  "touched": "2026-07-30T22:15:38Z",
+  "revisionId": 7160,
+  "revisionTimestamp": "2026-07-30T22:15:38Z",
+  "revisionUser": "TiMan",
+  "wikitext": "=== Color ===\n\n'''NOTE''': all of the color channels have values from 0 -1.\n\n* '''Color''': This sets the color of the particle.\n* '''Fading''': Settings for fading the color. See foreword for fading.\n\n=== Life ===\n\n* '''Lifespan''': Time in seconds that the particle will live.\n* '''Death Type''': type of death for the particles. Currently only age can be selected.\n* '''PS created at death''': Particle system to be spawned when the particle dies.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Color",
+  "requestedTitle": "HPL3/Particles/Particle Color"
+}

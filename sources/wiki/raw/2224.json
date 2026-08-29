@@ -1,0 +1,14 @@
+{
+  "pageid": 2224,
+  "title": "HPL3/SOMA/Scripting/iKeyboard",
+  "missing": false,
+  "redirect": false,
+  "length": 1687,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3897,
+  "revisionTimestamp": "2020-08-06T15:01:54Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\niKeyboard has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../cKeyPress|<syntaxhighlight lang=\"c++\" inline>cKeyPress</syntaxhighlight>]] || GetKey ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetModifier ||   ||\n|-\n| [[../cKeyPress|<syntaxhighlight lang=\"c++\" inline>cKeyPress</syntaxhighlight>]] || GetReleasedKey ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || KeyIsDown || [[../eKey|<syntaxhighlight lang=\"c++\" inline>eKey aKey</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || KeyIsPressed ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || KeyIsReleased ||   ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>tString</syntaxhighlight>]] || KeyToString || [[../eKey|<syntaxhighlight lang=\"c++\" inline>eKey</syntaxhighlight>]] ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>tString</syntaxhighlight>]] || KeyToSymbol || [[../eKey|<syntaxhighlight lang=\"c++\" inline>eKey</syntaxhighlight>]] ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>tString</syntaxhighlight>]] || ModifierKeyToString || [[../eKeyModifier|<syntaxhighlight lang=\"c++\" inline>eKeyModifier</syntaxhighlight>]] ||\n|-\n| [[../eKey|<syntaxhighlight lang=\"c++\" inline>eKey</syntaxhighlight>]] || StringToKey || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iKeyboard",
+  "requestedTitle": "HPL3/SOMA/Scripting/iKeyboard"
+}

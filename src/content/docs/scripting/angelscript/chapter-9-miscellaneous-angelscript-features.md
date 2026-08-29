@@ -1,0 +1,972 @@
+---
+title: Chapter 9 - Miscellaneous AngelScript Features
+description: "This is a list of features in AngelScript that are either infrequently used, can be confusing to understand, or are not as well known. They are not presented in any particular order, so you should treat this section as a"
+category: scripting
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_9_-_Miscellaneous_AngelScript_Features"
+sourceRevision: 4627
+sourceUpdated: "2020-08-16T10:54:11Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - scripting
+---
+This is a list of features in AngelScript that are either infrequently used, can be confusing to understand, or are not as well known. They are not presented in any particular order, so you should treat this section as a reference rather than a contiguous series.
+
+## Enums
+As an example, let's say you had an object that stored a particular state, such as a car's ignition position:
+
+```
+	class Car
+	{
+		// 0 = off
+		// 1 = accessory
+		// 2 = on
+		// 3 = starting
+		int ignitionPosition;
+	}
+```
+
+In order to know the current position of the car's key ignition, you set the value of `ignitionPosition` as one of several values. The problem is that you need to refer to the comments in order to know what each number means. Just having a value of 0 to 3 isn't very descriptive when you need to set the value elsewhere:
+
+```
+	Car car;
+	
+	// ...
+	
+	// Turn on car
+	car.ignitionPosition = 3;
+```
+
+Without referring to the comment, could you tell what the 3 means in that code? No, it's just some magic number that has been assigned arbitrary significance.
+
+Instead, you can use an `enum`, which is short for *enumerated type*. This type is a special kind of type that instead of having fields and functions, merely stores a list of identifiers. These identifiers are mapped to specific integer values and can be used interchangeably with them:
+
+```
+	enum IgnitionPosition
+	{
+		IgnitionPosition_Off,
+		IgnitionPosition_Accessory,
+		IgnitionPosition_On,
+		IgnitionPosition_Start
+	}
+```
+
+Now you can code your `Car` class like this:
+
+```
+	class Car
+	{
+		IgnitionPosition ignitionPosition;
+	}
+```
+
+...and assign to it like this:
+
+```
+	// Turn on car
+	car.ignitionPosition = IgnitionPosition_Start;
+```
+
+Now instead of relying on the values of magic numbers, you can use defined identifiers that are self-descriptive and clear.
+
+:::note[Note]
+In reality, because enums just assign an identifier to an integer value, `IgnitionPosition_Start` is equal to 3 because it is the fourth value in the `IgnitionPosition` list. (The list starts at 0.) So if you're in a situation where for whatever reason you can't pass around your enum type, you can just treat it as an `int` instead.
+:::
+
+Alternatively, you can also specify what values you want a specific enum to be like so:
+
+```
+	enum SomeEnumType
+	{
+		Zero,
+		One,
+		OneHundred = 100,
+		Two = 2,
+		Three, 
+		Four
+	}
+```
+
+The integer value of `OneHundred` would be 100, as defined. Likewise, `Two` would be equal to 2. `Three` in this list would be equal to 3, because if a value is not explicitly given, the value of an enum is equal to the value of the previous one in the list plus 1.
+
+## Constants
+Sometimes when you are writing a program, your code will contain what is known as "magic numbers". These are numbers that you have chosen to [fulfill a certain purpose](https://en.wikipedia.org/wiki/Fast_inverse_square_root#Overview_of_the_code), but that purpose is not illustrated in the number's usage, so anyone who doesn't know what you are doing just has to trust that the number will work. Take, for example, the following code:
+
+```
+    float a = 3.1415 * r * r;
+```
+
+What does the `3.1415` mean in that code? Well, the astute of you will know that it is (approximately) the value of Pi, which makes that code the computation of the area of a circle with the radius `r`. But there's a reason that we use the term "Pi" when dealing with these values, because it's tedious to have to refer to it by its actual value all the time. These terms are known as **constants**.
+
+A constant is like a variable, but it is marked with the keyword `const` to signify that it can never change its value. It might sound a bit arbitrary to have a variable that can't have its value changed, but it's useful because now we can deal with a specific chosen number in a way that avoids the "magic number" problem. 
+
+To declare a const, simply declare it like you would a variable with the addition of the `const` keyword:
+
+```
+    const float Math_PI = 3.1415;
+```
+
+:::note[Note]
+The naming convention for constants varies depending on your programming environment, but in HPL3, the convention has been the name of the "category" that the constant exists given in PascalCase (which means the first letter of each word is capitalized) followed by an underscore and the constant's name. The name of the constant is traditionally given in all caps with underscores used to separate words. For example, a constant that stores the base driving speed of a car in a system might be named `TrafficVehicles_CAR_BASE_SPEED`.
+:::
+
+Now we can now convert the above code to the following:
+
+```
+    float a = Math_PI * r * r;
+```
+
+Now it's pretty obvious as to what this code is doing. It's taking the value of Pi and multiplying it by `r` and `r` (which is the programmatic way of representing "r-squared"). Pi times r-squared... that's the textbook definition of the area of a circle.
+
+:::note[Note]
+In HPL3, variables declared in the global scope must be constants. This is due to the way that HPL3's script value saving mechanisms were designed. A way to get around this, however, is to use a class or array. While you would not be able to assign a new object value to the constant,
+ you could still manipulate the class members of a constant object, or add/remove values in a constant array.
+:::
+
+## Default Parameters
+When defining a function, you can have as many or as few parameters as you want. Sometimes, however, you're in a situation where you have several function overloads, each that just adds a single parameter to the end of the last function. As an example, see here:
+
+```
+    int Add(int a, int b)
+    {
+        return a + b;
+    }
+    
+    int Add(int a, int b, int c)
+    {
+        return a + b + c;
+    }
+    
+    int Add(int a, int b, int c, int d)
+    {
+        return a + b + c + d;
+    }
+```
+
+(...and I could stretch this example all the way from a to z and beyond, but you get the idea.)
+
+In this situation, adding so many overloads just to satisfy an arbitrary number of conditions gets pretty verbose pretty quickly. Fortunately, there's something you can do to simplify this situation. You can define functions to have *default parameters*.
+
+Also known as *optional parameters*, default parameters let you define a function where a certain number of the parameters are optional, and if you call the function without specifying those parameters, they are given a default value instead. In this way, you can have a function with 20 parameters but only need to worry about passing 2 of them, and the program will fill in the rest for you.
+
+The syntax for doing this is pretty simple. All you need to do is to "equals" a parameter to a value when you are declaring it in a function definition:
+
+```
+    int Add(int a, int b, int c = 0, int d = 0)
+    {
+        return a + b + c + d;
+    }
+```
+
+In this function, `c` and `d` are set to be optional parameters with a default value of 0. You can call this new function using any of the following ways:
+
+```
+    Add(1, 2);       // returns 3
+    Add(1, 2, 3);    // returns 6
+    Add(1, 2, 3, 4); // returns 10
+```
+
+In the first call, the values corresponding to the `c` and `d` parameters are left out, so the program substitutes the default value 0 in the function code. When it adds the parameters `a`, `b`, `c`, and `d` together, since `c` and `d` default to 0, they have no effect on the addition of `a` abd `b`, so you can safely add only two numbers together without worrying about the omission throwing off the result. The same thing happens in the second call, where only `d` is given the default value. (The fourth call, of course, explicitly assigns values to all parameters, so no defaults get assigned there.)
+
+There is a rule you must follow when declaring optional parameters in a function. The optional parameters must come after the required parameters. This is because if a required parameter came after an optional parameter, you run into cases of ambiguity. Take the following example, for instance:
+
+```
+    int Add(int a, int b = 0, int c, int d = 0)
+    {
+        return a + b + c + d;
+    }
+```
+
+In this example, we have the same `Add` function, but this time, `b` and `d` are the optional parameters. Now imagine that elsewhere in the code, we called the function like this:
+
+```
+    Add(1, 2, 3); // returns... what?
+```
+
+How should the program interpret that call? The 1 corresponds to `a`, obviously, but does 2 correspond to `b` and 3 correspond to `c`, leaving `d` with 0? Or perhaps 2 corresponds to `c` and 3 corresponds to `d`, leaving `b` with 0? The situation is ambiguous, and the program cannot figure out what your intent was. That's why if you were to define a function like this one, where there are required parameters coming after optional ones, it would result in an error.
+
+---
+
+## Passing Parameters by Reference
+Ho boy, strap yourselves in for this one, gents. We're about to delve into a concept of programming that shockingly few people are aware of, even among professional programmers. On that note, keep in mind that the topic of this section is a bit of a difficult one to wrap your head around, so don't feel bad if it takes a few rereads, some experimentation, and perhaps even consulting other tutorials before it finally clicks.
+
+Let's start by (re)defining a couple of terms - *value* and *reference*.
+
+### Value vs Reference
+A value is just that - a value. It's a bit of hard data that directly represents information. An `int` value could be 5. A `bool` value could be `true`. A string value could be `"abcdef"`. It's a simple enough concept to understand, right? When you're talking about a variable's value, you are referring specifically to the information itself stored within the variable.
+
+A reference is a bit trickier. Instead if referring to information, a reference is describing a place in memory where that information is stored. When you access a reference, you are telling the program to look at a particular spot in memory, and depending on your operation, you might be retrieving the value at that location or you might be assigning a new value to that location.
+
+As an example, let's treat variables as possessions. Nothing specific, just things that you might own. When you have a value, you have an item in your hands. (A teddy bear, a personal radio, a hairbrush, whatever.) When you have a reference, you instead have a piece of paper that gives you a place where that item is located, like a street address or a locker number in a storage facility. To get at the "value", you have to follow the piece of paper to the specified location first so you can see what "value" is stored there.
+
+:::note[Note]
+Back in Chapter 8, I talked about the difference between primitive types and object types. There's another way to describe them - value types and reference types. With primitives, they always store their values within the variable itself, whereas objects store a place in memory where they can look to access their information. This is because primitives always hold a value of a specific primitive type, which always takes a specific amount of memory. (`int` takes 4 bytes, `double` takes 8 bytes, and so on.) Objects, however, are created from classes, and the size of a class instance can vary widely depending on a number of factors, such as how many fields the class has, what types they are, whether the field is a reference to another class, etc. So instead, the program dynamically creates the class instance somewhere else and just stores the reference inside the variable.
+:::
+
+Does all that make sense? Clear as mud? Cool. A value is a thing itself, whereas a reference is an address to where that thing is. Got it.
+
+### Passing Parameters By Reference
+Let's take a look at an example function. It shouldn't be anything you haven't seen before:
+
+```
+    void Foo(int a)
+    {
+        int x = 0;
+    }
+```
+
+Nothing special, right? But what if I changed the function to read like this?
+
+```
+    void Foo(int a)
+    {
+        a = 0;
+    }
+```
+
+That's a bit of a surprise, isn't it? I mean, you pass things *into* a function through the parameters. Why would you ever want to *assign* a value to the parameter? Did it ever occur to you that you could even do that? What would happen if you did?
+
+As it turns out, nothing, at least, not in this case. Whatever variable you passed in as a parameter to `Foo` would be unfazed by this. Generally speaking, whenever you pass a variable to a function as a parameter, you are passing in its value. In other words, you are passing it *by value*. What this means is that when the variable gets passed, what is actually happening is that the program reads the value of the variable, then makes a **copy** of that value and assigns it to the parameter variable within the function. So if I were to do the following:
+
+```
+    int x = 5;
+    Foo(x);
+```
+
+The value of `a` inside of `Foo` is 5, but the 5 in `a` and the 5 in `x` aren't the "same" 5 (if that makes any sense). As a result, the `a` and the `x` end up being completely different variables. That's when I set `a` to 0 within `Foo`, it has no effect whatsoever on `x`.
+
+:::note[Note]
+If it doesn't make sense, imagine then that I have a Lego sculpture that I pass to a friend. The friend wants the sculpture as well, so he builds his own sculpture using the same kinds of pieces that I used in all the same placements and arrangements. Once he's done, he now has a sculpture that is identical to mine. But even though the sculptures are identical, they aren't the *same* specific sculpture. They are just two sculptures that look the same.
+
+Then imagine that my friend decides to smash his sculpture. Even though our sculptures were identical, they are still different sculptures, so him smashing his sculpture doesn't cause mine to magically explode.
+:::
+
+Hopefully that all made some sense to you, because now it's time to introduce the alternative - passing *by reference*:
+
+```
+    void Foo(int &inout a)
+    {
+        a = 0;
+    }
+```
+
+And lo, there was a new keyword. When used with a parameter, the `&inout` keyword (notice the ampersand) marks a parameter so the program knows that any variable passed into that parameter should be passed by reference. Now let's take a look at what happens when we call this function:
+
+```
+    int x = 5;
+    Foo(x);
+```
+
+As you can see, the syntax for calling the function hasn't changed. What ends up happening, however, is another matter entirely. After this code runs, the value of `x` will have become 0.
+
+Remember the difference between a value and a reference? How a value is an item whereas a reference is a slip of paper describing that item's location? That's basically what is going on here. Instead of reading and passing the value of the variable, the program instead gets the location of the variable in memory (i.e. the reference) and passes that instead. On the function side, that address is given to the parameter, which acts as an alias to the original variable. The end result is that `x` and `a` are essentially labels of the exact same variable, so anything that happens to `a` will happen to `x` as well.
+
+:::note[Note]
+Referring back to the sculpture example, now instead of my friend making a copy of my sculpture, he takes the sculpture itself. When he smashes that sculpture, he is now smashing *my* sculpture, instead of just smashing a copy. So even when my friend hands the sculpture back, I'm still left with a broken sculpture (and minus one friend).
+:::
+
+### References and Object Types
+Assuming you understand the concept, the difference between passing a primitive type variable by value and by reference is pretty straightforward - one passes the value while the other passes a reference to the variable itself. With object types, what's happening is a little less transparent. Let's go ahead and make an example class for our purposes in this section:
+
+```
+    class Bar
+    {
+        int A;
+        
+        Bar(int a)
+        {
+            A = a;
+        }
+    }
+```
+
+Now let's function which accepts an instance of this class passed by value:
+
+```
+    void Foo(Bar b)
+    {
+        b.A = 0;
+    }
+```
+
+...and let's call it:
+
+```
+    Bar x(5); // Use the constructor to set x.A to an initial value of 5
+    Foo(x);
+```
+
+Remember from the previous section that when you pass a variable by value, what gets passed is actually a copy of the value, so anything that happens to the parameter inside the function doesn't change the value of the original variable.
+
+But if that's the case, then something really confusing just happened. After the function call, the value of `x.A` is 0. That doesn't make any sense. If `x` was passed by value, then how was the function able to change the value of one of its members?
+
+Well, also remember what I said about objects and reference types. The variable of an object type doesn't store the value of the object itself. Instead, it stores the *reference* of that object to wherever it is in memory, which the program uses any time you access the object's members. So when you pass this reference by value, the program does, in fact, make a copy of that reference and stores it inside the parameter, but the result is that now you have two completely different variables that both have a reference to the same place.
+
+:::note[Note]
+To use another contrived real-world example, imagine that I had a piece of paper, on which was written the location of my sculpture. My friend requests this location, so I copy the writing on my paper onto a new slip and give that to him. My friend and I now have two completely different pieces of paper, so if he were to rip up his paper, mine would remain intact. However, if we were to both follow the instructions on our papers, we still end up at the same location where my sculpture was stored.
+:::
+
+So ass you can see, the instance variable is still being passed by value. What is happening is that you are *passing a reference by value*, which despite the similar phrasing, is not the same as passing a value by reference. To demonstrate this, see what happens when I change the code in `Foo` a bit:
+
+```
+    void Foo(Bar a)
+    {
+        Bar b(0);
+        a = b;
+    }
+```
+
+Now what happens is that the function creates a new instance of `Bar` called `b`, assigns the `A` field of `b` to 0, and then directly assigns `b` to `a`. Now if we were to look at `x` from our original call, you would see that `x` is unchanged. This is because the act of directly assigning `a` to another instance means you are changing the reference, so now `a` points to somewhere else in memory entirely, leaving `x` to be perfectly safe from any further manipulation.
+
+By contrast, if you were to perform this function while passing `x` by reference:
+
+```
+    void Foo(Bar &inout a)
+    {
+        Bar b(0);
+        a = b;
+    }
+```
+
+Now that `a` is an alias to `x`, changing the address of `a` will also change the address of `x`. In this case, you will have assigned a completely new instance of `Bar` to `x`.
+
+{{note|As a side note, the `&inout` keyword has shortcut syntax. Instead, you could just use `&` when declaring a parameter, and it will have the same effect (you can even omit the space between the keyword and the parameter name if you wish):
+
+```
+    void Foo(Bar &a) // Still passing by reference
+    {
+        Bar b(0);
+        a = b;
+    }
+```
+}}
+
+:::note[Note]
+In the Java programming language, it's a commonly held belief that primitives are passed by value while objects are passed by reference. This belief makes me want to slap that programmer along with every programming teacher, professor, or mentor that they've ever had. In truth, everything in Java is passed by value. In fact, it's not even possible in Java to pass something by reference (this is by design).
+
+It's stipulated that this confusion was started when the people behind Java decided to refer to instances as "references", a decision that confuses it with what other languages refer to when they use the term. Whatever the reason, don't be drawn in by this perpetuated mistake - objects in Java are passed by value, just like everything else in that language. (Also, just call them instances, for Pete's sake.)
+:::
+
+### In and Out
+While many languages share the concept of passing by value and by reference, AngelScript goes a step further. In addition to the `&inout` keyword, it also supplies two additional ones - `&in` and `&out`.
+
+Conceptually, the uses of both these keywords are similar to `&inout`, but their implementation is slightly different.
+
+The `&in` keyword, when used with a parameter, marks that parameter as being input only. When a parameter is marked as input, attempting to assign to this parameter will result in an error. This can be useful in cases where you are passing a type with a potentially large memory overhead (such as a string) and don't want the program to make arbitrary copies:
+
+```
+    void Foo(tString &in a)
+    {
+        // a could be a string that's a thousand characters long
+        // that's a lot of data to copy just to pass it to a function
+    
+        a = "abc"; // Error
+    }
+```
+
+{{note|When declaring a parameter as input, it's generally a good idea to declare it as constant too. This allows the script to be optimized even further by the program and it ensures that no illegal assignments will take place within the function:
+
+```
+    void Foo(const tString &in a)
+    {
+        // Do something
+    }
+```
+}}
+
+Conversely, the `&out` keyword marks a parameter as being output only. This is handy when you are writing a function that you want to be able to return multiple values (since normally you can only return a single value):
+
+```
+    bool TryDivide(int a, int b, int &out result)
+    {
+        if (b != 0)
+        {
+            result = a / b;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+```
+
+In the above example, I have a `TryDivide` function that attempts to divide two numbers. First, however, it must check if the `b` is 0. If it is, then it cannot divide the numbers without dividing by 0 (which is an error on many levels). So what happens is that if `b` is not 0, then the division is performed and assigned to the result, after which it returns `true` to signify that the division is successful. If `b` is 0, however, then the function returns `false` to show that the division couldn't be performed safely.
+
+You can use this function to divide two numbers safely:
+
+```
+    int a = 3;
+    int b = 0;
+    int result;
+    if (TryDivide(a, b, result))
+    {
+        cLux_AddDebugMessage("Division was successful - the result is " + result);
+    }
+    else
+    {
+        cLux_AddDebugMessage("Division by zero averted");
+    }
+```
+
+As you can see, the function prevented a potentially deadly error from happening. If we had simply tried to directly divide `a` and `b`, it would've resulted in a division by 0, which would have caused your program yo come crashing down around itself in a raging ball of fire.
+
+:::note[Note]
+The `TryX` technique is a popular one when dealing with situations that need to be specially handled to prevent potential errors from happening. In a situation where a string needs to be converted (aka *parsed*) to a numeric value, for example, the string might not be a valid number (it could contain letters or something). Trying to convert such a string would result in one of two things - success or an error. If the `TryParse` approach was implemented instead, however, then the function would return a boolean value showing whether or not a parsing could be performed and, if so, the result of the parsing is handed back to the caller through an `&out` parameter.
+:::
+
+## Object Handles
+### Inheritance
+Imagine if you were creating an adventure game. In this game, the player could be one of several classes, such as a Warrior, an Archer, or a Mage. Each of these classes needs some basic fields and functions to make them work, and they might look something like this:
+
+```
+    class Warrior 
+    {
+        int mlHealth;
+        int mlMana;
+        int mlDamage;
+        array<Item> mvInventory;
+        int mlChestHairs;
+        
+        void DoAttack() {}
+        void DoPowerSwing() {}
+        void LiftBoulder() {}
+    }
+    
+    class Archer
+    {
+        int mlHealth;
+        int mlMana;
+        int mlDamage;
+        array<Item> mvInventory;
+        int mlEarPointiness;
+        
+        void DoAttack() {}
+        void ShootBow() {}
+        void PickLock() {}
+    }
+    
+    class Mage 
+    {
+        int mlHealth;
+        int mlMana;
+        int mlDamage;
+        array<Item> mvInventory;
+        int mlLiverSpots;
+        
+        void DoAttack() {}
+        void CastFireball() {}
+        void DetectMagic() {}
+    }
+```
+
+As you can see, these three classes are pretty similar, and in fact they have the same four fields and one function. This is a sign of repetition, which is a big red flag in programming.
+
+This is where inheritance comes in. You can take a class and mark it as being "based" on another class. When a class has a base class, it shares all the fields and functions from that base class:
+
+```
+    class HeroClass
+    {
+        int mlHealth;
+        int mlMana;
+        int mlDamage;
+        array<Item> mvInventory;
+        
+        void DoAttack() {}
+    }
+    
+    class Warrior : HeroClass
+    {
+        int mlChestHairs;
+        
+        void DoPowerSwing() {}
+        void LiftBoulder() {}
+    }
+    
+    class Archer : HeroClass
+    {
+        int mlEarPointiness;
+        
+        void ShootBow() {}
+        void PickLock() {}
+    }
+    
+    class Mage : HeroClass
+    {
+        int mlLiverSpots;
+        
+        void CastFireball() {}
+        void DetectMagic() {}
+    }
+```
+
+That looks much cleaner. Now instead of copying the same fields and functions into each class, they are declared within the base class `HeroClass`, and since `Warrior`, `Archer`, and `Mage` all inherit from `HeroClass` (meaning they have specified `HeroClass` as their base class), they will all have those same fields and functions as well:
+
+```
+    Archer ar = new Archer();
+    ar.DoAttack(); // This is perfectly fine
+```
+
+Since `Archer`, the derived class, inherits from `HeroClass`, the base class, the `ar` object in this code has access to all of the fields and functions declared in the base class.
+
+{{note|One extremely powerful aspect of inheritance is that anywhere you can use an object of the base class type, you can also use an object of a type that inherits from that base type. For example, you could do the following:
+
+```
+    void DoSomethingHeroic(HeroClass obj)
+    {
+        // ...
+    }
+    
+    // ...
+    // Elsewhere in your code;
+    
+    Warrior w = new Warrior();
+    DoSomethingHeroic(w); // Since Warrior inherits HeroClass, then w is treated like a HeroClass object as well as a Warrior object
+```
+}}
+
+Keep in mind that the limitation of inheritance is that a class may only specify one base class to inherit. Trying to inherit from multiple classes will result in an error:
+
+```
+    class BaseClassA {}
+    
+    class BaseClassB {}
+    
+    // The following class will result in an error, since a class cannot inherit from more than one base class
+    class DerivedClass : BaseClassA, BaseClassB {}
+```
+
+### Overriding Base Classes
+In addition to using stuff from a base class, a derived class can also override stuff declared in a base class. Let's take our `HeroClass` again, for example. Say we want to add a `DoSpecial` function that all derived classes could use:
+
+```
+    class HeroClass
+    {
+        // ...
+        void DoSpecial() {}
+    }
+```
+
+This is well and good, but each derived class might want to handle their "special" differently - the warrior might want to do a powerful spin move, while the mage does something fancy with wind and lightning. As it turns out, this is pretty straightforward. By reimplementing the function in the derived classes, we can use the `override` keyword to specialize each class:
+
+```
+    class Warrior : HeroClass
+    {
+        void DoSpecial() override
+        {
+            // Do a spin attack
+        }
+    }
+    
+    class Archer : HeroClass
+    {
+        void DoSpecial() override
+        {
+            // Shoot five arrows at nearby enemies
+        }
+    }
+    
+    class Mage : HeroClass
+    {
+        void DoSpecial() override
+        {
+            // Summon a thunderstorm
+        }
+    }
+```
+
+:::note[Note]
+When a class is inherited by another class, that is inheritance. When an inheriting class changes properties or behaviors of that base class, however, it takes inheritance a step further into a concept called **polymorphism**.
+:::
+
+This might seem like we are falling into the trap of code repetition again, but there is actually a reason for the repetition in this case. Remember that I said that every derived class is treated as though it was of the base class type? Well, that applies to overridden functions as well, except the program takes it one step further. When you have a derived class passed into a function that treats it like a base class and that function calls something that has been overridden, it will automatically call the overriding version:
+
+```
+    void DoSomethingHeroic(HeroClass obj)
+    {
+        obj.DoSpecial(); // Will automatically call the overriding function
+    }
+    
+    // ...
+    // Elsewhere in your code
+    
+    Warrior w = new Warrior();
+    DoSomethingHeroic(w); // Does the spin move
+    
+    Archer a = new Archer();
+    DoSomethingHeroic(a); // Shoots all the arrows
+    
+    Mage m = new Mage();
+    DoSomethingHeroic(m); // Makes it rain
+```
+
+There's another overriding thing going on in derived classes as well. When you create a derived class, the constructor of that class implicitly overrides the constructor of the base class.
+
+{{note|Sometimes there are things in the base class function that also need to run whenever you call an overriding version. In these cases, you can use the scoping operator to explicitly call the base class implementation of the function:
+
+```
+    // DerivedClass.DoSomething
+    void DoSomething(int a)
+    {
+        BaseClass::DoSomething(a);
+        
+        // Do other things
+    }
+```
+
+Similarly, in the constructor, the base class's constructor might be doing important initialization that is common to all derived classes. In the constructor of your derived class, you can use the `super` keyword to call the base class's constructor:
+
+```
+    DerivedClass(int a)
+    {
+        super(a); // Calls the constructor in the base class
+        
+        // Do other things
+    }
+```
+}}
+
+Let's take this overriding concept a bit further. Sometimes, you have a class that is a base class to other derived classes, but is never meant to be used on its own. Take the `HeroClass`, for example. While your program is going to be passing `Warrior`, `Archer` and `Mage` objects around, it doesn't really make sense to have an object whose type actually is `HeroClass`.
+
+This is where the concept of "abstract classes" comes in. An abstract class can be inherited from and used as a type for things like fields or parameters, but it can never be instantiated (i.e. have their constructor called directly). Take this code for example:
+
+```
+    // Perfectly fine
+    DerivedClass a = new DerivedClass();
+    
+    // Still fine, since the type of b is actually DerivedClass and is just treated like an AbstractClass object
+    AbstractClass b = new DerivedClass(); 
+    
+    // Throws an error, since abstract classes cannot be instantiated
+    AbstractClass c = new AbstractClass(); 
+```
+
+To mark a class as abstract, you simply use the `abstract` keyword in the class declaration:
+
+```
+    abstract class AbstractClass
+    {
+        void SomeFunction() {}
+    }
+```
+
+The last new keyword for using with inheritance is the `final` keyword. When used on a class, it marks that class as something that **cannot** be inherited from:
+
+```
+    final class FinalClass {}
+    
+    class DerivedClass : FinalClass {} // Throws an error: FinalClass cannot be inherited from
+```
+
+It can also be used on functions to disallow them from being overridden:
+
+```
+    class BaseClass
+    {
+        final void DoSomethingFinal() {}
+    }
+    
+    class DerivedClass : BaseClass
+    {
+        void DoSomethingFinal() override {} // Throws an error: DoSomethingFinal cannot be overridden
+    }
+```
+
+This is useful if you have a class or function whose operation is not meant to be changed in any way. 
+
+:::note[Note]
+As an extreme example, imagine you have a class called `SecurityManager` with a function `CheckCredentials` that checked to see if people trying to get through a door had the proper credentials to get through. If that class and function were not finalized, then someone could come along later and create a `DerivedSecurityManager` with an overriding `CheckCredentials` that let **everyone** through the door, regardless of credentials. You can see why you wouldn't want this situation to happen, especially when you are writing code to be used by other people later on.
+:::
+
+---
+
+## Interfaces
+Overriding a class's functions is one way to implement polymorphism, but another way is to use blueprints that, rather than providing a collection of fields and functions, merely dictates what functions a class *should* have and leaves it up to the class to implement them. This is done using a construct called an *interface*.
+
+The best way to explain an interface is to show how they are declared. This is done by using the `interface` keyword:
+
+```
+    interface iMyInterface
+    {
+        int mlSomeField;
+        
+        void DoSomething();
+        bool GetSomeBool();
+        void DoSomethingWithParam(int param);
+    }
+```
+
+As you can see, interfaces are declared a bit differently than classes. Fields are declared the same, but functions are only defined by giving them their identifiers, parameters, and return types. Instead of providing function bodies, they are closed instead with the semicolon. This is because an interface does not provide functions to use, but rather offers a series of functions that classes which use it are required to provide the bodies for:
+
+```
+    class cMyClass : iMyInterface
+    {
+        void DoSomething()
+        {
+            // Do something
+        }
+        
+        bool GetSomeBool()
+        {
+            return true;
+        }
+        
+        void DoSomethingWithParams(int param)
+        {
+            // Do something with param
+        }
+    }
+```
+
+:::note[Note]
+When a class declares that it is using a base class, that is known as *inheriting* the class. When a class declares that it is using an interface, that is known as *implementing* the interface.
+:::
+
+Just like with inheritance, the interface can be used as a type for variables:
+
+```
+    iMyInterface obj = new cMyClass();
+    bool bValue = obj.GetSomeBool();
+```
+
+{{note|While the practice of giving bodies to functions defined in interfaces is discouraged, AngelScript doesn't explicitly disallow it. If you wanted, you could define an interface with a complete function in it:
+
+```
+    interface iMyInterface
+    {
+        void DoSomething(); // This function is required to be given a body by an implementing class
+        void DoSomethingSpecific()
+        {
+            // This function body is provided by the interface itself rather than by any implementing classes
+        }
+    }
+```
+}}
+
+The power of interfaces comes from the fact that while a class may only inherit from one base class at the most, it may implement as many interfaces as it wants. You can do this by separating the interface names in the class declaration with a comma. Similarly, if a class is inheriting from a base class *and* wants to implement an interface, the class name is given first, followed by the names of the interfaces:
+
+```
+    class cComplexClass : cBaseClass, iInterfaceA, iInterfaceB {}
+```
+
+This comes in handy when you have a class with a large number of traits. If for example, you had a custom array class, you might want to implement a number of interfaces that define what it can do:
+
+```
+    class cCustomArray : iIndexable, iEnumerable, iSortable, iCopyable
+    {
+        // The class contents
+    }
+```
+
+In this code, the interface `iIndexable` guarantees that the class can be accessed by an index, similarly to a normal array. The interface `iEnumerable` guarantees that the class may also be enumerated (i.e. traversed with a loop). The interface `iSortable` guarantees that the class provides utility methods for sorting the underlying data into a given order. And the interface `iCopyable` guarantees that the class contains functions that, when called, will return an object that contains an exact copy of the data within the calling object.
+
+Not only is this capability useful in ensuring that certain functions exist, it also helps group classes that may be similar in certain aspects but not in others. For example, if in addition to our custom array class, we also had custom classes for a [tree](https://en.wikipedia.org/wiki/Binary_tree|binary)], a [list](https://en.wikipedia.org/wiki/Linked_list|linked), and a [[dictionary](https://en.wikipedia.org/wiki/Associative_array), the interfaces they implement could be used to treat all the classes under a given interface, such as `iIndexable`:
+
+```
+    iIndexable array = new cCustomArray();
+    iIndexable tree = new cBinaryTree();
+    iIndexable dict = new cDictionary();
+    
+    SomeType arrayValue = array.ValueAtIndex(0);
+    SomeType treeValue = tree.ValueAtIndex(2);
+    SomeType dictValue = dict.ValueAtIndex(5);
+```
+
+As you can see, all three of the objects are based on a different data structure, but because they all implement the `iIndexable` interface, they are all guaranteed to have an indexer function of some sort, shown here as the `ValueAtIndex` function.
+
+:::note[Note]
+In many ways, the similarities between inheritance vis a base class and the implementation of an interface can lead to some fuzzy lines in program design. It's fairly common when designing a program for the designer to ask whether they should use an interface or a base class to group similarly intended classes together. The ruling philosophy over the difference between inheritance and interfaces is that a base class describes what a class *is*, whereas an interface describes what a class *does*.
+
+For example, with the RPG class script examples from the [Inheritance](https://wiki.frictionalgames.com/page/hpl3/community/scripting/angelscript_tutorial#Inheritance) section, the `HeroClass` base class denoted that `Warrior`, `Archer`, and `Mage` were all hero classes, while they could implement an interface such as `iAttacker` that would describe that they can attack things. Use this distinction when designing your own class structure for your programs.
+:::
+
+---
+
+## Mixin Classes
+Sometimes, rather than exploiting the benefits of inheritance or interfaces, you merely want to segment some code into pieces in order to maximize code reuse and efficiency. In these cases, AngelScript provides a somewhat unique feature called a *mixin class*. Where inheritance and interfaces are intended to extend a class's capabilities or allow for flexibility in cases of variable types, a mixin class is merely intended to provide a class with a pre-defined set of fields and functions.
+
+A mixin class is defined with the `mixin` keyword:
+
+```
+    mixin class MyMixinClass
+    {
+        void DoSomething()
+        {
+            // Do something
+        }
+    }
+```
+
+This mixin class can now be used in the definition of other classes, which is done in the same way as declaring a base class or interface:
+
+```
+    class cMyClass : MyMixinClass {}
+```
+
+Now, as far as other places in your code are concerned, the `cMyClass` has the functions in it that were originally declared in `MyMixinClass`:
+
+```
+    cMyClass obj;
+    obj.DoSomething();
+```
+
+Keep in mind that this is not the same thing as inheritance. With inheritance, the derived class *is* the base class (i.e. a "Circle" *is* a "Shape"). However, `cMyClass` is not a `MyMixinClass`. It is merely taking on the fields and functions of `MyMixinClass` as if they were its own. To illustrate this, see what happens if you try to instantiate a `MyMixinClass` variable with an instance of `cMyClass`:
+
+```
+    MyMixinClass obj = new cMyClass(); // Error
+```
+
+This code would result in an error because `cMyClass` and `MyMixinClass` are not compatible types. In fact, `MyMixinClass` is not a type at all. It cannot be instantiated, nor can variables be declared with it as their type. The only reason it exists is to provide `cMyClass` with its contents. 
+
+This concept is known in programming as *syntactic sugar*, which describes a programming feature that only exists to make life easier for the programmer in their code. Once the code is compiled, the syntactic sugar is specially processed in a way that, if you were to inspect the machine code after the script is compiled, no trace of the sugar would remain.
+
+:::note[Note]
+I included this section for the sake of completeness, but in my opinion, mixin classes are not good to use. When you define code in one place and it gets used in another, that would be better handled with either inheritance or interfaces. If a class is meant to have a set of functions that relate to a behavior, that is what interfaces are for. 
+
+The only time I would recommend using a mixin class is for when you are dealing with a particularly massive class and want to break it into pieces for organizational purposes. C# hosts a feature for this express purpose called "partial classes", and I recommend anyone interested in mixin classes to [read about C#'s partial classes](https://www.codeproject.com/Articles/709273/Partial-Classes-in-Csharp-With-Real-Example) to get a feeling for what I think is the best and only legitimate use case for mixin classes.
+:::
+
+---
+
+## Delegates
+Up until now, you've been using variables to store data of types. These types could be primitive types, such as `int` or `bool`, or they could be object types like `cVector3f` or `cMatrixf`. They could be arrays or even names of classes or interfaces that you came up with yourself. What if I told you, though, that you could also use a variable to store a *function?*
+
+A *delegate* is, in a nutshell, just that - a variable that stores a pointer to a function. The variable can be used to call that function just as though as you were calling it by name directly.
+
+### Funcdef
+Before you can learn how to use delegates, you need to understand what a Funcdef is. Funcdef is short for "function definition", and the basic explanation is that it defines a function "type". Appropriately, it is declared using the `funcdef` keyword:
+
+```
+    funcdef bool FunctionType(int, int);
+```
+
+From this code, you can see that after the `funcdef` keyword, the rest looks like a typical function declaration. One major exception is that the parameters don't have parameter names. That's because the Funcdef only concerns itself with the types of the parameters, and doesn't care about their names.
+
+After this, `FunctionType` can be used to describe the "type" of any function that shares an identical function signature with it:
+
+```
+    // This function takes two int parameters and returns a bool, so it matches FunctionType
+    bool DoSomething(int a, int b)
+    {
+        return true;
+    }
+```
+
+:::note[Note]
+As a general rule, Funcdefs should be declared at the global scope, although there's no rule against declaring them in the class scope.
+:::
+
+### Using Delegates
+Now that we have a Funcdef, we can use it to declare and instantiate a delegate. When declaring a delegate, you use the Funcdef just as you would use a type for a regular variable:
+
+```
+    funcdef void MyDelegateType(int);
+    
+    // ...
+    // Elsewhere in your code
+    
+    MyDelegateType @delegate;
+```
+
+A delegate is a pointer to a function, so it is necessary to declare it as a pointer object (see [Object Handles](/scripting/angelscript/chapter-9-miscellaneous-angelscript-features/#object-handles)). From here, you can use the function name of a function to "assign" the function to the delegate:
+
+```
+    void DoSomething(int a) {}
+    
+    // ... 
+    // Elsewhere in your code
+    
+    delegate = @DoSomething;
+```
+
+Similarly to the declaration, you must use the handle operator to get the pointer to the function and assign it to the delegate.
+
+Now that the delegate has been assigned a function pointer, you can use it as though you were calling the function directly:
+
+```
+    delegate(5); // Calls the DoSomething function that was assigned before
+```
+
+When creating a delegate for a class function, a slightly different approach is required. Because the function is bound to the instance object of the class, you need to create the delegate using the Funcdef constructor, passing a reference to the object's function as a parameter:
+
+```
+    class A 
+    {
+        void DoSomething(int a) {}
+    }
+
+    // ...
+    // Elsewhere in your code
+    
+    A a;
+    delegate = MyDelegateType(a.DoSomething);
+```
+
+Now that you know how to declare, assign, and use delegates, let me explain why they are useful. Imagine you have a situation where you have a number of functions, and you want to conditionally call one of them based on a value. You could use `if`s, of course:
+
+```
+    if (value == 1)
+    {
+        Function1():
+    }
+    else if (value == 2)
+    {
+        Function2():
+    }
+    // ...
+    else if (value == 99)
+    {
+        Function99():
+    }
+```
+
+That immediately throws red flags, so let's do the sane thing and replace it with a `switch`:
+
+```
+    switch (value)
+    {
+        case 1:
+            Function1();
+            break;
+        case 2:
+            Function2();
+            break;
+        // ...
+        case 99:
+            Function99();
+            break;
+    }
+```
+
+This code is much more efficient, but we run into another problem. I clipped the code in the example, but imagine if I had actually typed out all 99 cases of that `if` or `switch` code. It would be unsustainably long, to the point that if you had to find any particular case it would be nontrivially cumbersome to do. Not to mention if you later needed to add one, twenty, or a thousand more.
+
+In this case, you can instead use a delegate to store the function you want to call:
+
+```
+    funcdef void StateFunction();
+    StateFunction @state;
+    
+    // ...
+    // Elsewhere in your code
+    
+    state = @Function99;
+    state();
+```
+
+:::note[Note]
+This approach is commonly used when designing game engines. Because each level of each map of each mode of the game's operation needs to be handled differently, using a `switch` block could require thousands of different cases, so it isn't really an option. Instead, the game stores a delegate that points to a function that handles that particular state (such as the main menu, or the pause screen, or level 2-A). 
+
+When something happens in the game that changes its state (for example, when the player presses the pause button), the game performs the corresponding assignment to the state delegate. Then when the next time the game refreshes itself, it will automatically call the new function, making a seamless transition into the new state.
+:::
+
+HPL3/Scripting/AngelScript Fundamentals/Chapter 8 - Classes|Chapter 8 - Classes|HPL3/Scripting/AngelScript Fundamentals|AngelScript Fundamentals|HPL3/Scripting/AngelScript Fundamentals/What's Next|What's Next
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/Scripting/AngelScript Fundamentals/Chapter 9 - Miscellaneous AngelScript Features](https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_9_-_Miscellaneous_AngelScript_Features)
+- Revision: `4627`
+- Source update: `2020-08-16T10:54:11Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

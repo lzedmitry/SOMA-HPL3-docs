@@ -1,0 +1,166 @@
+---
+title: eKey
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eKey"
+sourceRevision: 3817
+sourceUpdated: "2020-08-06T14:44:26Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: undocumented
+generated: true
+tags:
+  - api
+  - api
+sidebar:
+  hidden: true
+---
+:::note[SOURCE STATUS: Undocumented]
+This API page was auto-generated on the Frictional Wiki and has no written descriptions.
+:::
+
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Values
+| Enum Name | Integer Value | Description |
+| --- | --- | --- |
+| `eKey_BackSpace` | `0` |   |
+| `eKey_Tab` | `1` |   |
+| `eKey_Clear` | `2` |   |
+| `eKey_Return` | `3` |   |
+| `eKey_Pause` | `4` |   |
+| `eKey_Escape` | `5` |   |
+| `eKey_Space` | `6` |   |
+| `eKey_Exclaim` | `7` |   |
+| `eKey_QuoteDouble` | `8` |   |
+| `eKey_Hash` | `9` |   |
+| `eKey_Dollar` | `10` |   |
+| `eKey_Ampersand` | `11` |   |
+| `eKey_Quote` | `12` |   |
+| `eKey_LeftParen` | `13` |   |
+| `eKey_RightParen` | `14` |   |
+| `eKey_Asterisk` | `15` |   |
+| `eKey_Plus` | `16` |   |
+| `eKey_Comma` | `17` |   |
+| `eKey_Minus` | `18` |   |
+| `eKey_Period` | `19` |   |
+| `eKey_Slash` | `20` |   |
+| `eKey_0` | `21` |   |
+| `eKey_1` | `22` |   |
+| `eKey_2` | `23` |   |
+| `eKey_3` | `24` |   |
+| `eKey_4` | `25` |   |
+| `eKey_5` | `26` |   |
+| `eKey_6` | `27` |   |
+| `eKey_7` | `28` |   |
+| `eKey_8` | `29` |   |
+| `eKey_9` | `30` |   |
+| `eKey_Colon` | `31` |   |
+| `eKey_SemiColon` | `32` |   |
+| `eKey_Less` | `33` |   |
+| `eKey_Equals` | `34` |   |
+| `eKey_Greater` | `35` |   |
+| `eKey_Question` | `36` |   |
+| `eKey_At` | `37` |   |
+| `eKey_LeftBracket` | `38` |   |
+| `eKey_BackSlash` | `39` |   |
+| `eKey_RightBracket` | `40` |   |
+| `eKey_Caret` | `41` |   |
+| `eKey_Underscore` | `42` |   |
+| `eKey_BackQuote` | `43` |   |
+| `eKey_A` | `44` |   |
+| `eKey_B` | `45` |   |
+| `eKey_C` | `46` |   |
+| `eKey_D` | `47` |   |
+| `eKey_E` | `48` |   |
+| `eKey_F` | `49` |   |
+| `eKey_G` | `50` |   |
+| `eKey_H` | `51` |   |
+| `eKey_I` | `52` |   |
+| `eKey_J` | `53` |   |
+| `eKey_K` | `54` |   |
+| `eKey_L` | `55` |   |
+| `eKey_M` | `56` |   |
+| `eKey_N` | `57` |   |
+| `eKey_O` | `58` |   |
+| `eKey_P` | `59` |   |
+| `eKey_Q` | `60` |   |
+| `eKey_R` | `61` |   |
+| `eKey_S` | `62` |   |
+| `eKey_T` | `63` |   |
+| `eKey_U` | `64` |   |
+| `eKey_V` | `65` |   |
+| `eKey_W` | `66` |   |
+| `eKey_X` | `67` |   |
+| `eKey_Y` | `68` |   |
+| `eKey_Z` | `69` |   |
+| `eKey_Delete` | `70` |   |
+| `eKey_KP_0` | `71` |   |
+| `eKey_KP_1` | `72` |   |
+| `eKey_KP_2` | `73` |   |
+| `eKey_KP_3` | `74` |   |
+| `eKey_KP_4` | `75` |   |
+| `eKey_KP_5` | `76` |   |
+| `eKey_KP_6` | `77` |   |
+| `eKey_KP_7` | `78` |   |
+| `eKey_KP_8` | `79` |   |
+| `eKey_KP_9` | `80` |   |
+| `eKey_KP_Period` | `81` |   |
+| `eKey_KP_Divide` | `82` |   |
+| `eKey_KP_Multiply` | `83` |   |
+| `eKey_KP_Minus` | `84` |   |
+| `eKey_KP_Plus` | `85` |   |
+| `eKey_KP_Enter` | `86` |   |
+| `eKey_KP_Equals` | `87` |   |
+| `eKey_Up` | `88` |   |
+| `eKey_Down` | `89` |   |
+| `eKey_Right` | `90` |   |
+| `eKey_Left` | `91` |   |
+| `eKey_Insert` | `92` |   |
+| `eKey_Home` | `93` |   |
+| `eKey_End` | `94` |   |
+| `eKey_PageUp` | `95` |   |
+| `eKey_PageDown` | `96` |   |
+| `eKey_F1` | `97` |   |
+| `eKey_F2` | `98` |   |
+| `eKey_F3` | `99` |   |
+| `eKey_F4` | `100` |   |
+| `eKey_F5` | `101` |   |
+| `eKey_F6` | `102` |   |
+| `eKey_F7` | `103` |   |
+| `eKey_F8` | `104` |   |
+| `eKey_F9` | `105` |   |
+| `eKey_F10` | `106` |   |
+| `eKey_F11` | `107` |   |
+| `eKey_F12` | `108` |   |
+| `eKey_F13` | `109` |   |
+| `eKey_F14` | `110` |   |
+| `eKey_F15` | `111` |   |
+| `eKey_NumLock` | `112` |   |
+| `eKey_CapsLock` | `113` |   |
+| `eKey_ScrollLock` | `114` |   |
+| `eKey_RightShift` | `115` |   |
+| `eKey_LeftShift` | `116` |   |
+| `eKey_RightCtrl` | `117` |   |
+| `eKey_LeftCtrl` | `118` |   |
+| `eKey_RightAlt` | `119` |   |
+| `eKey_LeftAlt` | `120` |   |
+| `eKey_RightMeta` | `121` |   |
+| `eKey_LeftMeta` | `122` |   |
+| `eKey_Mode` | `123` |   |
+| `eKey_Help` | `124` |   |
+| `eKey_Print` | `125` |   |
+| `eKey_SysReq` | `126` |   |
+| `eKey_Break` | `127` |   |
+| `eKey_Menu` | `128` |   |
+| `eKey_Power` | `129` |   |
+| `eKey_None` | `130` |   |
+| `eKey_LastEnum` | `1156` |   |
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/eKey](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eKey)
+- Revision: `3817`
+- Source update: `2020-08-06T14:44:26Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

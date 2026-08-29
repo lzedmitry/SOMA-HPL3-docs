@@ -1,0 +1,14 @@
+{
+  "pageid": 3379,
+  "title": "HPL3/Shaders",
+  "missing": false,
+  "redirect": false,
+  "length": 380,
+  "touched": "2025-04-23T21:49:35Z",
+  "revisionId": 7011,
+  "revisionTimestamp": "2025-04-23T21:49:35Z",
+  "revisionUser": "Artificialparanoia",
+  "wikitext": "== Getting Started ==\n* [[HPL3/Shaders/Shaders Overview|Shaders Overview]]\n* [https://www.khronos.org/opengl/wiki/Getting_Started Getting Started With OpenGL]\n\n== General ==\n* [[HPL3/Shaders/HPSL Shading Language|The HPSL Shading Language]]\n* [[HPL3/Shaders/Overwriting Existing Shaders|Overwriting Existing Shaders]]\n* [[HPL3/Shaders/Adding Custom Shaders|Adding Custom Shaders]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Shaders",
+  "requestedTitle": "HPL3/Shaders"
+}

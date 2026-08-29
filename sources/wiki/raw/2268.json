@@ -1,0 +1,14 @@
+{
+  "pageid": 2268,
+  "title": "HPL3/SOMA/Scripting/iSoundEventData",
+  "missing": false,
+  "redirect": false,
+  "length": 2263,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3939,
+  "revisionTimestamp": "2020-08-06T15:11:01Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\niSoundEventData has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || DecUserCount ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetMaxDistance ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetMinDistance ||   ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString&</syntaxhighlight>]] || GetName ||   ||\n|-\n| [[../cSoundEventParamInfo|<syntaxhighlight lang=\"c++\" inline>cSoundEventParamInfo@</syntaxhighlight>]] || GetParam || <syntaxhighlight lang=\"c++\" inline>int alIdx</syntaxhighlight> ||\n|-\n| [[../cSoundEventParamInfo|<syntaxhighlight lang=\"c++\" inline>cSoundEventParamInfo@</syntaxhighlight>]] || GetParamFromName || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asName</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetParamNum ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>uint</syntaxhighlight> || GetTimeStamp ||  ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || HasUsers ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || IncUserCount ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || Is3D ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsHeadRelative ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsOneShot ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetDefaultOrientation || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& avOrientation</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetDefaultPosition || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& avPostion</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetDefaultVolume || <syntaxhighlight lang=\"c++\" inline>float afVolume</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iSoundEventData",
+  "requestedTitle": "HPL3/SOMA/Scripting/iSoundEventData"
+}

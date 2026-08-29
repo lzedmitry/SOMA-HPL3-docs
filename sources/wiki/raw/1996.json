@@ -1,0 +1,14 @@
+{
+  "pageid": 1996,
+  "title": "HPL3/SOMA/Scripting/cCollidePoint",
+  "missing": false,
+  "redirect": false,
+  "length": 593,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3543,
+  "revisionTimestamp": "2020-08-06T13:24:52Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mfDepth || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mvNormal || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>cVector3f</syntaxhighlight>]] ||\n|-\n| mvPoint || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>cVector3f</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\ncCollidePoint has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cCollidePoint",
+  "requestedTitle": "HPL3/SOMA/Scripting/cCollidePoint"
+}

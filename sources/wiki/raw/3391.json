@@ -1,0 +1,14 @@
+{
+  "pageid": 3391,
+  "title": "HPL3/Level Design/Lights Overview",
+  "missing": false,
+  "redirect": false,
+  "length": 1687,
+  "touched": "2026-07-30T08:40:29Z",
+  "revisionId": 7049,
+  "revisionTimestamp": "2026-07-30T08:40:29Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Lights =\nLights are used to light up the environment, and also to create the right mood for a level. \n\n\nThe following are shared by the three kinds of lights.\nGeneral Parameters:\n* '''Name''': Name for the light. Should be unique for all objects on the map.\n* '''Position''': 3D vector indicating position in World-space\n* '''Gobo''': 2D or CubeMap texture that the light will project onto surfaces. 2D for SpotLights, CubeMap for PointLights, BoxLights don't support Gobos)\n* '''Falloff Map''': 1D texture that will map how the light gets attenuated.\n* '''Diffuse color''': color of the light. Will tint everything in its boundaries with it.\n\nFlicker Parameters:\n* '''Active''': if the flickering for this light should be off or not.\n* '''On Min Time''' / '''On Max Time''': time the light will be on will be picked everytime at random inside this range.\n* '''On Sound''': sound that will be played when the light turns on.\n* '''On PS''': particle system that will be spawned when the light turns on.\n* '''Off Min Time''' / '''On Max Time''': time the light will be off, will be picked everytime at random inside this range.\n* '''Off Sound''': sound that will be played when the light turns off.\n* '''Off PS''': particle system that will be spawned when the light turns on.\n* '''Off Radius''': radius the light will use when turned off.\n* '''Off Color''': diffuse color the light will use when turned off.\n* '''Fade Active''': if fading should be used.\n* '''Fade On Min Time''' / '''On Max Time''': how long the light should be fading from off to on, randomly picked.\n* '''Fade Off Min Time''' / '''Off Max Time''': how long the light should be fading from on to off, randomly picked.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Lights_Overview",
+  "requestedTitle": "HPL3/Level Design/Lights Overview"
+}

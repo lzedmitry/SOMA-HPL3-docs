@@ -1,0 +1,14 @@
+{
+  "pageid": 2115,
+  "title": "HPL3/SOMA/Scripting/cLuxScriptImGui",
+  "missing": false,
+  "redirect": false,
+  "length": 389,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3031,
+  "revisionTimestamp": "2020-08-04T01:53:00Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mpImGui || [[../cImGui|<syntaxhighlight lang=\"c++\" inline>cImGui@</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\ncLuxScriptImGui has no public functions\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxScriptImGui",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLuxScriptImGui"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 2251,
+  "title": "HPL3/SOMA/Scripting/iScrAgent Interface",
+  "missing": false,
+  "redirect": false,
+  "length": 1277,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3923,
+  "revisionTimestamp": "2020-08-06T15:08:10Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\niScrAgent_Interface has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || BeforeEntityDestruction ||   ||\n|-\n| [[../cLuxAgent|<syntaxhighlight lang=\"c++\" inline>cLuxAgent@</syntaxhighlight>]] || GetBase ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || OnSetActive || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || ResetProperties ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetupAfterLoad || [[../cWorld|<syntaxhighlight lang=\"c++\" inline>cWorld@ apWorld</syntaxhighlight>]],<br />[[../cResourceVarsObject|<syntaxhighlight lang=\"c++\" inline>cResourceVarsObject@ apVars</syntaxhighlight>]],<br />[[../cResourceVarsObject|<syntaxhighlight lang=\"c++\" inline>cResourceVarsObject@ apInstanceVars</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetupCharBody ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrAgent_Interface",
+  "requestedTitle": "HPL3/SOMA/Scripting/iScrAgent Interface"
+}

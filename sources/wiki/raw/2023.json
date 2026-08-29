@@ -1,0 +1,14 @@
+{
+  "pageid": 2023,
+  "title": "HPL3/SOMA/Scripting/cGuiPopUpColorPicker",
+  "missing": false,
+  "redirect": false,
+  "length": 1419,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3571,
+  "revisionTimestamp": "2020-08-06T13:33:58Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncGuiPopUpColorPicker has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../cColor|<syntaxhighlight lang=\"c++\" inline>const cColor&</syntaxhighlight>]] || GetColor ||   ||\n|-\n| [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f&</syntaxhighlight>]] || GetHSB ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || GetKillOnEscapeKey ||   ||\n|-\n| [[../cColor|<syntaxhighlight lang=\"c++\" inline>const cColor&</syntaxhighlight>]] || GetOldColor ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetColor || [[../cColor|<syntaxhighlight lang=\"c++\" inline>const cColor &in aX</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetKillOnEscapeKey || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetNextFocusWidget || [[../iWidget|<syntaxhighlight lang=\"c++\" inline>iWidget@ apNewFocused</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetShowTransPreview || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiPopUpColorPicker",
+  "requestedTitle": "HPL3/SOMA/Scripting/cGuiPopUpColorPicker"
+}

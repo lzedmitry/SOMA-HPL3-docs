@@ -1,0 +1,58 @@
+---
+title: "Guide de scripting"
+description: "Scripts de map AngelScript (.hps), le guide officiel, helpers, terminals et l’API générée."
+category: scripting
+translation:
+  locale: fr
+  sourceLocale: en
+  sourceRevision: 1
+  translationRevision: 1
+  status: current
+---
+
+La logique de map SOMA est de l’AngelScript dans des fichiers `.hps`. Une map `sample_map.hpm` charge `sample_map.hps` à côté. L’étape script de Getting Started ne change que `OnStart()` dans la classe générée `cScrMap`.
+
+<p class="section-kicker">04 // SCRIPTING &nbsp; REF 04.00</p>
+
+## Commencer le scripting
+
+<div class="catalog-group">
+<div class="catalog-row"><a href="/fr/scripting/what-is-scripting-in-hpl3/">What is scripting?</a><span>Where .hps files live and what they drive.</span></div>
+<div class="catalog-row"><a href="/fr/scripting/scripting-workflow-and-structure/">Workflow and structure</a><span>Generated cScrMap layout.</span></div>
+<div class="catalog-row"><a href="/fr/scripting/hello-world/">Hello World</a><span>cLux_AddDebugMessage.</span></div>
+<div class="catalog-row"><a href="/fr/scripting/the-onaction-method/">OnAction</a><span>Input callback.</span></div>
+<div class="catalog-row"><a href="/fr/scripting/the-update-method/">Update</a><span>Per-frame callback.</span></div>
+<div class="catalog-row"><a href="/fr/scripting/timers/">Timers</a><span>Delayed work.</span></div>
+<div class="catalog-row"><a href="/fr/scripting/sequences/">Sequences</a><span>Ordered beats.</span></div>
+<div class="catalog-row"><a href="/fr/scripting/helper-files/">Helper files</a><span>Includes; not the missing helper articles.</span></div>
+<div class="catalog-row"><a href="/fr/scripting/angelscript/angelscript-fundamentals/">AngelScript fundamentals</a><span>Language chapters.</span></div>
+</div>
+
+
+## Motifs courants
+
+Confirmé dans le scripting guide et Getting Started — pas inventé. Table complète : [Common patterns](/fr/scripting/common-patterns/).
+
+## Architecture
+
+- [ID handles](/fr/scripting/id-handles/)
+- [Entity components](/fr/scripting/entity-components/)
+- [Level scripting best practices](/fr/scripting/level-scripting-best-practices/)
+- [User modules](/fr/scripting/user-modules-overview/)
+- [Helpers index](/fr/scripting/helpers/) — Wiki lists 14 helper categories; the pages themselves are redlinks
+- [API reference](/fr/api/)
+
+## GUI, player, AI, effects
+
+- [GUI overview](/fr/generated/gui/)
+- [Terminals](/fr/scripting/terminals-overview/)
+- Les groupes user-module listés sur le hub Scripting (Menu, Energy, Hands, Datamine, Distortion, …) **n’ont pas été écrits** comme articles. Ils restent undocumented ici.
+
+## Voir aussi
+
+
+## Sources
+
+- [HPL3/SOMA/Scripting](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting)
+- [HPL3 Scripting Guide](https://wiki.frictionalgames.com/page/HPL3/Scripting/HPL3_Scripting_Guide)
+

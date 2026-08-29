@@ -1,0 +1,14 @@
+{
+  "pageid": 2599,
+  "title": "HPL3/SOMA/Entities/Entity Notes",
+  "missing": false,
+  "redirect": false,
+  "length": 300,
+  "touched": "2020-08-23T20:00:21Z",
+  "revisionId": 4970,
+  "revisionTimestamp": "2020-08-23T20:00:21Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Entity Notes window =\n\n[[File:window_entitynotes.png]]\n\nWith this window, one can add small bits of information that will be readable when placing an entity of the currently edited type in LevelEditor, via its Entity Notes dialog.\n\nTo create a note, just type it in the textbox and close the popup.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities/Entity_Notes",
+  "requestedTitle": "HPL3/SOMA/Entities/Entity Notes"
+}

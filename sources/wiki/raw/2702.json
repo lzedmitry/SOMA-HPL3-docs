@@ -1,0 +1,14 @@
+{
+  "pageid": 2702,
+  "title": "HPL3/Materials",
+  "missing": false,
+  "redirect": false,
+  "length": 1645,
+  "touched": "2026-07-30T22:12:02Z",
+  "revisionId": 7150,
+  "revisionTimestamp": "2026-07-30T22:11:21Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{constructionNotice|This category is undergoing major editing, as information about different articles is still being gathered and researched. More pages and information will gradually be added.}}\n\n'''This category deals with the HPL3 Material Editor and deals with creating and using materials.'''\n{{CategoryHeader}}\n{{CategoryNewcolumn}}\n\n== Getting Started ==\n* [[HPL3/Materials/Materials Overview|Materials Overview]]\n* [[HPL3/Materials/Engine Materials|Engine Materials]]\n\n== General ==\n* [[HPL3/Materials/Working with Materials|Working with Materials]]\n* [[HPL3/Materials/Texture Maps|Texture Maps]]\n* [[HPL3/Materials/Physics Material|Physics Material]]\n\n== Material Editor ==\n* [[HPL3/Materials/Materials Editor View|Materials Editor View]]\n* [[HPL3/Materials/UV Animations|UV Animations]]\n* [[HPL3/Materials/Texture Units|Texture Units]]\n* [[HPL3/Materials/Material Specific Variables|Material Specific Variables]]\n\n{{CategoryNewcolumn}}\n\n== Material Types ==\n* [[HPL3/Materials/Types/Decal|Decal]]\n* [[HPL3/Materials/Types/Projected UV|Projected UV]]\n* [[HPL3/Materials/Types/Solid Diffuse|Solid Diffuse]]\n* [[HPL3/Materials/Types/Terrain|Terrain]]\n* [[HPL3/Materials/Types/Terrain Decal|Terrain Decal]]\n* [[HPL3/Materials/Types/Translucent|Translucent]]\n* [[HPL3/Materials/Types/Water|Water]]\n\n== Blending Modes ==\n* [[HPL3/Materials/Blending Modes/Add|Add]]\n* [[HPL3/Materials/Blending Modes/Mul|Mul]]\n* [[HPL3/Materials/Blending Modes/Mulx2|Mulx2]]\n* [[HPL3/Materials/Blending Modes/Alpha|Alpha]]\n* [[HPL3/Materials/Blending Modes/PremulAlpha|PremulAlpha]]\n\n{{CategoryEnd}}\n\n__NOTOC__\n\n[[Category:Entry pages]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Materials",
+  "requestedTitle": "HPL3/Materials"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 2608,
+  "title": "HPL3/SOMA/Level Design/Light Masks",
+  "missing": false,
+  "redirect": false,
+  "length": 871,
+  "touched": "2020-08-27T16:09:48Z",
+  "revisionId": 5216,
+  "revisionTimestamp": "2020-08-27T16:09:48Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= LightMasks =\n\nLightMasks are defined volumes in the map that confine lights that are connected to them\n\n== General Parameters ==\n* '''Name''': Name for the lightmask.\n* '''Position''': 3D Vector storing the position in world.\n* '''Connect lights''': pressing this button will allow you to select the lights you desire to mask.\n''' '''Connected lights''': the names of the connected lights will show in this list.\n* (Only for box)'''Size''': Size of the lightmask box.\n\n= LightMask EditMode =\n\n\nLightMasks are defined volumes in the map that confine lights that are connected to them.\n\nAs of now, only Box LightMasks are available.\n\nTo create a box, there are two ways:\n* A single click on the grid will create a 1x1x1 sized lightmask box.\n* Clicking an dragging on the grid will define a rectangle as base, releasing and clicking again will define a height for the box.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Light_Masks",
+  "requestedTitle": "HPL3/SOMA/Level Design/Light Masks"
+}

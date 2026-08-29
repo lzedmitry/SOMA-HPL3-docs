@@ -1,0 +1,35 @@
+---
+import { coverageRows } from "../lib/locale";
+import { t } from "../lib/ui-strings";
+import { appLocale } from "../lib/locale";
+
+const locale = appLocale(Astro.locals.starlightRoute.locale);
+const rows = coverageRows();
+---
+
+<table class="coverage-table">
+  <thead>
+    <tr>
+      <th>{t("language", locale)}</th>
+      <th>%</th>
+      <th>{t("coverageCurrent", locale)}</th>
+      <th>{t("outdated", locale)}</th>
+      <th>{t("coverageMissing", locale)}</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      rows.map((row) => (
+        <tr>
+          <td>{row.label}</td>
+          <td>{row.percent}%</td>
+          <td>{row.current}</td>
+          <td>{row.outdated}</td>
+          <td>
+            {row.missing} / {row.total}
+          </td>
+        </tr>
+      ))
+    }
+  </tbody>
+</table>

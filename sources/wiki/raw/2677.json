@@ -1,0 +1,14 @@
+{
+  "pageid": 2677,
+  "title": "HPL3/SOMA/Tutorials",
+  "missing": false,
+  "redirect": false,
+  "length": 1311,
+  "touched": "2026-07-30T10:39:21Z",
+  "revisionId": 7112,
+  "revisionTimestamp": "2026-07-30T10:39:21Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{stub}}\n'''Find tutorials of various HPL3 topics here.'''\n\n{{CategoryHeader}}\n{{CategoryNewcolumn}}\n\n== Modding ==\n*[https://www.youtube.com/watch?v=ZIN9v0SohHo&list=PLwJXvfVZGcJljQs1G-rAnipVf5SeuXawX&index=10 Setting up a Mod Entry] - By Draugemalf\n*[https://www.youtube.com/watch?v=8XKKXO9K7fI Creating a Mod] - By Frictional Games\n\n== Level Design ==\n*[https://www.youtube.com/watch?v=lR-4OlG4uuc&list=PLwJXvfVZGcJmwkaH6JiZUrlKAv5SXwwjW Level Editor Tutorial Series] - By Draugemalf\n*[https://www.youtube.com/watch?v=K9cfQLO92jg&list=PLwJXvfVZGcJljQs1G-rAnipVf5SeuXawX&index=11 SH Probes Tutorial] - By [[User:TiMan|TiMan]]\n*[https://www.youtube.com/watch?v=TGhwsa1k1LU Creating a Map] - By Frictional Games\n\n== Scripting ==\n*[[HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide]]\n*[[HPL3/Scripting/Scripting_Guide/Setting_up_Visual_Studio_Code|How to set up scripting via Visual Studio Code]]\n*[https://www.youtube.com/watch?v=CPKtK_koYh0 Scripting Overview] - By Frictional Games\n*[[HPL3/SOMA/Tutorials/Scripting/Amnesia-Style Inventory Script Reference|Amnesia-Style Inventory Script Reference]] - By Abion47\n\n== Shaders ==\n*[[HPL3/Shaders/Overwriting_Existing_Shaders|Overwriting Existing Shaders]] - By Artificialparanoia\n\n{{CategoryEnd}}\n\n__NOTOC__\n\n[[Category:Entry pages]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Tutorials",
+  "requestedTitle": "HPL3/SOMA/Tutorials"
+}

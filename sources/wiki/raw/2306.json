@@ -1,0 +1,14 @@
+{
+  "pageid": 2306,
+  "title": "HPL3/SOMA/Scripting/eFrustumPlane",
+  "missing": false,
+  "redirect": false,
+  "length": 690,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3786,
+  "revisionTimestamp": "2020-08-06T14:37:24Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eFrustumPlane_Left</code> || <code>0</code> ||\n|-\n| <code>eFrustumPlane_Right</code> || <code>1</code> ||\n|-\n| <code>eFrustumPlane_Bottom</code> || <code>2</code> ||\n|-\n| <code>eFrustumPlane_Top</code> || <code>3</code> ||\n|-\n| <code>eFrustumPlane_Near</code> || <code>4</code> ||\n|-\n| <code>eFrustumPlane_Far</code> || <code>5</code> ||\n|-\n| <code>eFrustumPlane_LastEnum</code> || <code>6</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eFrustumPlane",
+  "requestedTitle": "HPL3/SOMA/Scripting/eFrustumPlane"
+}

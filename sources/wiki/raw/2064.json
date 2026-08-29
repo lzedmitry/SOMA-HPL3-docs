@@ -1,0 +1,14 @@
+{
+  "pageid": 2064,
+  "title": "HPL3/SOMA/Scripting/cLuxBackboneTail",
+  "missing": false,
+  "redirect": false,
+  "length": 1307,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3610,
+  "revisionTimestamp": "2020-08-06T13:48:02Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncLuxBackboneTail has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../iLuxEntity|<syntaxhighlight lang=\"c++\" inline>iLuxEntity@</syntaxhighlight>]] || GetEntity ||   ||\n|-\n| [[../eLuxEntityComponentType|<syntaxhighlight lang=\"c++\" inline>eLuxEntityComponentType</syntaxhighlight>]] || GetType ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || LoadFromVariables || [[../cResourceVarsObject|<syntaxhighlight lang=\"c++\" inline>cResourceVarsObject@ apVars</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetAddTrailFreq || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetMaxTrailSize || <syntaxhighlight lang=\"c++\" inline>int alX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetStiffness || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Setup ||  ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxBackboneTail",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLuxBackboneTail"
+}

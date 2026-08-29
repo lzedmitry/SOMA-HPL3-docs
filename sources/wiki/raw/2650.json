@@ -1,0 +1,14 @@
+{
+  "pageid": 2650,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/String",
+  "missing": false,
+  "redirect": false,
+  "length": 1112,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5051,
+  "revisionTimestamp": "2020-08-24T20:59:08Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|[[../../tString|tString]]|[[#String_SecondsToClockDisplay|String_SecondsToClockDisplay]](float afSeconds, bool abShowHours, bool abShowMinutes, bool abShowSeconds, bool abShowHundredths)|}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|String_SecondsToClockDisplay}}\n<syntaxhighlight lang=\"c++\">tString String_SecondsToClockDisplay(float afSeconds,\n                                     bool abShowHours,\n                                     bool abShowMinutes,\n                                     bool abShowSeconds,\n                                     bool abShowHundredths)</syntaxhighlight>\n{{CodeDocDetailBody|}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|afSeconds|float|}}\n{{CodeDocDetailParam|abShowHours|bool|}}\n{{CodeDocDetailParam|abShowMinutes|bool|}}\n{{CodeDocDetailParam|abShowSeconds|bool|}}\n{{CodeDocDetailParam|abShowHundredths|bool|}}\n{{CodeDocDetailReturn|tString|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/String",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/String"
+}

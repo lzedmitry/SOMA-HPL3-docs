@@ -1,0 +1,14 @@
+{
+  "pageid": 2056,
+  "title": "HPL3/SOMA/Scripting/cLightListIterator",
+  "missing": false,
+  "redirect": false,
+  "length": 621,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3602,
+  "revisionTimestamp": "2020-08-06T13:45:25Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncLightListIterator has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || HasNext ||   ||\n|-\n| [[../iLight|<syntaxhighlight lang=\"c++\" inline>iLight@</syntaxhighlight>]] || Next ||   ||\n|-\n| [[../iLight|<syntaxhighlight lang=\"c++\" inline>iLight@</syntaxhighlight>]] || PeekNext ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightListIterator",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLightListIterator"
+}

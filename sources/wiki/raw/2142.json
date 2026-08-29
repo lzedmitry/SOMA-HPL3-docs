@@ -1,0 +1,14 @@
+{
+  "pageid": 2142,
+  "title": "HPL3/SOMA/Scripting/cPidControllerf",
+  "missing": false,
+  "redirect": false,
+  "length": 1315,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3686,
+  "revisionTimestamp": "2020-08-06T14:13:35Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| d || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| i || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| p || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|}\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetLastDerivative ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetLastError ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetLastIntegral ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || Output || <syntaxhighlight lang=\"c++\" inline>const float &in afError</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afTimeStep</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Reset ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetErrorNum || <syntaxhighlight lang=\"c++\" inline>int alErrorNum</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPidControllerf",
+  "requestedTitle": "HPL3/SOMA/Scripting/cPidControllerf"
+}

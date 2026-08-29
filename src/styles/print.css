@@ -1,0 +1,39 @@
+@media print {
+  header.header,
+  nav.sidebar,
+  .sidebar-pane,
+  .right-sidebar,
+  .social-icons,
+  site-search,
+  .pagination-links,
+  .unofficial-flag,
+  .sl-hidden {
+    display: none !important;
+  }
+
+  .page,
+  .main-frame,
+  .main-pane,
+  .content-panel,
+  .sl-markdown-content {
+    background: #fff !important;
+    color: #111 !important;
+    box-shadow: none !important;
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    color: #444;
+    word-break: break-all;
+  }
+
+  pre,
+  code {
+    white-space: pre-wrap;
+    border: 1px solid #ccc;
+  }
+}

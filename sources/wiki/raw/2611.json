@@ -1,0 +1,14 @@
+{
+  "pageid": 2611,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/cAI",
+  "missing": false,
+  "redirect": false,
+  "length": 1143,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5013,
+  "revisionTimestamp": "2020-08-24T20:46:26Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|[[../../cEventDatabase|cEventDatabase]]|[[#cAI_CreateEventDatabase|cAI_CreateEventDatabase]](const [[../../tString|tString]] &in asName)|}}\n{{CodeDocSummaryItem|void|[[#cAI_DestroyEventDatabase|cAI_DestroyEventDatabase]]([[../../cEventDatabase|cEventDatabase]] @apDB)|}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|cAI_CreateEventDatabase}}\n<syntaxhighlight lang=\"c++\">cEventDatabase@ cAI_CreateEventDatabase(const tString &in asName)</syntaxhighlight>\n{{CodeDocDetailBody|}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asName|[[../../tString|tString]]|}}\n{{CodeDocDetailReturn|cEventDatabase@|}}\n{{CodeDocDetailBottom}}\n\n{{CodeDocDetailTop|cAI_DestroyEventDatabase}}\n<syntaxhighlight lang=\"c++\">void cAI_DestroyEventDatabase(cEventDatabase @apDB)</syntaxhighlight>\n{{CodeDocDetailBody|}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|@apDB|[[../../cEventDatabase|cEventDatabase]]|}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cAI",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/cAI"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 3452,
+  "title": "HPL3/Particles/Particle Start",
+  "missing": false,
+  "redirect": false,
+  "length": 778,
+  "touched": "2026-07-30T22:15:07Z",
+  "revisionId": 7157,
+  "revisionTimestamp": "2026-07-30T22:15:07Z",
+  "revisionUser": "TiMan",
+  "wikitext": "=== Start ===\n\n* '''Start type''': Sets what method to use to generate the start position of the particles in the emitter.\n* '''Box start''': A box start is created using an x, y and z min and max value. The collection of particles will get the shape of a box.\n* '''Sphere start''': The positions are generated using an angle interval and the min and max value for the radius. You can think of it like this; an arrow start pointing up. This arrow is then rotated around the X axis (red) using a value between min and max. After that the arrow is rotated by the y axis (blue). The arrow will now be pointing in a specific direction and in this direction a position is created at a distance from center according to a number generated from min/max radius.\n[[File:spherestart.jpg]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Start",
+  "requestedTitle": "HPL3/Particles/Particle Start"
+}

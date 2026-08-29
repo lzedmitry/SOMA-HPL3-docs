@@ -1,0 +1,3357 @@
+[
+  {
+    "from": "Frictional Wiki:About",
+    "fromUrl": "https://wiki.frictionalgames.com/page/Frictional_Wiki:About",
+    "to": "/about/frictional-wiki-about/"
+  },
+  {
+    "from": "HPL3/SOMA",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA",
+    "to": "/generated/wiki-home/"
+  },
+  {
+    "from": "HPL3/SOMA/Modding",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding",
+    "to": "/generated/modding-hub/"
+  },
+  {
+    "from": "HPL3/Placeholder",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Placeholder",
+    "to": "/generated/placeholder/"
+  },
+  {
+    "from": "HPL3/SOMA/Developer Commands",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Developer_Commands",
+    "to": "/modding/developer-commands/"
+  },
+  {
+    "from": "HPL3/SOMA/Modding/Creating a Mod",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Creating_a_Mod",
+    "to": "/modding/creating-a-mod/"
+  },
+  {
+    "from": "HPL3/Features Overview",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Features_Overview",
+    "to": "/generated/features-overview/"
+  },
+  {
+    "from": "HPL3/SOMA/Modding/SOMA Mod Launcher",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/SOMA_Mod_Launcher",
+    "to": "/modding/soma-mod-launcher/"
+  },
+  {
+    "from": "HPL3/SOMA/Modding/MinimalAddOnMod",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/MinimalAddOnMod",
+    "to": "/modding/minimaladdonmod/"
+  },
+  {
+    "from": "HPL3/SOMA/Modding/MinimalCustomMapMod",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/MinimalCustomMapMod",
+    "to": "/modding/minimalcustommapmod/"
+  },
+  {
+    "from": "HPL3/SOMA/Third Party Tools",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Third_Party_Tools",
+    "to": "/tools/third-party-tools/"
+  },
+  {
+    "from": "HPL3/SOMA/Level Design",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design",
+    "to": "/generated/level-design-hub/"
+  },
+  {
+    "from": "HPL3/SOMA/Areas",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas",
+    "to": "/generated/areas-hub/"
+  },
+  {
+    "from": "HPL3/SOMA/Sound",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Sound",
+    "to": "/audio/sound/"
+  },
+  {
+    "from": "HPL3/SOMA/Particles",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Particles",
+    "to": "/generated/particles-hub/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting",
+    "to": "/generated/scripting/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cColor",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cColor",
+    "to": "/api/classes/ccolor/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cBeam",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBeam",
+    "to": "/api/classes/cbeam/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/array",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/array",
+    "to": "/api/classes/array/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cAction",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAction",
+    "to": "/api/classes/caction/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cActorAnimController",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cActorAnimController",
+    "to": "/api/classes/cactoranimcontroller/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cAINode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAINode",
+    "to": "/api/classes/cainode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cVector2f",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cVector2f",
+    "to": "/api/classes/cvector2f/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cVector2l",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cVector2l",
+    "to": "/api/classes/cvector2l/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cVector3f",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cVector3f",
+    "to": "/api/classes/cvector3f/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cVector3l",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cVector3l",
+    "to": "/api/classes/cvector3l/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cVector4f",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cVector4f",
+    "to": "/api/classes/cvector4f/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/tString",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/tString",
+    "to": "/api/classes/tstring/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/tWString",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/tWString",
+    "to": "/api/classes/twstring/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cAINodeContainer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAINodeContainer",
+    "to": "/api/classes/cainodecontainer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cAINodeIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAINodeIterator",
+    "to": "/api/classes/cainodeiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cAnimation",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAnimation",
+    "to": "/api/classes/canimation/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cAnimationState",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAnimationState",
+    "to": "/api/classes/canimationstate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cBeamEnd",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBeamEnd",
+    "to": "/api/classes/cbeamend/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cBeamIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBeamIterator",
+    "to": "/api/classes/cbeamiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cBillboard",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBillboard",
+    "to": "/api/classes/cbillboard/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cBillboardGroup",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBillboardGroup",
+    "to": "/api/classes/cbillboardgroup/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cBillboardGroupIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBillboardGroupIterator",
+    "to": "/api/classes/cbillboardgroupiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cBillboardIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBillboardIterator",
+    "to": "/api/classes/cbillboarditerator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cBinaryBuffer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBinaryBuffer",
+    "to": "/api/classes/cbinarybuffer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cBoneState",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBoneState",
+    "to": "/api/classes/cbonestate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cBoundingVolume",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBoundingVolume",
+    "to": "/api/classes/cboundingvolume/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cCamera",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cCamera",
+    "to": "/api/classes/ccamera/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cClothEntity",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cClothEntity",
+    "to": "/api/classes/cclothentity/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cClothEntityIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cClothEntityIterator",
+    "to": "/api/classes/cclothentityiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cCollideData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cCollideData",
+    "to": "/api/classes/ccollidedata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cCollidePoint",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cCollidePoint",
+    "to": "/api/classes/ccollidepoint/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cConfigFile",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cConfigFile",
+    "to": "/api/classes/cconfigfile/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cDate",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cDate",
+    "to": "/api/classes/cdate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cEntity3DIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEntity3DIterator",
+    "to": "/api/classes/centity3diterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cEntityBodyExtraData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEntityBodyExtraData",
+    "to": "/api/classes/centitybodyextradata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cEnvironmentParticles ClipArea",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEnvironmentParticles_ClipArea",
+    "to": "/api/classes/cenvironmentparticles-cliparea/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cEnvironmentParticles",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEnvironmentParticles",
+    "to": "/api/classes/cenvironmentparticles/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cEvent",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEvent",
+    "to": "/api/classes/cevent/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cEventDatabase",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEventDatabase",
+    "to": "/api/classes/ceventdatabase/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cEventOwner",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEventOwner",
+    "to": "/api/classes/ceventowner/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cEventScene",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEventScene",
+    "to": "/api/classes/ceventscene/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cEventTrigger",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEventTrigger",
+    "to": "/api/classes/ceventtrigger/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cExposureArea",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cExposureArea",
+    "to": "/api/classes/cexposurearea/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cExposureAreaIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cExposureAreaIterator",
+    "to": "/api/classes/cexposureareaiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cFactStateContainer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFactStateContainer",
+    "to": "/api/classes/cfactstatecontainer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cFogArea",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFogArea",
+    "to": "/api/classes/cfogarea/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cFogAreaIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFogAreaIterator",
+    "to": "/api/classes/cfogareaiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cForceField",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cForceField",
+    "to": "/api/classes/cforcefield/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cForceFieldIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cForceFieldIterator",
+    "to": "/api/classes/cforcefielditerator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cFractalNoiseParams",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFractalNoiseParams",
+    "to": "/api/classes/cfractalnoiseparams/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cFrameSubImage",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFrameSubImage",
+    "to": "/api/classes/cframesubimage/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cFrustum",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFrustum",
+    "to": "/api/classes/cfrustum/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGamepadInputData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGamepadInputData",
+    "to": "/api/classes/cgamepadinputdata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiGfxAnimation",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiGfxAnimation",
+    "to": "/api/classes/cguigfxanimation/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiGfxElement",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiGfxElement",
+    "to": "/api/classes/cguigfxelement/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiGlobalShortcut",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiGlobalShortcut",
+    "to": "/api/classes/cguiglobalshortcut/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiMessageData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiMessageData",
+    "to": "/api/classes/cguimessagedata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiPopUpColorPicker",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiPopUpColorPicker",
+    "to": "/api/classes/cguipopupcolorpicker/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiPopUpFilePicker",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiPopUpFilePicker",
+    "to": "/api/classes/cguipopupfilepicker/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiPopUpMessageBox",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiPopUpMessageBox",
+    "to": "/api/classes/cguipopupmessagebox/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiSet",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiSet",
+    "to": "/api/classes/cguiset/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiSetEntity",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiSetEntity",
+    "to": "/api/classes/cguisetentity/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiSetEntityIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiSetEntityIterator",
+    "to": "/api/classes/cguisetentityiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiSkin",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiSkin",
+    "to": "/api/classes/cguiskin/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cGuiSkinFont",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiSkinFont",
+    "to": "/api/classes/cguiskinfont/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cHeightMap",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cHeightMap",
+    "to": "/api/classes/cheightmap/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGui",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGui",
+    "to": "/api/classes/cimgui/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiButtonData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiButtonData",
+    "to": "/api/classes/cimguibuttondata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiCheckBoxData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiCheckBoxData",
+    "to": "/api/classes/cimguicheckboxdata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiFade",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiFade",
+    "to": "/api/classes/cimguifade/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiFont",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiFont",
+    "to": "/api/classes/cimguifont/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiFrameData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiFrameData",
+    "to": "/api/classes/cimguiframedata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiFrameGfx",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiFrameGfx",
+    "to": "/api/classes/cimguiframegfx/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiGaugeData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiGaugeData",
+    "to": "/api/classes/cimguigaugedata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiGfx",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiGfx",
+    "to": "/api/classes/cimguigfx/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiLabelData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiLabelData",
+    "to": "/api/classes/cimguilabeldata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiMultiSelectData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiMultiSelectData",
+    "to": "/api/classes/cimguimultiselectdata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiSliderData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiSliderData",
+    "to": "/api/classes/cimguisliderdata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiTextFrameData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiTextFrameData",
+    "to": "/api/classes/cimguitextframedata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiTimer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiTimer",
+    "to": "/api/classes/cimguitimer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiWidgetState",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiWidgetState",
+    "to": "/api/classes/cimguiwidgetstate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiWidgetStateVar",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiWidgetStateVar",
+    "to": "/api/classes/cimguiwidgetstatevar/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cImGuiWindowData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiWindowData",
+    "to": "/api/classes/cimguiwindowdata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cKeyPress",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cKeyPress",
+    "to": "/api/classes/ckeypress/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLensFlare",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLensFlare",
+    "to": "/api/classes/clensflare/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLensFlareIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLensFlareIterator",
+    "to": "/api/classes/clensflareiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLightBox",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightBox",
+    "to": "/api/classes/clightbox/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLightDirectional ShadowSlice",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightDirectional_ShadowSlice",
+    "to": "/api/classes/clightdirectional-shadowslice/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLightDirectional",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightDirectional",
+    "to": "/api/classes/clightdirectional/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLightListIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightListIterator",
+    "to": "/api/classes/clightlistiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLightMaskBox",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightMaskBox",
+    "to": "/api/classes/clightmaskbox/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLightMaskBoxIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightMaskBoxIterator",
+    "to": "/api/classes/clightmaskboxiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLightPoint",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightPoint",
+    "to": "/api/classes/clightpoint/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLightSpot",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightSpot",
+    "to": "/api/classes/clightspot/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLinearOscillation",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLinearOscillation",
+    "to": "/api/classes/clinearoscillation/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxAgent",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxAgent",
+    "to": "/api/classes/cluxagent/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxArea",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxArea",
+    "to": "/api/classes/cluxarea/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxBackboneTail",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxBackboneTail",
+    "to": "/api/classes/cluxbackbonetail/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxBackboneTrailingRotation",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxBackboneTrailingRotation",
+    "to": "/api/classes/cluxbackbonetrailingrotation/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxBarkMachine",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxBarkMachine",
+    "to": "/api/classes/cluxbarkmachine/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxBarkState",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxBarkState",
+    "to": "/api/classes/cluxbarkstate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxCharMover SpeedState",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxCharMover_SpeedState",
+    "to": "/api/classes/cluxcharmover-speedstate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxCharMover",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxCharMover",
+    "to": "/api/classes/cluxcharmover/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxClosestCharCollider",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxClosestCharCollider",
+    "to": "/api/classes/cluxclosestcharcollider/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxClosestEntityData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxClosestEntityData",
+    "to": "/api/classes/cluxclosestentitydata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxCollideCallback",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxCollideCallback",
+    "to": "/api/classes/cluxcollidecallback/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxCritter",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxCritter",
+    "to": "/api/classes/cluxcritter/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxCritterHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxCritterHandler",
+    "to": "/api/classes/cluxcritterhandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxDialogBranch",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogBranch",
+    "to": "/api/classes/cluxdialogbranch/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxDialogBranchEvent",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogBranchEvent",
+    "to": "/api/classes/cluxdialogbranchevent/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxDialogCharacter",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogCharacter",
+    "to": "/api/classes/cluxdialogcharacter/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxDialogHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogHandler",
+    "to": "/api/classes/cluxdialoghandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxDialogInstance",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogInstance",
+    "to": "/api/classes/cluxdialoginstance/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxDialogResponseCondition",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogResponseCondition",
+    "to": "/api/classes/cluxdialogresponsecondition/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxDialogResponseEvent",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogResponseEvent",
+    "to": "/api/classes/cluxdialogresponseevent/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxDialogResponseOption",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogResponseOption",
+    "to": "/api/classes/cluxdialogresponseoption/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxDialogSubject",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogSubject",
+    "to": "/api/classes/cluxdialogsubject/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxEdgeGlow",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxEdgeGlow",
+    "to": "/api/classes/cluxedgeglow/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxEffect",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxEffect",
+    "to": "/api/classes/cluxeffect/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxEffectHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxEffectHandler",
+    "to": "/api/classes/cluxeffecthandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxEntityComponentIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxEntityComponentIterator",
+    "to": "/api/classes/cluxentitycomponentiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxEntityConnection",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxEntityConnection",
+    "to": "/api/classes/cluxentityconnection/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxEntityMessageData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxEntityMessageData",
+    "to": "/api/classes/cluxentitymessagedata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxEventDatabaseHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxEventDatabaseHandler",
+    "to": "/api/classes/cluxeventdatabasehandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxEventTimer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxEventTimer",
+    "to": "/api/classes/cluxeventtimer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxForceEmitter",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxForceEmitter",
+    "to": "/api/classes/cluxforceemitter/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxGuiCameraTexture",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxGuiCameraTexture",
+    "to": "/api/classes/cluxguicameratexture/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxGuiHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxGuiHandler",
+    "to": "/api/classes/cluxguihandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxGuiSet",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxGuiSet",
+    "to": "/api/classes/cluxguiset/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxHeadTracker",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxHeadTracker",
+    "to": "/api/classes/cluxheadtracker/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxInputHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxInputHandler",
+    "to": "/api/classes/cluxinputhandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxLightSensor",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxLightSensor",
+    "to": "/api/classes/cluxlightsensor/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxLiquidArea",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxLiquidArea",
+    "to": "/api/classes/cluxliquidarea/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxMap",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxMap",
+    "to": "/api/classes/cluxmap/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxMoveState",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxMoveState",
+    "to": "/api/classes/cluxmovestate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxMoveVector",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxMoveVector",
+    "to": "/api/classes/cluxmovevector/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxMusic",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxMusic",
+    "to": "/api/classes/cluxmusic/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxMusicDynamicTrack",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxMusicDynamicTrack",
+    "to": "/api/classes/cluxmusicdynamictrack/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxMusicHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxMusicHandler",
+    "to": "/api/classes/cluxmusichandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxPathfinder",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxPathfinder",
+    "to": "/api/classes/cluxpathfinder/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxPlayer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxPlayer",
+    "to": "/api/classes/cluxplayer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxPlayerState",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxPlayerState",
+    "to": "/api/classes/cluxplayerstate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxProp",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxProp",
+    "to": "/api/classes/cluxprop/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxSaveHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxSaveHandler",
+    "to": "/api/classes/cluxsavehandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxScreenTextFormatParameters",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxScreenTextFormatParameters",
+    "to": "/api/classes/cluxscreentextformatparameters/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxScreenTextIcon",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxScreenTextIcon",
+    "to": "/api/classes/cluxscreentexticon/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxScriptClassFader",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxScriptClassFader",
+    "to": "/api/classes/cluxscriptclassfader/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxScriptClassTimer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxScriptClassTimer",
+    "to": "/api/classes/cluxscriptclasstimer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxScriptImGui",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxScriptImGui",
+    "to": "/api/classes/cluxscriptimgui/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxSoundExtraData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxSoundExtraData",
+    "to": "/api/classes/cluxsoundextradata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxSoundListener",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxSoundListener",
+    "to": "/api/classes/cluxsoundlistener/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxSoundscapeArea",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxSoundscapeArea",
+    "to": "/api/classes/cluxsoundscapearea/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxSoundscapeHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxSoundscapeHandler",
+    "to": "/api/classes/cluxsoundscapehandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxState",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxState",
+    "to": "/api/classes/cluxstate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxStateMachine",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxStateMachine",
+    "to": "/api/classes/cluxstatemachine/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxStateTimer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxStateTimer",
+    "to": "/api/classes/cluxstatetimer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxTrackNode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxTrackNode",
+    "to": "/api/classes/cluxtracknode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxUserModule",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxUserModule",
+    "to": "/api/classes/cluxusermodule/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxVisibilityArea",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxVisibilityArea",
+    "to": "/api/classes/cluxvisibilityarea/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxVisibilityPortal",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxVisibilityPortal",
+    "to": "/api/classes/cluxvisibilityportal/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxVoiceCharacterCallback",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxVoiceCharacterCallback",
+    "to": "/api/classes/cluxvoicecharactercallback/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxVoiceHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxVoiceHandler",
+    "to": "/api/classes/cluxvoicehandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxVoiceSceneInstance",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxVoiceSceneInstance",
+    "to": "/api/classes/cluxvoicesceneinstance/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLuxVoiceSource",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxVoiceSource",
+    "to": "/api/classes/cluxvoicesource/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cMaterial",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cMaterial",
+    "to": "/api/classes/cmaterial/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cMatrixf",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cMatrixf",
+    "to": "/api/classes/cmatrixf/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cMesh",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cMesh",
+    "to": "/api/classes/cmesh/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cMeshCollider",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cMeshCollider",
+    "to": "/api/classes/cmeshcollider/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cMeshEntity",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cMeshEntity",
+    "to": "/api/classes/cmeshentity/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cMeshEntityIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cMeshEntityIterator",
+    "to": "/api/classes/cmeshentityiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cNode3D",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cNode3D",
+    "to": "/api/classes/cnode3d/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cNode3DIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cNode3DIterator",
+    "to": "/api/classes/cnode3diterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cParticleSystem",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cParticleSystem",
+    "to": "/api/classes/cparticlesystem/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cParticleSystemIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cParticleSystemIterator",
+    "to": "/api/classes/cparticlesystemiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPhysicsContactData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPhysicsContactData",
+    "to": "/api/classes/cphysicscontactdata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPidControllerf",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPidControllerf",
+    "to": "/api/classes/cpidcontrollerf/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPidControllerVec3",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPidControllerVec3",
+    "to": "/api/classes/cpidcontrollervec3/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPlanef",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPlanef",
+    "to": "/api/classes/cplanef/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPostEffect ChromaticAberration",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_ChromaticAberration",
+    "to": "/api/classes/cposteffect-chromaticaberration/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPostEffect FXAA",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_FXAA",
+    "to": "/api/classes/cposteffect-fxaa/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPostEffect ImageFadeFX",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_ImageFadeFX",
+    "to": "/api/classes/cposteffect-imagefadefx/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPostEffect ImageTrail",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_ImageTrail",
+    "to": "/api/classes/cposteffect-imagetrail/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPostEffect RadialBlur",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_RadialBlur",
+    "to": "/api/classes/cposteffect-radialblur/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPostEffect ToneMapping",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_ToneMapping",
+    "to": "/api/classes/cposteffect-tonemapping/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPostEffect VideoDistortion",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_VideoDistortion",
+    "to": "/api/classes/cposteffect-videodistortion/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPostEffectComposite",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffectComposite",
+    "to": "/api/classes/cposteffectcomposite/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cPrepParserVarContainer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPrepParserVarContainer",
+    "to": "/api/classes/cprepparservarcontainer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cProcAnimation",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cProcAnimation",
+    "to": "/api/classes/cprocanimation/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cProcAnimationTrack",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cProcAnimationTrack",
+    "to": "/api/classes/cprocanimationtrack/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cQuaternion",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cQuaternion",
+    "to": "/api/classes/cquaternion/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cRect2f",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cRect2f",
+    "to": "/api/classes/crect2f/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cRect2l",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cRect2l",
+    "to": "/api/classes/crect2l/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cRendererCallbackFunctions",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cRendererCallbackFunctions",
+    "to": "/api/classes/crenderercallbackfunctions/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cRenderSettings",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cRenderSettings",
+    "to": "/api/classes/crendersettings/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cResourceVarsObject",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cResourceVarsObject",
+    "to": "/api/classes/cresourcevarsobject/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cRopeEntity3D",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cRopeEntity3D",
+    "to": "/api/classes/cropeentity3d/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cRopeEntityBillboard",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cRopeEntityBillboard",
+    "to": "/api/classes/cropeentitybillboard/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cRopeEntityIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cRopeEntityIterator",
+    "to": "/api/classes/cropeentityiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cScriptStringIntMap",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cScriptStringIntMap",
+    "to": "/api/classes/cscriptstringintmap/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cScriptStringSet",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cScriptStringSet",
+    "to": "/api/classes/cscriptstringset/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cScriptVar",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cScriptVar",
+    "to": "/api/classes/cscriptvar/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSkeleton",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSkeleton",
+    "to": "/api/classes/cskeleton/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSmoothInterpolationf",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSmoothInterpolationf",
+    "to": "/api/classes/csmoothinterpolationf/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSmoothInterpolationVec3",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSmoothInterpolationVec3",
+    "to": "/api/classes/csmoothinterpolationvec3/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSoundEntity",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSoundEntity",
+    "to": "/api/classes/csoundentity/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSoundEntityData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSoundEntityData",
+    "to": "/api/classes/csoundentitydata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSoundEntityIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSoundEntityIterator",
+    "to": "/api/classes/csoundentityiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSoundEntry",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSoundEntry",
+    "to": "/api/classes/csoundentry/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSoundEventParamInfo",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSoundEventParamInfo",
+    "to": "/api/classes/csoundeventparaminfo/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSubMesh",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSubMesh",
+    "to": "/api/classes/csubmesh/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSubMeshEntity",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSubMeshEntity",
+    "to": "/api/classes/csubmeshentity/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSurfaceData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSurfaceData",
+    "to": "/api/classes/csurfacedata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cSurfaceImpactData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cSurfaceImpactData",
+    "to": "/api/classes/csurfaceimpactdata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cTerrain",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cTerrain",
+    "to": "/api/classes/cterrain/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cVerletParticle",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cVerletParticle",
+    "to": "/api/classes/cverletparticle/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cViewport",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cViewport",
+    "to": "/api/classes/cviewport/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetButton",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetButton",
+    "to": "/api/classes/cwidgetbutton/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetCheckBox",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetCheckBox",
+    "to": "/api/classes/cwidgetcheckbox/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetCollapsiblePane",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetCollapsiblePane",
+    "to": "/api/classes/cwidgetcollapsiblepane/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetCollapsiblePaneContainer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetCollapsiblePaneContainer",
+    "to": "/api/classes/cwidgetcollapsiblepanecontainer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetComboBox",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetComboBox",
+    "to": "/api/classes/cwidgetcombobox/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetContextMenu",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetContextMenu",
+    "to": "/api/classes/cwidgetcontextmenu/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetDummy",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetDummy",
+    "to": "/api/classes/cwidgetdummy/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetFrame",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetFrame",
+    "to": "/api/classes/cwidgetframe/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetGroup",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetGroup",
+    "to": "/api/classes/cwidgetgroup/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetImage",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetImage",
+    "to": "/api/classes/cwidgetimage/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetItem",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetItem",
+    "to": "/api/classes/cwidgetitem/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetLabel",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetLabel",
+    "to": "/api/classes/cwidgetlabel/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetListBox",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetListBox",
+    "to": "/api/classes/cwidgetlistbox/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetMainMenu",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetMainMenu",
+    "to": "/api/classes/cwidgetmainmenu/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetMenuItem",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetMenuItem",
+    "to": "/api/classes/cwidgetmenuitem/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetMultiPropertyListBox",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetMultiPropertyListBox",
+    "to": "/api/classes/cwidgetmultipropertylistbox/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetRangeSlider",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetRangeSlider",
+    "to": "/api/classes/cwidgetrangeslider/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetSingleValueSlider",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetSingleValueSlider",
+    "to": "/api/classes/cwidgetsinglevalueslider/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetSlider",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetSlider",
+    "to": "/api/classes/cwidgetslider/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetTab",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetTab",
+    "to": "/api/classes/cwidgettab/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetTabFrame",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetTabFrame",
+    "to": "/api/classes/cwidgettabframe/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetTextBox",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetTextBox",
+    "to": "/api/classes/cwidgettextbox/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetTreeItem",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetTreeItem",
+    "to": "/api/classes/cwidgettreeitem/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetTreeView",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetTreeView",
+    "to": "/api/classes/cwidgettreeview/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWidgetWindow",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetWindow",
+    "to": "/api/classes/cwidgetwindow/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cWorld",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWorld",
+    "to": "/api/classes/cworld/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cXmlElement",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cXmlElement",
+    "to": "/api/classes/cxmlelement/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cXmlNodeListIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cXmlNodeListIterator",
+    "to": "/api/classes/cxmlnodelistiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cXmlText",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cXmlText",
+    "to": "/api/classes/cxmltext/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iCharacterBody",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iCharacterBody",
+    "to": "/api/classes/icharacterbody/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iCollideShape",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iCollideShape",
+    "to": "/api/classes/icollideshape/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iDepthStencilBuffer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iDepthStencilBuffer",
+    "to": "/api/classes/idepthstencilbuffer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iEntity3D",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iEntity3D",
+    "to": "/api/classes/ientity3d/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iEyeTracker",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iEyeTracker",
+    "to": "/api/classes/ieyetracker/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iFontData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iFontData",
+    "to": "/api/classes/ifontdata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iFrameData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iFrameData",
+    "to": "/api/classes/iframedata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iGamepad",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iGamepad",
+    "to": "/api/classes/igamepad/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iGpuProgram",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iGpuProgram",
+    "to": "/api/classes/igpuprogram/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iGpuShader",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iGpuShader",
+    "to": "/api/classes/igpushader/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iGuiMaterial",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iGuiMaterial",
+    "to": "/api/classes/iguimaterial/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iGuiPopUp",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iGuiPopUp",
+    "to": "/api/classes/iguipopup/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iKeyboard",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iKeyboard",
+    "to": "/api/classes/ikeyboard/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iLight",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iLight",
+    "to": "/api/classes/ilight/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iLipsyncResult",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iLipsyncResult",
+    "to": "/api/classes/ilipsyncresult/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iLowLevelGraphics",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iLowLevelGraphics",
+    "to": "/api/classes/ilowlevelgraphics/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iLuxAchievementHandler",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iLuxAchievementHandler",
+    "to": "/api/classes/iluxachievementhandler/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iLuxEntity",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iLuxEntity",
+    "to": "/api/classes/iluxentity/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iLuxEntityComponent",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iLuxEntityComponent",
+    "to": "/api/classes/iluxentitycomponent/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iMaterialType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iMaterialType",
+    "to": "/api/classes/imaterialtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iMouse",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iMouse",
+    "to": "/api/classes/imouse/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iParticleEmitter",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iParticleEmitter",
+    "to": "/api/classes/iparticleemitter/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPhysicsBody",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsBody",
+    "to": "/api/classes/iphysicsbody/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPhysicsCloth",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsCloth",
+    "to": "/api/classes/iphysicscloth/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPhysicsController",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsController",
+    "to": "/api/classes/iphysicscontroller/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPhysicsJoint",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsJoint",
+    "to": "/api/classes/iphysicsjoint/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPhysicsJointBall",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsJointBall",
+    "to": "/api/classes/iphysicsjointball/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPhysicsJointHinge",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsJointHinge",
+    "to": "/api/classes/iphysicsjointhinge/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPhysicsJointSlider",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsJointSlider",
+    "to": "/api/classes/iphysicsjointslider/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPhysicsMaterial",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsMaterial",
+    "to": "/api/classes/iphysicsmaterial/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPhysicsRope",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsRope",
+    "to": "/api/classes/iphysicsrope/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPhysicsWorld",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsWorld",
+    "to": "/api/classes/iphysicsworld/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPostEffect",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPostEffect",
+    "to": "/api/classes/iposteffect/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iPostEffectType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPostEffectType",
+    "to": "/api/classes/iposteffecttype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iRenderableEntity",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iRenderableEntity",
+    "to": "/api/classes/irenderableentity/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iRenderer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iRenderer",
+    "to": "/api/classes/irenderer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iRendererCallback",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iRendererCallback",
+    "to": "/api/classes/irenderercallback/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iRopeEntity",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iRopeEntity",
+    "to": "/api/classes/iropeentity/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrAchievementHandler Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrAchievementHandler_Interface",
+    "to": "/api/classes/iscrachievementhandler-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrAgent Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrAgent_Interface",
+    "to": "/api/classes/iscragent-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrArea Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrArea_Interface",
+    "to": "/api/classes/iscrarea-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrCritter Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrCritter_Interface",
+    "to": "/api/classes/iscrcritter-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrDialogHandler Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrDialogHandler_Interface",
+    "to": "/api/classes/iscrdialoghandler-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrEffect Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrEffect_Interface",
+    "to": "/api/classes/iscreffect-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrEventDatabaseHandler Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrEventDatabaseHandler_Interface",
+    "to": "/api/classes/iscreventdatabasehandler-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrGuiHandler Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrGuiHandler_Interface",
+    "to": "/api/classes/iscrguihandler-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrInputHandler Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrInputHandler_Interface",
+    "to": "/api/classes/iscrinputhandler-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrLiquidArea Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrLiquidArea_Interface",
+    "to": "/api/classes/iscrliquidarea-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrMoveState Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrMoveState_Interface",
+    "to": "/api/classes/iscrmovestate-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrPlayer Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrPlayer_Interface",
+    "to": "/api/classes/iscrplayer-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrPlayerState Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrPlayerState_Interface",
+    "to": "/api/classes/iscrplayerstate-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrProp Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrProp_Interface",
+    "to": "/api/classes/iscrprop-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iScrUserModule Interface",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrUserModule_Interface",
+    "to": "/api/classes/iscrusermodule-interface/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iSoundChannel",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iSoundChannel",
+    "to": "/api/classes/isoundchannel/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iSoundData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iSoundData",
+    "to": "/api/classes/isounddata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iSoundEvent",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iSoundEvent",
+    "to": "/api/classes/isoundevent/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iSoundEventData",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iSoundEventData",
+    "to": "/api/classes/isoundeventdata/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iSoundEventProject",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iSoundEventProject",
+    "to": "/api/classes/isoundeventproject/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iSubAction",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iSubAction",
+    "to": "/api/classes/isubaction/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iTexture",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iTexture",
+    "to": "/api/classes/itexture/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iVerletParticleContainer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iVerletParticleContainer",
+    "to": "/api/classes/iverletparticlecontainer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iVertexBuffer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iVertexBuffer",
+    "to": "/api/classes/ivertexbuffer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iVideoStream",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iVideoStream",
+    "to": "/api/classes/ivideostream/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iViewportCallback",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iViewportCallback",
+    "to": "/api/classes/iviewportcallback/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iWidget",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iWidget",
+    "to": "/api/classes/iwidget/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iWidgetMenu",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iWidgetMenu",
+    "to": "/api/classes/iwidgetmenu/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iXmlDocument",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iXmlDocument",
+    "to": "/api/classes/ixmldocument/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iXmlNode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iXmlNode",
+    "to": "/api/classes/ixmlnode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/tID",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/tID",
+    "to": "/api/classes/tid/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eAIFreePathFlag",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eAIFreePathFlag",
+    "to": "/api/classes/eaifreepathflag/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eAnimationEventType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eAnimationEventType",
+    "to": "/api/classes/eanimationeventtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eAxis2D",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eAxis2D",
+    "to": "/api/classes/eaxis2d/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eAxis3D",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eAxis3D",
+    "to": "/api/classes/eaxis3d/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eAxis4D",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eAxis4D",
+    "to": "/api/classes/eaxis4d/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eAxisFlag",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eAxisFlag",
+    "to": "/api/classes/eaxisflag/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eBillboardType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eBillboardType",
+    "to": "/api/classes/ebillboardtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eCameraMoveMode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eCameraMoveMode",
+    "to": "/api/classes/ecameramovemode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eCameraRotateMode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eCameraRotateMode",
+    "to": "/api/classes/ecamerarotatemode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eCharDir",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eCharDir",
+    "to": "/api/classes/echardir/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eClearFrameBufferFlag",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eClearFrameBufferFlag",
+    "to": "/api/classes/eclearframebufferflag/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eCollideShapeType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eCollideShapeType",
+    "to": "/api/classes/ecollideshapetype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eCollision",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eCollision",
+    "to": "/api/classes/ecollision/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eCullMode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eCullMode",
+    "to": "/api/classes/ecullmode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eDepthTestFunc",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eDepthTestFunc",
+    "to": "/api/classes/edepthtestfunc/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eDisplayMode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eDisplayMode",
+    "to": "/api/classes/edisplaymode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eEasing",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eEasing",
+    "to": "/api/classes/eeasing/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eEntityType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eEntityType",
+    "to": "/api/classes/eentitytype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eEulerRotationOrder",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eEulerRotationOrder",
+    "to": "/api/classes/eeulerrotationorder/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eEventCompareType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eEventCompareType",
+    "to": "/api/classes/eeventcomparetype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eEventFactValue",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eEventFactValue",
+    "to": "/api/classes/eeventfactvalue/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eEventOpType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eEventOpType",
+    "to": "/api/classes/eeventoptype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eFilePickerType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eFilePickerType",
+    "to": "/api/classes/efilepickertype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eFlagBit",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eFlagBit",
+    "to": "/api/classes/eflagbit/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eFontAlign",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eFontAlign",
+    "to": "/api/classes/efontalign/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eFrustumPlane",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eFrustumPlane",
+    "to": "/api/classes/efrustumplane/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGamepadAxis",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadAxis",
+    "to": "/api/classes/egamepadaxis/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGamepadAxisRange",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadAxisRange",
+    "to": "/api/classes/egamepadaxisrange/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGamepadBall",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadBall",
+    "to": "/api/classes/egamepadball/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGamepadButton",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadButton",
+    "to": "/api/classes/egamepadbutton/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGamepadHat",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadHat",
+    "to": "/api/classes/egamepadhat/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGamepadHatState",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadHatState",
+    "to": "/api/classes/egamepadhatstate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGamepadInputType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadInputType",
+    "to": "/api/classes/egamepadinputtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGraphicCaps",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGraphicCaps",
+    "to": "/api/classes/egraphiccaps/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGuiGfxAnimationType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGuiGfxAnimationType",
+    "to": "/api/classes/eguigfxanimationtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGuiMaterial",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGuiMaterial",
+    "to": "/api/classes/eguimaterial/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGuiMessage",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGuiMessage",
+    "to": "/api/classes/eguimessage/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGuiMouseButton",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGuiMouseButton",
+    "to": "/api/classes/eguimousebutton/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGuiSkinAttribute",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGuiSkinAttribute",
+    "to": "/api/classes/eguiskinattribute/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGuiSkinFont",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGuiSkinFont",
+    "to": "/api/classes/eguiskinfont/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGuiSkinGfx",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGuiSkinGfx",
+    "to": "/api/classes/eguiskingfx/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eGuiWindowZDest",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGuiWindowZDest",
+    "to": "/api/classes/eguiwindowzdest/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eIDSpace",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eIDSpace",
+    "to": "/api/classes/eidspace/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiAction",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiAction",
+    "to": "/api/classes/eimguiaction/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiAlign",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiAlign",
+    "to": "/api/classes/eimguialign/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiGaugeOrientation",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiGaugeOrientation",
+    "to": "/api/classes/eimguigaugeorientation/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiGfx",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiGfx",
+    "to": "/api/classes/eimguigfx/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiLayout",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiLayout",
+    "to": "/api/classes/eimguilayout/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiObjectType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiObjectType",
+    "to": "/api/classes/eimguiobjecttype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiOffset",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiOffset",
+    "to": "/api/classes/eimguioffset/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiStateVar",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiStateVar",
+    "to": "/api/classes/eimguistatevar/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiVar",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiVar",
+    "to": "/api/classes/eimguivar/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiWindowHeader",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiWindowHeader",
+    "to": "/api/classes/eimguiwindowheader/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiWrap",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiWrap",
+    "to": "/api/classes/eimguiwrap/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eImGuiWrapMode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiWrapMode",
+    "to": "/api/classes/eimguiwrapmode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eInputDeviceType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eInputDeviceType",
+    "to": "/api/classes/einputdevicetype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eKey",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eKey",
+    "to": "/api/classes/ekey/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eKeyModifier",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eKeyModifier",
+    "to": "/api/classes/ekeymodifier/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLensFlareType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLensFlareType",
+    "to": "/api/classes/elensflaretype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLightBoxBlendFunc",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLightBoxBlendFunc",
+    "to": "/api/classes/elightboxblendfunc/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLightType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLightType",
+    "to": "/api/classes/elighttype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eListBoxActionType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eListBoxActionType",
+    "to": "/api/classes/elistboxactiontype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLogLabel",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLogLabel",
+    "to": "/api/classes/eloglabel/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxCharMoveDirection",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxCharMoveDirection",
+    "to": "/api/classes/eluxcharmovedirection/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxDialogBranchEvent",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxDialogBranchEvent",
+    "to": "/api/classes/eluxdialogbranchevent/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxDialogOptionCondition",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxDialogOptionCondition",
+    "to": "/api/classes/eluxdialogoptioncondition/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxDialogOptionEvent",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxDialogOptionEvent",
+    "to": "/api/classes/eluxdialogoptionevent/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxEntityComponentType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxEntityComponentType",
+    "to": "/api/classes/eluxentitycomponenttype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxEntityMessage",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxEntityMessage",
+    "to": "/api/classes/eluxentitymessage/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxEntityType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxEntityType",
+    "to": "/api/classes/eluxentitytype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxGlobalFreqType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxGlobalFreqType",
+    "to": "/api/classes/eluxglobalfreqtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxGlobalVolumeType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxGlobalVolumeType",
+    "to": "/api/classes/eluxglobalvolumetype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxKeyboardLayoutType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxKeyboardLayoutType",
+    "to": "/api/classes/eluxkeyboardlayouttype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxLightConnectionType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxLightConnectionType",
+    "to": "/api/classes/eluxlightconnectiontype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxSetSubmapPosition",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxSetSubmapPosition",
+    "to": "/api/classes/eluxsetsubmapposition/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eLuxVoiceSourceFrequencyFlag",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxVoiceSourceFrequencyFlag",
+    "to": "/api/classes/eluxvoicesourcefrequencyflag/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eMaterialBlendMode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eMaterialBlendMode",
+    "to": "/api/classes/ematerialblendmode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eMaterialChannelMode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eMaterialChannelMode",
+    "to": "/api/classes/ematerialchannelmode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eMatrix",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eMatrix",
+    "to": "/api/classes/ematrix/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eMouseButton",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eMouseButton",
+    "to": "/api/classes/emousebutton/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eMsgBoxType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eMsgBoxType",
+    "to": "/api/classes/emsgboxtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eNoiseType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eNoiseType",
+    "to": "/api/classes/enoisetype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eObjectVariabilityFlag",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eObjectVariabilityFlag",
+    "to": "/api/classes/eobjectvariabilityflag/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eParallaxQuality",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eParallaxQuality",
+    "to": "/api/classes/eparallaxquality/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/ePhysicsAccuracy",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/ePhysicsAccuracy",
+    "to": "/api/classes/ephysicsaccuracy/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/ePhysicsJointSpeed",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/ePhysicsJointSpeed",
+    "to": "/api/classes/ephysicsjointspeed/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/ePhysicsJointType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/ePhysicsJointType",
+    "to": "/api/classes/ephysicsjointtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/ePixelFormat",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/ePixelFormat",
+    "to": "/api/classes/epixelformat/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/ePlatform",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/ePlatform",
+    "to": "/api/classes/eplatform/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/ePrimitiveType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/ePrimitiveType",
+    "to": "/api/classes/eprimitivetype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eProcAnimType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eProcAnimType",
+    "to": "/api/classes/eprocanimtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eProjectionType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eProjectionType",
+    "to": "/api/classes/eprojectiontype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eRenderableFlag",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eRenderableFlag",
+    "to": "/api/classes/erenderableflag/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eRenderableType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eRenderableType",
+    "to": "/api/classes/erenderabletype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eRenderer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eRenderer",
+    "to": "/api/classes/erenderer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eRendererMessage",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eRendererMessage",
+    "to": "/api/classes/erenderermessage/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eRopeType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eRopeType",
+    "to": "/api/classes/eropetype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eSceneRenderFlag",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eSceneRenderFlag",
+    "to": "/api/classes/escenerenderflag/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eShadowMapQuality",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eShadowMapQuality",
+    "to": "/api/classes/eshadowmapquality/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eShadowMapResolution",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eShadowMapResolution",
+    "to": "/api/classes/eshadowmapresolution/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eSoundEntityDataType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eSoundEntityDataType",
+    "to": "/api/classes/esoundentitydatatype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eSoundEntryDataType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eSoundEntryDataType",
+    "to": "/api/classes/esoundentrydatatype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eSoundEntryType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eSoundEntryType",
+    "to": "/api/classes/esoundentrytype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eSoundMaxPlaybacksBehavior",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eSoundMaxPlaybacksBehavior",
+    "to": "/api/classes/esoundmaxplaybacksbehavior/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eSoundReverbPreset",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eSoundReverbPreset",
+    "to": "/api/classes/esoundreverbpreset/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eSystemPath",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eSystemPath",
+    "to": "/api/classes/esystempath/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eTextureAnimMode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eTextureAnimMode",
+    "to": "/api/classes/etextureanimmode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eTextureCompareFunc",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eTextureCompareFunc",
+    "to": "/api/classes/etexturecomparefunc/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eTextureCompareMode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eTextureCompareMode",
+    "to": "/api/classes/etexturecomparemode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eTextureFilter",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eTextureFilter",
+    "to": "/api/classes/etexturefilter/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eTextureType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eTextureType",
+    "to": "/api/classes/etexturetype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eTextureUsage",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eTextureUsage",
+    "to": "/api/classes/etextureusage/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eTextureWrap",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eTextureWrap",
+    "to": "/api/classes/etexturewrap/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eUIArrow",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eUIArrow",
+    "to": "/api/classes/euiarrow/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eVelocityAxes",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eVelocityAxes",
+    "to": "/api/classes/evelocityaxes/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eVertexBufferDrawType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eVertexBufferDrawType",
+    "to": "/api/classes/evertexbufferdrawtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eViewportMessage",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eViewportMessage",
+    "to": "/api/classes/eviewportmessage/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eVSyncMode",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eVSyncMode",
+    "to": "/api/classes/evsyncmode/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eWidgetSliderOrientation",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eWidgetSliderOrientation",
+    "to": "/api/classes/ewidgetsliderorientation/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eWidgetTextBoxInputType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eWidgetTextBoxInputType",
+    "to": "/api/classes/ewidgettextboxinputtype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eWidgetType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eWidgetType",
+    "to": "/api/classes/ewidgettype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eWorldContainerType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eWorldContainerType",
+    "to": "/api/classes/eworldcontainertype/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eWorldStreamPriority",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eWorldStreamPriority",
+    "to": "/api/classes/eworldstreampriority/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/eXmlNodeType",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eXmlNodeType",
+    "to": "/api/classes/exmlnodetype/"
+  },
+  {
+    "from": "HPL3/Scripting/User Modules Overview",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/User_Modules_Overview",
+    "to": "/scripting/user-modules-overview/"
+  },
+  {
+    "from": "HPL3/Scripting/HPL3 Scripting Guide",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/HPL3_Scripting_Guide",
+    "to": "/scripting/hpl3-scripting-guide/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/The Basics - Introduction",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/The_Basics_-_Introduction",
+    "to": "/scripting/the-basics-introduction/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/What is scripting in HPL3?",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/What_is_scripting_in_HPL3?",
+    "to": "/scripting/what-is-scripting-in-hpl3/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Setting up CodeLite",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Setting_up_CodeLite",
+    "to": "/scripting/setting-up-codelite/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/cLightMaskBoxListIterator",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightMaskBoxListIterator",
+    "to": "/api/classes/clightmaskboxlistiterator/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/iFrameBuffer",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iFrameBuffer",
+    "to": "/api/classes/iframebuffer/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api",
+    "to": "/api/wiki-index/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Scripting Workflow and Structure",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Scripting_Workflow_and_Structure",
+    "to": "/scripting/scripting-workflow-and-structure/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Hello World",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Hello_World",
+    "to": "/scripting/hello-world/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Entity",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Entity",
+    "to": "/api/categories/entity/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Calling Functions and Function Callbacks",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Calling_Functions_and_Function_Callbacks",
+    "to": "/scripting/calling-functions-and-function-callbacks/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Helper Files",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Helper_Files",
+    "to": "/scripting/helper-files/"
+  },
+  {
+    "from": "HPL3/SOMA/Modeling",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling",
+    "to": "/assets/modeling/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/The OnAction method",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/The_OnAction_method",
+    "to": "/scripting/the-onaction-method/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/The Update method",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/The_Update_method",
+    "to": "/scripting/the-update-method/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Timers",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Timers",
+    "to": "/scripting/timers/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Sequences",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Sequences",
+    "to": "/scripting/sequences/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Billboard",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Billboard",
+    "to": "/api/categories/billboard/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Local and Global Variables",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Local_and_Global_Variables",
+    "to": "/scripting/local-and-global-variables/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Enums",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Enums",
+    "to": "/scripting/enums/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Conclusion - Basic",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Conclusion_-_Basic",
+    "to": "/scripting/conclusion-basic/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals/Chapter 1 - Introduction",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_1_-_Introduction",
+    "to": "/scripting/angelscript/chapter-1-introduction/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals/Chapter 2 - Structure of a Script",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_2_-_Structure_of_a_Script",
+    "to": "/scripting/angelscript/chapter-2-structure-of-a-script/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals/Chapter 3 - Variables and Types",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_3_-_Variables_and_Types",
+    "to": "/scripting/angelscript/chapter-3-variables-and-types/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals/Chapter 4 - Operators and Expressions",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_4_-_Operators_and_Expressions",
+    "to": "/scripting/angelscript/chapter-4-operators-and-expressions/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals/Chapter 5 - Statements and Flow Control",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_5_-_Statements_and_Flow_Control",
+    "to": "/scripting/angelscript/chapter-5-statements-and-flow-control/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals/Chapter 6 - Functions",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_6_-_Functions",
+    "to": "/scripting/angelscript/chapter-6-functions/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals/Chapter 7 - Calling Other Scripts",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_7_-_Calling_Other_Scripts",
+    "to": "/scripting/angelscript/chapter-7-calling-other-scripts/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals/Chapter 8 - Classes",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_8_-_Classes",
+    "to": "/scripting/angelscript/chapter-8-classes/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals/Chapter 9 - Miscellaneous AngelScript Features",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_9_-_Miscellaneous_AngelScript_Features",
+    "to": "/scripting/angelscript/chapter-9-miscellaneous-angelscript-features/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals/What's Next",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/What's_Next",
+    "to": "/scripting/angelscript/whats-next/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Working with Classes",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Working_with_Classes",
+    "to": "/scripting/working-with-classes/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Advanced Topics - Introduction",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Advanced_Topics_-_Introduction",
+    "to": "/scripting/advanced-topics-introduction/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Conclusion - Advanced",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Conclusion_-_Advanced",
+    "to": "/scripting/conclusion-advanced/"
+  },
+  {
+    "from": "HPL3/SOMA/Modding/Setup Modding Environment",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Setup_Modding_Environment",
+    "to": "/modding/setup-modding-environment/"
+  },
+  {
+    "from": "HPL3/SOMA/Modding/Developer Debug Menu",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Developer_Debug_Menu",
+    "to": "/modding/developer-debug-menu/"
+  },
+  {
+    "from": "HPL3/SOMA/Animation",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Animation",
+    "to": "/assets/animation/"
+  },
+  {
+    "from": "HPL3/Scripting/Entity Components",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Entity_Components",
+    "to": "/scripting/entity-components/"
+  },
+  {
+    "from": "HPL3/SOMA/Entities",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities",
+    "to": "/generated/entities-hub/"
+  },
+  {
+    "from": "HPL3/Entities/Entities Overview",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Entities_Overview",
+    "to": "/entities/entities-overview/"
+  },
+  {
+    "from": "HPL3/Gui",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Gui",
+    "to": "/generated/gui/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Terminals Overview",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Terminals_Overview",
+    "to": "/scripting/terminals-overview/"
+  },
+  {
+    "from": "HPL3/SOMA/Entities/Model Editor Outline",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities/Model_Editor_Outline",
+    "to": "/entities/model-editor-outline/"
+  },
+  {
+    "from": "HPL3/SOMA/Entities/Entity Notes",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities/Entity_Notes",
+    "to": "/entities/entity-notes/"
+  },
+  {
+    "from": "HPL3/Level Design/Level Editor Preferences",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Editor_Preferences",
+    "to": "/level-editor/level-editor-preferences/"
+  },
+  {
+    "from": "HPL3/SOMA/Level Design/Indoor Level Performance",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Indoor_Level_Performance",
+    "to": "/level-building/indoor-level-performance/"
+  },
+  {
+    "from": "HPL3/SOMA/Level Design/Outdoor Level Performance",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Outdoor_Level_Performance",
+    "to": "/level-building/outdoor-level-performance/"
+  },
+  {
+    "from": "HPL3/Level Design/Finding Objects",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Finding_Objects",
+    "to": "/level-editor/finding-objects/"
+  },
+  {
+    "from": "HPL3/Level Design/Level Information",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Information",
+    "to": "/level-editor/level-information/"
+  },
+  {
+    "from": "HPL3/SOMA/Level Design/Compounds",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Compounds",
+    "to": "/level-editor/compounds/"
+  },
+  {
+    "from": "HPL3/SOMA/Level Design/Light Masks",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Light_Masks",
+    "to": "/level-building/light-masks/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Body",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Body",
+    "to": "/api/categories/body/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Button",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Button",
+    "to": "/api/categories/button/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cAI",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cAI",
+    "to": "/api/classes/cai/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cEngine",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cEngine",
+    "to": "/api/classes/cengine/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cGenerate",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGenerate",
+    "to": "/api/classes/cgenerate/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cGraphics",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGraphics",
+    "to": "/api/classes/cgraphics/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cGui",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGui",
+    "to": "/api/classes/cgui/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cInput",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cInput",
+    "to": "/api/classes/cinput/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cLux",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cLux",
+    "to": "/api/classes/clux/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cPhysics",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cPhysics",
+    "to": "/api/classes/cphysics/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cMath",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cMath",
+    "to": "/api/classes/cmath/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cResources",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cResources",
+    "to": "/api/classes/cresources/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cScene",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cScene",
+    "to": "/api/classes/cscene/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cScript",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cScript",
+    "to": "/api/classes/cscript/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cSound",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cSound",
+    "to": "/api/classes/csound/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cString",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cString",
+    "to": "/api/classes/cstring/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/cSystem",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cSystem",
+    "to": "/api/classes/csystem/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/EnergySource",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/EnergySource",
+    "to": "/api/categories/energysource/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Error",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Error",
+    "to": "/api/categories/error/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/FogArea",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/FogArea",
+    "to": "/api/categories/fogarea/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Grab",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Grab",
+    "to": "/api/categories/grab/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/IrradianceSet",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/IrradianceSet",
+    "to": "/api/categories/irradianceset/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Joint",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Joint",
+    "to": "/api/categories/joint/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Lamp",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Lamp",
+    "to": "/api/categories/lamp/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/LensFlare",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/LensFlare",
+    "to": "/api/categories/lensflare/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/LevelDoor",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/LevelDoor",
+    "to": "/api/categories/leveldoor/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Lever",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Lever",
+    "to": "/api/categories/lever/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Light",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Light",
+    "to": "/api/categories/light/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Map",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Map",
+    "to": "/api/categories/map/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Material",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Material",
+    "to": "/api/categories/material/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Math",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Math",
+    "to": "/api/categories/math/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Meter",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Meter",
+    "to": "/api/categories/meter/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/MoveObject",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/MoveObject",
+    "to": "/api/categories/moveobject/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/MovingButton",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/MovingButton",
+    "to": "/api/categories/movingbutton/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/ParticleSystem",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/ParticleSystem",
+    "to": "/api/categories/particlesystem/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/PhysicsSlideDoor",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/PhysicsSlideDoor",
+    "to": "/api/categories/physicsslidedoor/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Prop",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Prop",
+    "to": "/api/categories/prop/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Readable",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Readable",
+    "to": "/api/categories/readable/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Slide",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Slide",
+    "to": "/api/categories/slide/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/SlideDoor",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/SlideDoor",
+    "to": "/api/categories/slidedoor/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/String",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/String",
+    "to": "/api/categories/string/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/SwingDoor",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/SwingDoor",
+    "to": "/api/categories/swingdoor/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Terminal",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Terminal",
+    "to": "/api/categories/terminal/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Tool",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Tool",
+    "to": "/api/categories/tool/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Wheel",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Wheel",
+    "to": "/api/categories/wheel/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Hashing",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Hashing",
+    "to": "/api/categories/hashing/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Logging",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Logging",
+    "to": "/api/categories/logging/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Scripting Api/Constants",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Constants",
+    "to": "/api/categories/constants/"
+  },
+  {
+    "from": "HPL3/Resources Configuration",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Resources_Configuration",
+    "to": "/generated/resources-configuration/"
+  },
+  {
+    "from": "HPL3/Launch Configuration",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Launch_Configuration",
+    "to": "/generated/launch-configuration/"
+  },
+  {
+    "from": "HPL3/SOMA/Modding/Non-Safe Mode Menu",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Non-Safe_Mode_Menu",
+    "to": "/modding/non-safe-mode-menu/"
+  },
+  {
+    "from": "HPL3/SOMA/Third Party Tools/SOMA Mod Manager",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Third_Party_Tools/SOMA_Mod_Manager",
+    "to": "/tools/soma-mod-manager/"
+  },
+  {
+    "from": "HPL3/Language Configuration",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Language_Configuration",
+    "to": "/generated/language-configuration/"
+  },
+  {
+    "from": "HPL3/Modding/Mod Dependencies",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Modding/Mod_Dependencies",
+    "to": "/modding/mod-dependencies/"
+  },
+  {
+    "from": "HPL3/SOMA/Third Party Tools/SOMA Text Search Tool",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Third_Party_Tools/SOMA_Text_Search_Tool",
+    "to": "/tools/soma-text-search-tool/"
+  },
+  {
+    "from": "HPL3/SOMA/Materials",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Materials",
+    "to": "/generated/materials-hub/"
+  },
+  {
+    "from": "HPL3/SOMA/Audition",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Audition",
+    "to": "/generated/dialogue-hub/"
+  },
+  {
+    "from": "HPL3/SOMA/Glossary",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Glossary",
+    "to": "/generated/glossary-source/"
+  },
+  {
+    "from": "HPL3/SOMA/Tutorials",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Tutorials",
+    "to": "/scripting/tutorials/"
+  },
+  {
+    "from": "HPL3/SOMA/Level Design/Level Editor Toolbar",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Level_Editor_Toolbar",
+    "to": "/level-editor/level-editor-toolbar/"
+  },
+  {
+    "from": "HPL3/Level Design/Level Editor View",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Editor_View",
+    "to": "/level-editor/level-editor-view/"
+  },
+  {
+    "from": "HPL3/Level Design/Level Settings",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Settings",
+    "to": "/level-editor/level-settings/"
+  },
+  {
+    "from": "HPL3/Scripting/Level Scripting - Best Practices",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Level_Scripting_-_Best_Practices",
+    "to": "/scripting/level-scripting-best-practices/"
+  },
+  {
+    "from": "HPL3/Scripting/ID Handles",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/ID_Handles",
+    "to": "/scripting/id-handles/"
+  },
+  {
+    "from": "HPL3/SOMA/Tutorials/Scripting/Amnesia-Style Inventory Script Reference",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Tutorials/Scripting/Amnesia-Style_Inventory_Script_Reference",
+    "to": "/scripting/amnesia-style-inventory-script-reference/"
+  },
+  {
+    "from": "HPL3/Materials/Materials Overview",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Materials/Materials_Overview",
+    "to": "/materials/materials-overview/"
+  },
+  {
+    "from": "HPL3/Materials/Working with Materials",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Materials/Working_with_Materials",
+    "to": "/materials/working-with-materials/"
+  },
+  {
+    "from": "HPL3/Materials",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Materials",
+    "to": "/generated/materials-hub/"
+  },
+  {
+    "from": "HPL3/Particles",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles",
+    "to": "/generated/particles-hub/"
+  },
+  {
+    "from": "HPL3/Third Party Tools/HPL3 Mod Manager",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Third_Party_Tools/HPL3_Mod_Manager",
+    "to": "/tools/hpl3-mod-manager/"
+  },
+  {
+    "from": "HPL3/Areas/Camera Animation Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Camera_Animation_Area",
+    "to": "/areas/camera-animation-area/"
+  },
+  {
+    "from": "HPL3/Areas/Crawl Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Crawl_Area",
+    "to": "/areas/crawl-area/"
+  },
+  {
+    "from": "HPL3/Resources/TDD Asset Pack",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Resources/TDD_Asset_Pack",
+    "to": "/generated/tdd-asset-pack/"
+  },
+  {
+    "from": "HPL3/Areas/Trigger Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Trigger_Area",
+    "to": "/areas/trigger-area/"
+  },
+  {
+    "from": "HPL3/Areas/PlayerStart Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/PlayerStart_Area",
+    "to": "/areas/playerstart-area/"
+  },
+  {
+    "from": "HPL3/Areas/Ladder Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Ladder_Area",
+    "to": "/areas/ladder-area/"
+  },
+  {
+    "from": "HPL3/SOMA/Scripting/Input Types",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Input_Types",
+    "to": "/scripting/input-types/"
+  },
+  {
+    "from": "HPL3/Color Grading",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Color_Grading",
+    "to": "/generated/color-grading/"
+  },
+  {
+    "from": "HPL3/Areas/InteractAux Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/InteractAux_Area",
+    "to": "/areas/interactaux-area/"
+  },
+  {
+    "from": "HPL3/Areas/Sticky Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Sticky_Area",
+    "to": "/areas/sticky-area/"
+  },
+  {
+    "from": "HPL3/Areas/PathNode Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/PathNode_Area",
+    "to": "/areas/pathnode-area/"
+  },
+  {
+    "from": "HPL3/Areas/Fog Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Fog_Area",
+    "to": "/areas/fog-area/"
+  },
+  {
+    "from": "HPL3/Areas/Climb Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Climb_Area",
+    "to": "/areas/climb-area/"
+  },
+  {
+    "from": "HPL3/Areas/Description Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Description_Area",
+    "to": "/areas/description-area/"
+  },
+  {
+    "from": "HPL3/Areas/Hide Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Hide_Area",
+    "to": "/areas/hide-area/"
+  },
+  {
+    "from": "HPL3/SOMA/Areas/Tool Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/Tool_Area",
+    "to": "/areas/tool-area/"
+  },
+  {
+    "from": "HPL3/Areas/Zoom Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Zoom_Area",
+    "to": "/areas/zoom-area/"
+  },
+  {
+    "from": "HPL3/Areas/Ambient Light Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Ambient_Light_Area",
+    "to": "/areas/ambient-light-area/"
+  },
+  {
+    "from": "HPL3/SOMA/Areas/Distortion Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/Distortion_Area",
+    "to": "/areas/distortion-area/"
+  },
+  {
+    "from": "HPL3/Areas/DoorwayTrigger Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/DoorwayTrigger_Area",
+    "to": "/areas/doorwaytrigger-area/"
+  },
+  {
+    "from": "HPL3/SOMA/Areas/Datamine Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/Datamine_Area",
+    "to": "/areas/datamine-area/"
+  },
+  {
+    "from": "HPL3/SOMA/Areas/AgentRepel Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/AgentRepel_Area",
+    "to": "/areas/agentrepel-area/"
+  },
+  {
+    "from": "HPL3/Entities/Physics Body Properties",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Physics_Body_Properties",
+    "to": "/entities/physics-body-properties/"
+  },
+  {
+    "from": "HPL3/Shaders",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Shaders",
+    "to": "/generated/shaders/"
+  },
+  {
+    "from": "HPL3/Shaders/HPSL Shading Language",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Shaders/HPSL_Shading_Language",
+    "to": "/generated/hpsl-shading-language/"
+  },
+  {
+    "from": "HPL3/Shaders/Overwriting Existing Shaders",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Shaders/Overwriting_Existing_Shaders",
+    "to": "/generated/overwriting-existing-shaders/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Object Handles",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Object_Handles",
+    "to": "/scripting/object-handles/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Object Instances vs Object Handles",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Object_Instances_vs_Object_Handles",
+    "to": "/scripting/object-instances-vs-object-handles/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Type Casting",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Type_Casting",
+    "to": "/scripting/type-casting/"
+  },
+  {
+    "from": "HPL3/Level Design/Lights Overview",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Lights_Overview",
+    "to": "/level-building/lights-overview/"
+  },
+  {
+    "from": "HPL3/SOMA/Level Design/Point Lights",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Point_Lights",
+    "to": "/level-building/point-lights/"
+  },
+  {
+    "from": "HPL3/SOMA/Level Design/Spot Lights",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Spot_Lights",
+    "to": "/level-building/spot-lights/"
+  },
+  {
+    "from": "HPL3/Level Design/Working with Static Objects",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Working_with_Static_Objects",
+    "to": "/level-building/working-with-static-objects/"
+  },
+  {
+    "from": "HPL3/Level Design/Working with Primitives",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Working_with_Primitives",
+    "to": "/level-building/working-with-primitives/"
+  },
+  {
+    "from": "HPL3/SOMA/Level Design/Pose Editor",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Pose_Editor",
+    "to": "/level-editor/pose-editor/"
+  },
+  {
+    "from": "HPL3/Level Design/Detail Meshes",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Detail_Meshes",
+    "to": "/level-building/detail-meshes/"
+  },
+  {
+    "from": "HPL3/Level Design/Undergrowth",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Undergrowth",
+    "to": "/level-building/undergrowth/"
+  },
+  {
+    "from": "HPL3/Level Design/Terrain Texturing",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Terrain_Texturing",
+    "to": "/level-building/terrain-texturing/"
+  },
+  {
+    "from": "HPL3/Level Design/Terrain Height Map",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Terrain_Height_Map",
+    "to": "/level-building/terrain-height-map/"
+  },
+  {
+    "from": "HPL3/Level Design/Terrain Painting",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Terrain_Painting",
+    "to": "/level-building/terrain-painting/"
+  },
+  {
+    "from": "HPL3/Level Design/Billboards",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Billboards",
+    "to": "/level-building/billboards/"
+  },
+  {
+    "from": "HPL3/Level Design/Lens Flares",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Lens_Flares",
+    "to": "/level-building/lens-flares/"
+  },
+  {
+    "from": "HPL3/Level Design/Particles",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Particles",
+    "to": "/level-building/particles/"
+  },
+  {
+    "from": "HPL3/Level Design/Sounds",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Sounds",
+    "to": "/level-building/sounds/"
+  },
+  {
+    "from": "HPL3/Level Design/Decals",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Decals",
+    "to": "/level-building/decals/"
+  },
+  {
+    "from": "HPL3/Level Design/Fog Areas",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Fog_Areas",
+    "to": "/level-building/fog-areas/"
+  },
+  {
+    "from": "HPL3/Level Design/Exposure Areas",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Exposure_Areas",
+    "to": "/level-building/exposure-areas/"
+  },
+  {
+    "from": "HPL3/Level Design/Working with Entities",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Working_with_Entities",
+    "to": "/level-building/working-with-entities/"
+  },
+  {
+    "from": "HPL3/Level Design/Entity Poser",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Entity_Poser",
+    "to": "/level-editor/entity-poser/"
+  },
+  {
+    "from": "HPL3/Level Design/Detail Mesh Entity",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Detail_Mesh_Entity",
+    "to": "/level-building/detail-mesh-entity/"
+  },
+  {
+    "from": "HPL3/Level Design/Level Editor Color Dialog",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Editor_Color_Dialog",
+    "to": "/level-editor/level-editor-color-dialog/"
+  },
+  {
+    "from": "HPL3/SOMA/Getting Started",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started",
+    "to": "/start/overview/"
+  },
+  {
+    "from": "HPL3/SOMA/Getting Started/Prepare Your Tools",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Prepare_Your_Tools",
+    "to": "/start/prepare-your-tools/"
+  },
+  {
+    "from": "HPL3/SOMA/Getting Started/Create and Launch Your Mod",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Create_and_Launch_Your_Mod",
+    "to": "/start/create-and-launch-your-mod/"
+  },
+  {
+    "from": "HPL3/SOMA/Getting Started/Configure the Level Editor",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Configure_the_Level_Editor",
+    "to": "/start/configure-the-level-editor/"
+  },
+  {
+    "from": "HPL3/SOMA/Getting Started/Edit Your First Map",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Edit_Your_First_Map",
+    "to": "/start/edit-your-first-map/"
+  },
+  {
+    "from": "HPL3/SOMA/Getting Started/Add Your First Script",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Add_Your_First_Script",
+    "to": "/start/add-your-first-script/"
+  },
+  {
+    "from": "HPL3/SOMA/Getting Started/Test Debug and Continue",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Test_Debug_and_Continue",
+    "to": "/start/test-debug-and-continue/"
+  },
+  {
+    "from": "HPL3/SOMA/Modeling/Exporting Models",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling/Exporting_Models",
+    "to": "/assets/exporting-models/"
+  },
+  {
+    "from": "HPL3/SOMA/Modeling/Modeling Overview",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling/Modeling_Overview",
+    "to": "/assets/modeling-overview/"
+  },
+  {
+    "from": "HPL3/SOMA/Modeling/Animation Principles",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling/Animation_Principles",
+    "to": "/assets/animation-principles/"
+  },
+  {
+    "from": "HPL3/Entities/Model Editor View",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Model_Editor_View",
+    "to": "/entities/model-editor-view/"
+  },
+  {
+    "from": "HPL3/Entities/Entity Types",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Types",
+    "to": "/entities/entity-types/"
+  },
+  {
+    "from": "HPL3/Entities/Entity Mesh",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Mesh",
+    "to": "/entities/entity-mesh/"
+  },
+  {
+    "from": "HPL3/Entities/Model Preview Settings",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Model_Preview_Settings",
+    "to": "/entities/model-preview-settings/"
+  },
+  {
+    "from": "HPL3/Entities/Adding Animations to Entities",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Adding_Animations_to_Entities",
+    "to": "/entities/adding-animations-to-entities/"
+  },
+  {
+    "from": "HPL3/Entities/Working with Shapes",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Working_with_Shapes",
+    "to": "/entities/working-with-shapes/"
+  },
+  {
+    "from": "HPL3/SOMA/Entities/Working with Joints",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities/Working_with_Joints",
+    "to": "/entities/working-with-joints/"
+  },
+  {
+    "from": "HPL3/Entities/Entity Rig",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Rig",
+    "to": "/entities/entity-rig/"
+  },
+  {
+    "from": "HPL3/Entities/Entity Settings",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Settings",
+    "to": "/entities/entity-settings/"
+  },
+  {
+    "from": "HPL3/Materials/Materials Editor View",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Materials/Materials_Editor_View",
+    "to": "/materials/materials-editor-view/"
+  },
+  {
+    "from": "HPL3/Materials/Material Specific Variables",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Materials/Material_Specific_Variables",
+    "to": "/materials/material-specific-variables/"
+  },
+  {
+    "from": "HPL3/Materials/Engine Materials",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Materials/Engine_Materials",
+    "to": "/materials/engine-materials/"
+  },
+  {
+    "from": "HPL3/Materials/Types/Translucent",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Materials/Types/Translucent",
+    "to": "/materials/translucent/"
+  },
+  {
+    "from": "HPL3/Particles/Particle Editor View",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Editor_View",
+    "to": "/particles/particle-editor-view/"
+  },
+  {
+    "from": "HPL3/Particles/Emitter Management",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Emitter_Management",
+    "to": "/particles/emitter-management/"
+  },
+  {
+    "from": "HPL3/Particles/Particle Start",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Start",
+    "to": "/particles/particle-start/"
+  },
+  {
+    "from": "HPL3/Particles/Particle Movement",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Movement",
+    "to": "/particles/particle-movement/"
+  },
+  {
+    "from": "HPL3/Particles/Particle Rendering",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Rendering",
+    "to": "/particles/particle-rendering/"
+  },
+  {
+    "from": "HPL3/Particles/Particle Color",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Color",
+    "to": "/particles/particle-color/"
+  },
+  {
+    "from": "HPL3/Particles/Particle Rotation",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Rotation",
+    "to": "/particles/particle-rotation/"
+  },
+  {
+    "from": "HPL3/Particles/Particle Collision",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Collision",
+    "to": "/particles/particle-collision/"
+  },
+  {
+    "from": "HPL3/Particles/Particle General",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_General",
+    "to": "/particles/particle-general/"
+  },
+  {
+    "from": "HPL3/Particles/Working with Particles",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Working_with_Particles",
+    "to": "/particles/working-with-particles/"
+  },
+  {
+    "from": "HPL3/SOMA/Audition/Lip Sync",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Audition/Lip_Sync",
+    "to": "/dialogue/lip-sync/"
+  },
+  {
+    "from": "HPL3/Sound/Working with FMod Designer 2010",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Sound/Working_with_FMod_Designer_2010",
+    "to": "/audio/working-with-fmod-designer-2010/"
+  },
+  {
+    "from": "HPL3/Sound/Playing Sounds",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Sound/Playing_Sounds",
+    "to": "/audio/playing-sounds/"
+  },
+  {
+    "from": "HPL3/SOMA/Audition/Audition Overview",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Audition/Audition_Overview",
+    "to": "/dialogue/audition-overview/"
+  },
+  {
+    "from": "HPL3/Audition/Voice Handler Overview",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Audition/Voice_Handler_Overview",
+    "to": "/dialogue/voice-handler-overview/"
+  },
+  {
+    "from": "HPL3/Troubleshooting",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Troubleshooting",
+    "to": "/debugging/faq/"
+  },
+  {
+    "from": "HPL3/Areas/SoundScape Area",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/SoundScape_Area",
+    "to": "/areas/soundscape-area/"
+  },
+  {
+    "from": "Hpl3:HPL3/Level Design/Terrain Editor Overview",
+    "fromUrl": "https://wiki.frictionalgames.com/page/Hpl3:HPL3/Level_Design/Terrain_Editor_Overview",
+    "to": "/level-building/terrain-editor-overview/"
+  },
+  {
+    "from": "HPL3/Blender HPL3 export plugin",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Blender_HPL3_export_plugin",
+    "to": "/assets/blender-hpl3-export-plugin/"
+  },
+  {
+    "from": "HPL3/Scripting/Scripting Guide/Setting up Visual Studio Code",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Setting_up_Visual_Studio_Code",
+    "to": "/scripting/setting-up-visual-studio-code/"
+  },
+  {
+    "from": "HPL3/Scripting/AngelScript Fundamentals",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals",
+    "to": "/scripting/angelscript/angelscript-fundamentals/"
+  }
+]

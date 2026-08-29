@@ -1,0 +1,14 @@
+{
+  "pageid": 2383,
+  "title": "HPL3/SOMA/Scripting/eSoundEntryType",
+  "missing": false,
+  "redirect": false,
+  "length": 863,
+  "touched": "2020-08-27T22:05:51Z",
+  "revisionId": 3863,
+  "revisionTimestamp": "2020-08-06T14:53:36Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eSoundEntryType_World</code> || <code>1</code> ||\n|-\n| <code>eSoundEntryType_WorldClean</code> || <code>2</code> ||\n|-\n| <code>eSoundEntryType_Gui</code> || <code>4</code> ||\n|-\n| <code>eSoundEntryType_GuiWorld</code> || <code>8</code> ||\n|-\n| <code>eSoundEntryType_Safe</code> || <code>-2147483648</code> ||\n|-\n| <code>eSoundEntryType_WorldAll</code> || <code>3</code> ||\n|-\n| <code>eSoundEntryType_GuiAll</code> || <code>12</code> ||\n|-\n| <code>eSoundEntryType_AllExceptGui</code> || <code>11</code> ||\n|-\n| <code>eSoundEntryType_All</code> || <code>2147483647</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eSoundEntryType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eSoundEntryType"
+}

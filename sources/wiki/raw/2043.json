@@ -1,0 +1,14 @@
+{
+  "pageid": 2043,
+  "title": "HPL3/SOMA/Scripting/cImGuiMultiSelectData",
+  "missing": false,
+  "redirect": false,
+  "length": 2043,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3589,
+  "revisionTimestamp": "2020-08-06T13:42:07Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mbUseArrowInFocusGfx || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseBackgroundGfx || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseBackgroundInFocusGfx || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mbUseDisabledColor || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mColorBase || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorDisabled || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorText || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mFont || [[../cImGuiFont|<syntaxhighlight lang=\"c++\" inline>cImGuiFont</syntaxhighlight>]] ||\n|-\n| mFontAlign || [[../eFontAlign|<syntaxhighlight lang=\"c++\" inline>eFontAlign</syntaxhighlight>]] ||\n|-\n| mGfxArrowLeft || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxArrowLeftInFocus || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxArrowRight || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxArrowRightInFocus || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxBackground || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxBackgroundInFocus || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mvArrowSize || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|-\n| mvDefaultSize || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\ncImGuiMultiSelectData has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiMultiSelectData",
+  "requestedTitle": "HPL3/SOMA/Scripting/cImGuiMultiSelectData"
+}

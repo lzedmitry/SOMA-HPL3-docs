@@ -1,0 +1,14 @@
+{
+  "pageid": 3372,
+  "title": "HPL3/SOMA/Areas/Datamine Area",
+  "missing": false,
+  "redirect": false,
+  "length": 2195,
+  "touched": "2024-02-08T18:25:56Z",
+  "revisionId": 6778,
+  "revisionTimestamp": "2024-02-08T18:25:56Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "== Overview ==\nHelper Function: [[HPL3/SOMA/Scripting/Datamine Handler | Datamine Handler]] <br>\nDatamining is what happens when the player in SOMA touches a dead person, intercom or other piece of technology and hears the last few moments of data buffer as an audio clip. Most of this is handled automatically by '''Prop_Datamine''' and '''Datamine Area''', but there are a few helper functions available.\n\n== Properties ==\n=== Base ===\n* '''BlockLineOfSight''': Blocks line of sight.\n* '''EventInstanceTag''': A tag used by the event system to group objects.\n* '''UserVar''': Arbitrary user variable. Acessable by calling the script function <code>Entity_GetVar<type>()</code>\n\n=== Collide Callbacks ===\n* '''CC_Entities''': A list separated by commas or spaces of all entities that can trigger the callback. ''player'' is the player character.\n* '''CC_Funcs''': A list of functions that will run when the area is triggered.\n\n=== Attachment ===\n* '''ParentAttachEntity''': The name of an entity that this soundscape is parented to.\n* '''ParentAttachUseRotation''': If the rotation of the parent should affect the soundscape.\n* '''ParentAttachBody''': The name of the body in the parent entity to attach to.\n* '''ParentAttachLocked''': Locks the area to the parent and disables local movement.\n\n=== Datamine_Area ===\n* '''IsBlackBox''': Obsolete\n* '''EffectProp''': Entity to apply highlights to\n\n=== Datamine_General ===\n* '''MaxFocusDistance''': Max distance the player can be to interact\n* '''BeepingActive''': If beeping should be active from the start {{clarify}}\n* '''FinalSubjectCallback''': Callback once the player has heard the final line of the audio\n* '''DataminingDoneCallback''': Callback once the player has exited the datamine\n* '''DatamineGlow''': Should the datamine be highlighted when the player is near?\n* '''RangeArea''': Specify an area; once the player leaves it, the datamine fades.\n* '''StopAllVoices''': If true, all other voices are stopped when the player triggers the datamine.\n\n=== Datamine_Page_# ===\n* '''Page_#_VoiceSubject''': Voicehandler Subject to play\n* '''Page_#_TextCategory''': Obsolete\n* '''Page_#_TextEntry''': Obsolete\n* '''Page_#_Image''': Obsolete",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/Datamine_Area",
+  "requestedTitle": "HPL3/SOMA/Areas/Datamine Area"
+}

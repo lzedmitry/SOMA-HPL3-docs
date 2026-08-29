@@ -1,0 +1,14 @@
+{
+  "pageid": 2564,
+  "title": "HPL3/SOMA/Entities",
+  "missing": false,
+  "redirect": false,
+  "length": 1585,
+  "touched": "2026-07-30T22:02:32Z",
+  "revisionId": 7146,
+  "revisionTimestamp": "2026-07-30T22:02:32Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{constructionNotice|This category and its sub-pages are undergoing major editing, as some information in this category and all the sub pages is currently in the process of being formatted or re-written from scratch to achieve a higher standard of formatting, or not everything is yet available. More pages and information will gradually be added.}}\n\n'''This category deals with the HPL3 Model Editor, entities and related topics.'''\n{{CategoryHeader}}\n{{CategoryNewcolumn}}\n\n== Getting Started ==\n* [[HPL3/Entities/Entities Overview|Entities Overview]]\n\n== General ==\n* [[HPL3/Entities/Model Editor Controls|Model Editor Controls]]\n* [[HPL3/Entities/Model Editor View|Model Editor View]]\n* [[HPL3/Entities/Model Editor Preferences|Model Editor Preferences]]\n* [[HPL3/Entities/Entity Settings|Entity Settings]]\n* [[HPL3/Entities/Entity Notes|Entity Notes]]\n* [[HPL3/Entities/Entity Mesh|Entity Mesh]]\n* [[HPL3/Entities/Entity Rig|Entity Rig]]\n* [[HPL3/Entities/Entity Types|Entity Types]]\n\n== Model Preview / Animations ==\n* [[HPL3/Entities/Model Preview Settings|Model Preview Settings]]\n* [[HPL3/Entities/Adding Animations to Entities|Adding Animations to Entities]]\n\n{{CategoryNewcolumn}}\n\n== Physics Bodies ==\n* [[HPL3/Entities/Working with Physics Bodies|Working with Physics Bodies]]\n* [[HPL3/Entities/Physics Body Properties|Physics Body Properties]]\n\n== Joints ==\n* [[HPL3/SOMA/Entities/Working with Joints|Working with Joints]]\n\n== Shapes ==\n* [[HPL3/Entities/Working with Shapes|Working with Shapes]]\n\n{{CategoryEnd}}\n\n__NOTOC__\n\n[[Category:English]]\n[[Category:Entry pages]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities",
+  "requestedTitle": "HPL3/SOMA/Entities"
+}

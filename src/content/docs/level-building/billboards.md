@@ -1,0 +1,55 @@
+---
+title: Billboards
+description: "= Billboards ="
+category: level-building
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Billboards"
+sourceRevision: 7087
+sourceUpdated: "2026-07-30T09:52:40Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - level-building
+---
+= Billboards =
+
+General Parameters:
+- **Name**: Name for the billboard. Should be unique for all objects in map.
+- **Position**: 3D Vector storing the position in world.
+- **Rotation**: 3D Vector storting the rotation. Only useful when the billboard type is Axis or FixedAxis.
+
+Specific Parameters:
+- **Material File**: material file for the billboard.
+- **Billboard Type**: type for the billboard. Available types are:
+''' Point: this type will make the billboard always face the camera.
+''' Axis: this will make the billboard be aligned to an axis, but will still face the camera to some extent.
+''' FixedAxis: this will make the billboard be aligned to an axis, and no facing to camera will be applied.
+- **Offset**
+- **Size**: 2D Vector storing size for the billboard, as in width-height.
+- **Color**: Color that the material will be tinted with.
+- **Connected light name**: when a billboard is connected to a light, they will share color at all times. Useful when doing halos for lights, it will synchronize any changes in light color to the billboard. Only one light can be connected at a time. To connect a light, just press the button and then select a light in the viewport.
+- **Halo**: Set if the billboard should work as a halo. When active, the billboard will be faded out when going off screen. The effect can be tweaked using the Halo Source Size. Billboard will have no fading when this box lies completely inside the screen.
+- **Halo Source Size**: 3D Vector storing the size for the halo box. Will be displayed as a green wireframe box.
+
+=Billboard EditMode=
+
+This EditMode allows you to add some detail to maps via billboards. These are mostly used to add light shafts, god rays and the like, but should work for doing other kinds too.
+
+To create a Billboard, just click on the grid when this EditMode is active.
+Optionally, there are two parameters one can set up prior to placing Billboards on maps. These are:
+
+***Material**: pretty self explanatory, sets up the material that Billboards will be created with.
+***Color**: quite self explanatory too, it sets the color that will be used by created Billboards.
+
+Have into account that these options will be valid for objects created right after changing them, so any Billboard that is already created will keep its settings.
+
+More on Billboards [here](https://wiki.frictionalgames.com/page/HPL2/Billboards).
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/Level Design/Billboards](https://wiki.frictionalgames.com/page/HPL3/Level_Design/Billboards)
+- Revision: `7087`
+- Source update: `2026-07-30T09:52:40Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

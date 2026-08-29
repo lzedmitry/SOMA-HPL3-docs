@@ -1,0 +1,14 @@
+{
+  "pageid": 1984,
+  "title": "HPL3/SOMA/Scripting/cBeamIterator",
+  "missing": false,
+  "redirect": false,
+  "length": 612,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3531,
+  "revisionTimestamp": "2020-08-06T13:20:58Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncBeamIterator has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || HasNext ||   ||\n|-\n| [[../cBeam|<syntaxhighlight lang=\"c++\" inline>cBeam@</syntaxhighlight>]] || Next ||   ||\n|-\n| [[../cBeam|<syntaxhighlight lang=\"c++\" inline>cBeam@</syntaxhighlight>]] || PeekNext ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cBeamIterator",
+  "requestedTitle": "HPL3/SOMA/Scripting/cBeamIterator"
+}

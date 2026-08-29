@@ -1,0 +1,14 @@
+{
+  "pageid": 3451,
+  "title": "HPL3/Particles/Emitter Management",
+  "missing": false,
+  "redirect": false,
+  "length": 417,
+  "touched": "2026-07-30T22:16:12Z",
+  "revisionId": 7163,
+  "revisionTimestamp": "2026-07-30T22:16:12Z",
+  "revisionUser": "TiMan",
+  "wikitext": "== Emitter management controls ==\nThese controls help to add, duplicate and remove particle emitters. The Add button will create a new particle emitter and select it (i.e. pick it in the combo box), the Copy button will create a copy emitter out of the selected one, and the Delete button will delete the selected emitter.\n\nWhen a particle emitter is selected, all its parameters will be shown in the tab frame below.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Emitter_Management",
+  "requestedTitle": "HPL3/Particles/Emitter Management"
+}

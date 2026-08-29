@@ -1,0 +1,47 @@
+---
+title: What can be modified
+description: SOMA mods can add maps, scripts, entities, materials, particles, sound, and voice. Stand-alone mods and add-ons are different shapes of the same entry file.
+difficulty: beginner
+category: start
+---
+
+A SOMA mod is a folder with an `entry.hpc` and a `resources.cfg`. Everything the game should load from your work is reached through that folder.
+
+## Stand-alone vs add-on
+
+The original Creating a Mod article:
+
+- **Stand-alone** — custom maps, scripts, and usually custom assets. If it has maps, it is probably stand-alone. It appears in the SOMA mod launcher and starts in its own map.
+- **Add-on** — a smaller overlay (language files, tweaks) that can run alongside a stand-alone mod.
+
+Technically the difference is that an add-on can run along with a stand-alone mod. Pick the type that matches the work.
+
+## Typical contents
+
+| You want to change | You work in | Start reading |
+| --- | --- | --- |
+| Maps, lighting, fog, placement | Level Editor (`.hpm`) | [Level Editor](/level-editor/) |
+| Gameplay, triggers, UI text on screen | `.hps` AngelScript | [Scripting](/scripting/) |
+| Interactive objects | Model Editor (entities) | [Entities](/entities/) |
+| Surfaces, shaders, blend | Material Editor | [Materials](/materials/) |
+| Smoke, sparks, debris | Particle Editor | [Particles](/particles/) |
+| SFX / music events | FMOD + sound entities | [Audio](/audio/) |
+| Voice lines | Audition | [Dialogue](/dialogue/) |
+| 3D meshes | Blender / Maya → HPL export | [Asset pipeline](/assets/) |
+
+## What you should not do (from the Getting Started rules)
+
+- Edit files inside the base game or the original `MinimalCustomMapMod`
+- Depend on another user's absolute install path
+- Treat a `.hpm` as a single file and throw away `.hpm_*` sidecars
+
+## Related
+
+- [Creating a mod](/modding/creating-a-mod/)
+- [MinimalCustomMapMod](/modding/minimalcustommapmod/)
+- [MinimalAddOnMod](/modding/minimaladdonmod/)
+
+## Sources
+
+- [HPL3/SOMA/Modding/Creating a Mod](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Creating_a_Mod)
+- [HPL3/SOMA/Getting Started](https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started)

@@ -1,0 +1,917 @@
+---
+title: iPhysicsBody
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsBody"
+sourceRevision: 3906
+sourceUpdated: "2020-08-06T15:03:58Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: undocumented
+generated: true
+tags:
+  - api
+  - api
+sidebar:
+  hidden: true
+---
+:::note[SOURCE STATUS: Undocumented]
+This API page was auto-generated on the Frictional Wiki and has no written descriptions.
+:::
+
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Fields
+iPhysicsBody has no public fields.
+
+## Functions
+| Return Type | Function Name | Parameters | Description |
+| --- | --- | --- | --- |
+| 
+```
+void
+```
+ | AddChild | [
+```
+iEntity3D@ apEntity
+```
+](https://wiki.frictionalgames.com/page/../iEntity3D) |   |
+| 
+```
+void
+```
+ | AddForce | [
+```
+const cVector3f& avForce
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | AddForceAtPosition | [
+```
+const cVector3f& avForce
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+[
+```
+const cVector3f& avPos
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | AddImpulse | [
+```
+const cVector3f& avImpulse
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | AddImpulseAtPosition | [
+```
+const cVector3f& avImpulse
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+[
+```
+const cVector3f& avPos
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | AddTorque | [
+```
+const cVector3f& avTorque
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | Enable |   |   |
+| 
+```
+void
+```
+ | Freeze |   |   |
+| 
+```
+float
+```
+ | GetAngularDamping |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetAngularVelocity |   |   |
+| 
+```
+bool
+```
+ | GetAutoDisable |   |   |
+| 
+```
+float
+```
+ | GetAutoDisableAngularThreshold |   |   |
+| 
+```
+float
+```
+ | GetAutoDisableLinearThreshold |   |   |
+| 
+```
+int
+```
+ | GetAutoDisableNumSteps |   |   |
+| 
+```
+bool
+```
+ | GetBlocksLight |   |   |
+| 
+```
+bool
+```
+ | GetBlocksSound |   |   |
+| [
+```
+cBoundingVolume@+
+```
+](https://wiki.frictionalgames.com/page/../cBoundingVolume) | GetBoundingVolume |   |   |
+| 
+```
+bool
+```
+ | GetBuoyancyActive |   |   |
+| 
+```
+float
+```
+ | GetBuoyancyAngularViscosity |   |   |
+| 
+```
+float
+```
+ | GetBuoyancyDensity |   |   |
+| 
+```
+float
+```
+ | GetBuoyancyDensityMul |   |   |
+| 
+```
+float
+```
+ | GetBuoyancyLinearViscosity |   |   |
+| [
+```
+cPlanef
+```
+](https://wiki.frictionalgames.com/page/../cPlanef) | GetBuoyancySurface |   |   |
+| [
+```
+iCharacterBody@
+```
+](https://wiki.frictionalgames.com/page/../iCharacterBody) | GetCharacterBody |   |   |
+| [
+```
+cEntity3DIterator@
+```
+](https://wiki.frictionalgames.com/page/../cEntity3DIterator) | GetChildIterator |   |   |
+| 
+```
+bool
+```
+ | GetCollide |   |   |
+| 
+```
+bool
+```
+ | GetCollideCharacter |   |   |
+| 
+```
+uint
+```
+ | GetCollideFlags |   |   |
+| 
+```
+bool
+```
+ | GetCollideRagDoll |   |   |
+| 
+```
+bool
+```
+ | GetContinuousCollision |   |   |
+| 
+```
+bool
+```
+ | GetEnabled |   |   |
+| [
+```
+iEntity3D@
+```
+](https://wiki.frictionalgames.com/page/../iEntity3D) | GetEntityParent |   |   |
+| [
+```
+eEntityType
+```
+](https://wiki.frictionalgames.com/page/../eEntityType) | GetEntityType |   |   |
+| 
+```
+bool
+```
+ | GetFrozen |   |   |
+| 
+```
+bool
+```
+ | GetGravity |   |   |
+| 
+```
+bool
+```
+ | GetGravityAttachmentRotation |   |   |
+| 
+```
+bool
+```
+ | GetGravityAttachmentVelocity |   |   |
+| [
+```
+eVelocityAxes
+```
+](https://wiki.frictionalgames.com/page/../eVelocityAxes) | GetGravityAttachmentVelocityAxes |   |   |
+| 
+```
+bool
+```
+ | GetGravityCanAttachCharacter |   |   |
+| [
+```
+tID
+```
+](https://wiki.frictionalgames.com/page/../tID) | GetID |   |   |
+| [
+```
+cMatrixf
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) | GetInertiaMatrix |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetInertiaVector |   |   |
+| 
+```
+bool
+```
+ | GetIsUnderwater |   |   |
+| [
+```
+iPhysicsJoint@
+```
+](https://wiki.frictionalgames.com/page/../iPhysicsJoint) | GetJoint | 
+```
+int alIndex
+```
+ |   |
+| 
+```
+int
+```
+ | GetJointNum |   |   |
+| 
+```
+float
+```
+ | GetLinearDamping |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetLinearVelocity |   |   |
+| [
+```
+cMatrixf&
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) | GetLocalMatrix |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetLocalPosition |   |   |
+| 
+```
+float
+```
+ | GetMass |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetMassCenter |   |   |
+| 
+```
+float
+```
+ | GetMassMulApplied |   |   |
+| [
+```
+iPhysicsMaterial@
+```
+](https://wiki.frictionalgames.com/page/../iPhysicsMaterial) | GetMaterial |   |   |
+| 
+```
+float
+```
+ | GetMaxAngularSpeed |   |   |
+| 
+```
+float
+```
+ | GetMaxLinearSpeed |   |   |
+| [
+```
+const tString&
+```
+](https://wiki.frictionalgames.com/page/../tString) | GetName |   |   |
+| 
+```
+bool
+```
+ | GetNoGravityWhenUnderwater |   |   |
+| 
+```
+bool
+```
+ | GetPushedByCharacterGravity |   |   |
+| 
+```
+int
+```
+ | GetPushStrength |   |   |
+| 
+```
+bool
+```
+ | GetScriptableIsSaved |   |   |
+| [
+```
+iCollideShape@
+```
+](https://wiki.frictionalgames.com/page/../iCollideShape) | GetShape |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetTorqueFromForceAtPosition | [
+```
+const cVector3f &in avForce
+```
+](https://wiki.frictionalgames.com/page/../cVector3f),  
+[
+```
+const cVector3f &in avPos
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+int
+```
+ | GetTransformUpdateCount |   |   |
+| 
+```
+int
+```
+ | GetUniqueID |   |   |
+| 
+```
+bool
+```
+ | GetUseSurfaceEffects |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetVelocityAtPosition | [
+```
+const cVector3f &in avPos
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| [
+```
+cMatrixf&
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) | GetWorldMatrix |   |   |
+| [
+```
+cVector3f
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) | GetWorldPosition |   |   |
+| 
+```
+bool
+```
+ | HasParent |   |   |
+| 
+```
+bool
+```
+ | IsActive |   |   |
+| 
+```
+bool
+```
+ | IsCharacter |   |   |
+| 
+```
+bool
+```
+ | IsChild | [
+```
+iEntity3D@ apEntity
+```
+](https://wiki.frictionalgames.com/page/../iEntity3D) |   |
+| 
+```
+bool
+```
+ | IsRagDoll |   |   |
+| 
+```
+bool
+```
+ | IsVolatile |   |   |
+| 
+```
+void
+```
+ | RemoveChild | [
+```
+iEntity3D@ apEntity
+```
+](https://wiki.frictionalgames.com/page/../iEntity3D) |   |
+| 
+```
+void
+```
+ | RemoveJoint | [
+```
+iPhysicsJoint@ apJoint
+```
+](https://wiki.frictionalgames.com/page/../iPhysicsJoint) |   |
+| 
+```
+void
+```
+ | RenderDebugGeometry | [
+```
+iLowLevelGraphics@ apLowLevel
+```
+](https://wiki.frictionalgames.com/page/../iLowLevelGraphics),  
+[
+```
+const cColor& aColor
+```
+](https://wiki.frictionalgames.com/page/../cColor) |   |
+| 
+```
+void
+```
+ | SetActive | 
+```
+bool abActive
+```
+ |   |
+| 
+```
+void
+```
+ | SetAngularDamping | 
+```
+float afDamping
+```
+ |   |
+| 
+```
+void
+```
+ | SetAngularVelocity | [
+```
+const cVector3f& avVel
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | SetAutoDisable | 
+```
+bool abEnabled
+```
+ |   |
+| 
+```
+void
+```
+ | SetAutoDisableAngularThreshold | 
+```
+float afThresold
+```
+ |   |
+| 
+```
+void
+```
+ | SetAutoDisableLinearThreshold | 
+```
+float afThresold
+```
+ |   |
+| 
+```
+void
+```
+ | SetAutoDisableNumSteps | 
+```
+int alNum
+```
+ |   |
+| 
+```
+void
+```
+ | SetBlocksLight | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetBlocksSound | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetBuoyancyActive | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetBuoyancyAngularViscosity | 
+```
+float afX
+```
+ |   |
+| 
+```
+void
+```
+ | SetBuoyancyDensity | 
+```
+float afX
+```
+ |   |
+| 
+```
+void
+```
+ | SetBuoyancyDensityMul | 
+```
+float afX
+```
+ |   |
+| 
+```
+void
+```
+ | SetBuoyancyLinearViscosity | 
+```
+float afX
+```
+ |   |
+| 
+```
+void
+```
+ | SetBuoyancySurface | [
+```
+const cPlanef& aP
+```
+](https://wiki.frictionalgames.com/page/../cPlanef) |   |
+| 
+```
+void
+```
+ | SetCollide | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetCollideCharacter | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetCollideFlags | 
+```
+uint alX
+```
+ |   |
+| 
+```
+void
+```
+ | SetCollideRagDoll | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetContinuousCollision | 
+```
+bool abOn
+```
+ |   |
+| 
+```
+void
+```
+ | SetGravity | 
+```
+bool abEnabled
+```
+ |   |
+| 
+```
+void
+```
+ | SetGravityAttachmentRotation | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetGravityAttachmentVelocity | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetGravityAttachmentVelocityAxes | [
+```
+eVelocityAxes aAxes
+```
+](https://wiki.frictionalgames.com/page/../eVelocityAxes) |   |
+| 
+```
+void
+```
+ | SetGravityCanAttachCharacter | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetIsUnderwater | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetLinearDamping | 
+```
+float afDamping
+```
+ |   |
+| 
+```
+void
+```
+ | SetLinearVelocity | [
+```
+const cVector3f& avVel
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | SetMass | 
+```
+float afMass
+```
+ |   |
+| 
+```
+void
+```
+ | SetMassCenter | [
+```
+const cVector3f &in avCentre
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | SetMassMulApplied | 
+```
+float afMul
+```
+ |   |
+| 
+```
+void
+```
+ | SetMatrix | [
+```
+const cMatrixf &in a_mtxTransform
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) |   |
+| 
+```
+void
+```
+ | SetMaxAngularSpeed | 
+```
+float afDamping
+```
+ |   |
+| 
+```
+void
+```
+ | SetMaxLinearSpeed | 
+```
+float afSpeed
+```
+ |   |
+| 
+```
+void
+```
+ | SetName | [
+```
+const tString &in asName
+```
+](https://wiki.frictionalgames.com/page/../tString) |   |
+| 
+```
+void
+```
+ | SetNoGravityWhenUnderwater | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetPosition | [
+```
+const cVector3f &in avPos
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | SetPushedByCharacterGravity | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetPushStrength | 
+```
+int alX
+```
+ |   |
+| 
+```
+void
+```
+ | SetScriptableIsSaved | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetUseSurfaceEffects | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetVolatile | 
+```
+bool abX
+```
+ |   |
+| 
+```
+void
+```
+ | SetWorldMatrix | [
+```
+const cMatrixf &in a_mtxWorldTransform
+```
+](https://wiki.frictionalgames.com/page/../cMatrixf) |   |
+| 
+```
+void
+```
+ | SetWorldPosition | [
+```
+const cVector3f &in avWorldPos
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | StaticAngularMove | [
+```
+const cVector3f &in avVelocity
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | StaticLinearMove | [
+```
+const cVector3f &in avVelocity
+```
+](https://wiki.frictionalgames.com/page/../cVector3f) |   |
+| 
+```
+void
+```
+ | UpdateLogic | 
+```
+float afTimeStep
+```
+ |   |
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/iPhysicsBody](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iPhysicsBody)
+- Revision: `3906`
+- Source update: `2020-08-06T15:03:58Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

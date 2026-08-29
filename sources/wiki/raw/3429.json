@@ -1,0 +1,14 @@
+{
+  "pageid": 3429,
+  "title": "HPL3/SOMA/Getting Started/Configure the Level Editor",
+  "missing": false,
+  "redirect": false,
+  "length": 1436,
+  "touched": "2026-07-30T10:50:16Z",
+  "revisionId": 7116,
+  "revisionTimestamp": "2026-07-30T10:47:25Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{Hpl3SomaGettingStarted|step=3}}\n\nThe Level Editor must know which mod you are working on. This lets it resolve your mod's resources and save work in the correct context.\n\n== Select the work-in-progress mod ==\n\n# Launch <code>LevelEditor.exe</code> at least once, then close it.\n# Open the HPL3 user folder inside your Documents folder.\n# Create or edit <code>WIPMod.cfg</code>.\n# Point it to the copied mod's <code>entry.hpc</code> using its full path:\n\n<pre>\n<WIPmod Path=\"C:/full/path/to/SOMA/mods/MyFirstMod/entry.hpc\" />\n</pre>\n\n# Save the file and reopen <code>LevelEditor.exe</code>.\n\nThe exact path depends on where ''SOMA'' is installed. Forward slashes keep the XML path easy to read.\n\n{{note|The [[HPL3/SOMA/Third Party Tools/SOMA Mod Manager|SOMA Mod Manager]] can perform this synchronization for you. Manual setup is shown here so you know which file controls it.}}\n\n== Checkpoint ==\n\nThe Level Editor title bar should include <code>(Working on mod)</code>.\n\n== If it does not work ==\n\n* Confirm the path ends at your copied <code>entry.hpc</code>, not merely the mod folder.\n* Confirm the file is named exactly <code>WIPMod.cfg</code>, not <code>WIPMod.cfg.txt</code>.\n* Confirm <code>entry.hpc</code> is still valid XML.\n* Re-read [[HPL3/SOMA/Modding/Setup Modding Environment|Setup Modding Environment]] for custom-asset lookup directories. The bundled sample does not require you to add custom lookup directories yet.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Configure_the_Level_Editor",
+  "requestedTitle": "HPL3/SOMA/Getting Started/Configure the Level Editor"
+}

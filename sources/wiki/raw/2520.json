@@ -1,0 +1,14 @@
+{
+  "pageid": 2520,
+  "title": "HPL3/Scripting/AngelScript Fundamentals/What's Next",
+  "missing": false,
+  "redirect": false,
+  "length": 917,
+  "touched": "2020-08-16T10:30:33Z",
+  "revisionId": 4623,
+  "revisionTimestamp": "2020-08-16T10:30:33Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{shortPageTitle}}\n{{AngelScriptGuideMenu}}\n{| style=\"border:0px;\" cellspacing=\"0\"\n|- valign=\"top\"\n| style=\"padding-right:0.2em\" |\n'''Congratulations on finishing the AngelScript Fundamentals tutorial.'''\n\nNow you are more than ready to being to learn how to script in the HPL3 Engine in order to make custom content for SOMA and Amnesia: Rebirth.\nVisit the [[HPL3/Scripting/HPL3_Scripting_Guide|HPL3 Scripting Guide]] page to get started.\n\n{{idea|You might want to start the HPL3 Guide from [[HPL3/Scripting/Scripting_Guide/The_OnAction_method|Chapter 8]], as everything proir to that has already been discussed in this guide.}}\n| style=\"width:0.1%\" |\n|}\n{{NavBar|HPL3/Scripting/AngelScript Fundamentals/Chapter 9 - Miscellaneous AngelScript Features|Chapter 9 - Miscellaneous AngelScript Features|HPL3/Scripting/AngelScript Fundamentals|AngelScript Fundamentals||}}\n\n[[Category:HPL3 Scripting]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/What's_Next",
+  "requestedTitle": "HPL3/Scripting/AngelScript Fundamentals/What's Next"
+}

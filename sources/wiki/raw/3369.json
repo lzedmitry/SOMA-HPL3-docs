@@ -1,0 +1,14 @@
+{
+  "pageid": 3369,
+  "title": "HPL3/Areas/Ambient Light Area",
+  "missing": false,
+  "redirect": false,
+  "length": 718,
+  "touched": "2024-02-08T17:43:47Z",
+  "revisionId": 6773,
+  "revisionTimestamp": "2024-02-08T17:43:47Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "{{stub}}\n\n== Overview ==\nThe player, by default, casts a small point light around them so that they can see things even when the room is very dark. This area type modifies that ambient light.\n\n== Properties ==\n=== Attachment ===\n* '''ParentAttachEntity''': The name of an entity that this soundscape is parented to.\n* '''ParentAttachUseRotation''': If the rotation of the parent should affect the soundscape.\n* '''ParentAttachBody''': The name of the body in the parent entity to attach to.\n* '''ParentAttachSnap''': If the area should snap to the position of the parent.\n* '''ParentAttachLocked''': Locks the area to the parent and disables local movement.\n\n=== General ===\n* '''Type''': The type of light {{clarify}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Ambient_Light_Area",
+  "requestedTitle": "HPL3/Areas/Ambient Light Area"
+}

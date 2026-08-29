@@ -1,0 +1,14 @@
+{
+  "pageid": 2293,
+  "title": "HPL3/SOMA/Scripting/eCollision",
+  "missing": false,
+  "redirect": false,
+  "length": 513,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3773,
+  "revisionTimestamp": "2020-08-06T14:34:48Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eCollision_Inside</code> || <code>0</code> ||\n|-\n| <code>eCollision_Outside</code> || <code>1</code> ||\n|-\n| <code>eCollision_Intersect</code> || <code>2</code> ||\n|-\n| <code>eCollision_LastEnum</code> || <code>3</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eCollision",
+  "requestedTitle": "HPL3/SOMA/Scripting/eCollision"
+}

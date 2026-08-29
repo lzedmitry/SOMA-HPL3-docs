@@ -1,0 +1,74 @@
+---
+import { LOCALE_META, appLocale, englishSlug, localeHref, localeMeta } from "../lib/locale";
+import { t } from "../lib/ui-strings";
+
+const route = Astro.locals.starlightRoute;
+const locale = appLocale(route.locale);
+const slug = englishSlug(route.id || route.entry.id);
+const current = localeMeta(locale);
+---
+
+<div class="lang-switch" data-current={locale}>
+  <button
+    type="button"
+    class="lang-switch-btn"
+    aria-expanded="false"
+    aria-haspopup="listbox"
+    aria-label={t("language", locale)}
+  >
+    <span>{current.short}</span>
+    <span class="lang-caret" aria-hidden="true">▾</span>
+  </button>
+  <ul class="lang-switch-list" hidden role="listbox">
+    {
+      LOCALE_META.map((item) => (
+        <li role="option" aria-selected={item.id === locale}>
+          <a
+            href={localeHref(slug, item.id)}
+            lang={item.htmlLang}
+            data-locale={item.id}
+            class:list={[{ "is-active": item.id === locale }]}
+          >
+            {item.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</div>
+
+<script>
+  document.querySelectorAll(".lang-switch").forEach((root) => {
+    const btn = root.querySelector<HTMLButtonElement>(".lang-switch-btn");
+    const list = root.querySelector<HTMLElement>(".lang-switch-list");
+    if (!btn || !list) return;
+    const close = () => {
+      btn.setAttribute("aria-expanded", "false");
+      list.hidden = true;
+    };
+    btn.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const open = btn.getAttribute("aria-expanded") !== "true";
+      btn.setAttribute("aria-expanded", String(open));
+      list.hidden = !open;
+    });
+    list.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        const loc = link.getAttribute("data-locale");
+        if (loc) {
+          try {
+            localStorage.setItem("soma-docs-locale", loc);
+          } catch {
+            /* ignore */
+          }
+        }
+      });
+    });
+    document.addEventListener("click", (event) => {
+      if (!root.contains(event.target as Node)) close();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") close();
+    });
+  });
+</script>

@@ -1,0 +1,14 @@
+{
+  "pageid": 2270,
+  "title": "HPL3/SOMA/Scripting/iSubAction",
+  "missing": false,
+  "redirect": false,
+  "length": 629,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3941,
+  "revisionTimestamp": "2020-08-06T15:11:32Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\niSubAction has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>tString</syntaxhighlight>]] || GetInputName ||   ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>tString</syntaxhighlight>]] || GetInputType ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetValue ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iSubAction",
+  "requestedTitle": "HPL3/SOMA/Scripting/iSubAction"
+}

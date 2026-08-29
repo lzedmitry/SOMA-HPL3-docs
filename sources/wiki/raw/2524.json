@@ -1,0 +1,14 @@
+{
+  "pageid": 2524,
+  "title": "HPL3/Scripting/Scripting Guide/Conclusion - Advanced",
+  "missing": false,
+  "redirect": false,
+  "length": 1120,
+  "touched": "2026-07-30T08:21:03Z",
+  "revisionId": 4659,
+  "revisionTimestamp": "2020-08-17T09:54:49Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{Hpl3ScriptingGuideMenuAdvanced}}\n{{shortPageTitle}}\n{| style=\"border:0px;\" cellspacing=\"0\"\n|- valign=\"top\"\n| style=\"padding-right:0.2em\" |\nIn this section of the guide, we learned:\n\n*How to work with classes and what are their main uses\n*What are object handles and how they are used across the engine\n*The difference between object instance and object handle\n*How to cast different data types\n\nYou can now create even more complex scripting scenarios for your maps, and even create. All you need to do is to get familiar with the available functions the game offers.\n\n==Further Reading==\n\n*[[Advice for Scripting|Advice for Scripting]]\n*[[Hpl3:Game:guides:scripters_guide|Level Scripting - Best Practices]]\n*[[HPL3/Scripting/User Modules Overview|User Modules Overview]]\n*[[HPL3/SOMA/Scripting/Scripting Api|Scripting Api]] - SOMA\n*[[HPL3/Amnesia: Rebirth/Scripting/Scripting Api|Scripting Api]] - Amnesia: Rebirth\n| style=\"width:0.1%\" |\n|}\n{{NavBar|HPL3/Scripting/Scripting_Guide/Type Casting|Type Casting|HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide||}}\n\n[[Category:HPL3 Scripting]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Conclusion_-_Advanced",
+  "requestedTitle": "HPL3/Scripting/Scripting Guide/Conclusion - Advanced"
+}

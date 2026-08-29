@@ -1,0 +1,14 @@
+{
+  "pageid": 2641,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/Meter",
+  "missing": false,
+  "redirect": false,
+  "length": 2464,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5042,
+  "revisionTimestamp": "2020-08-24T20:56:58Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|void|[[#Meter_SetShakeMul|Meter_SetShakeMul]](const [[../../tString|tString]] &in asName, float afShakeMul)|Sets the shake multiplier of the needle object in meter}}\n{{CodeDocSummaryItem|void|[[#Meter_SetSpeedMul|Meter_SetSpeedMul]](const [[../../tString|tString]] &in asName, float afSpeedMul)|Sets the speed multiplier of the needle object in meter}}\n{{CodeDocSummaryItem|void|[[#Meter_SetState|Meter_SetState]](const [[../../tString|tString]] &in asName, float afState, bool abFadeToState <nowiki>=</nowiki> true)|Sets the state of the needle object in meter}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|Meter_SetShakeMul}}\n<syntaxhighlight lang=\"c++\">void Meter_SetShakeMul(const tString &in asName,\n                       float afShakeMul)</syntaxhighlight>\n{{CodeDocDetailBody|Sets the shake multiplier of the needle object in meter.}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asName|[[../../tString|tString]]|name of meter object}}\n{{CodeDocDetailParam|afShakeMul|float|the shaking multiplier. capped at 10.}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}\n\n{{CodeDocDetailTop|Meter_SetSpeedMul}}\n<syntaxhighlight lang=\"c++\">void Meter_SetSpeedMul(const tString &in asName,\n                       float afSpeedMul)</syntaxhighlight>\n{{CodeDocDetailBody|Sets the speed multiplier of the needle object in meter.}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asName|[[../../tString|tString]]|name of meter object}}\n{{CodeDocDetailParam|afSpeedMul|float|the speed multiplier.}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}\n\n{{CodeDocDetailTop|Meter_SetState}}\n<syntaxhighlight lang=\"c++\">void Meter_SetState(const tString &in asName,\n                    float afState,\n                    bool abFadeToState = true)</syntaxhighlight>\n{{CodeDocDetailBody|Sets the state of the needle object in meter. Which then makes the needle move to the specified state.}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asName|[[../../tString|tString]]|name of meter object}}\n{{CodeDocDetailParam|afState|float|percentage of where the needle should be. 0-1 (min pos - max pos).}}\n{{CodeDocDetailParam|abFadeToState|bool|if true then the needle will fade to state instead of skipping to it.}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Meter",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/Meter"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 2307,
+  "title": "HPL3/SOMA/Scripting/eGamepadAxis",
+  "missing": false,
+  "redirect": false,
+  "length": 881,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3787,
+  "revisionTimestamp": "2020-08-06T14:37:35Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eGamepadAxis_0</code> || <code>0</code> ||\n|-\n| <code>eGamepadAxis_1</code> || <code>1</code> ||\n|-\n| <code>eGamepadAxis_2</code> || <code>2</code> ||\n|-\n| <code>eGamepadAxis_3</code> || <code>3</code> ||\n|-\n| <code>eGamepadAxis_4</code> || <code>4</code> ||\n|-\n| <code>eGamepadAxis_5</code> || <code>5</code> ||\n|-\n| <code>eGamepadAxis_6</code> || <code>6</code> ||\n|-\n| <code>eGamepadAxis_7</code> || <code>7</code> ||\n|-\n| <code>eGamepadAxis_8</code> || <code>8</code> ||\n|-\n| <code>eGamepadAxis_9</code> || <code>9</code> ||\n|-\n| <code>eGamepadAxis_LastEnum</code> || <code>10</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadAxis",
+  "requestedTitle": "HPL3/SOMA/Scripting/eGamepadAxis"
+}

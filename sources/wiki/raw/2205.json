@@ -1,0 +1,14 @@
+{
+  "pageid": 2205,
+  "title": "HPL3/SOMA/Scripting/cWidgetTreeItem",
+  "missing": false,
+  "redirect": false,
+  "length": 2356,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3754,
+  "revisionTimestamp": "2020-08-06T14:30:54Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncWidgetTreeItem has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../cWidgetTreeItem|<syntaxhighlight lang=\"c++\" inline>cWidgetTreeItem@</syntaxhighlight>]] || AddChild || [[../tWString|<syntaxhighlight lang=\"c++\" inline>const tWString &in asText</syntaxhighlight>]] ||\n|-\n| [[../cWidgetTreeItem|<syntaxhighlight lang=\"c++\" inline>cWidgetTreeItem@</syntaxhighlight>]] || GetChild || <syntaxhighlight lang=\"c++\" inline>int alIdx</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetNumChildren ||   ||\n|-\n| [[../cWidgetTreeItem|<syntaxhighlight lang=\"c++\" inline>cWidgetTreeItem@</syntaxhighlight>]] || GetParent ||   ||\n|-\n| [[../cWidgetTreeItem|<syntaxhighlight lang=\"c++\" inline>cWidgetTreeItem@</syntaxhighlight>]] || GetRoot ||   ||\n|-\n| [[../tWString|<syntaxhighlight lang=\"c++\" inline>const tWString&</syntaxhighlight>]] || GetText ||  ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetUserValue ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || HasChildren ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsExpanded ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsSelectable ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsSelected ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetExpanded || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetSelectable || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetSelected || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetText || [[../tWString|<syntaxhighlight lang=\"c++\" inline>const tWString &in asText</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetUserValue || <syntaxhighlight lang=\"c++\" inline>int alValue</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetTreeItem",
+  "requestedTitle": "HPL3/SOMA/Scripting/cWidgetTreeItem"
+}

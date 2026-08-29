@@ -1,0 +1,14 @@
+{
+  "pageid": 2629,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/FogArea",
+  "missing": false,
+  "redirect": false,
+  "length": 1316,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5030,
+  "revisionTimestamp": "2020-08-24T20:53:38Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|void|[[#FogArea_SetVisible|FogArea_SetVisible]](const [[../../tString|tString]] &in asFogAreaName, bool abActive)|}}\n{{CodeDocSummaryItem|void|[[#FogArea_SetVisibleInReflection|FogArea_SetVisibleInReflection]](const [[../../tString|tString]] &in asFogAreaName, bool abActive)|}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|FogArea_SetVisible}}\n<syntaxhighlight lang=\"c++\">void FogArea_SetVisible(const tString &in asFogAreaName,\n                        bool abActive)</syntaxhighlight>\n{{CodeDocDetailBody|}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asFogAreaName|[[../../tString|tString]]|}}\n{{CodeDocDetailParam|abActive|bool|}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}\n\n{{CodeDocDetailTop|FogArea_SetVisibleInReflection}}\n<syntaxhighlight lang=\"c++\">void FogArea_SetVisibleInReflection(const tString &in asFogAreaName,\n                                    bool abActive)</syntaxhighlight>\n{{CodeDocDetailBody|}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asFogAreaName|[[../../tString|tString]]|}}\n{{CodeDocDetailParam|abActive|bool|}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/FogArea",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/FogArea"
+}

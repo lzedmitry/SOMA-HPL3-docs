@@ -1,0 +1,72 @@
+---
+const label = Astro.locals.t("menuButton.accessibleLabel");
+---
+
+<starlight-menu-button class="print:hidden">
+  <button
+    type="button"
+    aria-expanded="false"
+    aria-label={label}
+    aria-controls="starlight__sidebar"
+    class="docs-menu-btn sl-flex md:sl-hidden"
+  >
+    <span class="docs-menu-icon" aria-hidden="true">
+      <svg class="open-menu" width="14" height="14" viewBox="0 0 14 14" fill="none">
+        <path d="M1 3h12M1 7h12M1 11h12" stroke="currentColor" stroke-width="1.25"></path>
+      </svg>
+      <svg class="close-menu" width="14" height="14" viewBox="0 0 14 14" fill="none">
+        <path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="1.25"></path>
+      </svg>
+    </span>
+    <span class="docs-menu-label">Menu</span>
+  </button>
+</starlight-menu-button>
+
+<script>
+  class StarlightMenuButton extends HTMLElement {
+    btn: HTMLButtonElement | null = this.querySelector("button");
+
+    constructor() {
+      super();
+      this.btn?.addEventListener("click", () => this.toggleExpanded());
+      const parentNav = this.closest("nav");
+      if (parentNav) {
+        parentNav.addEventListener("keyup", (e: KeyboardEvent) => this.closeOnEscape(e));
+      }
+    }
+
+    setExpanded(expanded: boolean) {
+      this.setAttribute("aria-expanded", String(expanded));
+      this.btn?.setAttribute("aria-expanded", String(expanded));
+      this.btn?.setAttribute("aria-label", expanded ? "Close menu" : "Open menu");
+      document.body.toggleAttribute("data-mobile-menu-expanded", expanded);
+    }
+
+    toggleExpanded() {
+      this.setExpanded(this.getAttribute("aria-expanded") !== "true");
+    }
+
+    closeOnEscape(e: KeyboardEvent) {
+      if (e.code === "Escape") {
+        this.setExpanded(false);
+        this.btn?.focus();
+      }
+    }
+  }
+
+  if (!customElements.get("starlight-menu-button")) {
+    customElements.define("starlight-menu-button", StarlightMenuButton);
+  }
+</script>
+
+<style is:global>
+  [data-mobile-menu-expanded] {
+    overflow: hidden;
+  }
+
+  @media (min-width: 50rem) {
+    [data-mobile-menu-expanded] {
+      overflow: auto;
+    }
+  }
+</style>

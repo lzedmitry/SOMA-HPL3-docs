@@ -1,0 +1,180 @@
+---
+import { appLocale } from "../lib/locale";
+import { t, qualityLabel } from "../lib/ui-strings";
+import {
+  describe,
+  formatDuration,
+  productionStats,
+  productionVideos,
+  VIDEO_TOPICS,
+  canonicalWatchUrl,
+  type VideoQuality,
+} from "../lib/videos";
+
+const locale = appLocale(Astro.locals.starlightRoute.locale);
+const videos = productionVideos();
+const stats = productionStats();
+const qualities: VideoQuality[] = ["recommended", "useful", "supplementary", "legacy"];
+const languages = [
+  { id: "en", label: "English" },
+  { id: "ru", label: "Русский" },
+  { id: "de", label: "Deutsch" },
+  { id: "fr", label: "Français" },
+  { id: "it", label: "Italiano" },
+  { id: "es", label: "Español" },
+  { id: "other", label: t("otherLanguage", locale) },
+];
+const payload = videos.map((v) => ({
+  id: v.youtubeId,
+  title: v.title.toLowerCase(),
+  channel: v.channel.toLowerCase(),
+  topics: v.topics,
+  pages: v.documentationPages,
+  quality: v.quality,
+  language: v.language,
+  subtitles: v.subtitles || [],
+  desc: describe(v, locale).toLowerCase(),
+}));
+---
+
+<div class="video-lib" data-empty={t("noVideos", locale)}>
+  <div class="video-lib-filters">
+    <label class="sr-only" for="video-q">{t("videoSearch", locale)}</label>
+    <input
+      id="video-q"
+      type="search"
+      placeholder={t("videoSearch", locale)}
+      class="api-filter"
+      autocomplete="off"
+      spellcheck="false"
+    />
+    <div class="video-filter-row">
+      <label>
+        {t("topic", locale)}
+        <select id="video-topic">
+          <option value="">{t("allTopics", locale)}</option>
+          {VIDEO_TOPICS.map((item) => (
+            <option value={item.id}>{item.label}</option>
+          ))}
+        </select>
+      </label>
+      <label>
+        {t("quality", locale)}
+        <select id="video-quality">
+          <option value="">{t("allQuality", locale)}</option>
+          {qualities.map((q) => (
+            <option value={q}>{qualityLabel(q, locale)}</option>
+          ))}
+        </select>
+      </label>
+      <label>
+        {t("language", locale)}
+        <select id="video-lang">
+          <option value="">{t("allLanguages", locale)}</option>
+          {languages.map((item) => (
+            <option value={item.id}>{item.label}</option>
+          ))}
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <p class="stats-line" id="video-count">
+    {videos.length} / {stats.total} · {t("recommended", locale)} {stats.recommended} · {t("legacy", locale)} {stats.legacy}
+  </p>
+  <p class="video-host-note">{t("hostedOnYoutube", locale)}</p>
+
+  <ul class="video-row-list" id="video-list">
+    {
+      videos.map((v, i) => {
+        const dur = formatDuration(v.duration);
+        const watch = canonicalWatchUrl(v.youtubeId);
+        return (
+          <li class="video-row" data-idx={i}>
+            <div class="video-row-main">
+              <p class="video-row-title">
+                <span class="video-play-mark" aria-hidden="true">▶</span>
+                <a href={watch} rel="noreferrer">{v.title}</a>
+              </p>
+              <p class="video-row-meta">
+                {[v.channel, dur, v.language, v.published].filter(Boolean).join(" · ")}
+                <span class:list={["video-quality", v.quality]}>{qualityLabel(v.quality, locale)}</span>
+              </p>
+              {describe(v, locale) && (
+                <p class="video-row-desc">
+                  <span class="video-covers">{t("whatItCovers", locale)}.</span> {describe(v, locale)}
+                </p>
+              )}
+              {v.warnings?.length ? <p class="video-row-warn">{v.warnings[0]}</p> : null}
+              {v.series && (
+                <p class="video-row-series">
+                  {t("series", locale)}
+                  {v.seriesPart ? ` · ${v.seriesPart}` : ""}
+                </p>
+              )}
+              <p class="video-row-actions">
+                <a href={watch} rel="noreferrer">{t("playOnYoutube", locale)}</a>
+              </p>
+            </div>
+          </li>
+        );
+      })
+    }
+  </ul>
+  <script type="application/json" id="video-index" is:inline set:html={JSON.stringify(payload)} />
+</div>
+
+<script>
+  type Row = {
+    id: string;
+    title: string;
+    channel: string;
+    topics: string[];
+    pages: string[];
+    quality: string;
+    language: string;
+    subtitles: string[];
+    desc: string;
+  };
+  const root = document.querySelector(".video-lib");
+  const json = document.getElementById("video-index")?.textContent || "[]";
+  const data = JSON.parse(json) as Row[];
+  const q = document.getElementById("video-q") as HTMLInputElement | null;
+  const topic = document.getElementById("video-topic") as HTMLSelectElement | null;
+  const quality = document.getElementById("video-quality") as HTMLSelectElement | null;
+  const lang = document.getElementById("video-lang") as HTMLSelectElement | null;
+  const count = document.getElementById("video-count");
+  const rows = Array.from(document.querySelectorAll("#video-list .video-row")) as HTMLElement[];
+  const empty = root?.getAttribute("data-empty") || "";
+
+  function apply() {
+    const query = (q?.value || "").trim().toLowerCase();
+    const tpc = topic?.value || "";
+    const qual = quality?.value || "";
+    const language = lang?.value || "";
+    let n = 0;
+    data.forEach((item, i) => {
+      let show = true;
+      if (tpc && !item.topics.includes(tpc) && !item.pages.some((p) => p === tpc || p.startsWith(`${tpc}/`))) show = false;
+      if (qual && item.quality !== qual) show = false;
+      if (language) {
+        if (language === "other") {
+          if (["en", "ru", "de", "fr", "it", "es"].includes(item.language)) show = false;
+        } else if (item.language !== language && !item.subtitles.some((s) => s === language || s.startsWith(`${language}-`))) {
+          show = false;
+        }
+      }
+      if (query) {
+        const hay = `${item.title} ${item.channel} ${item.topics.join(" ")} ${item.desc}`;
+        if (!hay.includes(query)) show = false;
+      }
+      if (rows[i]) rows[i].hidden = !show;
+      if (show) n += 1;
+    });
+    if (count) count.textContent = `${n} / ${data.length}${n === 0 ? ` — ${empty}` : ""}`;
+  }
+  q?.addEventListener("input", apply);
+  topic?.addEventListener("change", apply);
+  quality?.addEventListener("change", apply);
+  lang?.addEventListener("change", apply);
+</script>

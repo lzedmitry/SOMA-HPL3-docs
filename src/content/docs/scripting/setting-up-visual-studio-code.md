@@ -1,0 +1,257 @@
+---
+title: Setting up Visual Studio Code
+description: HPL3 Language Tools is a community-made Visual Studio Code extension that provides language support for HPL3 .hps scripts.
+category: scripting
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Setting_up_Visual_Studio_Code"
+sourceRevision: 7170
+sourceUpdated: "2026-07-30T22:18:53Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - scripting
+---
+## Visual Studio Code language support
+[HPL3 Language Tools](https://marketplace.visualstudio.com/items?itemName=TiManGames.hpl3-language-tools) is a community-made Visual Studio Code extension that provides language support for HPL3 `.hps` scripts.
+
+It supports:
+
+- *SOMA*
+- *Amnesia: Rebirth*
+- *Amnesia: The Bunker*
+
+The extension treats HPL3 scripts as their own AngelScript-based language instead of C++. This prevents unrelated C++ diagnostics and enables HPL3-specific completion, validation, navigation, mod overlays, and callback checking.
+
+HPL3 Language Tools is not affiliated with or endorsed by Frictional Games. The game compiler remains the final authority when validating scripts.
+
+### Installation
+#### Visual Studio Marketplace
+1. Open Visual Studio Code.
+1. Open the **Extensions** view.
+1. Search for **HPL3 Language Tools**.
+1. Select the extension published by **TiManGames**.
+1. Click **Install**.
+
+#### Local VSIX
+The extension can also be installed manually:
+
+1. Download the latest `.vsix` package from the [GitHub releases page](https://github.com/TiManGames/hpl3-language-tools/releases).
+1. Open the Visual Studio Code Command Palette with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>.
+1. Run **Extensions: Install from VSIX...**
+1. Select the downloaded file.
+1. Reload Visual Studio Code if prompted.
+
+### Opening an HPL3 project
+The simplest setup is to open the game installation folder as the Visual Studio Code workspace:
+
+```
+C:\Program Files (x86)\Steam\steamapps\common\SOMA
+C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth
+C:\Program Files (x86)\Steam\steamapps\common\Amnesia The Bunker
+```
+
+When the game folder is open, the extension normally detects the game automatically by locating:
+
+- `hps_api.hps`
+- `resources.cfg`
+- The `script` directory
+
+It is also possible to open an individual mod folder or another folder beneath the game installation.
+
+If automatic detection fails:
+
+1. Open the Command Palette.
+1. Run **HPL3: Select Game Root**.
+1. Select the root folder of the appropriate HPL3 game.
+
+The selected folder should be the main game folder, not its `mods`, `maps`, or `script` subdirectory.
+
+### HPS language association
+Files ending in `.hps` should use the **HPL3 HPS** language mode.
+
+The current language mode is displayed in the lower-right corner of Visual Studio Code. If it displays **C++**, click it and select **HPL3 HPS**.
+
+Some existing setups explicitly associate HPS files with C++:
+
+```
+"files.associations": {
+    "*.hps": "cpp"
+}
+```
+
+Remove that association if it prevents the extension from selecting HPL3 HPS. The extension may display a one-time warning about this configuration, but it will not modify the user's settings automatically.
+
+### Selecting an active mod
+By default, `hpl3.activeMod` is set to `auto`.
+
+In automatic mode, the extension selects the mod containing the currently opened script. To select a mod explicitly:
+
+1. Open the Command Palette.
+1. Run **HPL3: Select Active Mod**.
+1. Select the desired mod.
+
+The active mod controls script overlays, include resolution, completion, definitions, and project validation.
+
+Resolution generally follows this priority:
+
+1. The directory containing the current file
+1. The active mod
+1. Direct mod dependencies
+1. Deeper transitive dependencies
+1. The base game
+1. Additional configured resource roots
+
+An active-mod file shadows a dependency or base-game file using the same virtual resource path.
+
+### Mod dependencies
+The extension reads each mod's `entry.hpc` file and resolves dependencies through their exact `Content.UID` values.
+
+When mod X depends on mod Y, selecting mod X indexes:
+
+- Scripts belonging to mod X
+- Scripts belonging to mod Y
+- Reachable transitive dependencies
+- Base-game scripts and API declarations
+
+Unrelated mods are excluded.
+
+Missing dependencies, duplicate UIDs, malformed manifests, and dependency cycles are reported through the HPL3 status tooltip and output channel. Valid and unambiguous dependencies continue to be indexed when possible.
+
+### Language features
+HPL3 Language Tools provides:
+
+- Engine and project API completion
+- Class and inherited-member completion
+- Enum-value completion
+- Array and handle type inference
+- Include-path completion
+- Hover documentation
+- Function signature help
+- Go to definition
+- Document and workspace symbols
+- Include navigation
+- Incremental analysis while editing
+- Automatic reindexing when scripts are changed or saved
+- Semantic highlighting for HPL3 types, members, enums, and keywords
+
+Documentation and engine declarations are primarily loaded from the selected game's `hps_api.hps` file.
+
+### Diagnostics
+The extension reports likely script or engine failures, including:
+
+- Malformed HPL3 or AngelScript syntax
+- Unresolved or ambiguous includes
+- Unknown variables, functions, types, or members
+- Duplicate declarations in the same scope
+- Invalid assignments and primitive conversions
+- Invalid return values
+- Incorrect constructor arguments
+- Missing function arguments
+- Invalid overload calls
+- Callback names that cannot be resolved
+- Callback signature mismatches
+- Unsupported dialect operations such as `array.clear()`
+
+Callback and mutable-global checks that can be valid in dynamic HPL3 code are generally displayed as warnings.
+
+The extension intentionally does not enforce:
+
+- C++ formatting conventions
+- Naming conventions
+- Include guards
+- Pointer style
+- Unused-variable rules
+- Other C++-specific style diagnostics
+
+To validate every indexed script rather than only open or affected files, run **HPL3: Validate Workspace**.
+
+### Running the current map
+A **Run Map** CodeLens and editor-title play button appear when an HPS map script has a matching `.hpm` or legacy `.map` asset.
+
+To launch the map:
+
+1. Open the map's `.hps` script.
+1. Click **Run Map** above the map class, or click the play icon in the editor title.
+1. The extension saves modified workspace files.
+1. The selected game starts in developer mode with the resolved map and mod arguments.
+
+The map is resolved through the active-mod, dependency, and base-game overlays. A script-only mod override can therefore launch a map asset supplied by a dependency or the base game.
+
+Launch details are written to the **HPL3 Map Launcher** output channel.
+
+The extension directly launches the game executable. It does not create or modify development batch files.
+
+### Commands
+| Command | Description |
+| --- | --- |
+| **HPL3: Select Game Root** | Selects the SOMA, Rebirth, or Bunker installation used for indexing. |
+| **HPL3: Select Active Mod** | Selects the active mod and its dependency profile. |
+| **HPL3: Rebuild Language Index** | Discards existing caches and reindexes the API, resources, and scripts. |
+| **HPL3: Validate Workspace** | Runs diagnostics across the complete indexed project. |
+| **HPL3: Run Current Map** | Launches the map associated with the current script. |
+
+### Settings
+| Setting | Default | Description |
+| --- | --- | --- |
+| `hpl3.gameRoot` | Automatic | Absolute path to a supported HPL3 game installation. |
+| `hpl3.activeMod` | `auto` | Automatically detected or explicitly selected active mod. |
+| `hpl3.extraResourceRoots` | `[]` | Additional read-only resource roots searched after mod and base-game resources. |
+| `hpl3.diagnostics.maxPerFile` | `100` | Maximum number of diagnostics displayed in one file. |
+| `hpl3.trace.server` | `off` | Controls language-server protocol logging. |
+| `hpl3.launch.executable` | Automatic | Optional game executable override. |
+| `hpl3.launch.user` | `Dev` | Developer user passed to the game. |
+| `hpl3.launch.config` | `config/main_init_dev.cfg` | Developer configuration passed to the game. |
+| `hpl3.launch.extraArgs` | `[]` | Additional arguments appended to the map-launch command. |
+
+### Troubleshooting
+#### Completion is not displayed
+- Confirm that the file language mode is **HPL3 HPS**.
+- Remove any explicit `"*.hps": "cpp"` file association.
+- Verify that the correct game and mod appear in the HPL3 status tooltip.
+- Run **HPL3: Rebuild Language Index**.
+
+#### The project is marked as degraded
+Open **View: Toggle Output** and select the **HPL3 Language Server** channel.
+
+A degraded project can be caused by:
+
+- A missing or malformed `hps_api.hps`
+- A malformed `entry.hpc`
+- Missing or duplicate dependency UIDs
+- Dependency cycles
+- Invalid resource configuration
+
+When API indexing is degraded, the extension suppresses unreliable unknown-engine-symbol diagnostics to avoid excessive false errors.
+
+#### The wrong helper definition is selected
+Use **HPL3: Select Active Mod** and confirm the intended top-level mod. The active mod shadows dependency and base-game resources using the same virtual path.
+
+#### Run Map is unavailable
+Confirm that:
+
+- The current file is an HPS map script.
+- A matching `.hpm` or `.map` asset exists.
+- The map is reachable through the selected mod profile.
+- The correct game root is selected.
+
+### Platform support
+Windows is the officially supported platform.
+
+Language-server features may work on Linux when `hpl3.gameRoot` points to a Steam/Proton installation. Linux is not currently tested, and **Run Map** is Windows-only because it directly detects and launches the Windows game executables.
+
+### Source code and bug reports
+Source code, releases, and issue tracking are available at:
+
+- [TiManGames/hpl3-language-tools](https://github.com/TiManGames/hpl3-language-tools)
+- [Report a bug or request a feature](https://github.com/TiManGames/hpl3-language-tools/issues)
+
+HPL3/Scripting/Scripting_Guide/What is scripting in HPL3?|What is scripting in HPL3?|HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide|HPL3/Scripting/Scripting_Guide/Scripting Workflow and Structure|Scripting Workflow and Structure
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/Setting up Visual Studio Code](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Setting_up_Visual_Studio_Code)
+- Revision: `7170`
+- Source update: `2026-07-30T22:18:53Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

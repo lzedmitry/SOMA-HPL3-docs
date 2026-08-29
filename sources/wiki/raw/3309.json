@@ -1,0 +1,14 @@
+{
+  "pageid": 3309,
+  "title": "HPL3/Areas/Ladder Area",
+  "missing": false,
+  "redirect": false,
+  "length": 1524,
+  "touched": "2024-01-25T21:40:43Z",
+  "revisionId": 6748,
+  "revisionTimestamp": "2024-01-25T21:40:43Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "== Overview ==\nThe Ladder Area allows players to climb a ladder. This area will also cause the climbing hands animation. If the animation of the hands does not meet the spokes of the ladder then the area must be carefully moved while grid snap is disabled. In order to work properly, an [[HPL3/Areas/InteractAux Area|InteractAux Area]] with its '''InteractParent''' property set to the Ladder Area must be placed next to the Trigger Area, as seen in the image.\n\n== Properties ==\n[[Image:Ladder.png|thumb|A functioning ladder setup. Light green = Ladder Area, bluegreen = InteractAux Area, red = Trigger Area|right]]\nThe  where the player will end up when exiting the ladder from the top.\n=== Base ===\n* '''Material''': The type of sound effect to play while climbing\n* '''Exit_Top''': The [[HPL3/Areas/Trigger Area|Trigger Area]] the players feet will be move to when exiting the ladder from the top\n* '''Exit_TopCrouching''': If the player should be crouched after exiting the ladder from the top\n* '''Exit_Bottom''': The [[HPL3/Areas/Trigger Area|Trigger Area]] the players feet will be move to when exiting the ladder from the bottom\n* '''Exit_BottomCrouching''': If the player should be crouched after exiting the ladder from the bottom\n\n\n\n=== Attachment ===\n* '''ParentAttachEntity''': The name of an entity that this soundscape is parented to.\n* '''ParentAttachUseRotation''': If the rotation of the parent should affect the soundscape.\n* '''ParentAttachBody''': The name of the body in the parent entity to attach to.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Ladder_Area",
+  "requestedTitle": "HPL3/Areas/Ladder Area"
+}

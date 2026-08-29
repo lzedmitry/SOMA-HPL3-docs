@@ -1,0 +1,14 @@
+{
+  "pageid": 2374,
+  "title": "HPL3/SOMA/Scripting/eRenderableType",
+  "missing": false,
+  "redirect": false,
+  "length": 983,
+  "touched": "2020-08-27T22:05:51Z",
+  "revisionId": 3854,
+  "revisionTimestamp": "2020-08-06T14:51:37Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eRenderableType_ParticleEmitter</code> || <code>0</code> ||\n|-\n| <code>eRenderableType_SubMesh</code> || <code>1</code> ||\n|-\n| <code>eRenderableType_Light</code> || <code>2</code> ||\n|-\n| <code>eRenderableType_Billboard</code> || <code>3</code> ||\n|-\n| <code>eRenderableType_Beam</code> || <code>4</code> ||\n|-\n| <code>eRenderableType_GuiSet</code> || <code>5</code> ||\n|-\n| <code>eRenderableType_Rope</code> || <code>6</code> ||\n|-\n| <code>eRenderableType_FogArea</code> || <code>7</code> ||\n|-\n| <code>eRenderableType_TerrainPatch</code> || <code>8</code> ||\n|-\n| <code>eRenderableType_ForceField</code> || <code>9</code> ||\n|-\n| <code>eRenderableType_LastEnum</code> || <code>13</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eRenderableType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eRenderableType"
+}

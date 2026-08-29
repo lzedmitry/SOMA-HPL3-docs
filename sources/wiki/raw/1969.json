@@ -1,0 +1,14 @@
+{
+  "pageid": 1969,
+  "title": "HPL3/SOMA/Scripting/cActorAnimController",
+  "missing": false,
+  "redirect": false,
+  "length": 1438,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3524,
+  "revisionTimestamp": "2020-08-06T13:18:15Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncActorAnimController has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || BeginLipsync || [[../iLipsyncResult|<syntaxhighlight lang=\"c++\" inline>iLipsyncResult@ apLipsync</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || PlayEmotion || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asEmotion</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>float afDuration</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afWeight = 1.0f</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afFadeTime = 0.1f</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || PlayGesture || <syntaxhighlight lang=\"c++\" inline>int alID</syntaxhighlight>,<br />[[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asGesture</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Stop || <syntaxhighlight lang=\"c++\" inline>bool abFadeOut = false</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || StopLipsync ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cActorAnimController",
+  "requestedTitle": "HPL3/SOMA/Scripting/cActorAnimController"
+}

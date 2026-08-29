@@ -1,0 +1,14 @@
+{
+  "pageid": 2005,
+  "title": "HPL3/SOMA/Scripting/cEventOwner",
+  "missing": false,
+  "redirect": false,
+  "length": 757,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3553,
+  "revisionTimestamp": "2020-08-06T13:28:34Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncEventOwner has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetGroupFlags ||  ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetId ||  ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString&</syntaxhighlight>]] || GetName ||  ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetGroupFlags || <syntaxhighlight lang=\"c++\" inline>int alFlags</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEventOwner",
+  "requestedTitle": "HPL3/SOMA/Scripting/cEventOwner"
+}

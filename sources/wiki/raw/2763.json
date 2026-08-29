@@ -1,0 +1,14 @@
+{
+  "pageid": 2763,
+  "title": "HPL3/Resources/TDD Asset Pack",
+  "missing": false,
+  "redirect": false,
+  "length": 527,
+  "touched": "2020-11-10T18:31:36Z",
+  "revisionId": 5586,
+  "revisionTimestamp": "2020-11-10T18:31:36Z",
+  "revisionUser": "Darkfire",
+  "wikitext": "The [http://steamcommunity.com/sharedfiles/filedetails/?id=570600440 Amnesia: The Dark Descent Asset Pack] has been released on Steam.\n\nYou can download it and put it in your mod to use it, but it would be recommended to instead use a [[HPL3/Modding/Mod_Dependencies|mod dependency]]. It might not be possible for Amnesia: Rebirth, because the asset pack is released as a SOMA mod.\n\n{{todo| Test if Rebirth can use a SOMA mod as dependancy }}\n\nFurther reading: [[Hpl3:Community:other:hpl2 import|Importing HPL2 assets to HPL3]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Resources/TDD_Asset_Pack",
+  "requestedTitle": "HPL3/Resources/TDD Asset Pack"
+}

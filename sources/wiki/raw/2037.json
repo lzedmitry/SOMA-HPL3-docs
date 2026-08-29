@@ -1,0 +1,14 @@
+{
+  "pageid": 2037,
+  "title": "HPL3/SOMA/Scripting/cImGuiFont",
+  "missing": false,
+  "redirect": false,
+  "length": 1020,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3583,
+  "revisionTimestamp": "2020-08-06T13:40:09Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mColor || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mMaterial || [[../eGuiMaterial|<syntaxhighlight lang=\"c++\" inline>eGuiMaterial</syntaxhighlight>]] ||\n|-\n| mvSize || [[../cVector2f|<syntaxhighlight lang=\"c++\" inline>cVector2f</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString&</syntaxhighlight>]] || GetFile ||  ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>uint64</syntaxhighlight> || GetId ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetFile || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asFile</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiFont",
+  "requestedTitle": "HPL3/SOMA/Scripting/cImGuiFont"
+}

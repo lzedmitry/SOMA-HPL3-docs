@@ -1,0 +1,14 @@
+{
+  "pageid": 3454,
+  "title": "HPL3/Particles/Particle Rendering",
+  "missing": false,
+  "redirect": false,
+  "length": 586,
+  "touched": "2026-07-30T22:15:25Z",
+  "revisionId": 7159,
+  "revisionTimestamp": "2026-07-30T22:15:25Z",
+  "revisionUser": "TiMan",
+  "wikitext": "=== Rendering ===\n\n* '''Draw Type''': The different ways in which the particles can be draw to screen.\n''' '''Point''': The particle is a point and will always be pointing towards the camera.\n''' '''Line''': The particle is aligned in the direction in which the particle is travelling.\n* '''Multiply RGB with Alpha''': Some materials does not fade out the image when alpha is decreased (for example Additive) in this case it can be good to check this.\n* '''Size''': The size of the particle. This is the value used in the fading.\n* '''Size Fading''': See 1.2 for instructions on fading.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Rendering",
+  "requestedTitle": "HPL3/Particles/Particle Rendering"
+}

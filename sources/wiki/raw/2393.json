@@ -1,0 +1,14 @@
+{
+  "pageid": 2393,
+  "title": "HPL3/SOMA/Scripting/eTextureWrap",
+  "missing": false,
+  "redirect": false,
+  "length": 587,
+  "touched": "2020-08-27T22:05:51Z",
+  "revisionId": 3873,
+  "revisionTimestamp": "2020-08-06T14:55:47Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eTextureWrap_Repeat</code> || <code>0</code> ||\n|-\n| <code>eTextureWrap_Clamp</code> || <code>1</code> ||\n|-\n| <code>eTextureWrap_ClampToEdge</code> || <code>2</code> ||\n|-\n| <code>eTextureWrap_ClampToBorder</code> || <code>3</code> ||\n|-\n| <code>eTextureWrap_LastEnum</code> || <code>5</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eTextureWrap",
+  "requestedTitle": "HPL3/SOMA/Scripting/eTextureWrap"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 3356,
+  "title": "HPL3/Areas/InteractAux Area",
+  "missing": false,
+  "redirect": false,
+  "length": 315,
+  "touched": "2024-01-24T17:50:41Z",
+  "revisionId": 6726,
+  "revisionTimestamp": "2024-01-24T17:50:41Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "== Overview ==\nA volume entity which when interacted with, calls the parented entities onInteract function. When the parent entities interaction is disabled, the InteractAux area will also be disabled automatically. \n\n== Properties ==\n=== InteractParent ===\nThe interactable entity to call the interact function on.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/InteractAux_Area",
+  "requestedTitle": "HPL3/Areas/InteractAux Area"
+}

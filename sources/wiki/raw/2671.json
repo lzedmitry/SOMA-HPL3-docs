@@ -1,0 +1,14 @@
+{
+  "pageid": 2671,
+  "title": "HPL3/SOMA/Third Party Tools/SOMA Text Search Tool",
+  "missing": false,
+  "redirect": false,
+  "length": 1082,
+  "touched": "2020-08-26T21:11:21Z",
+  "revisionId": 5184,
+  "revisionTimestamp": "2020-08-26T21:11:21Z",
+  "revisionUser": "TiMan",
+  "wikitext": "[[File:Soma-search-tool.png|thumb|500x500px|SOMA text search tool.]]\n{{shortPageTitle}}\nText search tool for SOMA.\n\n'''Features:'''\n\n*Quickly searches files within the SOMA directory for a given keyword or text entry.\n*Toggles between searching through script files, map files, entity files, or lang files - or any combination of the four.\n*Displays the search results in a comprehensive list, complete with line numbers and a context preview.\n*Allows for the common search tags of \"Match Case\" and \"Match Whole Word\".\n*Allows for the search to include files within the mods folder.\n\n==Download==\n{| class=\"wikitable\"\n!Application\n!Upload Date\n!SHA\n!VirusTotal\n|-\n|[https://drive.google.com/file/d/1w53IqbX07Cju5heAevQpZOOvlVYbu7qr/view?usp=sharing TextSearchTool.exe]\n|1 August, 2020\n|23d4405f362aae695173d85b6a2adae27bdc5be945396095612fbf3ca5e08739\n|[https://www.virustotal.com/gui/file/23d4405f362aae695173d85b6a2adae27bdc5be945396095612fbf3ca5e08739/detection Results]\n|}\n\n===Installation===\nPut the application in the SOMA game folder.\n[[Category:Modding]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Third_Party_Tools/SOMA_Text_Search_Tool",
+  "requestedTitle": "HPL3/SOMA/Third Party Tools/SOMA Text Search Tool"
+}

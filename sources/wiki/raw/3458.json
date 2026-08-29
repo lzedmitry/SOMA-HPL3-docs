@@ -1,0 +1,14 @@
+{
+  "pageid": 3458,
+  "title": "HPL3/Particles/Particle General",
+  "missing": false,
+  "redirect": false,
+  "length": 1102,
+  "touched": "2026-07-30T22:16:18Z",
+  "revisionId": 7164,
+  "revisionTimestamp": "2026-07-30T22:16:18Z",
+  "revisionUser": "TiMan",
+  "wikitext": "=== General ===\n\n* '''Name''': The name of the emitter currently selected.\n* '''Max Particles''': The maximum number of particles that can be alive at once. When this limit is reached no more particles will be created.\n* '''Particles per Second''': The number of particles per second that will be created.\n* '''Start time offset''': Time offset in seconds before the emitter starts.\n* '''Respawn dead particles''': If dead particles should be respawned.\n* '''Warm up time''': Time that the emitter gets to warm up. This is useful when doing a a stream of something (like a fire or waterfall) and the particles should not be shown “starting up”.\n* '''Pause''': A pause is a break during which no particles are created. Particles are updated though.\n* '''Pause Length''': The length of the pauses, 0 and 0 means that there are no pauses.\n* '''Pause Interval''': The length between pauses. 0 and 0 means that there are no pauses.\n* '''Offset position''': How the emitter is offset relative to its starting position.\n* '''Offset angle''': How the particle system is offset relative to its start angles.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_General",
+  "requestedTitle": "HPL3/Particles/Particle General"
+}

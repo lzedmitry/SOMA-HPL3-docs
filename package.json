@@ -1,0 +1,42 @@
+{
+  "name": "soma-hpl3-docs",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.15.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0 --port 8080 --strictPort",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1 --port 8081 --strictPort",
+    "typecheck": "astro check",
+    "sync:wiki": "python3 scripts/wiki/fetch_wiki.py && python3 scripts/wiki/transform.py",
+    "sync:wiki:dry": "python3 scripts/wiki/fetch_wiki.py && python3 scripts/wiki/transform.py",
+    "check": "python3 scripts/wiki/check_links.py && python3 scripts/wiki/classify_links.py && astro check",
+    "test": "node --test 'scripts/**/*.test.mjs' && python3 scripts/wiki/check_links.py",
+    "videos:check": "node scripts/videos/check.mjs",
+    "i18n:generate": "python3 scripts/i18n/generate.py",
+    "i18n:qa": "python3 scripts/i18n/qa.py",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/starlight": "^0.35.2",
+    "@fontsource/ibm-plex-mono": "^5.2.6",
+    "@fontsource/ibm-plex-sans": "^5.2.6",
+    "@fontsource/ibm-plex-sans-condensed": "^5.2.6",
+    "astro": "^5.13.2",
+    "sharp": "^0.34.2",
+    "typescript": "^5.7.0",
+    "zod": "^4.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/node": "^22.16.5",
+    "eslint": "^9.20.0",
+    "playwright": "^1.62.0",
+    "prettier": "^3.4.0"
+  }
+}

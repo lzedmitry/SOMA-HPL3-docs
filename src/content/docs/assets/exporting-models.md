@@ -1,0 +1,168 @@
+---
+title: Exporting Models
+description: "= Model Export ="
+category: assets
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling/Exporting_Models"
+sourceRevision: 7124
+sourceUpdated: "2026-07-30T21:10:32Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - assets
+---
+= Model Export =
+
+HPL3 mainly uses [Collada](http://www.khronos.org/collada/) for importing models into the engine binary format, so this guide will only be about the Collada format (.dae). First of there will be some general information that concerns all 3d modelers. After that there will be some more specifics for the mayor packats
+
+## General
+### Setup
+**<u>Units</u> **   
+Before doing any modelling, make sure that the units are properly set up. It is recommended that 1 unit equal 1 meter. It is also okay that 1 unit = 1 centimeter, but then a 1 meter high object needs to be 100 units high and so on. The engine will automatically adjust any data according to how the units are set up.
+
+When working with animated objects the unit scale must be the same for the mesh and the animation. If they are different the animation will scaled incorrectly, causing the mesh to expand or shrink when animated.
+
+### Modelling
+**<u>Setting Material</u> **   
+Always set the diffuse texture of the editor-material to have the same name as the engine-material (.mat) you want it to have. This is best accomplished by always letting the diffuse texture for the material have the same name as the engine-material (e.g. "dirt_road.dds" and "dirt_road.mat"). What happens when the model is loaded is that the engine checks the diffuse texture for the current submesh and then replaces the extention (eg ".dds", ".tga", etc) with ".mat" and then tries to load a material with that file name.  
+**Note:** When using the modelviewer, it will automatically create the ".mat"-file if one does not exist, and thus an engine-material does not need to be created by hand if the names of the texture are set up as described [here](https://wiki.frictionalgames.com/page/:hpl3:engine:here).
+
+**<u>Multiple Materials</u> **   
+In order to have a mesh with multiple material you must have several submeshes (or whatever the name of discrete objects in the editor) each with its own material and with different names of the diffuse texture. For example say you are making a character that requires a two materials, one for the hair and one for the body. You then first need to make sure that the hair and body are separate submeshes, then give each one their own material. The body's material can then have the diffuse map: "character_body.dds" and the hair's material can have "character_hair.dss". The engine will now use two different materials to load this character.  
+Note that this is the only way to go about! It is not possible to have polygon-IDs or whatever tricks the editor might have. One submesh can only have one material!
+
+### Animation
+## Maya
+### Setup
+**<u>Collada exporter settings</u> **   
+Here is how the export tool should be set up:  
+
+> **Figure (original Wiki file, not inlined):** [maya_collada_export.jpg](https://wiki.frictionalgames.com/page/File:maya_collada_export.jpg)
+  
+(Click for large version)
+
+*Note: If you are using a newer exporter there could be issues with scaling, especially with detail meshes. Solution is to set the units to "Centimeters".*
+### Modelling
+**<u>Material fails to export</u> **   
+If the model gets exported without any material check if any of this helps:  
+**1)** Check so that "intitialshadingGroup" has not been connected to the model. If it has been, then simple set the same material to the model again and the problem will go away.  
+**2)** Check so that two materials have not been set on the same mesh. For having a mesh with multiply material see [General/Modelling/Multiple Materials](https://wiki.frictionalgames.com/page/:hpl3:engine:materials)
+
+### Animation
+## Looped animations
+It is prefered if looped animations are exported so that they have the same keyframe at the first and last position. This will guarantee that they are looped correctly.
+
+## Additional animation setup
+Additional information about the animation can be setup by adding a .anm_info file with the same name as the animation. This file can be used to specify advanced settings that might be hard to get correct when exporting. The anm_info file is stored as an xml document.
+
+### Bone Setup
+Information about which bones should be active for the animation can be specified in the file. You can either include or exclude bones. Each bone is specified with a name (wildcard allowed) and if it should affect all the children of the bone(s).
+
+Here is an example of some XML code.
+
+```
+<AnimationInfo>
+    <BoneSetup>
+        
+        <Exclude Bone="*" />
+        
+        <Include Bone="j_L_Arm_1" Children="true" />
+        
+        <Exclude Bone="j_*_Arm_3" Children="true" />
+    </BoneSetup>
+</AnimationInfo>
+```
+
+## 3DS Max
+### Modelling
+### Animation
+## Modo
+### Modelling
+**<u>Mesh Setup</u> **   
+Every submesh in the scene need to have its own mesh layer and material for the texture and properties to be exported correctly.
+
+**<u>Triangulate</u> **   
+The export tool does not triangulate the mesh autoatically so before exporting, you must enter geometry/polygon/triple in order for everything to be triangulated.
+
+<u>**Unit Setup**</u>
+
+It is important to have your grid/units set up correctly so that the scale of the meshes you create are 1:1 with that of the game's unit size.
+
+To do this, navigate to the System drop-down>Units:
+
+Unit system: Game Units  
+Default unit: Game Units  
+Meters per Game Unit: 1.0  
+Coordinate System: Up=Y
+
+### Animation
+For animation it is highly recommended that you use the FBX format. Whilst it is possible to use collada .dae, the setup is tedious and output has mixed results.
+
+**FBX format setup:**
+
+Before exporting there's a couple of settings you should make sure are set in order for the pipeline to be smooth.
+
+Open System>Preferences and under File I/O, select FBX I/O.
+
+Export Version: FBX 2013  
+Export type: Export Selection with hierarchy  
+Save as text format: no  
+Save only animation: no when exporting mesh / yes when exporting animation  
+Save cameras: no  
+Save lights: no  
+Save materials: yes  
+Save polygon parts: yes  
+Save selection sets: no  
+Save mesh smoothness: yes  
+Save morph maps: no  
+Save animation: no when exporting animation / yes when exporting animation  
+Sample animation: yes when exporting animation
+
+Exporting an animated mesh is broken down into two parts. First you need to export the mesh which has all the polygons and material information. Basically what is rendered.  
+The mesh must have a bone skeleton and has to be skinned/rigged to it
+
+Once your rigged mesh is exported you then have to export the animations. The animations should be exported as separate files for each action (walk, run, etc) and be in a folder named "animations" next to your .fbx.  
+The animation files will just contain bone and keyframe data, and no rendered meshes.
+
+**Exporting a skeletal mesh without animations:**
+
+To export the mesh you wish to animate, you should check your export settings (seen above), make sure the following options are set:
+
+Save only animation: no  
+Save animation: no
+
+Make sure your meshes are triangulated.
+
+Select all mesh and bone items (double-click your root bone to select all connected). Only selected items will be exported.
+
+Then File>Export as…>autodesk FBX 2013
+
+**Exporting a skeletal animation:**
+
+Now it's time to export your animations. Again check your export settings (seen above) and make sure the following options are set:
+
+Save only animation: yes  
+Save animation: yes  
+Sample animation: yes
+
+Select all bone items (double-click your root bone to select all connected). Only selected items will be exported.
+
+Then File>Export as…> autodesk
+
+FBX 2013
+
+## Blender
+### Modelling
+**<u>Triangulate</u> **   
+Currently you have to triangulate the model before it can be exported, there is no export only triangulate.
+
+### Animation
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Modeling/Exporting Models](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling/Exporting_Models)
+- Revision: `7124`
+- Source update: `2026-07-30T21:10:32Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

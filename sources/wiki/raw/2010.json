@@ -1,0 +1,14 @@
+{
+  "pageid": 2010,
+  "title": "HPL3/SOMA/Scripting/cFactStateContainer",
+  "missing": false,
+  "redirect": false,
+  "length": 1633,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3558,
+  "revisionTimestamp": "2020-08-06T13:29:59Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncFactStateContainer has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Clear ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetSize ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || RemoveFact || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asFactName</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetFact || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asFactName</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetFactFloat || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asFactName</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>float afValue</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetFactInt || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asFactName</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>int alValue</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetFactString || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asFactName</syntaxhighlight>]],<br />[[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asValue</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFactStateContainer",
+  "requestedTitle": "HPL3/SOMA/Scripting/cFactStateContainer"
+}

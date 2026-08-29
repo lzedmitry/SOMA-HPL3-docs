@@ -1,0 +1,14 @@
+{
+  "pageid": 2292,
+  "title": "HPL3/SOMA/Scripting/eCollideShapeType",
+  "missing": false,
+  "redirect": false,
+  "length": 996,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3772,
+  "revisionTimestamp": "2020-08-06T14:34:39Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eCollideShapeType_Null</code> || <code>0</code> ||\n|-\n| <code>eCollideShapeType_Box</code> || <code>1</code> ||\n|-\n| <code>eCollideShapeType_Sphere</code> || <code>2</code> ||\n|-\n| <code>eCollideShapeType_Cylinder</code> || <code>3</code> ||\n|-\n| <code>eCollideShapeType_Capsule</code> || <code>4</code> ||\n|-\n| <code>eCollideShapeType_ConvexHull</code> || <code>5</code> ||\n|-\n| <code>eCollideShapeType_Mesh</code> || <code>6</code> ||\n|-\n| <code>eCollideShapeType_Compound</code> || <code>7</code> ||\n|-\n| <code>eCollideShapeType_StaticScene</code> || <code>8</code> ||\n|-\n| <code>eCollideShapeType_HeightMap</code> || <code>9</code> ||\n|-\n| <code>eCollideShapeType_LastEnum</code> || <code>10</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eCollideShapeType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eCollideShapeType"
+}

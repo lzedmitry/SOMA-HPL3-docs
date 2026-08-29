@@ -1,0 +1,14 @@
+{
+  "pageid": 2351,
+  "title": "HPL3/SOMA/Scripting/eLuxGlobalFreqType",
+  "missing": false,
+  "redirect": false,
+  "length": 914,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3831,
+  "revisionTimestamp": "2020-08-06T14:47:11Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eLuxGlobalFreqType_DebugHandler</code> || <code>0</code> ||\n|-\n| <code>eLuxGlobalFreqType_UnderwaterEffect</code> || <code>1</code> ||\n|-\n| <code>eLuxGlobalVolumeType_ScriptWorld</code> || <code>2</code> ||\n|-\n| <code>eLuxGlobalVolumeType_ScriptWorldClean</code> || <code>3</code> ||\n|-\n| <code>eLuxGlobalVolumeType_ScriptGuiWorld</code> || <code>4</code> ||\n|-\n| <code>eLuxGlobalVolumeType_ScriptGui</code> || <code>5</code> ||\n|-\n| <code>eLuxGlobalFreqType_Effect</code> || <code>6</code> ||\n|-\n| <code>eLuxGlobalFreqType_Menu</code> || <code>7</code> ||\n|-\n| <code>eLuxGlobalFreqType_LastEnum</code> || <code>8</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxGlobalFreqType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eLuxGlobalFreqType"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 2193,
+  "title": "HPL3/SOMA/Scripting/cWidgetItem",
+  "missing": false,
+  "redirect": false,
+  "length": 2001,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3742,
+  "revisionTimestamp": "2020-08-06T14:26:43Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncWidgetItem has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || AddProperty || [[../tWString|<syntaxhighlight lang=\"c++\" inline>const tWString &in asText</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || AddProperty || [[../cGuiGfxElement|<syntaxhighlight lang=\"c++\" inline>const cGuiGfxElement@ apGfx</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetIndex ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetPropertyNum ||   ||\n|-\n| [[../tWString|<syntaxhighlight lang=\"c++\" inline>const tWString&</syntaxhighlight>]] || GetText ||  ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetUserValue ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsSelectable ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsSelected ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetIndex || <syntaxhighlight lang=\"c++\" inline>int alIdx</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetSelectable || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetSelected || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetText || [[../tWString|<syntaxhighlight lang=\"c++\" inline>const tWString &in asText</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetUserValue || <syntaxhighlight lang=\"c++\" inline>int alValue</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cWidgetItem",
+  "requestedTitle": "HPL3/SOMA/Scripting/cWidgetItem"
+}

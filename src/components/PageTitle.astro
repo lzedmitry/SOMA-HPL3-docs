@@ -1,0 +1,36 @@
+---
+import Default from "@astrojs/starlight/components/PageTitle.astro";
+import TranslationBanner from "./TranslationBanner.astro";
+import { appLocale } from "../lib/locale";
+import { t } from "../lib/ui-strings";
+
+const id = Astro.locals.starlightRoute.entry.id;
+const isHome = id === "" || id === "index" || id === "/" || /^(ru|de|fr|it|es)\/index$/.test(id) || /^(ru|de|fr|it|es)$/.test(id);
+const locale = appLocale(Astro.locals.starlightRoute.locale);
+const data = Astro.locals.starlightRoute.entry.data as {
+  sourceStatus?: string;
+  sourceRevision?: string | number;
+  category?: string;
+};
+const status = (data.sourceStatus || "").toLowerCase();
+const show = !isHome && (status || data.sourceRevision || data.category);
+---
+
+{!isHome && <Default />}
+{!isHome && !Astro.locals.starlightRoute.isFallback && <TranslationBanner />}
+
+{
+  show && (
+    <p class="status-row">
+      {data.category && <span class="status-cat">{data.category}</span>}
+      {data.sourceRevision !== undefined && data.sourceRevision !== "" && (
+        <span>Source rev. {data.sourceRevision}</span>
+      )}
+      {status && (
+        <span class:list={["status", status]}>
+          {status === "verified" ? t("sourceVerified", locale) : `${t("sourceStatus", locale)}: ${status.replace("wip", "WIP")}`}
+        </span>
+      )}
+    </p>
+  )
+}

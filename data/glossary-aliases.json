@@ -1,0 +1,12 @@
+{
+  "HPS": "script-file",
+  "HPM": "map-file",
+  "Area": "area",
+  "Entity": "entity",
+  "Prop": "prop",
+  "Helper": "helper",
+  "WIP Mod": "wip-mod",
+  "SH Probe": "sh-probe",
+  "AngelScript": "angelscript",
+  "HPL3": "hpl3"
+}

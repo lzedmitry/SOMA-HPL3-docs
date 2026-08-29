@@ -1,0 +1,14 @@
+{
+  "pageid": 2291,
+  "title": "HPL3/SOMA/Scripting/eClearFrameBufferFlag",
+  "missing": false,
+  "redirect": false,
+  "length": 482,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3771,
+  "revisionTimestamp": "2020-08-06T14:34:21Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eClearFrameBufferFlag_Color</code> || <code>1</code> ||\n|-\n| <code>eClearFrameBufferFlag_Depth</code> || <code>2</code> ||\n|-\n| <code>eClearFrameBufferFlag_Stencil</code> || <code>4</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eClearFrameBufferFlag",
+  "requestedTitle": "HPL3/SOMA/Scripting/eClearFrameBufferFlag"
+}

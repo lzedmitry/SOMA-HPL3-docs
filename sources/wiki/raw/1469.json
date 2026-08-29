@@ -1,0 +1,14 @@
+{
+  "pageid": 1469,
+  "title": "HPL3/SOMA/Developer Commands",
+  "missing": false,
+  "redirect": false,
+  "length": 2353,
+  "touched": "2020-11-10T03:36:25Z",
+  "revisionId": 5563,
+  "revisionTimestamp": "2020-11-10T03:36:25Z",
+  "revisionUser": "Mudbill",
+  "wikitext": "{{ShortPageTitle}}\nWhen launching a game or a mod via a Command Prompt (CMD .bat file), you can pass optional arguments which will affect the way the mod is loaded by the game. It can be useful for mods which require custom assets and scripts, or if you want to customize it further than that.\n\n==Command Line Arguments==\n{{Note|You can add multiple arguments and combine them when launching the game. It doesn't have to be only one argument.}}\n{| class=\"wikitable\"\n!Argument\n!Default Value\n!Description\n!Example\n|-\n|user\n|<code>Default</code>\n|Starts the game with a different user name. \n\nThis is useful for starting a game / mod with a different set of save files, as they are saved per-user.\n|<code>Soma.exe -user Default_dev</code>\n|-\n|cfg\n|<code>config/main_init.cfg</code>\n|Changes the main config file that is used when starting the mod.\n\nThis is useful if the relative path of the config file inside your mod folder is different and you want to point to your file.\n|<code>Soma.exe -cfg config/main_init_dev.cfg</code>\n|-\n|mod\n|''No default value.''\n|Points to a mod entry file and launches the mod instead of the main game. Use this if you want to run your mod in dev mode.\nThis argument requires a full path of the game / mod directory.\n|<code>Soma.exe -mod \"C:\\SOMA\\mods\\myMod\\entry.hpc\"</code>\n|-\n|map\n|Stated at <code>StartMap->File</code> in <code>main_init.cfg</code>.\n|The game loads a specific map after startup.\n\nThis is useful if you want to load a specific map quickly or if you want to skip the \"load map\" option in the debug menu.\n|<code>Soma.exe -map \"mods/myMod/maps/myMap.hpm\"</code>\n|-\n|mapfolder\n|Stated at StartMap->Folder in <code>main_init.cfg</code>.\n|Starts the game with a specific map folder.\n|<code>Soma.exe -mapfolder \"mods/myMod/maps\"</code>\n|-\n|mappos\n|Stated at <code>StartMap->Pos</code> in <code>main_init.cfg.</code>\n|Sets a specific start position to be used in a map.\n\nThis is useful if you want to test your map from a specific position or if you want to skip the \"jump to start pos\" option in the debug menu.\n|<code>Soma.exe -map \"PathToMap/myMap.hpm\" -mappos \"MyPos\"</code>\n|-\n|workdir\n|''No default value.''\n|Which directory the game exe is located. Can be used to change between engine and main redist. \n'''This command line argument is useful for the engine developers only!'''\n|''No default value.''\n|}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Developer_Commands",
+  "requestedTitle": "HPL3/SOMA/Developer Commands"
+}

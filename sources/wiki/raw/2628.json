@@ -1,0 +1,14 @@
+{
+  "pageid": 2628,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/Error",
+  "missing": false,
+  "redirect": false,
+  "length": 1453,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5029,
+  "revisionTimestamp": "2020-08-24T20:52:45Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|void|[[#Error|Error]](const [[../../tString|tString]] &in asString)|}}\n{{CodeDocSummaryItem|void|[[#Error|Error]](uint aLabel, const [[../../tString|tString]] &in asString)|}}\n{{CodeDocSummaryItem|void|[[#Error|Error]](const [[../../tString|tString]] &in asString, uint aLabel)|}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|Error}}\n<syntaxhighlight lang=\"c++\">void Error(const tString &in asString)</syntaxhighlight>\n{{CodeDocDetailBody|}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asString|[[../../tString|tString]]|}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}\n\n{{CodeDocDetailTop|Error}}\n<syntaxhighlight lang=\"c++\">void Error(uint aLabel,\n           const tString &in asString)</syntaxhighlight>\n{{CodeDocDetailBody|}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|aLabel|uint|}}\n{{CodeDocDetailParam|asString|[[../../tString|tString]]|}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}\n\n{{CodeDocDetailTop|Error}}\n<syntaxhighlight lang=\"c++\">void Error(const tString &in asString,\n           uint aLabel)</syntaxhighlight>\n{{CodeDocDetailBody|}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asString|[[../../tString|tString]]|}}\n{{CodeDocDetailParam|aLabel|uint|}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Error",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/Error"
+}

@@ -1,0 +1,15 @@
+{
+  "pageid": 2475,
+  "title": "HPL3/Scripting/Scripting Guide/Timers",
+  "missing": false,
+  "redirect": false,
+  "length": 2256,
+  "touched": "2026-07-29T23:55:12Z",
+  "revisionId": 4320,
+  "revisionTimestamp": "2020-08-14T10:52:48Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{Hpl3ScriptingGuideMenuBasic}}\n{{shortPageTitle}}\n{| style=\"border:0px;\" cellspacing=\"0\"\n|- valign=\"top\"\n| style=\"padding-right:0.2em\" |\nTimers are set up to wait for a selected amount of time before executing code. It can be very useful if you want to wait a specified amount of time for something to happen in the level, such as intense countdown or to spawn / despawn particles in a dynamic way. \n\n==Creating Timers==\nIn order to add timer to a map, we need to use the function <code>Map_AddTimer</code>. Let's see an example:<syntaxhighlight lang=\"c++\">\n////////////////////////////\n// Run first time starting map\nvoid OnStart()\n{\n\tMap_AddTimer(\"JumpVeryHigh\", 5.0f, \"Timer_JumpVeryHigh\");\n}\n\n//...somewhere else in the code\n\nvoid Timer_JumpVeryHigh(const tString&in asTimer)\n{\n\tMyHelper_MakeThePlayerJumpVeryHigh();\n}\n</syntaxhighlight>\n| style=\"width:0.1%\" |\n|}\n===Breakdown===\n\n*We called the function and gave it three arguments: The internal name of the timer (<code>JumpVeryHigh</code>), the time in seconds (<code>5</code>) of the timer, and the function callback which will be called once the timer is done (<code>Timer_JumpVeryHigh</code>).\n*Our timer callback is called <code>Timer_JumpVeryHigh</code> and has one parameter called <code>asTimer</code> - this is the internal name of the timer. In our case, the internal name will be <code>JumpVeryHigh</code>.\n*Inside the timer callback, we use our helper function which makes the player jump very high.\n\nIf you will execute this code, the player will jump very high after five seconds once the map has been loaded.\n\n{{Note|You can have much more controls on timers than what was explained here. For a list of the full functions, check the Map Helper page of SOMA or Amnesia: Rebirth.}}\n\nTimers are very easy to use as you can see, and it will help us to understand the concept of Sequences in next chapter.\n\n==See Also==\n\n*[[HPL3/SOMA/Scripting/Map Helper|Map Helper]] - SOMA\n*[[HPL3/Amnesia: Rebirth/Scripting/Map Helper|Map Helper]] - Amnesia: Rebirth\n\n{{NavBar|HPL3/Scripting/Scripting_Guide/The Update method|The Update method|HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide|HPL3/Scripting/Scripting_Guide/Sequences|Sequences}}\n\n[[Category:HPL3 Scripting]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Timers",
+  "requestedTitle": "HPL3/Scripting/Timers",
+  "resolvedTitle": "HPL3/Scripting/Scripting Guide/Timers"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 1979,
+  "title": "HPL3/SOMA/Scripting/cAINodeContainer",
+  "missing": false,
+  "redirect": false,
+  "length": 1581,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3526,
+  "revisionTimestamp": "2020-08-06T13:19:37Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncAINodeContainer has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f&</syntaxhighlight>]] || GetCollideSize ||   ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString&</syntaxhighlight>]] || GetName ||   ||\n|-\n| [[../cAINode|<syntaxhighlight lang=\"c++\" inline>cAINode@</syntaxhighlight>]] || GetNode || <syntaxhighlight lang=\"c++\" inline>int alIdx</syntaxhighlight> ||\n|-\n| [[../cAINode|<syntaxhighlight lang=\"c++\" inline>cAINode@</syntaxhighlight>]] || GetNodeFromID || <syntaxhighlight lang=\"c++\" inline>int alID</syntaxhighlight> ||\n|-\n| [[../cAINode|<syntaxhighlight lang=\"c++\" inline>cAINode@</syntaxhighlight>]] || GetNodeFromName || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asName</syntaxhighlight>]] ||\n|-\n| [[../cAINodeIterator|<syntaxhighlight lang=\"c++\" inline>cAINodeIterator@</syntaxhighlight>]] || GetNodeIterator || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& avPosition</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>float afRadius</syntaxhighlight> ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString&</syntaxhighlight>]] || GetNodeName ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetNodeNum ||  ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAINodeContainer",
+  "requestedTitle": "HPL3/SOMA/Scripting/cAINodeContainer"
+}

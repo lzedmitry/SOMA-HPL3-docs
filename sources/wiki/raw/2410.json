@@ -1,0 +1,14 @@
+{
+  "pageid": 2410,
+  "title": "HPL3/Scripting/HPL3 Scripting Guide",
+  "missing": false,
+  "redirect": false,
+  "length": 406,
+  "touched": "2026-07-30T08:21:03Z",
+  "revisionId": 4610,
+  "revisionTimestamp": "2020-08-15T21:09:09Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{shortPageTitle}}\n\nA full guide to scripting in HPL3, covering basic and advanced topics.\n\n<table>\n<tr style=\"vertical-align:top\">\n<td>\n{{Hpl3ScriptingGuideMenuBasic|nofloat= true}}\n</td>\n<td>\n{{Hpl3ScriptingGuideMenuAdvanced|nofloat= true}}\n</td>\n</tr>\n</table>\n\n== Other Tutorials ==\n[[HPL3/Scripting/AngelScript_Fundamentals| AngelScript Fundamentals]]\n\n[[Category:HPL3 Scripting]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/HPL3_Scripting_Guide",
+  "requestedTitle": "HPL3/Scripting/HPL3 Scripting Guide"
+}

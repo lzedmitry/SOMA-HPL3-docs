@@ -1,0 +1,14 @@
+{
+  "pageid": 2331,
+  "title": "HPL3/SOMA/Scripting/eImGuiStateVar",
+  "missing": false,
+  "redirect": false,
+  "length": 871,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3811,
+  "revisionTimestamp": "2020-08-06T14:43:26Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eImGuiStateVar_Triggered</code> || <code>0</code> ||\n|-\n| <code>eImGuiStateVar_RepeatTimer</code> || <code>1</code> ||\n|-\n| <code>eImGuiStateVar_Value</code> || <code>2</code> ||\n|-\n| <code>eImGuiStateVar_ValueDefault</code> || <code>3</code> ||\n|-\n| <code>eImGuiStateVar_Checked</code> || <code>4</code> ||\n|-\n| <code>eImGuiStateVar_CheckedDefault</code> || <code>5</code> ||\n|-\n| <code>eImGuiStateVar_SelectedItem</code> || <code>6</code> ||\n|-\n| <code>eImGuiStateVar_SelectedItemDefault</code> || <code>7</code> ||\n|-\n| <code>eImGuiStateVar_LastEnum</code> || <code>8</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eImGuiStateVar",
+  "requestedTitle": "HPL3/SOMA/Scripting/eImGuiStateVar"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 3427,
+  "title": "HPL3/SOMA/Getting Started/Prepare Your Tools",
+  "missing": false,
+  "redirect": false,
+  "length": 1449,
+  "touched": "2026-07-30T10:52:02Z",
+  "revisionId": 7121,
+  "revisionTimestamp": "2026-07-30T10:52:02Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{Hpl3SomaGettingStarted|step=1}}\n\nThis step confirms that the game and the two tools needed for the first mod are available.\n\n== Before you begin ==\n\nYou need:\n\n* a working installation of ''SOMA'';\n* the SOMA Level Editor, named <code>LevelEditor.exe</code>;\n* the SOMA Mod Launcher, named <code>ModLauncher.exe</code> or <code>ModLauncher_NoSteam.exe</code>; and\n* a plain-text or code editor for editing <code>.cfg</code>, <code>.hpc</code>, and <code>.hps</code> files. Recommendtaion: Use '''Visual Studio Code''' with the '''HPL3 Language Tools''' extension.\n\nThe SOMA executables are normally in the game's installation folder. Launch ''SOMA'' and <code>LevelEditor.exe</code> once before continuing. This creates any per-user folders the tools require and confirms that both programs can start.\n\n{{note|You do not need to install a separate map editor. The HPL3 editors are included with SOMA.}}\n\n== Checkpoint ==\n\nYou are ready for Step 2 when:\n\n* ''SOMA'' reaches its main menu;\n* <code>LevelEditor.exe</code> opens; and\n* you can locate the game's <code>mods</code> folder.\n\n== If it does not work ==\n\nIf an executable is missing or does not start, repair or verify the ''SOMA'' installation through the store from which you installed it. Do this before copying mods or changing configuration files.\n\nFor an overview of the available documentation, see [[HPL3/SOMA/Modding|SOMA Modding]] and [[HPL3/SOMA/Level Design|SOMA Level Design]].",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Prepare_Your_Tools",
+  "requestedTitle": "HPL3/SOMA/Getting Started/Prepare Your Tools"
+}

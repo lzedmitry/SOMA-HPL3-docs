@@ -1,0 +1,14 @@
+{
+  "pageid": 2029,
+  "title": "HPL3/SOMA/Scripting/cGuiSkin",
+  "missing": false,
+  "redirect": false,
+  "length": 1239,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3576,
+  "revisionTimestamp": "2020-08-06T13:35:07Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncGuiSkin has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f&</syntaxhighlight>]] || GetAttribute || [[../eGuiSkinAttribute|<syntaxhighlight lang=\"c++\" inline>eGuiSkinAttribute aType</syntaxhighlight>]] ||\n|-\n| [[../cGuiSkinFont|<syntaxhighlight lang=\"c++\" inline>cGuiSkinFont@</syntaxhighlight>]] || GetFont || [[../eGuiSkinFont|<syntaxhighlight lang=\"c++\" inline>eGuiSkinFont aType</syntaxhighlight>]] ||\n|-\n| [[../cGuiGfxElement|<syntaxhighlight lang=\"c++\" inline>cGuiGfxElement@</syntaxhighlight>]] || GetGfx || [[../eGuiSkinGfx|<syntaxhighlight lang=\"c++\" inline>eGuiSkinGfx aType</syntaxhighlight>]] ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString&</syntaxhighlight>]] || GetName ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || LoadFromFile || [[../tWString|<syntaxhighlight lang=\"c++\" inline>const tWString &in asFile</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cGuiSkin",
+  "requestedTitle": "HPL3/SOMA/Scripting/cGuiSkin"
+}

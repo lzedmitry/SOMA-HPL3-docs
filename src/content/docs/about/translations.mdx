@@ -1,0 +1,33 @@
+---
+title: Translations
+description: Language coverage for this unofficial SOMA / HPL3 documentation. English is canonical. Missing pages stay on English with a banner — they do not 404.
+category: about
+tableOfContents: false
+---
+
+import TranslationsCoverage from "../../../components/TranslationsCoverage.astro";
+
+<p class="section-kicker">00 // TRANSLATIONS &nbsp; REF 00.04</p>
+
+English is the canonical documentation. Other languages translate TIER 1 learning pages and TIER 2 hubs first. Technical identifiers stay in English in every locale: `Area`, `Entity`, `OnStart`, `.hps`, `cScript_GetGlobalArgBool`.
+
+If a page is not translated yet, the language switcher keeps you on that topic (Starlight fallback) and shows a compact notice. It does not dump you on the locale homepage.
+
+## Coverage
+
+Counts come from `data/translation-manifest.json`, not from hardcoded percentages.
+
+<TranslationsCoverage />
+
+## What is translated first
+
+**TIER 1** — homepage, Quickstart, First mod, Terminology, Mod setup, Level Editor, Building levels, Areas, Scripting, Debugging, Asset pipeline, Glossary.
+
+**TIER 2** — Recipes, Helpers, Entities, Materials, Particles, Audio, Dialogue, API index, Video library.
+
+**TIER 3** — full API class pages, legacy reference, Original Wiki index. English until a translation exists.
+
+## Related
+
+- [Documentation status](/about/)
+- [Contributing](/about/contributing/)

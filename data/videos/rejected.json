@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-08-28T21:42:00Z",
+  "items": [
+    {
+      "youtubeId": "L_6mU5oC9Lk",
+      "status": "unavailable",
+      "reason": "live validation failed",
+      "evidence": "YouTube oEmbed HTTP 404; innertube playability ERROR Video unavailable",
+      "source": "community seed (A.M. Team attribution). Topic was not assigned before validation.",
+      "review": "unverified"
+    }
+  ]
+}

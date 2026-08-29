@@ -1,0 +1,14 @@
+{
+  "pageid": 3413,
+  "title": "HPL3/Level Design/Billboards",
+  "missing": false,
+  "redirect": false,
+  "length": 2366,
+  "touched": "2026-07-30T09:52:40Z",
+  "revisionId": 7087,
+  "revisionTimestamp": "2026-07-30T09:52:40Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Billboards =\n\n\nGeneral Parameters:\n* '''Name''': Name for the billboard. Should be unique for all objects in map.\n* '''Position''': 3D Vector storing the position in world.\n* '''Rotation''': 3D Vector storting the rotation. Only useful when the billboard type is Axis or FixedAxis.\n\nSpecific Parameters:\n* '''Material File''': material file for the billboard.\n* '''Billboard Type''': type for the billboard. Available types are:\n''' Point: this type will make the billboard always face the camera.\n''' Axis: this will make the billboard be aligned to an axis, but will still face the camera to some extent.\n''' FixedAxis: this will make the billboard be aligned to an axis, and no facing to camera will be applied.\n* '''Offset'''\n* '''Size''': 2D Vector storing size for the billboard, as in width-height.\n* '''Color''': Color that the material will be tinted with.\n* '''Connected light name''': when a billboard is connected to a light, they will share color at all times. Useful when doing halos for lights, it will synchronize any changes in light color to the billboard. Only one light can be connected at a time. To connect a light, just press the button and then select a light in the viewport.\n* '''Halo''': Set if the billboard should work as a halo. When active, the billboard will be faded out when going off screen. The effect can be tweaked using the Halo Source Size. Billboard will have no fading when this box lies completely inside the screen.\n* '''Halo Source Size''': 3D Vector storing the size for the halo box. Will be displayed as a green wireframe box.\n\n=Billboard EditMode=\n\nThis EditMode allows you to add some detail to maps via billboards. These are mostly used to add light shafts, god rays and the like, but should work for doing other kinds too.\n\nTo create a Billboard, just click on the grid when this EditMode is active.\nOptionally, there are two parameters one can set up prior to placing Billboards on maps. These are:\n\n*'''Material''': pretty self explanatory, sets up the material that Billboards will be created with.\n*'''Color''': quite self explanatory too, it sets the color that will be used by created Billboards.\n\nHave into account that these options will be valid for objects created right after changing them, so any Billboard that is already created will keep its settings.\n\nMore on Billboards [[HPL2/Billboards|here]].",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Billboards",
+  "requestedTitle": "HPL3/Level Design/Billboards"
+}

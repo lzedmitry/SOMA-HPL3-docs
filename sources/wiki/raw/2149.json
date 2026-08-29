@@ -1,0 +1,14 @@
+{
+  "pageid": 2149,
+  "title": "HPL3/SOMA/Scripting/cPostEffect RadialBlur",
+  "missing": false,
+  "redirect": false,
+  "length": 1492,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3693,
+  "revisionTimestamp": "2020-08-06T14:15:07Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncPostEffect_RadialBlur has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || GetParams || <syntaxhighlight lang=\"c++\" inline>float& afSize</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float& afAlpha</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float& afBlurStartDist</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsActive ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsDisabled ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Reset ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetActive || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetDisabled || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetParams || <syntaxhighlight lang=\"c++\" inline>float afSize</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afAlpha</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afBlurStartDist</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_RadialBlur",
+  "requestedTitle": "HPL3/SOMA/Scripting/cPostEffect RadialBlur"
+}

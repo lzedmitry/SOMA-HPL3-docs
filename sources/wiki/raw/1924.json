@@ -1,0 +1,14 @@
+{
+  "pageid": 1924,
+  "title": "HPL3/Features Overview",
+  "missing": false,
+  "redirect": false,
+  "length": 536,
+  "touched": "2020-08-21T09:41:06Z",
+  "revisionId": 4746,
+  "revisionTimestamp": "2020-08-21T09:41:06Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{todo|Add links for each feature}}\n\nThe HPL3 engine has a number of new features since the previous version, HPL2:\n\n* Global sunlight with full shadow support\n* Terrain generation with dynamic terrain LOD\n* HDR lighting with filmic tone mapping\n* The introduction of a custom shading language, HPSL\n* Particle collision\n* Depth of Field\n* Coloured Specular\n* Level Streaming (no loading screens between levels)\n* Tessellation\n* Fly Mode (an in-editor \"fly\" cam)\n* Poser EditMode (an in-editor skeleton manipulator tool)\n* Colour Picker",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Features_Overview",
+  "requestedTitle": "HPL3/Features Overview"
+}

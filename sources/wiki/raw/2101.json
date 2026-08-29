@@ -1,0 +1,14 @@
+{
+  "pageid": 2101,
+  "title": "HPL3/SOMA/Scripting/cLuxMoveState",
+  "missing": false,
+  "redirect": false,
+  "length": 1952,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3647,
+  "revisionTimestamp": "2020-08-06T13:57:15Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mfForwardAcc || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfForwardDeacc || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfForwardOppositeDirAccMul || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfMaxBackwardSpeed || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfMaxBackwardSpeedMul || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfMaxForwardSpeed || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfMaxForwardSpeedMul || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfMaxSidwaySpeed || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfMaxSidwaySpeedMul || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfSidewayAcc || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfSidewayDeacc || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfSidewayOppositeDirAccMul || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mlId || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| mpPlayer || [[../cLuxPlayer|<syntaxhighlight lang=\"c++\" inline>cLuxPlayer@</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || GetId ||   ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString&</syntaxhighlight>]] || GetName ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetAutoUpdateSpeedSettings || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxMoveState",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLuxMoveState"
+}

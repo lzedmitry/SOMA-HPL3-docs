@@ -1,0 +1,14 @@
+{
+  "pageid": 3361,
+  "title": "HPL3/Areas/Climb Area",
+  "missing": false,
+  "redirect": false,
+  "length": 645,
+  "touched": "2024-02-06T15:09:40Z",
+  "revisionId": 6762,
+  "revisionTimestamp": "2024-02-06T15:09:40Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "== Overview ==\nThe Climb Area allows a player to climb to a place or to climb over a ledge.\n\n== Properties ==\n=== Base ===\n* '''Crouch''': If the player should be set crouched after climbing\n* '''FeetPosition''': The [[HPL3/Areas/Trigger Area|Trigger Area]] the players feet will be moved to after climbing\n* '''CanBeClimbed''': If the area can be interacted with\n\n=== Attachment ===\n* '''ParentAttachEntity''': The name of an entity that this Climb Area is parented to.\n* '''ParentAttachUseRotation''': If the rotation of the parent should affect the Climb Area.\n* '''ParentAttachBody''': The name of the body in the parent entity to attach to.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Climb_Area",
+  "requestedTitle": "HPL3/Areas/Climb Area"
+}

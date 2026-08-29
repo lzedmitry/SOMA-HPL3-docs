@@ -1,0 +1,14 @@
+{
+  "pageid": 98,
+  "title": "HPL3/Scripting/AngelScript Fundamentals",
+  "missing": false,
+  "redirect": false,
+  "length": 392,
+  "touched": "2020-08-15T21:02:04Z",
+  "revisionId": 4609,
+  "revisionTimestamp": "2020-08-15T21:02:04Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{shortPageTitle}}\n\nA full guide to the fundamentals of AngelScript as a scripting language, covering the basics of programming, as well as common features of the language.\n[[File:Aslogo.png|left|frameless|link=]]{{clr}}\n\n{{angelScriptGuideMenu|nofloat= true}}\n\n==Other Tutorials==\n[[HPL3/Scripting/HPL3_Scripting_Guide|HPL3 Scripting Guide]]\n\n[[Category:HPL3 Scripting]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals",
+  "requestedTitle": "HPL3/Scripting/AngelScript Fundamentals"
+}

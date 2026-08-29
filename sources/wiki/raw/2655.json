@@ -1,0 +1,14 @@
+{
+  "pageid": 2655,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/Hashing",
+  "missing": false,
+  "redirect": false,
+  "length": 910,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5059,
+  "revisionTimestamp": "2020-08-24T21:02:55Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|uint|[[#H32|H32]](const [[../../tString|tString]] &in asStr)|}}\n{{CodeDocSummaryItem|uint64|[[#H64|H64]](const [[../../tString|tString]] &in asStr)|}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|H32}}\n<syntaxhighlight lang=\"c++\">uint H32(const tString &in asStr)</syntaxhighlight>\n{{CodeDocDetailBody|}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asStr|[[../../tString|tString]]|}}\n{{CodeDocDetailReturn|uint|}}\n{{CodeDocDetailBottom}}\n\n{{CodeDocDetailTop|H64}}\n<syntaxhighlight lang=\"c++\">uint64 H64(const tString &in asStr)</syntaxhighlight>\n{{CodeDocDetailBody|}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asStr|[[../../tString|tString]]|}}\n{{CodeDocDetailReturn|uint64|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Hashing",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/Hashing"
+}

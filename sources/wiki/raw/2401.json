@@ -1,0 +1,14 @@
+{
+  "pageid": 2401,
+  "title": "HPL3/SOMA/Scripting/eWidgetType",
+  "missing": false,
+  "redirect": false,
+  "length": 1398,
+  "touched": "2020-08-27T22:05:51Z",
+  "revisionId": 3881,
+  "revisionTimestamp": "2020-08-06T14:58:12Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eWidgetType_Root</code> || <code>0</code> ||\n|-\n| <code>eWidgetType_Window</code> || <code>1</code> ||\n|-\n| <code>eWidgetType_Button</code> || <code>2</code> ||\n|-\n| <code>eWidgetType_Frame</code> || <code>3</code> ||\n|-\n| <code>eWidgetType_Label</code> || <code>4</code> ||\n|-\n| <code>eWidgetType_Slider</code> || <code>5</code> ||\n|-\n| <code>eWidgetType_TextBox</code> || <code>6</code> ||\n|-\n| <code>eWidgetType_CheckBox</code> || <code>7</code> ||\n|-\n| <code>eWidgetType_Image</code> || <code>8</code> ||\n|-\n| <code>eWidgetType_ListBox</code> || <code>9</code> ||\n|-\n| <code>eWidgetType_ComboBox</code> || <code>10</code> ||\n|-\n| <code>eWidgetType_ContextMenu</code> || <code>11</code> ||\n|-\n| <code>eWidgetType_MainMenu</code> || <code>12</code> ||\n|-\n| <code>eWidgetType_MenuItem</code> || <code>13</code> ||\n|-\n| <code>eWidgetType_Tab</code> || <code>14</code> ||\n|-\n| <code>eWidgetType_TabFrame</code> || <code>15</code> ||\n|-\n| <code>eWidgetType_Group</code> || <code>16</code> ||\n|-\n| <code>eWidgetType_User</code> || <code>19</code> ||\n|-\n| <code>eWidgetType_LastEnum</code> || <code>20</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eWidgetType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eWidgetType"
+}

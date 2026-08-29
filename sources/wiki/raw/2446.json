@@ -1,0 +1,15 @@
+{
+  "pageid": 2446,
+  "title": "HPL3/Scripting/Scripting Guide/What is scripting in HPL3?",
+  "missing": false,
+  "redirect": false,
+  "length": 962,
+  "touched": "2026-07-29T23:55:12Z",
+  "revisionId": 4298,
+  "revisionTimestamp": "2020-08-13T21:04:41Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{Hpl3ScriptingGuideMenuBasic}}\n{{shortPageTitle}}\n\nScripting in the context of HPL3 means '''defining the behavior and the events of your map in the form of code, and ultimately, making your map come to life.''' Without scripting, your map will be static without any gameplay.\n\nThe script is written inside the map’s script file. You code how objects in the map are supposed to behave as well as the events that will happen in the map.\n\nFor example, if you want to make a monster appear when the player enters a room or to make a cool looking explosion, this is where you usually do that.\nIn our case, it can almost be viewed as regular programming, but not necessarily as complicated. \n\n{{NavBar|HPL3/Scripting/Scripting_Guide/The Basics - Introduction|The Basics - Introduction|HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide|HPL3/Scripting/Scripting_Guide/Setting up CodeLite|Setting up CodeLite}}\n\n[[Category:HPL3 Scripting]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/What_is_scripting_in_HPL3?",
+  "requestedTitle": "HPL3/Scripting/What is scripting in HPL3?",
+  "resolvedTitle": "HPL3/Scripting/Scripting Guide/What is scripting in HPL3?"
+}

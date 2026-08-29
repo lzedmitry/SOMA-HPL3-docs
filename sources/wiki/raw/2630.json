@@ -1,0 +1,14 @@
+{
+  "pageid": 2630,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/Grab",
+  "missing": false,
+  "redirect": false,
+  "length": 804,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5031,
+  "revisionTimestamp": "2020-08-24T20:53:51Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|void|[[#Grab_SetForceMul|Grab_SetForceMul]](const [[../../tString|tString]] &in asName, float afForceMul)|Sets the forcemul of a grab prop}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|Grab_SetForceMul}}\n<syntaxhighlight lang=\"c++\">void Grab_SetForceMul(const tString &in asName,\n                      float afForceMul)</syntaxhighlight>\n{{CodeDocDetailBody|Sets the forcemul of a grab prop.}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asName|[[../../tString|tString]]|name of grab prop}}\n{{CodeDocDetailParam|afForceMul|float|the new forcemul}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Grab",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/Grab"
+}

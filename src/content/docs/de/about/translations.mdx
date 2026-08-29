@@ -1,0 +1,39 @@
+---
+title: "Übersetzungen"
+description: "Sprachabdeckung dieser inoffiziellen SOMA / HPL3-Dokumentation. Englisch ist kanonisch. Fehlende Seiten ergeben kein 404."
+category: about
+tableOfContents: false
+translation:
+  locale: de
+  sourceLocale: en
+  sourceRevision: 1
+  translationRevision: 1
+  status: current
+---
+
+import TranslationsCoverage from "../../../../components/TranslationsCoverage.astro";
+
+<p class="section-kicker">00 // TRANSLATIONS &nbsp; REF 00.04</p>
+
+Englisch ist die kanonische SOMA / HPL3-Dokumentation. Andere Sprachen übersetzen zuerst TIER-1-Lernseiten und TIER-2-Hubs. Technische Bezeichner bleiben in jeder Locale Englisch: `Area`, `Entity`, `OnStart`, `.hps`, `cScript_GetGlobalArgBool`.
+
+Ist eine Seite noch nicht übersetzt, hält der Sprachumschalter Sie auf dem Thema (Starlight-Fallback) und zeigt einen kurzen Hinweis. Er wirft Sie nicht auf die Locale-Startseite.
+
+## Abdeckung
+
+Zählungen kommen aus `data/translation-manifest.json`, nicht aus fest kodierten Prozenten.
+
+<TranslationsCoverage />
+
+## Was zuerst übersetzt wird
+
+**TIER 1** — Startseite, Schnellstart, Erster Mod, Terminologie, Mod-Setup, Level Editor, Level bauen, Areas, Scripting, Debugging, Asset-Pipeline, Glossar.
+
+**TIER 2** — Rezepte, Helpers, Entities, Materials, Particles, Audio, Dialogue, API-Index, Videobibliothek.
+
+**TIER 3** — volle API-Klassenseiten, Legacy-Referenz, Original-Wiki-Index. Englisch, bis eine Übersetzung existiert.
+
+## Siehe auch
+
+- [Dokumentationsstatus](/de/about/)
+- [Mitwirken](/de/about/contributing/)

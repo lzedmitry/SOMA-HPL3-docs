@@ -1,0 +1,14 @@
+{
+  "pageid": 2343,
+  "title": "HPL3/SOMA/Scripting/eLogLabel",
+  "missing": false,
+  "redirect": false,
+  "length": 950,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3823,
+  "revisionTimestamp": "2020-08-06T14:45:35Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eLogLabel_None</code> || <code>0</code> ||\n|-\n| <code>eLogLabel_Sound</code> || <code>1</code> ||\n|-\n| <code>eLogLabel_Physics</code> || <code>2</code> ||\n|-\n| <code>eLogLabel_Graphics</code> || <code>4</code> ||\n|-\n| <code>eLogLabel_Gui</code> || <code>8</code> ||\n|-\n| <code>eLogLabel_Input</code> || <code>16</code> ||\n|-\n| <code>eLogLabel_Resources</code> || <code>32</code> ||\n|-\n| <code>eLogLabel_AI</code> || <code>64</code> ||\n|-\n| <code>eLogLabel_Scene</code> || <code>128</code> ||\n|-\n| <code>eLogLabel_Script</code> || <code>256</code> ||\n|-\n| <code>eLogLabel_Game</code> || <code>512</code> ||\n|-\n| <code>eLogLabel_All</code> || <code>-1</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLogLabel",
+  "requestedTitle": "HPL3/SOMA/Scripting/eLogLabel"
+}

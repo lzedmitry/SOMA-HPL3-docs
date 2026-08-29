@@ -1,0 +1,55 @@
+---
+title: "Script helpers"
+description: "Категории helper с хаба Scripting. Отдельных статей на Wiki нет (redlink)."
+category: scripting
+sourceStatus: undocumented
+translation:
+  locale: ru
+  sourceLocale: en
+  sourceRevision: 1
+  translationRevision: 1
+  status: current
+---
+
+Хаб Scripting SOMA перечисляет эти группы helper и указывает на файлы `helper_*.hps`. **Ни одной постраничной статьи helper на Wiki нет** (redlink). [Helper Files](/ru/scripting/helper-files/) объясняет механизм include. Он не документирует каждую функцию этих файлов.
+
+:::note[Documentation status]
+Undocumented в исходной Frictional Wiki. Таблица — каталог имён, которые хаб уже напечатал. Сигнатуры функций здесь не выдуманы.
+:::
+
+## Категории, названные хабом
+
+
+| Helper | Wiki link status | Typical use (from the name / hub only) |
+| --- | --- | --- |
+| Game Helper | Redlink | Game-wide helpers |
+| Map Helper | Redlink | Map helpers |
+| Player Helper | Redlink | Player helpers |
+| Audio Helper | Redlink | Audio helpers — see also [Audio](/ru/audio/) |
+| Effects Helper | Redlink | Screen/world effects |
+| Areas Helper | Redlink | The Trigger article names `helper_area.hps` |
+| AI Helper | Redlink | Agents / pathing |
+| Modules Helper | Redlink | User modules |
+| Physics Helper | Redlink | Bodies / joints |
+| Props Helper | Redlink | Prop entities |
+| Sequences Helper | Redlink | Sequence playback |
+| General Helper | Redlink (hub spelling: "Geneal Helper") | General utilities |
+| ImGui Helper | Redlink | ImGui wrappers — see `cImGui` in the [API](/ru/api/) |
+| EventDB Helper | Redlink | Event database |
+
+
+## Что можно сделать вместо этого
+
+- Читать [Helper Files](/ru/scripting/helper-files/) — как работают include.
+- Открыть файлы `helper_*.hps`, которые идут с SOMA — Wiki их не воспроизводит.
+- Искать в [API](/ru/api/) `cLux_`, `Entity_`, `Map_`, `Prop_`, когда нужны функции движка, а не helper.
+
+## Связанное
+
+
+## Источники
+
+- [HPL3/SOMA/Scripting](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting) hub table
+- [HPL3/Scripting/Scripting Guide/Helper Files](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Helper_Files)
+- [HPL3/Areas/Trigger Area](https://wiki.frictionalgames.com/page/HPL3/Areas/Trigger_Area) (`helper_area.hps`)
+

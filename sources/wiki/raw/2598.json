@@ -1,0 +1,14 @@
+{
+  "pageid": 2598,
+  "title": "HPL3/SOMA/Entities/Model Editor Outline",
+  "missing": false,
+  "redirect": false,
+  "length": 1196,
+  "touched": "2020-08-23T19:59:56Z",
+  "revisionId": 4969,
+  "revisionTimestamp": "2020-08-23T19:59:56Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Outline window =\n\nThe Outline window is a nice tool to edit attachments indirectly. When brought up, all objects in the scene will be listed in it.\nShapes belonging to bodies can be kept from being listed, this can be toggled with the \"Hide connected shapes\" input.\n\n[[File:outline01.jpg]]\n\nDepending on the type of object selected, additional commands will be displayed on it.\n\n=== Bodies and bones ===\nFor bodies and bones, the \"Edit Attachments\" command will appear. \n\n[[File:outline02.jpg]]\n\n\nWhen clicked, a helper attachments window will pop up, where you can select the objects that you wish to be attached to this body or bone.\n\n[[File:outline03.jpg]]\n\n=== Joints ===\nJoint objects will show four commands, which are \"Attach Parent\", \"Detach Parent\", \"Attach Child\" and \"Detach Child\", with \"Parent\" and \"Child\" meaning parent body and child body respectively. The \"Attach\" ones will pop up a helper window just like with bodies and bones, only difference is these displaying bodies.\n\n[[File:outline05.jpg]]\n\n=== Rest of objects ===\nAny object other than the above will show a Detach command, which will detach it from its parent body or bone if attached at all.\n\n[[File:outline04.jpg]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities/Model_Editor_Outline",
+  "requestedTitle": "HPL3/SOMA/Entities/Model Editor Outline"
+}

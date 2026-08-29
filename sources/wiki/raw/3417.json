@@ -1,0 +1,14 @@
+{
+  "pageid": 3417,
+  "title": "HPL3/Level Design/Decals",
+  "missing": false,
+  "redirect": false,
+  "length": 2090,
+  "touched": "2026-07-30T09:55:03Z",
+  "revisionId": 7091,
+  "revisionTimestamp": "2026-07-30T09:55:03Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Decals =\n\nDecals are used to add detail to geometry. Scorch marks, blood splatters and such can be added with this tool, only thing needed is a proper material and a surface to apply it to.\n\nGeneral Parameters:\n* '''Name''': Name of the decal.\n* '''Position''': 3D Vector storing the world position of the decal center.\n* '''Rotation''': 3D Vector storing the rotation for the decal volume.\n* '''Scale''': 3D Vector storing the size of the decal volume.\n\nSpecific Parameters:\n* '''Affected surface types''': These three buttons will set which types of geometry objects are to be affected by the decal.\n* '''Material''': Material file for the decal.\n* '''Current SubDiv''': index of the subdivision currently in use. These are numbered in a left to right, up to down order.\n* '''Decal Offset''': distance that will separate the decal from the \"host\" surface.\n* '''Max triangles''': maximum number of triangles the decal will use when generating the mesh.\n=Decal EditMode=\n\n\nDecals are used to add detail to geometry. Scorch marks, blood splatters and such can be added with this tool, only thing needed is a proper material and a surface to apply it to.\n\n\nThe EditMode window has some parameters to control the creation, as follows:\n\n\nSurface types affected''': these buttons will set whether a geometry object will be affected by a decal. Can be Static Objects, Entities and Primitives.'''\nMaterial''': .mat file that will be used by the decal.'''\nAngle''': 2D rotation of the decal around the surface normal axis. Can be randomized.'''\nSize''': 2D size of the decal.'''\nDepth''': if \"Use custom depth\" is false, this will be the greatest value from the 2D size vector. Else, it will be picked from the input.'''\nColor''': color value that will be multiplied by the decal material color.'''\nUV SubDivisions''': this input will control if the decal material should be subdivided, and how many subdivisions there will be.'''\nUse SubDiv''': this control offers selection of which subdivision should be shown, or just choose a random one on creation.'''\n\n\nMore on decals [[HPL2/Decals|here]].",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Decals",
+  "requestedTitle": "HPL3/Level Design/Decals"
+}

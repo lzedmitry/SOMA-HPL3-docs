@@ -1,0 +1,7522 @@
+{
+  "generatedAt": "2026-08-28T20:34:14Z",
+  "englishPageCount": 713,
+  "translatedSlugs": [
+    "about",
+    "about/translations",
+    "api",
+    "areas",
+    "assets",
+    "audio",
+    "debugging",
+    "dialogue",
+    "entities",
+    "glossary",
+    "index",
+    "level-building",
+    "level-editor",
+    "materials",
+    "modding",
+    "particles",
+    "recipes",
+    "recipes/first-mod",
+    "scripting",
+    "scripting/helpers",
+    "start",
+    "start/create-and-launch-your-mod",
+    "start/terminology",
+    "videos"
+  ],
+  "pages": {
+    "404": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "about": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "about/contributing": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "about/frictional-wiki-about": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "about/licensing": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "about/translations": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "api": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "api/categories/billboard": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/body": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/button": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/constants": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/energysource": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/entity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/error": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/fogarea": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/grab": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/hashing": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/irradianceset": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/joint": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/lamp": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/lensflare": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/leveldoor": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/lever": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/light": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/logging": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/map": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/material": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/math": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/meter": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/moveobject": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/movingbutton": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/particlesystem": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/physicsslidedoor": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/prop": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/readable": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/slide": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/slidedoor": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/string": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/swingdoor": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/terminal": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/tool": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/categories/wheel": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/array": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/caction": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cactoranimcontroller": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cai": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cainode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cainodecontainer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cainodeiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/canimation": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/canimationstate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cbeam": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cbeamend": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cbeamiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cbillboard": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cbillboardgroup": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cbillboardgroupiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cbillboarditerator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cbinarybuffer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cbonestate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cboundingvolume": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ccamera": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cclothentity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cclothentityiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ccollidedata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ccollidepoint": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ccolor": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cconfigfile": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cdate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cengine": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/centity3diterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/centitybodyextradata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cenvironmentparticles": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cenvironmentparticles-cliparea": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cevent": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ceventdatabase": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ceventowner": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ceventscene": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ceventtrigger": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cexposurearea": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cexposureareaiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cfactstatecontainer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cfogarea": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cfogareaiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cforcefield": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cforcefielditerator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cfractalnoiseparams": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cframesubimage": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cfrustum": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cgamepadinputdata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cgenerate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cgraphics": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cgui": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguigfxanimation": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguigfxelement": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguiglobalshortcut": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguimessagedata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguipopupcolorpicker": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguipopupfilepicker": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguipopupmessagebox": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguiset": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguisetentity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguisetentityiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguiskin": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cguiskinfont": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cheightmap": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimgui": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguibuttondata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguicheckboxdata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguifade": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguifont": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguiframedata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguiframegfx": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguigaugedata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguigfx": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguilabeldata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguimultiselectdata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguisliderdata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguitextframedata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguitimer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguiwidgetstate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguiwidgetstatevar": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cimguiwindowdata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cinput": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ckeypress": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clensflare": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clensflareiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clightbox": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clightdirectional": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clightdirectional-shadowslice": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clightlistiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clightmaskbox": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clightmaskboxiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clightmaskboxlistiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clightpoint": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clightspot": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clinearoscillation": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/clux": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxagent": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxarea": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxbackbonetail": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxbackbonetrailingrotation": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxbarkmachine": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxbarkstate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxcharmover": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxcharmover-speedstate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxclosestcharcollider": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxclosestentitydata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxcollidecallback": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxcritter": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxcritterhandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxdialogbranch": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxdialogbranchevent": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxdialogcharacter": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxdialoghandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxdialoginstance": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxdialogresponsecondition": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxdialogresponseevent": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxdialogresponseoption": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxdialogsubject": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxedgeglow": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxeffect": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxeffecthandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxentitycomponentiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxentityconnection": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxentitymessagedata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxeventdatabasehandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxeventtimer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxforceemitter": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxguicameratexture": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxguihandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxguiset": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxheadtracker": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxinputhandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxlightsensor": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxliquidarea": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxmap": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxmovestate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxmovevector": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxmusic": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxmusicdynamictrack": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxmusichandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxpathfinder": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxplayer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxplayerstate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxprop": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxsavehandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxscreentextformatparameters": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxscreentexticon": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxscriptclassfader": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxscriptclasstimer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxscriptimgui": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxsoundextradata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxsoundlistener": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxsoundscapearea": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxsoundscapehandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxstate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxstatemachine": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxstatetimer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxtracknode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxusermodule": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxvisibilityarea": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxvisibilityportal": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxvoicecharactercallback": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxvoicehandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxvoicesceneinstance": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cluxvoicesource": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cmaterial": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cmath": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cmatrixf": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cmesh": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cmeshcollider": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cmeshentity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cmeshentityiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cnode3d": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cnode3diterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cparticlesystem": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cparticlesystemiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cphysics": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cphysicscontactdata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cpidcontrollerf": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cpidcontrollervec3": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cplanef": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cposteffect-chromaticaberration": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cposteffect-fxaa": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cposteffect-imagefadefx": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cposteffect-imagetrail": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cposteffect-radialblur": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cposteffect-tonemapping": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cposteffect-videodistortion": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cposteffectcomposite": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cprepparservarcontainer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cprocanimation": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cprocanimationtrack": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cquaternion": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/crect2f": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/crect2l": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/crenderercallbackfunctions": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/crendersettings": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cresources": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cresourcevarsobject": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cropeentity3d": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cropeentitybillboard": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cropeentityiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cscene": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cscript": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cscriptstringintmap": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cscriptstringset": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cscriptvar": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cskeleton": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csmoothinterpolationf": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csmoothinterpolationvec3": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csound": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csoundentity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csoundentitydata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csoundentityiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csoundentry": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csoundeventparaminfo": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cstring": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csubmesh": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csubmeshentity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csurfacedata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csurfaceimpactdata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/csystem": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cterrain": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cvector2f": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cvector2l": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cvector3f": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cvector3l": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cvector4f": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cverletparticle": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cviewport": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetbutton": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetcheckbox": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetcollapsiblepane": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetcollapsiblepanecontainer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetcombobox": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetcontextmenu": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetdummy": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetframe": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetgroup": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetimage": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetitem": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetlabel": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetlistbox": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetmainmenu": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetmenuitem": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetmultipropertylistbox": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetrangeslider": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetsinglevalueslider": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetslider": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgettab": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgettabframe": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgettextbox": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgettreeitem": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgettreeview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cwidgetwindow": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cworld": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cxmlelement": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cxmlnodelistiterator": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/cxmltext": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eaifreepathflag": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eanimationeventtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eaxis2d": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eaxis3d": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eaxis4d": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eaxisflag": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ebillboardtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ecameramovemode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ecamerarotatemode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/echardir": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eclearframebufferflag": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ecollideshapetype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ecollision": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ecullmode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/edepthtestfunc": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/edisplaymode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eeasing": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eentitytype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eeulerrotationorder": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eeventcomparetype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eeventfactvalue": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eeventoptype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/efilepickertype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eflagbit": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/efontalign": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/efrustumplane": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/egamepadaxis": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/egamepadaxisrange": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/egamepadball": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/egamepadbutton": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/egamepadhat": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/egamepadhatstate": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/egamepadinputtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/egraphiccaps": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eguigfxanimationtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eguimaterial": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eguimessage": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eguimousebutton": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eguiskinattribute": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eguiskinfont": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eguiskingfx": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eguiwindowzdest": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eidspace": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguiaction": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguialign": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguigaugeorientation": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguigfx": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguilayout": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguiobjecttype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguioffset": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguistatevar": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguivar": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguiwindowheader": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguiwrap": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eimguiwrapmode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/einputdevicetype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ekey": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ekeymodifier": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/elensflaretype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/elightboxblendfunc": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/elighttype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/elistboxactiontype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eloglabel": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxcharmovedirection": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxdialogbranchevent": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxdialogoptioncondition": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxdialogoptionevent": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxentitycomponenttype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxentitymessage": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxentitytype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxglobalfreqtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxglobalvolumetype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxkeyboardlayouttype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxlightconnectiontype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxsetsubmapposition": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eluxvoicesourcefrequencyflag": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ematerialblendmode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ematerialchannelmode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ematrix": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/emousebutton": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/emsgboxtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/enoisetype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eobjectvariabilityflag": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eparallaxquality": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ephysicsaccuracy": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ephysicsjointspeed": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ephysicsjointtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/epixelformat": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eplatform": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eprimitivetype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eprocanimtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eprojectiontype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/erenderableflag": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/erenderabletype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/erenderer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/erenderermessage": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eropetype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/escenerenderflag": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eshadowmapquality": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eshadowmapresolution": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/esoundentitydatatype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/esoundentrydatatype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/esoundentrytype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/esoundmaxplaybacksbehavior": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/esoundreverbpreset": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/esystempath": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/etextureanimmode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/etexturecomparefunc": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/etexturecomparemode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/etexturefilter": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/etexturetype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/etextureusage": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/etexturewrap": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/euiarrow": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/evelocityaxes": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/evertexbufferdrawtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eviewportmessage": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/evsyncmode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ewidgetsliderorientation": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ewidgettextboxinputtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ewidgettype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eworldcontainertype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/eworldstreampriority": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/exmlnodetype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/icharacterbody": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/icollideshape": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/idepthstencilbuffer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ientity3d": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ieyetracker": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ifontdata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iframebuffer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iframedata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/igamepad": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/igpuprogram": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/igpushader": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iguimaterial": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iguipopup": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ikeyboard": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ilight": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ilipsyncresult": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ilowlevelgraphics": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iluxachievementhandler": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iluxentity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iluxentitycomponent": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/imaterialtype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/imouse": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iparticleemitter": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iphysicsbody": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iphysicscloth": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iphysicscontroller": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iphysicsjoint": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iphysicsjointball": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iphysicsjointhinge": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iphysicsjointslider": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iphysicsmaterial": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iphysicsrope": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iphysicsworld": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iposteffect": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iposteffecttype": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/irenderableentity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/irenderer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/irenderercallback": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iropeentity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrachievementhandler-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscragent-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrarea-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrcritter-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrdialoghandler-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscreffect-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscreventdatabasehandler-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrguihandler-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrinputhandler-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrliquidarea-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrmovestate-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrplayer-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrplayerstate-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrprop-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iscrusermodule-interface": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/isoundchannel": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/isounddata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/isoundevent": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/isoundeventdata": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/isoundeventproject": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/isubaction": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/itexture": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iverletparticlecontainer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ivertexbuffer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ivideostream": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iviewportcallback": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iwidget": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/iwidgetmenu": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ixmldocument": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/ixmlnode": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/tid": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/tstring": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/classes/twstring": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "api/wiki-index": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "areas/agentrepel-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/ambient-light-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/camera-animation-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/climb-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/crawl-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/datamine-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/description-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/distortion-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/doorwaytrigger-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/fog-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/hide-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/interactaux-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/ladder-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/pathnode-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/playerstart-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/soundscape-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/sticky-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/tool-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/trigger-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "areas/zoom-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "assets": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "assets/animation": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "assets/animation-principles": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "assets/blender-hpl3-export-plugin": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "assets/exporting-models": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "assets/modeling": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "assets/modeling-overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "audio": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "audio/playing-sounds": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "audio/sound": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "audio/working-with-fmod-designer-2010": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "debugging": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "debugging/faq": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "dialogue": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "dialogue/audition-overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "dialogue/lip-sync": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "dialogue/voice-handler-overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "editors": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "entities/adding-animations-to-entities": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/entities-overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/entity-mesh": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/entity-notes": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/entity-rig": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/entity-settings": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/entity-types": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/model-editor-outline": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/model-editor-view": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/model-preview-settings": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/physics-body-properties": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/working-with-joints": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "entities/working-with-shapes": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/areas-hub": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/color-grading": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/dialogue-hub": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/entities-hub": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/features-overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/glossary-source": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/gui": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/hpsl-shading-language": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/language-configuration": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/launch-configuration": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/level-design-hub": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/materials-hub": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/modding-hub": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/overwriting-existing-shaders": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/particles-hub": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/placeholder": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/resources-configuration": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/scripting": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/shaders": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/tdd-asset-pack": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "generated/wiki-home": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "glossary": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "index": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "level-building": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "level-building/billboards": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/decals": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/detail-mesh-entity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/detail-meshes": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/exposure-areas": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/fog-areas": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/indoor-level-performance": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/lens-flares": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/light-masks": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/lights-overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/outdoor-level-performance": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/particles": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/point-lights": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/sounds": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/spot-lights": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/terrain-editor-overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/terrain-height-map": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/terrain-painting": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/terrain-texturing": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/undergrowth": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/working-with-entities": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/working-with-primitives": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-building/working-with-static-objects": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-editor": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "level-editor/compounds": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-editor/entity-poser": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-editor/finding-objects": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-editor/level-editor-color-dialog": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-editor/level-editor-preferences": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-editor/level-editor-toolbar": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-editor/level-editor-view": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-editor/level-information": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-editor/level-settings": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "level-editor/pose-editor": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "materials": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "materials/engine-materials": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "materials/material-specific-variables": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "materials/materials-editor-view": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "materials/materials-overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "materials/translucent": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "materials/working-with-materials": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "modding": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "modding/creating-a-mod": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "modding/developer-commands": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "modding/developer-debug-menu": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "modding/minimaladdonmod": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "modding/minimalcustommapmod": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "modding/mod-dependencies": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "modding/non-safe-mode-menu": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "modding/setup-modding-environment": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "modding/soma-mod-launcher": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "particles": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "particles/emitter-management": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "particles/particle-collision": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "particles/particle-color": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "particles/particle-editor-view": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "particles/particle-general": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "particles/particle-movement": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "particles/particle-rendering": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "particles/particle-rotation": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "particles/particle-start": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "particles/working-with-particles": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "recipes/create-material": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes/debug-script": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes/enter-area": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes/first-mod": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "recipes/first-script": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes/fog": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes/import-model": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes/interactive-entity": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes/particle": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes/play-sound": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes/player-start": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "recipes/timer": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "scripting/advanced-topics-introduction": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/amnesia-style-inventory-script-reference": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/angelscript-fundamentals": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/chapter-1-introduction": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/chapter-2-structure-of-a-script": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/chapter-3-variables-and-types": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/chapter-4-operators-and-expressions": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/chapter-5-statements-and-flow-control": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/chapter-6-functions": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/chapter-7-calling-other-scripts": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/chapter-8-classes": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/chapter-9-miscellaneous-angelscript-features": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/angelscript/whats-next": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/calling-functions-and-function-callbacks": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/common-patterns": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/conclusion-advanced": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/conclusion-basic": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/entity-components": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/enums": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/hello-world": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/helper-files": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/helpers": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "scripting/hpl3-scripting-guide": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/id-handles": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/input-types": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/level-scripting-best-practices": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/local-and-global-variables": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/object-handles": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/object-instances-vs-object-handles": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/scripting-workflow-and-structure": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/sequences": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/setting-up-codelite": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/setting-up-visual-studio-code": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/terminals-overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/the-basics-introduction": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/the-onaction-method": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/the-update-method": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/timers": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/tutorials": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/type-casting": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/user-modules-overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/what-is-scripting-in-hpl3": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "scripting/working-with-classes": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "start": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "start/add-your-first-script": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "start/configure-the-level-editor": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "start/create-and-launch-your-mod": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "start/edit-your-first-map": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "start/overview": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "start/prepare-your-tools": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "start/terminology": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "start/test-debug-and-continue": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "start/what-can-be-modified": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "start/what-is-hpl3": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "start/where-next": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "tools": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "tools/hpl3-mod-manager": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "tools/soma-mod-manager": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "tools/soma-text-search-tool": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "tools/third-party-tools": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    },
+    "videos": {
+      "en": {
+        "revision": 1
+      },
+      "ru": {
+        "revision": 1,
+        "status": "current"
+      },
+      "de": {
+        "revision": 1,
+        "status": "current"
+      },
+      "fr": {
+        "revision": 1,
+        "status": "current"
+      },
+      "it": {
+        "revision": 1,
+        "status": "current"
+      },
+      "es": {
+        "revision": 1,
+        "status": "current"
+      }
+    },
+    "wiki-index": {
+      "en": {
+        "revision": 1
+      },
+      "ru": null,
+      "de": null,
+      "fr": null,
+      "it": null,
+      "es": null
+    }
+  }
+}

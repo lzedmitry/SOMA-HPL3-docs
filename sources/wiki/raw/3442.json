@@ -1,0 +1,14 @@
+{
+  "pageid": 3442,
+  "title": "HPL3/Entities/Working with Shapes",
+  "missing": false,
+  "redirect": false,
+  "length": 763,
+  "touched": "2026-07-30T21:59:19Z",
+  "revisionId": 7141,
+  "revisionTimestamp": "2026-07-30T21:59:19Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Shapes =\n\nGeneral Parameters:\n\n''' '''Name''': Name of the shape.\n''' '''Position''': Position of the shape in the world.\n''' '''Rotation''': 3D Vector storing the shape rotation.\n''' '''Scale''': 3D Vector storing the scale of the shape.\nShape Specific:\n\n''' '''Create body''': will create a body out of the shape. Also works when multiple shapes are selected, thus creating a multishape body.\n''' '''Detach from body''': the shape will be removed from the body it is part of.\nBest Practices:\n\n''' Keep the Scale in all axis larger than 0.04 to make the collisions stable\n\n= Shape EditMode =\n\nThis EditMode is used to create Shapes that will help in physics body creation. At the moment you can create four types of shapes:\n\n* Box\n* Cylinder\n* Sphere\n* Capsule",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Working_with_Shapes",
+  "requestedTitle": "HPL3/Entities/Working with Shapes"
+}

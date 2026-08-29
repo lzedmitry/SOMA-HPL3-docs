@@ -1,0 +1,56 @@
+---
+title: The Update method
+description: "However, we can also use it to calculate different things that aren’t related to physics."
+category: scripting
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/The_Update_method"
+sourceRevision: 4322
+sourceUpdated: "2020-08-14T10:53:37Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - scripting
+---
+|   |   |
+| --- | --- |
+
+### Breakdown
+*`afTimeStep` represents the time (in seconds) which takes the function to get called. It is called every frame, and the game can run up to 60 frames per seconds. Therefore, the value of `afTimeStep` will almost always be `0.0167 seconds` (60 fps in seconds).
+
+However, we can also use it to calculate different things that aren’t related to physics.
+
+### Example
+If we wanted to increase the brightness of a light based on the distance of the player from that light, we could use the `Update` method to always update the brightness value at any given time:
+```
+float mfMinBrightness = 0.0f;
+float mfMaxBrightness = 50.0f;
+
+void Update(float afTimeStep) 
+{		
+	cVector3f vPlayerPos = Player_GetPosition();
+	cVector3f vLightPos = Map_GetLight("PointLight_4").GetLocalPosition();
+		
+	float fDistance = (vLightPos - vPlayerPos).SqrLength(); // Calculate the square root distance of the player from the light.
+	float fCurrentDistanceRatio = vPlayerPos.Length() / fDistance; // Calculate the ratio of the total distance and the current position.
+	float fBrightness = cMath_Clamp(fCurrentDistanceRatio, mfMinBrightness, mfMaxBrightness); // Make sure the brightness value is within bounds.
+						
+	Light_SetBrightness("PointLight_4", fBrightness); // Apply the brightness
+}
+```
+
+id=https://youtu.be/rWafPQPO8AI
+|dimensions=480
+|alignment=left
+|description=The above script in-game.
+|container=frame
+
+HPL3/Scripting/Scripting_Guide/The OnAction method|The OnAction method|HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide|HPL3/Scripting/Scripting_Guide/Timers|Timers
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/The Update method](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/The_Update_method)
+- Revision: `4322`
+- Source update: `2020-08-14T10:53:37Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

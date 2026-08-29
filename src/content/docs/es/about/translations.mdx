@@ -1,0 +1,39 @@
+---
+title: "Traducciones"
+description: "Cobertura lingüística de esta documentación SOMA / HPL3 no oficial. El inglés es canónico. Las páginas faltantes no dan 404."
+category: about
+tableOfContents: false
+translation:
+  locale: es
+  sourceLocale: en
+  sourceRevision: 1
+  translationRevision: 1
+  status: current
+---
+
+import TranslationsCoverage from "../../../../components/TranslationsCoverage.astro";
+
+<p class="section-kicker">00 // TRANSLATIONS &nbsp; REF 00.04</p>
+
+El inglés es la documentación canónica de SOMA / HPL3. Los demás idiomas traducen primero las páginas de aprendizaje TIER 1 y los hubs TIER 2. Los identificadores técnicos siguen en inglés en cada locale: `Area`, `Entity`, `OnStart`, `.hps`, `cScript_GetGlobalArgBool`.
+
+Si una página aún no está traducida, el selector de idioma te deja en ese tema (fallback de Starlight) y muestra un aviso compacto. No te tira a la portada del locale.
+
+## Cobertura
+
+Las cuentas salen de `data/translation-manifest.json`, no de porcentajes fijos.
+
+<TranslationsCoverage />
+
+## Qué se traduce primero
+
+**TIER 1** — inicio, Inicio rápido, Primer mod, Terminología, Configuración del mod, Level Editor, Construir niveles, Areas, Scripting, Diagnóstico, Pipeline de assets, Glosario.
+
+**TIER 2** — Recetas, Helpers, Entities, Materials, Particles, Audio, Dialogue, índice API, biblioteca de vídeos.
+
+**TIER 3** — páginas completas de clases API, referencia legacy, índice Wiki original. Inglés hasta que exista una traducción.
+
+## Relacionado
+
+- [Estado de la documentación](/es/about/)
+- [Contribuir](/es/about/contributing/)

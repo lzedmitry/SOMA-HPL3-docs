@@ -1,0 +1,42 @@
+---
+title: Recipe — react when the player enters an Area
+description: Trigger Area collide callbacks. Parameter names come from the Trigger Area article only.
+category: recipes
+difficulty: beginner
+derivedFrom:
+  - HPL3/Areas/Trigger Area
+---
+
+## Goal
+
+A script function runs when the player enters a volume.
+
+## Requirements
+
+A map with a `.hps` script, editor on your mod.
+
+## Steps
+
+1. Place a **Trigger** Area. [Trigger Area](/areas/trigger-area/).
+2. Set **CC_Entities** so it includes `player` (the article's word for the player character).
+3. Set **CC_Funcs** to the callback name. The editor can generate a callback and copy it.
+4. Paste that callback into the map `.hps`. Keep the generated `cScrMap` structure from Getting Started.
+5. Save and launch. F5 reloads.
+
+## Expected result
+
+Entering the volume runs the function.
+
+## Why it works
+
+Trigger is the generic collide-callback volume. `CC_Entities` / `CC_Funcs` are the documented fields.
+
+## Common failure
+
+Forgetting `player` in `CC_Entities`. Look-at callbacks are a different property group on the same page.
+
+## Relevant reference
+
+- [Trigger Area](/areas/trigger-area/)
+- [Add your first script](/start/add-your-first-script/)
+- [Helpers](/scripting/helpers/) (`helper_area.hps` is named on the Trigger page; the helper article is a redlink)

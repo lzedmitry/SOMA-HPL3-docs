@@ -1,0 +1,14 @@
+{
+  "pageid": 2000,
+  "title": "HPL3/SOMA/Scripting/cEntityBodyExtraData",
+  "missing": false,
+  "redirect": false,
+  "length": 432,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3548,
+  "revisionTimestamp": "2020-08-06T13:26:33Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| m_mtxLocalTransform || [[../cMatrixf|<syntaxhighlight lang=\"c++\" inline>cMatrixf</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\ncEntityBodyExtraData has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEntityBodyExtraData",
+  "requestedTitle": "HPL3/SOMA/Scripting/cEntityBodyExtraData"
+}

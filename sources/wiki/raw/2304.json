@@ -1,0 +1,14 @@
+{
+  "pageid": 2304,
+  "title": "HPL3/SOMA/Scripting/eFlagBit",
+  "missing": false,
+  "redirect": false,
+  "length": 2143,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3784,
+  "revisionTimestamp": "2020-08-06T14:37:03Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eFlagBit_0</code> || <code>1</code> ||\n|-\n| <code>eFlagBit_1</code> || <code>2</code> ||\n|-\n| <code>eFlagBit_2</code> || <code>4</code> ||\n|-\n| <code>eFlagBit_3</code> || <code>8</code> ||\n|-\n| <code>eFlagBit_4</code> || <code>16</code> ||\n|-\n| <code>eFlagBit_5</code> || <code>32</code> ||\n|-\n| <code>eFlagBit_6</code> || <code>64</code> ||\n|-\n| <code>eFlagBit_7</code> || <code>128</code> ||\n|-\n| <code>eFlagBit_8</code> || <code>256</code> ||\n|-\n| <code>eFlagBit_9</code> || <code>512</code> ||\n|-\n| <code>eFlagBit_10</code> || <code>1024</code> ||\n|-\n| <code>eFlagBit_11</code> || <code>2048</code> ||\n|-\n| <code>eFlagBit_12</code> || <code>4096</code> ||\n|-\n| <code>eFlagBit_13</code> || <code>8192</code> ||\n|-\n| <code>eFlagBit_14</code> || <code>16384</code> ||\n|-\n| <code>eFlagBit_15</code> || <code>32768</code> ||\n|-\n| <code>eFlagBit_16</code> || <code>65536</code> ||\n|-\n| <code>eFlagBit_17</code> || <code>131072</code> ||\n|-\n| <code>eFlagBit_18</code> || <code>262144</code> ||\n|-\n| <code>eFlagBit_19</code> || <code>524288</code> ||\n|-\n| <code>eFlagBit_20</code> || <code>1048576</code> ||\n|-\n| <code>eFlagBit_21</code> || <code>2097152</code> ||\n|-\n| <code>eFlagBit_22</code> || <code>4194304</code> ||\n|-\n| <code>eFlagBit_23</code> || <code>8388608</code> ||\n|-\n| <code>eFlagBit_24</code> || <code>16777216</code> ||\n|-\n| <code>eFlagBit_25</code> || <code>33554432</code> ||\n|-\n| <code>eFlagBit_26</code> || <code>67108864</code> ||\n|-\n| <code>eFlagBit_27</code> || <code>134217728</code> ||\n|-\n| <code>eFlagBit_28</code> || <code>268435456</code> ||\n|-\n| <code>eFlagBit_29</code> || <code>536870912</code> ||\n|-\n| <code>eFlagBit_30</code> || <code>1073741824</code> ||\n|-\n| <code>eFlagBit_31</code> || <code>-2147483648</code> ||\n|-\n| <code>eFlagBit_None</code> || <code>0</code> ||\n|-\n| <code>eFlagBit_All</code> || <code>-1</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eFlagBit",
+  "requestedTitle": "HPL3/SOMA/Scripting/eFlagBit"
+}

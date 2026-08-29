@@ -1,0 +1,14 @@
+{
+  "pageid": 3373,
+  "title": "HPL3/SOMA/Areas/AgentRepel Area",
+  "missing": false,
+  "redirect": false,
+  "length": 280,
+  "touched": "2024-02-08T18:31:06Z",
+  "revisionId": 6779,
+  "revisionTimestamp": "2024-02-08T18:31:06Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "== Overview ==\nThis area type repels AI creatures who enter it, that is, it encourages any agent to leave the area.\n\n== Properties ==\n=== AgentRepel ===\n* '''ExitArea''': A [[HPL3/Areas/Trigger Area | Trigger Area]] for the agent to navigate torwards if the agent enters this area",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/AgentRepel_Area",
+  "requestedTitle": "HPL3/SOMA/Areas/AgentRepel Area"
+}

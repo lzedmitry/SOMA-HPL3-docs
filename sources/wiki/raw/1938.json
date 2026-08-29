@@ -1,0 +1,14 @@
+{
+  "pageid": 1938,
+  "title": "HPL3/SOMA/Areas",
+  "missing": false,
+  "redirect": false,
+  "length": 2192,
+  "touched": "2024-02-08T18:34:41Z",
+  "revisionId": 6780,
+  "revisionTimestamp": "2024-02-08T18:34:41Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "{{constructionNotice|This category and its sub-pages are undergoing major editing, as some information in this category and all the sub pages is currently in the process of being formatted or re-written from scratch to achieve a higher standard of formatting, or not everything is yet available. More pages and information will gradually be added.}}\n\n'''This category covers everything about the Area in the HPL3 Engine and SOMA.'''\n\n{{CategoryHeader}}\n{{CategoryNewcolumn}}\n\n== Getting Started ==\n* [[HPL3/Areas|Areas Overview]]\n\n== Engine Areas ==\n\n=== General ===\n* [[HPL3/Areas/PlayerStart Area|PlayerStart Area]]\n* [[HPL3/Areas/Trigger Area|Trigger Area]]\n* [[HPL3/Areas/DoorwayTrigger Area|DoorwayTrigger Area]]\n* [[HPL3/Areas/PathNode Area|PathNode Area]]\n* [[HPL3/Areas/Sticky Area|Sticky Area]]\n* [[HPL3/Areas/InteractAux Area|InteractAux Area]]\n\n=== Effects ===\n* [[HPL3/Areas/Fog Area|Fog Area]]\n* [[HPL3/Areas/SoundScape Area|Soundscape Area]]\n* [[HPL3/Areas/Camera Animation Area|Camera Animation Area]]\n* [[HPL3/Areas/Liquid Area|Liquid Area]]\n* [[HPL3/Areas/Ambient Light Area|Ambient Light Area]]\n* [[HPL3/Areas/Exposure Area|Exposure Area]]\n\n=== Gameplay ===\n* [[HPL3/Areas/Climb Area|Climb Area]]\n* [[HPL3/Areas/Crawl Area|Crawl Area]]\n* [[HPL3/Areas/Hide Area|Hide Area]]\n* [[HPL3/Areas/Ladder Area|Ladder Area]]\n* [[HPL3/Areas/Zoom Area|Zoom Area]]\n\n=== Technical ===\n\n* [[HPL3/Areas/Visibility Area|Visibility Area]]\n* [[HPL3/Areas/VisibilityPortal Area|VisibilityPortal Area]]\n* [[HPL3/Areas/MapTransfer Area|MapTransfer Area]]\n\n{{CategoryNewcolumn}}\n\n== Game-Specific Areas ==\n* [[HPL3/SOMA/Areas/Tool Area|Tool Area]]\n* [[HPL3/SOMA/Areas/Sit Area|Sit Area]]\n* [[HPL3/SOMA/Areas/Distortion Area|Distortion Area]]\n* [[HPL3/SOMA/Areas/Datamine Area|Datamine Area]]\n* [[HPL3/SOMA/Areas/AgentRepel Area|AgentRepel Area]]\n\n== Unused Areas ==\n* [[HPL3/Areas/Description Area|Description Area]]\n* [[HPL3/SOMA/Areas/DatamineAudioSource Area|DatamineAudioSource Area]]\n* [[HPL3/SOMA/Areas/DatamineAnimNode Area|DatamineAnimNode Area]]\n* [[HPL3/SOMA/Areas/PosNode|PosNode]]\n* [[HPL3/SOMA/Areas/Rope|Rope]]\n{{CategoryEnd}}\n\n__NOTOC__\n\n[[Category:Entry pages]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas",
+  "requestedTitle": "HPL3/SOMA/Areas"
+}

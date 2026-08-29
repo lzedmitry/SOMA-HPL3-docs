@@ -1,0 +1,14 @@
+{
+  "pageid": 2647,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/Readable",
+  "missing": false,
+  "redirect": false,
+  "length": 1778,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5048,
+  "revisionTimestamp": "2020-08-24T20:58:22Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|void|[[#Readable_SetCloseCallback|Readable_SetCloseCallback]](const [[../../tString|tString]] &in asName, const [[../../tString|tString]] &in asCallback)|Sets the close callback of a readable prop}}\n{{CodeDocSummaryItem|void|[[#Readable_SetOpenEntityFile|Readable_SetOpenEntityFile]](const [[../../tString|tString]] &in asName, const [[../../tString|tString]] &in asEntityFile)|Sets the open entity file of the readable prop}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|Readable_SetCloseCallback}}\n<syntaxhighlight lang=\"c++\">void Readable_SetCloseCallback(const tString &in asName,\n                               const tString &in asCallback)</syntaxhighlight>\n{{CodeDocDetailBody|Sets the close callback of a readable prop.<br/>Syntax for callback function: void FuncName(const tString &in asEntity).}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asName|[[../../tString|tString]]|name of readable prop}}\n{{CodeDocDetailParam|asCallback|[[../../tString|tString]]|the callback function}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}\n\n{{CodeDocDetailTop|Readable_SetOpenEntityFile}}\n<syntaxhighlight lang=\"c++\">void Readable_SetOpenEntityFile(const tString &in asName,\n                                const tString &in asEntityFile)</syntaxhighlight>\n{{CodeDocDetailBody|Sets the open entity file of the readable prop}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asName|[[../../tString|tString]]|name of readable prop}}\n{{CodeDocDetailParam|asEntityFile|[[../../tString|tString]]|the new entity file name}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Readable",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/Readable"
+}

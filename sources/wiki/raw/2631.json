@@ -1,0 +1,14 @@
+{
+  "pageid": 2631,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/IrradianceSet",
+  "missing": false,
+  "redirect": false,
+  "length": 1957,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5032,
+  "revisionTimestamp": "2020-08-24T20:54:11Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|void|[[#IrradianceSet_FadeIn|IrradianceSet_FadeIn]](const [[../../tString|tString]] &in asSet, float afTime)|Fades in the specified set on all probes belonging to it}}\n{{CodeDocSummaryItem|void|[[#IrradianceSet_FadeInSingleProbe|IrradianceSet_FadeInSingleProbe]](const [[../../tString|tString]] &in asProbe, const [[../../tString|tString]] &in asSet, float afTime)|Fades in the specified set on a specific probe}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|IrradianceSet_FadeIn}}\n<syntaxhighlight lang=\"c++\">void IrradianceSet_FadeIn(const tString &in asSet,\n                          float afTime)</syntaxhighlight>\n{{CodeDocDetailBody|Fades in the specified set on all probes belonging to it. This also fades out the currently active set for these probes.}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asSet|[[../../tString|tString]]|set to fade in.}}\n{{CodeDocDetailParam|afTime|float|how long it should take until the fade is done.}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}\n\n{{CodeDocDetailTop|IrradianceSet_FadeInSingleProbe}}\n<syntaxhighlight lang=\"c++\">void IrradianceSet_FadeInSingleProbe(const tString &in asProbe,\n                                     const tString &in asSet,\n                                     float afTime)</syntaxhighlight>\n{{CodeDocDetailBody|Fades in the specified set on a specific probe. This also fades out the currently active set for these probes.}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asProbe|[[../../tString|tString]]|the probe to fade in the set on. Wildcards (*) supported.}}\n{{CodeDocDetailParam|asSet|[[../../tString|tString]]|set to fade in.}}\n{{CodeDocDetailParam|afTime|float|how long it should take until the fade is done.}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/IrradianceSet",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/IrradianceSet"
+}

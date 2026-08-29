@@ -1,0 +1,14 @@
+{
+  "pageid": 3439,
+  "title": "HPL3/Entities/Entity Mesh",
+  "missing": false,
+  "redirect": false,
+  "length": 1268,
+  "touched": "2026-07-30T21:54:57Z",
+  "revisionId": 7135,
+  "revisionTimestamp": "2026-07-30T21:54:57Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= SubMeshes =\nWhenever a Mesh is imported into the ModelEditor, it will spawn one or several submeshes. These can be attached to bodies.\n\nGeneral Parameters:\n* '''Name''': Name of the shape.\n* '''Position''': Position of the shape in the world. If the mesh has a skeleton, no transformations can be applied.\n* '''Rotation''': 3D Vector storing the shape rotation. If the mesh has a skeleton, no transformations can be applied.\n* '''Scale''': 3D Vector storing the scale of the shape. If the mesh has a skeleton, no transformations can be applied.\n\n= SubMesh Reassign Dialog =\n\n[[File:model_editor_submesh_reassign.png]]\n\nThis window allows the user to keep existing submesh data in the event of importing a new mesh or updating of the current one.\n\nOn the left, a list with the new submeshes will be displayed, as well as a selector for pairing with a previous submesh for each. The \"Use new data\" item will ignore any present parameters.\n\nOn the right, submeshes that are currently unassigned will be listed.\n\n\nThe Best Match button will try to find the best pairing for each submesh. At the time of writing, only triangle count will be taken into consideration.\n\n\nWhen done, pressing the OK button will close the dialog and use the chosen parameters in the new mesh.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Mesh",
+  "requestedTitle": "HPL3/Entities/Entity Mesh"
+}

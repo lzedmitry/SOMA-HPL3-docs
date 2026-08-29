@@ -1,0 +1,14 @@
+{
+  "pageid": 2639,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/Material",
+  "missing": false,
+  "redirect": false,
+  "length": 669,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5040,
+  "revisionTimestamp": "2020-08-24T20:56:28Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|void|[[#Material_Preload|Material_Preload]](const [[../../tString|tString]] &in asFile)|Preloads a material}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|Material_Preload}}\n<syntaxhighlight lang=\"c++\">void Material_Preload(const tString &in asFile)</syntaxhighlight>\n{{CodeDocDetailBody|Preloads a material}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asFile|[[../../tString|tString]]|material file to preload}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Material",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/Material"
+}

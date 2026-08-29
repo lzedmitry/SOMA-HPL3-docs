@@ -1,0 +1,15 @@
+{
+  "pageid": 3404,
+  "title": "HPL3/Level Design/Detail Meshes",
+  "missing": false,
+  "redirect": false,
+  "length": 1989,
+  "touched": "2026-07-30T09:27:39Z",
+  "revisionId": 7073,
+  "revisionTimestamp": "2026-07-30T09:27:39Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= DetailMeshEntities =\n\nDetail mesh entities are useful for adding details to the geometry of a level without much impact on the performance.\n\n== General Parameters ==\n* '''Name''': Name for the entity (non editable)\n* '''Position''': 3D Vector storing the position in world.\n* '''Rotation''': 3D Vector storing the rotation.\n* '''Radius''': float storing the value for the uniform scale.\n* '''Mesh''': file name for the entity.\n\n== Specific Parameters ==\n* '''Diffuse color mul''': color to tint the object with.\n\n= DetailMeshEntity EditMode =\n\n[[File:detailmeshentity_mode.png]]\n\nThis mode is used to create detail mesh entities. These are useful for adding details to a level without much impact on the performance.\n\n\n''' '''Main category''': this ComboBox is used to select the current set of objects. Sets should map to directories under the static_objects directory in redist.\n\n''' '''Subcategory''': this ComboBox will show all subsets inside the set picked previously. \n\n''' '''Object list''': all objects under the selected subcategory. Clicking on an entry will select a static object file to be used in following placements.\n\n\n''' '''Thumbnail''': shows a little picture so you can see how the object looks like.\n''' '''Create on surface''': when this is on, you are able to create objects on the surface of other objects, such as static objects, entities, primitives or terrain.\n\n\n''' '''Scale settings''': this sets the scale for the object on creation. Can be set to a fixed or a random value, the latter defined by a range given by both scale inputs, min and max.\n\n\n''' '''Rotation settings''': this sets the rotation for the object on creation. Can be set to a fixed or a random value, the latter defined by a range given by both rotate inputs, min and max.\n\n''' '''Color settings''': this will define a color range from which a color will be picked for every new placed object.\n\n\nMore on DetailMeshEntities [[:hpl3:tools:maineditors:level_editor:DetailMeshEntities|here]].",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Detail_Meshes",
+  "requestedTitle": "HPL3/SOMA/Level Design/Detail Meshes",
+  "resolvedTitle": "HPL3/Level Design/Detail Meshes"
+}

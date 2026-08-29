@@ -1,0 +1,14 @@
+{
+  "pageid": 2348,
+  "title": "HPL3/SOMA/Scripting/eLuxEntityComponentType",
+  "missing": false,
+  "redirect": false,
+  "length": 1024,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3828,
+  "revisionTimestamp": "2020-08-06T14:46:38Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eLuxEntityComponentType_Pathfinder</code> || <code>1</code> ||\n|-\n| <code>eLuxEntityComponentType_CharMover</code> || <code>2</code> ||\n|-\n| <code>eLuxEntityComponentType_SoundListener</code> || <code>3</code> ||\n|-\n| <code>eLuxEntityComponentType_StateMachine</code> || <code>4</code> ||\n|-\n| <code>eLuxEntityComponentType_HeadTracker</code> || <code>5</code> ||\n|-\n| <code>eLuxEntityComponentType_ForceEmitter</code> || <code>6</code> ||\n|-\n| <code>eLuxEntityComponentType_BarkMachine</code> || <code>7</code> ||\n|-\n| <code>eLuxEntityComponentType_BackboneTail</code> || <code>8</code> ||\n|-\n| <code>eLuxEntityComponentType_LightSensor</code> || <code>9</code> ||\n|-\n| <code>eLuxEntityComponentType_User</code> || <code>0</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxEntityComponentType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eLuxEntityComponentType"
+}

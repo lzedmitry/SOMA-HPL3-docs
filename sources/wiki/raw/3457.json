@@ -1,0 +1,14 @@
+{
+  "pageid": 3457,
+  "title": "HPL3/Particles/Particle Collision",
+  "missing": false,
+  "redirect": false,
+  "length": 394,
+  "touched": "2026-07-30T22:15:56Z",
+  "revisionId": 7162,
+  "revisionTimestamp": "2026-07-30T22:15:56Z",
+  "revisionUser": "TiMan",
+  "wikitext": "=== Collision ===\n\n* '''Use Collision''': If collision detection should be used.\n* '''Update Rate''': How many times a second collision is check for each particle.\n* '''Maximum Collisions''': The maximum amount of collisions can have before dying.\n* '''Bounce Amount''': How much of the speed is retained when bouncing. 0.5 means half of the speed. 2 means that the speed doubles when bouncing.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Collision",
+  "requestedTitle": "HPL3/Particles/Particle Collision"
+}

@@ -1,0 +1,52 @@
+---
+title: "Отладка"
+description: "Диагностика из Getting Started, debug menu, developer commands и Wiki FAQ."
+category: debugging
+translation:
+  locale: ru
+  sourceLocale: en
+  sourceRevision: 1
+  translationRevision: 1
+  status: current
+---
+
+Если шаг Getting Started падает — остановитесь там. Исходный путь сделан так, чтобы сбои лаунчера, редактора, карты и скрипта оставались разделимыми.
+
+## Быстрый путь
+
+1. Убедитесь, что вы в **скопированном моде**, не в `MinimalCustomMapMod` и не в базовой игре.
+2. Запуск из SOMA mod launcher.
+3. В development mode нажмите **F1**: Show Error List, Show HPL Log ([Debug menu](/ru/modding/developer-debug-menu/)).
+4. После правки скрипта **F5** перезагружает карту.
+5. Читайте [Developer commands](/ru/modding/developer-commands/).
+
+## Симптомы
+
+| Symptom | Start here |
+| --- | --- |
+| Мода нет в списке | [Creating a mod](/ru/modding/creating-a-mod/), [Launcher](/ru/modding/soma-mod-launcher/), entry file name `entry.hpc` |
+| Мод не запускается | Same, plus [FAQ](/ru/debugging/faq/) |
+| Редактор не видит ассеты мода | [Setup environment](/ru/modding/setup-modding-environment/) — title bar must say `(Working on mod)` |
+| Missing resources | [resources.cfg](/ru/modding/creating-a-mod/), [Resources configuration](/ru/generated/resources-configuration/) |
+| Script compile error | [Add your first script](/ru/start/add-your-first-script/), error list, [Hello World](/ru/scripting/hello-world/) |
+| Карта не грузится | Keep `.hpm` and `.hpm_*` together |
+| Entity not found | [Finding objects](/ru/level-editor/finding-objects/), names in script vs editor |
+| Area does not trigger | [Trigger Area](/ru/areas/trigger-area/) — `CC_Entities` must include `player` if the player should fire it |
+| Sound not playing | [Playing sounds](/ru/audio/playing-sounds/), [Soundscape](/ru/areas/soundscape-area/) |
+| Texture / material | [Materials](/ru/materials/) — many type pages are missing on the Wiki |
+| Broken references | Re-open the editor on the mod; relative paths only |
+| Performance | [Indoor](/ru/level-building/indoor-level-performance/), [Outdoor](/ru/level-building/outdoor-level-performance/) |
+| Sticky area + static collider | [FAQ](/ru/debugging/faq/) — wait on a timer |
+| MoveObject and multi-body entities | [FAQ](/ru/debugging/faq/) — `MainPhysicsBody` |
+| Callback gets a wrong C++ return | [FAQ](/ru/debugging/faq/) — store in a temporary |
+| Lever interaction inverts | [FAQ](/ru/debugging/faq/) |
+
+## Связанное
+
+
+## Источники
+
+- Getting Started recovery sections
+- [HPL3/Troubleshooting](https://wiki.frictionalgames.com/page/HPL3/Troubleshooting)
+- [Developer Debug Menu](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Developer_Debug_Menu)
+

@@ -1,0 +1,14 @@
+{
+  "pageid": 2165,
+  "title": "HPL3/SOMA/Scripting/cScriptStringIntMap",
+  "missing": false,
+  "redirect": false,
+  "length": 1422,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3709,
+  "revisionTimestamp": "2020-08-06T14:18:57Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncScriptStringIntMap has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Clear ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || ElementNamesToArray ||  ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || ElementValuesToArray ||  ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Erase || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asStr</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || Exists || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asStr</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || Get || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asStr</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Set || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString& asStr</syntaxhighlight>]],<br /><syntaxhighlight lang=\"c++\" inline>int alVal</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> || Size ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cScriptStringIntMap",
+  "requestedTitle": "HPL3/SOMA/Scripting/cScriptStringIntMap"
+}

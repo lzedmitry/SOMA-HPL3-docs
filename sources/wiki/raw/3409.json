@@ -1,0 +1,14 @@
+{
+  "pageid": 3409,
+  "title": "HPL3/Level Design/Terrain Texturing",
+  "missing": false,
+  "redirect": false,
+  "length": 1436,
+  "touched": "2026-07-30T09:32:29Z",
+  "revisionId": 7082,
+  "revisionTimestamp": "2026-07-30T09:32:29Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Texture mode =\n\nThis mode is used to edit the texture on the terrain.\n\n[[File:terrain_mode_texture.png]] \n\nAs general parameters, one can set up:\n- A base material, so it shows on the parts of the terrain that are not painted by blend layers. This one obviates a fade start parameter.\n- Specular power\n- Default layer resolution.\n\nTo be able to paint on the terrain, one (or more) blend layers must be added. A blend layer has variable resolution, which can be set in the edit mode window. It also contains four sublayers, each below the next one. A blend layer will also appear below the one created after it, so keep that in mind. \nEach sub-layer has a terrain material. A terrain material is defined by a material file, a tile amount parameter and a fade start parameter. Additionally it has a vector of 3 real numbers ranging from 0 to 1, indicating how much of each detail texture (these being defined elsewhere) will be blended with the material.\n\nTo define detail textures, one must open the Detail tab. There, you can set up to three detail textures, each one with its texture file name and scale. You can also set the fading, that will determine the distance from the camera in which the detail will be visible.\n\n[[File:terrain_mode_texture_detail.png]]\n\nThere are two different brushes in this submode:\n\nAdd: will paint the affected area on the target sublayer.\nErase: will remove the affected area from the target sublayer.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Terrain_Texturing",
+  "requestedTitle": "HPL3/Level Design/Terrain Texturing"
+}

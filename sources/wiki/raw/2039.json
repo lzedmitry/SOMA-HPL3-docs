@@ -1,0 +1,14 @@
+{
+  "pageid": 2039,
+  "title": "HPL3/SOMA/Scripting/cImGuiFrameGfx",
+  "missing": false,
+  "redirect": false,
+  "length": 1945,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3585,
+  "revisionTimestamp": "2020-08-06T13:40:36Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mColorCornerBotLeft || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorCornerBotRight || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorCornerTopLeft || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mColorCornerTopRight || [[../cColor|<syntaxhighlight lang=\"c++\" inline>cColor</syntaxhighlight>]] ||\n|-\n| mGfxBackground || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxBorderBottom || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxBorderLeft || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxBorderRight || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxBorderTop || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxCornerBottomLeft || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxCornerBottomRight || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxCornerTopLeft || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|-\n| mGfxCornerTopRight || [[../cImGuiGfx|<syntaxhighlight lang=\"c++\" inline>cImGuiGfx</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || CopyFrom || [[../cImGuiFrameGfx|<syntaxhighlight lang=\"c++\" inline>const cImGuiFrameGfx& aFrame</syntaxhighlight>]] ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cImGuiFrameGfx",
+  "requestedTitle": "HPL3/SOMA/Scripting/cImGuiFrameGfx"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 3362,
+  "title": "HPL3/Areas/Description Area",
+  "missing": false,
+  "redirect": false,
+  "length": 223,
+  "touched": "2024-02-08T18:11:16Z",
+  "revisionId": 6777,
+  "revisionTimestamp": "2024-02-08T18:11:16Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "{{warning|This area is not used in Soma}}\nDescription is a deprecated area used for displaying text to the screen. Use [[HPL3/SOMA/Scripting/Scripting_Api/Readable|Readables]] and [[HPL3/Areas/Zoom Area|ZoomAreas]] instead.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Description_Area",
+  "requestedTitle": "HPL3/Areas/Description Area"
+}

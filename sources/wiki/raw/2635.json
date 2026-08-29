@@ -1,0 +1,14 @@
+{
+  "pageid": 2635,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/LevelDoor",
+  "missing": false,
+  "redirect": false,
+  "length": 1440,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5036,
+  "revisionTimestamp": "2020-08-24T20:55:29Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|bool|[[#LevelDoor_GetLocked|LevelDoor_GetLocked]](const [[../../tString|tString]] &in asName)|Gets the lock state of a level door}}\n{{CodeDocSummaryItem|void|[[#LevelDoor_SetLocked|LevelDoor_SetLocked]](const [[../../tString|tString]] &in asName, bool abState)|Sets the lock state of a level door}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|LevelDoor_GetLocked}}\n<syntaxhighlight lang=\"c++\">bool LevelDoor_GetLocked(const tString &in asName)</syntaxhighlight>\n{{CodeDocDetailBody|Gets the lock state of a level door}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asName|[[../../tString|tString]]|name of level door.}}\n{{CodeDocDetailReturn|bool|true <nowiki>=</nowiki> locked - false <nowiki>=</nowiki> unlocked.}}\n{{CodeDocDetailBottom}}\n\n{{CodeDocDetailTop|LevelDoor_SetLocked}}\n<syntaxhighlight lang=\"c++\">void LevelDoor_SetLocked(const tString &in asName,\n                         bool abState)</syntaxhighlight>\n{{CodeDocDetailBody|Sets the lock state of a level door}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|asName|[[../../tString|tString]]|name of level door.}}\n{{CodeDocDetailParam|abState|bool|true <nowiki>=</nowiki> locked - false <nowiki>=</nowiki> unlocked.}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/LevelDoor",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/LevelDoor"
+}

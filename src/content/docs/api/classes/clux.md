@@ -1,0 +1,3017 @@
+---
+title: cLux
+description: "Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!"
+category: api
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cLux"
+sourceRevision: 5019
+sourceUpdated: "2020-08-24T20:49:09Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: undocumented
+generated: true
+tags:
+  - api
+  - api
+sidebar:
+  hidden: true
+---
+:::note[SOURCE STATUS: Undocumented]
+This API page was auto-generated on the Frictional Wiki and has no written descriptions.
+:::
+
+Have some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!
+
+## Summary
+| Return | Function | Description |
+| --- | --- | --- |
+| `void` | [`cLux_AddAreaType`](#clux-addareatype)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asScriptFile, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asScriptClass, bool abForceFullGameSave) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_AddCritterType`](#clux-addcrittertype)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asScriptFile, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asScriptClass, bool abForceFullGameSave) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_AddDebugMessage`](#clux-adddebugmessage)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asText, bool abCheckForDuplicates) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_AddDebugMessage`](#clux-adddebugmessage)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asText) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_AddEntityToInteractionWhiteList`](#clux-addentitytointeractionwhitelist)([iLuxEntity@](https://wiki.frictionalgames.com/page/../../iLuxEntity) apEntity) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_AddLiquidAreaType`](#clux-addliquidareatype)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asScriptFile, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asScriptClass, bool abForceFullGameSave) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_AddModule`](#clux-addmodule)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asScriptFile, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asScriptClass, int alId, bool abIsGlobal, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in sContainer, bool abUseInputCallbacks) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_AddPropType`](#clux-addproptype)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asScriptFile, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asScriptClass, bool abForceFullGameSave) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_AddTodoMessage`](#clux-addtodomessage)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asText, bool abCheckForDuplicates) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_AddTodoMessage`](#clux-addtodomessage)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asText) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_ApplyUserConfig`](#clux-applyuserconfig)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_CanContinue`](#clux-cancontinue)() | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_ChangeMap`](#clux-changemap)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asMapName, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asStartPos, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asTransferArea, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asStartSound, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asEndSound) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_CheckLineOfSight`](#clux-checklineofsight)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avStart, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avEnd, bool abCheckOnlyShadowCasters, bool abCheckOnlyStatic, [iLuxEntity@](https://wiki.frictionalgames.com/page/../../iLuxEntity) apSkipEntity = null) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_CleanupData`](#clux-cleanupdata)() | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_Continue`](#clux-continue)() | *Undocumented in the original Wiki.* |
+| `cLuxBackboneTail` | [`cLux_CreateEntityComponent_BackboneTail`](#clux-createentitycomponent-backbonetail)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxBarkMachine` | [`cLux_CreateEntityComponent_BarkMachine`](#clux-createentitycomponent-barkmachine)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxCharMover` | [`cLux_CreateEntityComponent_CharMover`](#clux-createentitycomponent-charmover)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity, [iCharacterBody](https://wiki.frictionalgames.com/page/../../iCharacterBody) @apCharBody) | *Undocumented in the original Wiki.* |
+| `cLuxEdgeGlow` | [`cLux_CreateEntityComponent_EdgeGlow`](#clux-createentitycomponent-edgeglow)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxForceEmitter` | [`cLux_CreateEntityComponent_ForceEmitter`](#clux-createentitycomponent-forceemitter)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxHeadTracker` | [`cLux_CreateEntityComponent_HeadTracker`](#clux-createentitycomponent-headtracker)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxLightSensor` | [`cLux_CreateEntityComponent_LightSensor`](#clux-createentitycomponent-lightsensor)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxPathfinder` | [`cLux_CreateEntityComponent_Pathfinder`](#clux-createentitycomponent-pathfinder)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxSoundListener` | [`cLux_CreateEntityComponent_SoundListener`](#clux-createentitycomponent-soundlistener)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxStateMachine` | [`cLux_CreateEntityComponent_StateMachine`](#clux-createentitycomponent-statemachine)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `tString` | [`cLux_CreateHTMLImage`](#clux-createhtmlimage)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asSrc, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asTitle = "", const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avSize = cVector2l_MinusOne) | *Undocumented in the original Wiki.* |
+| `tString` | [`cLux_CreateHTMLParagraph`](#clux-createhtmlparagraph)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asContent) | *Undocumented in the original Wiki.* |
+| `tString` | [`cLux_CreateHTMLTag`](#clux-createhtmltag)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asTag, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asContent = "", const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asParams = "") | *Undocumented in the original Wiki.* |
+| `cLuxScriptImGui` | [`cLux_CreateScriptImGui`](#clux-createscriptimgui)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, bool abRegisterForDrawing, bool abSkipResetOnRegistration = true) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_DebugModeOn`](#clux-debugmodeon)() | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_DecUnderwaterEffectUserCount`](#clux-decunderwatereffectusercount)() | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_DeloadMap`](#clux-deloadmap)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asTransferArea) | *Undocumented in the original Wiki.* |
+| `float` | [`cLux_DrawDebugText`](#clux-drawdebugtext)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asText, float afY, float afSize = 14, [cColor](https://wiki.frictionalgames.com/page/../../cColor) aColor = cColor, [../../](https://wiki.frictionalgames.com/page/../../) 1, [../../](https://wiki.frictionalgames.com/page/../../) 1, bool abAddNewLine = true) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_DrawHint`](#clux-drawhint)([cImGui](https://wiki.frictionalgames.com/page/../../cImGui) @apImGui, float afTimeStep, const [cImGuiLabelData](https://wiki.frictionalgames.com/page/../../cImGuiLabelData) &in aLabel, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosition, float afLineWidth, float afLineSpacing, const [array](https://wiki.frictionalgames.com/page/../../array)<[tWString](https://wiki.frictionalgames.com/page/../../tWString)> &in avTextLines, const [array](https://wiki.frictionalgames.com/page/../../array)<[cLuxScreenTextIcon@](https://wiki.frictionalgames.com/page/../../cLuxScreenTextIcon)> &in avIcons, const [array](https://wiki.frictionalgames.com/page/../../array)<[array](https://wiki.frictionalgames.com/page/../../array)> &in avIconsPerLine) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_DrawScreenText`](#clux-drawscreentext)([cImGui](https://wiki.frictionalgames.com/page/../../cImGui) @apImGui, float afTimeStep, const [cImGuiLabelData](https://wiki.frictionalgames.com/page/../../cImGuiLabelData) &in aLabel, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPosition, float afLineWidth, float afLineSpacing, const [array](https://wiki.frictionalgames.com/page/../../array)<[tWString](https://wiki.frictionalgames.com/page/../../tWString)> &in avTextLines, const [array](https://wiki.frictionalgames.com/page/../../array)<[cLuxScreenTextIcon@](https://wiki.frictionalgames.com/page/../../cLuxScreenTextIcon)> &in avIcons, const [array](https://wiki.frictionalgames.com/page/../../array)<[array](https://wiki.frictionalgames.com/page/../../array)> &in avIconsPerLine) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_DrawSetToScreen`](#clux-drawsettoscreen)(bool abClearScreen, const [cColor](https://wiki.frictionalgames.com/page/../../cColor) &in aCol, [cGuiSet@](https://wiki.frictionalgames.com/page/../../cGuiSet) apSet) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_DropPageFocus`](#clux-droppagefocus)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asX) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_Exit`](#clux-exit)() | *Undocumented in the original Wiki.* |
+| `iLuxAchievementHandler` | [`cLux_GetAchievementHandler`](#clux-getachievementhandler)() | *Undocumented in the original Wiki.* |
+| `iLuxEntity` | [`cLux_GetBodyEntity`](#clux-getbodyentity)([iPhysicsBody](https://wiki.frictionalgames.com/page/../../iPhysicsBody) @apBody) | *Undocumented in the original Wiki.* |
+| `iPhysicsBody` | [`cLux_GetClosestBody`](#clux-getclosestbody)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avStart, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avDir, float afRayLength, float &out afDistance, [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &out avSurfaceNormal) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_GetClosestCharCollider`](#clux-getclosestcharcollider)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avStart, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avDir, float afRayLength, bool abCheckDynamic, [cLuxClosestCharCollider](https://wiki.frictionalgames.com/page/../../cLuxClosestCharCollider) @apOutput) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_GetClosestEntity`](#clux-getclosestentity)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avStart, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avDir, float afRayLength, int alIteractType, bool abCheckLineOfSight, [cLuxClosestEntityData](https://wiki.frictionalgames.com/page/../../cLuxClosestEntityData) @apOutput) | *Undocumented in the original Wiki.* |
+| `cImGui` | [`cLux_GetCurrentImGui`](#clux-getcurrentimgui)() | *Undocumented in the original Wiki.* |
+| `tString` | [`cLux_GetCurrentLanguage`](#clux-getcurrentlanguage)() | *Undocumented in the original Wiki.* |
+| `cLuxMap` | [`cLux_GetCurrentMap`](#clux-getcurrentmap)() | *Undocumented in the original Wiki.* |
+| `tWString` | [`cLux_GetCurrentUserProfilePath`](#clux-getcurrentuserprofilepath)() | *Undocumented in the original Wiki.* |
+| `iFontData` | [`cLux_GetDefaultFont`](#clux-getdefaultfont)() | *Undocumented in the original Wiki.* |
+| `tString` | [`cLux_GetDefaultGameLanguage`](#clux-getdefaultgamelanguage)() | *Undocumented in the original Wiki.* |
+| `cLuxDialogHandler` | [`cLux_GetDialogHandler`](#clux-getdialoghandler)() | *Undocumented in the original Wiki.* |
+| `cLuxEffectHandler` | [`cLux_GetEffectHandler`](#clux-geteffecthandler)() | *Undocumented in the original Wiki.* |
+| `cLuxEventDatabaseHandler` | [`cLux_GetEventDatabaseHandler`](#clux-geteventdatabasehandler)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_GetExplorationModeActive`](#clux-getexplorationmodeactive)() | *Undocumented in the original Wiki.* |
+| `cConfigFile` | [`cLux_GetGameConfig`](#clux-getgameconfig)() | *Undocumented in the original Wiki.* |
+| `cImGui` | [`cLux_GetGameHudImGui`](#clux-getgamehudimgui)() | *Undocumented in the original Wiki.* |
+| `cGuiSet` | [`cLux_GetGameHudSet`](#clux-getgamehudset)() | *Undocumented in the original Wiki.* |
+| `tString` | [`cLux_GetGameLanguageFolder`](#clux-getgamelanguagefolder)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_GetGamePaused`](#clux-getgamepaused)() | *Undocumented in the original Wiki.* |
+| `double` | [`cLux_GetGameTime`](#clux-getgametime)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_GetGodModeActivated`](#clux-getgodmodeactivated)() | *Undocumented in the original Wiki.* |
+| `cLuxGuiHandler` | [`cLux_GetGuiHandler`](#clux-getguihandler)() | *Undocumented in the original Wiki.* |
+| `cGuiSet` | [`cLux_GetHelpGuiSet`](#clux-gethelpguiset)() | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cLux_GetHudVirtualCenterScreenSize`](#clux-gethudvirtualcenterscreensize)() | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cLux_GetHudVirtualCenterScreenStartPos`](#clux-gethudvirtualcenterscreenstartpos)() | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cLux_GetHudVirtualCenterSize`](#clux-gethudvirtualcentersize)() | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cLux_GetHudVirtualOffset`](#clux-gethudvirtualoffset)() | *Undocumented in the original Wiki.* |
+| `cVector2f` | [`cLux_GetHudVirtualSize`](#clux-gethudvirtualsize)() | *Undocumented in the original Wiki.* |
+| `cVector3f` | [`cLux_GetHudVirtualStartPos`](#clux-gethudvirtualstartpos)() | *Undocumented in the original Wiki.* |
+| `cImGui` | [`cLux_GetInputFocusImGui`](#clux-getinputfocusimgui)() | *Undocumented in the original Wiki.* |
+| `cLuxInputHandler` | [`cLux_GetInputHandler`](#clux-getinputhandler)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_GetInteractionWhiteListActive`](#clux-getinteractionwhitelistactive)() | *Undocumented in the original Wiki.* |
+| `cConfigFile` | [`cLux_GetKeyConfig`](#clux-getkeyconfig)() | *Undocumented in the original Wiki.* |
+| `float` | [`cLux_GetLightLevelAtPos`](#clux-getlightlevelatpos)(const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avPos, [iLight](https://wiki.frictionalgames.com/page/../../iLight) @apSkipLight, float afRadiusAdd) | *Undocumented in the original Wiki.* |
+| `tString` | [`cLux_GetMainMenuFile`](#clux-getmainmenufile)() | *Undocumented in the original Wiki.* |
+| `cLuxMusicHandler` | [`cLux_GetMusicHandler`](#clux-getmusichandler)() | *Undocumented in the original Wiki.* |
+| `cLuxPlayer` | [`cLux_GetPlayer`](#clux-getplayer)() | *Undocumented in the original Wiki.* |
+| `cLuxMap` | [`cLux_GetPreloadMap`](#clux-getpreloadmap)() | *Undocumented in the original Wiki.* |
+| `cImGui` | [`cLux_GetPrevInputFocusImGui`](#clux-getprevinputfocusimgui)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_GetSaveConfigAtExit`](#clux-getsaveconfigatexit)() | *Undocumented in the original Wiki.* |
+| `cLuxSaveHandler` | [`cLux_GetSaveHandler`](#clux-getsavehandler)() | *Undocumented in the original Wiki.* |
+| `cLuxSoundscapeHandler` | [`cLux_GetSoundscapeHandler`](#clux-getsoundscapehandler)() | *Undocumented in the original Wiki.* |
+| `float` | [`cLux_GetStringDuration`](#clux-getstringduration)(const [tWString](https://wiki.frictionalgames.com/page/../../tWString) &in asStr) | *Undocumented in the original Wiki.* |
+| `tWString` | [`cLux_GetStringWFromDate`](#clux-getstringwfromdate)(const [cDate](https://wiki.frictionalgames.com/page/../../cDate) &in aDate) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_GetSupportExplorationMode`](#clux-getsupportexplorationmode)() | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_GetTextCatAndEntryFromString`](#clux-gettextcatandentryfromstring)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asData, [tString](https://wiki.frictionalgames.com/page/../../tString) &out asOutCat, [tString](https://wiki.frictionalgames.com/page/../../tString) &out asOutEntry) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_GetUnderwaterEffectsActive`](#clux-getunderwatereffectsactive)() | *Undocumented in the original Wiki.* |
+| `cConfigFile` | [`cLux_GetUserConfig`](#clux-getuserconfig)() | *Undocumented in the original Wiki.* |
+| `iScrUserModule_Interface` | [`cLux_GetUserModuleFromID`](#clux-getusermodulefromid)(int alID) | *Undocumented in the original Wiki.* |
+| `iScrUserModule_Interface` | [`cLux_GetUserModuleFromName`](#clux-getusermodulefromname)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName) | *Undocumented in the original Wiki.* |
+| `cViewport` | [`cLux_GetViewport`](#clux-getviewport)() | *Undocumented in the original Wiki.* |
+| `cLuxVoiceHandler` | [`cLux_GetVoiceHandler`](#clux-getvoicehandler)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_HasConfigLoadError`](#clux-hasconfigloaderror)([tString](https://wiki.frictionalgames.com/page/../../tString) &out asError) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_HasTranslation`](#clux-hastranslation)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asCat, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asEntry) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_HasUnderwaterEffectUsers`](#clux-hasunderwatereffectusers)() | *Undocumented in the original Wiki.* |
+| `cLuxAgent` | [`cLux_ID_Agent`](#clux-id-agent)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cLuxArea` | [`cLux_ID_Area`](#clux-id-area)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cBeam` | [`cLux_ID_Beam`](#clux-id-beam)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cBillboard` | [`cLux_ID_Billboard`](#clux-id-billboard)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cBillboardGroup` | [`cLux_ID_BillboardGroup`](#clux-id-billboardgroup)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `iPhysicsBody` | [`cLux_ID_Body`](#clux-id-body)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `iCharacterBody` | [`cLux_ID_CharacterBody`](#clux-id-characterbody)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cClothEntity` | [`cLux_ID_ClothEntity`](#clux-id-clothentity)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cLuxCritter` | [`cLux_ID_Critter`](#clux-id-critter)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `iLuxEntity` | [`cLux_ID_Entity`](#clux-id-entity)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `iEntity3D` | [`cLux_ID_Entity3D`](#clux-id-entity3d)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cExposureArea` | [`cLux_ID_ExposureArea`](#clux-id-exposurearea)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cFogArea` | [`cLux_ID_FogArea`](#clux-id-fogarea)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cForceField` | [`cLux_ID_ForceField`](#clux-id-forcefield)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cGuiSetEntity` | [`cLux_ID_GuiSetEntity`](#clux-id-guisetentity)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `iPhysicsJoint` | [`cLux_ID_Joint`](#clux-id-joint)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cLensFlare` | [`cLux_ID_LensFlare`](#clux-id-lensflare)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `iLight` | [`cLux_ID_Light`](#clux-id-light)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cLightMaskBox` | [`cLux_ID_LightMaskBox`](#clux-id-lightmaskbox)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cLuxLiquidArea` | [`cLux_ID_LiquidArea`](#clux-id-liquidarea)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cMeshEntity` | [`cLux_ID_MeshEntity`](#clux-id-meshentity)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cParticleSystem` | [`cLux_ID_ParticleSystem`](#clux-id-particlesystem)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cLuxProp` | [`cLux_ID_Prop`](#clux-id-prop)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cLuxSoundscapeArea` | [`cLux_ID_ReverbArea`](#clux-id-reverbarea)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `iRopeEntity` | [`cLux_ID_RopeEntity`](#clux-id-ropeentity)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cSoundEntity` | [`cLux_ID_SoundEntity`](#clux-id-soundentity)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `cSubMeshEntity` | [`cLux_ID_SubMeshEntity`](#clux-id-submeshentity)([tID](https://wiki.frictionalgames.com/page/../../tID) aID) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_IncUnderwaterEffectUserCount`](#clux-incunderwatereffectusercount)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_IsChangingMap`](#clux-ischangingmap)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_IsLoadingScreenVisible`](#clux-isloadingscreenvisible)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_IsPlayGoReady`](#clux-isplaygoready)(int &out alETA) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_IsReadyToChangeMap`](#clux-isreadytochangemap)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_IsStreamingMap`](#clux-isstreamingmap)() | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_LoadScreenSetBarPosAndSize`](#clux-loadscreensetbarposandsize)(const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avPos, const [cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f) &in avSize) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_LoadScreenSetForceBackground`](#clux-loadscreensetforcebackground)(bool abX) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_LoadScreenSetUseSmallIcon`](#clux-loadscreensetusesmallicon)(bool abX) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_LoadScreenShowLoadingIcon`](#clux-loadscreenshowloadingicon)(float afTime) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_MapChangeIsTransfer`](#clux-mapchangeistransfer)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_MapIsLoaded`](#clux-mapisloaded)() | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_OutputTextToFile`](#clux-outputtexttofile)(const [tWString](https://wiki.frictionalgames.com/page/../../tWString) &in asPath, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asText) | *Undocumented in the original Wiki.* |
+| `tWString` | [`cLux_ParseString`](#clux-parsestring)(const [tWString](https://wiki.frictionalgames.com/page/../../tWString) &in asInput) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_ParseStringIntoScreenText`](#clux-parsestringintoscreentext)(const [tWString](https://wiki.frictionalgames.com/page/../../tWString) &in asInput, [cImGui](https://wiki.frictionalgames.com/page/../../cImGui) @apImGui, const [cLuxScreenTextFormatParameters](https://wiki.frictionalgames.com/page/../../cLuxScreenTextFormatParameters) & aFormatParams, [array](https://wiki.frictionalgames.com/page/../../array)<[tWString](https://wiki.frictionalgames.com/page/../../tWString)> &out aOutLines, [array](https://wiki.frictionalgames.com/page/../../array)<[cLuxScreenTextIcon@](https://wiki.frictionalgames.com/page/../../cLuxScreenTextIcon)> &out aIconArray, [array](https://wiki.frictionalgames.com/page/../../array)<[array](https://wiki.frictionalgames.com/page/../../array)> &out aOutIconsPerLine, float &out afMaxLineHeight, float &out afDisplayTime, bool abTriggeredByGamepad) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_PlayGuiSoundData`](#clux-playguisounddata)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, [eSoundEntryType](https://wiki.frictionalgames.com/page/../../eSoundEntryType) aDestType, float afVolMul, bool abSkipPreviousRandom) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_PlayGuiSoundDataEx`](#clux-playguisounddataex)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asName, [eSoundEntryType](https://wiki.frictionalgames.com/page/../../eSoundEntryType) aDestType, float afVolMul, bool abSkipPreviousRandom, [cLuxSoundExtraData](https://wiki.frictionalgames.com/page/../../cLuxSoundExtraData) @apExtraData) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_PreloadEntity`](#clux-preloadentity)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asFile) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_PreloadGuiGfx`](#clux-preloadguigfx)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asFile, [eImGuiGfx](https://wiki.frictionalgames.com/page/../../eImGuiGfx) aType) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_PreloadMap`](#clux-preloadmap)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asMapName, [eWorldStreamPriority](https://wiki.frictionalgames.com/page/../../eWorldStreamPriority) aPrio = eWorldStreamPriority_Normal) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_PreloadMaterial`](#clux-preloadmaterial)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asFile) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_PreloadParticleSystem`](#clux-preloadparticlesystem)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asFile) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_PreloadSound`](#clux-preloadsound)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asFile) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_PreloadWebpage`](#clux-preloadwebpage)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asX) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_RegisterCollisionRadius`](#clux-registercollisionradius)(int alX) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_RegisterEventListenerUserModule_AgentSetActive`](#clux-registereventlistenerusermodule-agentsetactive)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asModuleName) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_RenderBackgroundScreen`](#clux-renderbackgroundscreen)(bool abDrawFullHUD) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_ResetShudderEffects`](#clux-resetshuddereffects)(int alX) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SaveScreenshotToFile`](#clux-savescreenshottofile)(const [tWString](https://wiki.frictionalgames.com/page/../../tWString) &in asPath, const [cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l) &in avSize = cVector2l_MinusOne, bool abKeepAspect = true, float afBrightness = 1.0f) | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_ScriptDebugOn`](#clux-scriptdebugon)() | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SendInputToGui`](#clux-sendinputtogui)(bool abX) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SetAreaOffline`](#clux-setareaoffline)(int alX) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SetDebugInfoWindowText`](#clux-setdebuginfowindowtext)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asText) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SetExplorationModeActive`](#clux-setexplorationmodeactive)(bool abX) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SetGamePaused`](#clux-setgamepaused)(bool abX) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SetImGuiInputFocus`](#clux-setimguiinputfocus)([cImGui@](https://wiki.frictionalgames.com/page/../../cImGui) apImGui, bool abShowMouse) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SetInteractionWhiteListActive`](#clux-setinteractionwhitelistactive)(bool abX, bool abClearList) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SetMapPreloadPriority`](#clux-setmappreloadpriority)([eWorldStreamPriority](https://wiki.frictionalgames.com/page/../../eWorldStreamPriority) aPrio) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SetUnderwaterEffectsActive`](#clux-setunderwatereffectsactive)(bool abX, bool abUseStartAndEndEffects) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_SetupDefaultGlobalReverb`](#clux-setupdefaultglobalreverb)([eSoundReverbPreset](https://wiki.frictionalgames.com/page/../../eSoundReverbPreset) aType, float afFadeTime) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_ShapeDamage`](#clux-shapedamage)(int aShape, const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxTransform, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avOrigin, float afMinDamage, float afMaxDamage, float afForce, float afMaxImpulse, int alStrength, float afHitSpeed, int aDamageType, bool abCheckEnemies, bool abCheckPlayer, bool abCheckProps, bool abLethalForPlayer, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asSource) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_ShapeDamage`](#clux-shapedamage)([iCollideShape@](https://wiki.frictionalgames.com/page/../../iCollideShape) aShape, const [cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf) &in a_mtxTransform, const [cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f) &in avOrigin, float afMinDamage, float afMaxDamage, float afForce, float afMaxImpulse, int alStrength, float afHitSpeed, int aDamageType, bool abCheckEnemies, bool abCheckPlayer, bool abCheckProps, bool abLethalForPlayer, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asSource) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_StartMap`](#clux-startmap)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asMapName) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_StartNewGame`](#clux-startnewgame)() | *Undocumented in the original Wiki.* |
+| `bool` | [`cLux_TestModeOn`](#clux-testmodeon)() | *Undocumented in the original Wiki.* |
+| `cLuxAgent` | [`cLux_ToAgent`](#clux-toagent)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxArea` | [`cLux_ToArea`](#clux-toarea)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxCritter` | [`cLux_ToCritter`](#clux-tocritter)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxLiquidArea` | [`cLux_ToLiquidArea`](#clux-toliquidarea)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `cLuxProp` | [`cLux_ToProp`](#clux-toprop)([iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity) @apEntity) | *Undocumented in the original Wiki.* |
+| `tWString` | [`cLux_Translate`](#clux-translate)(const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asCat, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asEntry) | *Undocumented in the original Wiki.* |
+| `void` | [`cLux_TruncateTextFile`](#clux-truncatetextfile)(const [tWString](https://wiki.frictionalgames.com/page/../../tWString) &in asPath, const [tString](https://wiki.frictionalgames.com/page/../../tString) &in asPattern, int alTimes) | *Undocumented in the original Wiki.* |
+
+## Function Detail
+    1. `cLux_AddAreaType`
+
+```angelscript
+void cLux_AddAreaType(const tString &in asName,
+                      const tString &in asScriptFile,
+                      const tString &in asScriptClass,
+                      bool abForceFullGameSave)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asScriptFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asScriptClass` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `abForceFullGameSave` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_AddCritterType`
+
+```angelscript
+void cLux_AddCritterType(const tString &in asName,
+                         const tString &in asScriptFile,
+                         const tString &in asScriptClass,
+                         bool abForceFullGameSave)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asScriptFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asScriptClass` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `abForceFullGameSave` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_AddDebugMessage`
+
+```angelscript
+void cLux_AddDebugMessage(const tString &in asText,
+                          bool abCheckForDuplicates)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asText` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `abCheckForDuplicates` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_AddDebugMessage`
+
+```angelscript
+void cLux_AddDebugMessage(const tString &in asText)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asText` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_AddEntityToInteractionWhiteList`
+
+```angelscript
+void cLux_AddEntityToInteractionWhiteList(iLuxEntity@ apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `apEntity` | `[iLuxEntity@](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_AddLiquidAreaType`
+
+```angelscript
+void cLux_AddLiquidAreaType(const tString &in asName,
+                            const tString &in asScriptFile,
+                            const tString &in asScriptClass,
+                            bool abForceFullGameSave)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asScriptFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asScriptClass` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `abForceFullGameSave` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_AddModule`
+
+```angelscript
+void cLux_AddModule(const tString &in asName,
+                    const tString &in asScriptFile,
+                    const tString &in asScriptClass,
+                    int alId,
+                    bool abIsGlobal,
+                    const tString &in sContainer,
+                    bool abUseInputCallbacks)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asScriptFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asScriptClass` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `alId` | `int` | — |
+| `abIsGlobal` | `bool` | — |
+| `sContainer` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `abUseInputCallbacks` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_AddPropType`
+
+```angelscript
+void cLux_AddPropType(const tString &in asName,
+                      const tString &in asScriptFile,
+                      const tString &in asScriptClass,
+                      bool abForceFullGameSave)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asScriptFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asScriptClass` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `abForceFullGameSave` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_AddTodoMessage`
+
+```angelscript
+void cLux_AddTodoMessage(const tString &in asText,
+                         bool abCheckForDuplicates)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asText` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `abCheckForDuplicates` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_AddTodoMessage`
+
+```angelscript
+void cLux_AddTodoMessage(const tString &in asText)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asText` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_ApplyUserConfig`
+
+```angelscript
+bool cLux_ApplyUserConfig()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_CanContinue`
+
+```angelscript
+bool cLux_CanContinue()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_ChangeMap`
+
+```angelscript
+void cLux_ChangeMap(const tString &in asMapName,
+                    const tString &in asStartPos,
+                    const tString &in asTransferArea,
+                    const tString &in asStartSound,
+                    const tString &in asEndSound)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asMapName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asStartPos` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asTransferArea` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asStartSound` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asEndSound` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_CheckLineOfSight`
+
+```angelscript
+bool cLux_CheckLineOfSight(const cVector3f &in avStart,
+                           const cVector3f &in avEnd,
+                           bool abCheckOnlyShadowCasters,
+                           bool abCheckOnlyStatic,
+                           iLuxEntity@ apSkipEntity = null)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avStart` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avEnd` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `abCheckOnlyShadowCasters` | `bool` | — |
+| `abCheckOnlyStatic` | `bool` | — |
+| `apSkipEntity` | `[iLuxEntity@](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `bool`
+
+    1. `cLux_CleanupData`
+
+```angelscript
+void cLux_CleanupData()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `void`
+
+    1. `cLux_Continue`
+
+```angelscript
+void cLux_Continue()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `void`
+
+    1. `cLux_CreateEntityComponent_BackboneTail`
+
+```angelscript
+cLuxBackboneTail@ cLux_CreateEntityComponent_BackboneTail(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxBackboneTail@`
+
+    1. `cLux_CreateEntityComponent_BarkMachine`
+
+```angelscript
+cLuxBarkMachine@ cLux_CreateEntityComponent_BarkMachine(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxBarkMachine@`
+
+    1. `cLux_CreateEntityComponent_CharMover`
+
+```angelscript
+cLuxCharMover@ cLux_CreateEntityComponent_CharMover(iLuxEntity @apEntity,
+                                                    iCharacterBody @apCharBody)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+| `@apCharBody` | `[iCharacterBody](https://wiki.frictionalgames.com/page/../../iCharacterBody)` | — |
+
+**Returns:** `cLuxCharMover@`
+
+    1. `cLux_CreateEntityComponent_EdgeGlow`
+
+```angelscript
+cLuxEdgeGlow@ cLux_CreateEntityComponent_EdgeGlow(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxEdgeGlow@`
+
+    1. `cLux_CreateEntityComponent_ForceEmitter`
+
+```angelscript
+cLuxForceEmitter@ cLux_CreateEntityComponent_ForceEmitter(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxForceEmitter@`
+
+    1. `cLux_CreateEntityComponent_HeadTracker`
+
+```angelscript
+cLuxHeadTracker@ cLux_CreateEntityComponent_HeadTracker(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxHeadTracker@`
+
+    1. `cLux_CreateEntityComponent_LightSensor`
+
+```angelscript
+cLuxLightSensor@ cLux_CreateEntityComponent_LightSensor(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxLightSensor@`
+
+    1. `cLux_CreateEntityComponent_Pathfinder`
+
+```angelscript
+cLuxPathfinder@ cLux_CreateEntityComponent_Pathfinder(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxPathfinder@`
+
+    1. `cLux_CreateEntityComponent_SoundListener`
+
+```angelscript
+cLuxSoundListener@ cLux_CreateEntityComponent_SoundListener(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxSoundListener@`
+
+    1. `cLux_CreateEntityComponent_StateMachine`
+
+```angelscript
+cLuxStateMachine@ cLux_CreateEntityComponent_StateMachine(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxStateMachine@`
+
+    1. `cLux_CreateHTMLImage`
+
+```angelscript
+tString cLux_CreateHTMLImage(const tString &in asSrc,
+                             const tString &in asTitle = "",
+                             const cVector2l &in avSize = cVector2l_MinusOne)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asSrc` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asTitle` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `avSize` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+
+**Returns:** `tString`
+
+    1. `cLux_CreateHTMLParagraph`
+
+```angelscript
+tString cLux_CreateHTMLParagraph(const tString &in asContent)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asContent` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `tString`
+
+    1. `cLux_CreateHTMLTag`
+
+```angelscript
+tString cLux_CreateHTMLTag(const tString &in asTag,
+                           const tString &in asContent = "",
+                           const tString &in asParams = "")
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asTag` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asContent` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asParams` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `tString`
+
+    1. `cLux_CreateScriptImGui`
+
+```angelscript
+cLuxScriptImGui@ cLux_CreateScriptImGui(const tString &in asName,
+                                        bool abRegisterForDrawing,
+                                        bool abSkipResetOnRegistration = true)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `abRegisterForDrawing` | `bool` | — |
+| `abSkipResetOnRegistration` | `bool` | — |
+
+**Returns:** `cLuxScriptImGui@`
+
+    1. `cLux_DebugModeOn`
+
+```angelscript
+bool cLux_DebugModeOn()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_DecUnderwaterEffectUserCount`
+
+```angelscript
+void cLux_DecUnderwaterEffectUserCount()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `void`
+
+    1. `cLux_DeloadMap`
+
+```angelscript
+void cLux_DeloadMap(const tString &in asTransferArea)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asTransferArea` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_DrawDebugText`
+
+```angelscript
+float cLux_DrawDebugText(const tString &in asText,
+                         float afY,
+                         float afSize = 14,
+                         cColor aColor = cColor,
+                          1,
+                          1,
+                         bool abAddNewLine = true)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asText` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `afY` | `float` | — |
+| `afSize` | `float` | — |
+| `aColor` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+| `1` | `[../../](https://wiki.frictionalgames.com/page/../../)` | — |
+| `1` | `[../../](https://wiki.frictionalgames.com/page/../../)` | — |
+| `abAddNewLine` | `bool` | — |
+
+**Returns:** `float`
+
+    1. `cLux_DrawHint`
+
+```angelscript
+void cLux_DrawHint(cImGui @apImGui,
+                   float afTimeStep,
+                   const cImGuiLabelData &in aLabel,
+                   const cVector3f &in avPosition,
+                   float afLineWidth,
+                   float afLineSpacing,
+                   const tWString &in avTextLines,
+                   const cLuxScreenTextIcon@ &in avIcons,
+                   const array &in avIconsPerLine)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apImGui` | `[cImGui](https://wiki.frictionalgames.com/page/../../cImGui)` | — |
+| `afTimeStep` | `float` | — |
+| `aLabel` | `[cImGuiLabelData](https://wiki.frictionalgames.com/page/../../cImGuiLabelData)` | — |
+| `avPosition` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afLineWidth` | `float` | — |
+| `afLineSpacing` | `float` | — |
+| `avTextLines` | `[tWString](https://wiki.frictionalgames.com/page/../../tWString)` | — |
+| `avIcons` | `[cLuxScreenTextIcon@](https://wiki.frictionalgames.com/page/../../cLuxScreenTextIcon)` | — |
+| `avIconsPerLine` | `[array](https://wiki.frictionalgames.com/page/../../array)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_DrawScreenText`
+
+```angelscript
+void cLux_DrawScreenText(cImGui @apImGui,
+                         float afTimeStep,
+                         const cImGuiLabelData &in aLabel,
+                         const cVector3f &in avPosition,
+                         float afLineWidth,
+                         float afLineSpacing,
+                         const tWString &in avTextLines,
+                         const cLuxScreenTextIcon@ &in avIcons,
+                         const array &in avIconsPerLine)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apImGui` | `[cImGui](https://wiki.frictionalgames.com/page/../../cImGui)` | — |
+| `afTimeStep` | `float` | — |
+| `aLabel` | `[cImGuiLabelData](https://wiki.frictionalgames.com/page/../../cImGuiLabelData)` | — |
+| `avPosition` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afLineWidth` | `float` | — |
+| `afLineSpacing` | `float` | — |
+| `avTextLines` | `[tWString](https://wiki.frictionalgames.com/page/../../tWString)` | — |
+| `avIcons` | `[cLuxScreenTextIcon@](https://wiki.frictionalgames.com/page/../../cLuxScreenTextIcon)` | — |
+| `avIconsPerLine` | `[array](https://wiki.frictionalgames.com/page/../../array)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_DrawSetToScreen`
+
+```angelscript
+void cLux_DrawSetToScreen(bool abClearScreen,
+                          const cColor &in aCol,
+                          cGuiSet@ apSet)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `abClearScreen` | `bool` | — |
+| `aCol` | `[cColor](https://wiki.frictionalgames.com/page/../../cColor)` | — |
+| `apSet` | `[cGuiSet@](https://wiki.frictionalgames.com/page/../../cGuiSet)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_DropPageFocus`
+
+```angelscript
+void cLux_DropPageFocus(const tString &in asX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asX` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_Exit`
+
+```angelscript
+void cLux_Exit()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `void`
+
+    1. `cLux_GetAchievementHandler`
+
+```angelscript
+iLuxAchievementHandler@ cLux_GetAchievementHandler()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `iLuxAchievementHandler@`
+
+    1. `cLux_GetBodyEntity`
+
+```angelscript
+iLuxEntity@ cLux_GetBodyEntity(iPhysicsBody @apBody)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apBody` | `[iPhysicsBody](https://wiki.frictionalgames.com/page/../../iPhysicsBody)` | — |
+
+**Returns:** `iLuxEntity@`
+
+    1. `cLux_GetClosestBody`
+
+```angelscript
+iPhysicsBody@ cLux_GetClosestBody(const cVector3f &in avStart,
+                                  const cVector3f &in avDir,
+                                  float afRayLength,
+                                  float &out afDistance,
+                                  cVector3f &out avSurfaceNormal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avStart` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avDir` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afRayLength` | `float` | — |
+| `afDistance` | `float` | — |
+| `avSurfaceNormal` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+
+**Returns:** `iPhysicsBody@`
+
+    1. `cLux_GetClosestCharCollider`
+
+```angelscript
+bool cLux_GetClosestCharCollider(const cVector3f &in avStart,
+                                 const cVector3f &in avDir,
+                                 float afRayLength,
+                                 bool abCheckDynamic,
+                                 cLuxClosestCharCollider @apOutput)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avStart` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avDir` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afRayLength` | `float` | — |
+| `abCheckDynamic` | `bool` | — |
+| `@apOutput` | `[cLuxClosestCharCollider](https://wiki.frictionalgames.com/page/../../cLuxClosestCharCollider)` | — |
+
+**Returns:** `bool`
+
+    1. `cLux_GetClosestEntity`
+
+```angelscript
+bool cLux_GetClosestEntity(const cVector3f &in avStart,
+                           const cVector3f &in avDir,
+                           float afRayLength,
+                           int alIteractType,
+                           bool abCheckLineOfSight,
+                           cLuxClosestEntityData @apOutput)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avStart` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `avDir` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afRayLength` | `float` | — |
+| `alIteractType` | `int` | — |
+| `abCheckLineOfSight` | `bool` | — |
+| `@apOutput` | `[cLuxClosestEntityData](https://wiki.frictionalgames.com/page/../../cLuxClosestEntityData)` | — |
+
+**Returns:** `bool`
+
+    1. `cLux_GetCurrentImGui`
+
+```angelscript
+cImGui@ cLux_GetCurrentImGui()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cImGui@`
+
+    1. `cLux_GetCurrentLanguage`
+
+```angelscript
+const tString& cLux_GetCurrentLanguage()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `const tString&`
+
+    1. `cLux_GetCurrentMap`
+
+```angelscript
+cLuxMap@ cLux_GetCurrentMap()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxMap@`
+
+    1. `cLux_GetCurrentUserProfilePath`
+
+```angelscript
+tWString cLux_GetCurrentUserProfilePath()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `tWString`
+
+    1. `cLux_GetDefaultFont`
+
+```angelscript
+iFontData@ cLux_GetDefaultFont()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `iFontData@`
+
+    1. `cLux_GetDefaultGameLanguage`
+
+```angelscript
+tString cLux_GetDefaultGameLanguage()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `tString`
+
+    1. `cLux_GetDialogHandler`
+
+```angelscript
+cLuxDialogHandler@ cLux_GetDialogHandler()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxDialogHandler@`
+
+    1. `cLux_GetEffectHandler`
+
+```angelscript
+cLuxEffectHandler@ cLux_GetEffectHandler()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxEffectHandler@`
+
+    1. `cLux_GetEventDatabaseHandler`
+
+```angelscript
+cLuxEventDatabaseHandler@ cLux_GetEventDatabaseHandler()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxEventDatabaseHandler@`
+
+    1. `cLux_GetExplorationModeActive`
+
+```angelscript
+bool cLux_GetExplorationModeActive()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_GetGameConfig`
+
+```angelscript
+cConfigFile@ cLux_GetGameConfig()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cConfigFile@`
+
+    1. `cLux_GetGameHudImGui`
+
+```angelscript
+cImGui@ cLux_GetGameHudImGui()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cImGui@`
+
+    1. `cLux_GetGameHudSet`
+
+```angelscript
+cGuiSet@ cLux_GetGameHudSet()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cGuiSet@`
+
+    1. `cLux_GetGameLanguageFolder`
+
+```angelscript
+tString cLux_GetGameLanguageFolder()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `tString`
+
+    1. `cLux_GetGamePaused`
+
+```angelscript
+bool cLux_GetGamePaused()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_GetGameTime`
+
+```angelscript
+double cLux_GetGameTime()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `double`
+
+    1. `cLux_GetGodModeActivated`
+
+```angelscript
+bool cLux_GetGodModeActivated()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_GetGuiHandler`
+
+```angelscript
+cLuxGuiHandler@ cLux_GetGuiHandler()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxGuiHandler@`
+
+    1. `cLux_GetHelpGuiSet`
+
+```angelscript
+cGuiSet@ cLux_GetHelpGuiSet()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cGuiSet@`
+
+    1. `cLux_GetHudVirtualCenterScreenSize`
+
+```angelscript
+const cVector2f& cLux_GetHudVirtualCenterScreenSize()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `const cVector2f&`
+
+    1. `cLux_GetHudVirtualCenterScreenStartPos`
+
+```angelscript
+const cVector3f& cLux_GetHudVirtualCenterScreenStartPos()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `const cVector3f&`
+
+    1. `cLux_GetHudVirtualCenterSize`
+
+```angelscript
+const cVector2f& cLux_GetHudVirtualCenterSize()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `const cVector2f&`
+
+    1. `cLux_GetHudVirtualOffset`
+
+```angelscript
+const cVector2f& cLux_GetHudVirtualOffset()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `const cVector2f&`
+
+    1. `cLux_GetHudVirtualSize`
+
+```angelscript
+const cVector2f& cLux_GetHudVirtualSize()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `const cVector2f&`
+
+    1. `cLux_GetHudVirtualStartPos`
+
+```angelscript
+const cVector3f& cLux_GetHudVirtualStartPos()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `const cVector3f&`
+
+    1. `cLux_GetInputFocusImGui`
+
+```angelscript
+cImGui@ cLux_GetInputFocusImGui()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cImGui@`
+
+    1. `cLux_GetInputHandler`
+
+```angelscript
+cLuxInputHandler@ cLux_GetInputHandler()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxInputHandler@`
+
+    1. `cLux_GetInteractionWhiteListActive`
+
+```angelscript
+bool cLux_GetInteractionWhiteListActive()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_GetKeyConfig`
+
+```angelscript
+cConfigFile@ cLux_GetKeyConfig()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cConfigFile@`
+
+    1. `cLux_GetLightLevelAtPos`
+
+```angelscript
+float cLux_GetLightLevelAtPos(const cVector3f &in avPos,
+                              iLight @apSkipLight,
+                              float afRadiusAdd)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPos` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `@apSkipLight` | `[iLight](https://wiki.frictionalgames.com/page/../../iLight)` | — |
+| `afRadiusAdd` | `float` | — |
+
+**Returns:** `float`
+
+    1. `cLux_GetMainMenuFile`
+
+```angelscript
+const tString& cLux_GetMainMenuFile()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `const tString&`
+
+    1. `cLux_GetMusicHandler`
+
+```angelscript
+cLuxMusicHandler@ cLux_GetMusicHandler()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxMusicHandler@`
+
+    1. `cLux_GetPlayer`
+
+```angelscript
+cLuxPlayer@ cLux_GetPlayer()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxPlayer@`
+
+    1. `cLux_GetPreloadMap`
+
+```angelscript
+cLuxMap@ cLux_GetPreloadMap()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxMap@`
+
+    1. `cLux_GetPrevInputFocusImGui`
+
+```angelscript
+cImGui@ cLux_GetPrevInputFocusImGui()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cImGui@`
+
+    1. `cLux_GetSaveConfigAtExit`
+
+```angelscript
+bool cLux_GetSaveConfigAtExit()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_GetSaveHandler`
+
+```angelscript
+cLuxSaveHandler@ cLux_GetSaveHandler()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxSaveHandler@`
+
+    1. `cLux_GetSoundscapeHandler`
+
+```angelscript
+cLuxSoundscapeHandler@ cLux_GetSoundscapeHandler()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxSoundscapeHandler@`
+
+    1. `cLux_GetStringDuration`
+
+```angelscript
+float cLux_GetStringDuration(const tWString &in asStr)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asStr` | `[tWString](https://wiki.frictionalgames.com/page/../../tWString)` | — |
+
+**Returns:** `float`
+
+    1. `cLux_GetStringWFromDate`
+
+```angelscript
+tWString cLux_GetStringWFromDate(const cDate &in aDate)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aDate` | `[cDate](https://wiki.frictionalgames.com/page/../../cDate)` | — |
+
+**Returns:** `tWString`
+
+    1. `cLux_GetSupportExplorationMode`
+
+```angelscript
+bool cLux_GetSupportExplorationMode()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_GetTextCatAndEntryFromString`
+
+```angelscript
+void cLux_GetTextCatAndEntryFromString(const tString &in asData,
+                                       tString &out asOutCat,
+                                       tString &out asOutEntry)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asData` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asOutCat` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asOutEntry` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_GetUnderwaterEffectsActive`
+
+```angelscript
+bool cLux_GetUnderwaterEffectsActive()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_GetUserConfig`
+
+```angelscript
+cConfigFile@ cLux_GetUserConfig()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cConfigFile@`
+
+    1. `cLux_GetUserModuleFromID`
+
+```angelscript
+iScrUserModule_Interface@ cLux_GetUserModuleFromID(int alID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alID` | `int` | — |
+
+**Returns:** `iScrUserModule_Interface@`
+
+    1. `cLux_GetUserModuleFromName`
+
+```angelscript
+iScrUserModule_Interface@ cLux_GetUserModuleFromName(const tString &in asName)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `iScrUserModule_Interface@`
+
+    1. `cLux_GetViewport`
+
+```angelscript
+cViewport@ cLux_GetViewport()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cViewport@`
+
+    1. `cLux_GetVoiceHandler`
+
+```angelscript
+cLuxVoiceHandler@ cLux_GetVoiceHandler()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `cLuxVoiceHandler@`
+
+    1. `cLux_HasConfigLoadError`
+
+```angelscript
+bool cLux_HasConfigLoadError(tString &out asError)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asError` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `bool`
+
+    1. `cLux_HasTranslation`
+
+```angelscript
+bool cLux_HasTranslation(const tString &in asCat,
+                         const tString &in asEntry)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asCat` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asEntry` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `bool`
+
+    1. `cLux_HasUnderwaterEffectUsers`
+
+```angelscript
+bool cLux_HasUnderwaterEffectUsers()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_ID_Agent`
+
+```angelscript
+cLuxAgent@ cLux_ID_Agent(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cLuxAgent@`
+
+    1. `cLux_ID_Area`
+
+```angelscript
+cLuxArea@ cLux_ID_Area(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cLuxArea@`
+
+    1. `cLux_ID_Beam`
+
+```angelscript
+cBeam@ cLux_ID_Beam(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cBeam@`
+
+    1. `cLux_ID_Billboard`
+
+```angelscript
+cBillboard@ cLux_ID_Billboard(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cBillboard@`
+
+    1. `cLux_ID_BillboardGroup`
+
+```angelscript
+cBillboardGroup@ cLux_ID_BillboardGroup(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cBillboardGroup@`
+
+    1. `cLux_ID_Body`
+
+```angelscript
+iPhysicsBody@ cLux_ID_Body(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `iPhysicsBody@`
+
+    1. `cLux_ID_CharacterBody`
+
+```angelscript
+iCharacterBody@ cLux_ID_CharacterBody(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `iCharacterBody@`
+
+    1. `cLux_ID_ClothEntity`
+
+```angelscript
+cClothEntity@ cLux_ID_ClothEntity(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cClothEntity@`
+
+    1. `cLux_ID_Critter`
+
+```angelscript
+cLuxCritter@ cLux_ID_Critter(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cLuxCritter@`
+
+    1. `cLux_ID_Entity`
+
+```angelscript
+iLuxEntity@ cLux_ID_Entity(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `iLuxEntity@`
+
+    1. `cLux_ID_Entity3D`
+
+```angelscript
+iEntity3D@ cLux_ID_Entity3D(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `iEntity3D@`
+
+    1. `cLux_ID_ExposureArea`
+
+```angelscript
+cExposureArea@ cLux_ID_ExposureArea(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cExposureArea@`
+
+    1. `cLux_ID_FogArea`
+
+```angelscript
+cFogArea@ cLux_ID_FogArea(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cFogArea@`
+
+    1. `cLux_ID_ForceField`
+
+```angelscript
+cForceField@ cLux_ID_ForceField(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cForceField@`
+
+    1. `cLux_ID_GuiSetEntity`
+
+```angelscript
+cGuiSetEntity@ cLux_ID_GuiSetEntity(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cGuiSetEntity@`
+
+    1. `cLux_ID_Joint`
+
+```angelscript
+iPhysicsJoint@ cLux_ID_Joint(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `iPhysicsJoint@`
+
+    1. `cLux_ID_LensFlare`
+
+```angelscript
+cLensFlare@ cLux_ID_LensFlare(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cLensFlare@`
+
+    1. `cLux_ID_Light`
+
+```angelscript
+iLight@ cLux_ID_Light(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `iLight@`
+
+    1. `cLux_ID_LightMaskBox`
+
+```angelscript
+cLightMaskBox@ cLux_ID_LightMaskBox(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cLightMaskBox@`
+
+    1. `cLux_ID_LiquidArea`
+
+```angelscript
+cLuxLiquidArea@ cLux_ID_LiquidArea(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cLuxLiquidArea@`
+
+    1. `cLux_ID_MeshEntity`
+
+```angelscript
+cMeshEntity@ cLux_ID_MeshEntity(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cMeshEntity@`
+
+    1. `cLux_ID_ParticleSystem`
+
+```angelscript
+cParticleSystem@ cLux_ID_ParticleSystem(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cParticleSystem@`
+
+    1. `cLux_ID_Prop`
+
+```angelscript
+cLuxProp@ cLux_ID_Prop(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cLuxProp@`
+
+    1. `cLux_ID_ReverbArea`
+
+```angelscript
+cLuxSoundscapeArea@ cLux_ID_ReverbArea(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cLuxSoundscapeArea@`
+
+    1. `cLux_ID_RopeEntity`
+
+```angelscript
+iRopeEntity@ cLux_ID_RopeEntity(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `iRopeEntity@`
+
+    1. `cLux_ID_SoundEntity`
+
+```angelscript
+cSoundEntity@ cLux_ID_SoundEntity(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cSoundEntity@`
+
+    1. `cLux_ID_SubMeshEntity`
+
+```angelscript
+cSubMeshEntity@ cLux_ID_SubMeshEntity(tID aID)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aID` | `[tID](https://wiki.frictionalgames.com/page/../../tID)` | — |
+
+**Returns:** `cSubMeshEntity@`
+
+    1. `cLux_IncUnderwaterEffectUserCount`
+
+```angelscript
+void cLux_IncUnderwaterEffectUserCount()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `void`
+
+    1. `cLux_IsChangingMap`
+
+```angelscript
+bool cLux_IsChangingMap()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_IsLoadingScreenVisible`
+
+```angelscript
+bool cLux_IsLoadingScreenVisible()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_IsPlayGoReady`
+
+```angelscript
+bool cLux_IsPlayGoReady(int &out alETA)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alETA` | `int` | — |
+
+**Returns:** `bool`
+
+    1. `cLux_IsReadyToChangeMap`
+
+```angelscript
+bool cLux_IsReadyToChangeMap()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_IsStreamingMap`
+
+```angelscript
+bool cLux_IsStreamingMap()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_LoadScreenSetBarPosAndSize`
+
+```angelscript
+void cLux_LoadScreenSetBarPosAndSize(const cVector2f &in avPos,
+                                     const cVector2f &in avSize)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `avPos` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+| `avSize` | `[cVector2f](https://wiki.frictionalgames.com/page/../../cVector2f)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_LoadScreenSetForceBackground`
+
+```angelscript
+void cLux_LoadScreenSetForceBackground(bool abX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `abX` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_LoadScreenSetUseSmallIcon`
+
+```angelscript
+void cLux_LoadScreenSetUseSmallIcon(bool abX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `abX` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_LoadScreenShowLoadingIcon`
+
+```angelscript
+void cLux_LoadScreenShowLoadingIcon(float afTime)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `afTime` | `float` | — |
+
+**Returns:** `void`
+
+    1. `cLux_MapChangeIsTransfer`
+
+```angelscript
+bool cLux_MapChangeIsTransfer()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_MapIsLoaded`
+
+```angelscript
+bool cLux_MapIsLoaded()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_OutputTextToFile`
+
+```angelscript
+void cLux_OutputTextToFile(const tWString &in asPath,
+                           const tString &in asText)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPath` | `[tWString](https://wiki.frictionalgames.com/page/../../tWString)` | — |
+| `asText` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_ParseString`
+
+```angelscript
+tWString cLux_ParseString(const tWString &in asInput)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asInput` | `[tWString](https://wiki.frictionalgames.com/page/../../tWString)` | — |
+
+**Returns:** `tWString`
+
+    1. `cLux_ParseStringIntoScreenText`
+
+```angelscript
+void cLux_ParseStringIntoScreenText(const tWString &in asInput,
+                                    cImGui @apImGui,
+                                    const cLuxScreenTextFormatParameters & aFormatParams,
+                                    tWString &out aOutLines,
+                                    cLuxScreenTextIcon@ &out aIconArray,
+                                    array &out aOutIconsPerLine,
+                                    float &out afMaxLineHeight,
+                                    float &out afDisplayTime,
+                                    bool abTriggeredByGamepad)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asInput` | `[tWString](https://wiki.frictionalgames.com/page/../../tWString)` | — |
+| `@apImGui` | `[cImGui](https://wiki.frictionalgames.com/page/../../cImGui)` | — |
+| `aFormatParams` | `[cLuxScreenTextFormatParameters](https://wiki.frictionalgames.com/page/../../cLuxScreenTextFormatParameters)` | — |
+| `aOutLines` | `[tWString](https://wiki.frictionalgames.com/page/../../tWString)` | — |
+| `aIconArray` | `[cLuxScreenTextIcon@](https://wiki.frictionalgames.com/page/../../cLuxScreenTextIcon)` | — |
+| `aOutIconsPerLine` | `[array](https://wiki.frictionalgames.com/page/../../array)` | — |
+| `afMaxLineHeight` | `float` | — |
+| `afDisplayTime` | `float` | — |
+| `abTriggeredByGamepad` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_PlayGuiSoundData`
+
+```angelscript
+bool cLux_PlayGuiSoundData(const tString &in asName,
+                           eSoundEntryType aDestType,
+                           float afVolMul,
+                           bool abSkipPreviousRandom)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `aDestType` | `[eSoundEntryType](https://wiki.frictionalgames.com/page/../../eSoundEntryType)` | — |
+| `afVolMul` | `float` | — |
+| `abSkipPreviousRandom` | `bool` | — |
+
+**Returns:** `bool`
+
+    1. `cLux_PlayGuiSoundDataEx`
+
+```angelscript
+bool cLux_PlayGuiSoundDataEx(const tString &in asName,
+                             eSoundEntryType aDestType,
+                             float afVolMul,
+                             bool abSkipPreviousRandom,
+                             cLuxSoundExtraData @apExtraData)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `aDestType` | `[eSoundEntryType](https://wiki.frictionalgames.com/page/../../eSoundEntryType)` | — |
+| `afVolMul` | `float` | — |
+| `abSkipPreviousRandom` | `bool` | — |
+| `@apExtraData` | `[cLuxSoundExtraData](https://wiki.frictionalgames.com/page/../../cLuxSoundExtraData)` | — |
+
+**Returns:** `bool`
+
+    1. `cLux_PreloadEntity`
+
+```angelscript
+void cLux_PreloadEntity(const tString &in asFile)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_PreloadGuiGfx`
+
+```angelscript
+void cLux_PreloadGuiGfx(const tString &in asFile,
+                        eImGuiGfx aType)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `aType` | `[eImGuiGfx](https://wiki.frictionalgames.com/page/../../eImGuiGfx)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_PreloadMap`
+
+```angelscript
+void cLux_PreloadMap(const tString &in asMapName,
+                     eWorldStreamPriority aPrio = eWorldStreamPriority_Normal)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asMapName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `aPrio` | `[eWorldStreamPriority](https://wiki.frictionalgames.com/page/../../eWorldStreamPriority)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_PreloadMaterial`
+
+```angelscript
+void cLux_PreloadMaterial(const tString &in asFile)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_PreloadParticleSystem`
+
+```angelscript
+void cLux_PreloadParticleSystem(const tString &in asFile)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_PreloadSound`
+
+```angelscript
+void cLux_PreloadSound(const tString &in asFile)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asFile` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_PreloadWebpage`
+
+```angelscript
+void cLux_PreloadWebpage(const tString &in asX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asX` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_RegisterCollisionRadius`
+
+```angelscript
+void cLux_RegisterCollisionRadius(int alX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+
+**Returns:** `void`
+
+    1. `cLux_RegisterEventListenerUserModule_AgentSetActive`
+
+```angelscript
+void cLux_RegisterEventListenerUserModule_AgentSetActive(const tString &in asModuleName)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asModuleName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_RenderBackgroundScreen`
+
+```angelscript
+void cLux_RenderBackgroundScreen(bool abDrawFullHUD)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `abDrawFullHUD` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_ResetShudderEffects`
+
+```angelscript
+void cLux_ResetShudderEffects(int alX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+
+**Returns:** `void`
+
+    1. `cLux_SaveScreenshotToFile`
+
+```angelscript
+void cLux_SaveScreenshotToFile(const tWString &in asPath,
+                               const cVector2l &in avSize = cVector2l_MinusOne,
+                               bool abKeepAspect = true,
+                               float afBrightness = 1.0f)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPath` | `[tWString](https://wiki.frictionalgames.com/page/../../tWString)` | — |
+| `avSize` | `[cVector2l](https://wiki.frictionalgames.com/page/../../cVector2l)` | — |
+| `abKeepAspect` | `bool` | — |
+| `afBrightness` | `float` | — |
+
+**Returns:** `void`
+
+    1. `cLux_ScriptDebugOn`
+
+```angelscript
+bool cLux_ScriptDebugOn()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_SendInputToGui`
+
+```angelscript
+void cLux_SendInputToGui(bool abX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `abX` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_SetAreaOffline`
+
+```angelscript
+void cLux_SetAreaOffline(int alX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `alX` | `int` | — |
+
+**Returns:** `void`
+
+    1. `cLux_SetDebugInfoWindowText`
+
+```angelscript
+void cLux_SetDebugInfoWindowText(const tString &in asText)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asText` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_SetExplorationModeActive`
+
+```angelscript
+void cLux_SetExplorationModeActive(bool abX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `abX` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_SetGamePaused`
+
+```angelscript
+void cLux_SetGamePaused(bool abX)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `abX` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_SetImGuiInputFocus`
+
+```angelscript
+void cLux_SetImGuiInputFocus(cImGui@ apImGui,
+                             bool abShowMouse)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `apImGui` | `[cImGui@](https://wiki.frictionalgames.com/page/../../cImGui)` | — |
+| `abShowMouse` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_SetInteractionWhiteListActive`
+
+```angelscript
+void cLux_SetInteractionWhiteListActive(bool abX,
+                                        bool abClearList)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `abX` | `bool` | — |
+| `abClearList` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_SetMapPreloadPriority`
+
+```angelscript
+void cLux_SetMapPreloadPriority(eWorldStreamPriority aPrio)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aPrio` | `[eWorldStreamPriority](https://wiki.frictionalgames.com/page/../../eWorldStreamPriority)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_SetUnderwaterEffectsActive`
+
+```angelscript
+void cLux_SetUnderwaterEffectsActive(bool abX,
+                                     bool abUseStartAndEndEffects)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `abX` | `bool` | — |
+| `abUseStartAndEndEffects` | `bool` | — |
+
+**Returns:** `void`
+
+    1. `cLux_SetupDefaultGlobalReverb`
+
+```angelscript
+void cLux_SetupDefaultGlobalReverb(eSoundReverbPreset aType,
+                                   float afFadeTime)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aType` | `[eSoundReverbPreset](https://wiki.frictionalgames.com/page/../../eSoundReverbPreset)` | — |
+| `afFadeTime` | `float` | — |
+
+**Returns:** `void`
+
+    1. `cLux_ShapeDamage`
+
+```angelscript
+void cLux_ShapeDamage(int aShape,
+                      const cMatrixf &in a_mtxTransform,
+                      const cVector3f &in avOrigin,
+                      float afMinDamage,
+                      float afMaxDamage,
+                      float afForce,
+                      float afMaxImpulse,
+                      int alStrength,
+                      float afHitSpeed,
+                      int aDamageType,
+                      bool abCheckEnemies,
+                      bool abCheckPlayer,
+                      bool abCheckProps,
+                      bool abLethalForPlayer,
+                      const tString &in asSource)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aShape` | `int` | — |
+| `a_mtxTransform` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `avOrigin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afMinDamage` | `float` | — |
+| `afMaxDamage` | `float` | — |
+| `afForce` | `float` | — |
+| `afMaxImpulse` | `float` | — |
+| `alStrength` | `int` | — |
+| `afHitSpeed` | `float` | — |
+| `aDamageType` | `int` | — |
+| `abCheckEnemies` | `bool` | — |
+| `abCheckPlayer` | `bool` | — |
+| `abCheckProps` | `bool` | — |
+| `abLethalForPlayer` | `bool` | — |
+| `asSource` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_ShapeDamage`
+
+```angelscript
+void cLux_ShapeDamage(iCollideShape@ aShape,
+                      const cMatrixf &in a_mtxTransform,
+                      const cVector3f &in avOrigin,
+                      float afMinDamage,
+                      float afMaxDamage,
+                      float afForce,
+                      float afMaxImpulse,
+                      int alStrength,
+                      float afHitSpeed,
+                      int aDamageType,
+                      bool abCheckEnemies,
+                      bool abCheckPlayer,
+                      bool abCheckProps,
+                      bool abLethalForPlayer,
+                      const tString &in asSource)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `aShape` | `[iCollideShape@](https://wiki.frictionalgames.com/page/../../iCollideShape)` | — |
+| `a_mtxTransform` | `[cMatrixf](https://wiki.frictionalgames.com/page/../../cMatrixf)` | — |
+| `avOrigin` | `[cVector3f](https://wiki.frictionalgames.com/page/../../cVector3f)` | — |
+| `afMinDamage` | `float` | — |
+| `afMaxDamage` | `float` | — |
+| `afForce` | `float` | — |
+| `afMaxImpulse` | `float` | — |
+| `alStrength` | `int` | — |
+| `afHitSpeed` | `float` | — |
+| `aDamageType` | `int` | — |
+| `abCheckEnemies` | `bool` | — |
+| `abCheckPlayer` | `bool` | — |
+| `abCheckProps` | `bool` | — |
+| `abLethalForPlayer` | `bool` | — |
+| `asSource` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_StartMap`
+
+```angelscript
+void cLux_StartMap(const tString &in asMapName)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asMapName` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `void`
+
+    1. `cLux_StartNewGame`
+
+```angelscript
+void cLux_StartNewGame()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `void`
+
+    1. `cLux_TestModeOn`
+
+```angelscript
+bool cLux_TestModeOn()
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+**Returns:** `bool`
+
+    1. `cLux_ToAgent`
+
+```angelscript
+cLuxAgent@ cLux_ToAgent(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxAgent@`
+
+    1. `cLux_ToArea`
+
+```angelscript
+cLuxArea@ cLux_ToArea(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxArea@`
+
+    1. `cLux_ToCritter`
+
+```angelscript
+cLuxCritter@ cLux_ToCritter(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxCritter@`
+
+    1. `cLux_ToLiquidArea`
+
+```angelscript
+cLuxLiquidArea@ cLux_ToLiquidArea(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxLiquidArea@`
+
+    1. `cLux_ToProp`
+
+```angelscript
+cLuxProp@ cLux_ToProp(iLuxEntity @apEntity)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `@apEntity` | `[iLuxEntity](https://wiki.frictionalgames.com/page/../../iLuxEntity)` | — |
+
+**Returns:** `cLuxProp@`
+
+    1. `cLux_Translate`
+
+```angelscript
+const tWString& cLux_Translate(const tString &in asCat,
+                               const tString &in asEntry)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asCat` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `asEntry` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+
+**Returns:** `const tWString&`
+
+    1. `cLux_TruncateTextFile`
+
+```angelscript
+void cLux_TruncateTextFile(const tWString &in asPath,
+                           const tString &in asPattern,
+                           int alTimes)
+```
+
+:::note[Documentation status]
+Undocumented in the original Frictional Wiki. Signature preserved from the generated API dump.
+:::
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `asPath` | `[tWString](https://wiki.frictionalgames.com/page/../../tWString)` | — |
+| `asPattern` | `[tString](https://wiki.frictionalgames.com/page/../../tString)` | — |
+| `alTimes` | `int` | — |
+
+**Returns:** `void`
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cLux](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cLux)
+- Revision: `5019`
+- Source update: `2020-08-24T20:49:09Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

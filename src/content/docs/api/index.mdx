@@ -1,0 +1,38 @@
+---
+title: API reference
+description: Searchable index of AngelScript functions taken from the Frictional Wiki generated API dump for SOMA. Signatures are preserved. Missing descriptions are marked, not invented.
+category: api
+---
+
+import ApiBrowser from "../../../components/ApiBrowser.astro";
+
+<p class="section-kicker">04 // API &nbsp; REF 04.90</p>
+
+This index is built from the Wiki's generated `CodeDoc` pages under `HPL3/SOMA/Scripting`. Most function bodies have **no description** on the original Wiki. The signature, parameter names, and return types are kept. Nothing is filled in from guesswork.
+
+Filter is plain text over name, class, and signature. `cScript_` and `GetGlobalArg` both work.
+
+<ApiBrowser />
+
+## How to read a class page
+
+Each class/category page keeps:
+
+- a function summary table
+- per-function signature (AngelScript)
+- parameter table
+- an “Undocumented” note when the Wiki had no text
+
+Related types (`tString`, `cVector3f`, …) are separate class pages when the Wiki had them.
+
+Gameplay helper groups (`Entity`, `Prop`, `Map`, `Light`, …) live under [api/categories](/api/categories/entity/).
+
+## Related
+
+- [Scripting guide](/scripting/)
+- [Common patterns](/scripting/common-patterns/)
+- [Helpers](/scripting/helpers/)
+
+## Sources
+
+- [HPL3/SOMA/Scripting/Scripting Api](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api)

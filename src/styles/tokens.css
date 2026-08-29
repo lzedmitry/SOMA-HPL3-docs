@@ -1,0 +1,105 @@
+:root,
+:root[data-theme="dark"],
+:root[data-theme="light"] {
+  --bg-0: #071012;
+  --bg-1: #0b1618;
+  --surface-0: #0e1a1c;
+  --surface-1: #122124;
+  --surface-2: #18282c;
+
+  --border-subtle: #22363a;
+  --border-strong: #365158;
+
+  --text-primary: #dbe3df;
+  --text-secondary: #9aa9a5;
+  --text-muted: #6f807c;
+
+  --accent: #6fa8a3;
+  --accent-strong: #91c5bf;
+  --accent-dim: #3d6865;
+
+  --warning: #bd7748;
+  --danger: #9e4d46;
+  --ok: #6d8f6a;
+
+  --code-bg: #050b0d;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  --radius-0: 0;
+  --radius-1: 2px;
+  --radius-2: 4px;
+
+  --font-display: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-h3: 1.25rem;
+  --text-h2: 1.5rem;
+  --text-h1: 2rem;
+
+  --leading-body: 1.55;
+  --leading-head: 1.2;
+
+  --motion-fast: 140ms;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Starlight mapping */
+  --sl-color-accent-low: #122124;
+  --sl-color-accent: #6fa8a3;
+  --sl-color-accent-high: #91c5bf;
+  --sl-color-white: #dbe3df;
+  --sl-color-gray-1: #c5d0cc;
+  --sl-color-gray-2: #9aa9a5;
+  --sl-color-gray-3: #6f807c;
+  --sl-color-gray-4: #365158;
+  --sl-color-gray-5: #22363a;
+  --sl-color-gray-6: #122124;
+  --sl-color-black: #071012;
+  --sl-color-bg: #071012;
+  --sl-color-bg-nav: #0b1618;
+  --sl-color-bg-sidebar: #0b1618;
+  --sl-color-bg-inline-code: #050b0d;
+  --sl-color-hairline-light: #22363a;
+  --sl-color-hairline-shade: #22363a;
+  --sl-color-hairline: #22363a;
+  --sl-color-text: #dbe3df;
+  --sl-color-text-accent: #91c5bf;
+  --sl-color-text-invert: #071012;
+  --sl-color-bg-accent: #6fa8a3;
+
+  --sl-font: var(--font-body);
+  --sl-font-system: var(--font-body);
+  --sl-font-mono: var(--font-mono);
+  --sl-text-h1: var(--text-h1);
+  --sl-text-h2: var(--text-h2);
+  --sl-text-h3: var(--text-h3);
+  --sl-text-base: 16px;
+  --sl-sidebar-width: 15.5rem;
+  --sl-content-width: 54rem;
+  --sl-border-radius: 2px;
+
+  --sl-shadow-sm: none;
+  --sl-shadow-md: none;
+  --sl-shadow-lg: none;
+
+  /* Remap Starlight's default purple/blue asides onto the petrol palette. */
+  --sl-hue-purple: 170;
+  --sl-color-purple: #3d6865;
+  --sl-color-purple-low: #0e1a1c;
+  --sl-color-purple-high: #91c5bf;
+  --sl-hue-blue: 170;
+  --sl-color-blue: #3d6865;
+  --sl-color-blue-low: #0e1a1c;
+  --sl-color-blue-high: #91c5bf;
+}

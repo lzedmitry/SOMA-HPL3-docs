@@ -1,0 +1,14 @@
+{
+  "pageid": 2312,
+  "title": "HPL3/SOMA/Scripting/eGamepadHatState",
+  "missing": false,
+  "redirect": false,
+  "length": 912,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3792,
+  "revisionTimestamp": "2020-08-06T14:38:23Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eGamepadHatState_Centered</code> || <code>0</code> ||\n|-\n| <code>eGamepadHatState_Up</code> || <code>1</code> ||\n|-\n| <code>eGamepadHatState_Right</code> || <code>2</code> ||\n|-\n| <code>eGamepadHatState_Down</code> || <code>4</code> ||\n|-\n| <code>eGamepadHatState_Left</code> || <code>8</code> ||\n|-\n| <code>eGamepadHatState_RightUp</code> || <code>3</code> ||\n|-\n| <code>eGamepadHatState_RightDown</code> || <code>4</code> ||\n|-\n| <code>eGamepadHatState_LeftUp</code> || <code>9</code> ||\n|-\n| <code>eGamepadHatState_LeftDown</code> || <code>12</code> ||\n|-\n| <code>eGamepadHatState_LastEnum</code> || <code>16</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGamepadHatState",
+  "requestedTitle": "HPL3/SOMA/Scripting/eGamepadHatState"
+}

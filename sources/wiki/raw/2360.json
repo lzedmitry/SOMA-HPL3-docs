@@ -1,0 +1,14 @@
+{
+  "pageid": 2360,
+  "title": "HPL3/SOMA/Scripting/eMouseButton",
+  "missing": false,
+  "redirect": false,
+  "length": 876,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3840,
+  "revisionTimestamp": "2020-08-06T14:48:57Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eMouseButton_Left</code> || <code>0</code> ||\n|-\n| <code>eMouseButton_Middle</code> || <code>1</code> ||\n|-\n| <code>eMouseButton_Right</code> || <code>2</code> ||\n|-\n| <code>eMouseButton_WheelUp</code> || <code>3</code> ||\n|-\n| <code>eMouseButton_WheelDown</code> || <code>4</code> ||\n|-\n| <code>eMouseButton_Button6</code> || <code>5</code> ||\n|-\n| <code>eMouseButton_Button7</code> || <code>6</code> ||\n|-\n| <code>eMouseButton_Button8</code> || <code>7</code> ||\n|-\n| <code>eMouseButton_Button9</code> || <code>8</code> ||\n|-\n| <code>eMouseButton_LastEnum</code> || <code>9</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eMouseButton",
+  "requestedTitle": "HPL3/SOMA/Scripting/eMouseButton"
+}

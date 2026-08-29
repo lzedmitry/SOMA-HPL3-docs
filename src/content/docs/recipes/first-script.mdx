@@ -1,0 +1,43 @@
+---
+title: Recipe — first script
+description: Hello World via cLux_AddDebugMessage in OnStart. Confirmed by Getting Started and the scripting guide.
+category: recipes
+difficulty: beginner
+derivedFrom:
+  - HPL3/SOMA/Getting Started/Add Your First Script
+  - HPL3/Scripting/Scripting Guide/Hello World
+---
+
+## Goal
+
+See `Hello World!` in-game from the map script.
+
+## Steps
+
+Follow [Add your first script](/start/add-your-first-script/). The body of `OnStart()` becomes:
+
+```angelscript
+void OnStart()
+{
+    cLux_AddDebugMessage("Hello World!");
+}
+```
+
+Do not remove the generated includes or `cScrMap : iScrMap`.
+
+## Expected result
+
+Text at the lower-left after a fresh map start. If you cannot see it, F5.
+
+## Why it works
+
+`cLux_AddDebugMessage` is the function the Hello World chapter uses to print to the screen.
+
+## Common failure
+
+Mismatched `sample_map.hpm` / `sample_map.hps` names; curly quotes; editing the wrong mod folder.
+
+## Relevant reference
+
+- [Hello World](/scripting/hello-world/)
+- [Workflow](/scripting/scripting-workflow-and-structure/)

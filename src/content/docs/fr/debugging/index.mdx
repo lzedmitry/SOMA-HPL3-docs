@@ -1,0 +1,52 @@
+---
+title: "Dépannage"
+description: "Chemins de diagnostic issus de Getting Started, du debug menu, des commandes développeur et de la FAQ Wiki."
+category: debugging
+translation:
+  locale: fr
+  sourceLocale: en
+  sourceRevision: 1
+  translationRevision: 1
+  status: current
+---
+
+Si une étape de Getting Started échoue, arrêtez-vous là. Le parcours d’origine sépare les pannes launcher, éditeur, map et script.
+
+## Chemin rapide
+
+1. Confirmez que vous êtes dans **votre mod copié**, pas `MinimalCustomMapMod` et pas le jeu de base.
+2. Lancer depuis le SOMA mod launcher.
+3. En development mode, **F1** : Show Error List, Show HPL Log ([Debug menu](/fr/modding/developer-debug-menu/)).
+4. **F5** recharge la map après un changement de script.
+5. Lire [Developer commands](/fr/modding/developer-commands/).
+
+## Symptômes
+
+| Symptom | Start here |
+| --- | --- |
+| Le mod n’apparaît pas | [Creating a mod](/fr/modding/creating-a-mod/), [Launcher](/fr/modding/soma-mod-launcher/), entry file name `entry.hpc` |
+| Le mod ne lance pas | Same, plus [FAQ](/fr/debugging/faq/) |
+| L’éditeur ne voit pas les assets du mod | [Setup environment](/fr/modding/setup-modding-environment/) — title bar must say `(Working on mod)` |
+| Missing resources | [resources.cfg](/fr/modding/creating-a-mod/), [Resources configuration](/fr/generated/resources-configuration/) |
+| Script compile error | [Add your first script](/fr/start/add-your-first-script/), error list, [Hello World](/fr/scripting/hello-world/) |
+| La map ne charge pas | Keep `.hpm` and `.hpm_*` together |
+| Entity not found | [Finding objects](/fr/level-editor/finding-objects/), names in script vs editor |
+| Area does not trigger | [Trigger Area](/fr/areas/trigger-area/) — `CC_Entities` must include `player` if the player should fire it |
+| Sound not playing | [Playing sounds](/fr/audio/playing-sounds/), [Soundscape](/fr/areas/soundscape-area/) |
+| Texture / material | [Materials](/fr/materials/) — many type pages are missing on the Wiki |
+| Broken references | Re-open the editor on the mod; relative paths only |
+| Performance | [Indoor](/fr/level-building/indoor-level-performance/), [Outdoor](/fr/level-building/outdoor-level-performance/) |
+| Sticky area + static collider | [FAQ](/fr/debugging/faq/) — wait on a timer |
+| MoveObject and multi-body entities | [FAQ](/fr/debugging/faq/) — `MainPhysicsBody` |
+| Callback gets a wrong C++ return | [FAQ](/fr/debugging/faq/) — store in a temporary |
+| Lever interaction inverts | [FAQ](/fr/debugging/faq/) |
+
+## Voir aussi
+
+
+## Sources
+
+- Getting Started recovery sections
+- [HPL3/Troubleshooting](https://wiki.frictionalgames.com/page/HPL3/Troubleshooting)
+- [Developer Debug Menu](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Developer_Debug_Menu)
+

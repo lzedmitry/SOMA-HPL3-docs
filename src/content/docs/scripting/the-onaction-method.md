@@ -1,0 +1,60 @@
+---
+title: The OnAction method
+description: "You can see a full list of the input types inside the Scripting section of SOMA or Amnesia: Rebirth, under Base -> Input Types."
+category: scripting
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/The_OnAction_method"
+sourceRevision: 4321
+sourceUpdated: "2020-08-14T10:53:22Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - scripting
+---
+|   |   |
+| --- | --- |
+
+### Breakdown
+*`alAction` is an integer which represents the key code of the current key has been pressed.
+*`abPressed` is a boolean which checks if the key is currently pressed.
+*At the very beginning, the function checks if the current button is pressed or not, because the code needs to be executed only when a key is pressed, so if the key isn’t pressed, we stop the execution of this method, which is achieved by typing `return;`.
+*A condition that checks which key we have pressed. We can search for keys by typing `eAction_` and we will see a list of all of the available keys, which is pretty much every key on the keyboard. `eAction_Test0` to `eAction_Test9` are the number keys on the keyboard, so if we press 0 on our keyboard, the code inside the `eAction_Test0` condition will be executed.
+
+:::note[Note]
+You can see a full list of the input types inside the Scripting section of SOMA or Amnesia: Rebirth, under Base -> Input Types.
+:::
+
+### Example
+
+```
+////////////////////////////
+// To get when player makes input (mostly used for debug)
+void OnAction(int alAction, bool abPressed)
+{
+	if (abPressed == false)
+		return;
+
+	if (alAction == eAction_Test1)
+	{
+		Light_SetVisible("PointLight_4", false);
+	}
+		
+	if (alAction == eAction_Test2)
+	{
+		Light_SetVisible("PointLight_4", true);
+	}
+}
+```
+
+In this example, if the player presses 1 on the keyboard, the point light `PointLight_4` in the map will become invisible. If the player presses 2, the light will become visible again.
+
+HPL3/Scripting/Scripting_Guide/Helper Files|Helper Files|HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide|HPL3/Scripting/Scripting_Guide/The Update method|The Update method
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/The OnAction method](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/The_OnAction_method)
+- Revision: `4321`
+- Source update: `2020-08-14T10:53:22Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

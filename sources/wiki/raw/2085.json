@@ -1,0 +1,14 @@
+{
+  "pageid": 2085,
+  "title": "HPL3/SOMA/Scripting/cLuxEffect",
+  "missing": false,
+  "redirect": false,
+  "length": 662,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3631,
+  "revisionTimestamp": "2020-08-06T13:52:26Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mlId || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|}\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsActive ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetActive || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxEffect",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLuxEffect"
+}

@@ -1,0 +1,57 @@
+---
+import { englishSlug, isTranslated, localeHref, LOCALE_META } from "../lib/locale";
+
+const route = Astro.locals.starlightRoute;
+const { head } = route;
+const slug = englishSlug(route.id || route.entry.id);
+const site = Astro.site ? String(Astro.site).replace(/\/$/, "") : "";
+
+const filtered = head.filter((item) => {
+  if (item.tag !== "link") return true;
+  const attrs = item.attrs || {};
+  const rel = attrs.rel;
+  const hreflang = attrs.hreflang;
+  if (rel === "alternate" && typeof hreflang === "string") {
+    if (hreflang === "en" || hreflang === "x-default") return true;
+    const loc = LOCALE_META.find((l) => l.htmlLang === hreflang);
+    if (!loc) return false;
+    return isTranslated(slug, loc.id);
+  }
+  return true;
+});
+
+const extras: { tag: "link"; attrs: Record<string, string> }[] = [];
+if (site) {
+  extras.push({
+    tag: "link",
+    attrs: { rel: "alternate", hreflang: "x-default", href: `${site}${localeHref(slug, "en")}` },
+  });
+}
+---
+
+{filtered.map((item) => {
+  const Tag = item.tag as any;
+  const attrs = item.attrs || {};
+  return item.content ? <Tag {...attrs} set:html={item.content} /> : <Tag {...attrs} />;
+})}
+{extras.map((item) => {
+  const Tag = item.tag as any;
+  return <Tag {...item.attrs} />;
+})}
+
+<script is:inline>
+  (function () {
+    document.documentElement.dataset.theme = "dark";
+    document.addEventListener("keydown", function (e) {
+      if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) return;
+      var tag = (document.activeElement && document.activeElement.tagName) || "";
+      if (tag === "INPUT" || tag === "TEXTAREA" || (document.activeElement && document.activeElement.isContentEditable))
+        return;
+      var btn = document.querySelector("site-search button, button[data-open-search]");
+      if (btn) {
+        e.preventDefault();
+        btn.click();
+      }
+    });
+  })();
+</script>

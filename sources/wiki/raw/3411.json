@@ -1,0 +1,14 @@
+{
+  "pageid": 3411,
+  "title": "HPL3/Level Design/Terrain Height Map",
+  "missing": false,
+  "redirect": false,
+  "length": 599,
+  "touched": "2026-07-30T09:49:08Z",
+  "revisionId": 7085,
+  "revisionTimestamp": "2026-07-30T09:49:08Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= HeightMap mode =\n\nThis mode allows the user to modify the terrain geometry. A set of 3 different brushes is made available for doing so.\n\n[[File:terrain_mode_heightmap.png]]\n\nRaise/Lower brush: this brush just adds or substracts height to the area being painted.\nFlatten brush: this brush raises or lowers the affected area to a given height.\nSmooth brush: this brush applies a smoothing effect (thus flattening sharp spikes and such) to the area being painted.\n\nOne can also use the Terrain generation window to set up a randomly generated heightmap. Heightmaps can also be exported and imported.",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Terrain_Height_Map",
+  "requestedTitle": "HPL3/Level Design/Terrain Height Map"
+}

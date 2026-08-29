@@ -1,0 +1,14 @@
+{
+  "pageid": 2154,
+  "title": "HPL3/SOMA/Scripting/cProcAnimation",
+  "missing": false,
+  "redirect": false,
+  "length": 2292,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3698,
+  "revisionTimestamp": "2020-08-06T14:16:37Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncProcAnimation has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || FadeAmount || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afTime</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || FadeSpeed || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight>,<br /><syntaxhighlight lang=\"c++\" inline>float afTime</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetAmount ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || GetLooping ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || GetPaused ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetSpeed ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetTime ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsActive ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetActive || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetAmount || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetLooping || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetPaused || <syntaxhighlight lang=\"c++\" inline>bool abX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetSpeed || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetTime || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Update || <syntaxhighlight lang=\"c++\" inline>float afTimeStep</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cProcAnimation",
+  "requestedTitle": "HPL3/SOMA/Scripting/cProcAnimation"
+}

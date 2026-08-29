@@ -1,0 +1,14 @@
+{
+  "pageid": 3370,
+  "title": "HPL3/SOMA/Areas/Distortion Area",
+  "missing": false,
+  "redirect": false,
+  "length": 1729,
+  "touched": "2024-02-08T17:54:04Z",
+  "revisionId": 6774,
+  "revisionTimestamp": "2024-02-08T17:54:04Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "== Overview ==\nThis area will apply a Distortion Effect to the player while they are in it.\n\n== Properties ==\n=== Base ===\n* '''BlockLineOfSight''': Blocks line of sight.\n* '''EventInstanceTag''': A tag used by the event system to group objects.\n* '''UserVar''': Arbitrary user variable. Acessable by calling the script function <code>Entity_GetVar<type>()</code>\n\n=== Collide Callbacks ===\n* '''CC_Entities''': A list separated by commas or spaces of all entities that can trigger the callback. ''player'' is the player character.\n* '''CC_Funcs''': A list of functions that will run when the area is triggered. Press copy to generate a callback function and copy to the clipboard\n\n=== Attachment ===\n* '''ParentAttachEntity''': The name of an entity that this soundscape is parented to.\n* '''ParentAttachUseRotation''': If the rotation of the parent should affect the soundscape.\n* '''ParentAttachBody''': The name of the body in the parent entity to attach to.\n* '''ParentAttachLocked''': Locks the area to the parent and disables local movement.\n\n=== DistortionArea ===\n* '''EffectAmount''': The strength of the distortion. Values between 0 - 1\n* '''FadeInTime''': Time in seconds to fade in the distortion effect\n* '''FadeOutTime''': Time in seconds to fade out the distortion effect\n* '''Volume''': The volume of the distorted audio that plays\n* '''SourceEntity''': The name of an optional entity that will increase the effect as the player gets closer to it\n* '''SourceEntityMinDist''': The distance to the '''SourceEntity''' at which the effect is at its maximum\n* '''SourceEntityMaxDist''':The distance to the '''SourceEntity''' at which the effect ends. If a value of -1 is set, the size of the area will be used instead",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/Distortion_Area",
+  "requestedTitle": "HPL3/SOMA/Areas/Distortion Area"
+}

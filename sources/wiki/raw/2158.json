@@ -1,0 +1,14 @@
+{
+  "pageid": 2158,
+  "title": "HPL3/SOMA/Scripting/cRect2l",
+  "missing": false,
+  "redirect": false,
+  "length": 590,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3701,
+  "revisionTimestamp": "2020-08-06T14:17:15Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| h || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| w || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| x || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| y || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|}\n\n==Functions==\n\ncRect2l has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cRect2l",
+  "requestedTitle": "HPL3/SOMA/Scripting/cRect2l"
+}

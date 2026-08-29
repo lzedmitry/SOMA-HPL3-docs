@@ -1,0 +1,14 @@
+{
+  "pageid": 2350,
+  "title": "HPL3/SOMA/Scripting/eLuxEntityType",
+  "missing": false,
+  "redirect": false,
+  "length": 773,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3830,
+  "revisionTimestamp": "2020-08-06T14:46:59Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eLuxEntityType_Prop</code> || <code>0</code> ||\n|-\n| <code>eLuxEntityType_Area</code> || <code>1</code> ||\n|-\n| <code>eLuxEntityType_LiquidArea</code> || <code>2</code> ||\n|-\n| <code>eLuxEntityType_ReverbArea</code> || <code>3</code> ||\n|-\n| <code>eLuxEntityType_Critter</code> || <code>4</code> ||\n|-\n| <code>eLuxEntityType_Agent</code> || <code>5</code> ||\n|-\n| <code>eLuxEntityType_Player</code> || <code>6</code> ||\n|-\n| <code>eLuxEntityType_LastEnum</code> || <code>7</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eLuxEntityType",
+  "requestedTitle": "HPL3/SOMA/Scripting/eLuxEntityType"
+}

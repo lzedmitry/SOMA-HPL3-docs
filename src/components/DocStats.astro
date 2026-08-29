@@ -1,0 +1,13 @@
+---
+import { getDocsStats } from "../lib/docs-stats";
+const stats = getDocsStats();
+---
+
+<div class="stats-line">
+  <div>Wiki sources imported: {stats.sourcePages}</div>
+  <div>API signatures indexed: {stats.apiFunctions}</div>
+  <div>Undocumented auto-generated API class pages: {stats.undocumented}</div>
+  <div>Wiki pages marked WIP in the manifest: {stats.wip}</div>
+  <div>Last source sync: {stats.syncedAt}</div>
+  <div>Images: not inlined</div>
+</div>

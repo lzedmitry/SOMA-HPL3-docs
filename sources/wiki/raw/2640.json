@@ -1,0 +1,14 @@
+{
+  "pageid": 2640,
+  "title": "HPL3/SOMA/Scripting/Scripting Api/Math",
+  "missing": false,
+  "redirect": false,
+  "length": 1747,
+  "touched": "2020-08-26T01:38:02Z",
+  "revisionId": 5041,
+  "revisionTimestamp": "2020-08-24T20:56:47Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Summary==\n{{CodeDocSummaryTop}}\n{{CodeDocSummaryItem|void|[[#Math_CatmullRom|Math_CatmullRom]]([[../../cVector3f|cVector3f]] &out avResult, const [[../../cVector3f|cVector3f]] &in avP0, const [[../../cVector3f|cVector3f]] &in avP1, const [[../../cVector3f|cVector3f]] &in avP2, const [[../../cVector3f|cVector3f]] &in avP3, float afFract)|A function that gives you a point along a spline made up of four points}}\n{{CodeDocSummaryBottom}}\n\n==Function Detail==\n{{CodeDocDetailTop|Math_CatmullRom}}\n<syntaxhighlight lang=\"c++\">void Math_CatmullRom(cVector3f &out avResult,\n                     const cVector3f &in avP0,\n                     const cVector3f &in avP1,\n                     const cVector3f &in avP2,\n                     const cVector3f &in avP3,\n                     float afFract)</syntaxhighlight>\n{{CodeDocDetailBody|A function that gives you a point along a spline made up of four points. The spline is guaranteed to hit the second and third points.}}\n{{CodeDocDetailParamStart}}\n{{CodeDocDetailParam|avResult|[[../../cVector3f|cVector3f]]|the resulting point on the spline.}}\n{{CodeDocDetailParam|avP0|[[../../cVector3f|cVector3f]]|the first point.}}\n{{CodeDocDetailParam|avP1|[[../../cVector3f|cVector3f]]|the second point.}}\n{{CodeDocDetailParam|avP2|[[../../cVector3f|cVector3f]]|the third point.}}\n{{CodeDocDetailParam|avP3|[[../../cVector3f|cVector3f]]|the fourth point.}}\n{{CodeDocDetailParam|afFract|float|the normalized distance along the spline to check. 0 is at the second point, 1 is at the third point. Should not go out of the range 0-1.}}\n{{CodeDocDetailReturn|void|}}\n{{CodeDocDetailBottom}}",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Math",
+  "requestedTitle": "HPL3/SOMA/Scripting/Scripting Api/Math"
+}

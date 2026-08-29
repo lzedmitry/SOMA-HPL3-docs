@@ -1,0 +1,14 @@
+{
+  "pageid": 2211,
+  "title": "HPL3/SOMA/Scripting/cXmlText",
+  "missing": false,
+  "redirect": false,
+  "length": 2225,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3760,
+  "revisionTimestamp": "2020-08-06T14:32:10Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncXmlText has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../cXmlElement|<syntaxhighlight lang=\"c++\" inline>cXmlElement@</syntaxhighlight>]] || CreateChildElement || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asName</syntaxhighlight>]] ||\n|-\n| [[../cXmlText|<syntaxhighlight lang=\"c++\" inline>cXmlText@</syntaxhighlight>]] || CreateChildText || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asText</syntaxhighlight>]] ||\n|-\n| [[../cXmlNodeListIterator|<syntaxhighlight lang=\"c++\" inline>cXmlNodeListIterator@</syntaxhighlight>]] || GetChildIterator ||   ||\n|-\n| [[../cXmlElement|<syntaxhighlight lang=\"c++\" inline>cXmlElement@</syntaxhighlight>]] || GetFirstElement ||   ||\n|-\n| [[../cXmlElement|<syntaxhighlight lang=\"c++\" inline>cXmlElement@</syntaxhighlight>]] || GetFirstElement || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asName</syntaxhighlight>]] ||\n|-\n| [[../cXmlText|<syntaxhighlight lang=\"c++\" inline>cXmlText@</syntaxhighlight>]] || GetFirstText ||   ||\n|-\n| [[../cXmlText|<syntaxhighlight lang=\"c++\" inline>cXmlText@</syntaxhighlight>]] || GetFirstText || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asText</syntaxhighlight>]] ||\n|-\n| [[../iXmlNode|<syntaxhighlight lang=\"c++\" inline>iXmlNode@</syntaxhighlight>]] || GetParent ||   ||\n|-\n| [[../eXmlNodeType|<syntaxhighlight lang=\"c++\" inline>eXmlNodeType</syntaxhighlight>]] || GetType ||   ||\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString&</syntaxhighlight>]] || GetValue ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetValue || [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString &in asValue</syntaxhighlight>]] ||\n|-\n| [[../cXmlElement|<syntaxhighlight lang=\"c++\" inline>cXmlElement@</syntaxhighlight>]] || ToElement ||   ||\n|-\n| [[../cXmlText|<syntaxhighlight lang=\"c++\" inline>cXmlText@</syntaxhighlight>]] || ToText ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cXmlText",
+  "requestedTitle": "HPL3/SOMA/Scripting/cXmlText"
+}

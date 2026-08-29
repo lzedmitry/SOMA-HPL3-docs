@@ -1,0 +1,14 @@
+{
+  "pageid": 2222,
+  "title": "HPL3/SOMA/Scripting/iGuiMaterial",
+  "missing": false,
+  "redirect": false,
+  "length": 444,
+  "touched": "2020-08-27T22:05:19Z",
+  "revisionId": 3895,
+  "revisionTimestamp": "2020-08-06T15:01:35Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\niGuiMaterial has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../tString|<syntaxhighlight lang=\"c++\" inline>const tString&</syntaxhighlight>]] || GetName ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iGuiMaterial",
+  "requestedTitle": "HPL3/SOMA/Scripting/iGuiMaterial"
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 2322,
+  "title": "HPL3/SOMA/Scripting/eGuiWindowZDest",
+  "missing": false,
+  "redirect": false,
+  "length": 673,
+  "touched": "2020-08-27T22:05:46Z",
+  "revisionId": 3802,
+  "revisionTimestamp": "2020-08-06T14:41:14Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Values==\n\n{| class=\"wikitable sortable\"\n! Enum Name !! Integer Value !! Description\n|-\n| <code>eGuiWindowZDest_Regular</code> || <code>0</code> ||\n|-\n| <code>eGuiWindowZDest_RegularOnTop</code> || <code>1</code> ||\n|-\n| <code>eGuiWindowZDest_MessageBox</code> || <code>2</code> ||\n|-\n| <code>eGuiWindowZDest_FilePicker</code> || <code>3</code> ||\n|-\n| <code>eGuiWindowZDest_ContextMenu</code> || <code>4</code> ||\n|-\n| <code>eGuiWindowZDest_LastEnum</code> || <code>5</code> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eGuiWindowZDest",
+  "requestedTitle": "HPL3/SOMA/Scripting/eGuiWindowZDest"
+}

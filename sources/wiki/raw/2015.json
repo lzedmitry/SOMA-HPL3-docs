@@ -1,0 +1,14 @@
+{
+  "pageid": 2015,
+  "title": "HPL3/SOMA/Scripting/cFractalNoiseParams",
+  "missing": false,
+  "redirect": false,
+  "length": 848,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3563,
+  "revisionTimestamp": "2020-08-06T13:31:18Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mbUseAbsResult || <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> ||\n|-\n| mfOctaveMul || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfStartAmplitude || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfStartFrequency || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mlNumOfOctaves || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| mNoiseType || [[..eNoiseType|<syntaxhighlight lang=\"c++\" inline>eNoiseType</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\ncFractalNoiseParams has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFractalNoiseParams",
+  "requestedTitle": "HPL3/SOMA/Scripting/cFractalNoiseParams"
+}

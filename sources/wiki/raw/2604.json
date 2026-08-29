@@ -1,0 +1,15 @@
+{
+  "pageid": 2604,
+  "title": "HPL3/Level Design/Finding Objects",
+  "missing": false,
+  "redirect": false,
+  "length": 1102,
+  "touched": "2026-07-30T09:25:33Z",
+  "revisionId": 7062,
+  "revisionTimestamp": "2026-07-30T09:25:33Z",
+  "revisionUser": "TiMan",
+  "wikitext": "= Find Objects window =\nThis is one of the most useful tools in the Level Editor. With it, you can find any created object in the map without needing to look for it. When opened, it will look like this:\n\nIn an empty map:\n\n[[File:findobjects01.jpg]]\n\nIn a non empty map:\n\n[[File:findobjects02.jpg]]\n\nIt consists of the following inputs:\n* '''A 'Search Text' input''': type the string you want to search for here. Any matches will be listed in the ListBox below. If the input is empty, every object in the map will be listed.\n* '''An 'In' ComboBox''': will determine where the text input will be searched in. Options are 'Name' and 'Type', meaning name or type of the objects in list.\n* '''A ListBox''' displaying all entities found: objects can be selected here by clicking on the row they appear in.\n* '''Focus button''': clicking on this will center the view on the selected objects.\n* '''Delete button''': clicking on this will delete selected objects.\n\n==== Usage examples ====\n\nSearching for a string in name:\n\n[[File:findobjects03.jpg]]\n\nSearching for a string in type:\n\n[[File:findobjects04.jpg]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Finding_Objects",
+  "requestedTitle": "HPL3/SOMA/Level Design/Finding Objects",
+  "resolvedTitle": "HPL3/Level Design/Finding Objects"
+}

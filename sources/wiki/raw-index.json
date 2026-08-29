@@ -1,0 +1,5590 @@
+{
+  "fetchedAt": "2026-08-28T18:22:07Z",
+  "count": 698,
+  "pages": [
+    {
+      "title": "HPL3/Areas/Ambient Light Area",
+      "pageid": 3369,
+      "revisionId": 6773,
+      "revisionTimestamp": "2024-02-08T17:43:47Z",
+      "missing": false,
+      "wikitextLength": 718
+    },
+    {
+      "title": "HPL3/Areas/Camera Animation Area",
+      "pageid": 2753,
+      "revisionId": 5547,
+      "revisionTimestamp": "2020-11-09T21:10:42Z",
+      "missing": false,
+      "wikitextLength": 4009
+    },
+    {
+      "title": "HPL3/Areas/Climb Area",
+      "pageid": 3361,
+      "revisionId": 6762,
+      "revisionTimestamp": "2024-02-06T15:09:40Z",
+      "missing": false,
+      "wikitextLength": 645
+    },
+    {
+      "title": "HPL3/Areas/Crawl Area",
+      "pageid": 2754,
+      "revisionId": 6747,
+      "revisionTimestamp": "2024-01-25T21:30:43Z",
+      "missing": false,
+      "wikitextLength": 257
+    },
+    {
+      "title": "HPL3/Areas/Description Area",
+      "pageid": 3362,
+      "revisionId": 6777,
+      "revisionTimestamp": "2024-02-08T18:11:16Z",
+      "missing": false,
+      "wikitextLength": 223
+    },
+    {
+      "title": "HPL3/Areas/DoorwayTrigger Area",
+      "pageid": 3371,
+      "revisionId": 6775,
+      "revisionTimestamp": "2024-02-08T18:03:10Z",
+      "missing": false,
+      "wikitextLength": 2263
+    },
+    {
+      "title": "HPL3/Areas/Fog Area",
+      "pageid": 3360,
+      "revisionId": 6750,
+      "revisionTimestamp": "2024-01-25T22:14:34Z",
+      "missing": false,
+      "wikitextLength": 1071
+    },
+    {
+      "title": "HPL3/Areas/Hide Area",
+      "pageid": 3363,
+      "revisionId": 6761,
+      "revisionTimestamp": "2024-02-05T13:36:44Z",
+      "missing": false,
+      "wikitextLength": 274
+    },
+    {
+      "title": "HPL3/Areas/InteractAux Area",
+      "pageid": 3356,
+      "revisionId": 6726,
+      "revisionTimestamp": "2024-01-24T17:50:41Z",
+      "missing": false,
+      "wikitextLength": 315
+    },
+    {
+      "title": "HPL3/Areas/Ladder Area",
+      "pageid": 3309,
+      "revisionId": 6748,
+      "revisionTimestamp": "2024-01-25T21:40:43Z",
+      "missing": false,
+      "wikitextLength": 1524
+    },
+    {
+      "title": "HPL3/Areas/PathNode Area",
+      "pageid": 3359,
+      "revisionId": 6754,
+      "revisionTimestamp": "2024-02-01T14:58:31Z",
+      "missing": false,
+      "wikitextLength": 1188
+    },
+    {
+      "title": "HPL3/Areas/PlayerStart Area",
+      "pageid": 3306,
+      "revisionId": 6729,
+      "revisionTimestamp": "2024-01-25T19:26:33Z",
+      "missing": false,
+      "wikitextLength": 515
+    },
+    {
+      "title": "HPL3/Areas/SoundScape Area",
+      "pageid": 603,
+      "revisionId": 6745,
+      "revisionTimestamp": "2024-01-25T20:58:54Z",
+      "missing": false,
+      "wikitextLength": 4542
+    },
+    {
+      "title": "HPL3/Areas/Soundscape Area",
+      "pageid": 603,
+      "revisionId": 6745,
+      "revisionTimestamp": "2024-01-25T20:58:54Z",
+      "missing": false,
+      "wikitextLength": 4542
+    },
+    {
+      "title": "HPL3/Areas/Sticky Area",
+      "pageid": 3358,
+      "revisionId": 6770,
+      "revisionTimestamp": "2024-02-08T17:19:13Z",
+      "missing": false,
+      "wikitextLength": 2799
+    },
+    {
+      "title": "HPL3/Areas/Trigger Area",
+      "pageid": 3305,
+      "revisionId": 6755,
+      "revisionTimestamp": "2024-02-01T15:01:08Z",
+      "missing": false,
+      "wikitextLength": 2903
+    },
+    {
+      "title": "HPL3/Areas/Zoom Area",
+      "pageid": 3368,
+      "revisionId": 6772,
+      "revisionTimestamp": "2024-02-08T17:36:09Z",
+      "missing": false,
+      "wikitextLength": 2940
+    },
+    {
+      "title": "HPL3/Audition/Voice Handler Overview",
+      "pageid": 3465,
+      "revisionId": 7181,
+      "revisionTimestamp": "2026-07-30T22:27:43Z",
+      "missing": false,
+      "wikitextLength": 11804
+    },
+    {
+      "title": "HPL3/Blender HPL3 export plugin",
+      "pageid": 84,
+      "revisionId": 5537,
+      "revisionTimestamp": "2020-11-09T19:51:45Z",
+      "missing": false,
+      "wikitextLength": 4689
+    },
+    {
+      "title": "HPL3/Color Grading",
+      "pageid": 3312,
+      "revisionId": 6401,
+      "revisionTimestamp": "2023-03-31T08:54:06Z",
+      "missing": false,
+      "wikitextLength": 2577
+    },
+    {
+      "title": "HPL3/Developer Commands",
+      "pageid": 1469,
+      "revisionId": 5563,
+      "revisionTimestamp": "2020-11-10T03:36:25Z",
+      "missing": false,
+      "wikitextLength": 2353
+    },
+    {
+      "title": "HPL3/Entities/Adding Animations to Entities",
+      "pageid": 3441,
+      "revisionId": 7138,
+      "revisionTimestamp": "2026-07-30T21:57:07Z",
+      "missing": false,
+      "wikitextLength": 3183
+    },
+    {
+      "title": "HPL3/Entities/Entities Overview",
+      "pageid": 2595,
+      "revisionId": 4965,
+      "revisionTimestamp": "2020-08-23T19:45:25Z",
+      "missing": false,
+      "wikitextLength": 9178
+    },
+    {
+      "title": "HPL3/Entities/Entity Mesh",
+      "pageid": 3439,
+      "revisionId": 7135,
+      "revisionTimestamp": "2026-07-30T21:54:57Z",
+      "missing": false,
+      "wikitextLength": 1268
+    },
+    {
+      "title": "HPL3/Entities/Entity Rig",
+      "pageid": 3444,
+      "revisionId": 7144,
+      "revisionTimestamp": "2026-07-30T22:00:58Z",
+      "missing": false,
+      "wikitextLength": 396
+    },
+    {
+      "title": "HPL3/Entities/Entity Settings",
+      "pageid": 3445,
+      "revisionId": 7145,
+      "revisionTimestamp": "2026-07-30T22:02:12Z",
+      "missing": false,
+      "wikitextLength": 419
+    },
+    {
+      "title": "HPL3/Entities/Entity Types",
+      "pageid": 3438,
+      "revisionId": 7134,
+      "revisionTimestamp": "2026-07-30T21:54:16Z",
+      "missing": false,
+      "wikitextLength": 419
+    },
+    {
+      "title": "HPL3/Entities/Model Editor View",
+      "pageid": 3436,
+      "revisionId": 7130,
+      "revisionTimestamp": "2026-07-30T21:52:59Z",
+      "missing": false,
+      "wikitextLength": 11619
+    },
+    {
+      "title": "HPL3/Entities/Model Preview Settings",
+      "pageid": 3440,
+      "revisionId": 7137,
+      "revisionTimestamp": "2026-07-30T21:56:11Z",
+      "missing": false,
+      "wikitextLength": 5497
+    },
+    {
+      "title": "HPL3/Entities/Physics Body Properties",
+      "pageid": 3374,
+      "revisionId": 6809,
+      "revisionTimestamp": "2024-05-14T05:04:22Z",
+      "missing": false,
+      "wikitextLength": 3172
+    },
+    {
+      "title": "HPL3/Entities/Working with Shapes",
+      "pageid": 3442,
+      "revisionId": 7141,
+      "revisionTimestamp": "2026-07-30T21:59:19Z",
+      "missing": false,
+      "wikitextLength": 763
+    },
+    {
+      "title": "HPL3/Features Overview",
+      "pageid": 1924,
+      "revisionId": 4746,
+      "revisionTimestamp": "2020-08-21T09:41:06Z",
+      "missing": false,
+      "wikitextLength": 536
+    },
+    {
+      "title": "HPL3/Gui",
+      "pageid": 2596,
+      "revisionId": 4966,
+      "revisionTimestamp": "2020-08-23T19:54:24Z",
+      "missing": false,
+      "wikitextLength": 14335
+    },
+    {
+      "title": "HPL3/Language Configuration",
+      "pageid": 2666,
+      "revisionId": 5481,
+      "revisionTimestamp": "2020-11-06T20:34:44Z",
+      "missing": false,
+      "wikitextLength": 4744
+    },
+    {
+      "title": "HPL3/Launch Configuration",
+      "pageid": 2661,
+      "revisionId": 6430,
+      "revisionTimestamp": "2023-07-15T18:31:02Z",
+      "missing": false,
+      "wikitextLength": 3914
+    },
+    {
+      "title": "HPL3/Level Design/Billboards",
+      "pageid": 3413,
+      "revisionId": 7087,
+      "revisionTimestamp": "2026-07-30T09:52:40Z",
+      "missing": false,
+      "wikitextLength": 2366
+    },
+    {
+      "title": "HPL3/Level Design/Decals",
+      "pageid": 3417,
+      "revisionId": 7091,
+      "revisionTimestamp": "2026-07-30T09:55:03Z",
+      "missing": false,
+      "wikitextLength": 2090
+    },
+    {
+      "title": "HPL3/Level Design/Detail Mesh Entity",
+      "pageid": 3423,
+      "revisionId": 7102,
+      "revisionTimestamp": "2026-07-30T10:00:43Z",
+      "missing": false,
+      "wikitextLength": 1989
+    },
+    {
+      "title": "HPL3/Level Design/Detail Meshes",
+      "pageid": 3404,
+      "revisionId": 7073,
+      "revisionTimestamp": "2026-07-30T09:27:39Z",
+      "missing": false,
+      "wikitextLength": 1989
+    },
+    {
+      "title": "HPL3/Level Design/Entity Poser",
+      "pageid": 3422,
+      "revisionId": 7101,
+      "revisionTimestamp": "2026-07-30T10:00:25Z",
+      "missing": false,
+      "wikitextLength": 726
+    },
+    {
+      "title": "HPL3/Level Design/Exposure Areas",
+      "pageid": 3419,
+      "revisionId": 7093,
+      "revisionTimestamp": "2026-07-30T09:56:28Z",
+      "missing": false,
+      "wikitextLength": 1246
+    },
+    {
+      "title": "HPL3/Level Design/Finding Objects",
+      "pageid": 2604,
+      "revisionId": 7062,
+      "revisionTimestamp": "2026-07-30T09:25:33Z",
+      "missing": false,
+      "wikitextLength": 1102
+    },
+    {
+      "title": "HPL3/Level Design/Fog Areas",
+      "pageid": 3418,
+      "revisionId": 7092,
+      "revisionTimestamp": "2026-07-30T09:56:11Z",
+      "missing": false,
+      "wikitextLength": 1054
+    },
+    {
+      "title": "HPL3/Level Design/Lens Flares",
+      "pageid": 3414,
+      "revisionId": 7088,
+      "revisionTimestamp": "2026-07-30T09:53:19Z",
+      "missing": false,
+      "wikitextLength": 931
+    },
+    {
+      "title": "HPL3/Level Design/Level Editor Color Dialog",
+      "pageid": 3424,
+      "revisionId": 7105,
+      "revisionTimestamp": "2026-07-30T10:01:58Z",
+      "missing": false,
+      "wikitextLength": 1947
+    },
+    {
+      "title": "HPL3/Level Design/Level Editor Preferences",
+      "pageid": 2601,
+      "revisionId": 7066,
+      "revisionTimestamp": "2026-07-30T09:25:56Z",
+      "missing": false,
+      "wikitextLength": 1314
+    },
+    {
+      "title": "HPL3/Level Design/Level Editor View",
+      "pageid": 2680,
+      "revisionId": 7064,
+      "revisionTimestamp": "2026-07-30T09:25:46Z",
+      "missing": false,
+      "wikitextLength": 4077
+    },
+    {
+      "title": "HPL3/Level Design/Level Information",
+      "pageid": 2606,
+      "revisionId": 7070,
+      "revisionTimestamp": "2026-07-30T09:26:15Z",
+      "missing": false,
+      "wikitextLength": 208
+    },
+    {
+      "title": "HPL3/Level Design/Level Settings",
+      "pageid": 2681,
+      "revisionId": 7068,
+      "revisionTimestamp": "2026-07-30T09:26:05Z",
+      "missing": false,
+      "wikitextLength": 3185
+    },
+    {
+      "title": "HPL3/Level Design/Lights Overview",
+      "pageid": 3391,
+      "revisionId": 7049,
+      "revisionTimestamp": "2026-07-30T08:40:29Z",
+      "missing": false,
+      "wikitextLength": 1687
+    },
+    {
+      "title": "HPL3/Level Design/Particles",
+      "pageid": 3415,
+      "revisionId": 7089,
+      "revisionTimestamp": "2026-07-30T09:54:07Z",
+      "missing": false,
+      "wikitextLength": 2232
+    },
+    {
+      "title": "HPL3/Level Design/Sounds",
+      "pageid": 3416,
+      "revisionId": 7090,
+      "revisionTimestamp": "2026-07-30T09:54:39Z",
+      "missing": false,
+      "wikitextLength": 2422
+    },
+    {
+      "title": "HPL3/Level Design/Terrain Editor Overview",
+      "pageid": 694,
+      "revisionId": 7080,
+      "revisionTimestamp": "2026-07-30T09:30:49Z",
+      "missing": false,
+      "wikitextLength": 7584
+    },
+    {
+      "title": "HPL3/Level Design/Terrain Height Map",
+      "pageid": 3411,
+      "revisionId": 7085,
+      "revisionTimestamp": "2026-07-30T09:49:08Z",
+      "missing": false,
+      "wikitextLength": 599
+    },
+    {
+      "title": "HPL3/Level Design/Terrain Painting",
+      "pageid": 3412,
+      "revisionId": 7086,
+      "revisionTimestamp": "2026-07-30T09:49:52Z",
+      "missing": false,
+      "wikitextLength": 1436
+    },
+    {
+      "title": "HPL3/Level Design/Terrain Texturing",
+      "pageid": 3409,
+      "revisionId": 7082,
+      "revisionTimestamp": "2026-07-30T09:32:29Z",
+      "missing": false,
+      "wikitextLength": 1436
+    },
+    {
+      "title": "HPL3/Level Design/Undergrowth",
+      "pageid": 3408,
+      "revisionId": 7081,
+      "revisionTimestamp": "2026-07-30T09:32:12Z",
+      "missing": false,
+      "wikitextLength": 3207
+    },
+    {
+      "title": "HPL3/Level Design/Working with Entities",
+      "pageid": 3420,
+      "revisionId": 7098,
+      "revisionTimestamp": "2026-07-30T09:59:41Z",
+      "missing": false,
+      "wikitextLength": 2158
+    },
+    {
+      "title": "HPL3/Level Design/Working with Primitives",
+      "pageid": 3396,
+      "revisionId": 7060,
+      "revisionTimestamp": "2026-07-30T09:25:22Z",
+      "missing": false,
+      "wikitextLength": 1128
+    },
+    {
+      "title": "HPL3/Level Design/Working with Static Objects",
+      "pageid": 3394,
+      "revisionId": 7056,
+      "revisionTimestamp": "2026-07-30T09:16:28Z",
+      "missing": false,
+      "wikitextLength": 5757
+    },
+    {
+      "title": "HPL3/Materials",
+      "pageid": 2702,
+      "revisionId": 7150,
+      "revisionTimestamp": "2026-07-30T22:11:21Z",
+      "missing": false,
+      "wikitextLength": 1645
+    },
+    {
+      "title": "HPL3/Materials/Engine Materials",
+      "pageid": 3448,
+      "revisionId": 7151,
+      "revisionTimestamp": "2026-07-30T22:11:27Z",
+      "missing": false,
+      "wikitextLength": 29534
+    },
+    {
+      "title": "HPL3/Materials/Material Specific Variables",
+      "pageid": 3447,
+      "revisionId": 7153,
+      "revisionTimestamp": "2026-07-30T22:12:09Z",
+      "missing": false,
+      "wikitextLength": 0
+    },
+    {
+      "title": "HPL3/Materials/Materials Editor View",
+      "pageid": 3446,
+      "revisionId": 7147,
+      "revisionTimestamp": "2026-07-30T22:10:16Z",
+      "missing": false,
+      "wikitextLength": 6451
+    },
+    {
+      "title": "HPL3/Materials/Materials Overview",
+      "pageid": 2687,
+      "revisionId": 5338,
+      "revisionTimestamp": "2020-09-09T07:49:48Z",
+      "missing": false,
+      "wikitextLength": 4042
+    },
+    {
+      "title": "HPL3/Materials/Types/Translucent",
+      "pageid": 3449,
+      "revisionId": 7152,
+      "revisionTimestamp": "2026-07-30T22:12:02Z",
+      "missing": false,
+      "wikitextLength": 5739
+    },
+    {
+      "title": "HPL3/Materials/Working with Materials",
+      "pageid": 2691,
+      "revisionId": 5335,
+      "revisionTimestamp": "2020-09-09T06:31:02Z",
+      "missing": false,
+      "wikitextLength": 1490
+    },
+    {
+      "title": "HPL3/Modding/Mod Dependencies",
+      "pageid": 2670,
+      "revisionId": 7033,
+      "revisionTimestamp": "2026-03-14T21:56:05Z",
+      "missing": false,
+      "wikitextLength": 3791
+    },
+    {
+      "title": "HPL3/Particles",
+      "pageid": 2703,
+      "revisionId": 5492,
+      "revisionTimestamp": "2020-11-06T20:39:10Z",
+      "missing": false,
+      "wikitextLength": 1184
+    },
+    {
+      "title": "HPL3/Particles/Emitter Management",
+      "pageid": 3451,
+      "revisionId": 7163,
+      "revisionTimestamp": "2026-07-30T22:16:12Z",
+      "missing": false,
+      "wikitextLength": 417
+    },
+    {
+      "title": "HPL3/Particles/Particle Collision",
+      "pageid": 3457,
+      "revisionId": 7162,
+      "revisionTimestamp": "2026-07-30T22:15:56Z",
+      "missing": false,
+      "wikitextLength": 394
+    },
+    {
+      "title": "HPL3/Particles/Particle Color",
+      "pageid": 3455,
+      "revisionId": 7160,
+      "revisionTimestamp": "2026-07-30T22:15:38Z",
+      "missing": false,
+      "wikitextLength": 450
+    },
+    {
+      "title": "HPL3/Particles/Particle Editor View",
+      "pageid": 3450,
+      "revisionId": 7155,
+      "revisionTimestamp": "2026-07-30T22:13:51Z",
+      "missing": false,
+      "wikitextLength": 1945
+    },
+    {
+      "title": "HPL3/Particles/Particle General",
+      "pageid": 3458,
+      "revisionId": 7164,
+      "revisionTimestamp": "2026-07-30T22:16:18Z",
+      "missing": false,
+      "wikitextLength": 1098
+    },
+    {
+      "title": "HPL3/Particles/Particle Movement",
+      "pageid": 3453,
+      "revisionId": 7158,
+      "revisionTimestamp": "2026-07-30T22:15:18Z",
+      "missing": false,
+      "wikitextLength": 1500
+    },
+    {
+      "title": "HPL3/Particles/Particle Rendering",
+      "pageid": 3454,
+      "revisionId": 7159,
+      "revisionTimestamp": "2026-07-30T22:15:25Z",
+      "missing": false,
+      "wikitextLength": 586
+    },
+    {
+      "title": "HPL3/Particles/Particle Rotation",
+      "pageid": 3456,
+      "revisionId": 7161,
+      "revisionTimestamp": "2026-07-30T22:15:47Z",
+      "missing": false,
+      "wikitextLength": 585
+    },
+    {
+      "title": "HPL3/Particles/Particle Start",
+      "pageid": 3452,
+      "revisionId": 7157,
+      "revisionTimestamp": "2026-07-30T22:15:07Z",
+      "missing": false,
+      "wikitextLength": 778
+    },
+    {
+      "title": "HPL3/Particles/Working with Particles",
+      "pageid": 3459,
+      "revisionId": 7166,
+      "revisionTimestamp": "2026-07-30T22:16:53Z",
+      "missing": false,
+      "wikitextLength": 2264
+    },
+    {
+      "title": "HPL3/Placeholder",
+      "pageid": 1457,
+      "revisionId": 1899,
+      "revisionTimestamp": "2020-07-24T18:50:47Z",
+      "missing": false,
+      "wikitextLength": 3355
+    },
+    {
+      "title": "HPL3/Resources Configuration",
+      "pageid": 2660,
+      "revisionId": 6425,
+      "revisionTimestamp": "2023-06-08T13:29:59Z",
+      "missing": false,
+      "wikitextLength": 2119
+    },
+    {
+      "title": "HPL3/Resources/TDD Asset Pack",
+      "pageid": 2763,
+      "revisionId": 5586,
+      "revisionTimestamp": "2020-11-10T18:31:36Z",
+      "missing": false,
+      "wikitextLength": 527
+    },
+    {
+      "title": "HPL3/SOMA",
+      "pageid": 1455,
+      "revisionId": 7109,
+      "revisionTimestamp": "2026-07-30T10:34:37Z",
+      "missing": false,
+      "wikitextLength": 111
+    },
+    {
+      "title": "HPL3/SOMA/Animation",
+      "pageid": 2556,
+      "revisionId": 7127,
+      "revisionTimestamp": "2026-07-30T21:12:38Z",
+      "missing": false,
+      "wikitextLength": 990
+    },
+    {
+      "title": "HPL3/SOMA/Areas",
+      "pageid": 1938,
+      "revisionId": 6780,
+      "revisionTimestamp": "2024-02-08T18:34:41Z",
+      "missing": false,
+      "wikitextLength": 2192
+    },
+    {
+      "title": "HPL3/SOMA/Areas/AgentRepel Area",
+      "pageid": 3373,
+      "revisionId": 6779,
+      "revisionTimestamp": "2024-02-08T18:31:06Z",
+      "missing": false,
+      "wikitextLength": 280
+    },
+    {
+      "title": "HPL3/SOMA/Areas/Datamine Area",
+      "pageid": 3372,
+      "revisionId": 6778,
+      "revisionTimestamp": "2024-02-08T18:25:56Z",
+      "missing": false,
+      "wikitextLength": 2195
+    },
+    {
+      "title": "HPL3/SOMA/Areas/Distortion Area",
+      "pageid": 3370,
+      "revisionId": 6774,
+      "revisionTimestamp": "2024-02-08T17:54:04Z",
+      "missing": false,
+      "wikitextLength": 1729
+    },
+    {
+      "title": "HPL3/SOMA/Areas/Tool Area",
+      "pageid": 3365,
+      "revisionId": 6768,
+      "revisionTimestamp": "2024-02-08T17:10:07Z",
+      "missing": false,
+      "wikitextLength": 718
+    },
+    {
+      "title": "HPL3/SOMA/Audition",
+      "pageid": 2675,
+      "revisionId": 7178,
+      "revisionTimestamp": "2026-07-30T22:26:37Z",
+      "missing": false,
+      "wikitextLength": 987
+    },
+    {
+      "title": "HPL3/SOMA/Audition/Audition Overview",
+      "pageid": 3464,
+      "revisionId": 7177,
+      "revisionTimestamp": "2026-07-30T22:25:31Z",
+      "missing": false,
+      "wikitextLength": 3559
+    },
+    {
+      "title": "HPL3/SOMA/Audition/Lip Sync",
+      "pageid": 3460,
+      "revisionId": 7167,
+      "revisionTimestamp": "2026-07-30T22:17:24Z",
+      "missing": false,
+      "wikitextLength": 1979
+    },
+    {
+      "title": "HPL3/SOMA/Developer Commands",
+      "pageid": 1469,
+      "revisionId": 5563,
+      "revisionTimestamp": "2020-11-10T03:36:25Z",
+      "missing": false,
+      "wikitextLength": 2353
+    },
+    {
+      "title": "HPL3/SOMA/Entities",
+      "pageid": 2564,
+      "revisionId": 7146,
+      "revisionTimestamp": "2026-07-30T22:02:32Z",
+      "missing": false,
+      "wikitextLength": 1585
+    },
+    {
+      "title": "HPL3/SOMA/Entities/Entity Notes",
+      "pageid": 2599,
+      "revisionId": 4970,
+      "revisionTimestamp": "2020-08-23T20:00:21Z",
+      "missing": false,
+      "wikitextLength": 300
+    },
+    {
+      "title": "HPL3/SOMA/Entities/Model Editor Outline",
+      "pageid": 2598,
+      "revisionId": 4969,
+      "revisionTimestamp": "2020-08-23T19:59:56Z",
+      "missing": false,
+      "wikitextLength": 1196
+    },
+    {
+      "title": "HPL3/SOMA/Entities/Model Editor View",
+      "pageid": 3436,
+      "revisionId": 7130,
+      "revisionTimestamp": "2026-07-30T21:52:59Z",
+      "missing": false,
+      "wikitextLength": 11619
+    },
+    {
+      "title": "HPL3/SOMA/Entities/Physics Body Properties",
+      "pageid": 3374,
+      "revisionId": 6809,
+      "revisionTimestamp": "2024-05-14T05:04:22Z",
+      "missing": false,
+      "wikitextLength": 3172
+    },
+    {
+      "title": "HPL3/SOMA/Entities/Working with Joints",
+      "pageid": 3443,
+      "revisionId": 7142,
+      "revisionTimestamp": "2026-07-30T21:59:51Z",
+      "missing": false,
+      "wikitextLength": 3218
+    },
+    {
+      "title": "HPL3/SOMA/Getting Started",
+      "pageid": 3426,
+      "revisionId": 7120,
+      "revisionTimestamp": "2026-07-30T10:50:35Z",
+      "missing": false,
+      "wikitextLength": 3805
+    },
+    {
+      "title": "HPL3/SOMA/Getting Started/Add Your First Script",
+      "pageid": 3431,
+      "revisionId": 7118,
+      "revisionTimestamp": "2026-07-30T10:49:57Z",
+      "missing": false,
+      "wikitextLength": 1641
+    },
+    {
+      "title": "HPL3/SOMA/Getting Started/Configure the Level Editor",
+      "pageid": 3429,
+      "revisionId": 7116,
+      "revisionTimestamp": "2026-07-30T10:47:25Z",
+      "missing": false,
+      "wikitextLength": 1436
+    },
+    {
+      "title": "HPL3/SOMA/Getting Started/Create and Launch Your Mod",
+      "pageid": 3428,
+      "revisionId": 7115,
+      "revisionTimestamp": "2026-07-30T10:47:04Z",
+      "missing": false,
+      "wikitextLength": 2309
+    },
+    {
+      "title": "HPL3/SOMA/Getting Started/Edit Your First Map",
+      "pageid": 3430,
+      "revisionId": 7117,
+      "revisionTimestamp": "2026-07-30T10:47:43Z",
+      "missing": false,
+      "wikitextLength": 1983
+    },
+    {
+      "title": "HPL3/SOMA/Getting Started/Prepare Your Tools",
+      "pageid": 3427,
+      "revisionId": 7121,
+      "revisionTimestamp": "2026-07-30T10:52:02Z",
+      "missing": false,
+      "wikitextLength": 1449
+    },
+    {
+      "title": "HPL3/SOMA/Getting Started/Test Debug and Continue",
+      "pageid": 3432,
+      "revisionId": 7119,
+      "revisionTimestamp": "2026-07-30T10:50:15Z",
+      "missing": false,
+      "wikitextLength": 2355
+    },
+    {
+      "title": "HPL3/SOMA/Glossary",
+      "pageid": 2676,
+      "revisionId": 6256,
+      "revisionTimestamp": "2021-09-15T08:02:42Z",
+      "missing": false,
+      "wikitextLength": 3418
+    },
+    {
+      "title": "HPL3/SOMA/Level Design",
+      "pageid": 1936,
+      "revisionId": 7104,
+      "revisionTimestamp": "2026-07-30T10:01:52Z",
+      "missing": false,
+      "wikitextLength": 3603
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Compounds",
+      "pageid": 2607,
+      "revisionId": 4983,
+      "revisionTimestamp": "2020-08-23T20:25:07Z",
+      "missing": false,
+      "wikitextLength": 551
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Detail Meshes",
+      "pageid": 3404,
+      "revisionId": 7073,
+      "revisionTimestamp": "2026-07-30T09:27:39Z",
+      "missing": false,
+      "wikitextLength": 1989
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Finding Objects",
+      "pageid": 2604,
+      "revisionId": 7062,
+      "revisionTimestamp": "2026-07-30T09:25:33Z",
+      "missing": false,
+      "wikitextLength": 1102
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Indoor Level Performance",
+      "pageid": 2602,
+      "revisionId": 6795,
+      "revisionTimestamp": "2024-02-21T13:42:49Z",
+      "missing": false,
+      "wikitextLength": 6468
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Level Editor Preferences",
+      "pageid": 2601,
+      "revisionId": 7066,
+      "revisionTimestamp": "2026-07-30T09:25:56Z",
+      "missing": false,
+      "wikitextLength": 1314
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Level Editor Toolbar",
+      "pageid": 2679,
+      "revisionId": 5218,
+      "revisionTimestamp": "2020-08-27T16:15:29Z",
+      "missing": false,
+      "wikitextLength": 4481
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Level Editor View",
+      "pageid": 2680,
+      "revisionId": 7064,
+      "revisionTimestamp": "2026-07-30T09:25:46Z",
+      "missing": false,
+      "wikitextLength": 4077
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Level Information",
+      "pageid": 2606,
+      "revisionId": 7070,
+      "revisionTimestamp": "2026-07-30T09:26:15Z",
+      "missing": false,
+      "wikitextLength": 208
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Level Settings",
+      "pageid": 2681,
+      "revisionId": 7068,
+      "revisionTimestamp": "2026-07-30T09:26:05Z",
+      "missing": false,
+      "wikitextLength": 3185
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Light Masks",
+      "pageid": 2608,
+      "revisionId": 5216,
+      "revisionTimestamp": "2020-08-27T16:09:48Z",
+      "missing": false,
+      "wikitextLength": 871
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Outdoor Level Performance",
+      "pageid": 2603,
+      "revisionId": 6794,
+      "revisionTimestamp": "2024-02-21T13:38:31Z",
+      "missing": false,
+      "wikitextLength": 4313
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Point Lights",
+      "pageid": 3392,
+      "revisionId": 7052,
+      "revisionTimestamp": "2026-07-30T08:50:34Z",
+      "missing": false,
+      "wikitextLength": 12010
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Pose Editor",
+      "pageid": 3397,
+      "revisionId": 7059,
+      "revisionTimestamp": "2026-07-30T09:24:12Z",
+      "missing": false,
+      "wikitextLength": 726
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Spot Lights",
+      "pageid": 3393,
+      "revisionId": 7053,
+      "revisionTimestamp": "2026-07-30T08:58:16Z",
+      "missing": false,
+      "wikitextLength": 13348
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Working with Entities",
+      "pageid": 3420,
+      "revisionId": 7098,
+      "revisionTimestamp": "2026-07-30T09:59:41Z",
+      "missing": false,
+      "wikitextLength": 2158
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Working with Primitives",
+      "pageid": 3396,
+      "revisionId": 7060,
+      "revisionTimestamp": "2026-07-30T09:25:22Z",
+      "missing": false,
+      "wikitextLength": 1128
+    },
+    {
+      "title": "HPL3/SOMA/Level Design/Working with Static Objects",
+      "pageid": 3394,
+      "revisionId": 7056,
+      "revisionTimestamp": "2026-07-30T09:16:28Z",
+      "missing": false,
+      "wikitextLength": 5757
+    },
+    {
+      "title": "HPL3/SOMA/Materials",
+      "pageid": 2674,
+      "revisionId": 5367,
+      "revisionTimestamp": "2020-09-20T16:16:51Z",
+      "missing": false,
+      "wikitextLength": 19
+    },
+    {
+      "title": "HPL3/SOMA/Modding",
+      "pageid": 1456,
+      "revisionId": 5440,
+      "revisionTimestamp": "2020-11-06T11:27:30Z",
+      "missing": false,
+      "wikitextLength": 1610
+    },
+    {
+      "title": "HPL3/SOMA/Modding/Creating a Mod",
+      "pageid": 1479,
+      "revisionId": 6437,
+      "revisionTimestamp": "2023-07-25T07:42:46Z",
+      "missing": false,
+      "wikitextLength": 7073
+    },
+    {
+      "title": "HPL3/SOMA/Modding/Developer Debug Menu",
+      "pageid": 2527,
+      "revisionId": 6315,
+      "revisionTimestamp": "2022-01-20T21:17:05Z",
+      "missing": false,
+      "wikitextLength": 15983
+    },
+    {
+      "title": "HPL3/SOMA/Modding/MinimalAddOnMod",
+      "pageid": 1932,
+      "revisionId": 2695,
+      "revisionTimestamp": "2020-08-02T17:49:00Z",
+      "missing": false,
+      "wikitextLength": 1176
+    },
+    {
+      "title": "HPL3/SOMA/Modding/MinimalCustomMapMod",
+      "pageid": 1933,
+      "revisionId": 2697,
+      "revisionTimestamp": "2020-08-02T17:49:00Z",
+      "missing": false,
+      "wikitextLength": 1203
+    },
+    {
+      "title": "HPL3/SOMA/Modding/Non-Safe Mode Menu",
+      "pageid": 2663,
+      "revisionId": 5377,
+      "revisionTimestamp": "2020-10-14T10:17:14Z",
+      "missing": false,
+      "wikitextLength": 943
+    },
+    {
+      "title": "HPL3/SOMA/Modding/SOMA Mod Launcher",
+      "pageid": 1930,
+      "revisionId": 2701,
+      "revisionTimestamp": "2020-08-02T17:49:00Z",
+      "missing": false,
+      "wikitextLength": 2766
+    },
+    {
+      "title": "HPL3/SOMA/Modding/Setup Modding Environment",
+      "pageid": 2525,
+      "revisionId": 6808,
+      "revisionTimestamp": "2024-05-08T16:54:34Z",
+      "missing": false,
+      "wikitextLength": 2644
+    },
+    {
+      "title": "HPL3/SOMA/Modeling",
+      "pageid": 2471,
+      "revisionId": 7125,
+      "revisionTimestamp": "2026-07-30T21:11:02Z",
+      "missing": false,
+      "wikitextLength": 937
+    },
+    {
+      "title": "HPL3/SOMA/Modeling/Animation Principles",
+      "pageid": 3435,
+      "revisionId": 7128,
+      "revisionTimestamp": "2026-07-30T21:12:44Z",
+      "missing": false,
+      "wikitextLength": 1979
+    },
+    {
+      "title": "HPL3/SOMA/Modeling/Exporting Models",
+      "pageid": 3433,
+      "revisionId": 7124,
+      "revisionTimestamp": "2026-07-30T21:10:32Z",
+      "missing": false,
+      "wikitextLength": 8040
+    },
+    {
+      "title": "HPL3/SOMA/Modeling/Modeling Overview",
+      "pageid": 3434,
+      "revisionId": 7126,
+      "revisionTimestamp": "2026-07-30T21:11:21Z",
+      "missing": false,
+      "wikitextLength": 5705
+    },
+    {
+      "title": "HPL3/SOMA/Particles",
+      "pageid": 1959,
+      "revisionId": 5373,
+      "revisionTimestamp": "2020-09-20T21:09:36Z",
+      "missing": false,
+      "wikitextLength": 19
+    },
+    {
+      "title": "HPL3/SOMA/Scripting",
+      "pageid": 1960,
+      "revisionId": 7182,
+      "revisionTimestamp": "2026-08-09T07:42:34Z",
+      "missing": false,
+      "wikitextLength": 5323
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Input Types",
+      "pageid": 3311,
+      "revisionId": 6225,
+      "revisionTimestamp": "2021-09-14T01:57:39Z",
+      "missing": false,
+      "wikitextLength": 3172
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api",
+      "pageid": 2451,
+      "revisionId": 5301,
+      "revisionTimestamp": "2020-09-07T18:21:04Z",
+      "missing": false,
+      "wikitextLength": 186572
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Billboard",
+      "pageid": 2488,
+      "revisionId": 5010,
+      "revisionTimestamp": "2020-08-24T20:45:19Z",
+      "missing": false,
+      "wikitextLength": 4744
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Body",
+      "pageid": 2609,
+      "revisionId": 5011,
+      "revisionTimestamp": "2020-08-24T20:45:34Z",
+      "missing": false,
+      "wikitextLength": 3087
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Button",
+      "pageid": 2610,
+      "revisionId": 5012,
+      "revisionTimestamp": "2020-08-24T20:45:58Z",
+      "missing": false,
+      "wikitextLength": 6521
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Constants",
+      "pageid": 2657,
+      "revisionId": 5077,
+      "revisionTimestamp": "2020-08-24T22:41:30Z",
+      "missing": false,
+      "wikitextLength": 11814
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/EnergySource",
+      "pageid": 2627,
+      "revisionId": 5028,
+      "revisionTimestamp": "2020-08-24T20:52:19Z",
+      "missing": false,
+      "wikitextLength": 844
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Entity",
+      "pageid": 2466,
+      "revisionId": 5007,
+      "revisionTimestamp": "2020-08-24T20:40:43Z",
+      "missing": false,
+      "wikitextLength": 74357
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Error",
+      "pageid": 2628,
+      "revisionId": 5029,
+      "revisionTimestamp": "2020-08-24T20:52:45Z",
+      "missing": false,
+      "wikitextLength": 1453
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/FogArea",
+      "pageid": 2629,
+      "revisionId": 5030,
+      "revisionTimestamp": "2020-08-24T20:53:38Z",
+      "missing": false,
+      "wikitextLength": 1316
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Grab",
+      "pageid": 2630,
+      "revisionId": 5031,
+      "revisionTimestamp": "2020-08-24T20:53:51Z",
+      "missing": false,
+      "wikitextLength": 804
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Hashing",
+      "pageid": 2655,
+      "revisionId": 5059,
+      "revisionTimestamp": "2020-08-24T21:02:55Z",
+      "missing": false,
+      "wikitextLength": 910
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/IrradianceSet",
+      "pageid": 2631,
+      "revisionId": 5032,
+      "revisionTimestamp": "2020-08-24T20:54:11Z",
+      "missing": false,
+      "wikitextLength": 1957
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Joint",
+      "pageid": 2632,
+      "revisionId": 5033,
+      "revisionTimestamp": "2020-08-24T20:54:25Z",
+      "missing": false,
+      "wikitextLength": 2501
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Lamp",
+      "pageid": 2633,
+      "revisionId": 5034,
+      "revisionTimestamp": "2020-08-24T20:54:38Z",
+      "missing": false,
+      "wikitextLength": 4593
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/LensFlare",
+      "pageid": 2634,
+      "revisionId": 5035,
+      "revisionTimestamp": "2020-08-24T20:55:13Z",
+      "missing": false,
+      "wikitextLength": 925
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/LevelDoor",
+      "pageid": 2635,
+      "revisionId": 5036,
+      "revisionTimestamp": "2020-08-24T20:55:29Z",
+      "missing": false,
+      "wikitextLength": 1440
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Lever",
+      "pageid": 2636,
+      "revisionId": 5037,
+      "revisionTimestamp": "2020-08-24T20:55:40Z",
+      "missing": false,
+      "wikitextLength": 3914
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Light",
+      "pageid": 2637,
+      "revisionId": 5038,
+      "revisionTimestamp": "2020-08-24T20:55:54Z",
+      "missing": false,
+      "wikitextLength": 5928
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Logging",
+      "pageid": 2656,
+      "revisionId": 5061,
+      "revisionTimestamp": "2020-08-24T21:05:16Z",
+      "missing": false,
+      "wikitextLength": 4929
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Map",
+      "pageid": 2638,
+      "revisionId": 5039,
+      "revisionTimestamp": "2020-08-24T20:56:14Z",
+      "missing": false,
+      "wikitextLength": 4487
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Material",
+      "pageid": 2639,
+      "revisionId": 5040,
+      "revisionTimestamp": "2020-08-24T20:56:28Z",
+      "missing": false,
+      "wikitextLength": 669
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Math",
+      "pageid": 2640,
+      "revisionId": 5041,
+      "revisionTimestamp": "2020-08-24T20:56:47Z",
+      "missing": false,
+      "wikitextLength": 1747
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Meter",
+      "pageid": 2641,
+      "revisionId": 5042,
+      "revisionTimestamp": "2020-08-24T20:56:58Z",
+      "missing": false,
+      "wikitextLength": 2464
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/MoveObject",
+      "pageid": 2642,
+      "revisionId": 6817,
+      "revisionTimestamp": "2024-05-30T16:23:55Z",
+      "missing": false,
+      "wikitextLength": 2520
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/MovingButton",
+      "pageid": 2643,
+      "revisionId": 5044,
+      "revisionTimestamp": "2020-08-24T20:57:30Z",
+      "missing": false,
+      "wikitextLength": 8232
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/ParticleSystem",
+      "pageid": 2644,
+      "revisionId": 5045,
+      "revisionTimestamp": "2020-08-24T20:57:46Z",
+      "missing": false,
+      "wikitextLength": 9989
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/PhysicsSlideDoor",
+      "pageid": 2645,
+      "revisionId": 5046,
+      "revisionTimestamp": "2020-08-24T20:57:59Z",
+      "missing": false,
+      "wikitextLength": 2922
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Prop",
+      "pageid": 2646,
+      "revisionId": 5047,
+      "revisionTimestamp": "2020-08-24T20:58:10Z",
+      "missing": false,
+      "wikitextLength": 13997
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Readable",
+      "pageid": 2647,
+      "revisionId": 5048,
+      "revisionTimestamp": "2020-08-24T20:58:22Z",
+      "missing": false,
+      "wikitextLength": 1778
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Slide",
+      "pageid": 2648,
+      "revisionId": 5049,
+      "revisionTimestamp": "2020-08-24T20:58:32Z",
+      "missing": false,
+      "wikitextLength": 4041
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/SlideDoor",
+      "pageid": 2649,
+      "revisionId": 5050,
+      "revisionTimestamp": "2020-08-24T20:58:44Z",
+      "missing": false,
+      "wikitextLength": 3390
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/String",
+      "pageid": 2650,
+      "revisionId": 5051,
+      "revisionTimestamp": "2020-08-24T20:59:08Z",
+      "missing": false,
+      "wikitextLength": 1112
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/SwingDoor",
+      "pageid": 2651,
+      "revisionId": 5052,
+      "revisionTimestamp": "2020-08-24T20:59:24Z",
+      "missing": false,
+      "wikitextLength": 7892
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Terminal",
+      "pageid": 2652,
+      "revisionId": 5053,
+      "revisionTimestamp": "2020-08-24T20:59:59Z",
+      "missing": false,
+      "wikitextLength": 22401
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Tool",
+      "pageid": 2653,
+      "revisionId": 5054,
+      "revisionTimestamp": "2020-08-24T21:00:15Z",
+      "missing": false,
+      "wikitextLength": 3281
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/Wheel",
+      "pageid": 2654,
+      "revisionId": 5055,
+      "revisionTimestamp": "2020-08-24T21:00:27Z",
+      "missing": false,
+      "wikitextLength": 3740
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cAI",
+      "pageid": 2611,
+      "revisionId": 5013,
+      "revisionTimestamp": "2020-08-24T20:46:26Z",
+      "missing": false,
+      "wikitextLength": 1143
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cEngine",
+      "pageid": 2612,
+      "revisionId": 5014,
+      "revisionTimestamp": "2020-08-24T20:46:46Z",
+      "missing": false,
+      "wikitextLength": 10482
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cGenerate",
+      "pageid": 2613,
+      "revisionId": 5015,
+      "revisionTimestamp": "2020-08-24T20:47:11Z",
+      "missing": false,
+      "wikitextLength": 5089
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cGraphics",
+      "pageid": 2614,
+      "revisionId": 5016,
+      "revisionTimestamp": "2020-08-24T20:48:07Z",
+      "missing": false,
+      "wikitextLength": 16496
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cGui",
+      "pageid": 2615,
+      "revisionId": 5017,
+      "revisionTimestamp": "2020-08-24T20:48:38Z",
+      "missing": false,
+      "wikitextLength": 12617
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cInput",
+      "pageid": 2616,
+      "revisionId": 5018,
+      "revisionTimestamp": "2020-08-24T20:48:56Z",
+      "missing": false,
+      "wikitextLength": 7368
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cLux",
+      "pageid": 2617,
+      "revisionId": 5019,
+      "revisionTimestamp": "2020-08-24T20:49:09Z",
+      "missing": false,
+      "wikitextLength": 87635
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cMath",
+      "pageid": 2620,
+      "revisionId": 5021,
+      "revisionTimestamp": "2020-08-24T20:50:00Z",
+      "missing": false,
+      "wikitextLength": 119687
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cPhysics",
+      "pageid": 2619,
+      "revisionId": 5020,
+      "revisionTimestamp": "2020-08-24T20:50:18Z",
+      "missing": false,
+      "wikitextLength": 4389
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cResources",
+      "pageid": 2621,
+      "revisionId": 5022,
+      "revisionTimestamp": "2020-08-24T20:50:31Z",
+      "missing": false,
+      "wikitextLength": 20727
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cScene",
+      "pageid": 2622,
+      "revisionId": 5023,
+      "revisionTimestamp": "2020-08-24T20:50:52Z",
+      "missing": false,
+      "wikitextLength": 12251
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cScript",
+      "pageid": 2623,
+      "revisionId": 5024,
+      "revisionTimestamp": "2020-08-24T20:51:08Z",
+      "missing": false,
+      "wikitextLength": 27907
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cSound",
+      "pageid": 2624,
+      "revisionId": 5025,
+      "revisionTimestamp": "2020-08-24T20:51:28Z",
+      "missing": false,
+      "wikitextLength": 28102
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cString",
+      "pageid": 2625,
+      "revisionId": 5026,
+      "revisionTimestamp": "2020-08-24T20:51:45Z",
+      "missing": false,
+      "wikitextLength": 37889
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Scripting Api/cSystem",
+      "pageid": 2626,
+      "revisionId": 5027,
+      "revisionTimestamp": "2020-08-24T20:52:04Z",
+      "missing": false,
+      "wikitextLength": 13875
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/Terminals Overview",
+      "pageid": 2597,
+      "revisionId": 4967,
+      "revisionTimestamp": "2020-08-23T19:56:08Z",
+      "missing": false,
+      "wikitextLength": 13143
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/array",
+      "pageid": 1967,
+      "revisionId": 3522,
+      "revisionTimestamp": "2020-08-06T13:17:40Z",
+      "missing": false,
+      "wikitextLength": 6393
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cAINode",
+      "pageid": 1970,
+      "revisionId": 3525,
+      "revisionTimestamp": "2020-08-06T13:19:24Z",
+      "missing": false,
+      "wikitextLength": 633
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cAINodeContainer",
+      "pageid": 1979,
+      "revisionId": 3526,
+      "revisionTimestamp": "2020-08-06T13:19:37Z",
+      "missing": false,
+      "wikitextLength": 1581
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cAINodeIterator",
+      "pageid": 1980,
+      "revisionId": 3521,
+      "revisionTimestamp": "2020-08-06T13:17:21Z",
+      "missing": false,
+      "wikitextLength": 520
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cAction",
+      "pageid": 1968,
+      "revisionId": 3523,
+      "revisionTimestamp": "2020-08-06T13:17:51Z",
+      "missing": false,
+      "wikitextLength": 3039
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cActorAnimController",
+      "pageid": 1969,
+      "revisionId": 3524,
+      "revisionTimestamp": "2020-08-06T13:18:15Z",
+      "missing": false,
+      "wikitextLength": 1438
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cAnimation",
+      "pageid": 1981,
+      "revisionId": 3527,
+      "revisionTimestamp": "2020-08-06T13:20:06Z",
+      "missing": false,
+      "wikitextLength": 286
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cAnimationState",
+      "pageid": 1982,
+      "revisionId": 3528,
+      "revisionTimestamp": "2020-08-06T13:20:16Z",
+      "missing": false,
+      "wikitextLength": 3889
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cBeam",
+      "pageid": 1964,
+      "revisionId": 3529,
+      "revisionTimestamp": "2020-08-06T13:20:30Z",
+      "missing": false,
+      "wikitextLength": 8742
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cBeamEnd",
+      "pageid": 1983,
+      "revisionId": 3530,
+      "revisionTimestamp": "2020-08-06T13:20:40Z",
+      "missing": false,
+      "wikitextLength": 4074
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cBeamIterator",
+      "pageid": 1984,
+      "revisionId": 3531,
+      "revisionTimestamp": "2020-08-06T13:20:58Z",
+      "missing": false,
+      "wikitextLength": 612
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cBillboard",
+      "pageid": 1985,
+      "revisionId": 3532,
+      "revisionTimestamp": "2020-08-06T13:21:11Z",
+      "missing": false,
+      "wikitextLength": 9371
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cBillboardGroup",
+      "pageid": 1986,
+      "revisionId": 3533,
+      "revisionTimestamp": "2020-08-06T13:21:35Z",
+      "missing": false,
+      "wikitextLength": 703
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cBillboardGroupIterator",
+      "pageid": 1987,
+      "revisionId": 3534,
+      "revisionTimestamp": "2020-08-06T13:22:06Z",
+      "missing": false,
+      "wikitextLength": 662
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cBillboardIterator",
+      "pageid": 1988,
+      "revisionId": 3535,
+      "revisionTimestamp": "2020-08-06T13:22:14Z",
+      "missing": false,
+      "wikitextLength": 637
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cBinaryBuffer",
+      "pageid": 1989,
+      "revisionId": 3536,
+      "revisionTimestamp": "2020-08-06T13:23:13Z",
+      "missing": false,
+      "wikitextLength": 292
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cBoneState",
+      "pageid": 1990,
+      "revisionId": 3537,
+      "revisionTimestamp": "2020-08-06T13:23:25Z",
+      "missing": false,
+      "wikitextLength": 7213
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cBoundingVolume",
+      "pageid": 1991,
+      "revisionId": 3538,
+      "revisionTimestamp": "2020-08-06T13:23:39Z",
+      "missing": false,
+      "wikitextLength": 2488
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cCamera",
+      "pageid": 1992,
+      "revisionId": 3539,
+      "revisionTimestamp": "2020-08-06T13:24:00Z",
+      "missing": false,
+      "wikitextLength": 9436
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cClothEntity",
+      "pageid": 1993,
+      "revisionId": 3540,
+      "revisionTimestamp": "2020-08-06T13:24:12Z",
+      "missing": false,
+      "wikitextLength": 7979
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cClothEntityIterator",
+      "pageid": 1994,
+      "revisionId": 3541,
+      "revisionTimestamp": "2020-08-06T13:24:23Z",
+      "missing": false,
+      "wikitextLength": 647
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cCollideData",
+      "pageid": 1995,
+      "revisionId": 3542,
+      "revisionTimestamp": "2020-08-06T13:24:36Z",
+      "missing": false,
+      "wikitextLength": 750
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cCollidePoint",
+      "pageid": 1996,
+      "revisionId": 3543,
+      "revisionTimestamp": "2020-08-06T13:24:52Z",
+      "missing": false,
+      "wikitextLength": 593
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cColor",
+      "pageid": 1963,
+      "revisionId": 3544,
+      "revisionTimestamp": "2020-08-06T13:25:08Z",
+      "missing": false,
+      "wikitextLength": 2504
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cConfigFile",
+      "pageid": 1997,
+      "revisionId": 3545,
+      "revisionTimestamp": "2020-08-06T13:25:46Z",
+      "missing": false,
+      "wikitextLength": 8464
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cDate",
+      "pageid": 1998,
+      "revisionId": 3546,
+      "revisionTimestamp": "2020-08-06T13:26:06Z",
+      "missing": false,
+      "wikitextLength": 990
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cEntity3DIterator",
+      "pageid": 1999,
+      "revisionId": 3547,
+      "revisionTimestamp": "2020-08-06T13:26:18Z",
+      "missing": false,
+      "wikitextLength": 632
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cEntityBodyExtraData",
+      "pageid": 2000,
+      "revisionId": 3548,
+      "revisionTimestamp": "2020-08-06T13:26:33Z",
+      "missing": false,
+      "wikitextLength": 432
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cEnvironmentParticles",
+      "pageid": 2002,
+      "revisionId": 3549,
+      "revisionTimestamp": "2020-08-06T13:26:51Z",
+      "missing": false,
+      "wikitextLength": 4818
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cEnvironmentParticles ClipArea",
+      "pageid": 2001,
+      "revisionId": 3550,
+      "revisionTimestamp": "2020-08-06T13:27:07Z",
+      "missing": false,
+      "wikitextLength": 326
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cEvent",
+      "pageid": 2003,
+      "revisionId": 3551,
+      "revisionTimestamp": "2020-08-06T13:27:59Z",
+      "missing": false,
+      "wikitextLength": 4680
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cEventDatabase",
+      "pageid": 2004,
+      "revisionId": 3552,
+      "revisionTimestamp": "2020-08-06T13:28:14Z",
+      "missing": false,
+      "wikitextLength": 4206
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cEventOwner",
+      "pageid": 2005,
+      "revisionId": 3553,
+      "revisionTimestamp": "2020-08-06T13:28:34Z",
+      "missing": false,
+      "wikitextLength": 757
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cEventScene",
+      "pageid": 2006,
+      "revisionId": 3554,
+      "revisionTimestamp": "2020-08-06T13:28:43Z",
+      "missing": false,
+      "wikitextLength": 520
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cEventTrigger",
+      "pageid": 2007,
+      "revisionId": 3555,
+      "revisionTimestamp": "2020-08-06T13:28:57Z",
+      "missing": false,
+      "wikitextLength": 522
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cExposureArea",
+      "pageid": 2008,
+      "revisionId": 3556,
+      "revisionTimestamp": "2020-08-06T13:29:08Z",
+      "missing": false,
+      "wikitextLength": 4701
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cExposureAreaIterator",
+      "pageid": 2009,
+      "revisionId": 3557,
+      "revisionTimestamp": "2020-08-06T13:29:23Z",
+      "missing": false,
+      "wikitextLength": 652
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cFactStateContainer",
+      "pageid": 2010,
+      "revisionId": 3558,
+      "revisionTimestamp": "2020-08-06T13:29:59Z",
+      "missing": false,
+      "wikitextLength": 1633
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cFogArea",
+      "pageid": 2011,
+      "revisionId": 3559,
+      "revisionTimestamp": "2020-08-06T13:30:26Z",
+      "missing": false,
+      "wikitextLength": 8905
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cFogAreaIterator",
+      "pageid": 2012,
+      "revisionId": 3560,
+      "revisionTimestamp": "2020-08-06T13:30:41Z",
+      "missing": false,
+      "wikitextLength": 627
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cForceField",
+      "pageid": 2013,
+      "revisionId": 3561,
+      "revisionTimestamp": "2020-08-06T13:30:52Z",
+      "missing": false,
+      "wikitextLength": 11244
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cForceFieldIterator",
+      "pageid": 2014,
+      "revisionId": 3562,
+      "revisionTimestamp": "2020-08-06T13:31:06Z",
+      "missing": false,
+      "wikitextLength": 642
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cFractalNoiseParams",
+      "pageid": 2015,
+      "revisionId": 3563,
+      "revisionTimestamp": "2020-08-06T13:31:18Z",
+      "missing": false,
+      "wikitextLength": 848
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cFrameSubImage",
+      "pageid": 2016,
+      "revisionId": 3564,
+      "revisionTimestamp": "2020-08-06T13:31:30Z",
+      "missing": false,
+      "wikitextLength": 294
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cFrustum",
+      "pageid": 2017,
+      "revisionId": 3565,
+      "revisionTimestamp": "2020-08-06T13:31:51Z",
+      "missing": false,
+      "wikitextLength": 6860
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGamepadInputData",
+      "pageid": 2018,
+      "revisionId": 3566,
+      "revisionTimestamp": "2020-08-06T13:32:05Z",
+      "missing": false,
+      "wikitextLength": 721
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiGfxAnimation",
+      "pageid": 2019,
+      "revisionId": 3567,
+      "revisionTimestamp": "2020-08-06T13:32:59Z",
+      "missing": false,
+      "wikitextLength": 828
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiGfxElement",
+      "pageid": 2020,
+      "revisionId": 3568,
+      "revisionTimestamp": "2020-08-06T13:33:11Z",
+      "missing": false,
+      "wikitextLength": 2674
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiGlobalShortcut",
+      "pageid": 2021,
+      "revisionId": 3569,
+      "revisionTimestamp": "2020-08-06T13:33:31Z",
+      "missing": false,
+      "wikitextLength": 1045
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiMessageData",
+      "pageid": 2022,
+      "revisionId": 3570,
+      "revisionTimestamp": "2020-08-06T13:33:42Z",
+      "missing": false,
+      "wikitextLength": 867
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiPopUpColorPicker",
+      "pageid": 2023,
+      "revisionId": 3571,
+      "revisionTimestamp": "2020-08-06T13:33:58Z",
+      "missing": false,
+      "wikitextLength": 1419
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiPopUpFilePicker",
+      "pageid": 2024,
+      "revisionId": 2939,
+      "revisionTimestamp": "2020-08-04T01:14:23Z",
+      "missing": false,
+      "wikitextLength": 1008
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiPopUpMessageBox",
+      "pageid": 2025,
+      "revisionId": 3572,
+      "revisionTimestamp": "2020-08-06T13:34:11Z",
+      "missing": false,
+      "wikitextLength": 771
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiSet",
+      "pageid": 2026,
+      "revisionId": 3573,
+      "revisionTimestamp": "2020-08-06T13:34:31Z",
+      "missing": false,
+      "wikitextLength": 20406
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiSetEntity",
+      "pageid": 2027,
+      "revisionId": 3574,
+      "revisionTimestamp": "2020-08-06T13:34:45Z",
+      "missing": false,
+      "wikitextLength": 3804
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiSetEntityIterator",
+      "pageid": 2028,
+      "revisionId": 3575,
+      "revisionTimestamp": "2020-08-06T13:34:55Z",
+      "missing": false,
+      "wikitextLength": 652
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiSkin",
+      "pageid": 2029,
+      "revisionId": 3576,
+      "revisionTimestamp": "2020-08-06T13:35:07Z",
+      "missing": false,
+      "wikitextLength": 1239
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cGuiSkinFont",
+      "pageid": 2030,
+      "revisionId": 3577,
+      "revisionTimestamp": "2020-08-06T13:35:17Z",
+      "missing": false,
+      "wikitextLength": 912
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cHeightMap",
+      "pageid": 2031,
+      "revisionId": 3578,
+      "revisionTimestamp": "2020-08-06T13:38:08Z",
+      "missing": false,
+      "wikitextLength": 286
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGui",
+      "pageid": 2032,
+      "revisionId": 3579,
+      "revisionTimestamp": "2020-08-06T13:38:38Z",
+      "missing": false,
+      "wikitextLength": 51324
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiButtonData",
+      "pageid": 2034,
+      "revisionId": 3580,
+      "revisionTimestamp": "2020-08-06T13:39:33Z",
+      "missing": false,
+      "wikitextLength": 2885
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiCheckBoxData",
+      "pageid": 2035,
+      "revisionId": 3581,
+      "revisionTimestamp": "2020-08-06T13:39:45Z",
+      "missing": false,
+      "wikitextLength": 2023
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiFade",
+      "pageid": 2036,
+      "revisionId": 3582,
+      "revisionTimestamp": "2020-08-06T13:39:58Z",
+      "missing": false,
+      "wikitextLength": 286
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiFont",
+      "pageid": 2037,
+      "revisionId": 3583,
+      "revisionTimestamp": "2020-08-06T13:40:09Z",
+      "missing": false,
+      "wikitextLength": 1020
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiFrameData",
+      "pageid": 2038,
+      "revisionId": 3584,
+      "revisionTimestamp": "2020-08-06T13:40:23Z",
+      "missing": false,
+      "wikitextLength": 1311
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiFrameGfx",
+      "pageid": 2039,
+      "revisionId": 3585,
+      "revisionTimestamp": "2020-08-06T13:40:36Z",
+      "missing": false,
+      "wikitextLength": 1945
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiGaugeData",
+      "pageid": 2040,
+      "revisionId": 3586,
+      "revisionTimestamp": "2020-08-06T13:40:53Z",
+      "missing": false,
+      "wikitextLength": 1803
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiGfx",
+      "pageid": 2041,
+      "revisionId": 3587,
+      "revisionTimestamp": "2020-08-06T13:41:04Z",
+      "missing": false,
+      "wikitextLength": 2357
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiLabelData",
+      "pageid": 2042,
+      "revisionId": 3588,
+      "revisionTimestamp": "2020-08-06T13:41:33Z",
+      "missing": false,
+      "wikitextLength": 1544
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiMultiSelectData",
+      "pageid": 2043,
+      "revisionId": 3589,
+      "revisionTimestamp": "2020-08-06T13:42:07Z",
+      "missing": false,
+      "wikitextLength": 2043
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiSliderData",
+      "pageid": 2044,
+      "revisionId": 3590,
+      "revisionTimestamp": "2020-08-06T13:42:36Z",
+      "missing": false,
+      "wikitextLength": 2263
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiTextFrameData",
+      "pageid": 2045,
+      "revisionId": 3591,
+      "revisionTimestamp": "2020-08-06T13:42:47Z",
+      "missing": false,
+      "wikitextLength": 1204
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiTimer",
+      "pageid": 2046,
+      "revisionId": 3592,
+      "revisionTimestamp": "2020-08-06T13:42:59Z",
+      "missing": false,
+      "wikitextLength": 288
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiWidgetState",
+      "pageid": 2047,
+      "revisionId": 3593,
+      "revisionTimestamp": "2020-08-06T13:43:08Z",
+      "missing": false,
+      "wikitextLength": 300
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiWidgetStateVar",
+      "pageid": 2048,
+      "revisionId": 3594,
+      "revisionTimestamp": "2020-08-06T13:43:18Z",
+      "missing": false,
+      "wikitextLength": 306
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cImGuiWindowData",
+      "pageid": 2049,
+      "revisionId": 3595,
+      "revisionTimestamp": "2020-08-06T13:43:30Z",
+      "missing": false,
+      "wikitextLength": 3390
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cKeyPress",
+      "pageid": 2050,
+      "revisionId": 3596,
+      "revisionTimestamp": "2020-08-06T13:43:46Z",
+      "missing": false,
+      "wikitextLength": 593
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLensFlare",
+      "pageid": 2051,
+      "revisionId": 3597,
+      "revisionTimestamp": "2020-08-06T13:43:57Z",
+      "missing": false,
+      "wikitextLength": 14336
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLensFlareIterator",
+      "pageid": 2052,
+      "revisionId": 3598,
+      "revisionTimestamp": "2020-08-06T13:44:09Z",
+      "missing": false,
+      "wikitextLength": 637
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLightBox",
+      "pageid": 2053,
+      "revisionId": 3599,
+      "revisionTimestamp": "2020-08-06T13:44:31Z",
+      "missing": false,
+      "wikitextLength": 20395
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLightDirectional",
+      "pageid": 2055,
+      "revisionId": 3600,
+      "revisionTimestamp": "2020-08-06T13:44:46Z",
+      "missing": false,
+      "wikitextLength": 19928
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLightDirectional ShadowSlice",
+      "pageid": 2054,
+      "revisionId": 3601,
+      "revisionTimestamp": "2020-08-06T13:45:00Z",
+      "missing": false,
+      "wikitextLength": 674
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLightListIterator",
+      "pageid": 2056,
+      "revisionId": 3602,
+      "revisionTimestamp": "2020-08-06T13:45:25Z",
+      "missing": false,
+      "wikitextLength": 621
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLightMaskBox",
+      "pageid": 2057,
+      "revisionId": 3603,
+      "revisionTimestamp": "2020-08-06T13:45:50Z",
+      "missing": false,
+      "wikitextLength": 632
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLightMaskBoxIterator",
+      "pageid": 2058,
+      "revisionId": 2974,
+      "revisionTimestamp": "2020-08-04T01:32:43Z",
+      "missing": false,
+      "wikitextLength": 633
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLightMaskBoxListIterator",
+      "pageid": 2449,
+      "revisionId": 3604,
+      "revisionTimestamp": "2020-08-06T13:46:27Z",
+      "missing": false,
+      "wikitextLength": 656
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLightPoint",
+      "pageid": 2059,
+      "revisionId": 3605,
+      "revisionTimestamp": "2020-08-06T13:46:43Z",
+      "missing": false,
+      "wikitextLength": 17917
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLightSpot",
+      "pageid": 2060,
+      "revisionId": 3606,
+      "revisionTimestamp": "2020-08-06T13:46:53Z",
+      "missing": false,
+      "wikitextLength": 19505
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLinearOscillation",
+      "pageid": 2061,
+      "revisionId": 3607,
+      "revisionTimestamp": "2020-08-06T13:47:10Z",
+      "missing": false,
+      "wikitextLength": 1330
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxAgent",
+      "pageid": 2062,
+      "revisionId": 3608,
+      "revisionTimestamp": "2020-08-06T13:47:24Z",
+      "missing": false,
+      "wikitextLength": 51081
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxArea",
+      "pageid": 2063,
+      "revisionId": 3609,
+      "revisionTimestamp": "2020-08-06T13:47:43Z",
+      "missing": false,
+      "wikitextLength": 40859
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxBackboneTail",
+      "pageid": 2064,
+      "revisionId": 3610,
+      "revisionTimestamp": "2020-08-06T13:48:02Z",
+      "missing": false,
+      "wikitextLength": 1307
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxBackboneTrailingRotation",
+      "pageid": 2065,
+      "revisionId": 3611,
+      "revisionTimestamp": "2020-08-06T13:48:14Z",
+      "missing": false,
+      "wikitextLength": 322
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxBarkMachine",
+      "pageid": 2066,
+      "revisionId": 3612,
+      "revisionTimestamp": "2020-08-06T13:48:32Z",
+      "missing": false,
+      "wikitextLength": 3344
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxBarkState",
+      "pageid": 2067,
+      "revisionId": 3613,
+      "revisionTimestamp": "2020-08-06T13:48:47Z",
+      "missing": false,
+      "wikitextLength": 292
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxCharMover",
+      "pageid": 2069,
+      "revisionId": 3614,
+      "revisionTimestamp": "2020-08-06T13:49:04Z",
+      "missing": false,
+      "wikitextLength": 11935
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxCharMover SpeedState",
+      "pageid": 2068,
+      "revisionId": 3615,
+      "revisionTimestamp": "2020-08-06T13:49:19Z",
+      "missing": false,
+      "wikitextLength": 314
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxClosestCharCollider",
+      "pageid": 2070,
+      "revisionId": 3616,
+      "revisionTimestamp": "2020-08-06T13:49:36Z",
+      "missing": false,
+      "wikitextLength": 612
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxClosestEntityData",
+      "pageid": 2071,
+      "revisionId": 3617,
+      "revisionTimestamp": "2020-08-06T13:49:54Z",
+      "missing": false,
+      "wikitextLength": 613
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxCollideCallback",
+      "pageid": 2072,
+      "revisionId": 3618,
+      "revisionTimestamp": "2020-08-06T13:50:06Z",
+      "missing": false,
+      "wikitextLength": 304
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxCritter",
+      "pageid": 2073,
+      "revisionId": 3619,
+      "revisionTimestamp": "2020-08-06T13:50:19Z",
+      "missing": false,
+      "wikitextLength": 52657
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxCritterHandler",
+      "pageid": 2074,
+      "revisionId": 3620,
+      "revisionTimestamp": "2020-08-06T13:50:30Z",
+      "missing": false,
+      "wikitextLength": 302
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxDialogBranch",
+      "pageid": 2075,
+      "revisionId": 3621,
+      "revisionTimestamp": "2020-08-06T13:50:41Z",
+      "missing": false,
+      "wikitextLength": 298
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxDialogBranchEvent",
+      "pageid": 2076,
+      "revisionId": 3622,
+      "revisionTimestamp": "2020-08-06T13:50:49Z",
+      "missing": false,
+      "wikitextLength": 308
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxDialogCharacter",
+      "pageid": 2077,
+      "revisionId": 3623,
+      "revisionTimestamp": "2020-08-06T13:51:00Z",
+      "missing": false,
+      "wikitextLength": 304
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxDialogHandler",
+      "pageid": 2078,
+      "revisionId": 3624,
+      "revisionTimestamp": "2020-08-06T13:51:10Z",
+      "missing": false,
+      "wikitextLength": 5278
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxDialogInstance",
+      "pageid": 2079,
+      "revisionId": 3625,
+      "revisionTimestamp": "2020-08-06T13:51:23Z",
+      "missing": false,
+      "wikitextLength": 302
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxDialogResponseCondition",
+      "pageid": 2080,
+      "revisionId": 3626,
+      "revisionTimestamp": "2020-08-06T13:51:33Z",
+      "missing": false,
+      "wikitextLength": 320
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxDialogResponseEvent",
+      "pageid": 2081,
+      "revisionId": 3627,
+      "revisionTimestamp": "2020-08-06T13:51:43Z",
+      "missing": false,
+      "wikitextLength": 312
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxDialogResponseOption",
+      "pageid": 2082,
+      "revisionId": 3628,
+      "revisionTimestamp": "2020-08-06T13:51:50Z",
+      "missing": false,
+      "wikitextLength": 314
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxDialogSubject",
+      "pageid": 2083,
+      "revisionId": 3629,
+      "revisionTimestamp": "2020-08-06T13:52:00Z",
+      "missing": false,
+      "wikitextLength": 300
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxEdgeGlow",
+      "pageid": 2084,
+      "revisionId": 3630,
+      "revisionTimestamp": "2020-08-06T13:52:14Z",
+      "missing": false,
+      "wikitextLength": 2000
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxEffect",
+      "pageid": 2085,
+      "revisionId": 3631,
+      "revisionTimestamp": "2020-08-06T13:52:26Z",
+      "missing": false,
+      "wikitextLength": 662
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxEffectHandler",
+      "pageid": 2086,
+      "revisionId": 3632,
+      "revisionTimestamp": "2020-08-06T13:52:39Z",
+      "missing": false,
+      "wikitextLength": 1821
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxEntityComponentIterator",
+      "pageid": 2087,
+      "revisionId": 3633,
+      "revisionTimestamp": "2020-08-06T13:52:54Z",
+      "missing": false,
+      "wikitextLength": 682
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxEntityConnection",
+      "pageid": 2088,
+      "revisionId": 3634,
+      "revisionTimestamp": "2020-08-06T13:53:08Z",
+      "missing": false,
+      "wikitextLength": 306
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxEntityMessageData",
+      "pageid": 2089,
+      "revisionId": 3635,
+      "revisionTimestamp": "2020-08-06T13:53:17Z",
+      "missing": false,
+      "wikitextLength": 832
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxEventDatabaseHandler",
+      "pageid": 2090,
+      "revisionId": 3636,
+      "revisionTimestamp": "2020-08-06T13:53:32Z",
+      "missing": false,
+      "wikitextLength": 3662
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxEventTimer",
+      "pageid": 2091,
+      "revisionId": 3637,
+      "revisionTimestamp": "2020-08-06T13:54:00Z",
+      "missing": false,
+      "wikitextLength": 294
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxForceEmitter",
+      "pageid": 2092,
+      "revisionId": 3638,
+      "revisionTimestamp": "2020-08-06T13:54:10Z",
+      "missing": false,
+      "wikitextLength": 2202
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxGuiCameraTexture",
+      "pageid": 2093,
+      "revisionId": 3639,
+      "revisionTimestamp": "2020-08-06T13:54:22Z",
+      "missing": false,
+      "wikitextLength": 306
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxGuiHandler",
+      "pageid": 2094,
+      "revisionId": 3640,
+      "revisionTimestamp": "2020-08-06T13:54:49Z",
+      "missing": false,
+      "wikitextLength": 2359
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxGuiSet",
+      "pageid": 2095,
+      "revisionId": 3641,
+      "revisionTimestamp": "2020-08-06T13:55:36Z",
+      "missing": false,
+      "wikitextLength": 1050
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxHeadTracker",
+      "pageid": 2096,
+      "revisionId": 3642,
+      "revisionTimestamp": "2020-08-06T13:55:53Z",
+      "missing": false,
+      "wikitextLength": 1950
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxInputHandler",
+      "pageid": 2097,
+      "revisionId": 3643,
+      "revisionTimestamp": "2020-08-06T13:56:09Z",
+      "missing": false,
+      "wikitextLength": 9975
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxLightSensor",
+      "pageid": 2098,
+      "revisionId": 3644,
+      "revisionTimestamp": "2020-08-06T13:56:28Z",
+      "missing": false,
+      "wikitextLength": 1131
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxLiquidArea",
+      "pageid": 2099,
+      "revisionId": 3645,
+      "revisionTimestamp": "2020-08-06T13:56:42Z",
+      "missing": false,
+      "wikitextLength": 40099
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxMap",
+      "pageid": 2100,
+      "revisionId": 3646,
+      "revisionTimestamp": "2020-08-06T13:57:01Z",
+      "missing": false,
+      "wikitextLength": 19340
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxMoveState",
+      "pageid": 2101,
+      "revisionId": 3647,
+      "revisionTimestamp": "2020-08-06T13:57:15Z",
+      "missing": false,
+      "wikitextLength": 1952
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxMoveVector",
+      "pageid": 2102,
+      "revisionId": 3648,
+      "revisionTimestamp": "2020-08-06T13:57:27Z",
+      "missing": false,
+      "wikitextLength": 294
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxMusic",
+      "pageid": 2103,
+      "revisionId": 3649,
+      "revisionTimestamp": "2020-08-06T13:57:57Z",
+      "missing": false,
+      "wikitextLength": 284
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxMusicDynamicTrack",
+      "pageid": 2104,
+      "revisionId": 3650,
+      "revisionTimestamp": "2020-08-06T13:58:10Z",
+      "missing": false,
+      "wikitextLength": 308
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxMusicHandler",
+      "pageid": 2105,
+      "revisionId": 3651,
+      "revisionTimestamp": "2020-08-06T13:58:20Z",
+      "missing": false,
+      "wikitextLength": 2144
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxPathfinder",
+      "pageid": 2106,
+      "revisionId": 3652,
+      "revisionTimestamp": "2020-08-06T13:58:40Z",
+      "missing": false,
+      "wikitextLength": 10218
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxPlayer",
+      "pageid": 2107,
+      "revisionId": 3653,
+      "revisionTimestamp": "2020-08-06T13:58:54Z",
+      "missing": false,
+      "wikitextLength": 13078
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxPlayerState",
+      "pageid": 2108,
+      "revisionId": 3654,
+      "revisionTimestamp": "2020-08-06T13:59:06Z",
+      "missing": false,
+      "wikitextLength": 724
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxProp",
+      "pageid": 2109,
+      "revisionId": 3655,
+      "revisionTimestamp": "2020-08-06T14:00:34Z",
+      "missing": false,
+      "wikitextLength": 48986
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxSaveHandler",
+      "pageid": 2110,
+      "revisionId": 3656,
+      "revisionTimestamp": "2020-08-06T14:00:51Z",
+      "missing": false,
+      "wikitextLength": 2786
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxScreenTextFormatParameters",
+      "pageid": 2111,
+      "revisionId": 3657,
+      "revisionTimestamp": "2020-08-06T14:02:03Z",
+      "missing": false,
+      "wikitextLength": 799
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxScreenTextIcon",
+      "pageid": 2112,
+      "revisionId": 3658,
+      "revisionTimestamp": "2020-08-06T14:02:22Z",
+      "missing": false,
+      "wikitextLength": 302
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxScriptClassFader",
+      "pageid": 2113,
+      "revisionId": 3659,
+      "revisionTimestamp": "2020-08-06T14:02:54Z",
+      "missing": false,
+      "wikitextLength": 306
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxScriptClassTimer",
+      "pageid": 2114,
+      "revisionId": 3660,
+      "revisionTimestamp": "2020-08-06T14:03:02Z",
+      "missing": false,
+      "wikitextLength": 306
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxScriptImGui",
+      "pageid": 2115,
+      "revisionId": 3031,
+      "revisionTimestamp": "2020-08-04T01:53:00Z",
+      "missing": false,
+      "wikitextLength": 389
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxSoundExtraData",
+      "pageid": 2116,
+      "revisionId": 3661,
+      "revisionTimestamp": "2020-08-06T14:04:32Z",
+      "missing": false,
+      "wikitextLength": 677
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxSoundListener",
+      "pageid": 2117,
+      "revisionId": 3662,
+      "revisionTimestamp": "2020-08-06T14:04:47Z",
+      "missing": false,
+      "wikitextLength": 2847
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxSoundscapeArea",
+      "pageid": 2118,
+      "revisionId": 3663,
+      "revisionTimestamp": "2020-08-06T14:05:08Z",
+      "missing": false,
+      "wikitextLength": 40103
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxSoundscapeHandler",
+      "pageid": 2119,
+      "revisionId": 3664,
+      "revisionTimestamp": "2020-08-06T14:05:19Z",
+      "missing": false,
+      "wikitextLength": 467
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxState",
+      "pageid": 2120,
+      "revisionId": 3665,
+      "revisionTimestamp": "2020-08-06T14:07:08Z",
+      "missing": false,
+      "wikitextLength": 284
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxStateMachine",
+      "pageid": 2121,
+      "revisionId": 3666,
+      "revisionTimestamp": "2020-08-06T14:07:17Z",
+      "missing": false,
+      "wikitextLength": 3141
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxStateTimer",
+      "pageid": 2122,
+      "revisionId": 3667,
+      "revisionTimestamp": "2020-08-06T14:07:27Z",
+      "missing": false,
+      "wikitextLength": 294
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxTrackNode",
+      "pageid": 2123,
+      "revisionId": 3668,
+      "revisionTimestamp": "2020-08-06T14:07:41Z",
+      "missing": false,
+      "wikitextLength": 826
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxUserModule",
+      "pageid": 2124,
+      "revisionId": 3669,
+      "revisionTimestamp": "2020-08-06T14:07:52Z",
+      "missing": false,
+      "wikitextLength": 7818
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxVisibilityArea",
+      "pageid": 2125,
+      "revisionId": 3670,
+      "revisionTimestamp": "2020-08-06T14:08:09Z",
+      "missing": false,
+      "wikitextLength": 40103
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxVisibilityPortal",
+      "pageid": 2126,
+      "revisionId": 3671,
+      "revisionTimestamp": "2020-08-06T14:08:38Z",
+      "missing": false,
+      "wikitextLength": 40105
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxVoiceCharacterCallback",
+      "pageid": 2127,
+      "revisionId": 3672,
+      "revisionTimestamp": "2020-08-06T14:08:51Z",
+      "missing": false,
+      "wikitextLength": 318
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxVoiceHandler",
+      "pageid": 2128,
+      "revisionId": 3044,
+      "revisionTimestamp": "2020-08-04T01:58:10Z",
+      "missing": false,
+      "wikitextLength": 5177
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxVoiceSceneInstance",
+      "pageid": 2129,
+      "revisionId": 3673,
+      "revisionTimestamp": "2020-08-06T14:09:20Z",
+      "missing": false,
+      "wikitextLength": 310
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cLuxVoiceSource",
+      "pageid": 2130,
+      "revisionId": 3674,
+      "revisionTimestamp": "2020-08-06T14:09:30Z",
+      "missing": false,
+      "wikitextLength": 296
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cMaterial",
+      "pageid": 2131,
+      "revisionId": 3675,
+      "revisionTimestamp": "2020-08-06T14:09:43Z",
+      "missing": false,
+      "wikitextLength": 541
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cMatrixf",
+      "pageid": 2132,
+      "revisionId": 3676,
+      "revisionTimestamp": "2020-08-06T14:10:02Z",
+      "missing": false,
+      "wikitextLength": 4482
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cMesh",
+      "pageid": 2133,
+      "revisionId": 3677,
+      "revisionTimestamp": "2020-08-06T14:11:09Z",
+      "missing": false,
+      "wikitextLength": 3494
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cMeshCollider",
+      "pageid": 2134,
+      "revisionId": 3678,
+      "revisionTimestamp": "2020-08-06T14:11:21Z",
+      "missing": false,
+      "wikitextLength": 292
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cMeshEntity",
+      "pageid": 2135,
+      "revisionId": 3679,
+      "revisionTimestamp": "2020-08-06T14:11:33Z",
+      "missing": false,
+      "wikitextLength": 16813
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cMeshEntityIterator",
+      "pageid": 2136,
+      "revisionId": 3680,
+      "revisionTimestamp": "2020-08-06T14:11:45Z",
+      "missing": false,
+      "wikitextLength": 642
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cNode3D",
+      "pageid": 2137,
+      "revisionId": 3681,
+      "revisionTimestamp": "2020-08-06T14:12:18Z",
+      "missing": false,
+      "wikitextLength": 6624
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cNode3DIterator",
+      "pageid": 2138,
+      "revisionId": 3682,
+      "revisionTimestamp": "2020-08-06T14:12:33Z",
+      "missing": false,
+      "wikitextLength": 622
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cParticleSystem",
+      "pageid": 2139,
+      "revisionId": 3683,
+      "revisionTimestamp": "2020-08-06T14:12:49Z",
+      "missing": false,
+      "wikitextLength": 6236
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cParticleSystemIterator",
+      "pageid": 2140,
+      "revisionId": 3684,
+      "revisionTimestamp": "2020-08-06T14:13:08Z",
+      "missing": false,
+      "wikitextLength": 662
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPhysicsContactData",
+      "pageid": 2141,
+      "revisionId": 3685,
+      "revisionTimestamp": "2020-08-06T14:13:22Z",
+      "missing": false,
+      "wikitextLength": 727
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPidControllerVec3",
+      "pageid": 2143,
+      "revisionId": 3687,
+      "revisionTimestamp": "2020-08-06T14:13:43Z",
+      "missing": false,
+      "wikitextLength": 1420
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPidControllerf",
+      "pageid": 2142,
+      "revisionId": 3686,
+      "revisionTimestamp": "2020-08-06T14:13:35Z",
+      "missing": false,
+      "wikitextLength": 1315
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPlanef",
+      "pageid": 2144,
+      "revisionId": 3688,
+      "revisionTimestamp": "2020-08-06T14:14:03Z",
+      "missing": false,
+      "wikitextLength": 1507
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPostEffect ChromaticAberration",
+      "pageid": 2145,
+      "revisionId": 3689,
+      "revisionTimestamp": "2020-08-06T14:14:23Z",
+      "missing": false,
+      "wikitextLength": 1692
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPostEffect FXAA",
+      "pageid": 2146,
+      "revisionId": 3690,
+      "revisionTimestamp": "2020-08-06T14:14:32Z",
+      "missing": false,
+      "wikitextLength": 879
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPostEffect ImageFadeFX",
+      "pageid": 2147,
+      "revisionId": 3691,
+      "revisionTimestamp": "2020-08-06T14:14:45Z",
+      "missing": false,
+      "wikitextLength": 1487
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPostEffect ImageTrail",
+      "pageid": 2148,
+      "revisionId": 3692,
+      "revisionTimestamp": "2020-08-06T14:14:56Z",
+      "missing": false,
+      "wikitextLength": 1186
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPostEffect RadialBlur",
+      "pageid": 2149,
+      "revisionId": 3693,
+      "revisionTimestamp": "2020-08-06T14:15:07Z",
+      "missing": false,
+      "wikitextLength": 1492
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPostEffect ToneMapping",
+      "pageid": 2150,
+      "revisionId": 3694,
+      "revisionTimestamp": "2020-08-06T14:15:25Z",
+      "missing": false,
+      "wikitextLength": 4046
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPostEffect VideoDistortion",
+      "pageid": 2151,
+      "revisionId": 3695,
+      "revisionTimestamp": "2020-08-06T14:15:39Z",
+      "missing": false,
+      "wikitextLength": 2116
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPostEffectComposite",
+      "pageid": 2152,
+      "revisionId": 3696,
+      "revisionTimestamp": "2020-08-06T14:15:50Z",
+      "missing": false,
+      "wikitextLength": 1357
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cPrepParserVarContainer",
+      "pageid": 2153,
+      "revisionId": 3697,
+      "revisionTimestamp": "2020-08-06T14:16:09Z",
+      "missing": false,
+      "wikitextLength": 312
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cProcAnimation",
+      "pageid": 2154,
+      "revisionId": 3698,
+      "revisionTimestamp": "2020-08-06T14:16:37Z",
+      "missing": false,
+      "wikitextLength": 2292
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cProcAnimationTrack",
+      "pageid": 2155,
+      "revisionId": 3699,
+      "revisionTimestamp": "2020-08-06T14:16:49Z",
+      "missing": false,
+      "wikitextLength": 2935
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cQuaternion",
+      "pageid": 2156,
+      "revisionId": 3700,
+      "revisionTimestamp": "2020-08-06T14:17:01Z",
+      "missing": false,
+      "wikitextLength": 1674
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cRect2f",
+      "pageid": 2157,
+      "revisionId": 3702,
+      "revisionTimestamp": "2020-08-06T14:17:25Z",
+      "missing": false,
+      "wikitextLength": 598
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cRect2l",
+      "pageid": 2158,
+      "revisionId": 3701,
+      "revisionTimestamp": "2020-08-06T14:17:15Z",
+      "missing": false,
+      "wikitextLength": 590
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cRenderSettings",
+      "pageid": 2160,
+      "revisionId": 3704,
+      "revisionTimestamp": "2020-08-06T14:17:54Z",
+      "missing": false,
+      "wikitextLength": 296
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cRendererCallbackFunctions",
+      "pageid": 2159,
+      "revisionId": 3703,
+      "revisionTimestamp": "2020-08-06T14:17:41Z",
+      "missing": false,
+      "wikitextLength": 6658
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cResourceVarsObject",
+      "pageid": 2161,
+      "revisionId": 3705,
+      "revisionTimestamp": "2020-08-06T14:18:06Z",
+      "missing": false,
+      "wikitextLength": 4182
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cRopeEntity3D",
+      "pageid": 2162,
+      "revisionId": 3706,
+      "revisionTimestamp": "2020-08-06T14:18:22Z",
+      "missing": false,
+      "wikitextLength": 8929
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cRopeEntityBillboard",
+      "pageid": 2163,
+      "revisionId": 3707,
+      "revisionTimestamp": "2020-08-06T14:18:33Z",
+      "missing": false,
+      "wikitextLength": 8784
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cRopeEntityIterator",
+      "pageid": 2164,
+      "revisionId": 3708,
+      "revisionTimestamp": "2020-08-06T14:18:42Z",
+      "missing": false,
+      "wikitextLength": 650
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cScriptStringIntMap",
+      "pageid": 2165,
+      "revisionId": 3709,
+      "revisionTimestamp": "2020-08-06T14:18:57Z",
+      "missing": false,
+      "wikitextLength": 1422
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cScriptStringSet",
+      "pageid": 2166,
+      "revisionId": 3710,
+      "revisionTimestamp": "2020-08-06T14:19:07Z",
+      "missing": false,
+      "wikitextLength": 1254
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cScriptVar",
+      "pageid": 2167,
+      "revisionId": 3711,
+      "revisionTimestamp": "2020-08-06T14:19:22Z",
+      "missing": false,
+      "wikitextLength": 286
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSkeleton",
+      "pageid": 2168,
+      "revisionId": 3712,
+      "revisionTimestamp": "2020-08-06T14:19:31Z",
+      "missing": false,
+      "wikitextLength": 284
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSmoothInterpolationVec3",
+      "pageid": 2170,
+      "revisionId": 3714,
+      "revisionTimestamp": "2020-08-06T14:19:52Z",
+      "missing": false,
+      "wikitextLength": 857
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSmoothInterpolationf",
+      "pageid": 2169,
+      "revisionId": 3713,
+      "revisionTimestamp": "2020-08-06T14:19:42Z",
+      "missing": false,
+      "wikitextLength": 812
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSoundEntity",
+      "pageid": 2171,
+      "revisionId": 3715,
+      "revisionTimestamp": "2020-08-06T14:20:04Z",
+      "missing": false,
+      "wikitextLength": 10983
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSoundEntityData",
+      "pageid": 2172,
+      "revisionId": 3716,
+      "revisionTimestamp": "2020-08-06T14:20:24Z",
+      "missing": false,
+      "wikitextLength": 298
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSoundEntityIterator",
+      "pageid": 2173,
+      "revisionId": 3717,
+      "revisionTimestamp": "2020-08-06T14:20:33Z",
+      "missing": false,
+      "wikitextLength": 647
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSoundEntry",
+      "pageid": 2174,
+      "revisionId": 3718,
+      "revisionTimestamp": "2020-08-06T14:20:45Z",
+      "missing": false,
+      "wikitextLength": 7184
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSoundEventParamInfo",
+      "pageid": 2175,
+      "revisionId": 3719,
+      "revisionTimestamp": "2020-08-06T14:21:02Z",
+      "missing": false,
+      "wikitextLength": 697
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSubMesh",
+      "pageid": 2176,
+      "revisionId": 3720,
+      "revisionTimestamp": "2020-08-06T14:21:16Z",
+      "missing": false,
+      "wikitextLength": 2777
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSubMeshEntity",
+      "pageid": 2177,
+      "revisionId": 3721,
+      "revisionTimestamp": "2020-08-06T14:21:27Z",
+      "missing": false,
+      "wikitextLength": 7895
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSurfaceData",
+      "pageid": 2178,
+      "revisionId": 3722,
+      "revisionTimestamp": "2020-08-06T14:21:40Z",
+      "missing": false,
+      "wikitextLength": 1597
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cSurfaceImpactData",
+      "pageid": 2179,
+      "revisionId": 3723,
+      "revisionTimestamp": "2020-08-06T14:22:00Z",
+      "missing": false,
+      "wikitextLength": 734
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cTerrain",
+      "pageid": 2180,
+      "revisionId": 3724,
+      "revisionTimestamp": "2020-08-06T14:22:39Z",
+      "missing": false,
+      "wikitextLength": 3081
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cVector2f",
+      "pageid": 1971,
+      "revisionId": 3725,
+      "revisionTimestamp": "2020-08-06T14:22:53Z",
+      "missing": false,
+      "wikitextLength": 2216
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cVector2l",
+      "pageid": 1972,
+      "revisionId": 3726,
+      "revisionTimestamp": "2020-08-06T14:23:07Z",
+      "missing": false,
+      "wikitextLength": 1422
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cVector3f",
+      "pageid": 1973,
+      "revisionId": 3727,
+      "revisionTimestamp": "2020-08-06T14:23:18Z",
+      "missing": false,
+      "wikitextLength": 2415
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cVector3l",
+      "pageid": 1975,
+      "revisionId": 3728,
+      "revisionTimestamp": "2020-08-06T14:23:32Z",
+      "missing": false,
+      "wikitextLength": 1552
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cVector4f",
+      "pageid": 1976,
+      "revisionId": 3729,
+      "revisionTimestamp": "2020-08-06T14:23:49Z",
+      "missing": false,
+      "wikitextLength": 2588
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cVerletParticle",
+      "pageid": 2181,
+      "revisionId": 3730,
+      "revisionTimestamp": "2020-08-06T14:24:03Z",
+      "missing": false,
+      "wikitextLength": 1992
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cViewport",
+      "pageid": 2182,
+      "revisionId": 3731,
+      "revisionTimestamp": "2020-08-06T14:24:18Z",
+      "missing": false,
+      "wikitextLength": 4593
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetButton",
+      "pageid": 2183,
+      "revisionId": 3732,
+      "revisionTimestamp": "2020-08-06T14:24:53Z",
+      "missing": false,
+      "wikitextLength": 11255
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetCheckBox",
+      "pageid": 2184,
+      "revisionId": 3733,
+      "revisionTimestamp": "2020-08-06T14:25:01Z",
+      "missing": false,
+      "wikitextLength": 10248
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetCollapsiblePane",
+      "pageid": 2185,
+      "revisionId": 3734,
+      "revisionTimestamp": "2020-08-06T14:25:10Z",
+      "missing": false,
+      "wikitextLength": 10172
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetCollapsiblePaneContainer",
+      "pageid": 2186,
+      "revisionId": 3735,
+      "revisionTimestamp": "2020-08-06T14:25:19Z",
+      "missing": false,
+      "wikitextLength": 10175
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetComboBox",
+      "pageid": 2187,
+      "revisionId": 3736,
+      "revisionTimestamp": "2020-08-06T14:25:29Z",
+      "missing": false,
+      "wikitextLength": 10810
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetContextMenu",
+      "pageid": 2188,
+      "revisionId": 3737,
+      "revisionTimestamp": "2020-08-06T14:25:38Z",
+      "missing": false,
+      "wikitextLength": 12762
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetDummy",
+      "pageid": 2189,
+      "revisionId": 3738,
+      "revisionTimestamp": "2020-08-06T14:25:57Z",
+      "missing": false,
+      "wikitextLength": 10084
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetFrame",
+      "pageid": 2190,
+      "revisionId": 3739,
+      "revisionTimestamp": "2020-08-06T14:26:08Z",
+      "missing": false,
+      "wikitextLength": 11132
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetGroup",
+      "pageid": 2191,
+      "revisionId": 3740,
+      "revisionTimestamp": "2020-08-06T14:26:23Z",
+      "missing": false,
+      "wikitextLength": 9931
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetImage",
+      "pageid": 2192,
+      "revisionId": 3741,
+      "revisionTimestamp": "2020-08-06T14:26:35Z",
+      "missing": false,
+      "wikitextLength": 10225
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetItem",
+      "pageid": 2193,
+      "revisionId": 3742,
+      "revisionTimestamp": "2020-08-06T14:26:43Z",
+      "missing": false,
+      "wikitextLength": 2001
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetLabel",
+      "pageid": 2194,
+      "revisionId": 3743,
+      "revisionTimestamp": "2020-08-06T14:26:57Z",
+      "missing": false,
+      "wikitextLength": 12125
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetListBox",
+      "pageid": 2195,
+      "revisionId": 3744,
+      "revisionTimestamp": "2020-08-06T14:27:08Z",
+      "missing": false,
+      "wikitextLength": 9933
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetMainMenu",
+      "pageid": 2196,
+      "revisionId": 3745,
+      "revisionTimestamp": "2020-08-06T14:27:20Z",
+      "missing": false,
+      "wikitextLength": 12661
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetMenuItem",
+      "pageid": 2197,
+      "revisionId": 3746,
+      "revisionTimestamp": "2020-08-06T14:27:42Z",
+      "missing": false,
+      "wikitextLength": 11585
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetMultiPropertyListBox",
+      "pageid": 2198,
+      "revisionId": 3747,
+      "revisionTimestamp": "2020-08-06T14:28:15Z",
+      "missing": false,
+      "wikitextLength": 11078
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetRangeSlider",
+      "pageid": 2199,
+      "revisionId": 3748,
+      "revisionTimestamp": "2020-08-06T14:28:41Z",
+      "missing": false,
+      "wikitextLength": 11127
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetSingleValueSlider",
+      "pageid": 2200,
+      "revisionId": 3749,
+      "revisionTimestamp": "2020-08-06T14:28:55Z",
+      "missing": false,
+      "wikitextLength": 10724
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetSlider",
+      "pageid": 2201,
+      "revisionId": 3750,
+      "revisionTimestamp": "2020-08-06T14:29:08Z",
+      "missing": false,
+      "wikitextLength": 11299
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetTab",
+      "pageid": 2202,
+      "revisionId": 3751,
+      "revisionTimestamp": "2020-08-06T14:29:17Z",
+      "missing": false,
+      "wikitextLength": 10702
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetTabFrame",
+      "pageid": 2203,
+      "revisionId": 3752,
+      "revisionTimestamp": "2020-08-06T14:29:37Z",
+      "missing": false,
+      "wikitextLength": 11692
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetTextBox",
+      "pageid": 2204,
+      "revisionId": 3753,
+      "revisionTimestamp": "2020-08-06T14:29:53Z",
+      "missing": false,
+      "wikitextLength": 13479
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetTreeItem",
+      "pageid": 2205,
+      "revisionId": 3754,
+      "revisionTimestamp": "2020-08-06T14:30:54Z",
+      "missing": false,
+      "wikitextLength": 2356
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetTreeView",
+      "pageid": 2206,
+      "revisionId": 3755,
+      "revisionTimestamp": "2020-08-06T14:31:05Z",
+      "missing": false,
+      "wikitextLength": 10229
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWidgetWindow",
+      "pageid": 2207,
+      "revisionId": 3756,
+      "revisionTimestamp": "2020-08-06T14:31:22Z",
+      "missing": false,
+      "wikitextLength": 10831
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cWorld",
+      "pageid": 2208,
+      "revisionId": 3757,
+      "revisionTimestamp": "2020-08-06T14:31:38Z",
+      "missing": false,
+      "wikitextLength": 40167
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cXmlElement",
+      "pageid": 2209,
+      "revisionId": 3758,
+      "revisionTimestamp": "2020-08-06T14:31:48Z",
+      "missing": false,
+      "wikitextLength": 6118
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cXmlNodeListIterator",
+      "pageid": 2210,
+      "revisionId": 3759,
+      "revisionTimestamp": "2020-08-06T14:32:00Z",
+      "missing": false,
+      "wikitextLength": 631
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/cXmlText",
+      "pageid": 2211,
+      "revisionId": 3760,
+      "revisionTimestamp": "2020-08-06T14:32:10Z",
+      "missing": false,
+      "wikitextLength": 2225
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eAIFreePathFlag",
+      "pageid": 2281,
+      "revisionId": 3761,
+      "revisionTimestamp": "2020-08-06T14:32:26Z",
+      "missing": false,
+      "wikitextLength": 480
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eAnimationEventType",
+      "pageid": 2282,
+      "revisionId": 3762,
+      "revisionTimestamp": "2020-08-06T14:32:38Z",
+      "missing": false,
+      "wikitextLength": 767
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eAxis2D",
+      "pageid": 2283,
+      "revisionId": 3763,
+      "revisionTimestamp": "2020-08-06T14:32:49Z",
+      "missing": false,
+      "wikitextLength": 433
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eAxis3D",
+      "pageid": 2284,
+      "revisionId": 3764,
+      "revisionTimestamp": "2020-08-06T14:32:55Z",
+      "missing": false,
+      "wikitextLength": 482
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eAxis4D",
+      "pageid": 2285,
+      "revisionId": 3765,
+      "revisionTimestamp": "2020-08-06T14:33:04Z",
+      "missing": false,
+      "wikitextLength": 531
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eAxisFlag",
+      "pageid": 2286,
+      "revisionId": 3766,
+      "revisionTimestamp": "2020-08-06T14:33:14Z",
+      "missing": false,
+      "wikitextLength": 485
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eBillboardType",
+      "pageid": 2287,
+      "revisionId": 3767,
+      "revisionTimestamp": "2020-08-06T14:33:26Z",
+      "missing": false,
+      "wikitextLength": 525
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eCameraMoveMode",
+      "pageid": 2288,
+      "revisionId": 3768,
+      "revisionTimestamp": "2020-08-06T14:33:45Z",
+      "missing": false,
+      "wikitextLength": 462
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eCameraRotateMode",
+      "pageid": 2289,
+      "revisionId": 3769,
+      "revisionTimestamp": "2020-08-06T14:33:57Z",
+      "missing": false,
+      "wikitextLength": 478
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eCharDir",
+      "pageid": 2290,
+      "revisionId": 3770,
+      "revisionTimestamp": "2020-08-06T14:34:09Z",
+      "missing": false,
+      "wikitextLength": 446
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eClearFrameBufferFlag",
+      "pageid": 2291,
+      "revisionId": 3771,
+      "revisionTimestamp": "2020-08-06T14:34:21Z",
+      "missing": false,
+      "wikitextLength": 482
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eCollideShapeType",
+      "pageid": 2292,
+      "revisionId": 3772,
+      "revisionTimestamp": "2020-08-06T14:34:39Z",
+      "missing": false,
+      "wikitextLength": 996
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eCollision",
+      "pageid": 2293,
+      "revisionId": 3773,
+      "revisionTimestamp": "2020-08-06T14:34:48Z",
+      "missing": false,
+      "wikitextLength": 513
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eCullMode",
+      "pageid": 2294,
+      "revisionId": 3774,
+      "revisionTimestamp": "2020-08-06T14:34:57Z",
+      "missing": false,
+      "wikitextLength": 462
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eDepthTestFunc",
+      "pageid": 2295,
+      "revisionId": 3775,
+      "revisionTimestamp": "2020-08-06T14:35:12Z",
+      "missing": false,
+      "wikitextLength": 842
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eDisplayMode",
+      "pageid": 2296,
+      "revisionId": 3776,
+      "revisionTimestamp": "2020-08-06T14:35:22Z",
+      "missing": false,
+      "wikitextLength": 527
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eEasing",
+      "pageid": 2297,
+      "revisionId": 3777,
+      "revisionTimestamp": "2020-08-06T14:35:34Z",
+      "missing": false,
+      "wikitextLength": 2095
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eEntityType",
+      "pageid": 2298,
+      "revisionId": 3778,
+      "revisionTimestamp": "2020-08-06T14:35:45Z",
+      "missing": false,
+      "wikitextLength": 1872
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eEulerRotationOrder",
+      "pageid": 2299,
+      "revisionId": 3779,
+      "revisionTimestamp": "2020-08-06T14:35:56Z",
+      "missing": false,
+      "wikitextLength": 725
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eEventCompareType",
+      "pageid": 2300,
+      "revisionId": 3780,
+      "revisionTimestamp": "2020-08-06T14:36:24Z",
+      "missing": false,
+      "wikitextLength": 897
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eEventFactValue",
+      "pageid": 2301,
+      "revisionId": 3781,
+      "revisionTimestamp": "2020-08-06T14:36:33Z",
+      "missing": false,
+      "wikitextLength": 525
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eEventOpType",
+      "pageid": 2302,
+      "revisionId": 3782,
+      "revisionTimestamp": "2020-08-06T14:36:42Z",
+      "missing": false,
+      "wikitextLength": 564
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eFilePickerType",
+      "pageid": 2303,
+      "revisionId": 3783,
+      "revisionTimestamp": "2020-08-06T14:36:53Z",
+      "missing": false,
+      "wikitextLength": 463
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eFlagBit",
+      "pageid": 2304,
+      "revisionId": 3784,
+      "revisionTimestamp": "2020-08-06T14:37:03Z",
+      "missing": false,
+      "wikitextLength": 2143
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eFontAlign",
+      "pageid": 2305,
+      "revisionId": 3785,
+      "revisionTimestamp": "2020-08-06T14:37:13Z",
+      "missing": false,
+      "wikitextLength": 506
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eFrustumPlane",
+      "pageid": 2306,
+      "revisionId": 3786,
+      "revisionTimestamp": "2020-08-06T14:37:24Z",
+      "missing": false,
+      "wikitextLength": 690
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGamepadAxis",
+      "pageid": 2307,
+      "revisionId": 3787,
+      "revisionTimestamp": "2020-08-06T14:37:35Z",
+      "missing": false,
+      "wikitextLength": 881
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGamepadAxisRange",
+      "pageid": 2308,
+      "revisionId": 3788,
+      "revisionTimestamp": "2020-08-06T14:37:46Z",
+      "missing": false,
+      "wikitextLength": 539
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGamepadBall",
+      "pageid": 2309,
+      "revisionId": 3789,
+      "revisionTimestamp": "2020-08-06T14:37:55Z",
+      "missing": false,
+      "wikitextLength": 394
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGamepadButton",
+      "pageid": 2310,
+      "revisionId": 3790,
+      "revisionTimestamp": "2020-08-06T14:38:03Z",
+      "missing": false,
+      "wikitextLength": 2063
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGamepadHat",
+      "pageid": 2311,
+      "revisionId": 3791,
+      "revisionTimestamp": "2020-08-06T14:38:13Z",
+      "missing": false,
+      "wikitextLength": 870
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGamepadHatState",
+      "pageid": 2312,
+      "revisionId": 3792,
+      "revisionTimestamp": "2020-08-06T14:38:23Z",
+      "missing": false,
+      "wikitextLength": 912
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGamepadInputType",
+      "pageid": 2313,
+      "revisionId": 3793,
+      "revisionTimestamp": "2020-08-06T14:38:36Z",
+      "missing": false,
+      "wikitextLength": 594
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGraphicCaps",
+      "pageid": 2314,
+      "revisionId": 3794,
+      "revisionTimestamp": "2020-08-06T14:38:47Z",
+      "missing": false,
+      "wikitextLength": 2205
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGuiGfxAnimationType",
+      "pageid": 2315,
+      "revisionId": 3795,
+      "revisionTimestamp": "2020-08-06T14:38:57Z",
+      "missing": false,
+      "wikitextLength": 620
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGuiMaterial",
+      "pageid": 2316,
+      "revisionId": 3796,
+      "revisionTimestamp": "2020-08-06T14:39:10Z",
+      "missing": false,
+      "wikitextLength": 709
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGuiMessage",
+      "pageid": 2317,
+      "revisionId": 3797,
+      "revisionTimestamp": "2020-08-06T14:40:10Z",
+      "missing": false,
+      "wikitextLength": 2834
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGuiMouseButton",
+      "pageid": 2318,
+      "revisionId": 3798,
+      "revisionTimestamp": "2020-08-06T14:40:20Z",
+      "missing": false,
+      "wikitextLength": 915
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGuiSkinAttribute",
+      "pageid": 2319,
+      "revisionId": 3799,
+      "revisionTimestamp": "2020-08-06T14:40:32Z",
+      "missing": false,
+      "wikitextLength": 3073
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGuiSkinFont",
+      "pageid": 2320,
+      "revisionId": 3800,
+      "revisionTimestamp": "2020-08-06T14:40:45Z",
+      "missing": false,
+      "wikitextLength": 525
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGuiSkinGfx",
+      "pageid": 2321,
+      "revisionId": 3801,
+      "revisionTimestamp": "2020-08-06T14:40:58Z",
+      "missing": false,
+      "wikitextLength": 8817
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eGuiWindowZDest",
+      "pageid": 2322,
+      "revisionId": 3802,
+      "revisionTimestamp": "2020-08-06T14:41:14Z",
+      "missing": false,
+      "wikitextLength": 673
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eIDSpace",
+      "pageid": 2323,
+      "revisionId": 3803,
+      "revisionTimestamp": "2020-08-06T14:41:24Z",
+      "missing": false,
+      "wikitextLength": 562
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiAction",
+      "pageid": 2324,
+      "revisionId": 3804,
+      "revisionTimestamp": "2020-08-06T14:41:35Z",
+      "missing": false,
+      "wikitextLength": 936
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiAlign",
+      "pageid": 2325,
+      "revisionId": 3805,
+      "revisionTimestamp": "2020-08-06T14:41:45Z",
+      "missing": false,
+      "wikitextLength": 897
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiGaugeOrientation",
+      "pageid": 2326,
+      "revisionId": 3806,
+      "revisionTimestamp": "2020-08-06T14:41:57Z",
+      "missing": false,
+      "wikitextLength": 413
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiGfx",
+      "pageid": 2327,
+      "revisionId": 3807,
+      "revisionTimestamp": "2020-08-06T14:42:11Z",
+      "missing": false,
+      "wikitextLength": 634
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiLayout",
+      "pageid": 2328,
+      "revisionId": 3808,
+      "revisionTimestamp": "2020-08-06T14:42:24Z",
+      "missing": false,
+      "wikitextLength": 564
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiObjectType",
+      "pageid": 2329,
+      "revisionId": 3809,
+      "revisionTimestamp": "2020-08-06T14:42:41Z",
+      "missing": false,
+      "wikitextLength": 603
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiOffset",
+      "pageid": 2330,
+      "revisionId": 3810,
+      "revisionTimestamp": "2020-08-06T14:43:15Z",
+      "missing": false,
+      "wikitextLength": 453
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiStateVar",
+      "pageid": 2331,
+      "revisionId": 3811,
+      "revisionTimestamp": "2020-08-06T14:43:26Z",
+      "missing": false,
+      "wikitextLength": 871
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiVar",
+      "pageid": 2332,
+      "revisionId": 3812,
+      "revisionTimestamp": "2020-08-06T14:43:34Z",
+      "missing": false,
+      "wikitextLength": 558
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiWindowHeader",
+      "pageid": 2333,
+      "revisionId": 3813,
+      "revisionTimestamp": "2020-08-06T14:43:44Z",
+      "missing": false,
+      "wikitextLength": 411
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiWrap",
+      "pageid": 2334,
+      "revisionId": 3814,
+      "revisionTimestamp": "2020-08-06T14:43:54Z",
+      "missing": false,
+      "wikitextLength": 550
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eImGuiWrapMode",
+      "pageid": 2335,
+      "revisionId": 3815,
+      "revisionTimestamp": "2020-08-06T14:44:05Z",
+      "missing": false,
+      "wikitextLength": 462
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eInputDeviceType",
+      "pageid": 2336,
+      "revisionId": 3816,
+      "revisionTimestamp": "2020-08-06T14:44:15Z",
+      "missing": false,
+      "wikitextLength": 535
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eKey",
+      "pageid": 2337,
+      "revisionId": 3817,
+      "revisionTimestamp": "2020-08-06T14:44:26Z",
+      "missing": false,
+      "wikitextLength": 6963
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eKeyModifier",
+      "pageid": 2338,
+      "revisionId": 3818,
+      "revisionTimestamp": "2020-08-06T14:44:37Z",
+      "missing": false,
+      "wikitextLength": 568
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLensFlareType",
+      "pageid": 2339,
+      "revisionId": 3819,
+      "revisionTimestamp": "2020-08-06T14:44:47Z",
+      "missing": false,
+      "wikitextLength": 535
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLightBoxBlendFunc",
+      "pageid": 2340,
+      "revisionId": 3820,
+      "revisionTimestamp": "2020-08-06T14:44:57Z",
+      "missing": false,
+      "wikitextLength": 538
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLightType",
+      "pageid": 2341,
+      "revisionId": 3821,
+      "revisionTimestamp": "2020-08-06T14:45:08Z",
+      "missing": false,
+      "wikitextLength": 565
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eListBoxActionType",
+      "pageid": 2342,
+      "revisionId": 3822,
+      "revisionTimestamp": "2020-08-06T14:45:22Z",
+      "missing": false,
+      "wikitextLength": 557
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLogLabel",
+      "pageid": 2343,
+      "revisionId": 3823,
+      "revisionTimestamp": "2020-08-06T14:45:35Z",
+      "missing": false,
+      "wikitextLength": 950
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxCharMoveDirection",
+      "pageid": 2344,
+      "revisionId": 3824,
+      "revisionTimestamp": "2020-08-06T14:45:50Z",
+      "missing": false,
+      "wikitextLength": 551
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxDialogBranchEvent",
+      "pageid": 2345,
+      "revisionId": 3825,
+      "revisionTimestamp": "2020-08-06T14:46:02Z",
+      "missing": false,
+      "wikitextLength": 919
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxDialogOptionCondition",
+      "pageid": 2346,
+      "revisionId": 3826,
+      "revisionTimestamp": "2020-08-06T14:46:17Z",
+      "missing": false,
+      "wikitextLength": 578
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxDialogOptionEvent",
+      "pageid": 2347,
+      "revisionId": 3827,
+      "revisionTimestamp": "2020-08-06T14:46:23Z",
+      "missing": false,
+      "wikitextLength": 485
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxEntityComponentType",
+      "pageid": 2348,
+      "revisionId": 3828,
+      "revisionTimestamp": "2020-08-06T14:46:38Z",
+      "missing": false,
+      "wikitextLength": 1024
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxEntityMessage",
+      "pageid": 2349,
+      "revisionId": 3829,
+      "revisionTimestamp": "2020-08-06T14:46:49Z",
+      "missing": false,
+      "wikitextLength": 1774
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxEntityType",
+      "pageid": 2350,
+      "revisionId": 3830,
+      "revisionTimestamp": "2020-08-06T14:46:59Z",
+      "missing": false,
+      "wikitextLength": 773
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxGlobalFreqType",
+      "pageid": 2351,
+      "revisionId": 3831,
+      "revisionTimestamp": "2020-08-06T14:47:11Z",
+      "missing": false,
+      "wikitextLength": 914
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxGlobalVolumeType",
+      "pageid": 2352,
+      "revisionId": 3832,
+      "revisionTimestamp": "2020-08-06T14:47:22Z",
+      "missing": false,
+      "wikitextLength": 916
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxKeyboardLayoutType",
+      "pageid": 2353,
+      "revisionId": 3833,
+      "revisionTimestamp": "2020-08-06T14:47:33Z",
+      "missing": false,
+      "wikitextLength": 497
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxLightConnectionType",
+      "pageid": 2354,
+      "revisionId": 3834,
+      "revisionTimestamp": "2020-08-06T14:47:44Z",
+      "missing": false,
+      "wikitextLength": 485
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxSetSubmapPosition",
+      "pageid": 2355,
+      "revisionId": 3835,
+      "revisionTimestamp": "2020-08-06T14:47:59Z",
+      "missing": false,
+      "wikitextLength": 584
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eLuxVoiceSourceFrequencyFlag",
+      "pageid": 2356,
+      "revisionId": 3836,
+      "revisionTimestamp": "2020-08-06T14:48:10Z",
+      "missing": false,
+      "wikitextLength": 660
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eMaterialBlendMode",
+      "pageid": 2357,
+      "revisionId": 3837,
+      "revisionTimestamp": "2020-08-06T14:48:29Z",
+      "missing": false,
+      "wikitextLength": 942
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eMaterialChannelMode",
+      "pageid": 2358,
+      "revisionId": 3838,
+      "revisionTimestamp": "2020-08-06T14:48:37Z",
+      "missing": false,
+      "wikitextLength": 604
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eMatrix",
+      "pageid": 2359,
+      "revisionId": 3839,
+      "revisionTimestamp": "2020-08-06T14:48:49Z",
+      "missing": false,
+      "wikitextLength": 505
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eMouseButton",
+      "pageid": 2360,
+      "revisionId": 3840,
+      "revisionTimestamp": "2020-08-06T14:48:57Z",
+      "missing": false,
+      "wikitextLength": 876
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eMsgBoxType",
+      "pageid": 2361,
+      "revisionId": 3841,
+      "revisionTimestamp": "2020-08-06T14:49:06Z",
+      "missing": false,
+      "wikitextLength": 510
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eNoiseType",
+      "pageid": 2362,
+      "revisionId": 3842,
+      "revisionTimestamp": "2020-08-06T14:49:14Z",
+      "missing": false,
+      "wikitextLength": 508
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eObjectVariabilityFlag",
+      "pageid": 2363,
+      "revisionId": 3843,
+      "revisionTimestamp": "2020-08-06T14:49:30Z",
+      "missing": false,
+      "wikitextLength": 484
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eParallaxQuality",
+      "pageid": 2364,
+      "revisionId": 3844,
+      "revisionTimestamp": "2020-08-06T14:49:43Z",
+      "missing": false,
+      "wikitextLength": 528
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/ePhysicsAccuracy",
+      "pageid": 2365,
+      "revisionId": 3845,
+      "revisionTimestamp": "2020-08-06T14:49:53Z",
+      "missing": false,
+      "wikitextLength": 528
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/ePhysicsJointSpeed",
+      "pageid": 2366,
+      "revisionId": 3846,
+      "revisionTimestamp": "2020-08-06T14:50:02Z",
+      "missing": false,
+      "wikitextLength": 477
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/ePhysicsJointType",
+      "pageid": 2367,
+      "revisionId": 3847,
+      "revisionTimestamp": "2020-08-06T14:50:10Z",
+      "missing": false,
+      "wikitextLength": 534
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/ePixelFormat",
+      "pageid": 2368,
+      "revisionId": 3848,
+      "revisionTimestamp": "2020-08-06T14:50:21Z",
+      "missing": false,
+      "wikitextLength": 2030
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/ePlatform",
+      "pageid": 2369,
+      "revisionId": 3849,
+      "revisionTimestamp": "2020-08-06T14:50:31Z",
+      "missing": false,
+      "wikitextLength": 500
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/ePrimitiveType",
+      "pageid": 2370,
+      "revisionId": 3850,
+      "revisionTimestamp": "2020-08-06T14:50:41Z",
+      "missing": false,
+      "wikitextLength": 459
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eProcAnimType",
+      "pageid": 2371,
+      "revisionId": 3851,
+      "revisionTimestamp": "2020-08-06T14:50:57Z",
+      "missing": false,
+      "wikitextLength": 523
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eProjectionType",
+      "pageid": 2372,
+      "revisionId": 3852,
+      "revisionTimestamp": "2020-08-06T14:51:12Z",
+      "missing": false,
+      "wikitextLength": 414
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eRenderableFlag",
+      "pageid": 2373,
+      "revisionId": 3853,
+      "revisionTimestamp": "2020-08-06T14:51:28Z",
+      "missing": false,
+      "wikitextLength": 570
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eRenderableType",
+      "pageid": 2374,
+      "revisionId": 3854,
+      "revisionTimestamp": "2020-08-06T14:51:37Z",
+      "missing": false,
+      "wikitextLength": 983
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eRenderer",
+      "pageid": 2375,
+      "revisionId": 3855,
+      "revisionTimestamp": "2020-08-06T14:51:46Z",
+      "missing": false,
+      "wikitextLength": 506
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eRendererMessage",
+      "pageid": 2376,
+      "revisionId": 3856,
+      "revisionTimestamp": "2020-08-06T14:51:54Z",
+      "missing": false,
+      "wikitextLength": 557
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eRopeType",
+      "pageid": 2377,
+      "revisionId": 3857,
+      "revisionTimestamp": "2020-08-06T14:52:03Z",
+      "missing": false,
+      "wikitextLength": 448
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eSceneRenderFlag",
+      "pageid": 2378,
+      "revisionId": 3858,
+      "revisionTimestamp": "2020-08-06T14:52:17Z",
+      "missing": false,
+      "wikitextLength": 530
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eShadowMapQuality",
+      "pageid": 2379,
+      "revisionId": 3859,
+      "revisionTimestamp": "2020-08-06T14:52:26Z",
+      "missing": false,
+      "wikitextLength": 532
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eShadowMapResolution",
+      "pageid": 2380,
+      "revisionId": 3860,
+      "revisionTimestamp": "2020-08-06T14:52:39Z",
+      "missing": false,
+      "wikitextLength": 544
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eSoundEntityDataType",
+      "pageid": 2381,
+      "revisionId": 3861,
+      "revisionTimestamp": "2020-08-06T14:52:55Z",
+      "missing": false,
+      "wikitextLength": 496
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eSoundEntryDataType",
+      "pageid": 2382,
+      "revisionId": 3862,
+      "revisionTimestamp": "2020-08-06T14:53:03Z",
+      "missing": false,
+      "wikitextLength": 411
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eSoundEntryType",
+      "pageid": 2383,
+      "revisionId": 3863,
+      "revisionTimestamp": "2020-08-06T14:53:36Z",
+      "missing": false,
+      "wikitextLength": 863
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eSoundMaxPlaybacksBehavior",
+      "pageid": 2384,
+      "revisionId": 3864,
+      "revisionTimestamp": "2020-08-06T14:53:50Z",
+      "missing": false,
+      "wikitextLength": 756
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eSoundReverbPreset",
+      "pageid": 2385,
+      "revisionId": 3865,
+      "revisionTimestamp": "2020-08-06T14:54:03Z",
+      "missing": false,
+      "wikitextLength": 3233
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eSystemPath",
+      "pageid": 2386,
+      "revisionId": 3866,
+      "revisionTimestamp": "2020-08-06T14:54:18Z",
+      "missing": false,
+      "wikitextLength": 399
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eTextureAnimMode",
+      "pageid": 2387,
+      "revisionId": 3867,
+      "revisionTimestamp": "2020-08-06T14:54:29Z",
+      "missing": false,
+      "wikitextLength": 532
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eTextureCompareFunc",
+      "pageid": 2388,
+      "revisionId": 3868,
+      "revisionTimestamp": "2020-08-06T14:54:39Z",
+      "missing": false,
+      "wikitextLength": 492
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eTextureCompareMode",
+      "pageid": 2389,
+      "revisionId": 3869,
+      "revisionTimestamp": "2020-08-06T14:54:47Z",
+      "missing": false,
+      "wikitextLength": 481
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eTextureFilter",
+      "pageid": 2390,
+      "revisionId": 3870,
+      "revisionTimestamp": "2020-08-06T14:55:14Z",
+      "missing": false,
+      "wikitextLength": 531
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eTextureType",
+      "pageid": 2391,
+      "revisionId": 3871,
+      "revisionTimestamp": "2020-08-06T14:55:29Z",
+      "missing": false,
+      "wikitextLength": 565
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eTextureUsage",
+      "pageid": 2392,
+      "revisionId": 3872,
+      "revisionTimestamp": "2020-08-06T14:55:39Z",
+      "missing": false,
+      "wikitextLength": 467
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eTextureWrap",
+      "pageid": 2393,
+      "revisionId": 3873,
+      "revisionTimestamp": "2020-08-06T14:55:47Z",
+      "missing": false,
+      "wikitextLength": 587
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eUIArrow",
+      "pageid": 2394,
+      "revisionId": 3874,
+      "revisionTimestamp": "2020-08-06T14:56:31Z",
+      "missing": false,
+      "wikitextLength": 774
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eVSyncMode",
+      "pageid": 2398,
+      "revisionId": 3878,
+      "revisionTimestamp": "2020-08-06T14:57:23Z",
+      "missing": false,
+      "wikitextLength": 504
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eVelocityAxes",
+      "pageid": 2395,
+      "revisionId": 3875,
+      "revisionTimestamp": "2020-08-06T14:56:42Z",
+      "missing": false,
+      "wikitextLength": 509
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eVertexBufferDrawType",
+      "pageid": 2396,
+      "revisionId": 3876,
+      "revisionTimestamp": "2020-08-06T14:56:57Z",
+      "missing": false,
+      "wikitextLength": 964
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eViewportMessage",
+      "pageid": 2397,
+      "revisionId": 3877,
+      "revisionTimestamp": "2020-08-06T14:57:09Z",
+      "missing": false,
+      "wikitextLength": 487
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eWidgetSliderOrientation",
+      "pageid": 2399,
+      "revisionId": 3879,
+      "revisionTimestamp": "2020-08-06T14:57:35Z",
+      "missing": false,
+      "wikitextLength": 500
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eWidgetTextBoxInputType",
+      "pageid": 2400,
+      "revisionId": 3880,
+      "revisionTimestamp": "2020-08-06T14:57:56Z",
+      "missing": false,
+      "wikitextLength": 492
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eWidgetType",
+      "pageid": 2401,
+      "revisionId": 3881,
+      "revisionTimestamp": "2020-08-06T14:58:12Z",
+      "missing": false,
+      "wikitextLength": 1398
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eWorldContainerType",
+      "pageid": 2402,
+      "revisionId": 3882,
+      "revisionTimestamp": "2020-08-06T14:58:28Z",
+      "missing": false,
+      "wikitextLength": 480
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eWorldStreamPriority",
+      "pageid": 2403,
+      "revisionId": 3883,
+      "revisionTimestamp": "2020-08-06T14:58:39Z",
+      "missing": false,
+      "wikitextLength": 680
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/eXmlNodeType",
+      "pageid": 2404,
+      "revisionId": 3884,
+      "revisionTimestamp": "2020-08-06T14:58:49Z",
+      "missing": false,
+      "wikitextLength": 400
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/hps api",
+      "pageid": 2451,
+      "revisionId": 5301,
+      "revisionTimestamp": "2020-09-07T18:21:04Z",
+      "missing": false,
+      "wikitextLength": 186572
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iCharacterBody",
+      "pageid": 2212,
+      "revisionId": 3885,
+      "revisionTimestamp": "2020-08-06T14:59:13Z",
+      "missing": false,
+      "wikitextLength": 22360
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iCollideShape",
+      "pageid": 2213,
+      "revisionId": 3886,
+      "revisionTimestamp": "2020-08-06T14:59:26Z",
+      "missing": false,
+      "wikitextLength": 1527
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iDepthStencilBuffer",
+      "pageid": 2214,
+      "revisionId": 3887,
+      "revisionTimestamp": "2020-08-06T14:59:38Z",
+      "missing": false,
+      "wikitextLength": 304
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iEntity3D",
+      "pageid": 2215,
+      "revisionId": 3888,
+      "revisionTimestamp": "2020-08-06T14:59:57Z",
+      "missing": false,
+      "wikitextLength": 3800
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iEyeTracker",
+      "pageid": 2216,
+      "revisionId": 3889,
+      "revisionTimestamp": "2020-08-06T15:00:21Z",
+      "missing": false,
+      "wikitextLength": 1450
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iFontData",
+      "pageid": 2217,
+      "revisionId": 3890,
+      "revisionTimestamp": "2020-08-06T15:00:30Z",
+      "missing": false,
+      "wikitextLength": 1064
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iFrameBuffer",
+      "pageid": 2450,
+      "revisionId": 3891,
+      "revisionTimestamp": "2020-08-06T15:00:52Z",
+      "missing": false,
+      "wikitextLength": 290
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iFrameData",
+      "pageid": 2218,
+      "revisionId": 3137,
+      "revisionTimestamp": "2020-08-04T02:37:52Z",
+      "missing": false,
+      "wikitextLength": 267
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iGamepad",
+      "pageid": 2219,
+      "revisionId": 3892,
+      "revisionTimestamp": "2020-08-06T15:01:03Z",
+      "missing": false,
+      "wikitextLength": 3679
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iGpuProgram",
+      "pageid": 2220,
+      "revisionId": 3893,
+      "revisionTimestamp": "2020-08-06T15:01:17Z",
+      "missing": false,
+      "wikitextLength": 288
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iGpuShader",
+      "pageid": 2221,
+      "revisionId": 3894,
+      "revisionTimestamp": "2020-08-06T15:01:25Z",
+      "missing": false,
+      "wikitextLength": 286
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iGuiMaterial",
+      "pageid": 2222,
+      "revisionId": 3895,
+      "revisionTimestamp": "2020-08-06T15:01:35Z",
+      "missing": false,
+      "wikitextLength": 444
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iGuiPopUp",
+      "pageid": 2223,
+      "revisionId": 3896,
+      "revisionTimestamp": "2020-08-06T15:01:45Z",
+      "missing": false,
+      "wikitextLength": 761
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iKeyboard",
+      "pageid": 2224,
+      "revisionId": 3897,
+      "revisionTimestamp": "2020-08-06T15:01:54Z",
+      "missing": false,
+      "wikitextLength": 1687
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iLight",
+      "pageid": 2225,
+      "revisionId": 3898,
+      "revisionTimestamp": "2020-08-06T15:02:07Z",
+      "missing": false,
+      "wikitextLength": 17912
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iLipsyncResult",
+      "pageid": 2226,
+      "revisionId": 3899,
+      "revisionTimestamp": "2020-08-06T15:02:21Z",
+      "missing": false,
+      "wikitextLength": 509
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iLowLevelGraphics",
+      "pageid": 2227,
+      "revisionId": 3900,
+      "revisionTimestamp": "2020-08-06T15:02:38Z",
+      "missing": false,
+      "wikitextLength": 2943
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iLuxAchievementHandler",
+      "pageid": 2228,
+      "revisionId": 3901,
+      "revisionTimestamp": "2020-08-06T15:02:53Z",
+      "missing": false,
+      "wikitextLength": 1681
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iLuxEntity",
+      "pageid": 2229,
+      "revisionId": 3513,
+      "revisionTimestamp": "2020-08-06T13:12:38Z",
+      "missing": false,
+      "wikitextLength": 39337
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iLuxEntityComponent",
+      "pageid": 2230,
+      "revisionId": 3902,
+      "revisionTimestamp": "2020-08-06T15:03:14Z",
+      "missing": false,
+      "wikitextLength": 585
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iMaterialType",
+      "pageid": 2231,
+      "revisionId": 3903,
+      "revisionTimestamp": "2020-08-06T15:03:27Z",
+      "missing": false,
+      "wikitextLength": 292
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iMouse",
+      "pageid": 2232,
+      "revisionId": 3904,
+      "revisionTimestamp": "2020-08-06T15:03:35Z",
+      "missing": false,
+      "wikitextLength": 1067
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iParticleEmitter",
+      "pageid": 2233,
+      "revisionId": 3905,
+      "revisionTimestamp": "2020-08-06T15:03:46Z",
+      "missing": false,
+      "wikitextLength": 298
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPhysicsBody",
+      "pageid": 2234,
+      "revisionId": 3906,
+      "revisionTimestamp": "2020-08-06T15:03:58Z",
+      "missing": false,
+      "wikitextLength": 17168
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPhysicsCloth",
+      "pageid": 2235,
+      "revisionId": 3907,
+      "revisionTimestamp": "2020-08-06T15:04:08Z",
+      "missing": false,
+      "wikitextLength": 6370
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPhysicsController",
+      "pageid": 2236,
+      "revisionId": 3908,
+      "revisionTimestamp": "2020-08-06T15:04:17Z",
+      "missing": false,
+      "wikitextLength": 302
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPhysicsJoint",
+      "pageid": 2237,
+      "revisionId": 3909,
+      "revisionTimestamp": "2020-08-06T15:04:29Z",
+      "missing": false,
+      "wikitextLength": 4754
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPhysicsJointBall",
+      "pageid": 2238,
+      "revisionId": 3910,
+      "revisionTimestamp": "2020-08-06T15:04:45Z",
+      "missing": false,
+      "wikitextLength": 5288
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPhysicsJointHinge",
+      "pageid": 2239,
+      "revisionId": 3911,
+      "revisionTimestamp": "2020-08-06T15:04:53Z",
+      "missing": false,
+      "wikitextLength": 5235
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPhysicsJointSlider",
+      "pageid": 2240,
+      "revisionId": 3912,
+      "revisionTimestamp": "2020-08-06T15:05:04Z",
+      "missing": false,
+      "wikitextLength": 5240
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPhysicsMaterial",
+      "pageid": 2241,
+      "revisionId": 3913,
+      "revisionTimestamp": "2020-08-06T15:05:16Z",
+      "missing": false,
+      "wikitextLength": 919
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPhysicsRope",
+      "pageid": 2242,
+      "revisionId": 3914,
+      "revisionTimestamp": "2020-08-06T15:05:29Z",
+      "missing": false,
+      "wikitextLength": 11494
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPhysicsWorld",
+      "pageid": 2243,
+      "revisionId": 3915,
+      "revisionTimestamp": "2020-08-06T15:05:43Z",
+      "missing": false,
+      "wikitextLength": 19042
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPostEffect",
+      "pageid": 2244,
+      "revisionId": 3916,
+      "revisionTimestamp": "2020-08-06T15:05:55Z",
+      "missing": false,
+      "wikitextLength": 874
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iPostEffectType",
+      "pageid": 2245,
+      "revisionId": 3917,
+      "revisionTimestamp": "2020-08-06T15:06:05Z",
+      "missing": false,
+      "wikitextLength": 296
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iRenderableEntity",
+      "pageid": 2246,
+      "revisionId": 3918,
+      "revisionTimestamp": "2020-08-06T15:06:16Z",
+      "missing": false,
+      "wikitextLength": 7138
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iRenderer",
+      "pageid": 2247,
+      "revisionId": 3919,
+      "revisionTimestamp": "2020-08-06T15:06:27Z",
+      "missing": false,
+      "wikitextLength": 284
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iRendererCallback",
+      "pageid": 2248,
+      "revisionId": 3920,
+      "revisionTimestamp": "2020-08-06T15:07:21Z",
+      "missing": false,
+      "wikitextLength": 300
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iRopeEntity",
+      "pageid": 2249,
+      "revisionId": 3921,
+      "revisionTimestamp": "2020-08-06T15:07:47Z",
+      "missing": false,
+      "wikitextLength": 7931
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrAchievementHandler Interface",
+      "pageid": 2250,
+      "revisionId": 3922,
+      "revisionTimestamp": "2020-08-06T15:08:00Z",
+      "missing": false,
+      "wikitextLength": 581
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrAgent Interface",
+      "pageid": 2251,
+      "revisionId": 3923,
+      "revisionTimestamp": "2020-08-06T15:08:10Z",
+      "missing": false,
+      "wikitextLength": 1277
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrArea Interface",
+      "pageid": 2252,
+      "revisionId": 3171,
+      "revisionTimestamp": "2020-08-04T02:47:47Z",
+      "missing": false,
+      "wikitextLength": 1041
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrCritter Interface",
+      "pageid": 2253,
+      "revisionId": 3924,
+      "revisionTimestamp": "2020-08-06T15:08:18Z",
+      "missing": false,
+      "wikitextLength": 1195
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrDialogHandler Interface",
+      "pageid": 2254,
+      "revisionId": 3925,
+      "revisionTimestamp": "2020-08-06T15:08:25Z",
+      "missing": false,
+      "wikitextLength": 473
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrEffect Interface",
+      "pageid": 2255,
+      "revisionId": 3926,
+      "revisionTimestamp": "2020-08-06T15:08:33Z",
+      "missing": false,
+      "wikitextLength": 1329
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrEventDatabaseHandler Interface",
+      "pageid": 2256,
+      "revisionId": 3927,
+      "revisionTimestamp": "2020-08-06T15:08:42Z",
+      "missing": false,
+      "wikitextLength": 854
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrGuiHandler Interface",
+      "pageid": 2257,
+      "revisionId": 3928,
+      "revisionTimestamp": "2020-08-06T15:08:54Z",
+      "missing": false,
+      "wikitextLength": 808
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrInputHandler Interface",
+      "pageid": 2258,
+      "revisionId": 3929,
+      "revisionTimestamp": "2020-08-06T15:09:08Z",
+      "missing": false,
+      "wikitextLength": 936
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrLiquidArea Interface",
+      "pageid": 2259,
+      "revisionId": 3930,
+      "revisionTimestamp": "2020-08-06T15:09:18Z",
+      "missing": false,
+      "wikitextLength": 1082
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrMoveState Interface",
+      "pageid": 2260,
+      "revisionId": 3931,
+      "revisionTimestamp": "2020-08-06T15:09:30Z",
+      "missing": false,
+      "wikitextLength": 2682
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrPlayer Interface",
+      "pageid": 2261,
+      "revisionId": 3932,
+      "revisionTimestamp": "2020-08-06T15:09:44Z",
+      "missing": false,
+      "wikitextLength": 4818
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrPlayerState Interface",
+      "pageid": 2262,
+      "revisionId": 3933,
+      "revisionTimestamp": "2020-08-06T15:09:52Z",
+      "missing": false,
+      "wikitextLength": 3804
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrProp Interface",
+      "pageid": 2263,
+      "revisionId": 3934,
+      "revisionTimestamp": "2020-08-06T15:10:13Z",
+      "missing": false,
+      "wikitextLength": 1186
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iScrUserModule Interface",
+      "pageid": 2264,
+      "revisionId": 3935,
+      "revisionTimestamp": "2020-08-06T15:10:25Z",
+      "missing": false,
+      "wikitextLength": 3466
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iSoundChannel",
+      "pageid": 2265,
+      "revisionId": 3936,
+      "revisionTimestamp": "2020-08-06T15:10:34Z",
+      "missing": false,
+      "wikitextLength": 4475
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iSoundData",
+      "pageid": 2266,
+      "revisionId": 3937,
+      "revisionTimestamp": "2020-08-06T15:10:42Z",
+      "missing": false,
+      "wikitextLength": 286
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iSoundEvent",
+      "pageid": 2267,
+      "revisionId": 3938,
+      "revisionTimestamp": "2020-08-06T15:10:51Z",
+      "missing": false,
+      "wikitextLength": 5005
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iSoundEventData",
+      "pageid": 2268,
+      "revisionId": 3939,
+      "revisionTimestamp": "2020-08-06T15:11:01Z",
+      "missing": false,
+      "wikitextLength": 2263
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iSoundEventProject",
+      "pageid": 2269,
+      "revisionId": 3940,
+      "revisionTimestamp": "2020-08-06T15:11:18Z",
+      "missing": false,
+      "wikitextLength": 1167
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iSubAction",
+      "pageid": 2270,
+      "revisionId": 3941,
+      "revisionTimestamp": "2020-08-06T15:11:32Z",
+      "missing": false,
+      "wikitextLength": 629
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iTexture",
+      "pageid": 2271,
+      "revisionId": 3942,
+      "revisionTimestamp": "2020-08-06T15:11:41Z",
+      "missing": false,
+      "wikitextLength": 282
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iVerletParticleContainer",
+      "pageid": 2272,
+      "revisionId": 3943,
+      "revisionTimestamp": "2020-08-06T15:11:55Z",
+      "missing": false,
+      "wikitextLength": 5070
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iVertexBuffer",
+      "pageid": 2273,
+      "revisionId": 3944,
+      "revisionTimestamp": "2020-08-06T15:12:06Z",
+      "missing": false,
+      "wikitextLength": 566
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iVideoStream",
+      "pageid": 2274,
+      "revisionId": 3945,
+      "revisionTimestamp": "2020-08-06T15:12:14Z",
+      "missing": false,
+      "wikitextLength": 290
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iViewportCallback",
+      "pageid": 2275,
+      "revisionId": 3946,
+      "revisionTimestamp": "2020-08-06T15:12:24Z",
+      "missing": false,
+      "wikitextLength": 300
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iWidget",
+      "pageid": 2276,
+      "revisionId": 3947,
+      "revisionTimestamp": "2020-08-06T15:12:39Z",
+      "missing": false,
+      "wikitextLength": 9926
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iWidgetMenu",
+      "pageid": 2277,
+      "revisionId": 3948,
+      "revisionTimestamp": "2020-08-06T15:12:50Z",
+      "missing": false,
+      "wikitextLength": 12657
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iXmlDocument",
+      "pageid": 2278,
+      "revisionId": 3949,
+      "revisionTimestamp": "2020-08-06T15:13:01Z",
+      "missing": false,
+      "wikitextLength": 6728
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/iXmlNode",
+      "pageid": 2279,
+      "revisionId": 3950,
+      "revisionTimestamp": "2020-08-06T15:13:12Z",
+      "missing": false,
+      "wikitextLength": 2225
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/tID",
+      "pageid": 2280,
+      "revisionId": 3951,
+      "revisionTimestamp": "2020-08-06T15:13:23Z",
+      "missing": false,
+      "wikitextLength": 272
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/tString",
+      "pageid": 1977,
+      "revisionId": 3952,
+      "revisionTimestamp": "2020-08-06T15:13:33Z",
+      "missing": false,
+      "wikitextLength": 1811
+    },
+    {
+      "title": "HPL3/SOMA/Scripting/tWString",
+      "pageid": 1978,
+      "revisionId": 3953,
+      "revisionTimestamp": "2020-08-06T15:13:45Z",
+      "missing": false,
+      "wikitextLength": 554
+    },
+    {
+      "title": "HPL3/SOMA/Sound",
+      "pageid": 1953,
+      "revisionId": 7173,
+      "revisionTimestamp": "2026-07-30T22:22:26Z",
+      "missing": false,
+      "wikitextLength": 954
+    },
+    {
+      "title": "HPL3/SOMA/Third Party Tools",
+      "pageid": 1935,
+      "revisionId": 7168,
+      "revisionTimestamp": "2026-07-30T22:17:41Z",
+      "missing": false,
+      "wikitextLength": 866
+    },
+    {
+      "title": "HPL3/SOMA/Third Party Tools/SOMA Mod Manager",
+      "pageid": 2665,
+      "revisionId": 5208,
+      "revisionTimestamp": "2020-08-27T14:55:04Z",
+      "missing": false,
+      "wikitextLength": 1671
+    },
+    {
+      "title": "HPL3/SOMA/Third Party Tools/SOMA Text Search Tool",
+      "pageid": 2671,
+      "revisionId": 5184,
+      "revisionTimestamp": "2020-08-26T21:11:21Z",
+      "missing": false,
+      "wikitextLength": 1082
+    },
+    {
+      "title": "HPL3/SOMA/Tutorials",
+      "pageid": 2677,
+      "revisionId": 7112,
+      "revisionTimestamp": "2026-07-30T10:39:21Z",
+      "missing": false,
+      "wikitextLength": 1311
+    },
+    {
+      "title": "HPL3/SOMA/Tutorials/Scripting/Amnesia-Style Inventory Script Reference",
+      "pageid": 2684,
+      "revisionId": 5236,
+      "revisionTimestamp": "2020-08-27T19:58:58Z",
+      "missing": false,
+      "wikitextLength": 9506
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals",
+      "pageid": 98,
+      "revisionId": 4609,
+      "revisionTimestamp": "2020-08-15T21:02:04Z",
+      "missing": false,
+      "wikitextLength": 392
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 1 - Introduction",
+      "pageid": 2510,
+      "revisionId": 4611,
+      "revisionTimestamp": "2020-08-15T21:11:03Z",
+      "missing": false,
+      "wikitextLength": 3444
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 2 - Structure of a Script",
+      "pageid": 2511,
+      "revisionId": 4618,
+      "revisionTimestamp": "2020-08-16T10:19:16Z",
+      "missing": false,
+      "wikitextLength": 11087
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 3 - Variables and Types",
+      "pageid": 2512,
+      "revisionId": 4397,
+      "revisionTimestamp": "2020-08-15T16:08:45Z",
+      "missing": false,
+      "wikitextLength": 16520
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 4 - Operators and Expressions",
+      "pageid": 2513,
+      "revisionId": 4573,
+      "revisionTimestamp": "2020-08-15T20:13:28Z",
+      "missing": false,
+      "wikitextLength": 20790
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 5 - Statements and Flow Control",
+      "pageid": 2514,
+      "revisionId": 4574,
+      "revisionTimestamp": "2020-08-15T20:14:03Z",
+      "missing": false,
+      "wikitextLength": 20844
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 6 - Functions",
+      "pageid": 2515,
+      "revisionId": 4615,
+      "revisionTimestamp": "2020-08-16T08:55:01Z",
+      "missing": false,
+      "wikitextLength": 13579
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 7 - Calling Other Scripts",
+      "pageid": 2517,
+      "revisionId": 4590,
+      "revisionTimestamp": "2020-08-15T20:26:53Z",
+      "missing": false,
+      "wikitextLength": 11354
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 8 - Classes",
+      "pageid": 2518,
+      "revisionId": 6191,
+      "revisionTimestamp": "2020-11-18T19:08:20Z",
+      "missing": false,
+      "wikitextLength": 13705
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 9 - Miscellaneous AngelScript Features",
+      "pageid": 2519,
+      "revisionId": 4627,
+      "revisionTimestamp": "2020-08-16T10:54:11Z",
+      "missing": false,
+      "wikitextLength": 51901
+    },
+    {
+      "title": "HPL3/Scripting/AngelScript Fundamentals/What's Next",
+      "pageid": 2520,
+      "revisionId": 4623,
+      "revisionTimestamp": "2020-08-16T10:30:33Z",
+      "missing": false,
+      "wikitextLength": 917
+    },
+    {
+      "title": "HPL3/Scripting/Calling Functions and Function Callbacks",
+      "pageid": 2468,
+      "revisionId": 4613,
+      "revisionTimestamp": "2020-08-16T08:52:03Z",
+      "missing": false,
+      "wikitextLength": 2769
+    },
+    {
+      "title": "HPL3/Scripting/Entity Components",
+      "pageid": 2563,
+      "revisionId": 4774,
+      "revisionTimestamp": "2020-08-21T11:09:04Z",
+      "missing": false,
+      "wikitextLength": 10938
+    },
+    {
+      "title": "HPL3/Scripting/Enums",
+      "pageid": 2491,
+      "revisionId": 4636,
+      "revisionTimestamp": "2020-08-16T19:40:49Z",
+      "missing": false,
+      "wikitextLength": 2481
+    },
+    {
+      "title": "HPL3/Scripting/HPL3 Scripting Guide",
+      "pageid": 2410,
+      "revisionId": 4610,
+      "revisionTimestamp": "2020-08-15T21:09:09Z",
+      "missing": false,
+      "wikitextLength": 406
+    },
+    {
+      "title": "HPL3/Scripting/Hello World",
+      "pageid": 2463,
+      "revisionId": 4630,
+      "revisionTimestamp": "2020-08-16T10:58:27Z",
+      "missing": false,
+      "wikitextLength": 2334
+    },
+    {
+      "title": "HPL3/Scripting/Helper Files",
+      "pageid": 2470,
+      "revisionId": 5243,
+      "revisionTimestamp": "2020-08-28T10:29:03Z",
+      "missing": false,
+      "wikitextLength": 4920
+    },
+    {
+      "title": "HPL3/Scripting/ID Handles",
+      "pageid": 2683,
+      "revisionId": 5227,
+      "revisionTimestamp": "2020-08-27T19:29:55Z",
+      "missing": false,
+      "wikitextLength": 2378
+    },
+    {
+      "title": "HPL3/Scripting/Level Scripting - Best Practices",
+      "pageid": 2682,
+      "revisionId": 6828,
+      "revisionTimestamp": "2024-06-10T22:23:51Z",
+      "missing": false,
+      "wikitextLength": 18828
+    },
+    {
+      "title": "HPL3/Scripting/Local and Global Variables",
+      "pageid": 2490,
+      "revisionId": 4628,
+      "revisionTimestamp": "2020-08-16T10:55:32Z",
+      "missing": false,
+      "wikitextLength": 3618
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Advanced Topics - Introduction",
+      "pageid": 2523,
+      "revisionId": 4648,
+      "revisionTimestamp": "2020-08-16T20:31:05Z",
+      "missing": false,
+      "wikitextLength": 702
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Calling Functions and Function Callbacks",
+      "pageid": 2468,
+      "revisionId": 4613,
+      "revisionTimestamp": "2020-08-16T08:52:03Z",
+      "missing": false,
+      "wikitextLength": 2769
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Conclusion - Advanced",
+      "pageid": 2524,
+      "revisionId": 4659,
+      "revisionTimestamp": "2020-08-17T09:54:49Z",
+      "missing": false,
+      "wikitextLength": 1120
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Conclusion - Basic",
+      "pageid": 2507,
+      "revisionId": 4639,
+      "revisionTimestamp": "2020-08-16T19:44:03Z",
+      "missing": false,
+      "wikitextLength": 1367
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Enums",
+      "pageid": 2491,
+      "revisionId": 4636,
+      "revisionTimestamp": "2020-08-16T19:40:49Z",
+      "missing": false,
+      "wikitextLength": 2481
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Hello World",
+      "pageid": 2463,
+      "revisionId": 4630,
+      "revisionTimestamp": "2020-08-16T10:58:27Z",
+      "missing": false,
+      "wikitextLength": 2334
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Helper Files",
+      "pageid": 2470,
+      "revisionId": 5243,
+      "revisionTimestamp": "2020-08-28T10:29:03Z",
+      "missing": false,
+      "wikitextLength": 4920
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Local and Global Variables",
+      "pageid": 2490,
+      "revisionId": 4628,
+      "revisionTimestamp": "2020-08-16T10:55:32Z",
+      "missing": false,
+      "wikitextLength": 3618
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Object Handles",
+      "pageid": 3388,
+      "revisionId": 7044,
+      "revisionTimestamp": "2026-07-30T08:01:48Z",
+      "missing": false,
+      "wikitextLength": 11425
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Object Instances vs Object Handles",
+      "pageid": 3389,
+      "revisionId": 7045,
+      "revisionTimestamp": "2026-07-30T08:08:44Z",
+      "missing": false,
+      "wikitextLength": 13605
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Scripting Workflow and Structure",
+      "pageid": 2462,
+      "revisionId": 5502,
+      "revisionTimestamp": "2020-11-07T13:05:31Z",
+      "missing": false,
+      "wikitextLength": 7154
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Sequences",
+      "pageid": 2476,
+      "revisionId": 4325,
+      "revisionTimestamp": "2020-08-14T11:23:41Z",
+      "missing": false,
+      "wikitextLength": 3083
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Setting up CodeLite",
+      "pageid": 2447,
+      "revisionId": 4361,
+      "revisionTimestamp": "2020-08-14T23:42:41Z",
+      "missing": false,
+      "wikitextLength": 5999
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Setting up Visual Studio Code",
+      "pageid": 92,
+      "revisionId": 7170,
+      "revisionTimestamp": "2026-07-30T22:18:53Z",
+      "missing": false,
+      "wikitextLength": 10683
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/The Basics - Introduction",
+      "pageid": 2442,
+      "revisionId": 4354,
+      "revisionTimestamp": "2020-08-14T23:20:25Z",
+      "missing": false,
+      "wikitextLength": 1946
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/The OnAction method",
+      "pageid": 2472,
+      "revisionId": 4321,
+      "revisionTimestamp": "2020-08-14T10:53:22Z",
+      "missing": false,
+      "wikitextLength": 2768
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/The Update method",
+      "pageid": 2473,
+      "revisionId": 4322,
+      "revisionTimestamp": "2020-08-14T10:53:37Z",
+      "missing": false,
+      "wikitextLength": 2590
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Timers",
+      "pageid": 2475,
+      "revisionId": 4320,
+      "revisionTimestamp": "2020-08-14T10:52:48Z",
+      "missing": false,
+      "wikitextLength": 2256
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Type Casting",
+      "pageid": 3390,
+      "revisionId": 7046,
+      "revisionTimestamp": "2026-07-30T08:21:01Z",
+      "missing": false,
+      "wikitextLength": 14397
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/What is scripting in HPL3?",
+      "pageid": 2446,
+      "revisionId": 4298,
+      "revisionTimestamp": "2020-08-13T21:04:41Z",
+      "missing": false,
+      "wikitextLength": 960
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Guide/Working with Classes",
+      "pageid": 2522,
+      "revisionId": 4647,
+      "revisionTimestamp": "2020-08-16T20:30:48Z",
+      "missing": false,
+      "wikitextLength": 2241
+    },
+    {
+      "title": "HPL3/Scripting/Scripting Workflow and Structure",
+      "pageid": 2462,
+      "revisionId": 5502,
+      "revisionTimestamp": "2020-11-07T13:05:31Z",
+      "missing": false,
+      "wikitextLength": 7154
+    },
+    {
+      "title": "HPL3/Scripting/Sequences",
+      "pageid": 2476,
+      "revisionId": 4325,
+      "revisionTimestamp": "2020-08-14T11:23:41Z",
+      "missing": false,
+      "wikitextLength": 3083
+    },
+    {
+      "title": "HPL3/Scripting/Setting up CodeLite",
+      "pageid": 2447,
+      "revisionId": 4361,
+      "revisionTimestamp": "2020-08-14T23:42:41Z",
+      "missing": false,
+      "wikitextLength": 5999
+    },
+    {
+      "title": "HPL3/Scripting/The Basics - Introduction",
+      "pageid": 2442,
+      "revisionId": 4354,
+      "revisionTimestamp": "2020-08-14T23:20:25Z",
+      "missing": false,
+      "wikitextLength": 1946
+    },
+    {
+      "title": "HPL3/Scripting/The OnAction method",
+      "pageid": 2472,
+      "revisionId": 4321,
+      "revisionTimestamp": "2020-08-14T10:53:22Z",
+      "missing": false,
+      "wikitextLength": 2768
+    },
+    {
+      "title": "HPL3/Scripting/The Update method",
+      "pageid": 2473,
+      "revisionId": 4322,
+      "revisionTimestamp": "2020-08-14T10:53:37Z",
+      "missing": false,
+      "wikitextLength": 2590
+    },
+    {
+      "title": "HPL3/Scripting/Timers",
+      "pageid": 2475,
+      "revisionId": 4320,
+      "revisionTimestamp": "2020-08-14T10:52:48Z",
+      "missing": false,
+      "wikitextLength": 2256
+    },
+    {
+      "title": "HPL3/Scripting/Trigger Areas",
+      "pageid": null,
+      "revisionId": null,
+      "revisionTimestamp": null,
+      "missing": true,
+      "wikitextLength": 0
+    },
+    {
+      "title": "HPL3/Scripting/User Modules Overview",
+      "pageid": 2406,
+      "revisionId": 3346,
+      "revisionTimestamp": "2020-08-04T13:40:01Z",
+      "missing": false,
+      "wikitextLength": 17363
+    },
+    {
+      "title": "HPL3/Scripting/What is scripting in HPL3?",
+      "pageid": 2446,
+      "revisionId": 4298,
+      "revisionTimestamp": "2020-08-13T21:04:41Z",
+      "missing": false,
+      "wikitextLength": 960
+    },
+    {
+      "title": "HPL3/Shaders",
+      "pageid": 3379,
+      "revisionId": 7011,
+      "revisionTimestamp": "2025-04-23T21:49:35Z",
+      "missing": false,
+      "wikitextLength": 380
+    },
+    {
+      "title": "HPL3/Shaders/HPSL Shading Language",
+      "pageid": 3380,
+      "revisionId": 6831,
+      "revisionTimestamp": "2024-09-12T22:17:54Z",
+      "missing": false,
+      "wikitextLength": 13529
+    },
+    {
+      "title": "HPL3/Shaders/Overwriting Existing Shaders",
+      "pageid": 3381,
+      "revisionId": 6841,
+      "revisionTimestamp": "2024-09-13T22:14:16Z",
+      "missing": false,
+      "wikitextLength": 3886
+    },
+    {
+      "title": "HPL3/Sound/Playing Sounds",
+      "pageid": 3463,
+      "revisionId": 7175,
+      "revisionTimestamp": "2026-07-30T22:23:08Z",
+      "missing": false,
+      "wikitextLength": 1774
+    },
+    {
+      "title": "HPL3/Sound/Working with FMod Designer 2010",
+      "pageid": 3462,
+      "revisionId": 7174,
+      "revisionTimestamp": "2026-07-30T22:22:42Z",
+      "missing": false,
+      "wikitextLength": 16822
+    },
+    {
+      "title": "HPL3/Third Party Tools/HPL3 Mod Manager",
+      "pageid": 2746,
+      "revisionId": 7034,
+      "revisionTimestamp": "2026-04-24T11:30:15Z",
+      "missing": false,
+      "wikitextLength": 12063
+    },
+    {
+      "title": "HPL3/Troubleshooting",
+      "pageid": 561,
+      "revisionId": 4747,
+      "revisionTimestamp": "2020-08-21T09:45:25Z",
+      "missing": false,
+      "wikitextLength": 4155
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "pageid": 2111,
+  "title": "HPL3/SOMA/Scripting/cLuxScreenTextFormatParameters",
+  "missing": false,
+  "redirect": false,
+  "length": 799,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3657,
+  "revisionTimestamp": "2020-08-06T14:02:03Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| mfIconGamepadHeight || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfIconKeyHeight || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfIconMouseHeight || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mfOutputLineWidth || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| mLabelText || [[../cImGuiLabelData|<syntaxhighlight lang=\"c++\" inline>cImGuiLabelData</syntaxhighlight>]] ||\n|}\n\n==Functions==\n\ncLuxScreenTextFormatParameters has no public functions\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxScreenTextFormatParameters",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLuxScreenTextFormatParameters"
+}

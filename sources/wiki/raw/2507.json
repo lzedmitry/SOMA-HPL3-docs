@@ -1,0 +1,14 @@
+{
+  "pageid": 2507,
+  "title": "HPL3/Scripting/Scripting Guide/Conclusion - Basic",
+  "missing": false,
+  "redirect": false,
+  "length": 1367,
+  "touched": "2026-07-29T23:55:12Z",
+  "revisionId": 4639,
+  "revisionTimestamp": "2020-08-16T19:44:03Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{Hpl3ScriptingGuideMenuBasic}}\n{{shortPageTitle}}\n{| style=\"border:0px;\" cellspacing=\"0\"\n|- valign=\"top\"\n| style=\"padding-right:0.2em\" |\nIn this section of the guide, we learned:\n* The concept of scripting in HPL3\n* How to set up the scripting tool CodeLite\n* The structure of a map script file\n* The concept of calling functions and function callbacks\n* How to use and create Helper Files\n* How to use and create Timers and Sequences\n* How and when to use local and global variables\n* Enums usage in scripting\n\nYou can now make simple and complex scripting scenarios for your maps. All you need to do is to get familiar with the available functions the game offers.\n<br>\n{{tip|If you want to learn how to have more control over objects and how to work with classes, you may begin with the [[HPL3/Scripting/Scripting_Guide/Advanced Topics - Introduction| advanced section]] of this guide.}}\n\n==Further Reading==\n* [[Advice for Scripting|Advice for Scripting]]\n* [[Hpl3:Game:guides:scripters_guide|Level Scripting - Best Practices]]\n* [[HPL3/SOMA/Scripting/Scripting Api|Scripting Api]] - SOMA\n* [[HPL3/Amnesia: Rebirth/Scripting/Scripting Api|Scripting Api]] - Amnesia: Rebirth\n| style=\"width:0.1%\" |\n|}\n{{NavBar|HPL3/Scripting/Scripting_Guide/Enums|Enums|HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide||}}\n\n[[Category:HPL3 Scripting]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Conclusion_-_Basic",
+  "requestedTitle": "HPL3/Scripting/Scripting Guide/Conclusion - Basic"
+}

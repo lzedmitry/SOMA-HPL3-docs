@@ -1,0 +1,14 @@
+{
+  "pageid": 1998,
+  "title": "HPL3/SOMA/Scripting/cDate",
+  "missing": false,
+  "redirect": false,
+  "length": 990,
+  "touched": "2020-08-27T22:05:55Z",
+  "revisionId": 3546,
+  "revisionTimestamp": "2020-08-06T13:26:06Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| hours || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| minutes || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| month || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| month_day || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| seconds || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| week_day || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| year || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|-\n| year_day || <syntaxhighlight lang=\"c++\" inline>int</syntaxhighlight> ||\n|}\n\n==Functions==\n\ncDate has no public functions\n\n==Remarks==\n\nTo get the current date, use the [[cSystem_GetDate]] function.\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cDate",
+  "requestedTitle": "HPL3/SOMA/Scripting/cDate"
+}

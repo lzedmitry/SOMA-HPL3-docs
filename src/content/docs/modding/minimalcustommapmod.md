@@ -1,0 +1,34 @@
+---
+title: MinimalCustomMapMod
+description: The MinimalStandaloneMod comes with the instillation of SOMA and provides a minimal standalone mod for you to work with. It is recommended to use this mod as a base for your own standalone mods.
+category: modding
+sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/MinimalCustomMapMod"
+sourceRevision: 2697
+sourceUpdated: "2020-08-02T17:49:00Z"
+lastSynced: "2026-08-28T18:40:04Z"
+sourceStatus: verified
+generated: true
+tags:
+  - modding
+---
+The MinimalStandaloneMod comes with the instillation of SOMA and provides a minimal standalone mod for you to work with. It is recommended to use this mod as a base for your own standalone mods.
+
+## Mirror Download
+This section is dedicated to hosting a clean copy of the minimal standalone mod. It is unlikely you will need to download it directly from this page, but it will be made available here should an issue occur.
+
+If there is an issue with your local minimal standalone mod, it is highly recommended to repair your installation. Steam users may do so by verifying their game cache. GOG users may do so by performing a repair on their installation. These procedures will verify your current editors are up-to-date and working, as well as repair any corrupted files within the SOMA sub-directory.
+
+**Installation:** Download and extract the folder inside the .zip file into your **mods** folder which is located inside the SOMA game directory.
+
+| Mod | Upload Date |
+| --- | --- |
+| [MinimalCustomMapMod.zip](https://drive.google.com/file/d/18Yjn-SOaNgX3LYXA2O8rzHCNK8Gqsh03/view?usp=sharing) | 1 August, 2020 |
+
+## Source & attribution
+
+- Original Frictional Wiki page: [HPL3/SOMA/Modding/MinimalCustomMapMod](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/MinimalCustomMapMod)
+- Revision: `2697`
+- Source update: `2020-08-02T17:49:00Z`
+- Last synced: `2026-08-28T18:40:04Z`
+
+This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

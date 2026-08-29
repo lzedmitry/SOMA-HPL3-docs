@@ -1,0 +1,14 @@
+{
+  "pageid": 3360,
+  "title": "HPL3/Areas/Fog Area",
+  "missing": false,
+  "redirect": false,
+  "length": 1071,
+  "touched": "2024-01-25T22:14:34Z",
+  "revisionId": 6750,
+  "revisionTimestamp": "2024-01-25T22:14:34Z",
+  "revisionUser": "Lil alex",
+  "wikitext": "== Overview ==\nThe Fog Area is used to create the appearance of fog in a map\n\n== Properties ==\n=== Fog ===\n* '''Color''': The color of the fog\n* '''Brightness''': The brightness multiplier of the fog\n* '''Start''': The distance from the camera to begin fading in the fog\n* '''End''': The distance from the camera for the fog to be fully faded in\n* '''FalloffExp''': The falloff exponent to be used to calculate the gradient between the start and end values\n* '''Show backside when inside''': Renders the back face of the fog volume when inside the area. Can make the fog look like it extends farther\n* '''Show backside when outside''': Renders the back face of the fog volume when outside the area. Can make the fog look like it is confined to a container\n* '''Underwater''': If the underwater settings should be applied\n* '''Noise strength''': The appearance of how noisy the fog is\n* '''Noise size''': The size scaling of the noise\n* '''Noise turbulence''': A 3D movment vector that the noise should move along\n* '''Use Skybox''': If the fog should use the skybox color",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/Fog_Area",
+  "requestedTitle": "HPL3/Areas/Fog Area"
+}

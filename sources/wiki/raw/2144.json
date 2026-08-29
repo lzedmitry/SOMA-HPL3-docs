@@ -1,0 +1,14 @@
+{
+  "pageid": 2144,
+  "title": "HPL3/SOMA/Scripting/cPlanef",
+  "missing": false,
+  "redirect": false,
+  "length": 1507,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3688,
+  "revisionTimestamp": "2020-08-06T14:14:03Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\n{| class=\"wikitable\"\n! Field Name !! Type !! Description\n|-\n| a || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| b || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| c || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|-\n| d || <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> ||\n|}\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || FromNormalPoint || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& avNormal</syntaxhighlight>]],<br />[[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& avPoint</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || FromPoints || [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& avPoint0</syntaxhighlight>]],<br />[[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& avPoint1</syntaxhighlight>]],<br />[[../cVector3f|<syntaxhighlight lang=\"c++\" inline>const cVector3f& avPoint2</syntaxhighlight>]] ||\n|-\n| [[../cVector3f|<syntaxhighlight lang=\"c++\" inline>cVector3f</syntaxhighlight>]] || GetNormal ||  ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || Normalize ||   ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPlanef",
+  "requestedTitle": "HPL3/SOMA/Scripting/cPlanef"
+}

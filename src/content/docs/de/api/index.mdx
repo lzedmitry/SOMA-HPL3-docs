@@ -1,0 +1,40 @@
+---
+title: "API-Referenz"
+description: "Durchsuchbarer Index der AngelScript-Funktionen aus dem Wiki-CodeDoc-Dump für SOMA."
+category: api
+translation:
+  locale: de
+  sourceLocale: en
+  sourceRevision: 1
+  translationRevision: 1
+  status: current
+---
+
+import ApiBrowser from "../../../../components/ApiBrowser.astro";
+
+<p class="section-kicker">04 // API &nbsp; REF 04.90</p>
+
+Dieser Index stammt aus den generierten Wiki-`CodeDoc`-Seiten unter `HPL3/SOMA/Scripting`. Die meisten Funktionsrümpfe haben **keine Beschreibung**. Signatur, Parameternamen und Rückgabetypen bleiben. Nichts wird geraten.
+
+Der Filter ist Klartext über Name, Klasse und Signatur. `cScript_` und `GetGlobalArg` funktionieren beide.
+
+<ApiBrowser />
+
+## Klassenseite lesen
+
+Jede Klassen-/Kategorieseite behält: Funktionstabelle, Signatur (AngelScript), Parametertabelle und „Undocumented“, wenn das Wiki keinen Text hatte.
+
+Verwandte Typen (`tString`, `cVector3f`, …) sind eigene Klassenseiten, wenn das Wiki sie hatte.
+
+Gameplay-Helper-Gruppen (`Entity`, `Prop`, `Map`, `Light`, …) liegen unter [api/categories](/de/api/categories/entity/).
+
+## Siehe auch
+
+- [Scripting guide](/de/scripting/)
+- [Common patterns](/de/scripting/common-patterns/)
+- [Helpers](/de/scripting/helpers/)
+
+## Quellen
+
+- [HPL3/SOMA/Scripting/Scripting Api](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api)
+

@@ -1,0 +1,14 @@
+{
+  "pageid": 2098,
+  "title": "HPL3/SOMA/Scripting/cLuxLightSensor",
+  "missing": false,
+  "redirect": false,
+  "length": 1131,
+  "touched": "2020-08-27T22:05:47Z",
+  "revisionId": 3644,
+  "revisionTimestamp": "2020-08-06T13:56:28Z",
+  "revisionUser": "Abion47",
+  "wikitext": "{{ScriptingStub}}\n\nHave some helpful descriptions to add to this class? Edit this page and add your insight to the Wiki!\n\n==Fields==\n\ncLuxLightSensor has no public fields.\n\n==Functions==\n\n{| class=\"wikitable\"\n! Return Type !! Function Name !! Parameters !! Description\n|-\n| [[../iLuxEntity|<syntaxhighlight lang=\"c++\" inline>iLuxEntity@</syntaxhighlight>]] || GetEntity ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>float</syntaxhighlight> || GetSensitivityLevel ||   ||\n|-\n| [[../eLuxEntityComponentType|<syntaxhighlight lang=\"c++\" inline>eLuxEntityComponentType</syntaxhighlight>]] || GetType ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>bool</syntaxhighlight> || IsSensoring ||   ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || LoadFromInstanceVariables || [[../cResourceVarsObject|<syntaxhighlight lang=\"c++\" inline>cResourceVarsObject@ apInstanceVars</syntaxhighlight>]] ||\n|-\n| <syntaxhighlight lang=\"c++\" inline>void</syntaxhighlight> || SetSensitivityLevel || <syntaxhighlight lang=\"c++\" inline>float afX</syntaxhighlight> ||\n|}\n\n{{ReferencesSection}}\n\n{{HPL3SOMAScriptingCategories}}\n__FORCETOC__",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxLightSensor",
+  "requestedTitle": "HPL3/SOMA/Scripting/cLuxLightSensor"
+}

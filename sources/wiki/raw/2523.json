@@ -1,0 +1,14 @@
+{
+  "pageid": 2523,
+  "title": "HPL3/Scripting/Scripting Guide/Advanced Topics - Introduction",
+  "missing": false,
+  "redirect": false,
+  "length": 702,
+  "touched": "2026-07-30T08:21:03Z",
+  "revisionId": 4648,
+  "revisionTimestamp": "2020-08-16T20:31:05Z",
+  "revisionUser": "TiMan",
+  "wikitext": "{{shortPageTitle}}\n{{Hpl3ScriptingGuideMenuAdvanced}}\n{| style=\"border:0px;\" cellspacing=\"0\"\n|- valign=\"top\"\n| style=\"padding-right:0.2em\" |\n'''Welcome to the advanced scripting guide for the HPL3 Engine.'''\n\nHere you can expect to find information on performing some more advanced scripting in your map, and outside of it.\n{{Note|Bear in mind that there are more concepts to learn about the engine beyond this guide, see the main scripting page for the desired game you work with.}}\n| style=\"width:0.1%\" |\n|}\n{{NavBar|||HPL3/Scripting/HPL3 Scripting Guide|HPL3 Scripting Guide|HPL3/Scripting/Scripting Guide/Working with Classes|Working with Classes}}\n\n[[Category:HPL3 Scripting]]\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Advanced_Topics_-_Introduction",
+  "requestedTitle": "HPL3/Scripting/Scripting Guide/Advanced Topics - Introduction"
+}

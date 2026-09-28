@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Meter"
 sourceRevision: 5042
 sourceUpdated: "2020-08-24T20:56:58Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -23,7 +23,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Meter_SetShakeMul`
 
-```angelscript
+```cpp
 void Meter_SetShakeMul(const tString &in asName,
                        float afShakeMul)
 ```
@@ -39,7 +39,7 @@ Sets the shake multiplier of the needle object in meter.
 
     1. `Meter_SetSpeedMul`
 
-```angelscript
+```cpp
 void Meter_SetSpeedMul(const tString &in asName,
                        float afSpeedMul)
 ```
@@ -55,7 +55,7 @@ Sets the speed multiplier of the needle object in meter.
 
     1. `Meter_SetState`
 
-```angelscript
+```cpp
 void Meter_SetState(const tString &in asName,
                     float afState,
                     bool abFadeToState = true)
@@ -76,6 +76,6 @@ Sets the state of the needle object in meter. Which then makes the needle move t
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Meter](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Meter)
 - Revision: `5042`
 - Source update: `2020-08-24T20:56:58Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

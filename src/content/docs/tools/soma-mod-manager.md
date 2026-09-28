@@ -5,7 +5,7 @@ category: tools
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Third_Party_Tools/SOMA_Mod_Manager"
 sourceRevision: 5208
 sourceUpdated: "2020-08-27T14:55:04Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -42,6 +42,6 @@ The application can be run from anywhere on your computer, but it is recommended
 - Original Frictional Wiki page: [HPL3/SOMA/Third Party Tools/SOMA Mod Manager](https://wiki.frictionalgames.com/page/HPL3/SOMA/Third_Party_Tools/SOMA_Mod_Manager)
 - Revision: `5208`
 - Source update: `2020-08-27T14:55:04Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

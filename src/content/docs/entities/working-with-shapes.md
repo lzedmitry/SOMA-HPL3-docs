@@ -5,7 +5,7 @@ category: entities
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Entities/Working_with_Shapes"
 sourceRevision: 7141
 sourceUpdated: "2026-07-30T21:59:19Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -41,6 +41,6 @@ This EditMode is used to create Shapes that will help in physics body creation. 
 - Original Frictional Wiki page: [HPL3/Entities/Working with Shapes](https://wiki.frictionalgames.com/page/HPL3/Entities/Working_with_Shapes)
 - Revision: `7141`
 - Source update: `2026-07-30T21:59:19Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

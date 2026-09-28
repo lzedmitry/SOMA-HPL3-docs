@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_4_-_Operators_and_Expressions"
 sourceRevision: 4573
 sourceUpdated: "2020-08-15T20:13:28Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -455,6 +455,6 @@ HPL3/Scripting/AngelScript Fundamentals/Chapter 3 - Variables and Types|Chapter 
 - Original Frictional Wiki page: [HPL3/Scripting/AngelScript Fundamentals/Chapter 4 - Operators and Expressions](https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_4_-_Operators_and_Expressions)
 - Revision: `4573`
 - Source update: `2020-08-15T20:13:28Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

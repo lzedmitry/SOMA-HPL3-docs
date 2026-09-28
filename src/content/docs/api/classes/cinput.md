@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cInput"
 sourceRevision: 5018
 sourceUpdated: "2020-08-24T20:48:56Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -46,7 +46,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cInput_BecameTriggered`
 
-```angelscript
+```cpp
 bool cInput_BecameTriggered(const tString &in asName)
 ```
 
@@ -62,7 +62,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_BecameTriggered`
 
-```angelscript
+```cpp
 bool cInput_BecameTriggered(int alId)
 ```
 
@@ -78,7 +78,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_CheckForInput`
 
-```angelscript
+```cpp
 bool cInput_CheckForInput()
 ```
 
@@ -90,7 +90,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_CreateAction`
 
-```angelscript
+```cpp
 cAction@ cInput_CreateAction(const tString &in asName,
                              int alId)
 ```
@@ -108,7 +108,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_DestroyAction`
 
-```angelscript
+```cpp
 void cInput_DestroyAction(cAction @apAction)
 ```
 
@@ -124,7 +124,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_DoubleTriggered`
 
-```angelscript
+```cpp
 bool cInput_DoubleTriggered(const tString &in asName,
                             float afLimit)
 ```
@@ -142,7 +142,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_DoubleTriggered`
 
-```angelscript
+```cpp
 bool cInput_DoubleTriggered(int alId,
                             float afLimit)
 ```
@@ -160,7 +160,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_GetAction`
 
-```angelscript
+```cpp
 cAction@ cInput_GetAction(const tString &in asName)
 ```
 
@@ -176,7 +176,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_GetAction`
 
-```angelscript
+```cpp
 cAction@ cInput_GetAction(int alId)
 ```
 
@@ -192,7 +192,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_GetEyeTracker`
 
-```angelscript
+```cpp
 iEyeTracker@ cInput_GetEyeTracker()
 ```
 
@@ -204,7 +204,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_GetKeyboard`
 
-```angelscript
+```cpp
 iKeyboard@ cInput_GetKeyboard()
 ```
 
@@ -216,7 +216,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_GetMouse`
 
-```angelscript
+```cpp
 iMouse@ cInput_GetMouse()
 ```
 
@@ -228,7 +228,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_InputToSubAction`
 
-```angelscript
+```cpp
 iSubAction@ cInput_InputToSubAction()
 ```
 
@@ -240,7 +240,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_IsTriggered`
 
-```angelscript
+```cpp
 bool cInput_IsTriggered(const tString &in asName)
 ```
 
@@ -256,7 +256,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_IsTriggered`
 
-```angelscript
+```cpp
 bool cInput_IsTriggered(int alId)
 ```
 
@@ -272,7 +272,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_ResetActionsToCurrentState`
 
-```angelscript
+```cpp
 void cInput_ResetActionsToCurrentState()
 ```
 
@@ -284,7 +284,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_Update`
 
-```angelscript
+```cpp
 void cInput_Update(float afX)
 ```
 
@@ -300,7 +300,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_WasTriggered`
 
-```angelscript
+```cpp
 bool cInput_WasTriggered(const tString &in asName)
 ```
 
@@ -316,7 +316,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cInput_WasTriggered`
 
-```angelscript
+```cpp
 bool cInput_WasTriggered(int alId)
 ```
 
@@ -335,6 +335,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cInput](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cInput)
 - Revision: `5018`
 - Source update: `2020-08-24T20:48:56Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

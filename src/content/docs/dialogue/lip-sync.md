@@ -5,7 +5,7 @@ category: dialogue
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Audition/Lip_Sync"
 sourceRevision: 7167
 sourceUpdated: "2026-07-30T22:17:24Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -49,6 +49,6 @@ Can be used to edit the anno files. More to come…
 - Original Frictional Wiki page: [HPL3/SOMA/Audition/Lip Sync](https://wiki.frictionalgames.com/page/HPL3/SOMA/Audition/Lip_Sync)
 - Revision: `7167`
 - Source update: `2026-07-30T22:17:24Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

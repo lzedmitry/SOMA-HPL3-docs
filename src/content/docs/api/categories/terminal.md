@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Terminal"
 sourceRevision: 5053
 sourceUpdated: "2020-08-24T20:59:59Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -48,7 +48,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Terminal_FadeImGuiStateColor`
 
-```angelscript
+```cpp
 void Terminal_FadeImGuiStateColor(const tString &in asPropName,
                                   const tString &in asVarName,
                                   cColor aGoalVal,
@@ -74,7 +74,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_FadeImGuiStateFloat`
 
-```angelscript
+```cpp
 void Terminal_FadeImGuiStateFloat(const tString &in asPropName,
                                   const tString &in asVarName,
                                   float afGoalVal,
@@ -100,7 +100,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_FadeImGuiStateVector3f`
 
-```angelscript
+```cpp
 void Terminal_FadeImGuiStateVector3f(const tString &in asPropName,
                                      const tString &in asVarName,
                                      cVector3f avGoalVal,
@@ -126,7 +126,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_ForceCacheUpdate`
 
-```angelscript
+```cpp
 void Terminal_ForceCacheUpdate(const tString &in asName)
 ```
 
@@ -141,7 +141,7 @@ GUI from popping into view when the terminal switches from cache to normal rende
 
     1. `Terminal_GetImGuiStateBool`
 
-```angelscript
+```cpp
 bool Terminal_GetImGuiStateBool(const tString &in asPropName,
                                 const tString &in asVarName,
                                 bool alDefault = false)
@@ -161,7 +161,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_GetImGuiStateColor`
 
-```angelscript
+```cpp
 cColor Terminal_GetImGuiStateColor(const tString &in asPropName,
                                    const tString &in asVarName,
                                    const cColor &in aDefault)
@@ -181,7 +181,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_GetImGuiStateFloat`
 
-```angelscript
+```cpp
 float Terminal_GetImGuiStateFloat(const tString &in asPropName,
                                   const tString &in asVarName,
                                   float afDefault = 0.0f)
@@ -201,7 +201,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_GetImGuiStateInt`
 
-```angelscript
+```cpp
 int Terminal_GetImGuiStateInt(const tString &in asPropName,
                               const tString &in asVarName,
                               int alDefault = 0)
@@ -221,7 +221,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_GetImGuiStateVector3f`
 
-```angelscript
+```cpp
 cVector3f Terminal_GetImGuiStateVector3f(const tString &in asPropName,
                                          const tString &in asVarName,
                                          const cVector3f &in avDefault)
@@ -241,7 +241,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_IncImGuiStateColor`
 
-```angelscript
+```cpp
 void Terminal_IncImGuiStateColor(const tString &in asPropName,
                                  const tString &in asVarName,
                                  const cColor &in aVal)
@@ -261,7 +261,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_IncImGuiStateFloat`
 
-```angelscript
+```cpp
 void Terminal_IncImGuiStateFloat(const tString &in asPropName,
                                  const tString &in asVarName,
                                  float afVal)
@@ -281,7 +281,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_IncImGuiStateInt`
 
-```angelscript
+```cpp
 void Terminal_IncImGuiStateInt(const tString &in asPropName,
                                const tString &in asVarName,
                                int alVal)
@@ -301,7 +301,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_IncImGuiStateVector3f`
 
-```angelscript
+```cpp
 void Terminal_IncImGuiStateVector3f(const tString &in asPropName,
                                     const tString &in asVarName,
                                     const cVector3f &in avVal)
@@ -321,7 +321,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_IsGuiActive`
 
-```angelscript
+```cpp
 bool Terminal_IsGuiActive(const tString &in asName)
 ```
 
@@ -335,7 +335,7 @@ Get if the terminal GUI is active.
 
     1. `Terminal_SetAllowInteraction`
 
-```angelscript
+```cpp
 void Terminal_SetAllowInteraction(const tString &in asName,
                                   bool abX)
 ```
@@ -351,7 +351,7 @@ Set if the terminal should allow interaction from player
 
     1. `Terminal_SetEnterCallback`
 
-```angelscript
+```cpp
 void Terminal_SetEnterCallback(const tString &in asName,
                                const tString &in asCallback)
 ```
@@ -368,7 +368,7 @@ Syntax for callback function: void FuncName(const tString&in asEntityName)
 
     1. `Terminal_SetFPSWhenIdle`
 
-```angelscript
+```cpp
 void Terminal_SetFPSWhenIdle(const tString &in asName,
                              float afFPS)
 ```
@@ -384,7 +384,7 @@ Sets the FPS of the terminal when not in focus.
 
     1. `Terminal_SetGuiActive`
 
-```angelscript
+```cpp
 void Terminal_SetGuiActive(const tString &in asName,
                            bool abX,
                            float afFadeTime = 0.0f)
@@ -402,7 +402,7 @@ Set if the terminal should visible. If off, the offline color is used.
 
     1. `Terminal_SetImGuiStateBool`
 
-```angelscript
+```cpp
 void Terminal_SetImGuiStateBool(const tString &in asPropName,
                                 const tString &in asVarName,
                                 bool abVal)
@@ -422,7 +422,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_SetImGuiStateColor`
 
-```angelscript
+```cpp
 void Terminal_SetImGuiStateColor(const tString &in asPropName,
                                  const tString &in asVarName,
                                  const cColor &in aVal)
@@ -442,7 +442,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_SetImGuiStateFloat`
 
-```angelscript
+```cpp
 void Terminal_SetImGuiStateFloat(const tString &in asPropName,
                                  const tString &in asVarName,
                                  float afVal)
@@ -462,7 +462,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_SetImGuiStateInt`
 
-```angelscript
+```cpp
 void Terminal_SetImGuiStateInt(const tString &in asPropName,
                                const tString &in asVarName,
                                int alVal)
@@ -482,7 +482,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_SetImGuiStateVector3f`
 
-```angelscript
+```cpp
 void Terminal_SetImGuiStateVector3f(const tString &in asPropName,
                                     const tString &in asVarName,
                                     const cVector3f &in avVal)
@@ -502,7 +502,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_SetLeaveCallback`
 
-```angelscript
+```cpp
 void Terminal_SetLeaveCallback(const tString &in asName,
                                const tString &in asCallback)
 ```
@@ -519,7 +519,7 @@ Syntax for callback function: void FuncName(const tString&in asEntityName)
 
     1. `Terminal_SetOnGuiFunction`
 
-```angelscript
+```cpp
 void Terminal_SetOnGuiFunction(const tString &in asName,
                                const tString &in asCallback)
 ```
@@ -535,7 +535,7 @@ Set the terminal's GUI method
 
     1. `Terminal_SetShowMouse`
 
-```angelscript
+```cpp
 void Terminal_SetShowMouse(const tString &in asPropName,
                            bool abShow)
 ```
@@ -553,7 +553,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Terminal_SetUpdateWhenOutOfView`
 
-```angelscript
+```cpp
 void Terminal_SetUpdateWhenOutOfView(const tString &in asName,
                                      bool abX)
 ```
@@ -569,7 +569,7 @@ Set if the terminal should update when not visible. Use sparingly.
 
     1. `Terminal_StopImGuiFade`
 
-```angelscript
+```cpp
 void Terminal_StopImGuiFade(const tString &in asPropName,
                             const tString &in asVarName)
 ```
@@ -590,6 +590,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Terminal](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Terminal)
 - Revision: `5053`
 - Source update: `2020-08-24T20:59:59Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

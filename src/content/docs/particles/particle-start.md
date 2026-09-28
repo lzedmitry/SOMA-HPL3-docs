@@ -5,7 +5,7 @@ category: particles
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Start"
 sourceRevision: 7157
 sourceUpdated: "2026-07-30T22:15:07Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -23,6 +23,6 @@ tags:
 - Original Frictional Wiki page: [HPL3/Particles/Particle Start](https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Start)
 - Revision: `7157`
 - Source update: `2026-07-30T22:15:07Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

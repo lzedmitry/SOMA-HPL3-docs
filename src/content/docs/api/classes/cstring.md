@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cString"
 sourceRevision: 5026
 sourceUpdated: "2020-08-24T20:51:45Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -95,7 +95,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cString_AddSlashAtEnd`
 
-```angelscript
+```cpp
 tString cString_AddSlashAtEnd(const tString &in asPath)
 ```
 
@@ -111,7 +111,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_AddSlashAtEndW`
 
-```angelscript
+```cpp
 tWString cString_AddSlashAtEndW(const tWString &in asPath)
 ```
 
@@ -127,7 +127,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_CheckWildcardStrings`
 
-```angelscript
+```cpp
 bool cString_CheckWildcardStrings(const tString &in asStr,
                                   const tString &in asWildcardStr,
                                   tString &in avSubStringArray)
@@ -147,7 +147,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_CountCharsInString`
 
-```angelscript
+```cpp
 int cString_CountCharsInString(const tString &in aString,
                                const tString &in aChar)
 ```
@@ -165,7 +165,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_CountCharsInStringW`
 
-```angelscript
+```cpp
 int cString_CountCharsInStringW(const tWString &in aString,
                                 const tWString &in aChar)
 ```
@@ -183,7 +183,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_Get16BitFromArray`
 
-```angelscript
+```cpp
 tWString cString_Get16BitFromArray(const tString &in asArray)
 ```
 
@@ -199,7 +199,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFileExt`
 
-```angelscript
+```cpp
 tString cString_GetFileExt(const tString &in aString)
 ```
 
@@ -215,7 +215,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFileExtW`
 
-```angelscript
+```cpp
 tWString cString_GetFileExtW(const tWString &in aString)
 ```
 
@@ -231,7 +231,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFileName`
 
-```angelscript
+```cpp
 tString cString_GetFileName(const tString &in aString)
 ```
 
@@ -247,7 +247,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFileNameW`
 
-```angelscript
+```cpp
 tWString cString_GetFileNameW(const tWString &in aString)
 ```
 
@@ -263,7 +263,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFilePath`
 
-```angelscript
+```cpp
 tString cString_GetFilePath(const tString &in aString)
 ```
 
@@ -279,7 +279,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFilePathTopFolder`
 
-```angelscript
+```cpp
 tString cString_GetFilePathTopFolder(const tString &in aString)
 ```
 
@@ -295,7 +295,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFilePathTopFolderW`
 
-```angelscript
+```cpp
 tWString cString_GetFilePathTopFolderW(const tWString &in aString)
 ```
 
@@ -311,7 +311,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFilePathW`
 
-```angelscript
+```cpp
 tWString cString_GetFilePathW(const tWString &in aString)
 ```
 
@@ -327,7 +327,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFirstCharPos`
 
-```angelscript
+```cpp
 int cString_GetFirstCharPos(const tString &in aString,
                             int8 alChar)
 ```
@@ -345,7 +345,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFirstStringPos`
 
-```angelscript
+```cpp
 int cString_GetFirstStringPos(const tString &in aString,
                               const tString &in aChar)
 ```
@@ -363,7 +363,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFirstStringPosW`
 
-```angelscript
+```cpp
 int cString_GetFirstStringPosW(const tWString &in aString,
                                const tWString &in aChar)
 ```
@@ -381,7 +381,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetFloatVec`
 
-```angelscript
+```cpp
 void cString_GetFloatVec(const tString &in asData,
                          float &inout avOutFloats,
                          const tString &in asSepp)
@@ -401,7 +401,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetHash`
 
-```angelscript
+```cpp
 uint cString_GetHash(const tString &in asStr)
 ```
 
@@ -417,7 +417,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetHash64`
 
-```angelscript
+```cpp
 uint64 cString_GetHash64(const tString &in asStr)
 ```
 
@@ -433,7 +433,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetHash64W`
 
-```angelscript
+```cpp
 uint64 cString_GetHash64W(const tWString &in asStr)
 ```
 
@@ -449,7 +449,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetHashW`
 
-```angelscript
+```cpp
 uint cString_GetHashW(const tWString &in asStr)
 ```
 
@@ -465,7 +465,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetIntVec`
 
-```angelscript
+```cpp
 void cString_GetIntVec(const tString &in asData,
                        int &inout avOutInts,
                        const tString &in asSepp)
@@ -485,7 +485,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetLastChar`
 
-```angelscript
+```cpp
 tString cString_GetLastChar(const tString &in aString)
 ```
 
@@ -501,7 +501,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetLastCharPos`
 
-```angelscript
+```cpp
 int cString_GetLastCharPos(const tString &in aString,
                            int8 alChar)
 ```
@@ -519,7 +519,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetLastCharW`
 
-```angelscript
+```cpp
 tWString cString_GetLastCharW(const tWString &in aString)
 ```
 
@@ -535,7 +535,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetLastStringPos`
 
-```angelscript
+```cpp
 int cString_GetLastStringPos(const tString &in aString,
                              const tString &in aChar)
 ```
@@ -553,7 +553,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetLastStringPosW`
 
-```angelscript
+```cpp
 int cString_GetLastStringPosW(const tWString &in aString,
                               const tWString &in aChar)
 ```
@@ -571,7 +571,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetNumericSuffix`
 
-```angelscript
+```cpp
 tString cString_GetNumericSuffix(const tString &in asStr)
 ```
 
@@ -587,7 +587,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetNumericSuffixFloat`
 
-```angelscript
+```cpp
 float cString_GetNumericSuffixFloat(const tString &in aString,
                                     float afDefault = 0)
 ```
@@ -605,7 +605,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetNumericSuffixFloatW`
 
-```angelscript
+```cpp
 float cString_GetNumericSuffixFloatW(const tWString &in aString,
                                      float afDefault = 0)
 ```
@@ -623,7 +623,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetNumericSuffixInt`
 
-```angelscript
+```cpp
 int cString_GetNumericSuffixInt(const tString &in aString,
                                 int alDefault = 0)
 ```
@@ -641,7 +641,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetNumericSuffixIntW`
 
-```angelscript
+```cpp
 int cString_GetNumericSuffixIntW(const tWString &in aString,
                                  int alDefault = 0)
 ```
@@ -659,7 +659,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetNumericSuffixW`
 
-```angelscript
+```cpp
 tWString cString_GetNumericSuffixW(const tWString &in asStr)
 ```
 
@@ -675,7 +675,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_GetStringVec`
 
-```angelscript
+```cpp
 void cString_GetStringVec(const tString &in asData,
                           tString &inout avOutStrings,
                           const tString &in asSepp)
@@ -695,7 +695,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_RemoveSlashAtEnd`
 
-```angelscript
+```cpp
 tString cString_RemoveSlashAtEnd(const tString &in asPath)
 ```
 
@@ -711,7 +711,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_RemoveSlashAtEndW`
 
-```angelscript
+```cpp
 tWString cString_RemoveSlashAtEndW(const tWString &in asPath)
 ```
 
@@ -727,7 +727,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ReplaceCharTo`
 
-```angelscript
+```cpp
 tString cString_ReplaceCharTo(const tString &in aString,
                               const tString &in asOldChar,
                               const tString &in asNewChar)
@@ -747,7 +747,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ReplaceCharToW`
 
-```angelscript
+```cpp
 tWString cString_ReplaceCharToW(const tWString &in aString,
                                 const tWString &in asOldChar,
                                 const tWString &in asNewChar)
@@ -767,7 +767,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ReplaceStringTo`
 
-```angelscript
+```cpp
 tString cString_ReplaceStringTo(const tString &in aString,
                                 const tString &in asOldString,
                                 const tString &in asNewString)
@@ -787,7 +787,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ReplaceStringToW`
 
-```angelscript
+```cpp
 tWString cString_ReplaceStringToW(const tWString &in aString,
                                   const tWString &in asOldString,
                                   const tWString &in asNewString)
@@ -807,7 +807,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_S16BitToUTF8`
 
-```angelscript
+```cpp
 tString cString_S16BitToUTF8(const tWString &in awsString)
 ```
 
@@ -823,7 +823,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_SetFileExt`
 
-```angelscript
+```cpp
 tString cString_SetFileExt(const tString &in aString,
                            const tString &in aExt)
 ```
@@ -841,7 +841,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_SetFileExtW`
 
-```angelscript
+```cpp
 tWString cString_SetFileExtW(const tWString &in aString,
                              const tWString &in aExt)
 ```
@@ -859,7 +859,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_SetFilePath`
 
-```angelscript
+```cpp
 tString cString_SetFilePath(const tString &in aString,
                             const tString &in aPath)
 ```
@@ -877,7 +877,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_SetFilePathW`
 
-```angelscript
+```cpp
 tWString cString_SetFilePathW(const tWString &in aString,
                               const tWString &in aPath)
 ```
@@ -895,7 +895,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_Sub`
 
-```angelscript
+```cpp
 tString cString_Sub(const tString &in asString,
                     int alStart,
                     int alCount = -1)
@@ -915,7 +915,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_SubW`
 
-```angelscript
+```cpp
 tWString cString_SubW(const tWString &in asString,
                       int alStart,
                       int alCount = -1)
@@ -935,7 +935,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_To16Char`
 
-```angelscript
+```cpp
 tWString cString_To16Char(const tString &in asString)
 ```
 
@@ -951,7 +951,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_To8Char`
 
-```angelscript
+```cpp
 tString cString_To8Char(const tWString &in awsString)
 ```
 
@@ -967,7 +967,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToBool`
 
-```angelscript
+```cpp
 bool cString_ToBool(const tString &in asStr,
                     bool abDefault)
 ```
@@ -985,7 +985,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToColor`
 
-```angelscript
+```cpp
 cColor cString_ToColor(const tString &in asStr,
                        const cColor &in aDefault)
 ```
@@ -1003,7 +1003,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToFloat`
 
-```angelscript
+```cpp
 float cString_ToFloat(const tString &in asStr,
                       float afDefault)
 ```
@@ -1021,7 +1021,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToInt`
 
-```angelscript
+```cpp
 int cString_ToInt(const tString &in asStr,
                   int alDefault)
 ```
@@ -1039,7 +1039,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToLowerCase`
 
-```angelscript
+```cpp
 tString cString_ToLowerCase(const tString &in aString)
 ```
 
@@ -1055,7 +1055,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToLowerCaseW`
 
-```angelscript
+```cpp
 tWString cString_ToLowerCaseW(const tWString &in aString)
 ```
 
@@ -1071,7 +1071,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToMatrixf`
 
-```angelscript
+```cpp
 cMatrixf cString_ToMatrixf(const tString &in asStr,
                            const cMatrixf &in a_mtxDefault)
 ```
@@ -1089,7 +1089,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToString`
 
-```angelscript
+```cpp
 tString cString_ToString(float afX,
                          int alNumOfDecimals = -1,
                          bool abRemoveZeros = false)
@@ -1109,7 +1109,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToString`
 
-```angelscript
+```cpp
 tString cString_ToString(int alX,
                          int alPaddingZeros)
 ```
@@ -1127,7 +1127,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToStringW`
 
-```angelscript
+```cpp
 tWString cString_ToStringW(float afX,
                            int alNumOfDecimals = -1,
                            bool abRemoveZeros = false)
@@ -1147,7 +1147,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToStringW`
 
-```angelscript
+```cpp
 tWString cString_ToStringW(int alX,
                            int alPaddingZeros)
 ```
@@ -1165,7 +1165,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToUpperCase`
 
-```angelscript
+```cpp
 tString cString_ToUpperCase(const tString &in aString)
 ```
 
@@ -1181,7 +1181,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToUpperCaseW`
 
-```angelscript
+```cpp
 tWString cString_ToUpperCaseW(const tWString &in aString)
 ```
 
@@ -1197,7 +1197,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToVector2f`
 
-```angelscript
+```cpp
 cVector2f cString_ToVector2f(const tString &in asStr,
                              const cVector2f &in avDefault)
 ```
@@ -1215,7 +1215,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToVector2l`
 
-```angelscript
+```cpp
 cVector2l cString_ToVector2l(const tString &in asStr,
                              const cVector2l &in avDefault)
 ```
@@ -1233,7 +1233,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToVector3f`
 
-```angelscript
+```cpp
 cVector3f cString_ToVector3f(const tString &in asStr,
                              const cVector3f &in avDefault)
 ```
@@ -1251,7 +1251,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToVector3l`
 
-```angelscript
+```cpp
 cVector3l cString_ToVector3l(const tString &in asStr,
                              const cVector3l &in avDefault)
 ```
@@ -1269,7 +1269,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cString_ToVector4f`
 
-```angelscript
+```cpp
 cVector4f cString_ToVector4f(const tString &in asStr,
                              const cVector4f &in avDefault)
 ```
@@ -1290,6 +1290,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cString](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cString)
 - Revision: `5026`
 - Source update: `2020-08-24T20:51:45Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/Datamine_Area"
 sourceRevision: 6778
 sourceUpdated: "2024-02-08T18:25:56Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -56,6 +56,6 @@ Datamining is what happens when the player in SOMA touches a dead person, interc
 - Original Frictional Wiki page: [HPL3/SOMA/Areas/Datamine Area](https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/Datamine_Area)
 - Revision: `6778`
 - Source update: `2024-02-08T18:25:56Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

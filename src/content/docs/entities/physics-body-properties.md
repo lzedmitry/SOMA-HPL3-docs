@@ -5,7 +5,7 @@ category: entities
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Entities/Physics_Body_Properties"
 sourceRevision: 6809
 sourceUpdated: "2024-05-14T05:04:22Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -44,6 +44,6 @@ This tab presents the attachment tool, its workings are explained next: There ar
 - Original Frictional Wiki page: [HPL3/Entities/Physics Body Properties](https://wiki.frictionalgames.com/page/HPL3/Entities/Physics_Body_Properties)
 - Revision: `6809`
 - Source update: `2024-05-14T05:04:22Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: particles
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Particles"
 sourceRevision: 5492
 sourceUpdated: "2020-11-06T20:39:10Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -44,6 +44,6 @@ This category is undergoing major editing, as information about different articl
 - Original Frictional Wiki page: [HPL3/Particles](https://wiki.frictionalgames.com/page/HPL3/Particles)
 - Revision: `5492`
 - Source update: `2020-11-06T20:39:10Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

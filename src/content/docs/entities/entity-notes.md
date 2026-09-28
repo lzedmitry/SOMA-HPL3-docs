@@ -5,7 +5,7 @@ category: entities
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities/Entity_Notes"
 sourceRevision: 4970
 sourceUpdated: "2020-08-23T20:00:21Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -24,6 +24,6 @@ To create a note, just type it in the textbox and close the popup.
 - Original Frictional Wiki page: [HPL3/SOMA/Entities/Entity Notes](https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities/Entity_Notes)
 - Revision: `4970`
 - Source update: `2020-08-23T20:00:21Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

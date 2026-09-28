@@ -5,7 +5,7 @@ category: audio
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Sound/Playing_Sounds"
 sourceRevision: 7175
 sourceUpdated: "2026-07-30T22:23:08Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -50,6 +50,6 @@ More on sounds [here](https://wiki.frictionalgames.com/page/HPL2/Sounds).
 - Original Frictional Wiki page: [HPL3/Sound/Playing Sounds](https://wiki.frictionalgames.com/page/HPL3/Sound/Playing_Sounds)
 - Revision: `7175`
 - Source update: `2026-07-30T22:23:08Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

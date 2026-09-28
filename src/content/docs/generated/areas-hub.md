@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas"
 sourceRevision: 6780
 sourceUpdated: "2024-02-08T18:34:41Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -72,6 +72,6 @@ This category and its sub-pages are undergoing major editing, as some informatio
 - Original Frictional Wiki page: [HPL3/SOMA/Areas](https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas)
 - Revision: `6780`
 - Source update: `2024-02-08T18:34:41Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

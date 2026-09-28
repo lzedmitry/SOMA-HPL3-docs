@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Slide"
 sourceRevision: 5049
 sourceUpdated: "2020-08-24T20:58:32Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -26,7 +26,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Slide_AutoMoveTo`
 
-```angelscript
+```cpp
 void Slide_AutoMoveTo(const tString &in asName,
                       float afAmount)
 ```
@@ -42,7 +42,7 @@ Auto moves the slide prop to a specific amount?
 
     1. `Slide_GetLocked`
 
-```angelscript
+```cpp
 bool Slide_GetLocked(const tString &in asName)
 ```
 
@@ -56,7 +56,7 @@ Get if the slide prop is locked.
 
     1. `Slide_GetSlideAmount`
 
-```angelscript
+```cpp
 float Slide_GetSlideAmount(const tString &in asName)
 ```
 
@@ -70,7 +70,7 @@ Gets the slide amount of a Slide prop, 0 being at it' min position and 1 being a
 
     1. `Slide_GetSlideVel`
 
-```angelscript
+```cpp
 cVector3f Slide_GetSlideVel(const tString &in asName)
 ```
 
@@ -84,7 +84,7 @@ Gets the velocity of the slide joint.
 
     1. `Slide_SetLocked`
 
-```angelscript
+```cpp
 void Slide_SetLocked(const tString &in asName,
                      bool abLocked,
                      bool abEffects)
@@ -102,7 +102,7 @@ Locks/Unlocks a slide prop.
 
     1. `Slide_SetSlideAmount`
 
-```angelscript
+```cpp
 void Slide_SetSlideAmount(const tString &in asName,
                           float afAmount)
 ```
@@ -121,6 +121,6 @@ Sets the slide amount of a Slide prop, 0 being at it' min position and 1 being a
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Slide](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Slide)
 - Revision: `5049`
 - Source update: `2020-08-24T20:58:32Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

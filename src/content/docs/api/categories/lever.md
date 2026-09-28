@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Lever"
 sourceRevision: 5037
 sourceUpdated: "2020-08-24T20:55:40Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -25,7 +25,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Lever_GetState`
 
-```angelscript
+```cpp
 int Lever_GetState(const tString &in asName)
 ```
 
@@ -39,7 +39,7 @@ Gets the state of the lever
 
     1. `Lever_SetAutoMoveEnabled`
 
-```angelscript
+```cpp
 void Lever_SetAutoMoveEnabled(const tString &in asName,
                               bool abAutoMove)
 ```
@@ -55,7 +55,7 @@ Enables or disables the auto move property of the lever.
 
     1. `Lever_SetAutoMoveTarget`
 
-```angelscript
+```cpp
 void Lever_SetAutoMoveTarget(const tString &in asName,
                              int alTarget)
 ```
@@ -71,7 +71,7 @@ Sets the auto move target of the lever.
 
     1. `Lever_SetInteractionDisablesStuck`
 
-```angelscript
+```cpp
 void Lever_SetInteractionDisablesStuck(const tString &in asName,
                                        bool abX)
 ```
@@ -88,7 +88,7 @@ effect on stuck state.
 
     1. `Lever_SetStuckState`
 
-```angelscript
+```cpp
 void Lever_SetStuckState(const tString &in asName,
                          int alState,
                          bool abEffects)
@@ -110,6 +110,6 @@ the change will not be apparent to the player.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Lever](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Lever)
 - Revision: `5037`
 - Source update: `2020-08-24T20:55:40Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

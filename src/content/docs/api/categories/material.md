@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Material"
 sourceRevision: 5040
 sourceUpdated: "2020-08-24T20:56:28Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -21,7 +21,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Material_Preload`
 
-```angelscript
+```cpp
 void Material_Preload(const tString &in asFile)
 ```
 
@@ -38,6 +38,6 @@ Preloads a material
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Material](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Material)
 - Revision: `5040`
 - Source update: `2020-08-24T20:56:28Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

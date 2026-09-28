@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_ImageFadeFX"
 sourceRevision: 3691
 sourceUpdated: "2020-08-06T14:14:45Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -98,6 +98,6 @@ iTexture@ apOffsetTexture
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cPostEffect ImageFadeFX](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cPostEffect_ImageFadeFX)
 - Revision: `3691`
 - Source update: `2020-08-06T14:14:45Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

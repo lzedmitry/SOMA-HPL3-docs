@@ -5,7 +5,7 @@ category: materials
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Materials"
 sourceRevision: 7150
 sourceUpdated: "2026-07-30T22:11:21Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -57,6 +57,6 @@ This category is undergoing major editing, as information about different articl
 - Original Frictional Wiki page: [HPL3/Materials](https://wiki.frictionalgames.com/page/HPL3/Materials)
 - Revision: `7150`
 - Source update: `2026-07-30T22:11:21Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: generated
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Shaders/Overwriting_Existing_Shaders"
 sourceRevision: 6841
 sourceUpdated: "2024-09-13T22:14:16Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -71,6 +71,6 @@ For Amnesia: Rebirth and Amnesia: The Bunker, `LoadShaderCache` MUST be set to f
 - Original Frictional Wiki page: [HPL3/Shaders/Overwriting Existing Shaders](https://wiki.frictionalgames.com/page/HPL3/Shaders/Overwriting_Existing_Shaders)
 - Revision: `6841`
 - Source update: `2024-09-13T22:14:16Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

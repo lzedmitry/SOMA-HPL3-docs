@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Areas/Description_Area"
 sourceRevision: 6777
 sourceUpdated: "2024-02-08T18:11:16Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -22,6 +22,6 @@ Description is a deprecated area used for displaying text to the screen. Use [Re
 - Original Frictional Wiki page: [HPL3/Areas/Description Area](https://wiki.frictionalgames.com/page/HPL3/Areas/Description_Area)
 - Revision: `6777`
 - Source update: `2024-02-08T18:11:16Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Areas/PlayerStart_Area"
 sourceRevision: 6729
 sourceUpdated: "2024-01-25T19:26:33Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -30,6 +30,6 @@ Causes the player to be crouched when spawning at this entity.
 - Original Frictional Wiki page: [HPL3/Areas/PlayerStart Area](https://wiki.frictionalgames.com/page/HPL3/Areas/PlayerStart_Area)
 - Revision: `6729`
 - Source update: `2024-01-25T19:26:33Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

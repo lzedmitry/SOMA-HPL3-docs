@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEventOwner"
 sourceRevision: 3553
 sourceUpdated: "2020-08-06T13:28:34Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -56,6 +56,6 @@ int alFlags
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cEventOwner](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cEventOwner)
 - Revision: `3553`
 - Source update: `2020-08-06T13:28:34Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

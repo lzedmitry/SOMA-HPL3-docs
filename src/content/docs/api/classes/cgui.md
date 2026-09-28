@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGui"
 sourceRevision: 5017
 sourceUpdated: "2020-08-24T20:48:38Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -47,7 +47,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cGui_CreateGfxFilledRect`
 
-```angelscript
+```cpp
 cGuiGfxElement@ cGui_CreateGfxFilledRect(const cColor &in aColor,
                                          eGuiMaterial aMaterial)
 ```
@@ -65,7 +65,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_CreateGfxImage`
 
-```angelscript
+```cpp
 cGuiGfxElement@ cGui_CreateGfxImage(const tString &in asFile,
                                     eGuiMaterial aMaterial)
 ```
@@ -83,7 +83,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_CreateGfxImage`
 
-```angelscript
+```cpp
 cGuiGfxElement@ cGui_CreateGfxImage(const tString &in asFile,
                                     eGuiMaterial aMaterial,
                                     const cColor &in aColor)
@@ -103,7 +103,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_CreateGfxImageBuffer`
 
-```angelscript
+```cpp
 cGuiGfxElement@ cGui_CreateGfxImageBuffer(const tString &in asFile,
                                           eGuiMaterial aMaterial,
                                           bool abCreateAnimation,
@@ -125,7 +125,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_CreateGfxTexture`
 
-```angelscript
+```cpp
 cGuiGfxElement@ cGui_CreateGfxTexture(const tString &in asFile,
                                       eGuiMaterial aMaterial,
                                       eTextureType aTextureType)
@@ -145,7 +145,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_CreateGfxTexture`
 
-```angelscript
+```cpp
 cGuiGfxElement@ cGui_CreateGfxTexture(const tString &in asFile,
                                       eGuiMaterial aMaterial,
                                       eTextureType aTextureType,
@@ -169,7 +169,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_CreateGfxTexture`
 
-```angelscript
+```cpp
 cGuiGfxElement@ cGui_CreateGfxTexture(iTexture @apTexture,
                                       bool abAutoDestroyTexture,
                                       eGuiMaterial aMaterial)
@@ -189,7 +189,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_CreateGfxTexture`
 
-```angelscript
+```cpp
 cGuiGfxElement@ cGui_CreateGfxTexture(iTexture @apTexture,
                                       bool abAutoDestroyTexture,
                                       eGuiMaterial aMaterial,
@@ -215,7 +215,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_CreateImGui`
 
-```angelscript
+```cpp
 cImGui@ cGui_CreateImGui(const tString &in asName,
                          cGuiSet @apSet)
 ```
@@ -233,7 +233,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_CreateSet`
 
-```angelscript
+```cpp
 cGuiSet@ cGui_CreateSet(const tString &in asName,
                         cGuiSkin @apSkin)
 ```
@@ -251,7 +251,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_CreateSkin`
 
-```angelscript
+```cpp
 cGuiSkin@ cGui_CreateSkin(const tString &in asFile)
 ```
 
@@ -267,7 +267,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_DestroyGfx`
 
-```angelscript
+```cpp
 void cGui_DestroyGfx(cGuiGfxElement@ apGfx)
 ```
 
@@ -283,7 +283,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_DestroyImGui`
 
-```angelscript
+```cpp
 void cGui_DestroyImGui(cImGui@ apImGui)
 ```
 
@@ -299,7 +299,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_DestroySet`
 
-```angelscript
+```cpp
 void cGui_DestroySet(cGuiSet @apSet)
 ```
 
@@ -315,7 +315,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_GetFocusedSet`
 
-```angelscript
+```cpp
 cGuiSet@ cGui_GetFocusedSet()
 ```
 
@@ -327,7 +327,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_GetImGuiIdFromName`
 
-```angelscript
+```cpp
 void cGui_GetImGuiIdFromName(const tString &in asName)
 ```
 
@@ -343,7 +343,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_GetImGuiStateVarString`
 
-```angelscript
+```cpp
 void cGui_GetImGuiStateVarString(eImGuiStateVar aVar)
 ```
 
@@ -359,7 +359,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_GetSetFromName`
 
-```angelscript
+```cpp
 cGuiSet@ cGui_GetSetFromName(const tString &in asName)
 ```
 
@@ -375,7 +375,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_SetFocus`
 
-```angelscript
+```cpp
 void cGui_SetFocus(cGuiSet@ apSet)
 ```
 
@@ -391,7 +391,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGui_SetFocusByName`
 
-```angelscript
+```cpp
 void cGui_SetFocusByName(const tString &in asSetName)
 ```
 
@@ -410,6 +410,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cGui](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGui)
 - Revision: `5017`
 - Source update: `2020-08-24T20:48:38Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

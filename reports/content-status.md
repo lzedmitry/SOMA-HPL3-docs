@@ -1,6 +1,6 @@
 # Content status
 
-Last sync: `2026-08-28T18:40:04Z`
+Last sync: `2026-09-28T13:28:41Z`
 
 - Raw pages loaded: **671**
 - Markdown pages written: **671**
@@ -8,9 +8,7 @@ Last sync: `2026-08-28T18:40:04Z`
 - Empty / near-empty conversions: **2**
 - API functions indexed: **1054**
 - API functions without descriptions: **1054**
-- Markdown links classified: **14427** (see [link-audit.md](link-audit.md))
-- Internal broken links: **0**
-- Missing Wiki source pages (redlinks / unpublished): **8680**
+- External-or-unmapped wiki links remaining: **8901**
 
 ## Status counts
 

@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Areas/Climb_Area"
 sourceRevision: 6762
 sourceUpdated: "2024-02-06T15:09:40Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -30,6 +30,6 @@ The Climb Area allows a player to climb to a place or to climb over a ledge.
 - Original Frictional Wiki page: [HPL3/Areas/Climb Area](https://wiki.frictionalgames.com/page/HPL3/Areas/Climb_Area)
 - Revision: `6762`
 - Source update: `2024-02-06T15:09:40Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

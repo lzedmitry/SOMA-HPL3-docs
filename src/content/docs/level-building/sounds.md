@@ -5,7 +5,7 @@ category: level-building
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Sounds"
 sourceRevision: 7090
 sourceUpdated: "2026-07-30T09:54:39Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -63,6 +63,6 @@ These are common for both modes.
 - Original Frictional Wiki page: [HPL3/Level Design/Sounds](https://wiki.frictionalgames.com/page/HPL3/Level_Design/Sounds)
 - Revision: `7090`
 - Source update: `2026-07-30T09:54:39Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

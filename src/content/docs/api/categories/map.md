@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Map"
 sourceRevision: 5039
 sourceUpdated: "2020-08-24T20:56:14Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -25,7 +25,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Map_GetBillboardArray`
 
-```angelscript
+```cpp
 bool Map_GetBillboardArray(const tString &in asName,
                            cBillboard@ &inout avOutBillboards)
 ```
@@ -41,7 +41,7 @@ Creates an array of billboards with a given name.
 
     1. `Map_GetFogAreaArray`
 
-```angelscript
+```cpp
 bool Map_GetFogAreaArray(const tString &in asName,
                          cFogArea@ &inout avOutFogAreas)
 ```
@@ -57,7 +57,7 @@ Creates an array of fog areas with a given name.
 
     1. `Map_GetLensFlareArray`
 
-```angelscript
+```cpp
 bool Map_GetLensFlareArray(const tString &in asName,
                            cLensFlare@ &inout avOutLensFlares)
 ```
@@ -73,7 +73,7 @@ Creates an array of lens flares with a given name.
 
     1. `Map_GetLightArray`
 
-```angelscript
+```cpp
 bool Map_GetLightArray(const tString &in asName,
                        iLight@ &inout avOutLights)
 ```
@@ -89,7 +89,7 @@ Creates an array of lights with a given name.
 
     1. `Map_GetParticleSystemArray`
 
-```angelscript
+```cpp
 bool Map_GetParticleSystemArray(const tString &in asName,
                                 cParticleSystem@ &inout avOutParticles)
 ```
@@ -108,6 +108,6 @@ Creates an array of particle systems with a given name.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Map](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Map)
 - Revision: `5039`
 - Source update: `2020-08-24T20:56:14Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

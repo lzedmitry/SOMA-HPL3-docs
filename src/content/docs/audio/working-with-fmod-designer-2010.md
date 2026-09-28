@@ -5,7 +5,7 @@ category: audio
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Sound/Working_with_FMod_Designer_2010"
 sourceRevision: 7174
 sourceUpdated: "2026-07-30T22:22:42Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -169,6 +169,6 @@ The engine checks what material the player is in contact with and what type of f
 - Original Frictional Wiki page: [HPL3/Sound/Working with FMod Designer 2010](https://wiki.frictionalgames.com/page/HPL3/Sound/Working_with_FMod_Designer_2010)
 - Revision: `7174`
 - Source update: `2026-07-30T22:22:42Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

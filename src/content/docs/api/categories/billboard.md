@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Billboard"
 sourceRevision: 5010
 sourceUpdated: "2020-08-24T20:45:19Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -25,7 +25,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Billboard_SetBrightness`
 
-```angelscript
+```cpp
 void Billboard_SetBrightness(const tString &in asBillboardName,
                              float afBrightness)
 ```
@@ -41,7 +41,7 @@ Sets the brightness of a billboard
 
     1. `Billboard_SetRangeMax`
 
-```angelscript
+```cpp
 void Billboard_SetRangeMax(const tString &in asBillboardName,
                            float afRangeStart,
                            float afRangeEnd)
@@ -59,7 +59,7 @@ Sets the max range of a billboard, getting far away will cause the billboard to 
 
     1. `Billboard_SetRangeMin`
 
-```angelscript
+```cpp
 void Billboard_SetRangeMin(const tString &in asBillboardName,
                            float afRangeStart,
                            float afRangeEnd)
@@ -77,7 +77,7 @@ Sets the minimum range of a billboard, getting closer will cause the billboard t
 
     1. `Billboard_SetReflectionVisibility`
 
-```angelscript
+```cpp
 void Billboard_SetReflectionVisibility(const tString &in asBillboardName,
                                        bool abVisibleInReflection,
                                        bool abVisibleInWorld)
@@ -95,7 +95,7 @@ Sets whether the billboard is drawn in reflections or not, and the real world or
 
     1. `Billboard_SetVisible`
 
-```angelscript
+```cpp
 void Billboard_SetVisible(const tString &in asBillboardName,
                           bool abVisible)
 ```
@@ -114,6 +114,6 @@ Sets if a billboard should be rendered or not.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Billboard](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Billboard)
 - Revision: `5010`
 - Source update: `2020-08-24T20:45:19Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

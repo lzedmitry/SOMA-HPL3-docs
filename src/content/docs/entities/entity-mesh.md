@@ -5,7 +5,7 @@ category: entities
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Mesh"
 sourceRevision: 7135
 sourceUpdated: "2026-07-30T21:54:57Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -39,6 +39,6 @@ When done, pressing the OK button will close the dialog and use the chosen param
 - Original Frictional Wiki page: [HPL3/Entities/Entity Mesh](https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Mesh)
 - Revision: `7135`
 - Source update: `2026-07-30T21:54:57Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

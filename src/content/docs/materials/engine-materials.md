@@ -5,7 +5,7 @@ category: materials
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Materials/Engine_Materials"
 sourceRevision: 7151
 sourceUpdated: "2026-07-30T22:11:27Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -479,6 +479,6 @@ This will apply a cube to the mesh as if it is was reflecting it (hence called â
 - Original Frictional Wiki page: [HPL3/Materials/Engine Materials](https://wiki.frictionalgames.com/page/HPL3/Materials/Engine_Materials)
 - Revision: `7151`
 - Source update: `2026-07-30T22:11:27Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

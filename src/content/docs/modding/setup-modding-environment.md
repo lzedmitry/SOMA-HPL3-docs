@@ -5,7 +5,7 @@ category: modding
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Setup_Modding_Environment"
 sourceRevision: 6808
 sourceUpdated: "2024-05-08T16:54:34Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -72,6 +72,6 @@ If all the above is done correctly, a `(Working on mod)` text should appear on t
 - Original Frictional Wiki page: [HPL3/SOMA/Modding/Setup Modding Environment](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Setup_Modding_Environment)
 - Revision: `6808`
 - Source update: `2024-05-08T16:54:34Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

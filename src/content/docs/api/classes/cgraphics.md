@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGraphics"
 sourceRevision: 5016
 sourceUpdated: "2020-08-24T20:48:07Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -57,7 +57,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cGraphics_CreateDepthStencilBuffer`
 
-```angelscript
+```cpp
 iDepthStencilBuffer@ cGraphics_CreateDepthStencilBuffer(const cVector2l &in avSize,
                                                         int alDepthBits,
                                                         int alStencilBits,
@@ -79,7 +79,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreateFrameBuffer`
 
-```angelscript
+```cpp
 iFrameBuffer@ cGraphics_CreateFrameBuffer(const tString &in asName)
 ```
 
@@ -95,7 +95,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreateGpuProgram`
 
-```angelscript
+```cpp
 iGpuProgram@ cGraphics_CreateGpuProgram(const tString &in asName)
 ```
 
@@ -111,7 +111,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreateGpuProgramFromShaders`
 
-```angelscript
+```cpp
 iGpuProgram@ cGraphics_CreateGpuProgramFromShaders(const tString &in asName,
                                                    const tString &in asVtxShader,
                                                    const tString &in asFragShader,
@@ -133,7 +133,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreateHeightMap`
 
-```angelscript
+```cpp
 cHeightMap@ cGraphics_CreateHeightMap()
 ```
 
@@ -145,7 +145,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreateHeightMapResizedCopy`
 
-```angelscript
+```cpp
 cHeightMap@ cGraphics_CreateHeightMapResizedCopy(cHeightMap @apHeightMap,
                                                  const cVector2l &in avSize)
 ```
@@ -163,7 +163,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreatePostEffect_ChromaticAberration`
 
-```angelscript
+```cpp
 cPostEffect_ChromaticAberration@ cGraphics_CreatePostEffect_ChromaticAberration()
 ```
 
@@ -175,7 +175,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreatePostEffect_ImageFadeFX`
 
-```angelscript
+```cpp
 cPostEffect_ImageFadeFX@ cGraphics_CreatePostEffect_ImageFadeFX()
 ```
 
@@ -187,7 +187,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreatePostEffect_ImageTrail`
 
-```angelscript
+```cpp
 cPostEffect_ImageTrail@ cGraphics_CreatePostEffect_ImageTrail()
 ```
 
@@ -199,7 +199,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreatePostEffect_RadialBlur`
 
-```angelscript
+```cpp
 cPostEffect_RadialBlur@ cGraphics_CreatePostEffect_RadialBlur()
 ```
 
@@ -211,7 +211,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreatePostEffect_ToneMapping`
 
-```angelscript
+```cpp
 cPostEffect_ToneMapping@ cGraphics_CreatePostEffect_ToneMapping()
 ```
 
@@ -223,7 +223,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreatePostEffect_VideoDistortion`
 
-```angelscript
+```cpp
 cPostEffect_VideoDistortion@ cGraphics_CreatePostEffect_VideoDistortion()
 ```
 
@@ -235,7 +235,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreatePostEffectComposite`
 
-```angelscript
+```cpp
 cPostEffectComposite@ cGraphics_CreatePostEffectComposite()
 ```
 
@@ -247,7 +247,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_CreateTexture`
 
-```angelscript
+```cpp
 iTexture@ cGraphics_CreateTexture(const tString &in asName,
                                   eTextureType aType,
                                   eTextureUsage aUsage)
@@ -267,7 +267,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_DestoroyDepthStencilBuffer`
 
-```angelscript
+```cpp
 void cGraphics_DestoroyDepthStencilBuffer(iDepthStencilBuffer@ apBuffer)
 ```
 
@@ -283,7 +283,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_DestroyFrameBuffer`
 
-```angelscript
+```cpp
 void cGraphics_DestroyFrameBuffer(iFrameBuffer@ apFrameBuffer)
 ```
 
@@ -299,7 +299,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_DestroyGpuProgram`
 
-```angelscript
+```cpp
 void cGraphics_DestroyGpuProgram(iGpuProgram@ apProgram)
 ```
 
@@ -315,7 +315,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_DestroyHeightMap`
 
-```angelscript
+```cpp
 void cGraphics_DestroyHeightMap(cHeightMap@ apHeightMap)
 ```
 
@@ -331,7 +331,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_DestroyPostEffect`
 
-```angelscript
+```cpp
 void cGraphics_DestroyPostEffect(iPostEffect@ apPostEffect)
 ```
 
@@ -347,7 +347,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_DestroyPostEffectComposite`
 
-```angelscript
+```cpp
 void cGraphics_DestroyPostEffectComposite(cPostEffectComposite@ apComposite)
 ```
 
@@ -363,7 +363,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_DestroyTexture`
 
-```angelscript
+```cpp
 void cGraphics_DestroyTexture(iTexture@ apTexture)
 ```
 
@@ -379,7 +379,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_FindDepthStencilBuffer`
 
-```angelscript
+```cpp
 iDepthStencilBuffer@ cGraphics_FindDepthStencilBuffer(const cVector2l &in avSize,
                                                       int alMinDepthBits,
                                                       int alMinStencilBits)
@@ -399,7 +399,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_GetLowLevel`
 
-```angelscript
+```cpp
 iLowLevelGraphics@ cGraphics_GetLowLevel()
 ```
 
@@ -411,7 +411,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_GetMaterialType`
 
-```angelscript
+```cpp
 iMaterialType@ cGraphics_GetMaterialType(const tString &in asName)
 ```
 
@@ -427,7 +427,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_GetRenderer`
 
-```angelscript
+```cpp
 iRenderer@ cGraphics_GetRenderer(eRenderer aType)
 ```
 
@@ -443,7 +443,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_GetTempFrameBuffer`
 
-```angelscript
+```cpp
 iFrameBuffer@ cGraphics_GetTempFrameBuffer(const cVector2l &in avSize,
                                            ePixelFormat aPixelFormat,
                                            int alIndex)
@@ -463,7 +463,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_LoadHeightMapPackedRGB`
 
-```angelscript
+```cpp
 cHeightMap@ cGraphics_LoadHeightMapPackedRGB(const tString &in asFileName)
 ```
 
@@ -479,7 +479,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_LoadHeightMapRaw`
 
-```angelscript
+```cpp
 cHeightMap@ cGraphics_LoadHeightMapRaw(const tString &in asFileName,
                                        const cVector2l &in avSize)
 ```
@@ -497,7 +497,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_ReloadMaterials`
 
-```angelscript
+```cpp
 void cGraphics_ReloadMaterials()
 ```
 
@@ -509,7 +509,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGraphics_ReloadRendererData`
 
-```angelscript
+```cpp
 void cGraphics_ReloadRendererData()
 ```
 
@@ -524,6 +524,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cGraphics](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGraphics)
 - Revision: `5016`
 - Source update: `2020-08-24T20:48:07Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

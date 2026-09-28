@@ -3,9 +3,9 @@ title: Scripting
 description: "This category and its sub-pages are undergoing major editing, as some information in this category and all the sub pages is currently in the process of being formatted or re-written from scratch to achieve a higher stand"
 category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting"
-sourceRevision: 7182
-sourceUpdated: "2026-08-09T07:42:34Z"
-lastSynced: "2026-08-28T18:40:04Z"
+sourceRevision: 7187
+sourceUpdated: "2026-09-26T11:52:37Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -60,7 +60,6 @@ This category and its sub-pages are undergoing major editing, as some informatio
 - [Sequences Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Sequences_Helper)
 - [Geneal Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Geneal_Helper)
 - [ImGui Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/ImGui_Helper)
-- [EventDB Helper](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/EventDB_Helper)
 </td>
 </tr>
 </table>
@@ -147,8 +146,8 @@ This category and its sub-pages are undergoing major editing, as some informatio
 ## Source & attribution
 
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting)
-- Revision: `7182`
-- Source update: `2026-08-09T07:42:34Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Revision: `7187`
+- Source update: `2026-09-26T11:52:37Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

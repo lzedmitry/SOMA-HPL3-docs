@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Body"
 sourceRevision: 5011
 sourceUpdated: "2020-08-24T20:45:34Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -24,7 +24,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Body_AddForce`
 
-```angelscript
+```cpp
 void Body_AddForce(const tString &in asBodyName,
                    const cVector3f &in avForce,
                    bool abLocalSpace)
@@ -42,7 +42,7 @@ Adds force to the specified body.
 
     1. `Body_AddImpulse`
 
-```angelscript
+```cpp
 void Body_AddImpulse(const tString &in asBodyName,
                      const cVector3f &in avImpulse,
                      bool abLocalSpace)
@@ -60,7 +60,7 @@ Adds an impulse to the specified body.
 
     1. `Body_GetEntityName`
 
-```angelscript
+```cpp
 tString Body_GetEntityName(const tString &in asBodyName)
 ```
 
@@ -74,7 +74,7 @@ Gets the name of the entity the body belongs to
 
     1. `Body_SetCollides`
 
-```angelscript
+```cpp
 void Body_SetCollides(const tString &in asBodyName,
                       bool abCollides)
 ```
@@ -93,6 +93,6 @@ Sets whether a body collides with other bodies or not.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Body](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Body)
 - Revision: `5011`
 - Source update: `2020-08-24T20:45:34Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

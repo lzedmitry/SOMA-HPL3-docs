@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogResponseOption"
 sourceRevision: 3628
 sourceUpdated: "2020-08-06T13:51:50Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -31,6 +31,6 @@ cLuxDialogResponseOption has no public functions
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cLuxDialogResponseOption](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxDialogResponseOption)
 - Revision: `3628`
 - Source update: `2020-08-06T13:51:50Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

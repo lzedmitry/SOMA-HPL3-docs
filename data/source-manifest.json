@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-28T18:40:04Z",
+  "syncedAt": "2026-09-28T13:28:41Z",
   "pages": [
     {
       "originalTitle": "Frictional Wiki:About",
@@ -10,7 +10,7 @@
       "localSlug": "about/frictional-wiki-about",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6700
     },
     {
@@ -22,7 +22,7 @@
       "localSlug": "generated/wiki-home",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 111
     },
     {
@@ -34,7 +34,7 @@
       "localSlug": "generated/modding-hub",
       "category": "modding",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1610
     },
     {
@@ -46,7 +46,7 @@
       "localSlug": "generated/placeholder",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3355
     },
     {
@@ -58,7 +58,7 @@
       "localSlug": "modding/developer-commands",
       "category": "modding",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2353
     },
     {
@@ -70,7 +70,7 @@
       "localSlug": "modding/creating-a-mod",
       "category": "modding",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7073
     },
     {
@@ -82,7 +82,7 @@
       "localSlug": "generated/features-overview",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 536
     },
     {
@@ -94,7 +94,7 @@
       "localSlug": "modding/soma-mod-launcher",
       "category": "modding",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2766
     },
     {
@@ -106,7 +106,7 @@
       "localSlug": "modding/minimaladdonmod",
       "category": "modding",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1176
     },
     {
@@ -118,7 +118,7 @@
       "localSlug": "modding/minimalcustommapmod",
       "category": "modding",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1203
     },
     {
@@ -130,7 +130,7 @@
       "localSlug": "tools/third-party-tools",
       "category": "tools",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 866
     },
     {
@@ -142,7 +142,7 @@
       "localSlug": "generated/level-design-hub",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3603
     },
     {
@@ -154,7 +154,7 @@
       "localSlug": "generated/areas-hub",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2192
     },
     {
@@ -166,7 +166,7 @@
       "localSlug": "audio/sound",
       "category": "audio",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 954
     },
     {
@@ -178,20 +178,20 @@
       "localSlug": "generated/particles-hub",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1184
     },
     {
       "originalTitle": "HPL3/SOMA/Scripting",
       "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting",
       "pageId": 1960,
-      "revisionId": 7182,
-      "revisionTimestamp": "2026-08-09T07:42:34Z",
+      "revisionId": 7187,
+      "revisionTimestamp": "2026-09-26T11:52:37Z",
       "localSlug": "generated/scripting",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
-      "wikitextLength": 5323
+      "lastSynced": "2026-09-28T13:28:41Z",
+      "wikitextLength": 5267
     },
     {
       "originalTitle": "HPL3/SOMA/Scripting/cColor",
@@ -202,7 +202,7 @@
       "localSlug": "api/classes/ccolor",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2504
     },
     {
@@ -214,7 +214,7 @@
       "localSlug": "api/classes/cbeam",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 8742
     },
     {
@@ -226,7 +226,7 @@
       "localSlug": "api/classes/array",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6393
     },
     {
@@ -238,7 +238,7 @@
       "localSlug": "api/classes/caction",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3039
     },
     {
@@ -250,7 +250,7 @@
       "localSlug": "api/classes/cactoranimcontroller",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1438
     },
     {
@@ -262,7 +262,7 @@
       "localSlug": "api/classes/cainode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 633
     },
     {
@@ -274,7 +274,7 @@
       "localSlug": "api/classes/cvector2f",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2216
     },
     {
@@ -286,7 +286,7 @@
       "localSlug": "api/classes/cvector2l",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1422
     },
     {
@@ -298,7 +298,7 @@
       "localSlug": "api/classes/cvector3f",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2415
     },
     {
@@ -310,7 +310,7 @@
       "localSlug": "api/classes/cvector3l",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1552
     },
     {
@@ -322,7 +322,7 @@
       "localSlug": "api/classes/cvector4f",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2588
     },
     {
@@ -334,7 +334,7 @@
       "localSlug": "api/classes/tstring",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1811
     },
     {
@@ -346,7 +346,7 @@
       "localSlug": "api/classes/twstring",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 554
     },
     {
@@ -358,7 +358,7 @@
       "localSlug": "api/classes/cainodecontainer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1581
     },
     {
@@ -370,7 +370,7 @@
       "localSlug": "api/classes/cainodeiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 520
     },
     {
@@ -382,7 +382,7 @@
       "localSlug": "api/classes/canimation",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 286
     },
     {
@@ -394,7 +394,7 @@
       "localSlug": "api/classes/canimationstate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3889
     },
     {
@@ -406,7 +406,7 @@
       "localSlug": "api/classes/cbeamend",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4074
     },
     {
@@ -418,7 +418,7 @@
       "localSlug": "api/classes/cbeamiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 612
     },
     {
@@ -430,7 +430,7 @@
       "localSlug": "api/classes/cbillboard",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 9371
     },
     {
@@ -442,7 +442,7 @@
       "localSlug": "api/classes/cbillboardgroup",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 703
     },
     {
@@ -454,7 +454,7 @@
       "localSlug": "api/classes/cbillboardgroupiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 662
     },
     {
@@ -466,7 +466,7 @@
       "localSlug": "api/classes/cbillboarditerator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 637
     },
     {
@@ -478,7 +478,7 @@
       "localSlug": "api/classes/cbinarybuffer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 292
     },
     {
@@ -490,7 +490,7 @@
       "localSlug": "api/classes/cbonestate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7213
     },
     {
@@ -502,7 +502,7 @@
       "localSlug": "api/classes/cboundingvolume",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2488
     },
     {
@@ -514,7 +514,7 @@
       "localSlug": "api/classes/ccamera",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 9436
     },
     {
@@ -526,7 +526,7 @@
       "localSlug": "api/classes/cclothentity",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7979
     },
     {
@@ -538,7 +538,7 @@
       "localSlug": "api/classes/cclothentityiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 647
     },
     {
@@ -550,7 +550,7 @@
       "localSlug": "api/classes/ccollidedata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 750
     },
     {
@@ -562,7 +562,7 @@
       "localSlug": "api/classes/ccollidepoint",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 593
     },
     {
@@ -574,7 +574,7 @@
       "localSlug": "api/classes/cconfigfile",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 8464
     },
     {
@@ -586,7 +586,7 @@
       "localSlug": "api/classes/cdate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 990
     },
     {
@@ -598,7 +598,7 @@
       "localSlug": "api/classes/centity3diterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 632
     },
     {
@@ -610,7 +610,7 @@
       "localSlug": "api/classes/centitybodyextradata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 432
     },
     {
@@ -622,7 +622,7 @@
       "localSlug": "api/classes/cenvironmentparticles-cliparea",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 326
     },
     {
@@ -634,7 +634,7 @@
       "localSlug": "api/classes/cenvironmentparticles",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4818
     },
     {
@@ -646,7 +646,7 @@
       "localSlug": "api/classes/cevent",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4680
     },
     {
@@ -658,7 +658,7 @@
       "localSlug": "api/classes/ceventdatabase",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4206
     },
     {
@@ -670,7 +670,7 @@
       "localSlug": "api/classes/ceventowner",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 757
     },
     {
@@ -682,7 +682,7 @@
       "localSlug": "api/classes/ceventscene",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 520
     },
     {
@@ -694,7 +694,7 @@
       "localSlug": "api/classes/ceventtrigger",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 522
     },
     {
@@ -706,7 +706,7 @@
       "localSlug": "api/classes/cexposurearea",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4701
     },
     {
@@ -718,7 +718,7 @@
       "localSlug": "api/classes/cexposureareaiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 652
     },
     {
@@ -730,7 +730,7 @@
       "localSlug": "api/classes/cfactstatecontainer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1633
     },
     {
@@ -742,7 +742,7 @@
       "localSlug": "api/classes/cfogarea",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 8905
     },
     {
@@ -754,7 +754,7 @@
       "localSlug": "api/classes/cfogareaiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 627
     },
     {
@@ -766,7 +766,7 @@
       "localSlug": "api/classes/cforcefield",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11244
     },
     {
@@ -778,7 +778,7 @@
       "localSlug": "api/classes/cforcefielditerator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 642
     },
     {
@@ -790,7 +790,7 @@
       "localSlug": "api/classes/cfractalnoiseparams",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 848
     },
     {
@@ -802,7 +802,7 @@
       "localSlug": "api/classes/cframesubimage",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 294
     },
     {
@@ -814,7 +814,7 @@
       "localSlug": "api/classes/cfrustum",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6860
     },
     {
@@ -826,7 +826,7 @@
       "localSlug": "api/classes/cgamepadinputdata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 721
     },
     {
@@ -838,7 +838,7 @@
       "localSlug": "api/classes/cguigfxanimation",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 828
     },
     {
@@ -850,7 +850,7 @@
       "localSlug": "api/classes/cguigfxelement",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2674
     },
     {
@@ -862,7 +862,7 @@
       "localSlug": "api/classes/cguiglobalshortcut",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1045
     },
     {
@@ -874,7 +874,7 @@
       "localSlug": "api/classes/cguimessagedata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 867
     },
     {
@@ -886,7 +886,7 @@
       "localSlug": "api/classes/cguipopupcolorpicker",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1419
     },
     {
@@ -898,7 +898,7 @@
       "localSlug": "api/classes/cguipopupfilepicker",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1008
     },
     {
@@ -910,7 +910,7 @@
       "localSlug": "api/classes/cguipopupmessagebox",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 771
     },
     {
@@ -922,7 +922,7 @@
       "localSlug": "api/classes/cguiset",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 20406
     },
     {
@@ -934,7 +934,7 @@
       "localSlug": "api/classes/cguisetentity",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3804
     },
     {
@@ -946,7 +946,7 @@
       "localSlug": "api/classes/cguisetentityiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 652
     },
     {
@@ -958,7 +958,7 @@
       "localSlug": "api/classes/cguiskin",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1239
     },
     {
@@ -970,7 +970,7 @@
       "localSlug": "api/classes/cguiskinfont",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 912
     },
     {
@@ -982,7 +982,7 @@
       "localSlug": "api/classes/cheightmap",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 286
     },
     {
@@ -994,7 +994,7 @@
       "localSlug": "api/classes/cimgui",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 51324
     },
     {
@@ -1006,7 +1006,7 @@
       "localSlug": "api/classes/cimguibuttondata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2885
     },
     {
@@ -1018,7 +1018,7 @@
       "localSlug": "api/classes/cimguicheckboxdata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2023
     },
     {
@@ -1030,7 +1030,7 @@
       "localSlug": "api/classes/cimguifade",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 286
     },
     {
@@ -1042,7 +1042,7 @@
       "localSlug": "api/classes/cimguifont",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1020
     },
     {
@@ -1054,7 +1054,7 @@
       "localSlug": "api/classes/cimguiframedata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1311
     },
     {
@@ -1066,7 +1066,7 @@
       "localSlug": "api/classes/cimguiframegfx",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1945
     },
     {
@@ -1078,7 +1078,7 @@
       "localSlug": "api/classes/cimguigaugedata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1803
     },
     {
@@ -1090,7 +1090,7 @@
       "localSlug": "api/classes/cimguigfx",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2357
     },
     {
@@ -1102,7 +1102,7 @@
       "localSlug": "api/classes/cimguilabeldata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1544
     },
     {
@@ -1114,7 +1114,7 @@
       "localSlug": "api/classes/cimguimultiselectdata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2043
     },
     {
@@ -1126,7 +1126,7 @@
       "localSlug": "api/classes/cimguisliderdata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2263
     },
     {
@@ -1138,7 +1138,7 @@
       "localSlug": "api/classes/cimguitextframedata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1204
     },
     {
@@ -1150,7 +1150,7 @@
       "localSlug": "api/classes/cimguitimer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 288
     },
     {
@@ -1162,7 +1162,7 @@
       "localSlug": "api/classes/cimguiwidgetstate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 300
     },
     {
@@ -1174,7 +1174,7 @@
       "localSlug": "api/classes/cimguiwidgetstatevar",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 306
     },
     {
@@ -1186,7 +1186,7 @@
       "localSlug": "api/classes/cimguiwindowdata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3390
     },
     {
@@ -1198,7 +1198,7 @@
       "localSlug": "api/classes/ckeypress",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 593
     },
     {
@@ -1210,7 +1210,7 @@
       "localSlug": "api/classes/clensflare",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 14336
     },
     {
@@ -1222,7 +1222,7 @@
       "localSlug": "api/classes/clensflareiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 637
     },
     {
@@ -1234,7 +1234,7 @@
       "localSlug": "api/classes/clightbox",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 20395
     },
     {
@@ -1246,7 +1246,7 @@
       "localSlug": "api/classes/clightdirectional-shadowslice",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 674
     },
     {
@@ -1258,7 +1258,7 @@
       "localSlug": "api/classes/clightdirectional",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 19928
     },
     {
@@ -1270,7 +1270,7 @@
       "localSlug": "api/classes/clightlistiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 621
     },
     {
@@ -1282,7 +1282,7 @@
       "localSlug": "api/classes/clightmaskbox",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 632
     },
     {
@@ -1294,7 +1294,7 @@
       "localSlug": "api/classes/clightmaskboxiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 633
     },
     {
@@ -1306,7 +1306,7 @@
       "localSlug": "api/classes/clightpoint",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 17917
     },
     {
@@ -1318,7 +1318,7 @@
       "localSlug": "api/classes/clightspot",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 19505
     },
     {
@@ -1330,7 +1330,7 @@
       "localSlug": "api/classes/clinearoscillation",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1330
     },
     {
@@ -1342,7 +1342,7 @@
       "localSlug": "api/classes/cluxagent",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 51081
     },
     {
@@ -1354,7 +1354,7 @@
       "localSlug": "api/classes/cluxarea",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 40859
     },
     {
@@ -1366,7 +1366,7 @@
       "localSlug": "api/classes/cluxbackbonetail",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1307
     },
     {
@@ -1378,7 +1378,7 @@
       "localSlug": "api/classes/cluxbackbonetrailingrotation",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 322
     },
     {
@@ -1390,7 +1390,7 @@
       "localSlug": "api/classes/cluxbarkmachine",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3344
     },
     {
@@ -1402,7 +1402,7 @@
       "localSlug": "api/classes/cluxbarkstate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 292
     },
     {
@@ -1414,7 +1414,7 @@
       "localSlug": "api/classes/cluxcharmover-speedstate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 314
     },
     {
@@ -1426,7 +1426,7 @@
       "localSlug": "api/classes/cluxcharmover",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11935
     },
     {
@@ -1438,7 +1438,7 @@
       "localSlug": "api/classes/cluxclosestcharcollider",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 612
     },
     {
@@ -1450,7 +1450,7 @@
       "localSlug": "api/classes/cluxclosestentitydata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 613
     },
     {
@@ -1462,7 +1462,7 @@
       "localSlug": "api/classes/cluxcollidecallback",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 304
     },
     {
@@ -1474,7 +1474,7 @@
       "localSlug": "api/classes/cluxcritter",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 52657
     },
     {
@@ -1486,7 +1486,7 @@
       "localSlug": "api/classes/cluxcritterhandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 302
     },
     {
@@ -1498,7 +1498,7 @@
       "localSlug": "api/classes/cluxdialogbranch",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 298
     },
     {
@@ -1510,7 +1510,7 @@
       "localSlug": "api/classes/cluxdialogbranchevent",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 308
     },
     {
@@ -1522,7 +1522,7 @@
       "localSlug": "api/classes/cluxdialogcharacter",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 304
     },
     {
@@ -1534,7 +1534,7 @@
       "localSlug": "api/classes/cluxdialoghandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5278
     },
     {
@@ -1546,7 +1546,7 @@
       "localSlug": "api/classes/cluxdialoginstance",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 302
     },
     {
@@ -1558,7 +1558,7 @@
       "localSlug": "api/classes/cluxdialogresponsecondition",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 320
     },
     {
@@ -1570,7 +1570,7 @@
       "localSlug": "api/classes/cluxdialogresponseevent",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 312
     },
     {
@@ -1582,7 +1582,7 @@
       "localSlug": "api/classes/cluxdialogresponseoption",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 314
     },
     {
@@ -1594,7 +1594,7 @@
       "localSlug": "api/classes/cluxdialogsubject",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 300
     },
     {
@@ -1606,7 +1606,7 @@
       "localSlug": "api/classes/cluxedgeglow",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2000
     },
     {
@@ -1618,7 +1618,7 @@
       "localSlug": "api/classes/cluxeffect",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 662
     },
     {
@@ -1630,7 +1630,7 @@
       "localSlug": "api/classes/cluxeffecthandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1821
     },
     {
@@ -1642,7 +1642,7 @@
       "localSlug": "api/classes/cluxentitycomponentiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 682
     },
     {
@@ -1654,7 +1654,7 @@
       "localSlug": "api/classes/cluxentityconnection",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 306
     },
     {
@@ -1666,7 +1666,7 @@
       "localSlug": "api/classes/cluxentitymessagedata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 832
     },
     {
@@ -1678,7 +1678,7 @@
       "localSlug": "api/classes/cluxeventdatabasehandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3662
     },
     {
@@ -1690,7 +1690,7 @@
       "localSlug": "api/classes/cluxeventtimer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 294
     },
     {
@@ -1702,7 +1702,7 @@
       "localSlug": "api/classes/cluxforceemitter",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2202
     },
     {
@@ -1714,7 +1714,7 @@
       "localSlug": "api/classes/cluxguicameratexture",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 306
     },
     {
@@ -1726,7 +1726,7 @@
       "localSlug": "api/classes/cluxguihandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2359
     },
     {
@@ -1738,7 +1738,7 @@
       "localSlug": "api/classes/cluxguiset",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1050
     },
     {
@@ -1750,7 +1750,7 @@
       "localSlug": "api/classes/cluxheadtracker",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1950
     },
     {
@@ -1762,7 +1762,7 @@
       "localSlug": "api/classes/cluxinputhandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 9975
     },
     {
@@ -1774,7 +1774,7 @@
       "localSlug": "api/classes/cluxlightsensor",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1131
     },
     {
@@ -1786,7 +1786,7 @@
       "localSlug": "api/classes/cluxliquidarea",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 40099
     },
     {
@@ -1798,7 +1798,7 @@
       "localSlug": "api/classes/cluxmap",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 19340
     },
     {
@@ -1810,7 +1810,7 @@
       "localSlug": "api/classes/cluxmovestate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1952
     },
     {
@@ -1822,7 +1822,7 @@
       "localSlug": "api/classes/cluxmovevector",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 294
     },
     {
@@ -1834,7 +1834,7 @@
       "localSlug": "api/classes/cluxmusic",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 284
     },
     {
@@ -1846,7 +1846,7 @@
       "localSlug": "api/classes/cluxmusicdynamictrack",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 308
     },
     {
@@ -1858,7 +1858,7 @@
       "localSlug": "api/classes/cluxmusichandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2144
     },
     {
@@ -1870,7 +1870,7 @@
       "localSlug": "api/classes/cluxpathfinder",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10218
     },
     {
@@ -1882,7 +1882,7 @@
       "localSlug": "api/classes/cluxplayer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 13078
     },
     {
@@ -1894,7 +1894,7 @@
       "localSlug": "api/classes/cluxplayerstate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 724
     },
     {
@@ -1906,7 +1906,7 @@
       "localSlug": "api/classes/cluxprop",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 48986
     },
     {
@@ -1918,7 +1918,7 @@
       "localSlug": "api/classes/cluxsavehandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2786
     },
     {
@@ -1930,7 +1930,7 @@
       "localSlug": "api/classes/cluxscreentextformatparameters",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 799
     },
     {
@@ -1942,7 +1942,7 @@
       "localSlug": "api/classes/cluxscreentexticon",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 302
     },
     {
@@ -1954,7 +1954,7 @@
       "localSlug": "api/classes/cluxscriptclassfader",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 306
     },
     {
@@ -1966,7 +1966,7 @@
       "localSlug": "api/classes/cluxscriptclasstimer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 306
     },
     {
@@ -1978,7 +1978,7 @@
       "localSlug": "api/classes/cluxscriptimgui",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 389
     },
     {
@@ -1990,7 +1990,7 @@
       "localSlug": "api/classes/cluxsoundextradata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 677
     },
     {
@@ -2002,7 +2002,7 @@
       "localSlug": "api/classes/cluxsoundlistener",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2847
     },
     {
@@ -2014,7 +2014,7 @@
       "localSlug": "api/classes/cluxsoundscapearea",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 40103
     },
     {
@@ -2026,7 +2026,7 @@
       "localSlug": "api/classes/cluxsoundscapehandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 467
     },
     {
@@ -2038,7 +2038,7 @@
       "localSlug": "api/classes/cluxstate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 284
     },
     {
@@ -2050,7 +2050,7 @@
       "localSlug": "api/classes/cluxstatemachine",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3141
     },
     {
@@ -2062,7 +2062,7 @@
       "localSlug": "api/classes/cluxstatetimer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 294
     },
     {
@@ -2074,7 +2074,7 @@
       "localSlug": "api/classes/cluxtracknode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 826
     },
     {
@@ -2086,7 +2086,7 @@
       "localSlug": "api/classes/cluxusermodule",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7818
     },
     {
@@ -2098,7 +2098,7 @@
       "localSlug": "api/classes/cluxvisibilityarea",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 40103
     },
     {
@@ -2110,7 +2110,7 @@
       "localSlug": "api/classes/cluxvisibilityportal",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 40105
     },
     {
@@ -2122,7 +2122,7 @@
       "localSlug": "api/classes/cluxvoicecharactercallback",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 318
     },
     {
@@ -2134,7 +2134,7 @@
       "localSlug": "api/classes/cluxvoicehandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5177
     },
     {
@@ -2146,7 +2146,7 @@
       "localSlug": "api/classes/cluxvoicesceneinstance",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 310
     },
     {
@@ -2158,7 +2158,7 @@
       "localSlug": "api/classes/cluxvoicesource",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 296
     },
     {
@@ -2170,7 +2170,7 @@
       "localSlug": "api/classes/cmaterial",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 541
     },
     {
@@ -2182,7 +2182,7 @@
       "localSlug": "api/classes/cmatrixf",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4482
     },
     {
@@ -2194,7 +2194,7 @@
       "localSlug": "api/classes/cmesh",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3494
     },
     {
@@ -2206,7 +2206,7 @@
       "localSlug": "api/classes/cmeshcollider",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 292
     },
     {
@@ -2218,7 +2218,7 @@
       "localSlug": "api/classes/cmeshentity",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 16813
     },
     {
@@ -2230,7 +2230,7 @@
       "localSlug": "api/classes/cmeshentityiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 642
     },
     {
@@ -2242,7 +2242,7 @@
       "localSlug": "api/classes/cnode3d",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6624
     },
     {
@@ -2254,7 +2254,7 @@
       "localSlug": "api/classes/cnode3diterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 622
     },
     {
@@ -2266,7 +2266,7 @@
       "localSlug": "api/classes/cparticlesystem",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6236
     },
     {
@@ -2278,7 +2278,7 @@
       "localSlug": "api/classes/cparticlesystemiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 662
     },
     {
@@ -2290,7 +2290,7 @@
       "localSlug": "api/classes/cphysicscontactdata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 727
     },
     {
@@ -2302,7 +2302,7 @@
       "localSlug": "api/classes/cpidcontrollerf",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1315
     },
     {
@@ -2314,7 +2314,7 @@
       "localSlug": "api/classes/cpidcontrollervec3",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1420
     },
     {
@@ -2326,7 +2326,7 @@
       "localSlug": "api/classes/cplanef",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1507
     },
     {
@@ -2338,7 +2338,7 @@
       "localSlug": "api/classes/cposteffect-chromaticaberration",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1692
     },
     {
@@ -2350,7 +2350,7 @@
       "localSlug": "api/classes/cposteffect-fxaa",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 879
     },
     {
@@ -2362,7 +2362,7 @@
       "localSlug": "api/classes/cposteffect-imagefadefx",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1487
     },
     {
@@ -2374,7 +2374,7 @@
       "localSlug": "api/classes/cposteffect-imagetrail",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1186
     },
     {
@@ -2386,7 +2386,7 @@
       "localSlug": "api/classes/cposteffect-radialblur",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1492
     },
     {
@@ -2398,7 +2398,7 @@
       "localSlug": "api/classes/cposteffect-tonemapping",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4046
     },
     {
@@ -2410,7 +2410,7 @@
       "localSlug": "api/classes/cposteffect-videodistortion",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2116
     },
     {
@@ -2422,7 +2422,7 @@
       "localSlug": "api/classes/cposteffectcomposite",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1357
     },
     {
@@ -2434,7 +2434,7 @@
       "localSlug": "api/classes/cprepparservarcontainer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 312
     },
     {
@@ -2446,7 +2446,7 @@
       "localSlug": "api/classes/cprocanimation",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2292
     },
     {
@@ -2458,7 +2458,7 @@
       "localSlug": "api/classes/cprocanimationtrack",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2935
     },
     {
@@ -2470,7 +2470,7 @@
       "localSlug": "api/classes/cquaternion",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1674
     },
     {
@@ -2482,7 +2482,7 @@
       "localSlug": "api/classes/crect2f",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 598
     },
     {
@@ -2494,7 +2494,7 @@
       "localSlug": "api/classes/crect2l",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 590
     },
     {
@@ -2506,7 +2506,7 @@
       "localSlug": "api/classes/crenderercallbackfunctions",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6658
     },
     {
@@ -2518,7 +2518,7 @@
       "localSlug": "api/classes/crendersettings",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 296
     },
     {
@@ -2530,7 +2530,7 @@
       "localSlug": "api/classes/cresourcevarsobject",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4182
     },
     {
@@ -2542,7 +2542,7 @@
       "localSlug": "api/classes/cropeentity3d",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 8929
     },
     {
@@ -2554,7 +2554,7 @@
       "localSlug": "api/classes/cropeentitybillboard",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 8784
     },
     {
@@ -2566,7 +2566,7 @@
       "localSlug": "api/classes/cropeentityiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 650
     },
     {
@@ -2578,7 +2578,7 @@
       "localSlug": "api/classes/cscriptstringintmap",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1422
     },
     {
@@ -2590,7 +2590,7 @@
       "localSlug": "api/classes/cscriptstringset",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1254
     },
     {
@@ -2602,7 +2602,7 @@
       "localSlug": "api/classes/cscriptvar",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 286
     },
     {
@@ -2614,7 +2614,7 @@
       "localSlug": "api/classes/cskeleton",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 284
     },
     {
@@ -2626,7 +2626,7 @@
       "localSlug": "api/classes/csmoothinterpolationf",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 812
     },
     {
@@ -2638,7 +2638,7 @@
       "localSlug": "api/classes/csmoothinterpolationvec3",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 857
     },
     {
@@ -2650,7 +2650,7 @@
       "localSlug": "api/classes/csoundentity",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10983
     },
     {
@@ -2662,7 +2662,7 @@
       "localSlug": "api/classes/csoundentitydata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 298
     },
     {
@@ -2674,7 +2674,7 @@
       "localSlug": "api/classes/csoundentityiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 647
     },
     {
@@ -2686,7 +2686,7 @@
       "localSlug": "api/classes/csoundentry",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7184
     },
     {
@@ -2698,7 +2698,7 @@
       "localSlug": "api/classes/csoundeventparaminfo",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 697
     },
     {
@@ -2710,7 +2710,7 @@
       "localSlug": "api/classes/csubmesh",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2777
     },
     {
@@ -2722,7 +2722,7 @@
       "localSlug": "api/classes/csubmeshentity",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7895
     },
     {
@@ -2734,7 +2734,7 @@
       "localSlug": "api/classes/csurfacedata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1597
     },
     {
@@ -2746,7 +2746,7 @@
       "localSlug": "api/classes/csurfaceimpactdata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 734
     },
     {
@@ -2758,7 +2758,7 @@
       "localSlug": "api/classes/cterrain",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3081
     },
     {
@@ -2770,7 +2770,7 @@
       "localSlug": "api/classes/cverletparticle",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1992
     },
     {
@@ -2782,7 +2782,7 @@
       "localSlug": "api/classes/cviewport",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4593
     },
     {
@@ -2794,7 +2794,7 @@
       "localSlug": "api/classes/cwidgetbutton",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11255
     },
     {
@@ -2806,7 +2806,7 @@
       "localSlug": "api/classes/cwidgetcheckbox",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10248
     },
     {
@@ -2818,7 +2818,7 @@
       "localSlug": "api/classes/cwidgetcollapsiblepane",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10172
     },
     {
@@ -2830,7 +2830,7 @@
       "localSlug": "api/classes/cwidgetcollapsiblepanecontainer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10175
     },
     {
@@ -2842,7 +2842,7 @@
       "localSlug": "api/classes/cwidgetcombobox",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10810
     },
     {
@@ -2854,7 +2854,7 @@
       "localSlug": "api/classes/cwidgetcontextmenu",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 12762
     },
     {
@@ -2866,7 +2866,7 @@
       "localSlug": "api/classes/cwidgetdummy",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10084
     },
     {
@@ -2878,7 +2878,7 @@
       "localSlug": "api/classes/cwidgetframe",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11132
     },
     {
@@ -2890,7 +2890,7 @@
       "localSlug": "api/classes/cwidgetgroup",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 9931
     },
     {
@@ -2902,7 +2902,7 @@
       "localSlug": "api/classes/cwidgetimage",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10225
     },
     {
@@ -2914,7 +2914,7 @@
       "localSlug": "api/classes/cwidgetitem",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2001
     },
     {
@@ -2926,7 +2926,7 @@
       "localSlug": "api/classes/cwidgetlabel",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 12125
     },
     {
@@ -2938,7 +2938,7 @@
       "localSlug": "api/classes/cwidgetlistbox",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 9933
     },
     {
@@ -2950,7 +2950,7 @@
       "localSlug": "api/classes/cwidgetmainmenu",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 12661
     },
     {
@@ -2962,7 +2962,7 @@
       "localSlug": "api/classes/cwidgetmenuitem",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11585
     },
     {
@@ -2974,7 +2974,7 @@
       "localSlug": "api/classes/cwidgetmultipropertylistbox",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11078
     },
     {
@@ -2986,7 +2986,7 @@
       "localSlug": "api/classes/cwidgetrangeslider",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11127
     },
     {
@@ -2998,7 +2998,7 @@
       "localSlug": "api/classes/cwidgetsinglevalueslider",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10724
     },
     {
@@ -3010,7 +3010,7 @@
       "localSlug": "api/classes/cwidgetslider",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11299
     },
     {
@@ -3022,7 +3022,7 @@
       "localSlug": "api/classes/cwidgettab",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10702
     },
     {
@@ -3034,7 +3034,7 @@
       "localSlug": "api/classes/cwidgettabframe",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11692
     },
     {
@@ -3046,7 +3046,7 @@
       "localSlug": "api/classes/cwidgettextbox",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 13479
     },
     {
@@ -3058,7 +3058,7 @@
       "localSlug": "api/classes/cwidgettreeitem",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2356
     },
     {
@@ -3070,7 +3070,7 @@
       "localSlug": "api/classes/cwidgettreeview",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10229
     },
     {
@@ -3082,7 +3082,7 @@
       "localSlug": "api/classes/cwidgetwindow",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10831
     },
     {
@@ -3094,7 +3094,7 @@
       "localSlug": "api/classes/cworld",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 40167
     },
     {
@@ -3106,7 +3106,7 @@
       "localSlug": "api/classes/cxmlelement",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6118
     },
     {
@@ -3118,7 +3118,7 @@
       "localSlug": "api/classes/cxmlnodelistiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 631
     },
     {
@@ -3130,7 +3130,7 @@
       "localSlug": "api/classes/cxmltext",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2225
     },
     {
@@ -3142,7 +3142,7 @@
       "localSlug": "api/classes/icharacterbody",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 22360
     },
     {
@@ -3154,7 +3154,7 @@
       "localSlug": "api/classes/icollideshape",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1527
     },
     {
@@ -3166,7 +3166,7 @@
       "localSlug": "api/classes/idepthstencilbuffer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 304
     },
     {
@@ -3178,7 +3178,7 @@
       "localSlug": "api/classes/ientity3d",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3800
     },
     {
@@ -3190,7 +3190,7 @@
       "localSlug": "api/classes/ieyetracker",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1450
     },
     {
@@ -3202,7 +3202,7 @@
       "localSlug": "api/classes/ifontdata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1064
     },
     {
@@ -3214,7 +3214,7 @@
       "localSlug": "api/classes/iframedata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 267
     },
     {
@@ -3226,7 +3226,7 @@
       "localSlug": "api/classes/igamepad",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3679
     },
     {
@@ -3238,7 +3238,7 @@
       "localSlug": "api/classes/igpuprogram",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 288
     },
     {
@@ -3250,7 +3250,7 @@
       "localSlug": "api/classes/igpushader",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 286
     },
     {
@@ -3262,7 +3262,7 @@
       "localSlug": "api/classes/iguimaterial",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 444
     },
     {
@@ -3274,7 +3274,7 @@
       "localSlug": "api/classes/iguipopup",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 761
     },
     {
@@ -3286,7 +3286,7 @@
       "localSlug": "api/classes/ikeyboard",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1687
     },
     {
@@ -3298,7 +3298,7 @@
       "localSlug": "api/classes/ilight",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 17912
     },
     {
@@ -3310,7 +3310,7 @@
       "localSlug": "api/classes/ilipsyncresult",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 509
     },
     {
@@ -3322,7 +3322,7 @@
       "localSlug": "api/classes/ilowlevelgraphics",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2943
     },
     {
@@ -3334,7 +3334,7 @@
       "localSlug": "api/classes/iluxachievementhandler",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1681
     },
     {
@@ -3346,7 +3346,7 @@
       "localSlug": "api/classes/iluxentity",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 39337
     },
     {
@@ -3358,7 +3358,7 @@
       "localSlug": "api/classes/iluxentitycomponent",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 585
     },
     {
@@ -3370,7 +3370,7 @@
       "localSlug": "api/classes/imaterialtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 292
     },
     {
@@ -3382,7 +3382,7 @@
       "localSlug": "api/classes/imouse",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1067
     },
     {
@@ -3394,7 +3394,7 @@
       "localSlug": "api/classes/iparticleemitter",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 298
     },
     {
@@ -3406,7 +3406,7 @@
       "localSlug": "api/classes/iphysicsbody",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 17168
     },
     {
@@ -3418,7 +3418,7 @@
       "localSlug": "api/classes/iphysicscloth",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6370
     },
     {
@@ -3430,7 +3430,7 @@
       "localSlug": "api/classes/iphysicscontroller",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 302
     },
     {
@@ -3442,7 +3442,7 @@
       "localSlug": "api/classes/iphysicsjoint",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4754
     },
     {
@@ -3454,7 +3454,7 @@
       "localSlug": "api/classes/iphysicsjointball",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5288
     },
     {
@@ -3466,7 +3466,7 @@
       "localSlug": "api/classes/iphysicsjointhinge",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5235
     },
     {
@@ -3478,7 +3478,7 @@
       "localSlug": "api/classes/iphysicsjointslider",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5240
     },
     {
@@ -3490,7 +3490,7 @@
       "localSlug": "api/classes/iphysicsmaterial",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 919
     },
     {
@@ -3502,7 +3502,7 @@
       "localSlug": "api/classes/iphysicsrope",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11494
     },
     {
@@ -3514,7 +3514,7 @@
       "localSlug": "api/classes/iphysicsworld",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 19042
     },
     {
@@ -3526,7 +3526,7 @@
       "localSlug": "api/classes/iposteffect",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 874
     },
     {
@@ -3538,7 +3538,7 @@
       "localSlug": "api/classes/iposteffecttype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 296
     },
     {
@@ -3550,7 +3550,7 @@
       "localSlug": "api/classes/irenderableentity",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7138
     },
     {
@@ -3562,7 +3562,7 @@
       "localSlug": "api/classes/irenderer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 284
     },
     {
@@ -3574,7 +3574,7 @@
       "localSlug": "api/classes/irenderercallback",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 300
     },
     {
@@ -3586,7 +3586,7 @@
       "localSlug": "api/classes/iropeentity",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7931
     },
     {
@@ -3598,7 +3598,7 @@
       "localSlug": "api/classes/iscrachievementhandler-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 581
     },
     {
@@ -3610,7 +3610,7 @@
       "localSlug": "api/classes/iscragent-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1277
     },
     {
@@ -3622,7 +3622,7 @@
       "localSlug": "api/classes/iscrarea-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1041
     },
     {
@@ -3634,7 +3634,7 @@
       "localSlug": "api/classes/iscrcritter-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1195
     },
     {
@@ -3646,7 +3646,7 @@
       "localSlug": "api/classes/iscrdialoghandler-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 473
     },
     {
@@ -3658,7 +3658,7 @@
       "localSlug": "api/classes/iscreffect-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1329
     },
     {
@@ -3670,7 +3670,7 @@
       "localSlug": "api/classes/iscreventdatabasehandler-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 854
     },
     {
@@ -3682,7 +3682,7 @@
       "localSlug": "api/classes/iscrguihandler-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 808
     },
     {
@@ -3694,7 +3694,7 @@
       "localSlug": "api/classes/iscrinputhandler-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 936
     },
     {
@@ -3706,7 +3706,7 @@
       "localSlug": "api/classes/iscrliquidarea-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1082
     },
     {
@@ -3718,7 +3718,7 @@
       "localSlug": "api/classes/iscrmovestate-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2682
     },
     {
@@ -3730,7 +3730,7 @@
       "localSlug": "api/classes/iscrplayer-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4818
     },
     {
@@ -3742,7 +3742,7 @@
       "localSlug": "api/classes/iscrplayerstate-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3804
     },
     {
@@ -3754,7 +3754,7 @@
       "localSlug": "api/classes/iscrprop-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1186
     },
     {
@@ -3766,7 +3766,7 @@
       "localSlug": "api/classes/iscrusermodule-interface",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3466
     },
     {
@@ -3778,7 +3778,7 @@
       "localSlug": "api/classes/isoundchannel",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4475
     },
     {
@@ -3790,7 +3790,7 @@
       "localSlug": "api/classes/isounddata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 286
     },
     {
@@ -3802,7 +3802,7 @@
       "localSlug": "api/classes/isoundevent",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5005
     },
     {
@@ -3814,7 +3814,7 @@
       "localSlug": "api/classes/isoundeventdata",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2263
     },
     {
@@ -3826,7 +3826,7 @@
       "localSlug": "api/classes/isoundeventproject",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1167
     },
     {
@@ -3838,7 +3838,7 @@
       "localSlug": "api/classes/isubaction",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 629
     },
     {
@@ -3850,7 +3850,7 @@
       "localSlug": "api/classes/itexture",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 282
     },
     {
@@ -3862,7 +3862,7 @@
       "localSlug": "api/classes/iverletparticlecontainer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5070
     },
     {
@@ -3874,7 +3874,7 @@
       "localSlug": "api/classes/ivertexbuffer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 566
     },
     {
@@ -3886,7 +3886,7 @@
       "localSlug": "api/classes/ivideostream",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 290
     },
     {
@@ -3898,7 +3898,7 @@
       "localSlug": "api/classes/iviewportcallback",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 300
     },
     {
@@ -3910,7 +3910,7 @@
       "localSlug": "api/classes/iwidget",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 9926
     },
     {
@@ -3922,7 +3922,7 @@
       "localSlug": "api/classes/iwidgetmenu",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 12657
     },
     {
@@ -3934,7 +3934,7 @@
       "localSlug": "api/classes/ixmldocument",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6728
     },
     {
@@ -3946,7 +3946,7 @@
       "localSlug": "api/classes/ixmlnode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2225
     },
     {
@@ -3958,7 +3958,7 @@
       "localSlug": "api/classes/tid",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 272
     },
     {
@@ -3970,7 +3970,7 @@
       "localSlug": "api/classes/eaifreepathflag",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 480
     },
     {
@@ -3982,7 +3982,7 @@
       "localSlug": "api/classes/eanimationeventtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 767
     },
     {
@@ -3994,7 +3994,7 @@
       "localSlug": "api/classes/eaxis2d",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 433
     },
     {
@@ -4006,7 +4006,7 @@
       "localSlug": "api/classes/eaxis3d",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 482
     },
     {
@@ -4018,7 +4018,7 @@
       "localSlug": "api/classes/eaxis4d",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 531
     },
     {
@@ -4030,7 +4030,7 @@
       "localSlug": "api/classes/eaxisflag",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 485
     },
     {
@@ -4042,7 +4042,7 @@
       "localSlug": "api/classes/ebillboardtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 525
     },
     {
@@ -4054,7 +4054,7 @@
       "localSlug": "api/classes/ecameramovemode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 462
     },
     {
@@ -4066,7 +4066,7 @@
       "localSlug": "api/classes/ecamerarotatemode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 478
     },
     {
@@ -4078,7 +4078,7 @@
       "localSlug": "api/classes/echardir",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 446
     },
     {
@@ -4090,7 +4090,7 @@
       "localSlug": "api/classes/eclearframebufferflag",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 482
     },
     {
@@ -4102,7 +4102,7 @@
       "localSlug": "api/classes/ecollideshapetype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 996
     },
     {
@@ -4114,7 +4114,7 @@
       "localSlug": "api/classes/ecollision",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 513
     },
     {
@@ -4126,7 +4126,7 @@
       "localSlug": "api/classes/ecullmode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 462
     },
     {
@@ -4138,7 +4138,7 @@
       "localSlug": "api/classes/edepthtestfunc",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 842
     },
     {
@@ -4150,7 +4150,7 @@
       "localSlug": "api/classes/edisplaymode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 527
     },
     {
@@ -4162,7 +4162,7 @@
       "localSlug": "api/classes/eeasing",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2095
     },
     {
@@ -4174,7 +4174,7 @@
       "localSlug": "api/classes/eentitytype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1872
     },
     {
@@ -4186,7 +4186,7 @@
       "localSlug": "api/classes/eeulerrotationorder",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 725
     },
     {
@@ -4198,7 +4198,7 @@
       "localSlug": "api/classes/eeventcomparetype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 897
     },
     {
@@ -4210,7 +4210,7 @@
       "localSlug": "api/classes/eeventfactvalue",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 525
     },
     {
@@ -4222,7 +4222,7 @@
       "localSlug": "api/classes/eeventoptype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 564
     },
     {
@@ -4234,7 +4234,7 @@
       "localSlug": "api/classes/efilepickertype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 463
     },
     {
@@ -4246,7 +4246,7 @@
       "localSlug": "api/classes/eflagbit",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2143
     },
     {
@@ -4258,7 +4258,7 @@
       "localSlug": "api/classes/efontalign",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 506
     },
     {
@@ -4270,7 +4270,7 @@
       "localSlug": "api/classes/efrustumplane",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 690
     },
     {
@@ -4282,7 +4282,7 @@
       "localSlug": "api/classes/egamepadaxis",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 881
     },
     {
@@ -4294,7 +4294,7 @@
       "localSlug": "api/classes/egamepadaxisrange",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 539
     },
     {
@@ -4306,7 +4306,7 @@
       "localSlug": "api/classes/egamepadball",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 394
     },
     {
@@ -4318,7 +4318,7 @@
       "localSlug": "api/classes/egamepadbutton",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2063
     },
     {
@@ -4330,7 +4330,7 @@
       "localSlug": "api/classes/egamepadhat",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 870
     },
     {
@@ -4342,7 +4342,7 @@
       "localSlug": "api/classes/egamepadhatstate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 912
     },
     {
@@ -4354,7 +4354,7 @@
       "localSlug": "api/classes/egamepadinputtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 594
     },
     {
@@ -4366,7 +4366,7 @@
       "localSlug": "api/classes/egraphiccaps",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2205
     },
     {
@@ -4378,7 +4378,7 @@
       "localSlug": "api/classes/eguigfxanimationtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 620
     },
     {
@@ -4390,7 +4390,7 @@
       "localSlug": "api/classes/eguimaterial",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 709
     },
     {
@@ -4402,7 +4402,7 @@
       "localSlug": "api/classes/eguimessage",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2834
     },
     {
@@ -4414,7 +4414,7 @@
       "localSlug": "api/classes/eguimousebutton",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 915
     },
     {
@@ -4426,7 +4426,7 @@
       "localSlug": "api/classes/eguiskinattribute",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3073
     },
     {
@@ -4438,7 +4438,7 @@
       "localSlug": "api/classes/eguiskinfont",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 525
     },
     {
@@ -4450,7 +4450,7 @@
       "localSlug": "api/classes/eguiskingfx",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 8817
     },
     {
@@ -4462,7 +4462,7 @@
       "localSlug": "api/classes/eguiwindowzdest",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 673
     },
     {
@@ -4474,7 +4474,7 @@
       "localSlug": "api/classes/eidspace",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 562
     },
     {
@@ -4486,7 +4486,7 @@
       "localSlug": "api/classes/eimguiaction",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 936
     },
     {
@@ -4498,7 +4498,7 @@
       "localSlug": "api/classes/eimguialign",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 897
     },
     {
@@ -4510,7 +4510,7 @@
       "localSlug": "api/classes/eimguigaugeorientation",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 413
     },
     {
@@ -4522,7 +4522,7 @@
       "localSlug": "api/classes/eimguigfx",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 634
     },
     {
@@ -4534,7 +4534,7 @@
       "localSlug": "api/classes/eimguilayout",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 564
     },
     {
@@ -4546,7 +4546,7 @@
       "localSlug": "api/classes/eimguiobjecttype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 603
     },
     {
@@ -4558,7 +4558,7 @@
       "localSlug": "api/classes/eimguioffset",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 453
     },
     {
@@ -4570,7 +4570,7 @@
       "localSlug": "api/classes/eimguistatevar",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 871
     },
     {
@@ -4582,7 +4582,7 @@
       "localSlug": "api/classes/eimguivar",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 558
     },
     {
@@ -4594,7 +4594,7 @@
       "localSlug": "api/classes/eimguiwindowheader",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 411
     },
     {
@@ -4606,7 +4606,7 @@
       "localSlug": "api/classes/eimguiwrap",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 550
     },
     {
@@ -4618,7 +4618,7 @@
       "localSlug": "api/classes/eimguiwrapmode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 462
     },
     {
@@ -4630,7 +4630,7 @@
       "localSlug": "api/classes/einputdevicetype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 535
     },
     {
@@ -4642,7 +4642,7 @@
       "localSlug": "api/classes/ekey",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6963
     },
     {
@@ -4654,7 +4654,7 @@
       "localSlug": "api/classes/ekeymodifier",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 568
     },
     {
@@ -4666,7 +4666,7 @@
       "localSlug": "api/classes/elensflaretype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 535
     },
     {
@@ -4678,7 +4678,7 @@
       "localSlug": "api/classes/elightboxblendfunc",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 538
     },
     {
@@ -4690,7 +4690,7 @@
       "localSlug": "api/classes/elighttype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 565
     },
     {
@@ -4702,7 +4702,7 @@
       "localSlug": "api/classes/elistboxactiontype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 557
     },
     {
@@ -4714,7 +4714,7 @@
       "localSlug": "api/classes/eloglabel",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 950
     },
     {
@@ -4726,7 +4726,7 @@
       "localSlug": "api/classes/eluxcharmovedirection",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 551
     },
     {
@@ -4738,7 +4738,7 @@
       "localSlug": "api/classes/eluxdialogbranchevent",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 919
     },
     {
@@ -4750,7 +4750,7 @@
       "localSlug": "api/classes/eluxdialogoptioncondition",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 578
     },
     {
@@ -4762,7 +4762,7 @@
       "localSlug": "api/classes/eluxdialogoptionevent",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 485
     },
     {
@@ -4774,7 +4774,7 @@
       "localSlug": "api/classes/eluxentitycomponenttype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1024
     },
     {
@@ -4786,7 +4786,7 @@
       "localSlug": "api/classes/eluxentitymessage",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1774
     },
     {
@@ -4798,7 +4798,7 @@
       "localSlug": "api/classes/eluxentitytype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 773
     },
     {
@@ -4810,7 +4810,7 @@
       "localSlug": "api/classes/eluxglobalfreqtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 914
     },
     {
@@ -4822,7 +4822,7 @@
       "localSlug": "api/classes/eluxglobalvolumetype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 916
     },
     {
@@ -4834,7 +4834,7 @@
       "localSlug": "api/classes/eluxkeyboardlayouttype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 497
     },
     {
@@ -4846,7 +4846,7 @@
       "localSlug": "api/classes/eluxlightconnectiontype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 485
     },
     {
@@ -4858,7 +4858,7 @@
       "localSlug": "api/classes/eluxsetsubmapposition",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 584
     },
     {
@@ -4870,7 +4870,7 @@
       "localSlug": "api/classes/eluxvoicesourcefrequencyflag",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 660
     },
     {
@@ -4882,7 +4882,7 @@
       "localSlug": "api/classes/ematerialblendmode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 942
     },
     {
@@ -4894,7 +4894,7 @@
       "localSlug": "api/classes/ematerialchannelmode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 604
     },
     {
@@ -4906,7 +4906,7 @@
       "localSlug": "api/classes/ematrix",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 505
     },
     {
@@ -4918,7 +4918,7 @@
       "localSlug": "api/classes/emousebutton",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 876
     },
     {
@@ -4930,7 +4930,7 @@
       "localSlug": "api/classes/emsgboxtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 510
     },
     {
@@ -4942,7 +4942,7 @@
       "localSlug": "api/classes/enoisetype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 508
     },
     {
@@ -4954,7 +4954,7 @@
       "localSlug": "api/classes/eobjectvariabilityflag",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 484
     },
     {
@@ -4966,7 +4966,7 @@
       "localSlug": "api/classes/eparallaxquality",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 528
     },
     {
@@ -4978,7 +4978,7 @@
       "localSlug": "api/classes/ephysicsaccuracy",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 528
     },
     {
@@ -4990,7 +4990,7 @@
       "localSlug": "api/classes/ephysicsjointspeed",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 477
     },
     {
@@ -5002,7 +5002,7 @@
       "localSlug": "api/classes/ephysicsjointtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 534
     },
     {
@@ -5014,7 +5014,7 @@
       "localSlug": "api/classes/epixelformat",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2030
     },
     {
@@ -5026,7 +5026,7 @@
       "localSlug": "api/classes/eplatform",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 500
     },
     {
@@ -5038,7 +5038,7 @@
       "localSlug": "api/classes/eprimitivetype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 459
     },
     {
@@ -5050,7 +5050,7 @@
       "localSlug": "api/classes/eprocanimtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 523
     },
     {
@@ -5062,7 +5062,7 @@
       "localSlug": "api/classes/eprojectiontype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 414
     },
     {
@@ -5074,7 +5074,7 @@
       "localSlug": "api/classes/erenderableflag",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 570
     },
     {
@@ -5086,7 +5086,7 @@
       "localSlug": "api/classes/erenderabletype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 983
     },
     {
@@ -5098,7 +5098,7 @@
       "localSlug": "api/classes/erenderer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 506
     },
     {
@@ -5110,7 +5110,7 @@
       "localSlug": "api/classes/erenderermessage",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 557
     },
     {
@@ -5122,7 +5122,7 @@
       "localSlug": "api/classes/eropetype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 448
     },
     {
@@ -5134,7 +5134,7 @@
       "localSlug": "api/classes/escenerenderflag",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 530
     },
     {
@@ -5146,7 +5146,7 @@
       "localSlug": "api/classes/eshadowmapquality",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 532
     },
     {
@@ -5158,7 +5158,7 @@
       "localSlug": "api/classes/eshadowmapresolution",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 544
     },
     {
@@ -5170,7 +5170,7 @@
       "localSlug": "api/classes/esoundentitydatatype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 496
     },
     {
@@ -5182,7 +5182,7 @@
       "localSlug": "api/classes/esoundentrydatatype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 411
     },
     {
@@ -5194,7 +5194,7 @@
       "localSlug": "api/classes/esoundentrytype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 863
     },
     {
@@ -5206,7 +5206,7 @@
       "localSlug": "api/classes/esoundmaxplaybacksbehavior",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 756
     },
     {
@@ -5218,7 +5218,7 @@
       "localSlug": "api/classes/esoundreverbpreset",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3233
     },
     {
@@ -5230,7 +5230,7 @@
       "localSlug": "api/classes/esystempath",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 399
     },
     {
@@ -5242,7 +5242,7 @@
       "localSlug": "api/classes/etextureanimmode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 532
     },
     {
@@ -5254,7 +5254,7 @@
       "localSlug": "api/classes/etexturecomparefunc",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 492
     },
     {
@@ -5266,7 +5266,7 @@
       "localSlug": "api/classes/etexturecomparemode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 481
     },
     {
@@ -5278,7 +5278,7 @@
       "localSlug": "api/classes/etexturefilter",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 531
     },
     {
@@ -5290,7 +5290,7 @@
       "localSlug": "api/classes/etexturetype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 565
     },
     {
@@ -5302,7 +5302,7 @@
       "localSlug": "api/classes/etextureusage",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 467
     },
     {
@@ -5314,7 +5314,7 @@
       "localSlug": "api/classes/etexturewrap",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 587
     },
     {
@@ -5326,7 +5326,7 @@
       "localSlug": "api/classes/euiarrow",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 774
     },
     {
@@ -5338,7 +5338,7 @@
       "localSlug": "api/classes/evelocityaxes",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 509
     },
     {
@@ -5350,7 +5350,7 @@
       "localSlug": "api/classes/evertexbufferdrawtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 964
     },
     {
@@ -5362,7 +5362,7 @@
       "localSlug": "api/classes/eviewportmessage",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 487
     },
     {
@@ -5374,7 +5374,7 @@
       "localSlug": "api/classes/evsyncmode",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 504
     },
     {
@@ -5386,7 +5386,7 @@
       "localSlug": "api/classes/ewidgetsliderorientation",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 500
     },
     {
@@ -5398,7 +5398,7 @@
       "localSlug": "api/classes/ewidgettextboxinputtype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 492
     },
     {
@@ -5410,7 +5410,7 @@
       "localSlug": "api/classes/ewidgettype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1398
     },
     {
@@ -5422,7 +5422,7 @@
       "localSlug": "api/classes/eworldcontainertype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 480
     },
     {
@@ -5434,7 +5434,7 @@
       "localSlug": "api/classes/eworldstreampriority",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 680
     },
     {
@@ -5446,7 +5446,7 @@
       "localSlug": "api/classes/exmlnodetype",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 400
     },
     {
@@ -5458,7 +5458,7 @@
       "localSlug": "scripting/user-modules-overview",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 17363
     },
     {
@@ -5470,7 +5470,7 @@
       "localSlug": "scripting/hpl3-scripting-guide",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 406
     },
     {
@@ -5482,7 +5482,7 @@
       "localSlug": "scripting/the-basics-introduction",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1946
     },
     {
@@ -5494,7 +5494,7 @@
       "localSlug": "scripting/what-is-scripting-in-hpl3",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 960
     },
     {
@@ -5506,7 +5506,7 @@
       "localSlug": "scripting/setting-up-codelite",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5999
     },
     {
@@ -5518,7 +5518,7 @@
       "localSlug": "api/classes/clightmaskboxlistiterator",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 656
     },
     {
@@ -5530,7 +5530,7 @@
       "localSlug": "api/classes/iframebuffer",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 290
     },
     {
@@ -5542,7 +5542,7 @@
       "localSlug": "api/wiki-index",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 186572
     },
     {
@@ -5554,7 +5554,7 @@
       "localSlug": "scripting/scripting-workflow-and-structure",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7154
     },
     {
@@ -5566,7 +5566,7 @@
       "localSlug": "scripting/hello-world",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2334
     },
     {
@@ -5578,7 +5578,7 @@
       "localSlug": "api/categories/entity",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 74357
     },
     {
@@ -5590,7 +5590,7 @@
       "localSlug": "scripting/calling-functions-and-function-callbacks",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2769
     },
     {
@@ -5602,7 +5602,7 @@
       "localSlug": "scripting/helper-files",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4920
     },
     {
@@ -5614,7 +5614,7 @@
       "localSlug": "assets/modeling",
       "category": "assets",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 937
     },
     {
@@ -5626,7 +5626,7 @@
       "localSlug": "scripting/the-onaction-method",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2768
     },
     {
@@ -5638,7 +5638,7 @@
       "localSlug": "scripting/the-update-method",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2590
     },
     {
@@ -5650,7 +5650,7 @@
       "localSlug": "scripting/timers",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2256
     },
     {
@@ -5662,7 +5662,7 @@
       "localSlug": "scripting/sequences",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3083
     },
     {
@@ -5674,7 +5674,7 @@
       "localSlug": "api/categories/billboard",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4744
     },
     {
@@ -5686,7 +5686,7 @@
       "localSlug": "scripting/local-and-global-variables",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3618
     },
     {
@@ -5698,7 +5698,7 @@
       "localSlug": "scripting/enums",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2481
     },
     {
@@ -5710,7 +5710,7 @@
       "localSlug": "scripting/conclusion-basic",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1367
     },
     {
@@ -5722,7 +5722,7 @@
       "localSlug": "scripting/angelscript/chapter-1-introduction",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3444
     },
     {
@@ -5734,7 +5734,7 @@
       "localSlug": "scripting/angelscript/chapter-2-structure-of-a-script",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11087
     },
     {
@@ -5746,7 +5746,7 @@
       "localSlug": "scripting/angelscript/chapter-3-variables-and-types",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 16520
     },
     {
@@ -5758,7 +5758,7 @@
       "localSlug": "scripting/angelscript/chapter-4-operators-and-expressions",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 20790
     },
     {
@@ -5770,7 +5770,7 @@
       "localSlug": "scripting/angelscript/chapter-5-statements-and-flow-control",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 20844
     },
     {
@@ -5782,7 +5782,7 @@
       "localSlug": "scripting/angelscript/chapter-6-functions",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 13579
     },
     {
@@ -5794,7 +5794,7 @@
       "localSlug": "scripting/angelscript/chapter-7-calling-other-scripts",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11354
     },
     {
@@ -5806,7 +5806,7 @@
       "localSlug": "scripting/angelscript/chapter-8-classes",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 13705
     },
     {
@@ -5818,7 +5818,7 @@
       "localSlug": "scripting/angelscript/chapter-9-miscellaneous-angelscript-features",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 51901
     },
     {
@@ -5830,7 +5830,7 @@
       "localSlug": "scripting/angelscript/whats-next",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 917
     },
     {
@@ -5842,7 +5842,7 @@
       "localSlug": "scripting/working-with-classes",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2241
     },
     {
@@ -5854,7 +5854,7 @@
       "localSlug": "scripting/advanced-topics-introduction",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 702
     },
     {
@@ -5866,7 +5866,7 @@
       "localSlug": "scripting/conclusion-advanced",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1120
     },
     {
@@ -5878,7 +5878,7 @@
       "localSlug": "modding/setup-modding-environment",
       "category": "modding",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2644
     },
     {
@@ -5890,7 +5890,7 @@
       "localSlug": "modding/developer-debug-menu",
       "category": "modding",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 15983
     },
     {
@@ -5902,7 +5902,7 @@
       "localSlug": "assets/animation",
       "category": "assets",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 990
     },
     {
@@ -5914,7 +5914,7 @@
       "localSlug": "scripting/entity-components",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10938
     },
     {
@@ -5926,7 +5926,7 @@
       "localSlug": "generated/entities-hub",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1585
     },
     {
@@ -5938,7 +5938,7 @@
       "localSlug": "entities/entities-overview",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 9178
     },
     {
@@ -5950,7 +5950,7 @@
       "localSlug": "generated/gui",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 14335
     },
     {
@@ -5962,7 +5962,7 @@
       "localSlug": "scripting/terminals-overview",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 13143
     },
     {
@@ -5974,7 +5974,7 @@
       "localSlug": "entities/model-editor-outline",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1196
     },
     {
@@ -5986,7 +5986,7 @@
       "localSlug": "entities/entity-notes",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 300
     },
     {
@@ -5998,7 +5998,7 @@
       "localSlug": "level-editor/level-editor-preferences",
       "category": "level-editor",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1314
     },
     {
@@ -6010,7 +6010,7 @@
       "localSlug": "level-building/indoor-level-performance",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6468
     },
     {
@@ -6022,7 +6022,7 @@
       "localSlug": "level-building/outdoor-level-performance",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4313
     },
     {
@@ -6034,7 +6034,7 @@
       "localSlug": "level-editor/finding-objects",
       "category": "level-editor",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1102
     },
     {
@@ -6046,7 +6046,7 @@
       "localSlug": "level-editor/level-information",
       "category": "level-editor",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 208
     },
     {
@@ -6058,7 +6058,7 @@
       "localSlug": "level-editor/compounds",
       "category": "level-editor",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 551
     },
     {
@@ -6070,7 +6070,7 @@
       "localSlug": "level-building/light-masks",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 871
     },
     {
@@ -6082,7 +6082,7 @@
       "localSlug": "api/categories/body",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3087
     },
     {
@@ -6094,7 +6094,7 @@
       "localSlug": "api/categories/button",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6521
     },
     {
@@ -6106,7 +6106,7 @@
       "localSlug": "api/classes/cai",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1143
     },
     {
@@ -6118,7 +6118,7 @@
       "localSlug": "api/classes/cengine",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10482
     },
     {
@@ -6130,7 +6130,7 @@
       "localSlug": "api/classes/cgenerate",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5089
     },
     {
@@ -6142,7 +6142,7 @@
       "localSlug": "api/classes/cgraphics",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 16496
     },
     {
@@ -6154,7 +6154,7 @@
       "localSlug": "api/classes/cgui",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 12617
     },
     {
@@ -6166,7 +6166,7 @@
       "localSlug": "api/classes/cinput",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7368
     },
     {
@@ -6178,7 +6178,7 @@
       "localSlug": "api/classes/clux",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 87635
     },
     {
@@ -6190,7 +6190,7 @@
       "localSlug": "api/classes/cphysics",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4389
     },
     {
@@ -6202,7 +6202,7 @@
       "localSlug": "api/classes/cmath",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 119687
     },
     {
@@ -6214,7 +6214,7 @@
       "localSlug": "api/classes/cresources",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 20727
     },
     {
@@ -6226,7 +6226,7 @@
       "localSlug": "api/classes/cscene",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 12251
     },
     {
@@ -6238,7 +6238,7 @@
       "localSlug": "api/classes/cscript",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 27907
     },
     {
@@ -6250,7 +6250,7 @@
       "localSlug": "api/classes/csound",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 28102
     },
     {
@@ -6262,7 +6262,7 @@
       "localSlug": "api/classes/cstring",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 37889
     },
     {
@@ -6274,7 +6274,7 @@
       "localSlug": "api/classes/csystem",
       "category": "api",
       "status": "undocumented",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 13875
     },
     {
@@ -6286,7 +6286,7 @@
       "localSlug": "api/categories/energysource",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 844
     },
     {
@@ -6298,7 +6298,7 @@
       "localSlug": "api/categories/error",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1453
     },
     {
@@ -6310,7 +6310,7 @@
       "localSlug": "api/categories/fogarea",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1316
     },
     {
@@ -6322,7 +6322,7 @@
       "localSlug": "api/categories/grab",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 804
     },
     {
@@ -6334,7 +6334,7 @@
       "localSlug": "api/categories/irradianceset",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1957
     },
     {
@@ -6346,7 +6346,7 @@
       "localSlug": "api/categories/joint",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2501
     },
     {
@@ -6358,7 +6358,7 @@
       "localSlug": "api/categories/lamp",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4593
     },
     {
@@ -6370,7 +6370,7 @@
       "localSlug": "api/categories/lensflare",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 925
     },
     {
@@ -6382,7 +6382,7 @@
       "localSlug": "api/categories/leveldoor",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1440
     },
     {
@@ -6394,7 +6394,7 @@
       "localSlug": "api/categories/lever",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3914
     },
     {
@@ -6406,7 +6406,7 @@
       "localSlug": "api/categories/light",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5928
     },
     {
@@ -6418,7 +6418,7 @@
       "localSlug": "api/categories/map",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4487
     },
     {
@@ -6430,7 +6430,7 @@
       "localSlug": "api/categories/material",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 669
     },
     {
@@ -6442,7 +6442,7 @@
       "localSlug": "api/categories/math",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1747
     },
     {
@@ -6454,7 +6454,7 @@
       "localSlug": "api/categories/meter",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2464
     },
     {
@@ -6466,7 +6466,7 @@
       "localSlug": "api/categories/moveobject",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2520
     },
     {
@@ -6478,7 +6478,7 @@
       "localSlug": "api/categories/movingbutton",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 8232
     },
     {
@@ -6490,7 +6490,7 @@
       "localSlug": "api/categories/particlesystem",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 9989
     },
     {
@@ -6502,7 +6502,7 @@
       "localSlug": "api/categories/physicsslidedoor",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2922
     },
     {
@@ -6514,7 +6514,7 @@
       "localSlug": "api/categories/prop",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 13997
     },
     {
@@ -6526,7 +6526,7 @@
       "localSlug": "api/categories/readable",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1778
     },
     {
@@ -6538,7 +6538,7 @@
       "localSlug": "api/categories/slide",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4041
     },
     {
@@ -6550,7 +6550,7 @@
       "localSlug": "api/categories/slidedoor",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3390
     },
     {
@@ -6562,7 +6562,7 @@
       "localSlug": "api/categories/string",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1112
     },
     {
@@ -6574,7 +6574,7 @@
       "localSlug": "api/categories/swingdoor",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7892
     },
     {
@@ -6586,7 +6586,7 @@
       "localSlug": "api/categories/terminal",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 22401
     },
     {
@@ -6598,7 +6598,7 @@
       "localSlug": "api/categories/tool",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3281
     },
     {
@@ -6610,7 +6610,7 @@
       "localSlug": "api/categories/wheel",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3740
     },
     {
@@ -6622,7 +6622,7 @@
       "localSlug": "api/categories/hashing",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 910
     },
     {
@@ -6634,7 +6634,7 @@
       "localSlug": "api/categories/logging",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4929
     },
     {
@@ -6646,7 +6646,7 @@
       "localSlug": "api/categories/constants",
       "category": "api",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11814
     },
     {
@@ -6658,7 +6658,7 @@
       "localSlug": "generated/resources-configuration",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2119
     },
     {
@@ -6670,7 +6670,7 @@
       "localSlug": "generated/launch-configuration",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3914
     },
     {
@@ -6682,7 +6682,7 @@
       "localSlug": "modding/non-safe-mode-menu",
       "category": "modding",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 943
     },
     {
@@ -6694,7 +6694,7 @@
       "localSlug": "tools/soma-mod-manager",
       "category": "tools",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1671
     },
     {
@@ -6706,7 +6706,7 @@
       "localSlug": "generated/language-configuration",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4744
     },
     {
@@ -6718,7 +6718,7 @@
       "localSlug": "modding/mod-dependencies",
       "category": "modding",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3791
     },
     {
@@ -6730,7 +6730,7 @@
       "localSlug": "tools/soma-text-search-tool",
       "category": "tools",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1082
     },
     {
@@ -6742,7 +6742,7 @@
       "localSlug": "generated/materials-hub",
       "category": "materials",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1645
     },
     {
@@ -6754,7 +6754,7 @@
       "localSlug": "generated/dialogue-hub",
       "category": "dialogue",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 987
     },
     {
@@ -6766,7 +6766,7 @@
       "localSlug": "generated/glossary-source",
       "category": "glossary",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3418
     },
     {
@@ -6778,7 +6778,7 @@
       "localSlug": "scripting/tutorials",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1311
     },
     {
@@ -6790,7 +6790,7 @@
       "localSlug": "level-editor/level-editor-toolbar",
       "category": "level-editor",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4481
     },
     {
@@ -6802,7 +6802,7 @@
       "localSlug": "level-editor/level-editor-view",
       "category": "level-editor",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4077
     },
     {
@@ -6814,7 +6814,7 @@
       "localSlug": "level-editor/level-settings",
       "category": "level-editor",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3185
     },
     {
@@ -6826,7 +6826,7 @@
       "localSlug": "scripting/level-scripting-best-practices",
       "category": "scripting",
       "status": "wip",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 18828
     },
     {
@@ -6838,7 +6838,7 @@
       "localSlug": "scripting/id-handles",
       "category": "scripting",
       "status": "wip",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2378
     },
     {
@@ -6850,7 +6850,7 @@
       "localSlug": "scripting/amnesia-style-inventory-script-reference",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 9506
     },
     {
@@ -6862,7 +6862,7 @@
       "localSlug": "materials/materials-overview",
       "category": "materials",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4042
     },
     {
@@ -6874,7 +6874,7 @@
       "localSlug": "materials/working-with-materials",
       "category": "materials",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1490
     },
     {
@@ -6886,7 +6886,7 @@
       "localSlug": "generated/materials-hub",
       "category": "materials",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1645
     },
     {
@@ -6898,7 +6898,7 @@
       "localSlug": "generated/particles-hub",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1184
     },
     {
@@ -6910,7 +6910,7 @@
       "localSlug": "tools/hpl3-mod-manager",
       "category": "tools",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 12063
     },
     {
@@ -6922,7 +6922,7 @@
       "localSlug": "areas/camera-animation-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4009
     },
     {
@@ -6934,7 +6934,7 @@
       "localSlug": "areas/crawl-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 257
     },
     {
@@ -6946,7 +6946,7 @@
       "localSlug": "generated/tdd-asset-pack",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 527
     },
     {
@@ -6958,7 +6958,7 @@
       "localSlug": "areas/trigger-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2903
     },
     {
@@ -6970,7 +6970,7 @@
       "localSlug": "areas/playerstart-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 515
     },
     {
@@ -6982,7 +6982,7 @@
       "localSlug": "areas/ladder-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1524
     },
     {
@@ -6994,7 +6994,7 @@
       "localSlug": "scripting/input-types",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3172
     },
     {
@@ -7006,7 +7006,7 @@
       "localSlug": "generated/color-grading",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2577
     },
     {
@@ -7018,7 +7018,7 @@
       "localSlug": "areas/interactaux-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 315
     },
     {
@@ -7030,7 +7030,7 @@
       "localSlug": "areas/sticky-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2799
     },
     {
@@ -7042,7 +7042,7 @@
       "localSlug": "areas/pathnode-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1188
     },
     {
@@ -7054,7 +7054,7 @@
       "localSlug": "areas/fog-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1071
     },
     {
@@ -7066,7 +7066,7 @@
       "localSlug": "areas/climb-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 645
     },
     {
@@ -7078,7 +7078,7 @@
       "localSlug": "areas/description-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 223
     },
     {
@@ -7090,7 +7090,7 @@
       "localSlug": "areas/hide-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 274
     },
     {
@@ -7102,7 +7102,7 @@
       "localSlug": "areas/tool-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 718
     },
     {
@@ -7114,7 +7114,7 @@
       "localSlug": "areas/zoom-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2940
     },
     {
@@ -7126,7 +7126,7 @@
       "localSlug": "areas/ambient-light-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 718
     },
     {
@@ -7138,7 +7138,7 @@
       "localSlug": "areas/distortion-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1729
     },
     {
@@ -7150,7 +7150,7 @@
       "localSlug": "areas/doorwaytrigger-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2263
     },
     {
@@ -7162,7 +7162,7 @@
       "localSlug": "areas/datamine-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2195
     },
     {
@@ -7174,7 +7174,7 @@
       "localSlug": "areas/agentrepel-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 280
     },
     {
@@ -7186,7 +7186,7 @@
       "localSlug": "entities/physics-body-properties",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3172
     },
     {
@@ -7198,7 +7198,7 @@
       "localSlug": "generated/shaders",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 380
     },
     {
@@ -7210,7 +7210,7 @@
       "localSlug": "generated/hpsl-shading-language",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 13529
     },
     {
@@ -7222,7 +7222,7 @@
       "localSlug": "generated/overwriting-existing-shaders",
       "category": "generated",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3886
     },
     {
@@ -7234,7 +7234,7 @@
       "localSlug": "scripting/object-handles",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11425
     },
     {
@@ -7246,7 +7246,7 @@
       "localSlug": "scripting/object-instances-vs-object-handles",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 13605
     },
     {
@@ -7258,7 +7258,7 @@
       "localSlug": "scripting/type-casting",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 14397
     },
     {
@@ -7270,7 +7270,7 @@
       "localSlug": "level-building/lights-overview",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1687
     },
     {
@@ -7282,7 +7282,7 @@
       "localSlug": "level-building/point-lights",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 12010
     },
     {
@@ -7294,7 +7294,7 @@
       "localSlug": "level-building/spot-lights",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 13348
     },
     {
@@ -7306,7 +7306,7 @@
       "localSlug": "level-building/working-with-static-objects",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5757
     },
     {
@@ -7318,7 +7318,7 @@
       "localSlug": "level-building/working-with-primitives",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1128
     },
     {
@@ -7330,7 +7330,7 @@
       "localSlug": "level-editor/pose-editor",
       "category": "level-editor",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 726
     },
     {
@@ -7342,7 +7342,7 @@
       "localSlug": "level-building/detail-meshes",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1989
     },
     {
@@ -7354,7 +7354,7 @@
       "localSlug": "level-building/undergrowth",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3207
     },
     {
@@ -7366,7 +7366,7 @@
       "localSlug": "level-building/terrain-texturing",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1436
     },
     {
@@ -7378,7 +7378,7 @@
       "localSlug": "level-building/terrain-height-map",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 599
     },
     {
@@ -7390,7 +7390,7 @@
       "localSlug": "level-building/terrain-painting",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1436
     },
     {
@@ -7402,7 +7402,7 @@
       "localSlug": "level-building/billboards",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2366
     },
     {
@@ -7414,7 +7414,7 @@
       "localSlug": "level-building/lens-flares",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 931
     },
     {
@@ -7426,7 +7426,7 @@
       "localSlug": "level-building/particles",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2232
     },
     {
@@ -7438,7 +7438,7 @@
       "localSlug": "level-building/sounds",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2422
     },
     {
@@ -7450,7 +7450,7 @@
       "localSlug": "level-building/decals",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2090
     },
     {
@@ -7462,7 +7462,7 @@
       "localSlug": "level-building/fog-areas",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1054
     },
     {
@@ -7474,7 +7474,7 @@
       "localSlug": "level-building/exposure-areas",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1246
     },
     {
@@ -7486,7 +7486,7 @@
       "localSlug": "level-building/working-with-entities",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2158
     },
     {
@@ -7498,7 +7498,7 @@
       "localSlug": "level-editor/entity-poser",
       "category": "level-editor",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 726
     },
     {
@@ -7510,7 +7510,7 @@
       "localSlug": "level-building/detail-mesh-entity",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1989
     },
     {
@@ -7522,7 +7522,7 @@
       "localSlug": "level-editor/level-editor-color-dialog",
       "category": "level-editor",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1947
     },
     {
@@ -7534,7 +7534,7 @@
       "localSlug": "start/overview",
       "category": "start",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3805
     },
     {
@@ -7546,7 +7546,7 @@
       "localSlug": "start/prepare-your-tools",
       "category": "start",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1449
     },
     {
@@ -7558,7 +7558,7 @@
       "localSlug": "start/create-and-launch-your-mod",
       "category": "start",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2309
     },
     {
@@ -7570,7 +7570,7 @@
       "localSlug": "start/configure-the-level-editor",
       "category": "start",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1436
     },
     {
@@ -7582,20 +7582,20 @@
       "localSlug": "start/edit-your-first-map",
       "category": "start",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1983
     },
     {
       "originalTitle": "HPL3/SOMA/Getting Started/Add Your First Script",
       "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Add_Your_First_Script",
       "pageId": 3431,
-      "revisionId": 7118,
-      "revisionTimestamp": "2026-07-30T10:49:57Z",
+      "revisionId": 7183,
+      "revisionTimestamp": "2026-08-31T10:55:36Z",
       "localSlug": "start/add-your-first-script",
       "category": "start",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
-      "wikitextLength": 1641
+      "lastSynced": "2026-09-28T13:28:41Z",
+      "wikitextLength": 1741
     },
     {
       "originalTitle": "HPL3/SOMA/Getting Started/Test Debug and Continue",
@@ -7606,7 +7606,7 @@
       "localSlug": "start/test-debug-and-continue",
       "category": "start",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2355
     },
     {
@@ -7618,7 +7618,7 @@
       "localSlug": "assets/exporting-models",
       "category": "assets",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 8040
     },
     {
@@ -7630,7 +7630,7 @@
       "localSlug": "assets/modeling-overview",
       "category": "assets",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5705
     },
     {
@@ -7642,7 +7642,7 @@
       "localSlug": "assets/animation-principles",
       "category": "assets",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1979
     },
     {
@@ -7654,7 +7654,7 @@
       "localSlug": "entities/model-editor-view",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11619
     },
     {
@@ -7666,7 +7666,7 @@
       "localSlug": "entities/entity-types",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 419
     },
     {
@@ -7678,7 +7678,7 @@
       "localSlug": "entities/entity-mesh",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1268
     },
     {
@@ -7690,7 +7690,7 @@
       "localSlug": "entities/model-preview-settings",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5497
     },
     {
@@ -7702,7 +7702,7 @@
       "localSlug": "entities/adding-animations-to-entities",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3183
     },
     {
@@ -7714,7 +7714,7 @@
       "localSlug": "entities/working-with-shapes",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 763
     },
     {
@@ -7726,7 +7726,7 @@
       "localSlug": "entities/working-with-joints",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3218
     },
     {
@@ -7738,7 +7738,7 @@
       "localSlug": "entities/entity-rig",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 396
     },
     {
@@ -7750,7 +7750,7 @@
       "localSlug": "entities/entity-settings",
       "category": "entities",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 419
     },
     {
@@ -7762,7 +7762,7 @@
       "localSlug": "materials/materials-editor-view",
       "category": "materials",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 6451
     },
     {
@@ -7774,7 +7774,7 @@
       "localSlug": "materials/material-specific-variables",
       "category": "materials",
       "status": "incomplete",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 0
     },
     {
@@ -7786,7 +7786,7 @@
       "localSlug": "materials/engine-materials",
       "category": "materials",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 29534
     },
     {
@@ -7798,7 +7798,7 @@
       "localSlug": "materials/translucent",
       "category": "materials",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 5739
     },
     {
@@ -7810,7 +7810,7 @@
       "localSlug": "particles/particle-editor-view",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1945
     },
     {
@@ -7822,7 +7822,7 @@
       "localSlug": "particles/emitter-management",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 417
     },
     {
@@ -7834,7 +7834,7 @@
       "localSlug": "particles/particle-start",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 778
     },
     {
@@ -7846,7 +7846,7 @@
       "localSlug": "particles/particle-movement",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1500
     },
     {
@@ -7858,7 +7858,7 @@
       "localSlug": "particles/particle-rendering",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 586
     },
     {
@@ -7870,7 +7870,7 @@
       "localSlug": "particles/particle-color",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 450
     },
     {
@@ -7882,7 +7882,7 @@
       "localSlug": "particles/particle-rotation",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 585
     },
     {
@@ -7894,7 +7894,7 @@
       "localSlug": "particles/particle-collision",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 394
     },
     {
@@ -7906,7 +7906,7 @@
       "localSlug": "particles/particle-general",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1098
     },
     {
@@ -7918,7 +7918,7 @@
       "localSlug": "particles/working-with-particles",
       "category": "particles",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 2264
     },
     {
@@ -7930,7 +7930,7 @@
       "localSlug": "dialogue/lip-sync",
       "category": "dialogue",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1979
     },
     {
@@ -7942,7 +7942,7 @@
       "localSlug": "audio/working-with-fmod-designer-2010",
       "category": "audio",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 16822
     },
     {
@@ -7954,7 +7954,7 @@
       "localSlug": "audio/playing-sounds",
       "category": "audio",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 1774
     },
     {
@@ -7966,7 +7966,7 @@
       "localSlug": "dialogue/audition-overview",
       "category": "dialogue",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 3559
     },
     {
@@ -7978,7 +7978,7 @@
       "localSlug": "dialogue/voice-handler-overview",
       "category": "dialogue",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 11804
     },
     {
@@ -7990,20 +7990,20 @@
       "localSlug": "debugging/faq",
       "category": "debugging",
       "status": "wip",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4155
     },
     {
       "originalTitle": "HPL3/Areas/SoundScape Area",
       "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Areas/SoundScape_Area",
       "pageId": 603,
-      "revisionId": 6745,
-      "revisionTimestamp": "2024-01-25T20:58:54Z",
+      "revisionId": 7186,
+      "revisionTimestamp": "2026-08-31T15:00:21Z",
       "localSlug": "areas/soundscape-area",
       "category": "areas",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
-      "wikitextLength": 4542
+      "lastSynced": "2026-09-28T13:28:41Z",
+      "wikitextLength": 4558
     },
     {
       "originalTitle": "Hpl3:HPL3/Level Design/Terrain Editor Overview",
@@ -8014,7 +8014,7 @@
       "localSlug": "level-building/terrain-editor-overview",
       "category": "level-building",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 7584
     },
     {
@@ -8026,7 +8026,7 @@
       "localSlug": "assets/blender-hpl3-export-plugin",
       "category": "assets",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 4689
     },
     {
@@ -8038,7 +8038,7 @@
       "localSlug": "scripting/setting-up-visual-studio-code",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 10683
     },
     {
@@ -8050,7 +8050,7 @@
       "localSlug": "scripting/angelscript/angelscript-fundamentals",
       "category": "scripting",
       "status": "imported",
-      "lastSynced": "2026-08-28T18:40:04Z",
+      "lastSynced": "2026-09-28T13:28:41Z",
       "wikitextLength": 392
     }
   ]

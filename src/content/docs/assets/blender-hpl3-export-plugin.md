@@ -5,7 +5,7 @@ category: assets
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Blender_HPL3_export_plugin"
 sourceRevision: 5537
 sourceUpdated: "2020-11-09T19:51:45Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -57,6 +57,6 @@ For any questions or to report any bugs, message me @cadely on the [Games Discor
 - Original Frictional Wiki page: [HPL3/Blender HPL3 export plugin](https://wiki.frictionalgames.com/page/HPL3/Blender_HPL3_export_plugin)
 - Revision: `5537`
 - Source update: `2020-11-09T19:51:45Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

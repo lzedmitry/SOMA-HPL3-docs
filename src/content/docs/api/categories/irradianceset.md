@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/IrradianceSet"
 sourceRevision: 5032
 sourceUpdated: "2020-08-24T20:54:11Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -22,7 +22,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `IrradianceSet_FadeIn`
 
-```angelscript
+```cpp
 void IrradianceSet_FadeIn(const tString &in asSet,
                           float afTime)
 ```
@@ -38,7 +38,7 @@ Fades in the specified set on all probes belonging to it. This also fades out th
 
     1. `IrradianceSet_FadeInSingleProbe`
 
-```angelscript
+```cpp
 void IrradianceSet_FadeInSingleProbe(const tString &in asProbe,
                                      const tString &in asSet,
                                      float afTime)
@@ -59,6 +59,6 @@ Fades in the specified set on a specific probe. This also fades out the currentl
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/IrradianceSet](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/IrradianceSet)
 - Revision: `5032`
 - Source update: `2020-08-24T20:54:11Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

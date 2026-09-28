@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Setting_up_CodeLite"
 sourceRevision: 4361
 sourceUpdated: "2020-08-14T23:42:41Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -102,6 +102,6 @@ HPL3/Scripting/Scripting_Guide/What is scripting in HPL3?|What is scripting in H
 - Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/Setting up CodeLite](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Setting_up_CodeLite)
 - Revision: `4361`
 - Source update: `2020-08-14T23:42:41Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

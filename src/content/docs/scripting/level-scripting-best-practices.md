@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Level_Scripting_-_Best_Practices"
 sourceRevision: 6828
 sourceUpdated: "2024-06-10T22:23:51Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: wip
 generated: true
 tags:
@@ -312,6 +312,6 @@ What follows is a collection of articles that are good to read:
 - Original Frictional Wiki page: [HPL3/Scripting/Level Scripting - Best Practices](https://wiki.frictionalgames.com/page/HPL3/Scripting/Level_Scripting_-_Best_Practices)
 - Revision: `6828`
 - Source update: `2024-06-10T22:23:51Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

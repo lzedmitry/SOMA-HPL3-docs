@@ -5,7 +5,7 @@ category: materials
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Materials/Materials_Overview"
 sourceRevision: 5338
 sourceUpdated: "2020-09-09T07:49:48Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -91,6 +91,6 @@ The basic structure of a .mat file is as follows:
 - Original Frictional Wiki page: [HPL3/Materials/Materials Overview](https://wiki.frictionalgames.com/page/HPL3/Materials/Materials_Overview)
 - Revision: `5338`
 - Source update: `2020-09-09T07:49:48Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

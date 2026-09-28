@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Working_with_Classes"
 sourceRevision: 4647
 sourceUpdated: "2020-08-16T20:30:48Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -25,6 +25,6 @@ HPL3/Scripting/Scripting_Guide/Advanced Topics - Introduction|Advanced Topics - 
 - Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/Working with Classes](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Working_with_Classes)
 - Revision: `4647`
 - Source update: `2020-08-16T20:30:48Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

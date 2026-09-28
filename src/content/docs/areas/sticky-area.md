@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Areas/Sticky_Area"
 sourceRevision: 6770
 sourceUpdated: "2024-02-08T17:19:13Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -57,6 +57,6 @@ Springy behavior is best described as a tendency for the entity to attach to be 
 - Original Frictional Wiki page: [HPL3/Areas/Sticky Area](https://wiki.frictionalgames.com/page/HPL3/Areas/Sticky_Area)
 - Revision: `6770`
 - Source update: `2024-02-08T17:19:13Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cResources"
 sourceRevision: 5022
 sourceUpdated: "2020-08-24T20:50:31Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -68,7 +68,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cResources_AddLanguageFile`
 
-```angelscript
+```cpp
 bool cResources_AddLanguageFile(const tString &in asFilePath,
                                 bool abAddResourceDirs)
 ```
@@ -86,7 +86,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_AddResourceDir`
 
-```angelscript
+```cpp
 bool cResources_AddResourceDir(const tWString &in asDir,
                                bool abAddSubDirectories,
                                const tString &in asMask)
@@ -106,7 +106,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_ClearResourceDirs`
 
-```angelscript
+```cpp
 void cResources_ClearResourceDirs()
 ```
 
@@ -118,7 +118,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_ClearTranslations`
 
-```angelscript
+```cpp
 void cResources_ClearTranslations()
 ```
 
@@ -130,7 +130,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateFontData`
 
-```angelscript
+```cpp
 iFontData@ cResources_CreateFontData(const tString &in asName)
 ```
 
@@ -146,7 +146,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateGpuShader`
 
-```angelscript
+```cpp
 iGpuShader@ cResources_CreateGpuShader(const tString &in asName,
                                        int alType,
                                        cPrepParserVarContainer @apVarCont)
@@ -166,7 +166,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateGpuShader`
 
-```angelscript
+```cpp
 iGpuShader@ cResources_CreateGpuShader(const tString &in asName,
                                        int alType)
 ```
@@ -184,7 +184,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateImage`
 
-```angelscript
+```cpp
 cFrameSubImage@ cResources_CreateImage(const tString &in asName)
 ```
 
@@ -200,7 +200,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateMaterial`
 
-```angelscript
+```cpp
 cMaterial@ cResources_CreateMaterial(const tString &in asName)
 ```
 
@@ -216,7 +216,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateMesh`
 
-```angelscript
+```cpp
 cMesh@ cResources_CreateMesh(const tString &in asName)
 ```
 
@@ -232,7 +232,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateSoundData`
 
-```angelscript
+```cpp
 iSoundData@ cResources_CreateSoundData(const tString &in asName,
                                        bool abStream,
                                        bool abLooping,
@@ -256,7 +256,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateSoundEntityData`
 
-```angelscript
+```cpp
 cSoundEntityData@ cResources_CreateSoundEntityData(const tString &in asName)
 ```
 
@@ -272,7 +272,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateTexture1D`
 
-```angelscript
+```cpp
 iTexture@ cResources_CreateTexture1D(const tString &in asName,
                                      bool abUseMipMaps)
 ```
@@ -290,7 +290,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateTexture2D`
 
-```angelscript
+```cpp
 iTexture@ cResources_CreateTexture2D(const tString &in asName,
                                      bool abUseMipMaps)
 ```
@@ -308,7 +308,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateTexture3D`
 
-```angelscript
+```cpp
 iTexture@ cResources_CreateTexture3D(const tString &in asName,
                                      bool abUseMipMaps)
 ```
@@ -326,7 +326,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateTextureCubeMap`
 
-```angelscript
+```cpp
 iTexture@ cResources_CreateTextureCubeMap(const tString &in asName,
                                           bool abUseMipMaps)
 ```
@@ -344,7 +344,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_CreateVideo`
 
-```angelscript
+```cpp
 iVideoStream@ cResources_CreateVideo(const tString &in asName)
 ```
 
@@ -360,7 +360,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroyFontData`
 
-```angelscript
+```cpp
 void cResources_DestroyFontData(iFontData @apData)
 ```
 
@@ -376,7 +376,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroyGpuShader`
 
-```angelscript
+```cpp
 void cResources_DestroyGpuShader(iGpuShader @apShader)
 ```
 
@@ -392,7 +392,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroyImage`
 
-```angelscript
+```cpp
 void cResources_DestroyImage(cFrameSubImage @apData)
 ```
 
@@ -408,7 +408,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroyMaterial`
 
-```angelscript
+```cpp
 void cResources_DestroyMaterial(cMaterial @apMaterial)
 ```
 
@@ -424,7 +424,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroyMesh`
 
-```angelscript
+```cpp
 void cResources_DestroyMesh(cMesh@ apMesh)
 ```
 
@@ -440,7 +440,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroySoundData`
 
-```angelscript
+```cpp
 void cResources_DestroySoundData(iSoundData@ apData)
 ```
 
@@ -456,7 +456,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroySoundEntityData`
 
-```angelscript
+```cpp
 void cResources_DestroySoundEntityData(cSoundEntityData @apData)
 ```
 
@@ -472,7 +472,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroyTexture`
 
-```angelscript
+```cpp
 void cResources_DestroyTexture(iTexture @apTexture)
 ```
 
@@ -488,7 +488,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroyUnusedParticleSystems`
 
-```angelscript
+```cpp
 void cResources_DestroyUnusedParticleSystems(int alMaxToKeep)
 ```
 
@@ -504,7 +504,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroyUnusedSoundData`
 
-```angelscript
+```cpp
 void cResources_DestroyUnusedSoundData(int alMaxToKeep)
 ```
 
@@ -520,7 +520,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroyVideo`
 
-```angelscript
+```cpp
 void cResources_DestroyVideo(iVideoStream @apVideo)
 ```
 
@@ -536,7 +536,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_DestroyXmlDocument`
 
-```angelscript
+```cpp
 void cResources_DestroyXmlDocument(iXmlDocument@ apDoc)
 ```
 
@@ -552,7 +552,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_GetMaterialPhysicsName`
 
-```angelscript
+```cpp
 tString cResources_GetMaterialPhysicsName(const tString &in asName)
 ```
 
@@ -568,7 +568,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_GetMaterialTextureAnisotropy`
 
-```angelscript
+```cpp
 float cResources_GetMaterialTextureAnisotropy()
 ```
 
@@ -580,7 +580,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_GetMaterialTextureFilter`
 
-```angelscript
+```cpp
 int cResources_GetMaterialTextureFilter()
 ```
 
@@ -592,7 +592,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_GetMaterialTextureSizeDownScaleLevel`
 
-```angelscript
+```cpp
 int cResources_GetMaterialTextureSizeDownScaleLevel()
 ```
 
@@ -604,7 +604,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_LoadResourceDirsFile`
 
-```angelscript
+```cpp
 bool cResources_LoadResourceDirsFile(const tString &in asFile)
 ```
 
@@ -620,7 +620,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_LoadXmlDocument`
 
-```angelscript
+```cpp
 iXmlDocument@ cResources_LoadXmlDocument(const tString &in asFile)
 ```
 
@@ -636,7 +636,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_PreloadParticleSystem`
 
-```angelscript
+```cpp
 void cResources_PreloadParticleSystem(const tString &in asDataName)
 ```
 
@@ -652,7 +652,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_PreloadSoundEntityData`
 
-```angelscript
+```cpp
 void cResources_PreloadSoundEntityData(const tString &in asName,
                                        bool abNonBlockingLoad)
 ```
@@ -670,7 +670,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_SetMaterialTextureAnisotropy`
 
-```angelscript
+```cpp
 void cResources_SetMaterialTextureAnisotropy(float afX)
 ```
 
@@ -686,7 +686,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_SetMaterialTextureFilter`
 
-```angelscript
+```cpp
 void cResources_SetMaterialTextureFilter(int alFilter)
 ```
 
@@ -702,7 +702,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_SetMaterialTextureSizeDownScaleLevel`
 
-```angelscript
+```cpp
 void cResources_SetMaterialTextureSizeDownScaleLevel(int alLevel)
 ```
 
@@ -718,7 +718,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cResources_Translate`
 
-```angelscript
+```cpp
 const tWString& cResources_Translate(const tString &in asCat,
                                      const tString &in asName)
 ```
@@ -739,6 +739,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cResources](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cResources)
 - Revision: `5022`
 - Source update: `2020-08-24T20:50:31Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

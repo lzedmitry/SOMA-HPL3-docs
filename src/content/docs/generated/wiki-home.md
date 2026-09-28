@@ -5,7 +5,7 @@ category: generated
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA"
 sourceRevision: 7109
 sourceUpdated: "2026-07-30T10:34:37Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -20,6 +20,6 @@ sidebar:
 - Original Frictional Wiki page: [HPL3/SOMA](https://wiki.frictionalgames.com/page/HPL3/SOMA)
 - Revision: `7109`
 - Source update: `2026-07-30T10:34:37Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Prop"
 sourceRevision: 5047
 sourceUpdated: "2020-08-24T20:58:10Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -35,7 +35,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Prop_AddAttachedProp`
 
-```angelscript
+```cpp
 void Prop_AddAttachedProp(tString &in asPropName,
                           tString &in asAttachName,
                           tString &in asAttachFile,
@@ -57,7 +57,7 @@ Attaches a prop mesh (any other data is skipped) to a Prop
 
     1. `Prop_AddHealth`
 
-```angelscript
+```cpp
 void Prop_AddHealth(const tString &in asPropName,
                     float afHealth)
 ```
@@ -73,7 +73,7 @@ Adds health to a prop.
 
     1. `Prop_AlignRotation`
 
-```angelscript
+```cpp
 void Prop_AlignRotation(const tString &in asName,
                         const tString &in asTargetEntity,
                         float afAcceleration,
@@ -99,7 +99,7 @@ Aligns the rotation of the specified prop to the current rotation of the target 
 
     1. `Prop_ClearVelocity`
 
-```angelscript
+```cpp
 void Prop_ClearVelocity(const tString &in asPropName)
 ```
 
@@ -113,7 +113,7 @@ Clear out all velocity on a prop.
 
     1. `Prop_DisableCollisionUntilOutsidePlayer`
 
-```angelscript
+```cpp
 void Prop_DisableCollisionUntilOutsidePlayer(const tString &in asPropName)
 ```
 
@@ -129,7 +129,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `Prop_GetHealth`
 
-```angelscript
+```cpp
 float Prop_GetHealth(const tString &in asPropName)
 ```
 
@@ -143,7 +143,7 @@ Gets the health of a prop.
 
     1. `Prop_MoveLinearTo`
 
-```angelscript
+```cpp
 void Prop_MoveLinearTo(const tString &in asName,
                        const tString &in asTargetEntity,
                        float afAcceleration,
@@ -169,7 +169,7 @@ Moves the specified prop to the current position of the target entity.
 
     1. `Prop_RemoveAttachedProp`
 
-```angelscript
+```cpp
 void Prop_RemoveAttachedProp(tString &in asPropName,
                              tString &in asAttachName)
 ```
@@ -185,7 +185,7 @@ Removes an attached prop from a prop
 
     1. `Prop_RotateToSpeed`
 
-```angelscript
+```cpp
 void Prop_RotateToSpeed(const tString &in asPropName,
                         float afAcc,
                         float afGoalSpeed,
@@ -210,7 +210,7 @@ the prop will rotate around its own axis.
 
     1. `Prop_RotateToSpeed`
 
-```angelscript
+```cpp
 void Prop_RotateToSpeed(const tString &in asPropName,
                         float afAcc,
                         float afGoalSpeed,
@@ -233,7 +233,7 @@ If left as , the prop will rotate around its own up axis.
 
     1. `Prop_SetActiveAndFade`
 
-```angelscript
+```cpp
 void Prop_SetActiveAndFade(const tString &in asPropName,
                            bool abActive,
                            float afFadeTime)
@@ -251,7 +251,7 @@ Activates or deactivates a entity and fades the mesh in or out.
 
     1. `Prop_SetAllowMapTransfer`
 
-```angelscript
+```cpp
 void Prop_SetAllowMapTransfer(const tString &in asPropName,
                               bool abX)
 ```
@@ -267,7 +267,7 @@ Sets if a prop should be transfered
 
     1. `Prop_SetHealth`
 
-```angelscript
+```cpp
 void Prop_SetHealth(const tString &in asPropName,
                     float afHealth)
 ```
@@ -283,7 +283,7 @@ Sets the health of a prop
 
     1. `Prop_SetStaticPhysics`
 
-```angelscript
+```cpp
 void Prop_SetStaticPhysics(const tString &in asPropName,
                            bool abX)
 ```
@@ -299,7 +299,7 @@ Sets the physics of the object to static or dynamic
 
     1. `Prop_StopMovement`
 
-```angelscript
+```cpp
 void Prop_StopMovement(const tString &in asPropName)
 ```
 
@@ -316,6 +316,6 @@ Stops the static movement of a prop.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Prop](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Prop)
 - Revision: `5047`
 - Source update: `2020-08-24T20:58:10Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

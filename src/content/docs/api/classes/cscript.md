@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cScript"
 sourceRevision: 5024
 sourceUpdated: "2020-08-24T20:51:08Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -88,7 +88,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cScript_GetGlobalArgBool`
 
-```angelscript
+```cpp
 bool cScript_GetGlobalArgBool(int alIdx)
 ```
 
@@ -104,7 +104,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalArgColor`
 
-```angelscript
+```cpp
 cColor cScript_GetGlobalArgColor(int alIdx)
 ```
 
@@ -120,7 +120,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalArgFloat`
 
-```angelscript
+```cpp
 float cScript_GetGlobalArgFloat(int alIdx)
 ```
 
@@ -136,7 +136,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalArgID`
 
-```angelscript
+```cpp
 tID cScript_GetGlobalArgID(int alIdx)
 ```
 
@@ -152,7 +152,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalArgInt`
 
-```angelscript
+```cpp
 int cScript_GetGlobalArgInt(int alIdx)
 ```
 
@@ -168,7 +168,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalArgMatrix`
 
-```angelscript
+```cpp
 cMatrixf cScript_GetGlobalArgMatrix(int alIdx)
 ```
 
@@ -184,7 +184,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalArgString`
 
-```angelscript
+```cpp
 tString cScript_GetGlobalArgString(int alIdx)
 ```
 
@@ -200,7 +200,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalArgVector2f`
 
-```angelscript
+```cpp
 cVector2f cScript_GetGlobalArgVector2f(int alIdx)
 ```
 
@@ -216,7 +216,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalArgVector3f`
 
-```angelscript
+```cpp
 cVector3f cScript_GetGlobalArgVector3f(int alIdx)
 ```
 
@@ -232,7 +232,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalArgVector4f`
 
-```angelscript
+```cpp
 cVector4f cScript_GetGlobalArgVector4f(int alIdx)
 ```
 
@@ -248,7 +248,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalReturnBool`
 
-```angelscript
+```cpp
 bool cScript_GetGlobalReturnBool()
 ```
 
@@ -260,7 +260,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalReturnColor`
 
-```angelscript
+```cpp
 cColor cScript_GetGlobalReturnColor()
 ```
 
@@ -272,7 +272,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalReturnFloat`
 
-```angelscript
+```cpp
 float cScript_GetGlobalReturnFloat()
 ```
 
@@ -284,7 +284,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalReturnID`
 
-```angelscript
+```cpp
 tID cScript_GetGlobalReturnID()
 ```
 
@@ -296,7 +296,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalReturnInt`
 
-```angelscript
+```cpp
 int cScript_GetGlobalReturnInt()
 ```
 
@@ -308,7 +308,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalReturnMatrix`
 
-```angelscript
+```cpp
 cMatrixf cScript_GetGlobalReturnMatrix()
 ```
 
@@ -320,7 +320,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalReturnString`
 
-```angelscript
+```cpp
 const tString& cScript_GetGlobalReturnString()
 ```
 
@@ -332,7 +332,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalReturnVector2f`
 
-```angelscript
+```cpp
 cVector2f cScript_GetGlobalReturnVector2f()
 ```
 
@@ -344,7 +344,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalReturnVector3f`
 
-```angelscript
+```cpp
 cVector3f cScript_GetGlobalReturnVector3f()
 ```
 
@@ -356,7 +356,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalReturnVector4f`
 
-```angelscript
+```cpp
 cVector4f cScript_GetGlobalReturnVector4f()
 ```
 
@@ -368,7 +368,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalVarBool`
 
-```angelscript
+```cpp
 bool cScript_GetGlobalVarBool(const tString &in asName)
 ```
 
@@ -384,7 +384,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalVarColor`
 
-```angelscript
+```cpp
 cColor cScript_GetGlobalVarColor(const tString &in asName)
 ```
 
@@ -400,7 +400,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalVarFloat`
 
-```angelscript
+```cpp
 float cScript_GetGlobalVarFloat(const tString &in asName)
 ```
 
@@ -416,7 +416,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalVarID`
 
-```angelscript
+```cpp
 tID cScript_GetGlobalVarID(const tString &in asName)
 ```
 
@@ -432,7 +432,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalVarInt`
 
-```angelscript
+```cpp
 int cScript_GetGlobalVarInt(const tString &in asName)
 ```
 
@@ -448,7 +448,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalVarMatrix`
 
-```angelscript
+```cpp
 cMatrixf cScript_GetGlobalVarMatrix(const tString &in asName)
 ```
 
@@ -464,7 +464,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalVarString`
 
-```angelscript
+```cpp
 tString cScript_GetGlobalVarString(const tString &in asName)
 ```
 
@@ -480,7 +480,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalVarVector2f`
 
-```angelscript
+```cpp
 cVector2f cScript_GetGlobalVarVector2f(const tString &in asName)
 ```
 
@@ -496,7 +496,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalVarVector3f`
 
-```angelscript
+```cpp
 cVector3f cScript_GetGlobalVarVector3f(const tString &in asName)
 ```
 
@@ -512,7 +512,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_GetGlobalVarVector4f`
 
-```angelscript
+```cpp
 cVector4f cScript_GetGlobalVarVector4f(const tString &in asName)
 ```
 
@@ -528,7 +528,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_RunGlobalFunc`
 
-```angelscript
+```cpp
 bool cScript_RunGlobalFunc(const tString &in asObjName,
                            const tString &in asClassName,
                            const tString &in asFuncName)
@@ -548,7 +548,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalArgBool`
 
-```angelscript
+```cpp
 void cScript_SetGlobalArgBool(int alIdx,
                               bool abX)
 ```
@@ -566,7 +566,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalArgColor`
 
-```angelscript
+```cpp
 void cScript_SetGlobalArgColor(int alIdx,
                                const cColor &in aX)
 ```
@@ -584,7 +584,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalArgFloat`
 
-```angelscript
+```cpp
 void cScript_SetGlobalArgFloat(int alIdx,
                                float afX)
 ```
@@ -602,7 +602,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalArgID`
 
-```angelscript
+```cpp
 void cScript_SetGlobalArgID(int alIdx,
                             tID alX)
 ```
@@ -620,7 +620,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalArgInt`
 
-```angelscript
+```cpp
 void cScript_SetGlobalArgInt(int alIdx,
                              int alX)
 ```
@@ -638,7 +638,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalArgMatrix`
 
-```angelscript
+```cpp
 void cScript_SetGlobalArgMatrix(int alIdx,
                                 const cMatrixf &in a_mtxX)
 ```
@@ -656,7 +656,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalArgString`
 
-```angelscript
+```cpp
 void cScript_SetGlobalArgString(int alIdx,
                                 const tString &in asVar)
 ```
@@ -674,7 +674,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalArgVector2f`
 
-```angelscript
+```cpp
 void cScript_SetGlobalArgVector2f(int alIdx,
                                   const cVector2f &in avX)
 ```
@@ -692,7 +692,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalArgVector3f`
 
-```angelscript
+```cpp
 void cScript_SetGlobalArgVector3f(int alIdx,
                                   const cVector3f &in avX)
 ```
@@ -710,7 +710,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalArgVector4f`
 
-```angelscript
+```cpp
 void cScript_SetGlobalArgVector4f(int alIdx,
                                   const cVector4f &in avX)
 ```
@@ -728,7 +728,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalReturnBool`
 
-```angelscript
+```cpp
 void cScript_SetGlobalReturnBool(bool abX)
 ```
 
@@ -744,7 +744,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalReturnColor`
 
-```angelscript
+```cpp
 void cScript_SetGlobalReturnColor(const cColor &in aX)
 ```
 
@@ -760,7 +760,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalReturnFloat`
 
-```angelscript
+```cpp
 void cScript_SetGlobalReturnFloat(float afX)
 ```
 
@@ -776,7 +776,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalReturnID`
 
-```angelscript
+```cpp
 void cScript_SetGlobalReturnID(tID alX)
 ```
 
@@ -792,7 +792,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalReturnInt`
 
-```angelscript
+```cpp
 void cScript_SetGlobalReturnInt(int alX)
 ```
 
@@ -808,7 +808,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalReturnMatrix`
 
-```angelscript
+```cpp
 void cScript_SetGlobalReturnMatrix(const cMatrixf &in a_mtxX)
 ```
 
@@ -824,7 +824,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalReturnString`
 
-```angelscript
+```cpp
 void cScript_SetGlobalReturnString(const tString &in asVar)
 ```
 
@@ -840,7 +840,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalReturnVector2f`
 
-```angelscript
+```cpp
 void cScript_SetGlobalReturnVector2f(const cVector2f &in avX)
 ```
 
@@ -856,7 +856,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalReturnVector3f`
 
-```angelscript
+```cpp
 void cScript_SetGlobalReturnVector3f(const cVector3f &in avX)
 ```
 
@@ -872,7 +872,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalReturnVector4f`
 
-```angelscript
+```cpp
 void cScript_SetGlobalReturnVector4f(const cVector4f &in avX)
 ```
 
@@ -888,7 +888,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalVarBool`
 
-```angelscript
+```cpp
 void cScript_SetGlobalVarBool(const tString &in asName,
                               bool abX)
 ```
@@ -906,7 +906,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalVarColor`
 
-```angelscript
+```cpp
 void cScript_SetGlobalVarColor(const tString &in asName,
                                const cColor &in aX)
 ```
@@ -924,7 +924,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalVarFloat`
 
-```angelscript
+```cpp
 void cScript_SetGlobalVarFloat(const tString &in asName,
                                float afX)
 ```
@@ -942,7 +942,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalVarID`
 
-```angelscript
+```cpp
 void cScript_SetGlobalVarID(const tString &in asName,
                             tID alX)
 ```
@@ -960,7 +960,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalVarInt`
 
-```angelscript
+```cpp
 void cScript_SetGlobalVarInt(const tString &in asName,
                              int alX)
 ```
@@ -978,7 +978,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalVarMatrix`
 
-```angelscript
+```cpp
 void cScript_SetGlobalVarMatrix(const tString &in asName,
                                 const cMatrixf &in a_mtxX)
 ```
@@ -996,7 +996,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalVarString`
 
-```angelscript
+```cpp
 void cScript_SetGlobalVarString(const tString &in asName,
                                 const tString &in asVar)
 ```
@@ -1014,7 +1014,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalVarVector2f`
 
-```angelscript
+```cpp
 void cScript_SetGlobalVarVector2f(const tString &in asName,
                                   const cVector2f &in avX)
 ```
@@ -1032,7 +1032,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalVarVector3f`
 
-```angelscript
+```cpp
 void cScript_SetGlobalVarVector3f(const tString &in asName,
                                   const cVector3f &in avX)
 ```
@@ -1050,7 +1050,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScript_SetGlobalVarVector4f`
 
-```angelscript
+```cpp
 void cScript_SetGlobalVarVector4f(const tString &in asName,
                                   const cVector4f &in avX)
 ```
@@ -1071,6 +1071,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cScript](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cScript)
 - Revision: `5024`
 - Source update: `2020-08-24T20:51:08Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

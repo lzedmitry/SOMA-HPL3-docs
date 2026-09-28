@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Wheel"
 sourceRevision: 5055
 sourceUpdated: "2020-08-24T21:00:27Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -25,7 +25,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Wheel_GetCurrentAngle`
 
-```angelscript
+```cpp
 float Wheel_GetCurrentAngle(const tString &in asName)
 ```
 
@@ -39,7 +39,7 @@ Gets the angle of a wheel.
 
     1. `Wheel_GetState`
 
-```angelscript
+```cpp
 int Wheel_GetState(const tString &in asName)
 ```
 
@@ -53,7 +53,7 @@ Gets the state of the wheel
 
     1. `Wheel_SetAngle`
 
-```angelscript
+```cpp
 void Wheel_SetAngle(const tString &in asName,
                     float afAngle,
                     bool abAutoMove)
@@ -71,7 +71,7 @@ Sets the angle of a wheel.
 
     1. `Wheel_SetInteractionDisablesStuck`
 
-```angelscript
+```cpp
 void Wheel_SetInteractionDisablesStuck(const tString &in asName,
                                        bool abX)
 ```
@@ -88,7 +88,7 @@ effect on stuck state.
 
     1. `Wheel_SetStuckState`
 
-```angelscript
+```cpp
 void Wheel_SetStuckState(const tString &in asName,
                          int alState,
                          bool abEffects)
@@ -110,6 +110,6 @@ the change will not be apparent to the player.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Wheel](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Wheel)
 - Revision: `5055`
 - Source update: `2020-08-24T21:00:27Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

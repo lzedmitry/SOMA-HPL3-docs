@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cSystem"
 sourceRevision: 5027
 sourceUpdated: "2020-08-24T20:52:04Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -54,7 +54,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cSystem_CloneFile`
 
-```angelscript
+```cpp
 bool cSystem_CloneFile(const tWString &in asSrcFileName,
                        const tWString &in asDestFileName,
                        bool abFailIfExists)
@@ -74,7 +74,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_CopyTextToClipboard`
 
-```angelscript
+```cpp
 void cSystem_CopyTextToClipboard(const tWString &in asText)
 ```
 
@@ -90,7 +90,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_CreateFolder`
 
-```angelscript
+```cpp
 bool cSystem_CreateFolder(const tWString &in asPath)
 ```
 
@@ -106,7 +106,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_FileCreationDate`
 
-```angelscript
+```cpp
 cDate cSystem_FileCreationDate(const tWString &in asFilePath)
 ```
 
@@ -122,7 +122,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_FileExists`
 
-```angelscript
+```cpp
 bool cSystem_FileExists(const tWString &in asFileName)
 ```
 
@@ -138,7 +138,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_FileModifiedDate`
 
-```angelscript
+```cpp
 cDate cSystem_FileModifiedDate(const tWString &in asFilePath)
 ```
 
@@ -154,7 +154,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_FindFilesInDir`
 
-```angelscript
+```cpp
 void cSystem_FindFilesInDir(tWString &inout avStrings,
                             const tWString &in asDir,
                             const tWString &in asMask,
@@ -176,7 +176,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_FindFoldersInDir`
 
-```angelscript
+```cpp
 void cSystem_FindFoldersInDir(tWString &inout avtStrings,
                               const tWString &in asDir,
                               bool abAddHidden,
@@ -198,7 +198,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_FolderExists`
 
-```angelscript
+```cpp
 bool cSystem_FolderExists(const tWString &in asPath)
 ```
 
@@ -214,7 +214,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_GetApplicationTime`
 
-```angelscript
+```cpp
 uint cSystem_GetApplicationTime()
 ```
 
@@ -226,7 +226,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_GetAvailableVideoDrivers`
 
-```angelscript
+```cpp
 void cSystem_GetAvailableVideoDrivers(tString &inout avDrivers)
 ```
 
@@ -242,7 +242,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_GetAvailableVideoModes`
 
-```angelscript
+```cpp
 void cSystem_GetAvailableVideoModes(cVector2l &inout avScreenSizes,
                                     int &inout avBpps,
                                     int &inout avMinRefreshRates,
@@ -268,7 +268,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_GetDate`
 
-```angelscript
+```cpp
 cDate cSystem_GetDate()
 ```
 
@@ -280,7 +280,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_GetFileSize`
 
-```angelscript
+```cpp
 uint cSystem_GetFileSize(const tWString &in asFileName)
 ```
 
@@ -296,7 +296,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_GetFullFilePath`
 
-```angelscript
+```cpp
 tWString cSystem_GetFullFilePath(const tWString &in asFilePath)
 ```
 
@@ -312,7 +312,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_GetPlatformName`
 
-```angelscript
+```cpp
 const tString& cSystem_GetPlatformName()
 ```
 
@@ -324,7 +324,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_GetSystemAvailableDrives`
 
-```angelscript
+```cpp
 uint cSystem_GetSystemAvailableDrives()
 ```
 
@@ -336,7 +336,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_GetSystemSpecialPath`
 
-```angelscript
+```cpp
 tWString cSystem_GetSystemSpecialPath(eSystemPath aPathType)
 ```
 
@@ -352,7 +352,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_GetWorkingDir`
 
-```angelscript
+```cpp
 tWString cSystem_GetWorkingDir()
 ```
 
@@ -364,7 +364,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_HasWindowFocus`
 
-```angelscript
+```cpp
 bool cSystem_HasWindowFocus(const tWString &in asWindowCaption)
 ```
 
@@ -380,7 +380,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_LoadTextFromClipboard`
 
-```angelscript
+```cpp
 tWString cSystem_LoadTextFromClipboard()
 ```
 
@@ -392,7 +392,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_ProfileEnd`
 
-```angelscript
+```cpp
 void cSystem_ProfileEnd(const tString &in asName)
 ```
 
@@ -408,7 +408,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_ProfileStart`
 
-```angelscript
+```cpp
 void cSystem_ProfileStart(const tString &in asName)
 ```
 
@@ -424,7 +424,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_RemoveFile`
 
-```angelscript
+```cpp
 void cSystem_RemoveFile(const tWString &in asFileName)
 ```
 
@@ -440,7 +440,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_RemoveFolder`
 
-```angelscript
+```cpp
 bool cSystem_RemoveFolder(const tWString &in asPath,
                           bool abDeleteAllFiles,
                           bool abDeleteAllSubFolders)
@@ -460,7 +460,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_Sleep`
 
-```angelscript
+```cpp
 void cSystem_Sleep(uint alMilliSecs)
 ```
 
@@ -476,7 +476,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSystem_Wrapper_CreateMessageBox`
 
-```angelscript
+```cpp
 void cSystem_Wrapper_CreateMessageBox(eMsgBoxType aType,
                                       const tWString &in asCaption,
                                       const tWString &in asMessage)
@@ -499,6 +499,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cSystem](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cSystem)
 - Revision: `5027`
 - Source update: `2020-08-24T20:52:04Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

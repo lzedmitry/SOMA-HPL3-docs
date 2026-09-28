@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/FogArea"
 sourceRevision: 5030
 sourceUpdated: "2020-08-24T20:53:38Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -22,7 +22,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `FogArea_SetVisible`
 
-```angelscript
+```cpp
 void FogArea_SetVisible(const tString &in asFogAreaName,
                         bool abActive)
 ```
@@ -40,7 +40,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `FogArea_SetVisibleInReflection`
 
-```angelscript
+```cpp
 void FogArea_SetVisibleInReflection(const tString &in asFogAreaName,
                                     bool abActive)
 ```
@@ -61,6 +61,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/FogArea](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/FogArea)
 - Revision: `5030`
 - Source update: `2020-08-24T20:53:38Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

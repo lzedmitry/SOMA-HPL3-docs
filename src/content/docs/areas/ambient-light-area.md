@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Areas/Ambient_Light_Area"
 sourceRevision: 6773
 sourceUpdated: "2024-02-08T17:43:47Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: incomplete
 generated: true
 tags:
@@ -30,6 +30,6 @@ The player, by default, casts a small point light around them so that they can s
 - Original Frictional Wiki page: [HPL3/Areas/Ambient Light Area](https://wiki.frictionalgames.com/page/HPL3/Areas/Ambient_Light_Area)
 - Revision: `6773`
 - Source update: `2024-02-08T17:43:47Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

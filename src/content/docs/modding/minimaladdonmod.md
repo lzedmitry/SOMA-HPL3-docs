@@ -5,7 +5,7 @@ category: modding
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/MinimalAddOnMod"
 sourceRevision: 2695
 sourceUpdated: "2020-08-02T17:49:00Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -29,6 +29,6 @@ If there is an issue with your local minimal addon mod, it is highly recommended
 - Original Frictional Wiki page: [HPL3/SOMA/Modding/MinimalAddOnMod](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/MinimalAddOnMod)
 - Revision: `2695`
 - Source update: `2020-08-02T17:49:00Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

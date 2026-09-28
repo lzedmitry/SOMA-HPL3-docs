@@ -5,7 +5,7 @@ category: modding
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding"
 sourceRevision: 5440
 sourceUpdated: "2020-11-06T11:27:30Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -57,6 +57,6 @@ sidebar:
 - Original Frictional Wiki page: [HPL3/SOMA/Modding](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding)
 - Revision: `5440`
 - Source update: `2020-11-06T11:27:30Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

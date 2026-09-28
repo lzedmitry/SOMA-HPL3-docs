@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cEngine"
 sourceRevision: 5014
 sourceUpdated: "2020-08-24T20:46:46Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -56,7 +56,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cEngine_Exit`
 
-```angelscript
+```cpp
 void cEngine_Exit()
 ```
 
@@ -68,7 +68,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetAvgFrameTimeInMS`
 
-```angelscript
+```cpp
 float cEngine_GetAvgFrameTimeInMS()
 ```
 
@@ -80,7 +80,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetAvgLogicFrameTimeMS`
 
-```angelscript
+```cpp
 float cEngine_GetAvgLogicFrameTimeMS()
 ```
 
@@ -92,7 +92,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetAvgRenderFrameTimeMS`
 
-```angelscript
+```cpp
 float cEngine_GetAvgRenderFrameTimeMS()
 ```
 
@@ -104,7 +104,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetAvgVariableFrameTimeMS`
 
-```angelscript
+```cpp
 float cEngine_GetAvgVariableFrameTimeMS()
 ```
 
@@ -116,7 +116,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetFPS`
 
-```angelscript
+```cpp
 float cEngine_GetFPS()
 ```
 
@@ -128,7 +128,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetFPSMinMax`
 
-```angelscript
+```cpp
 void cEngine_GetFPSMinMax(float &out afMin,
                           float &out afMax)
 ```
@@ -146,7 +146,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetFPSUpdateRate`
 
-```angelscript
+```cpp
 float cEngine_GetFPSUpdateRate()
 ```
 
@@ -158,7 +158,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetFrameTime`
 
-```angelscript
+```cpp
 float cEngine_GetFrameTime()
 ```
 
@@ -170,7 +170,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetFrameTimeMinMax`
 
-```angelscript
+```cpp
 void cEngine_GetFrameTimeMinMax(float &out afMin,
                                 float &out afMax)
 ```
@@ -188,7 +188,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetGameTime`
 
-```angelscript
+```cpp
 double cEngine_GetGameTime()
 ```
 
@@ -200,7 +200,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetLimitFPS`
 
-```angelscript
+```cpp
 bool cEngine_GetLimitFPS()
 ```
 
@@ -212,7 +212,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetMaxMS`
 
-```angelscript
+```cpp
 float cEngine_GetMaxMS()
 ```
 
@@ -224,7 +224,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetMinMS`
 
-```angelscript
+```cpp
 float cEngine_GetMinMS()
 ```
 
@@ -236,7 +236,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetPerFrameUpdateSteps`
 
-```angelscript
+```cpp
 uint cEngine_GetPerFrameUpdateSteps()
 ```
 
@@ -248,7 +248,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetSceneRenderFlags`
 
-```angelscript
+```cpp
 uint cEngine_GetSceneRenderFlags()
 ```
 
@@ -260,7 +260,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetStepSize`
 
-```angelscript
+```cpp
 float cEngine_GetStepSize()
 ```
 
@@ -272,7 +272,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetUpdatesPerSec`
 
-```angelscript
+```cpp
 int cEngine_GetUpdatesPerSec()
 ```
 
@@ -284,7 +284,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_GetWaitIfAppOutOfFocus`
 
-```angelscript
+```cpp
 bool cEngine_GetWaitIfAppOutOfFocus()
 ```
 
@@ -296,7 +296,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_ResetLogicTimer`
 
-```angelscript
+```cpp
 void cEngine_ResetLogicTimer()
 ```
 
@@ -308,7 +308,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_SetAllGlobalUpdatersPaused`
 
-```angelscript
+```cpp
 void cEngine_SetAllGlobalUpdatersPaused(bool abPaused)
 ```
 
@@ -324,7 +324,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_SetAllUpdatersPaused`
 
-```angelscript
+```cpp
 void cEngine_SetAllUpdatersPaused(const tString &in asContainer,
                                   bool abPaused)
 ```
@@ -342,7 +342,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_SetFPSUpdateRate`
 
-```angelscript
+```cpp
 void cEngine_SetFPSUpdateRate(float afSec)
 ```
 
@@ -358,7 +358,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_SetGlobalUpdaterPaused`
 
-```angelscript
+```cpp
 void cEngine_SetGlobalUpdaterPaused(const tString &in asUpdate,
                                     bool abPaused)
 ```
@@ -376,7 +376,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_SetLimitFPS`
 
-```angelscript
+```cpp
 void cEngine_SetLimitFPS(bool abX)
 ```
 
@@ -392,7 +392,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_SetSceneRenderFlags`
 
-```angelscript
+```cpp
 void cEngine_SetSceneRenderFlags(uint alFlags)
 ```
 
@@ -408,7 +408,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_SetUpdaterPaused`
 
-```angelscript
+```cpp
 void cEngine_SetUpdaterPaused(const tString &in asContainer,
                               const tString &in asUpdate,
                               bool abPaused)
@@ -428,7 +428,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_SetUpdatesPerSec`
 
-```angelscript
+```cpp
 void cEngine_SetUpdatesPerSec(int alUpdatesPerSec)
 ```
 
@@ -444,7 +444,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cEngine_SetWaitIfAppOutOfFocus`
 
-```angelscript
+```cpp
 void cEngine_SetWaitIfAppOutOfFocus(bool abX)
 ```
 
@@ -463,6 +463,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cEngine](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cEngine)
 - Revision: `5014`
 - Source update: `2020-08-24T20:46:46Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eViewportMessage"
 sourceRevision: 3877
 sourceUpdated: "2020-08-06T14:57:09Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -32,6 +32,6 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/eViewportMessage](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/eViewportMessage)
 - Revision: `3877`
 - Source update: `2020-08-06T14:57:09Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

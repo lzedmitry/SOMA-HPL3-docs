@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGenerate"
 sourceRevision: 5015
 sourceUpdated: "2020-08-24T20:47:11Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -37,7 +37,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cGenerate_FractalNoise1D`
 
-```angelscript
+```cpp
 float cGenerate_FractalNoise1D(float afX,
                                const cFractalNoiseParams &in aParams)
 ```
@@ -55,7 +55,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGenerate_FractalNoise2D`
 
-```angelscript
+```cpp
 float cGenerate_FractalNoise2D(const cVector2f &in avPos,
                                const cFractalNoiseParams &in aParams)
 ```
@@ -73,7 +73,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGenerate_FractalNoise3D`
 
-```angelscript
+```cpp
 float cGenerate_FractalNoise3D(const cVector3f &in avPos,
                                const cFractalNoiseParams &in aParams)
 ```
@@ -91,7 +91,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGenerate_GetNoiseCosine1D`
 
-```angelscript
+```cpp
 float cGenerate_GetNoiseCosine1D(float afX)
 ```
 
@@ -107,7 +107,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGenerate_GetNoiseCosine2D`
 
-```angelscript
+```cpp
 float cGenerate_GetNoiseCosine2D(const cVector2f &in avPos)
 ```
 
@@ -123,7 +123,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGenerate_GetNoiseCubic1D`
 
-```angelscript
+```cpp
 float cGenerate_GetNoiseCubic1D(float afX)
 ```
 
@@ -139,7 +139,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGenerate_GetNoiseCubic2D`
 
-```angelscript
+```cpp
 float cGenerate_GetNoiseCubic2D(const cVector2f &in avPos)
 ```
 
@@ -155,7 +155,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGenerate_GetNoisePerlin1D`
 
-```angelscript
+```cpp
 float cGenerate_GetNoisePerlin1D(float afX)
 ```
 
@@ -171,7 +171,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGenerate_GetNoisePerlin2D`
 
-```angelscript
+```cpp
 float cGenerate_GetNoisePerlin2D(const cVector2f &in avPos)
 ```
 
@@ -187,7 +187,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cGenerate_GetNoisePerlin3D`
 
-```angelscript
+```cpp
 float cGenerate_GetNoisePerlin3D(const cVector3f &in avPos)
 ```
 
@@ -206,6 +206,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cGenerate](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cGenerate)
 - Revision: `5015`
 - Source update: `2020-08-24T20:47:11Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cMesh"
 sourceRevision: 3677
 sourceUpdated: "2020-08-06T14:11:09Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -193,6 +193,6 @@ cSkeleton@ apSkeleton
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cMesh](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cMesh)
 - Revision: `3677`
 - Source update: `2020-08-06T14:11:09Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

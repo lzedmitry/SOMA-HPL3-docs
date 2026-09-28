@@ -5,7 +5,7 @@ category: generated
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Gui"
 sourceRevision: 4966
 sourceUpdated: "2020-08-23T19:54:24Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -206,6 +206,6 @@ Currently, the only entity type that support GUI is "Prop_Terminal", so set the 
 - Original Frictional Wiki page: [HPL3/Gui](https://wiki.frictionalgames.com/page/HPL3/Gui)
 - Revision: `4966`
 - Source update: `2020-08-23T19:54:24Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

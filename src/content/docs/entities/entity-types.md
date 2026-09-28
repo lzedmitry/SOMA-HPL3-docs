@@ -5,7 +5,7 @@ category: entities
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Types"
 sourceRevision: 7134
 sourceUpdated: "2026-07-30T21:54:16Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -27,6 +27,6 @@ NOTE: These variables are game-specific.
 - Original Frictional Wiki page: [HPL3/Entities/Entity Types](https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Types)
 - Revision: `7134`
 - Source update: `2026-07-30T21:54:16Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

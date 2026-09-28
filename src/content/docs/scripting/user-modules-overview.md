@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/User_Modules_Overview"
 sourceRevision: 3346
 sourceUpdated: "2020-08-04T13:40:01Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -320,6 +320,6 @@ void DoSomeWork(int alSomeInt, tString asSomeString)
 - Original Frictional Wiki page: [HPL3/Scripting/User Modules Overview](https://wiki.frictionalgames.com/page/HPL3/Scripting/User_Modules_Overview)
 - Revision: `3346`
 - Source update: `2020-08-04T13:40:01Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

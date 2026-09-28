@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Lamp"
 sourceRevision: 5034
 sourceUpdated: "2020-08-24T20:54:38Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -24,7 +24,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Lamp_GetLit`
 
-```angelscript
+```cpp
 bool Lamp_GetLit(const tString &in asName)
 ```
 
@@ -38,7 +38,7 @@ Gets the lit state of a lamp.
 
     1. `Lamp_SetFlickerActive`
 
-```angelscript
+```cpp
 void Lamp_SetFlickerActive(const tString &in asName,
                            bool abActive)
 ```
@@ -54,7 +54,7 @@ Activates or deactivates flicker on the specified lamp(s)
 
     1. `Lamp_SetLit`
 
-```angelscript
+```cpp
 void Lamp_SetLit(const tString &in asName,
                  bool abLit,
                  bool abEffects)
@@ -73,7 +73,7 @@ If false, the change will not be apparent to the player.
 
     1. `Lamp_SetupFlicker`
 
-```angelscript
+```cpp
 void Lamp_SetupFlicker(const tString &in asName,
                        float afMinOnTime,
                        float afMaxOnTime,
@@ -109,6 +109,6 @@ with setting the lit state of the lamp. Default = false.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Lamp](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Lamp)
 - Revision: `5034`
 - Source update: `2020-08-24T20:54:38Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

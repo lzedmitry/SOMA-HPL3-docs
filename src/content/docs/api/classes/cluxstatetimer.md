@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxStateTimer"
 sourceRevision: 3667
 sourceUpdated: "2020-08-06T14:07:27Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -31,6 +31,6 @@ cLuxStateTimer has no public functions
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cLuxStateTimer](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxStateTimer)
 - Revision: `3667`
 - Source update: `2020-08-06T14:07:27Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

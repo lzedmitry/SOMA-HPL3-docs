@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T18:22:07Z",
+  "fetchedAt": "2026-09-28T13:28:41Z",
   "count": 698,
   "pages": [
     {
@@ -101,18 +101,18 @@
     {
       "title": "HPL3/Areas/SoundScape Area",
       "pageid": 603,
-      "revisionId": 6745,
-      "revisionTimestamp": "2024-01-25T20:58:54Z",
+      "revisionId": 7186,
+      "revisionTimestamp": "2026-08-31T15:00:21Z",
       "missing": false,
-      "wikitextLength": 4542
+      "wikitextLength": 4558
     },
     {
       "title": "HPL3/Areas/Soundscape Area",
       "pageid": 603,
-      "revisionId": 6745,
-      "revisionTimestamp": "2024-01-25T20:58:54Z",
+      "revisionId": 7186,
+      "revisionTimestamp": "2026-08-31T15:00:21Z",
       "missing": false,
-      "wikitextLength": 4542
+      "wikitextLength": 4558
     },
     {
       "title": "HPL3/Areas/Sticky Area",
@@ -805,10 +805,10 @@
     {
       "title": "HPL3/SOMA/Getting Started/Add Your First Script",
       "pageid": 3431,
-      "revisionId": 7118,
-      "revisionTimestamp": "2026-07-30T10:49:57Z",
+      "revisionId": 7183,
+      "revisionTimestamp": "2026-08-31T10:55:36Z",
       "missing": false,
-      "wikitextLength": 1641
+      "wikitextLength": 1741
     },
     {
       "title": "HPL3/SOMA/Getting Started/Configure the Level Editor",
@@ -1117,10 +1117,10 @@
     {
       "title": "HPL3/SOMA/Scripting",
       "pageid": 1960,
-      "revisionId": 7182,
-      "revisionTimestamp": "2026-08-09T07:42:34Z",
+      "revisionId": 7187,
+      "revisionTimestamp": "2026-09-26T11:52:37Z",
       "missing": false,
-      "wikitextLength": 5323
+      "wikitextLength": 5267
     },
     {
       "title": "HPL3/SOMA/Scripting/Input Types",

@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/Distortion_Area"
 sourceRevision: 6774
 sourceUpdated: "2024-02-08T17:54:04Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -44,6 +44,6 @@ This area will apply a Distortion Effect to the player while they are in it.
 - Original Frictional Wiki page: [HPL3/SOMA/Areas/Distortion Area](https://wiki.frictionalgames.com/page/HPL3/SOMA/Areas/Distortion_Area)
 - Revision: `6774`
 - Source update: `2024-02-08T17:54:04Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

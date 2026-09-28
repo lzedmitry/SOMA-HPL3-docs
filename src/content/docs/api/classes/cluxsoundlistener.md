@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxSoundListener"
 sourceRevision: 3662
 sourceUpdated: "2020-08-06T14:04:47Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -168,6 +168,6 @@ float afX
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cLuxSoundListener](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLuxSoundListener)
 - Revision: `3662`
 - Source update: `2020-08-06T14:04:47Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

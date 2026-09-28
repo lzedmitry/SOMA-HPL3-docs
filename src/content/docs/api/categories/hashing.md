@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Hashing"
 sourceRevision: 5059
 sourceUpdated: "2020-08-24T21:02:55Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -22,7 +22,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `H32`
 
-```angelscript
+```cpp
 uint H32(const tString &in asStr)
 ```
 
@@ -38,7 +38,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `H64`
 
-```angelscript
+```cpp
 uint64 H64(const tString &in asStr)
 ```
 
@@ -57,6 +57,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Hashing](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Hashing)
 - Revision: `5059`
 - Source update: `2020-08-24T21:02:55Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/ParticleSystem"
 sourceRevision: 5045
 sourceUpdated: "2020-08-24T20:57:46Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -30,7 +30,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `ParticleSystem_AttachToEntity`
 
-```angelscript
+```cpp
 void ParticleSystem_AttachToEntity(const tString &in asPSName,
                                    const tString &in asEntityName)
 ```
@@ -46,7 +46,7 @@ Attaches a particle system to an entity.
 
     1. `ParticleSystem_CreateAtEntity`
 
-```angelscript
+```cpp
 cParticleSystem@ ParticleSystem_CreateAtEntity(const tString &in asPSName,
                                                const tString &in asPSFile,
                                                const tString &in asEntity,
@@ -66,7 +66,7 @@ Creates a particle system at entity.
 
     1. `ParticleSystem_CreateAtEntityExt`
 
-```angelscript
+```cpp
 cParticleSystem@ ParticleSystem_CreateAtEntityExt(const tString &in asPSName,
                                                   const tString &in asPSFile,
                                                   const tString &in asEntity,
@@ -100,7 +100,7 @@ Creates a particle system at entity with extra options.
 
     1. `ParticleSystem_Destroy`
 
-```angelscript
+```cpp
 void ParticleSystem_Destroy(const tString &in asPSName)
 ```
 
@@ -114,7 +114,7 @@ Destroy a particle system. Can contain wildcards.
 
     1. `ParticleSystem_Exists`
 
-```angelscript
+```cpp
 bool ParticleSystem_Exists(const tString &in asPSName)
 ```
 
@@ -128,7 +128,7 @@ Returns true or false if a given particle system exists
 
     1. `ParticleSystem_Preload`
 
-```angelscript
+```cpp
 void ParticleSystem_Preload(const tString &in asFile)
 ```
 
@@ -142,7 +142,7 @@ Preload particle system data
 
     1. `ParticleSystem_SetActive`
 
-```angelscript
+```cpp
 void ParticleSystem_SetActive(const tString &in asPSName,
                               bool abActive)
 ```
@@ -158,7 +158,7 @@ Activates or deactivates a particle system.
 
     1. `ParticleSystem_SetBrightness`
 
-```angelscript
+```cpp
 void ParticleSystem_SetBrightness(const tString &in asPSName,
                                   float afBrightness)
 ```
@@ -174,7 +174,7 @@ Sets the brightness of a particle system.
 
     1. `ParticleSystem_SetColor`
 
-```angelscript
+```cpp
 void ParticleSystem_SetColor(const tString &in asPSName,
                              const cColor &in acColor)
 ```
@@ -190,7 +190,7 @@ Sets the color of a particle system.
 
     1. `ParticleSystem_SetVisible`
 
-```angelscript
+```cpp
 void ParticleSystem_SetVisible(const tString &in asPSName,
                                bool abVisible)
 ```
@@ -209,6 +209,6 @@ Sets the visibility of a particle system.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/ParticleSystem](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/ParticleSystem)
 - Revision: `5045`
 - Source update: `2020-08-24T20:57:46Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

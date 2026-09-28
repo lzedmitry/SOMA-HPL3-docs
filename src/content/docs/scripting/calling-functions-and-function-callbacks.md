@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Calling_Functions_and_Function_Callbacks"
 sourceRevision: 4613
 sourceUpdated: "2020-08-16T08:52:03Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -21,6 +21,6 @@ HPL3/Scripting/Scripting_Guide/Hello World|Hello World|HPL3/Scripting/HPL3 Scrip
 - Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/Calling Functions and Function Callbacks](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Calling_Functions_and_Function_Callbacks)
 - Revision: `4613`
 - Source update: `2020-08-16T08:52:03Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

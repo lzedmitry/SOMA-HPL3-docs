@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Terminals_Overview"
 sourceRevision: 4967
 sourceUpdated: "2020-08-23T19:56:08Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-09-28T13:28:41Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -176,6 +176,6 @@ The last line is equally important to all the others, especially if you are usin
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Terminals Overview](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Terminals_Overview)
 - Revision: `4967`
 - Source update: `2020-08-23T19:56:08Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-09-28T13:28:41Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

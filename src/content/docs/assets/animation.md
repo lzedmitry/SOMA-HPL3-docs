@@ -1,22 +1,16 @@
 ---
 title: Animation
-description: "This category and its sub-pages are undergoing major editing, as some information in this category and all the sub pages is currently in the process of being formatted or re-written from scratch to achieve a higher stand"
+description: Reference for Animation from the Frictional Wiki.
 category: assets
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Animation"
-sourceRevision: 7127
-sourceUpdated: "2026-07-30T21:12:38Z"
-lastSynced: "2026-08-28T18:40:04Z"
+sourceRevision: 7338
+sourceUpdated: "2026-10-02T17:21:10Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
   - assets
 ---
-:::caution[SOURCE STATUS: WIP]
-This source page is marked as undergoing editing on the Frictional Wiki.
-:::
-
-This category and its sub-pages are undergoing major editing, as some information in this category and all the sub pages is currently in the process of being formatted or re-written from scratch to achieve a higher standard of formatting, or not everything is yet available. More pages and information will gradually be added.
-
 **This category deals with 3D animation in SOMA.**
 
 ## Getting Started
@@ -31,13 +25,13 @@ This category and its sub-pages are undergoing major editing, as some informatio
 ## Tools
 - [Autodesk Maya](https://wiki.frictionalgames.com/page/Autodesk_Maya)
 - [Blender](https://wiki.frictionalgames.com/page/Blender)
-- [HPL3 Blender Exporting Tool](https://wiki.frictionalgames.com/page/HPL3_Blender_Exporting_Tool)
+- [HPL3 Blender Exporting Tool](/assets/blender-hpl3-export-plugin/)
 
 ## Source & attribution
 
 - Original Frictional Wiki page: [HPL3/SOMA/Animation](https://wiki.frictionalgames.com/page/HPL3/SOMA/Animation)
-- Revision: `7127`
-- Source update: `2026-07-30T21:12:38Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Revision: `7338`
+- Source update: `2026-10-02T17:21:10Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/LevelDoor"
 sourceRevision: 5036
 sourceUpdated: "2020-08-24T20:55:29Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -22,7 +22,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `LevelDoor_GetLocked`
 
-```angelscript
+```cpp
 bool LevelDoor_GetLocked(const tString &in asName)
 ```
 
@@ -36,7 +36,7 @@ Gets the lock state of a level door
 
     1. `LevelDoor_SetLocked`
 
-```angelscript
+```cpp
 void LevelDoor_SetLocked(const tString &in asName,
                          bool abState)
 ```
@@ -55,6 +55,6 @@ Sets the lock state of a level door
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/LevelDoor](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/LevelDoor)
 - Revision: `5036`
 - Source update: `2020-08-24T20:55:29Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

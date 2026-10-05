@@ -5,7 +5,7 @@ category: modding
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Creating_a_Mod"
 sourceRevision: 6437
 sourceUpdated: "2023-07-25T07:42:46Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -147,6 +147,6 @@ More articles are available in the main SOMA modding category.
 - Original Frictional Wiki page: [HPL3/SOMA/Modding/Creating a Mod](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Creating_a_Mod)
 - Revision: `6437`
 - Source update: `2023-07-25T07:42:46Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

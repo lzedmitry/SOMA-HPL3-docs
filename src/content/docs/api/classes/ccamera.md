@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cCamera"
 sourceRevision: 3539
 sourceUpdated: "2020-08-06T13:24:00Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -515,6 +515,6 @@ const cVector2f &in avVirtualScreenSize
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cCamera](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cCamera)
 - Revision: `3539`
 - Source update: `2020-08-06T13:24:00Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

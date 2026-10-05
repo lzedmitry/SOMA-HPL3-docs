@@ -5,7 +5,7 @@ category: dialogue
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Audition/Voice_Handler_Overview"
 sourceRevision: 7181
 sourceUpdated: "2026-07-30T22:27:43Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -230,6 +230,6 @@ For information on the Properties that can be used, see Properties section above
 - Original Frictional Wiki page: [HPL3/Audition/Voice Handler Overview](https://wiki.frictionalgames.com/page/HPL3/Audition/Voice_Handler_Overview)
 - Revision: `7181`
 - Source update: `2026-07-30T22:27:43Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

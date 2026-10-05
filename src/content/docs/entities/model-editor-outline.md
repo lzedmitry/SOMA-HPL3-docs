@@ -5,7 +5,7 @@ category: entities
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities/Model_Editor_Outline"
 sourceRevision: 4969
 sourceUpdated: "2020-08-23T19:59:56Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -44,6 +44,6 @@ Any object other than the above will show a Detach command, which will detach it
 - Original Frictional Wiki page: [HPL3/SOMA/Entities/Model Editor Outline](https://wiki.frictionalgames.com/page/HPL3/SOMA/Entities/Model_Editor_Outline)
 - Revision: `4969`
 - Source update: `2020-08-23T19:59:56Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

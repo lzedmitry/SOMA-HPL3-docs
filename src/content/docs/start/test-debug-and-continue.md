@@ -5,7 +5,7 @@ category: start
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Test_Debug_and_Continue"
 sourceRevision: 7119
 sourceUpdated: "2026-07-30T10:50:15Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -61,6 +61,6 @@ You have completed Getting Started when you can:
 - Original Frictional Wiki page: [HPL3/SOMA/Getting Started/Test Debug and Continue](https://wiki.frictionalgames.com/page/HPL3/SOMA/Getting_Started/Test_Debug_and_Continue)
 - Revision: `7119`
 - Source update: `2026-07-30T10:50:15Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_5_-_Statements_and_Flow_Control"
 sourceRevision: 4574
 sourceUpdated: "2020-08-15T20:14:03Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -456,6 +456,6 @@ HPL3/Scripting/AngelScript Fundamentals/Chapter 4 - Operators and Expressions|Ch
 - Original Frictional Wiki page: [HPL3/Scripting/AngelScript Fundamentals/Chapter 5 - Statements and Flow Control](https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_5_-_Statements_and_Flow_Control)
 - Revision: `4574`
 - Source update: `2020-08-15T20:14:03Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

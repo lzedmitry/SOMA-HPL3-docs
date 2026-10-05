@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Constants"
 sourceRevision: 5077
 sourceUpdated: "2020-08-24T22:41:30Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -54,7 +54,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Constant Detail
     1. `cColor_Blue`
 
-```angelscript
+```cpp
 const cColor cColor_Blue = cColor(0.0, 0.0, 1.0, 1.0)
 ```
 
@@ -62,7 +62,7 @@ The RGBA value of blue.
 
     1. `cColor_Green`
 
-```angelscript
+```cpp
 const cColor cColor_Green = cColor(0.0, 1.0, 0.0, 1.0)
 ```
 
@@ -70,7 +70,7 @@ The RGBA value of green.
 
     1. `cColor_Red`
 
-```angelscript
+```cpp
 const cColor cColor_Red = cColor(1.0, 0.0, 0.0, 1.0)
 ```
 
@@ -78,7 +78,7 @@ The RGBA value of red.
 
     1. `cColor_White`
 
-```angelscript
+```cpp
 const cColor cColor_White = cColor(1.0, 1.0, 1.0, 1.0)
 ```
 
@@ -86,7 +86,7 @@ The RGBA value of white.
 
     1. `cMath_Epsilon`
 
-```angelscript
+```cpp
 const float cMath_Epsilon = 0.0001
 ```
 
@@ -96,7 +96,7 @@ When two floats are subtracted, floating point errors can make the result not ex
 
     1. `cMath_Pi`
 
-```angelscript
+```cpp
 const float cMath_Pi = 3.141593
 ```
 
@@ -104,7 +104,7 @@ Approximate value of pi.
 
     1. `cMath_PiDiv2`
 
-```angelscript
+```cpp
 const float cMath_PiDiv2
 ```
 
@@ -112,7 +112,7 @@ Approximate value of pi divided by 2.
 
     1. `cMath_PiDiv4`
 
-```angelscript
+```cpp
 const float cMath_PiDiv4
 ```
 
@@ -120,7 +120,7 @@ Approximate value of pi divided by 4.
 
     1. `cMath_PiMul2`
 
-```angelscript
+```cpp
 const float cMath_PiMul2
 ```
 
@@ -128,7 +128,7 @@ Approximate value of pi multiplied by 2.
 
     1. `cMath_Sqrt2`
 
-```angelscript
+```cpp
 const float cMath_Sqrt2
 ```
 
@@ -136,7 +136,7 @@ Approximate value of the square root of 2.
 
     1. `cMatrixf_Identity`
 
-```angelscript
+```cpp
 const cMatrixf cMatrixf_Identity = cMatrixf(1.0, 0.0, 0.0, 0.0,
                                             0.0, 1.0, 0.0, 0.0,
                                             0.0, 0.0, 1.0, 0.0,
@@ -147,7 +147,7 @@ The identity matrix.
 
     1. `cMatrixf_Zero`
 
-```angelscript
+```cpp
 const cMatrixf cMatrixf_Zero = cMatrixf(0.0, 0.0, 0.0, 0.0,
                                         0.0, 0.0, 0.0, 0.0,
                                         0.0, 0.0, 0.0, 0.0,
@@ -158,7 +158,7 @@ A zero-filled matrix.
 
     1. `cQuaternion_Identity`
 
-```angelscript
+```cpp
 const cQuaternion cQuaternion_Identity = cQuaternion(0.0, 0.0, 0.0, 1.0)
 ```
 
@@ -166,7 +166,7 @@ The quaternion identity.
 
     1. `cVector2f_Down`
 
-```angelscript
+```cpp
 const cVector2f cVector2f_Down = cVector2f(0.0, -1.0)
 ```
 
@@ -174,7 +174,7 @@ The down-facing 2D vector.
 
     1. `cVector2f_Left`
 
-```angelscript
+```cpp
 const cVector2f cVector2f_Left = cVector2f(-1.0, 0.0)
 ```
 
@@ -182,7 +182,7 @@ The left-facing 2D vector.
 
     1. `cVector2f_MinusOne`
 
-```angelscript
+```cpp
 const cVector2f cVector2f_MinusOne = cVector2f(-1.0, -1.0)
 ```
 
@@ -190,7 +190,7 @@ A negative-one-filled 2D vector.
 
     1. `cVector2f_One`
 
-```angelscript
+```cpp
 const cVector2f cVector2f_One = cVector2f(1.0, 1.0)
 ```
 
@@ -198,7 +198,7 @@ A one-filled 2D vector.
 
     1. `cVector2f_Right`
 
-```angelscript
+```cpp
 const cVector2f cVector2f_Right = cVector2f(1.0, 0.0)
 ```
 
@@ -206,7 +206,7 @@ The right-facing 2D vector.
 
     1. `cVector2f_Up`
 
-```angelscript
+```cpp
 const cVector2f cVector2f_Up = cVector2f(0.0, 1.0)
 ```
 
@@ -214,7 +214,7 @@ The up-facing 2D vector.
 
     1. `cVector2f_Zero`
 
-```angelscript
+```cpp
 const cVector2f cVector2f_Zero = cVector2f(0.0, 0.0)
 ```
 
@@ -222,7 +222,7 @@ A zero-filled 2D vector.
 
     1. `cVector2l_MinusOne`
 
-```angelscript
+```cpp
 const cVector2l cVector2l_MinusOne = cVector2l(-1, -1)
 ```
 
@@ -230,7 +230,7 @@ A negative-one-filled 2D vector.
 
     1. `cVector3f_Back`
 
-```angelscript
+```cpp
 const cVector3f cVector3f_Back = cVector3f(0.0, 0.0, -1.0)
 ```
 
@@ -238,7 +238,7 @@ The backward-facing 3D vector.
 
     1. `cVector3f_Down`
 
-```angelscript
+```cpp
 const cVector3f cVector3f_Down = cVector3f(0.0, -1.0, 0.0)
 ```
 
@@ -246,7 +246,7 @@ The down-facing 3D vector.
 
     1. `cVector3f_Forward`
 
-```angelscript
+```cpp
 const cVector3f cVector3f_Forward = cVector3f(0.0, 0.0, 1.0)
 ```
 
@@ -254,7 +254,7 @@ The forward-facing 3D vector.
 
     1. `cVector3f_Left`
 
-```angelscript
+```cpp
 const cVector3f cVector3f_Left = cVector3f(-1.0, 0.0, 0.0)
 ```
 
@@ -262,7 +262,7 @@ The left-facing 3D vector.
 
     1. `cVector3f_MinusOne`
 
-```angelscript
+```cpp
 const cVector3f cVector3f_MinusOne = cVector3f(-1.0, -1.0, -1.0)
 ```
 
@@ -270,7 +270,7 @@ A negative-one-filled 3D vector.
 
     1. `cVector3f_One`
 
-```angelscript
+```cpp
 const cVector3f cVector3f_One = cVector3f(1.0, 1.0, 1.0)
 ```
 
@@ -278,7 +278,7 @@ A one-filled 3D vector.
 
     1. `cVector3f_Right`
 
-```angelscript
+```cpp
 const cVector3f cVector3f_Right = cVector3f(1.0, 0.0, 0.0)
 ```
 
@@ -286,7 +286,7 @@ The right-facing 3D vector.
 
     1. `cVector3f_Up`
 
-```angelscript
+```cpp
 const cVector3f cVector3f_Up = cVector3f(0.0, 1.0, 0.0)
 ```
 
@@ -294,7 +294,7 @@ The up-facing 3D vector.
 
     1. `cVector3f_Zero`
 
-```angelscript
+```cpp
 const cVector3f cVector3f_Zero = cVector3f(0.0, 0.0, 0.0)
 ```
 
@@ -302,7 +302,7 @@ A zero-filled 3D vector.
 
     1. `cVector4f_MinusOne`
 
-```angelscript
+```cpp
 const cVector4f cVector4f_MinusOne = cVector4f(-1.0, -1.0, -1.0, -1.0)
 ```
 
@@ -310,7 +310,7 @@ A negative-one-filled 4D vector.
 
     1. `cVector4f_One`
 
-```angelscript
+```cpp
 const cVector4f cVector4f_One = cVector4f(1.0, 1.0, 1.0, 1.0)
 ```
 
@@ -318,7 +318,7 @@ A one-filled 4D vector.
 
     1. `cVector4f_Zero`
 
-```angelscript
+```cpp
 const cVector4f cVector4f_Zero = cVector4f(0.0, 0.0, 0.0, 0.0)
 ```
 
@@ -326,7 +326,7 @@ A zero-filled 4D vector.
 
     1. `tID_Invalid`
 
-```angelscript
+```cpp
 const tID tID_Invalid
 ```
 
@@ -337,6 +337,6 @@ The static value of an invalid tID.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Constants](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Constants)
 - Revision: `5077`
 - Source update: `2020-08-24T22:41:30Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

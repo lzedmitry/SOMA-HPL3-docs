@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cSound"
 sourceRevision: 5025
 sourceUpdated: "2020-08-24T20:51:28Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -75,7 +75,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cSound_CheckSoundIsBlocked`
 
-```angelscript
+```cpp
 bool cSound_CheckSoundIsBlocked(const cVector3f &in avSoundPosition)
 ```
 
@@ -91,7 +91,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_CreateEvent`
 
-```angelscript
+```cpp
 iSoundEvent@ cSound_CreateEvent(iSoundEventData@ apData,
                                 bool abNonBlockingLoad)
 ```
@@ -109,7 +109,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_DestroyEvent`
 
-```angelscript
+```cpp
 void cSound_DestroyEvent(iSoundEvent@ apEvent)
 ```
 
@@ -125,7 +125,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_DestroyUnusedData`
 
-```angelscript
+```cpp
 void cSound_DestroyUnusedData(int alMaxAmount,
                               int alMaxAge,
                               bool abRemoveUnusedProjects,
@@ -147,7 +147,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_FadeGlobalSpeed`
 
-```angelscript
+```cpp
 int cSound_FadeGlobalSpeed(float afDestSpeed,
                            float afSpeed,
                            uint mAffectedTypes,
@@ -171,7 +171,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_FadeGlobalVolume`
 
-```angelscript
+```cpp
 int cSound_FadeGlobalVolume(float afDestVolume,
                             float afSpeed,
                             uint mAffectedTypes,
@@ -195,7 +195,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_FadeHighPassFilter`
 
-```angelscript
+```cpp
 void cSound_FadeHighPassFilter(float afDestCutOff,
                                float afDestResonance,
                                float afTime,
@@ -217,7 +217,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_FadeLowPassFilter`
 
-```angelscript
+```cpp
 void cSound_FadeLowPassFilter(float afDestCutOff,
                               float afDestResonance,
                               float afTime,
@@ -239,7 +239,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_FadeMusicVolumeMul`
 
-```angelscript
+```cpp
 void cSound_FadeMusicVolumeMul(float afDest,
                                float afSpeed)
 ```
@@ -257,7 +257,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_FadeOutAll`
 
-```angelscript
+```cpp
 void cSound_FadeOutAll(uint mTypes,
                        float afFadeSpeed,
                        bool abDisableStop)
@@ -277,7 +277,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetEntry`
 
-```angelscript
+```cpp
 cSoundEntry@ cSound_GetEntry(const tString &in asName)
 ```
 
@@ -293,7 +293,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetEventCategory_Gui`
 
-```angelscript
+```cpp
 const tString& cSound_GetEventCategory_Gui()
 ```
 
@@ -305,7 +305,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetEventCategory_World`
 
-```angelscript
+```cpp
 const tString& cSound_GetEventCategory_World()
 ```
 
@@ -317,7 +317,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetEventCategory_WorldClean`
 
-```angelscript
+```cpp
 const tString& cSound_GetEventCategory_WorldClean()
 ```
 
@@ -329,7 +329,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetEventData`
 
-```angelscript
+```cpp
 iSoundEventData@ cSound_GetEventData(const tString &in asInternalPath,
                                      bool abLoadData,
                                      bool abNonBlockingLoad)
@@ -349,7 +349,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetEventProject`
 
-```angelscript
+```cpp
 iSoundEventProject@ cSound_GetEventProject(const tString &in asName)
 ```
 
@@ -365,7 +365,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetEventSystemMemoryUsed`
 
-```angelscript
+```cpp
 uint cSound_GetEventSystemMemoryUsed()
 ```
 
@@ -377,7 +377,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetGlobalSpeed`
 
-```angelscript
+```cpp
 float cSound_GetGlobalSpeed(eSoundEntryType aType)
 ```
 
@@ -393,7 +393,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetGlobalSpeedFromId`
 
-```angelscript
+```cpp
 float cSound_GetGlobalSpeedFromId(int alId)
 ```
 
@@ -409,7 +409,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetGlobalVolume`
 
-```angelscript
+```cpp
 float cSound_GetGlobalVolume(eSoundEntryType aType)
 ```
 
@@ -425,7 +425,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetGlobalVolumeFromId`
 
-```angelscript
+```cpp
 float cSound_GetGlobalVolumeFromId(int alId)
 ```
 
@@ -441,7 +441,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetMusicVolumeMul`
 
-```angelscript
+```cpp
 float cSound_GetMusicVolumeMul()
 ```
 
@@ -453,7 +453,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_GetSilent`
 
-```angelscript
+```cpp
 bool cSound_GetSilent()
 ```
 
@@ -465,7 +465,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_IsPlaying`
 
-```angelscript
+```cpp
 bool cSound_IsPlaying(const tString &in asName)
 ```
 
@@ -481,7 +481,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_IsValid`
 
-```angelscript
+```cpp
 bool cSound_IsValid(cSoundEntry @apEntry,
                     int alID)
 ```
@@ -499,7 +499,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_PauseAll`
 
-```angelscript
+```cpp
 void cSound_PauseAll(uint mTypes)
 ```
 
@@ -515,7 +515,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_PauseMusic`
 
-```angelscript
+```cpp
 void cSound_PauseMusic()
 ```
 
@@ -527,7 +527,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_Play`
 
-```angelscript
+```cpp
 cSoundEntry@ cSound_Play(const tString &in asName,
                          bool abLoop,
                          float afVolume,
@@ -565,7 +565,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_Play3D`
 
-```angelscript
+```cpp
 cSoundEntry@ cSound_Play3D(const tString &in asName,
                            bool abLoop,
                            float afVolume,
@@ -601,7 +601,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_PlayGui`
 
-```angelscript
+```cpp
 cSoundEntry@ cSound_PlayGui(const tString &in asName,
                             bool abLoop,
                             float afVolume,
@@ -625,7 +625,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_PlayGuiStream`
 
-```angelscript
+```cpp
 cSoundEntry@ cSound_PlayGuiStream(const tString &in asFileName,
                                   bool abLoop,
                                   float afVolume,
@@ -649,7 +649,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_PlayMusic`
 
-```angelscript
+```cpp
 bool cSound_PlayMusic(const tString &in asFileName,
                       float afVolume,
                       float afVolumeFadeStepSize,
@@ -677,7 +677,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_PlaySoundEntityGui`
 
-```angelscript
+```cpp
 cSoundEntry@ cSound_PlaySoundEntityGui(const tString &in asName,
                                        bool abLoop,
                                        float afVolume,
@@ -701,7 +701,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_PlaySoundEvent`
 
-```angelscript
+```cpp
 cSoundEntry@ cSound_PlaySoundEvent(const tString &in asInternalPath,
                                    float afVolume,
                                    const cVector3f &in avPos,
@@ -725,7 +725,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_PreloadGroup`
 
-```angelscript
+```cpp
 void cSound_PreloadGroup(const tString &in asInternalPath,
                          bool abNonBlockingLoad,
                          bool abSubGroups)
@@ -745,7 +745,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_PreloadProject`
 
-```angelscript
+```cpp
 void cSound_PreloadProject(const tString &in asName,
                            bool abNonBlockingLoad)
 ```
@@ -763,7 +763,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_ResumeAll`
 
-```angelscript
+```cpp
 void cSound_ResumeAll(uint mTypes)
 ```
 
@@ -779,7 +779,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_ResumeMusic`
 
-```angelscript
+```cpp
 void cSound_ResumeMusic()
 ```
 
@@ -791,7 +791,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_SetEventCategory_Gui`
 
-```angelscript
+```cpp
 void cSound_SetEventCategory_Gui(const tString &in asCat)
 ```
 
@@ -807,7 +807,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_SetEventCategory_World`
 
-```angelscript
+```cpp
 void cSound_SetEventCategory_World(const tString &in asCat)
 ```
 
@@ -823,7 +823,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_SetEventCategory_WorldClean`
 
-```angelscript
+```cpp
 void cSound_SetEventCategory_WorldClean(const tString &in asCat)
 ```
 
@@ -839,7 +839,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_SetGlobalSpeed`
 
-```angelscript
+```cpp
 int cSound_SetGlobalSpeed(float afSpeed,
                           uint mAffectedTypes,
                           int alId)
@@ -859,7 +859,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_SetGlobalVolume`
 
-```angelscript
+```cpp
 int cSound_SetGlobalVolume(float afVolume,
                            uint mAffectedTypes,
                            int alId)
@@ -879,7 +879,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_SetMusicVolumeMul`
 
-```angelscript
+```cpp
 void cSound_SetMusicVolumeMul(float afMul)
 ```
 
@@ -895,7 +895,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_SetSilent`
 
-```angelscript
+```cpp
 void cSound_SetSilent(bool abX)
 ```
 
@@ -911,7 +911,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_Stop`
 
-```angelscript
+```cpp
 bool cSound_Stop(const tString &in asName,
                  bool abPlayEnd)
 ```
@@ -929,7 +929,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_StopAll`
 
-```angelscript
+```cpp
 void cSound_StopAll(uint mTypes,
                     bool abPlayEnd)
 ```
@@ -947,7 +947,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cSound_StopMusic`
 
-```angelscript
+```cpp
 void cSound_StopMusic(float afFadeStepSize)
 ```
 
@@ -966,6 +966,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cSound](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cSound)
 - Revision: `5025`
 - Source update: `2020-08-24T20:51:28Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

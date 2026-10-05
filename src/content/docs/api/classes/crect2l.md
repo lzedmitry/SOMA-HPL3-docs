@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cRect2l"
 sourceRevision: 3701
 sourceUpdated: "2020-08-06T14:17:15Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -52,6 +52,6 @@ cRect2l has no public functions
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cRect2l](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cRect2l)
 - Revision: `3701`
 - Source update: `2020-08-06T14:17:15Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

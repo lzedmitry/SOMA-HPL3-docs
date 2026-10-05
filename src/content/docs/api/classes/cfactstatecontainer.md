@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFactStateContainer"
 sourceRevision: 3558
 sourceUpdated: "2020-08-06T13:29:59Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -102,6 +102,6 @@ const tString& asValue
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cFactStateContainer](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cFactStateContainer)
 - Revision: `3558`
 - Source update: `2020-08-06T13:29:59Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

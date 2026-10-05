@@ -5,7 +5,7 @@ category: generated
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Shaders/HPSL_Shading_Language"
 sourceRevision: 6831
 sourceUpdated: "2024-09-12T22:17:54Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -238,6 +238,6 @@ void main(in cVector4f px_vPosition,
 - Original Frictional Wiki page: [HPL3/Shaders/HPSL Shading Language](https://wiki.frictionalgames.com/page/HPL3/Shaders/HPSL_Shading_Language)
 - Revision: `6831`
 - Source update: `2024-09-12T22:17:54Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

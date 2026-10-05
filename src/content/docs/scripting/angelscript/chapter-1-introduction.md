@@ -3,9 +3,9 @@ title: Chapter 1 - Introduction
 description: "If you’re here, that means you probably want to get into modding SOMA or Amnesia: Rebirth, but you don’t know how to program the code that makes the game tick. Don’t worry, everyone has to start somewhere, and hopefully,"
 category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_1_-_Introduction"
-sourceRevision: 4611
-sourceUpdated: "2020-08-15T21:11:03Z"
-lastSynced: "2026-08-28T18:40:04Z"
+sourceRevision: 7188
+sourceUpdated: "2026-10-02T00:47:47Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -26,7 +26,7 @@ The language used to program everything that happens within HPL3 is a language c
 ## What Tools Should I Use to Code in AngelScript
 Most popular programming languages nowadays use an Integrated Development Environment, or **IDE**, to speed up and streamline the development process. An IDE typically contains various helpful features, such as an auto-complete feature (when you start typing, the IDE suggests names of various things that you could be looking for), code generation (type in a code word and the IDE creates a full block of code for you), syntax highlighting (color-coding the script to make it easier to understand what is what) or refactoring (a fancy term for renaming all instances of a certain word or name).
 
-The most optimal tool we have for HPL3 is [CodeLite](https://wiki.frictionalgames.com/page/CodeLite), after configuring it so that it works for AngelScript. This process is laid out in the. [**Setting up CodeLite**](/scripting/setting-up-codelite/) page.
+The most optimal tool we have for HPL3 is [Visual Studio Code](https://wiki.frictionalgames.com/page/Visual_Studio_Code), after configuring it so that it works for AngelScript. This process is laid out in the. [**Setting up Visual Studio Code**](/scripting/setting-up-visual-studio-code/) page.
 
 ## What Other Resources Can I Use For Help
 You can check around in other sections of the HPL3 wiki. There is a lot of documentation on how certain things work within HPL3, from a function reference (we’ll get to those later) to recommendations on how to import custom assets. There is documentation for AngelScript as well, which you can view on the [AngelScript website](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html). You can also ask for help or guidance on the [Frictional Games Discord Server](https://discord.com/invite/frictionalgames).
@@ -36,8 +36,8 @@ You can check around in other sections of the HPL3 wiki. There is a lot of docum
 ## Source & attribution
 
 - Original Frictional Wiki page: [HPL3/Scripting/AngelScript Fundamentals/Chapter 1 - Introduction](https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_1_-_Introduction)
-- Revision: `4611`
-- Source update: `2020-08-15T21:11:03Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Revision: `7188`
+- Source update: `2026-10-02T00:47:47Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

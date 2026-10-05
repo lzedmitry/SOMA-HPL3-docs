@@ -5,7 +5,7 @@ category: entities
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Entities/Model_Editor_View"
 sourceRevision: 7130
 sourceUpdated: "2026-07-30T21:52:59Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -159,6 +159,6 @@ The following types are exclusive to the Model Editor
 - Original Frictional Wiki page: [HPL3/Entities/Model Editor View](https://wiki.frictionalgames.com/page/HPL3/Entities/Model_Editor_View)
 - Revision: `7130`
 - Source update: `2026-07-30T21:52:59Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

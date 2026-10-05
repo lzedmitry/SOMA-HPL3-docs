@@ -1,28 +1,28 @@
 ---
 title: SoundScape
-description: "= Soundscape Area ="
+description: "=Soundscape Area="
 category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Areas/SoundScape_Area"
-sourceRevision: 6745
-sourceUpdated: "2024-01-25T20:58:54Z"
-lastSynced: "2026-08-28T18:40:04Z"
+sourceRevision: 7186
+sourceUpdated: "2026-08-31T15:00:21Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
   - areas
 ---
-= Soundscape Area =
+=Soundscape Area=
 
 ## Overview
-The Soundscape Area is a volume entity that when entered by the player, can play ambient sounds and music, as well as set up and configure reverb and background sound data. Many soundscape areas can overlap, if the background sound is identical then the areas will act as if they are one entity.
+The Soundscape Area is a volume entity that when entered by the player, can play ambient sounds and music, as well as set up and configure reverb and background sound data. Many soundscape areas can overlap, if the background sound is identical then the areas will act as if they are one entity. This is needed to have footsteps sounds around the map
 
 ## Features
 ### Reverb
-- **UseReverb**: Enables reverb data
-- **ReverbType**: Which reverb setting to use.
-- **ReverbPrio**: Priority of the reverb effect, higher values override overlapping soundscapes.
-- **ReverbAmount**: The Amount of reverb to be used. Values can be greater than 1.
-- **ReverbFadeTime**: The amount of time to fade into this reverb effect in seconds.
+***UseReverb**: Enables reverb data
+***ReverbType**: Which reverb setting to use.
+***ReverbPrio**: Priority of the reverb effect, higher values override overlapping soundscapes.
+***ReverbAmount**: The Amount of reverb to be used. Values can be greater than 1.
+***ReverbFadeTime**: The amount of time to fade into this reverb effect in seconds.
 
 :::tip[Tip]
 If **UseReverb** is not enabled for an area, then it will not be taken into account at all, regardless of prio. If you want an area to disable reverb, then it needs to have **UseReverb** active and type set to *off*.
@@ -31,42 +31,42 @@ If **UseReverb** is not enabled for an area, then it will not be taken into acco
 ### General Sound
 The Soundscape area can start playing a 2d sound as the player's head enters the area. **Prio** is used to determine what soundscape area to use if many of the same **Level** overlap. However, if many areas of different **Level** overlap then the background sounds from smaller **Level** values will get lowered according to the **ParentVolMul** setting in the higher **Level** areas. This is meant to simulate the background noise getting lowered as you step inside a house or similar. For instance, if the player is inside one *Global (0)* area and one *Room (2)* area, then the background sound from the *Global (0)* area will be lowered according to **ParentVolMul** in the *Room (2)* area. This multiplying is applied all through the hierarchy, so if the player is inside areas from levels 0 -> 3, then any sound in level 0 will be multiplied by the setting in 1, 2, and 3 together.
 
-- **Prio**: Priority of the soundscape, higher values override overlapping soundscapes.
-- **Level**: The hierarchy of what each soundscape in a level is meant for. Lower level soundscapes are activated instead of higher levels when soundscapes overlap. 
+***Prio**: Priority of the soundscape, higher values override overlapping soundscapes.
+***Level**: The hierarchy of what each soundscape in a level is meant for. Lower level soundscapes are activated instead of higher levels when soundscapes overlap.
 
 ### BackgroundSound
-- **BG_Sound**: the sound file to play when entering a soundscape. Looping sounds are recommended.
-- **BG_Volume**: The volume of the sound.
-- **BG_FadeInTime**: Time in seconds it takes to fade in the sound.
-- **BG_FadeOutTime**: Time in seconds it takes to fade out the sound.
-- **BG_FadeTransitionSpeed**: The speed at which a sound fades in or out when a parent volume is changed.
-- **BG_ParentVolMul**: A multiplier for any parent background sounds that are active.
+***BG_Sound**: the sound file to play when entering a soundscape. Looping sounds are recommended.
+***BG_Volume**: The volume of the sound.
+***BG_FadeInTime**: Time in seconds it takes to fade in the sound.
+***BG_FadeOutTime**: Time in seconds it takes to fade out the sound.
+***BG_FadeTransitionSpeed**: The speed at which a sound fades in or out when a parent volume is changed.
+***BG_ParentVolMul**: A multiplier for any parent background sounds that are active.
 
 ### Connected Sound Entities
 Soundscape Areas can play two distinct types of sounds, sound files designated in Sound Entities and 2D background sounds.
 Sound entities that are placed in the level can be either started or stopped when the player is inside or outside of the area. If two areas overlap and are of the same **Level** then the area with the highest **prio** will be used. Note that if the areas have different **Level** values, then sound entities from many areas can be played (or not played) at the same time.
 
-- **SoundEnt_InNames**: Sound Entities to begin playing when entering the soundscape or stop playing when exiting the soundscape.
-- **SoundEnt_OutNames**: Sound Entities to begin playing when exiting the soundscape or stop playing when entering the soundscape.
-- **SoundEnt_FadeInTime**: Time in seconds to fade in attached sound entities.
-- **SoundEnt_FadeOutTime**: Time in seconds to fade out attached sound entities.
+***SoundEnt_InNames**: Sound Entities to begin playing when entering the soundscape or stop playing when exiting the soundscape.
+***SoundEnt_OutNames**: Sound Entities to begin playing when exiting the soundscape or stop playing when entering the soundscape.
+***SoundEnt_FadeInTime**: Time in seconds to fade in attached sound entities.
+***SoundEnt_FadeOutTime**: Time in seconds to fade out attached sound entities.
 
 ### SoundPrefix
 In Soma this setting is used to play different versions of footstep sounds however this can be used for other reasons. It does this by applying an extra parent folder to the sound file to be played if the variable is not *[None]*. The script function ` Sound_CreateAtEntity_UsePrefix()` can be used to easily play different sounds depending on which soundscape area the player currently is in.
 
-- **SoundPrefixPrio**: The priority of the SoundPrefix, higher values override overlapping soundscapes.
-- **SoundPrefix**: The prefix to be added to the sound effect path. *[None]* will not add a prefix.
+***SoundPrefixPrio**: The priority of the SoundPrefix, higher values override overlapping soundscapes.
+***SoundPrefix**: The prefix to be added to the sound effect path. *[None]* will not add a prefix.
 
 ### Attachment
-- **ParentAttachEntity**: The name of an entity that this soundscape is parented to.
-- **ParentAttachUseRotation**: If the rotation of the parent should affect the soundscape.
-- **ParentAttachBody**: The name of the body in the parent entity to attach to.
+***ParentAttachEntity**: The name of an entity that this soundscape is parented to.
+***ParentAttachUseRotation**: If the rotation of the parent should affect the soundscape.
+***ParentAttachBody**: The name of the body in the parent entity to attach to.
 
 ## Source & attribution
 
 - Original Frictional Wiki page: [HPL3/Areas/SoundScape Area](https://wiki.frictionalgames.com/page/HPL3/Areas/SoundScape_Area)
-- Revision: `6745`
-- Source update: `2024-01-25T20:58:54Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Revision: `7186`
+- Source update: `2026-08-31T15:00:21Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

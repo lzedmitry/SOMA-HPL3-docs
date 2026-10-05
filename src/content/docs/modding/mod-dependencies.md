@@ -5,7 +5,7 @@ category: modding
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Modding/Mod_Dependencies"
 sourceRevision: 7033
 sourceUpdated: "2026-03-14T21:56:05Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -90,6 +90,6 @@ Now your mod loads the mod dependency with the `UID` of "`my_uid`".
 - Original Frictional Wiki page: [HPL3/Modding/Mod Dependencies](https://wiki.frictionalgames.com/page/HPL3/Modding/Mod_Dependencies)
 - Revision: `7033`
 - Source update: `2026-03-14T21:56:05Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

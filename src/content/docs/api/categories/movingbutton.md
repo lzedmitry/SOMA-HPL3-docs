@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/MovingButton"
 sourceRevision: 5044
 sourceUpdated: "2020-08-24T20:57:30Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -31,7 +31,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `MovingButton_Blink`
 
-```angelscript
+```cpp
 void MovingButton_Blink(const tString &in asName)
 ```
 
@@ -45,7 +45,7 @@ Makes the MovingButton blink in accordance to how it is set up in the ent file.
 
     1. `MovingButton_GetStateAmount`
 
-```angelscript
+```cpp
 float MovingButton_GetStateAmount(const tString &in asName)
 ```
 
@@ -59,7 +59,7 @@ Returns the current state of the MovingButton
 
     1. `MovingButton_IsDisabled`
 
-```angelscript
+```cpp
 bool MovingButton_IsDisabled(const tString &in asName)
 ```
 
@@ -73,7 +73,7 @@ Checks if the MovingButton is disabled (will not light up or respond to presses)
 
     1. `MovingButton_IsLocked`
 
-```angelscript
+```cpp
 bool MovingButton_IsLocked(const tString &in asName)
 ```
 
@@ -87,7 +87,7 @@ Checks if the MovingButton is locked.
 
     1. `MovingButton_IsSwitchedOn`
 
-```angelscript
+```cpp
 bool MovingButton_IsSwitchedOn(const tString &in asName)
 ```
 
@@ -101,7 +101,7 @@ Returns the state of the button, on/off.
 
     1. `MovingButton_SetCanBeSwitchedOff`
 
-```angelscript
+```cpp
 void MovingButton_SetCanBeSwitchedOff(const tString &in asName,
                                       bool abState)
 ```
@@ -117,7 +117,7 @@ Sets if the moving button can be switched off by the player or not
 
     1. `MovingButton_SetCanBeSwitchedOn`
 
-```angelscript
+```cpp
 void MovingButton_SetCanBeSwitchedOn(const tString &in asName,
                                      bool abState)
 ```
@@ -133,7 +133,7 @@ Sets if the moving button can be switched on by the player or not
 
     1. `MovingButton_SetDisabled`
 
-```angelscript
+```cpp
 void MovingButton_SetDisabled(const tString &in asName,
                               bool abState,
                               bool abUseEffects = true)
@@ -151,7 +151,7 @@ Sets the MovingButtons disabled state
 
     1. `MovingButton_SetLocked`
 
-```angelscript
+```cpp
 void MovingButton_SetLocked(const tString &in asName,
                             bool abState,
                             bool abUseEffects = true)
@@ -169,7 +169,7 @@ Sets the MovingButtons locked state
 
     1. `MovingButton_SetReturnToOffTime`
 
-```angelscript
+```cpp
 void MovingButton_SetReturnToOffTime(const tString &in asName,
                                      float afTime)
 ```
@@ -185,7 +185,7 @@ Sets the time it should take for the button to return to its off state.
 
     1. `MovingButton_SetSwitchedOn`
 
-```angelscript
+```cpp
 void MovingButton_SetSwitchedOn(const tString &in asName,
                                 bool abState,
                                 bool abEffects)
@@ -207,6 +207,6 @@ the change will not be apparent to the player.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/MovingButton](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/MovingButton)
 - Revision: `5044`
 - Source update: `2020-08-24T20:57:30Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

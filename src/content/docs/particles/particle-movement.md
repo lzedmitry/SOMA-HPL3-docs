@@ -5,7 +5,7 @@ category: particles
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Movement"
 sourceRevision: 7158
 sourceUpdated: "2026-07-30T22:15:18Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -31,6 +31,6 @@ tags:
 - Original Frictional Wiki page: [HPL3/Particles/Particle Movement](https://wiki.frictionalgames.com/page/HPL3/Particles/Particle_Movement)
 - Revision: `7158`
 - Source update: `2026-07-30T22:15:18Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

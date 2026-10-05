@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_6_-_Functions"
 sourceRevision: 4615
 sourceUpdated: "2020-08-16T08:55:01Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -295,6 +295,6 @@ HPL3/Scripting/AngelScript Fundamentals/Chapter 5 - Statements and Flow Control|
 - Original Frictional Wiki page: [HPL3/Scripting/AngelScript Fundamentals/Chapter 6 - Functions](https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_6_-_Functions)
 - Revision: `4615`
 - Source update: `2020-08-16T08:55:01Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

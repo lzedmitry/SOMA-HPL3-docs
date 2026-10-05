@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cScene"
 sourceRevision: 5023
 sourceUpdated: "2020-08-24T20:50:52Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -53,7 +53,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cScene_CreateCamera`
 
-```angelscript
+```cpp
 cCamera@ cScene_CreateCamera(eCameraMoveMode aMoveMode)
 ```
 
@@ -69,7 +69,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_CreateViewport`
 
-```angelscript
+```cpp
 cViewport@ cScene_CreateViewport(cCamera @apCamera,
                                  cWorld @apWorld,
                                  bool abAddLast)
@@ -89,7 +89,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_CreateWorld`
 
-```angelscript
+```cpp
 cWorld@ cScene_CreateWorld(const tString &in asName)
 ```
 
@@ -105,7 +105,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_DestroyCamera`
 
-```angelscript
+```cpp
 void cScene_DestroyCamera(cCamera@ apCam)
 ```
 
@@ -121,7 +121,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_DestroyViewport`
 
-```angelscript
+```cpp
 void cScene_DestroyViewport(cViewport@ apViewPort)
 ```
 
@@ -137,7 +137,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_DestroyWorld`
 
-```angelscript
+```cpp
 void cScene_DestroyWorld(cWorld@ apWorld)
 ```
 
@@ -153,7 +153,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_FadeGradingTexture`
 
-```angelscript
+```cpp
 void cScene_FadeGradingTexture(cWorld@ apWorld,
                                iTexture@ apGrading,
                                float afTime)
@@ -173,7 +173,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_LoadWorld`
 
-```angelscript
+```cpp
 cWorld@ cScene_LoadWorld(const tString &in asFile,
                          int aFlags)
 ```
@@ -191,7 +191,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_Reset`
 
-```angelscript
+```cpp
 void cScene_Reset()
 ```
 
@@ -203,7 +203,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_SetCurrentListener`
 
-```angelscript
+```cpp
 void cScene_SetCurrentListener(cViewport@ apViewPort)
 ```
 
@@ -219,7 +219,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToBeam`
 
-```angelscript
+```cpp
 cBeam@ cScene_ToBeam(iEntity3D@ apEntity)
 ```
 
@@ -235,7 +235,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToBillboard`
 
-```angelscript
+```cpp
 cBillboard@ cScene_ToBillboard(iEntity3D@ apEntity)
 ```
 
@@ -251,7 +251,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToForceField`
 
-```angelscript
+```cpp
 cForceField@ cScene_ToForceField(iEntity3D@ apEntity)
 ```
 
@@ -267,7 +267,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToLensFlare`
 
-```angelscript
+```cpp
 cLensFlare@ cScene_ToLensFlare(iEntity3D@ apEntity)
 ```
 
@@ -283,7 +283,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToLightBox`
 
-```angelscript
+```cpp
 cLightBox@ cScene_ToLightBox(iLight@ apLight)
 ```
 
@@ -299,7 +299,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToLightDirectional`
 
-```angelscript
+```cpp
 cLightDirectional@ cScene_ToLightDirectional(iLight@ apLight)
 ```
 
@@ -315,7 +315,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToLightPoint`
 
-```angelscript
+```cpp
 cLightPoint@ cScene_ToLightPoint(iLight@ apLight)
 ```
 
@@ -331,7 +331,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToLightSpot`
 
-```angelscript
+```cpp
 cLightSpot@ cScene_ToLightSpot(iLight@ apLight)
 ```
 
@@ -347,7 +347,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToMeshEntity`
 
-```angelscript
+```cpp
 cMeshEntity@ cScene_ToMeshEntity(iEntity3D@ apEntity)
 ```
 
@@ -363,7 +363,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToRopeEntity`
 
-```angelscript
+```cpp
 iRopeEntity@ cScene_ToRopeEntity(iEntity3D@ apEntity)
 ```
 
@@ -379,7 +379,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToRopeEntity3D`
 
-```angelscript
+```cpp
 cRopeEntity3D@ cScene_ToRopeEntity3D(iEntity3D@ apEntity)
 ```
 
@@ -395,7 +395,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToRopeEntityBillboard`
 
-```angelscript
+```cpp
 cRopeEntityBillboard@ cScene_ToRopeEntityBillboard(iEntity3D@ apEntity)
 ```
 
@@ -411,7 +411,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToSoundEntity`
 
-```angelscript
+```cpp
 cSoundEntity@ cScene_ToSoundEntity(iEntity3D@ apEntity)
 ```
 
@@ -427,7 +427,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ToSubMeshEntity`
 
-```angelscript
+```cpp
 cSubMeshEntity@ cScene_ToSubMeshEntity(iEntity3D@ apEntity)
 ```
 
@@ -443,7 +443,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_ViewportExists`
 
-```angelscript
+```cpp
 bool cScene_ViewportExists(cViewport@ apViewPort)
 ```
 
@@ -459,7 +459,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cScene_WorldExists`
 
-```angelscript
+```cpp
 void cScene_WorldExists(cWorld@ apWorld)
 ```
 
@@ -478,6 +478,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cScene](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cScene)
 - Revision: `5023`
 - Source update: `2020-08-24T20:50:52Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

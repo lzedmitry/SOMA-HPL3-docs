@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Button"
 sourceRevision: 5012
 sourceUpdated: "2020-08-24T20:45:58Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -29,7 +29,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Button_Blink`
 
-```angelscript
+```cpp
 void Button_Blink(const tString &in asName)
 ```
 
@@ -43,7 +43,7 @@ Makes the button blink in accordance to how it is set up in the ent file.
 
     1. `Button_IsDisabled`
 
-```angelscript
+```cpp
 bool Button_IsDisabled(const tString &in asName)
 ```
 
@@ -57,7 +57,7 @@ Checks if the button is disabled (will not light up or respond to presses).
 
     1. `Button_IsLocked`
 
-```angelscript
+```cpp
 bool Button_IsLocked(const tString &in asName)
 ```
 
@@ -71,7 +71,7 @@ Checks if the button is locked.
 
     1. `Button_IsSwitchedOn`
 
-```angelscript
+```cpp
 bool Button_IsSwitchedOn(const tString &in asName)
 ```
 
@@ -85,7 +85,7 @@ Returns true if button is currently switched on.
 
     1. `Button_SetCanBeSwitchedOff`
 
-```angelscript
+```cpp
 void Button_SetCanBeSwitchedOff(const tString &in asName,
                                 bool abState)
 ```
@@ -101,7 +101,7 @@ Sets if the button can be switched off by the player or not
 
     1. `Button_SetCanBeSwitchedOn`
 
-```angelscript
+```cpp
 void Button_SetCanBeSwitchedOn(const tString &in asName,
                                bool abState)
 ```
@@ -117,7 +117,7 @@ Sets if the button can be switched on by the player or not
 
     1. `Button_SetDisabled`
 
-```angelscript
+```cpp
 void Button_SetDisabled(const tString &in asName,
                         bool abState,
                         bool abUseEffects = true)
@@ -135,7 +135,7 @@ Sets the buttons disabled state
 
     1. `Button_SetLocked`
 
-```angelscript
+```cpp
 void Button_SetLocked(const tString &in asName,
                       bool abState,
                       bool abUseEffects = true)
@@ -153,7 +153,7 @@ Sets the button's locked state
 
     1. `Button_SetSwitchedOn`
 
-```angelscript
+```cpp
 void Button_SetSwitchedOn(const tString &in asName,
                           bool abState,
                           bool abEffects)
@@ -175,6 +175,6 @@ the change will not be apparent to the player.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Button](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Button)
 - Revision: `5012`
 - Source update: `2020-08-24T20:45:58Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

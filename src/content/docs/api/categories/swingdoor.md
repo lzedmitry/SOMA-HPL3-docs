@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/SwingDoor"
 sourceRevision: 5052
 sourceUpdated: "2020-08-24T20:59:24Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -31,7 +31,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `SwingDoor_AddDoorBodyImpulse`
 
-```angelscript
+```cpp
 void SwingDoor_AddDoorBodyImpulse(const tString &in asName,
                                   float afImpulseAmount)
 ```
@@ -49,7 +49,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `SwingDoor_GetBlocked`
 
-```angelscript
+```cpp
 bool SwingDoor_GetBlocked(const tString &in asName)
 ```
 
@@ -63,7 +63,7 @@ Checks if door is blocked.
 
     1. `SwingDoor_GetClosed`
 
-```angelscript
+```cpp
 bool SwingDoor_GetClosed(const tString &in asName)
 ```
 
@@ -77,7 +77,7 @@ Checks if door is closed.
 
     1. `SwingDoor_GetLocked`
 
-```angelscript
+```cpp
 bool SwingDoor_GetLocked(const tString &in asName)
 ```
 
@@ -91,7 +91,7 @@ Checks if door is locked.
 
     1. `SwingDoor_GetOpenAmount`
 
-```angelscript
+```cpp
 float SwingDoor_GetOpenAmount(const tString &in asName)
 ```
 
@@ -105,7 +105,7 @@ Get open amount of a door
 
     1. `SwingDoor_GetState`
 
-```angelscript
+```cpp
 int SwingDoor_GetState(const tString &in asName)
 ```
 
@@ -120,7 +120,7 @@ Checks the state of the door.
 
     1. `SwingDoor_SetBlocked`
 
-```angelscript
+```cpp
 void SwingDoor_SetBlocked(const tString &in asName,
                           bool abBlocked,
                           bool abEffects)
@@ -139,7 +139,7 @@ If false, the change will not be apparent to the player.
 
     1. `SwingDoor_SetClosed`
 
-```angelscript
+```cpp
 void SwingDoor_SetClosed(const tString &in asName,
                          bool abClosed,
                          bool abEffects)
@@ -158,7 +158,7 @@ If false, the change will not be apparent to the player.
 
     1. `SwingDoor_SetDisableAutoClose`
 
-```angelscript
+```cpp
 void SwingDoor_SetDisableAutoClose(const tString &in asName,
                                    bool abDisableAutoClose)
 ```
@@ -175,7 +175,7 @@ If enabled, the door will not lose any force pushing it toward its closed positi
 
     1. `SwingDoor_SetLocked`
 
-```angelscript
+```cpp
 void SwingDoor_SetLocked(const tString &in asName,
                          bool abLocked,
                          bool abEffects)
@@ -194,7 +194,7 @@ If false, the change will not be apparent to the player.
 
     1. `SwingDoor_SetOpenAmount`
 
-```angelscript
+```cpp
 void SwingDoor_SetOpenAmount(const tString &in asName,
                              float afOpenAmount)
 ```
@@ -213,6 +213,6 @@ Sets the door to a specific open state instantly.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/SwingDoor](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/SwingDoor)
 - Revision: `5052`
 - Source update: `2020-08-24T20:59:24Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

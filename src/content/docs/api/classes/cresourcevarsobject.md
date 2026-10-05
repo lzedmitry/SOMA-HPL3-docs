@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cResourceVarsObject"
 sourceRevision: 3705
 sourceUpdated: "2020-08-06T14:18:06Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -228,6 +228,6 @@ const cVector3f &in avDefault
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cResourceVarsObject](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cResourceVarsObject)
 - Revision: `3705`
 - Source update: `2020-08-06T14:18:06Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

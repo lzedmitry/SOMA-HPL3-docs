@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Timers"
 sourceRevision: 4320
 sourceUpdated: "2020-08-14T10:52:48Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -38,6 +38,6 @@ HPL3/Scripting/Scripting_Guide/The Update method|The Update method|HPL3/Scriptin
 - Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/Timers](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Timers)
 - Revision: `4320`
 - Source update: `2020-08-14T10:52:48Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

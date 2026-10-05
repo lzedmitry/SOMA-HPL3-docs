@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T18:22:07Z",
+  "fetchedAt": "2026-10-05T14:11:59Z",
   "count": 698,
   "pages": [
     {
@@ -101,18 +101,18 @@
     {
       "title": "HPL3/Areas/SoundScape Area",
       "pageid": 603,
-      "revisionId": 6745,
-      "revisionTimestamp": "2024-01-25T20:58:54Z",
+      "revisionId": 7186,
+      "revisionTimestamp": "2026-08-31T15:00:21Z",
       "missing": false,
-      "wikitextLength": 4542
+      "wikitextLength": 4558
     },
     {
       "title": "HPL3/Areas/Soundscape Area",
       "pageid": 603,
-      "revisionId": 6745,
-      "revisionTimestamp": "2024-01-25T20:58:54Z",
+      "revisionId": 7186,
+      "revisionTimestamp": "2026-08-31T15:00:21Z",
       "missing": false,
-      "wikitextLength": 4542
+      "wikitextLength": 4558
     },
     {
       "title": "HPL3/Areas/Sticky Area",
@@ -669,18 +669,18 @@
     {
       "title": "HPL3/SOMA/Animation",
       "pageid": 2556,
-      "revisionId": 7127,
-      "revisionTimestamp": "2026-07-30T21:12:38Z",
+      "revisionId": 7338,
+      "revisionTimestamp": "2026-10-02T17:21:10Z",
       "missing": false,
-      "wikitextLength": 990
+      "wikitextLength": 672
     },
     {
       "title": "HPL3/SOMA/Areas",
       "pageid": 1938,
-      "revisionId": 6780,
-      "revisionTimestamp": "2024-02-08T18:34:41Z",
+      "revisionId": 7324,
+      "revisionTimestamp": "2026-10-02T15:31:57Z",
       "missing": false,
-      "wikitextLength": 2192
+      "wikitextLength": 1773
     },
     {
       "title": "HPL3/SOMA/Areas/AgentRepel Area",
@@ -756,11 +756,11 @@
     },
     {
       "title": "HPL3/SOMA/Entities/Entity Notes",
-      "pageid": 2599,
-      "revisionId": 4970,
-      "revisionTimestamp": "2020-08-23T20:00:21Z",
+      "pageid": 3591,
+      "revisionId": 7343,
+      "revisionTimestamp": "2026-10-02T17:34:21Z",
       "missing": false,
-      "wikitextLength": 300
+      "wikitextLength": 1842
     },
     {
       "title": "HPL3/SOMA/Entities/Model Editor Outline",
@@ -805,10 +805,10 @@
     {
       "title": "HPL3/SOMA/Getting Started/Add Your First Script",
       "pageid": 3431,
-      "revisionId": 7118,
-      "revisionTimestamp": "2026-07-30T10:49:57Z",
+      "revisionId": 7183,
+      "revisionTimestamp": "2026-08-31T10:55:36Z",
       "missing": false,
-      "wikitextLength": 1641
+      "wikitextLength": 1741
     },
     {
       "title": "HPL3/SOMA/Getting Started/Configure the Level Editor",
@@ -861,10 +861,10 @@
     {
       "title": "HPL3/SOMA/Level Design",
       "pageid": 1936,
-      "revisionId": 7104,
-      "revisionTimestamp": "2026-07-30T10:01:52Z",
+      "revisionId": 7312,
+      "revisionTimestamp": "2026-10-02T15:08:08Z",
       "missing": false,
-      "wikitextLength": 3603
+      "wikitextLength": 3519
     },
     {
       "title": "HPL3/SOMA/Level Design/Compounds",
@@ -1077,10 +1077,10 @@
     {
       "title": "HPL3/SOMA/Modeling",
       "pageid": 2471,
-      "revisionId": 7125,
-      "revisionTimestamp": "2026-07-30T21:11:02Z",
+      "revisionId": 7323,
+      "revisionTimestamp": "2026-10-02T15:31:48Z",
       "missing": false,
-      "wikitextLength": 937
+      "wikitextLength": 587
     },
     {
       "title": "HPL3/SOMA/Modeling/Animation Principles",
@@ -1117,10 +1117,10 @@
     {
       "title": "HPL3/SOMA/Scripting",
       "pageid": 1960,
-      "revisionId": 7182,
-      "revisionTimestamp": "2026-08-09T07:42:34Z",
+      "revisionId": 7296,
+      "revisionTimestamp": "2026-10-02T12:30:41Z",
       "missing": false,
-      "wikitextLength": 5323
+      "wikitextLength": 4916
     },
     {
       "title": "HPL3/SOMA/Scripting/Input Types",
@@ -5133,10 +5133,10 @@
     {
       "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 1 - Introduction",
       "pageid": 2510,
-      "revisionId": 4611,
-      "revisionTimestamp": "2020-08-15T21:11:03Z",
+      "revisionId": 7188,
+      "revisionTimestamp": "2026-10-02T00:47:47Z",
       "missing": false,
-      "wikitextLength": 3444
+      "wikitextLength": 3490
     },
     {
       "title": "HPL3/Scripting/AngelScript Fundamentals/Chapter 2 - Structure of a Script",

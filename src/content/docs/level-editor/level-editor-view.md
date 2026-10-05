@@ -5,7 +5,7 @@ category: level-editor
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Editor_View"
 sourceRevision: 7064
 sourceUpdated: "2026-07-30T09:25:46Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -61,6 +61,6 @@ When working in a viewport, the common thing to do is enlarging it. This can be 
 - Original Frictional Wiki page: [HPL3/Level Design/Level Editor View](https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Editor_View)
 - Revision: `7064`
 - Source update: `2026-07-30T09:25:46Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: audio
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Sound"
 sourceRevision: 7173
 sourceUpdated: "2026-07-30T22:22:26Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -39,6 +39,6 @@ This category and its sub-pages are undergoing major editing, as some informatio
 - Original Frictional Wiki page: [HPL3/SOMA/Sound](https://wiki.frictionalgames.com/page/HPL3/SOMA/Sound)
 - Revision: `7173`
 - Source update: `2026-07-30T22:22:26Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

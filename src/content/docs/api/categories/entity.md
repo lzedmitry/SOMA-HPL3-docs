@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Entity"
 sourceRevision: 5007
 sourceUpdated: "2020-08-24T20:40:43Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -97,7 +97,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Entity_AddCollideCallback`
 
-```angelscript
+```cpp
 bool Entity_AddCollideCallback(const tString &in asParentName,
                                const tString &in asChildName,
                                const tString &in asFunction)
@@ -122,7 +122,7 @@ Return false = callback is removed, true = callback can trigger again.
 
     1. `Entity_AddForce`
 
-```angelscript
+```cpp
 void Entity_AddForce(const tString &in asEntityName,
                      const cVector3f &in avForce,
                      bool abLocalSpace,
@@ -142,7 +142,7 @@ Adds force to the entity.
 
     1. `Entity_AddForceFromEntity`
 
-```angelscript
+```cpp
 void Entity_AddForceFromEntity(const tString &in asEntityName,
                                const tString &in asForceEntityName,
                                float afForce,
@@ -162,7 +162,7 @@ Adds force to the entity away from another entity.
 
     1. `Entity_AddImpulse`
 
-```angelscript
+```cpp
 void Entity_AddImpulse(const tString &in asEntityName,
                        const cVector3f &in avImpulse,
                        bool abLocalSpace,
@@ -182,7 +182,7 @@ Adds an impulse to the entity.
 
     1. `Entity_AddImpulseFromEntity`
 
-```angelscript
+```cpp
 void Entity_AddImpulseFromEntity(const tString &in asEntityName,
                                  const tString &in asImpulseEntityName,
                                  float afImpulse,
@@ -202,7 +202,7 @@ Adds an impulse to the entity away from another entity.
 
     1. `Entity_AddTorque`
 
-```angelscript
+```cpp
 void Entity_AddTorque(const tString &in asEntityName,
                       const cVector3f &in avTorque,
                       bool abLocalSpace,
@@ -222,7 +222,7 @@ Adds torque to an entity to provide some angular velocity
 
     1. `Entity_AttachToEntity`
 
-```angelscript
+```cpp
 bool Entity_AttachToEntity(const tString &in asName,
                            const tString &in asParentName,
                            const tString &in asParentBodyName,
@@ -246,7 +246,7 @@ Attaches the entity to another entity. If already attached, it will be removed b
 
     1. `Entity_AttachToSocket`
 
-```angelscript
+```cpp
 bool Entity_AttachToSocket(const tString &in asName,
                            const tString &in asParentName,
                            const tString &in asParentSocketName,
@@ -268,7 +268,7 @@ Attaches the entity to another entity. If already attached, it will be removed b
 
     1. `Entity_CallEntityInteract`
 
-```angelscript
+```cpp
 void Entity_CallEntityInteract(const tString &in asName,
                                const tString &in asBodyName = "",
                                const cVector3f &in avFocusBodyOffset = cVector3f_Zero,
@@ -288,7 +288,7 @@ Calls OnInteract on the specified entity.
 
     1. `Entity_Connect`
 
-```angelscript
+```cpp
 void Entity_Connect(const tString &in asName,
                     const tString &in asMainEntity,
                     const tString &in asConnectEntity,
@@ -310,7 +310,7 @@ Creates a connection between two entities.
 
     1. `Entity_CreateAtEntity`
 
-```angelscript
+```cpp
 iLuxEntity@ Entity_CreateAtEntity(const tString &in asNewEntityName,
                                   const tString &in asEntityFile,
                                   const tString &in asTargetEntityName,
@@ -330,7 +330,7 @@ Creates an entity at another entity.
 
     1. `Entity_CreateAtEntityExt`
 
-```angelscript
+```cpp
 iLuxEntity@ Entity_CreateAtEntityExt(const tString &in asNewEntityName,
                                      const tString &in asEntityFile,
                                      const tString &in asTargetEntityName,
@@ -358,7 +358,7 @@ Creates an entity at another entity with extra options.
 
     1. `Entity_Destroy`
 
-```angelscript
+```cpp
 void Entity_Destroy(const tString &in asName)
 ```
 
@@ -372,7 +372,7 @@ Destroys an entity of a given name.
 
     1. `Entity_EntityIsInFront`
 
-```angelscript
+```cpp
 bool Entity_EntityIsInFront(const tString &in asTargetEntity,
                             const tString &in asForwardEntity)
 ```
@@ -390,7 +390,7 @@ degrees offset from the forward vector counts as "in front".
 
     1. `Entity_Exists`
 
-```angelscript
+```cpp
 bool Entity_Exists(const tString &in asName)
 ```
 
@@ -404,7 +404,7 @@ Check if an entity exists in the level.
 
     1. `Entity_Exists`
 
-```angelscript
+```cpp
 bool Entity_Exists(tID aID)
 ```
 
@@ -418,7 +418,7 @@ Check if an entity exists in the level.
 
     1. `Entity_FadeEffectBaseColor`
 
-```angelscript
+```cpp
 void Entity_FadeEffectBaseColor(const tString &in asEntityName,
                                 const cColor &in aColor,
                                 float afTime)
@@ -436,7 +436,7 @@ Fades the base color of the effects
 
     1. `Entity_FadeProcAnimationSpeed`
 
-```angelscript
+```cpp
 void Entity_FadeProcAnimationSpeed(const tString &in asEntityName,
                                    const tString &in asAnimationName,
                                    float afSpeed,
@@ -456,7 +456,7 @@ Fade the speed of a proc animation.
 
     1. `Entity_GetAutoSleep`
 
-```angelscript
+```cpp
 bool Entity_GetAutoSleep(const tString &in asName)
 ```
 
@@ -470,7 +470,7 @@ Get if an entity automatically falls asleep when it isnt active
 
     1. `Entity_GetBodyOffset`
 
-```angelscript
+```cpp
 cVector3f Entity_GetBodyOffset(const tString &in asEntityName)
 ```
 
@@ -484,7 +484,7 @@ Returns the offset from centre specified in the .ent file. Only works for props.
 
     1. `Entity_GetCollide`
 
-```angelscript
+```cpp
 bool Entity_GetCollide(const tString &in asEntityA,
                        const tString &in asEntityB)
 ```
@@ -500,7 +500,7 @@ Checks for collision between two specific entities. Wildcard(s) * are NOT suppor
 
     1. `Entity_GetDeltaToEntity`
 
-```angelscript
+```cpp
 cVector3f Entity_GetDeltaToEntity(const tString &in asEntityA,
                                   const tString &in asEntityB)
 ```
@@ -516,7 +516,7 @@ Gets the direction and distance between two entities
 
     1. `Entity_GetVarBool`
 
-```angelscript
+```cpp
 bool Entity_GetVarBool(const tString &in asEntityName,
                        const tString &in asVarName)
 ```
@@ -532,7 +532,7 @@ Get value of an entity boolean variable.
 
     1. `Entity_GetVarColor`
 
-```angelscript
+```cpp
 cColor Entity_GetVarColor(const tString &in asEntityName,
                           const tString &in asVarName)
 ```
@@ -548,7 +548,7 @@ Get value of an entity color variable.
 
     1. `Entity_GetVarFloat`
 
-```angelscript
+```cpp
 float Entity_GetVarFloat(const tString &in asEntityName,
                          const tString &in asVarName)
 ```
@@ -564,7 +564,7 @@ Get value of an entity float variable.
 
     1. `Entity_GetVarInt`
 
-```angelscript
+```cpp
 int Entity_GetVarInt(const tString &in asEntityName,
                      const tString &in asVarName)
 ```
@@ -580,7 +580,7 @@ Get value of an entity integer variable.
 
     1. `Entity_GetVarString`
 
-```angelscript
+```cpp
 tString Entity_GetVarString(const tString &in asEntityName,
                             const tString &in asVarName)
 ```
@@ -596,7 +596,7 @@ Get value of an entity string variable.
 
     1. `Entity_GetVarVector2f`
 
-```angelscript
+```cpp
 cVector2f Entity_GetVarVector2f(const tString &in asEntityName,
                                 const tString &in asVarName)
 ```
@@ -612,7 +612,7 @@ Get value of an entity vector2f variable.
 
     1. `Entity_GetVarVector3f`
 
-```angelscript
+```cpp
 cVector3f Entity_GetVarVector3f(const tString &in asEntityName,
                                 const tString &in asVarName)
 ```
@@ -628,7 +628,7 @@ Get value of an entity vector3f variable.
 
     1. `Entity_IncVarFloat`
 
-```angelscript
+```cpp
 void Entity_IncVarFloat(const tString &in asEntityName,
                         const tString &in asVarName,
                         float afX)
@@ -646,7 +646,7 @@ Add a value to the current value of an entity float variable. Wildcard(s) * are 
 
     1. `Entity_IncVarInt`
 
-```angelscript
+```cpp
 void Entity_IncVarInt(const tString &in asEntityName,
                       const tString &in asVarName,
                       int alX)
@@ -664,7 +664,7 @@ Add a value to the current value of an entity integer variable. Wildcard(s) * ar
 
     1. `Entity_IncVarVector2f`
 
-```angelscript
+```cpp
 void Entity_IncVarVector2f(const tString &in asEntityName,
                            const tString &in asVarName,
                            const cVector2f &in avX)
@@ -682,7 +682,7 @@ Add a value to the current value of an entity vector2f variable. Wildcard(s) * a
 
     1. `Entity_IncVarVector3f`
 
-```angelscript
+```cpp
 void Entity_IncVarVector3f(const tString &in asEntityName,
                            const tString &in asVarName,
                            const cVector3f &in avX)
@@ -700,7 +700,7 @@ Add a value to the current value of an entity vector3f variable. Wildcard(s) * a
 
     1. `Entity_IsActive`
 
-```angelscript
+```cpp
 bool Entity_IsActive(const tString &in asName)
 ```
 
@@ -714,7 +714,7 @@ Get if an entity is active (visible and functioning) or not.
 
     1. `Entity_IsInPlayerFOV`
 
-```angelscript
+```cpp
 bool Entity_IsInPlayerFOV(const tString &in asEntity)
 ```
 
@@ -728,7 +728,7 @@ Returns true if the object is within the player's field of view. This does not t
 
     1. `Entity_IsInteractedWith`
 
-```angelscript
+```cpp
 bool Entity_IsInteractedWith(const tString &in asName)
 ```
 
@@ -742,7 +742,7 @@ Checks if the entity is being interacted with.
 
     1. `Entity_IsOccluder`
 
-```angelscript
+```cpp
 bool Entity_IsOccluder(const tString &in asName)
 ```
 
@@ -756,7 +756,7 @@ Get if an entity is an occluder
 
     1. `Entity_IsSleeping`
 
-```angelscript
+```cpp
 bool Entity_IsSleeping(const tString &in asName)
 ```
 
@@ -770,7 +770,7 @@ Check if an entity is asleep
 
     1. `Entity_PlaceAtEntity`
 
-```angelscript
+```cpp
 void Entity_PlaceAtEntity(const tString &in asEntityName,
                           const tString &in asTargetEntity,
                           const cVector3f &in avOffset = cVector3f_Zero,
@@ -792,7 +792,7 @@ Places the specified entity at another entity. Optionally aligning its rotation 
 
     1. `Entity_PlayAnimation`
 
-```angelscript
+```cpp
 void Entity_PlayAnimation(const tString &in asEntityName,
                           const tString &in asAnimation,
                           float afFadeTime = 0.1f,
@@ -817,7 +817,7 @@ Syntax for callback function: void Func(const tString &in asEntityName, const tS
 
     1. `Entity_PlayerIsInFront`
 
-```angelscript
+```cpp
 bool Entity_PlayerIsInFront(const tString &in asName)
 ```
 
@@ -833,7 +833,7 @@ degrees offset from the forward vector counts as "in front".
 
     1. `Entity_PlayProcAnimation`
 
-```angelscript
+```cpp
 void Entity_PlayProcAnimation(const tString &in asEntityName,
                               const tString &in asAnimation,
                               float afLength,
@@ -857,7 +857,7 @@ Plays a procedural animation on the entity
 
     1. `Entity_Preload`
 
-```angelscript
+```cpp
 void Entity_Preload(const tString &in asEntityFile)
 ```
 
@@ -871,7 +871,7 @@ Preloads an entity
 
     1. `Entity_RemoveAllConnections`
 
-```angelscript
+```cpp
 void Entity_RemoveAllConnections(const tString &in asMainEntity)
 ```
 
@@ -885,7 +885,7 @@ Removes all connections on an entity.
 
     1. `Entity_RemoveCollideCallback`
 
-```angelscript
+```cpp
 bool Entity_RemoveCollideCallback(const tString &in asParentName,
                                   const tString &in asChildName)
 ```
@@ -902,7 +902,7 @@ Wildcard(s) * can be used in names.
 
     1. `Entity_RemoveConnection`
 
-```angelscript
+```cpp
 void Entity_RemoveConnection(const tString &in asName,
                              const tString &in asMainEntity)
 ```
@@ -918,7 +918,7 @@ Removes a specific connection on an entity.
 
     1. `Entity_RemoveEntityAttachment`
 
-```angelscript
+```cpp
 bool Entity_RemoveEntityAttachment(const tString &in asName)
 ```
 
@@ -932,7 +932,7 @@ Removes an attachment to another entity if the entity(ies) has one.
 
     1. `Entity_SetActive`
 
-```angelscript
+```cpp
 void Entity_SetActive(const tString &in asName,
                       bool abActive)
 ```
@@ -948,7 +948,7 @@ Set if entity is active (visible and functioning) or not.
 
     1. `Entity_SetAnimationMessageEventCallback`
 
-```angelscript
+```cpp
 void Entity_SetAnimationMessageEventCallback(const tString &in asEntityName,
                                              const tString &in asCallbackFunc,
                                              bool abAutoRemove)
@@ -966,7 +966,7 @@ Sets a callback for the message events in the currently playing animation.
 
     1. `Entity_SetAnimationPaused`
 
-```angelscript
+```cpp
 void Entity_SetAnimationPaused(const tString &in asEntityName,
                                const tString &in asAnimationName,
                                bool abPaused = true)
@@ -984,7 +984,7 @@ Pause or unpause an animation on the specified entity.
 
     1. `Entity_SetAnimationRelativeTimePosition`
 
-```angelscript
+```cpp
 void Entity_SetAnimationRelativeTimePosition(const tString &in asEntityName,
                                              const tString &in asAnimationName,
                                              float afTimePos)
@@ -1002,7 +1002,7 @@ Sets the relative time position of a specific animation.
 
     1. `Entity_SetAutoSleep`
 
-```angelscript
+```cpp
 void Entity_SetAutoSleep(const tString &in asName,
                          bool abX)
 ```
@@ -1018,7 +1018,7 @@ Sets if the entity should sleep automatically when it need no updating
 
     1. `Entity_SetCollide`
 
-```angelscript
+```cpp
 void Entity_SetCollide(const tString &in asEntityName,
                        bool abActive)
 ```
@@ -1034,7 +1034,7 @@ Turn off or on collision for all the bodies in the given entity.
 
     1. `Entity_SetCollideCharacter`
 
-```angelscript
+```cpp
 void Entity_SetCollideCharacter(const tString &in asEntityName,
                                 bool abActive)
 ```
@@ -1050,7 +1050,7 @@ Turn off or on character collision for all the bodies in the given entity.
 
     1. `Entity_SetColorMul`
 
-```angelscript
+```cpp
 void Entity_SetColorMul(const tString &in asEntityName,
                         const cColor &in aColor)
 ```
@@ -1066,7 +1066,7 @@ Set the color mul of the entity
 
     1. `Entity_SetConnectionStateChangeCallback`
 
-```angelscript
+```cpp
 void Entity_SetConnectionStateChangeCallback(const tString &in asEntityName,
                                              const tString &in asCallback)
 ```
@@ -1083,7 +1083,7 @@ Syntax for callback function: void FunctionName(string &in asEntityName, int alS
 
     1. `Entity_SetEffectBaseColor`
 
-```angelscript
+```cpp
 void Entity_SetEffectBaseColor(const tString &in asEntityName,
                                const cColor &in aColor)
 ```
@@ -1099,7 +1099,7 @@ Sets the base color of the effects
 
     1. `Entity_SetEffectsActive`
 
-```angelscript
+```cpp
 void Entity_SetEffectsActive(const tString &in asEntityName,
                              bool abActive,
                              bool abFadeAndPlaySounds)
@@ -1117,7 +1117,7 @@ Activates or deactivates the effects on a entity.
 
     1. `Entity_SetInteractionDisabled`
 
-```angelscript
+```cpp
 void Entity_SetInteractionDisabled(const tString &in asEntityName,
                                    bool abX)
 ```
@@ -1133,7 +1133,7 @@ Sets if the player can interact with an entity or not.
 
     1. `Entity_SetIsOccluder`
 
-```angelscript
+```cpp
 void Entity_SetIsOccluder(const tString &in asName,
                           bool abOccluder)
 ```
@@ -1149,7 +1149,7 @@ Set if entity is an occluder
 
     1. `Entity_SetMaxInteractionDistance`
 
-```angelscript
+```cpp
 void Entity_SetMaxInteractionDistance(const tString &in asEntityName,
                                       float afDistance)
 ```
@@ -1165,7 +1165,7 @@ Change the max interaction distance of an entity from the default/entity configu
 
     1. `Entity_SetPlayerInteractCallback`
 
-```angelscript
+```cpp
 void Entity_SetPlayerInteractCallback(const tString &in asEntityName,
                                       const tString &in asCallback,
                                       bool abRemoveWhenInteracted)
@@ -1184,7 +1184,7 @@ Syntax for callback function: void FunctionName(string &in asEntityName).
 
     1. `Entity_SetPlayerLookAtCallback`
 
-```angelscript
+```cpp
 void Entity_SetPlayerLookAtCallback(const tString &in asEntityName,
                                     const tString &in asCallback,
                                     bool abRemoveWhenLookedAt = true,
@@ -1211,7 +1211,7 @@ Syntax for callback function: void FunctionName(const tString &in asEntityName, 
 
     1. `Entity_SetProcAnimationPaused`
 
-```angelscript
+```cpp
 void Entity_SetProcAnimationPaused(const tString &in asEntityName,
                                    const tString &in asAnimationName,
                                    bool abPaused = true)
@@ -1229,7 +1229,7 @@ Pause or unpause a procedural animation on the specified entity.
 
     1. `Entity_SetProcAnimationSpeed`
 
-```angelscript
+```cpp
 void Entity_SetProcAnimationSpeed(const tString &in asEntityName,
                                   const tString &in asAnimationName,
                                   float afSpeed)
@@ -1247,7 +1247,7 @@ Sets the speed of a proc animation.
 
     1. `Entity_SetReflectionVisibility`
 
-```angelscript
+```cpp
 void Entity_SetReflectionVisibility(const tString &in asEntityName,
                                     bool abVisibleInReflection,
                                     bool abVisibleInWorld)
@@ -1265,7 +1265,7 @@ Sets whether the entity is drawn in reflections or not, and the real world or no
 
     1. `Entity_SetVarBool`
 
-```angelscript
+```cpp
 void Entity_SetVarBool(const tString &in asEntityName,
                        const tString &in asVarName,
                        bool abX)
@@ -1283,7 +1283,7 @@ Sets the value of an entity boolean variable. Wildcard(s) * are supported for En
 
     1. `Entity_SetVarColor`
 
-```angelscript
+```cpp
 void Entity_SetVarColor(const tString &in asEntityName,
                         const tString &in asVarName,
                         const cColor &in aX)
@@ -1301,7 +1301,7 @@ Sets the value of an entity color variable. Wildcard(s) * are supported for Enti
 
     1. `Entity_SetVarFloat`
 
-```angelscript
+```cpp
 void Entity_SetVarFloat(const tString &in asEntityName,
                         const tString &in asVarName,
                         float afX)
@@ -1319,7 +1319,7 @@ Sets the value of an entity variable. Wildcard(s) * are supported for EntityName
 
     1. `Entity_SetVarInt`
 
-```angelscript
+```cpp
 void Entity_SetVarInt(const tString &in asEntityName,
                       const tString &in asVarName,
                       int alX)
@@ -1337,7 +1337,7 @@ Sets the value of an entity integer variable. Wildcard(s) * are supported for En
 
     1. `Entity_SetVarString`
 
-```angelscript
+```cpp
 void Entity_SetVarString(const tString &in asEntityName,
                          const tString &in asVarName,
                          const tString &in asX)
@@ -1355,7 +1355,7 @@ Sets the value of an entity string variable. Wildcard(s) * are supported for Ent
 
     1. `Entity_SetVarVector2f`
 
-```angelscript
+```cpp
 void Entity_SetVarVector2f(const tString &in asEntityName,
                            const tString &in asVarName,
                            const cVector2f &in avX)
@@ -1373,7 +1373,7 @@ Sets the value of an entity vector2f variable. Wildcard(s) * are supported for E
 
     1. `Entity_SetVarVector3f`
 
-```angelscript
+```cpp
 void Entity_SetVarVector3f(const tString &in asEntityName,
                            const tString &in asVarName,
                            const cVector3f &in avX)
@@ -1391,7 +1391,7 @@ Sets the value of an entity vector3f variable. Wildcard(s) * are supported for E
 
     1. `Entity_Sleep`
 
-```angelscript
+```cpp
 void Entity_Sleep(const tString &in asName)
 ```
 
@@ -1405,7 +1405,7 @@ Forces the entity to sleep (disabling Update/PostUpdate). Has no effect if it is
 
     1. `Entity_StopAnimation`
 
-```angelscript
+```cpp
 void Entity_StopAnimation(const tString &in asEntityName)
 ```
 
@@ -1419,7 +1419,7 @@ Stops any currently playing animation on the specified entity.
 
     1. `Entity_StopProcAnimation`
 
-```angelscript
+```cpp
 void Entity_StopProcAnimation(const tString &in asEntityName,
                               const tString &in asAnimation,
                               float afFadeTime = 0.1f)
@@ -1437,7 +1437,7 @@ Stops a procedural animation on the specified entity.
 
     1. `Entity_WakeUp`
 
-```angelscript
+```cpp
 void Entity_WakeUp(const tString &in asName)
 ```
 
@@ -1454,6 +1454,6 @@ Forces the entity to wake up (enabling Update/PostUpdate). Has no effect if it i
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Entity](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Entity)
 - Revision: `5007`
 - Source update: `2020-08-24T20:40:43Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -1,22 +1,16 @@
 ---
 title: Modeling
-description: "This category and its sub-pages are undergoing major editing, as some information in this category and all the sub pages is currently in the process of being formatted or re-written from scratch to achieve a higher stand"
+description: Reference for Modeling from the Frictional Wiki.
 category: assets
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling"
-sourceRevision: 7125
-sourceUpdated: "2026-07-30T21:11:02Z"
-lastSynced: "2026-08-28T18:40:04Z"
+sourceRevision: 7323
+sourceUpdated: "2026-10-02T15:31:48Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
   - assets
 ---
-:::caution[SOURCE STATUS: WIP]
-This source page is marked as undergoing editing on the Frictional Wiki.
-:::
-
-This category and its sub-pages are undergoing major editing, as some information in this category and all the sub pages is currently in the process of being formatted or re-written from scratch to achieve a higher standard of formatting, or not everything is yet available. More pages and information will gradually be added.
-
 **This category deals with 3D modeling in SOMA.**
 
 ## Getting Started
@@ -35,8 +29,8 @@ This category and its sub-pages are undergoing major editing, as some informatio
 ## Source & attribution
 
 - Original Frictional Wiki page: [HPL3/SOMA/Modeling](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling)
-- Revision: `7125`
-- Source update: `2026-07-30T21:11:02Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Revision: `7323`
+- Source update: `2026-10-02T15:31:48Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

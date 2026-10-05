@@ -5,7 +5,7 @@ category: generated
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Placeholder"
 sourceRevision: 1899
 sourceUpdated: "2020-07-24T18:50:47Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -112,6 +112,6 @@ Basic info on using CodeLite as a script editor for Angel Script.
 - Original Frictional Wiki page: [HPL3/Placeholder](https://wiki.frictionalgames.com/page/HPL3/Placeholder)
 - Revision: `1899`
 - Source update: `2020-07-24T18:50:47Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

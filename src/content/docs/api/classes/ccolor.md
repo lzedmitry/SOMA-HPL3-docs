@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cColor"
 sourceRevision: 3544
 sourceUpdated: "2020-08-06T13:25:08Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -109,6 +109,6 @@ Read [this post on StackOverflow](http://stackoverflow.com/questions/12524623/wh
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cColor](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cColor)
 - Revision: `3544`
 - Source update: `2020-08-06T13:25:08Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

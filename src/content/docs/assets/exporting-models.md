@@ -5,7 +5,7 @@ category: assets
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling/Exporting_Models"
 sourceRevision: 7124
 sourceUpdated: "2026-07-30T21:10:32Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -163,6 +163,6 @@ Currently you have to triangulate the model before it can be exported, there is 
 - Original Frictional Wiki page: [HPL3/SOMA/Modeling/Exporting Models](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling/Exporting_Models)
 - Revision: `7124`
 - Source update: `2026-07-30T21:10:32Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

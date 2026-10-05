@@ -5,7 +5,7 @@ category: generated
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Launch_Configuration"
 sourceRevision: 6430
 sourceUpdated: "2023-07-15T18:31:02Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -138,6 +138,6 @@ it is recommended to not change most of the settings, and only edit things that 
 - Original Frictional Wiki page: [HPL3/Launch Configuration](https://wiki.frictionalgames.com/page/HPL3/Launch_Configuration)
 - Revision: `6430`
 - Source update: `2023-07-15T18:31:02Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

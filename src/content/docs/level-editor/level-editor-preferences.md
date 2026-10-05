@@ -5,7 +5,7 @@ category: level-editor
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Editor_Preferences"
 sourceRevision: 7066
 sourceUpdated: "2026-07-30T09:25:56Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -40,6 +40,6 @@ tags:
 - Original Frictional Wiki page: [HPL3/Level Design/Level Editor Preferences](https://wiki.frictionalgames.com/page/HPL3/Level_Design/Level_Editor_Preferences)
 - Revision: `7066`
 - Source update: `2026-07-30T09:25:56Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

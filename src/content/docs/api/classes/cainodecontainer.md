@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAINodeContainer"
 sourceRevision: 3526
 sourceUpdated: "2020-08-06T13:19:37Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -93,6 +93,6 @@ int
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cAINodeContainer](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAINodeContainer)
 - Revision: `3526`
 - Source update: `2020-08-06T13:19:37Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

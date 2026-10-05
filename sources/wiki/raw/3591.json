@@ -1,0 +1,15 @@
+{
+  "pageid": 3591,
+  "title": "HPL3/Entities/Entity Notes",
+  "missing": false,
+  "redirect": false,
+  "length": 1846,
+  "touched": "2026-10-02T17:34:21Z",
+  "revisionId": 7343,
+  "revisionTimestamp": "2026-10-02T17:34:21Z",
+  "revisionUser": "TiMan",
+  "wikitext": "'''Entity Notes''' are free-form authoring notes attached to an entity file. They are intended for information that another level designer should see when using the entity, rather than for text shown to the player during gameplay.\n\n[[File:window_entitynotes.png]]\n\n== Adding a note ==\n\n# Open the entity in the Model Editor.\n# Open the '''Notes''' window.\n# Type the information in its text box.\n# Close the window and save the entity.\n\nNo separate confirmation step is required in the Notes window; saving the entity commits the current note along with the rest of the entity data.\n\nUseful notes include setup requirements, intended orientation, required companion objects, known limitations, and warnings about entity variables. Keep them short enough to read while placing the entity.\n\n== Storage ==\n\nWhen a note is present, the Model Editor stores it as a top-level element in the <code>.ent</code> file:\n\n<syntaxhighlight lang=\"xml\">\n<Notes Content=\"Place against a wall and align the main body with the floor.\" />\n</syntaxhighlight>\n\nThe <code>Notes</code> element is separate from <code>ModelData</code>, <code>UserDefinedVariables</code>, and <code>EditorSession</code>. Most shipped entities omit it because they have no authoring note. All three inspected HPL3 Model Editor and Level Editor builds contain support for the <code>Notes</code> element and its <code>Content</code> field.\n\nIn the Level Editor, the note can be read through the entity-notes interface when working with an entity of that type. Entity Notes are therefore documentation for editors; they are not the same as a readable note, journal entry, localization key, or an entity type's gameplay variable named “Note.”\n\n== See also ==\n\n* [[HPL3/Entities/Entity Settings|Entity Settings]]\n* [[HPL3/Entities/Model Editor View|Model Editor View]]\n\n[[Category:English]]",
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Notes",
+  "requestedTitle": "HPL3/SOMA/Entities/Entity Notes",
+  "resolvedTitle": "HPL3/Entities/Entity Notes"
+}

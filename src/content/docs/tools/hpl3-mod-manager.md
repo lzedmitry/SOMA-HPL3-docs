@@ -5,7 +5,7 @@ category: tools
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Third_Party_Tools/HPL3_Mod_Manager"
 sourceRevision: 7034
 sourceUpdated: "2026-04-24T11:30:15Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -324,6 +324,6 @@ Use that batch file whenever you want to test the mod with dev options enabled.
 - Original Frictional Wiki page: [HPL3/Third Party Tools/HPL3 Mod Manager](https://wiki.frictionalgames.com/page/HPL3/Third_Party_Tools/HPL3_Mod_Manager)
 - Revision: `7034`
 - Source update: `2026-04-24T11:30:15Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

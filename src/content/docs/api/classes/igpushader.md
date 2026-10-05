@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iGpuShader"
 sourceRevision: 3894
 sourceUpdated: "2020-08-06T15:01:25Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -31,6 +31,6 @@ iGpuShader has no public functions
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/iGpuShader](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iGpuShader)
 - Revision: `3894`
 - Source update: `2020-08-06T15:01:25Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

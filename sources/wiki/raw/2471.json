@@ -3,12 +3,12 @@
   "title": "HPL3/SOMA/Modeling",
   "missing": false,
   "redirect": false,
-  "length": 937,
-  "touched": "2026-07-30T21:11:25Z",
-  "revisionId": 7125,
-  "revisionTimestamp": "2026-07-30T21:11:02Z",
+  "length": 587,
+  "touched": "2026-10-02T15:31:48Z",
+  "revisionId": 7323,
+  "revisionTimestamp": "2026-10-02T15:31:48Z",
   "revisionUser": "TiMan",
-  "wikitext": "{{constructionNotice|This category and its sub-pages are undergoing major editing, as some information in this category and all the sub pages is currently in the process of being formatted or re-written from scratch to achieve a higher standard of formatting, or not everything is yet available. More pages and information will gradually be added.}}\n\n'''This category deals with 3D modeling in SOMA.'''\n{{CategoryHeader}}\n{{CategoryNewcolumn}}\n\n== Getting Started ==\n* [[HPL3/SOMA/Modeling/Modeling Overview|Modeling Overview]]\n\n== General ==\n* [[HPL3/SOMA/Modeling/Modeling Guidelines|Modeling Principles]]\n* [[HPL3/SOMA/Modeling/Importing Models|Importing Models]]\n* [[HPL3/SOMA/Modeling/Exporting Models|Exporting Models]]\n\n{{CategoryNewcolumn}}\n\n== Tools ==\n* [[Autodesk Maya]]\n* [[Blender]]\n* [[HPL3/Blender_HPL3_export_plugin| HPL3 Blender Exporting Tool]]\n\n{{CategoryEnd}}\n\n__NOTOC__\n\n[[Category:Entry pages]]\n[[Category:English]]",
+  "wikitext": "\n'''This category deals with 3D modeling in SOMA.'''\n{{CategoryHeader}}\n{{CategoryNewcolumn}}\n\n== Getting Started ==\n* [[HPL3/SOMA/Modeling/Modeling Overview|Modeling Overview]]\n\n== General ==\n* [[HPL3/SOMA/Modeling/Modeling Guidelines|Modeling Principles]]\n* [[HPL3/SOMA/Modeling/Importing Models|Importing Models]]\n* [[HPL3/SOMA/Modeling/Exporting Models|Exporting Models]]\n\n{{CategoryNewcolumn}}\n\n== Tools ==\n* [[Autodesk Maya]]\n* [[Blender]]\n* [[HPL3/Blender_HPL3_export_plugin| HPL3 Blender Exporting Tool]]\n\n{{CategoryEnd}}\n\n__NOTOC__\n\n[[Category:Entry pages]]\n[[Category:English]]",
   "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modeling",
   "requestedTitle": "HPL3/SOMA/Modeling"
 }

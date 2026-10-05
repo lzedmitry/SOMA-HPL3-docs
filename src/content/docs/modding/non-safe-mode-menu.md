@@ -5,7 +5,7 @@ category: modding
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Non-Safe_Mode_Menu"
 sourceRevision: 5377
 sourceUpdated: "2020-10-14T10:17:14Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -29,6 +29,6 @@ The SOMA Safe Mode is a special mode made for the main game for players who want
 - Original Frictional Wiki page: [HPL3/SOMA/Modding/Non-Safe Mode Menu](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/Non-Safe_Mode_Menu)
 - Revision: `5377`
 - Source update: `2020-10-14T10:17:14Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

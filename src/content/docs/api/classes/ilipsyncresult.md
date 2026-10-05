@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iLipsyncResult"
 sourceRevision: 3899
 sourceUpdated: "2020-08-06T15:02:21Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -42,6 +42,6 @@ float
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/iLipsyncResult](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iLipsyncResult)
 - Revision: `3899`
 - Source update: `2020-08-06T15:02:21Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: generated
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Language_Configuration"
 sourceRevision: 5481
 sourceUpdated: "2020-11-06T20:34:44Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -97,6 +97,6 @@ The best way to create, edit, and modify language entries and language files, is
 - Original Frictional Wiki page: [HPL3/Language Configuration](https://wiki.frictionalgames.com/page/HPL3/Language_Configuration)
 - Revision: `5481`
 - Source update: `2020-11-06T20:34:44Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: level-building
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Lens_Flares"
 sourceRevision: 7088
 sourceUpdated: "2026-07-30T09:53:19Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -48,6 +48,6 @@ Specific Parameters:
 - Original Frictional Wiki page: [HPL3/Level Design/Lens Flares](https://wiki.frictionalgames.com/page/HPL3/Level_Design/Lens_Flares)
 - Revision: `7088`
 - Source update: `2026-07-30T09:53:19Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

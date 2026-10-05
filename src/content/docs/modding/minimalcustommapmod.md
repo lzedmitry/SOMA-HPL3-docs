@@ -5,7 +5,7 @@ category: modding
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/MinimalCustomMapMod"
 sourceRevision: 2697
 sourceUpdated: "2020-08-02T17:49:00Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -29,6 +29,6 @@ If there is an issue with your local minimal standalone mod, it is highly recomm
 - Original Frictional Wiki page: [HPL3/SOMA/Modding/MinimalCustomMapMod](https://wiki.frictionalgames.com/page/HPL3/SOMA/Modding/MinimalCustomMapMod)
 - Revision: `2697`
 - Source update: `2020-08-02T17:49:00Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

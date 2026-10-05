@@ -5,7 +5,7 @@ category: level-building
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Level_Design/Working_with_Static_Objects"
 sourceRevision: 7056
 sourceUpdated: "2026-07-30T09:16:28Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -77,6 +77,6 @@ Also note that the material of the bodies are now determined by what is set in t
 - Original Frictional Wiki page: [HPL3/Level Design/Working with Static Objects](https://wiki.frictionalgames.com/page/HPL3/Level_Design/Working_with_Static_Objects)
 - Revision: `7056`
 - Source update: `2026-07-30T09:16:28Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

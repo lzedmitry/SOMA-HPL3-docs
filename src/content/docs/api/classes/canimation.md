@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAnimation"
 sourceRevision: 3527
 sourceUpdated: "2020-08-06T13:20:06Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -31,6 +31,6 @@ cAnimation has no public functions
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cAnimation](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cAnimation)
 - Revision: `3527`
 - Source update: `2020-08-06T13:20:06Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

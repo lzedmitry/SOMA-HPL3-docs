@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/MoveObject"
 sourceRevision: 6817
 sourceUpdated: "2024-05-30T16:23:55Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -24,7 +24,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `MoveObject_SetState`
 
-```angelscript
+```cpp
 void MoveObject_SetState(const tString &in asName,
                          float afState)
 ```
@@ -41,7 +41,7 @@ min or max pos (or outside of that is <0 or >1).
 
     1. `MoveObject_SetStateExt`
 
-```angelscript
+```cpp
 void MoveObject_SetStateExt(const tString &in asName,
                             float afState,
                             float afAcc,
@@ -70,6 +70,6 @@ This will also set the speeed and acc at which the movement occurs.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/MoveObject](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/MoveObject)
 - Revision: `6817`
 - Source update: `2024-05-30T16:23:55Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Areas/Trigger_Area"
 sourceRevision: 6755
 sourceUpdated: "2024-02-01T15:01:08Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -67,6 +67,6 @@ bool FunctionName(const tString &in asParent, const tString &in asChild, int alS
 - Original Frictional Wiki page: [HPL3/Areas/Trigger Area](https://wiki.frictionalgames.com/page/HPL3/Areas/Trigger_Area)
 - Revision: `6755`
 - Source update: `2024-02-01T15:01:08Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

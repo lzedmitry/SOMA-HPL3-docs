@@ -5,7 +5,7 @@ category: entities
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Entities/Entities_Overview"
 sourceRevision: 4965
 sourceUpdated: "2020-08-23T19:45:25Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -116,6 +116,6 @@ These are set on a per placed entity basis. So each instance of an entity placed
 - Original Frictional Wiki page: [HPL3/Entities/Entities Overview](https://wiki.frictionalgames.com/page/HPL3/Entities/Entities_Overview)
 - Revision: `4965`
 - Source update: `2020-08-23T19:45:25Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

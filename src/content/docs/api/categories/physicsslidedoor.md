@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/PhysicsSlideDoor"
 sourceRevision: 5046
 sourceUpdated: "2020-08-24T20:57:59Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -24,7 +24,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `PhysicsSlideDoor_AutoMoveToState`
 
-```angelscript
+```cpp
 void PhysicsSlideDoor_AutoMoveToState(const tString &in asName,
                                       int alState)
 ```
@@ -40,7 +40,7 @@ Automove physics slide door to a state.
 
     1. `PhysicsSlideDoor_GetClosed`
 
-```angelscript
+```cpp
 bool PhysicsSlideDoor_GetClosed(const tString &in asName)
 ```
 
@@ -54,7 +54,7 @@ Returns true if door is closed.
 
     1. `PhysicsSlideDoor_GetOpenAmount`
 
-```angelscript
+```cpp
 float PhysicsSlideDoor_GetOpenAmount(const tString &in asName)
 ```
 
@@ -68,7 +68,7 @@ Returns the open amount of the door
 
     1. `PhysicsSlideDoor_SetLocked`
 
-```angelscript
+```cpp
 void PhysicsSlideDoor_SetLocked(const tString &in asName,
                                 bool abLocked,
                                 bool abEffects)
@@ -89,6 +89,6 @@ Sets the physics slide door as locked or unlocked
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/PhysicsSlideDoor](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/PhysicsSlideDoor)
 - Revision: `5046`
 - Source update: `2020-08-24T20:57:59Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

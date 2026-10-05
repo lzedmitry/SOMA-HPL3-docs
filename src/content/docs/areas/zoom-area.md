@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Areas/Zoom_Area"
 sourceRevision: 6772
 sourceUpdated: "2024-02-08T17:36:09Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -54,6 +54,6 @@ The Zoom area is an area that when interacted with by the player, will temporari
 - Original Frictional Wiki page: [HPL3/Areas/Zoom Area](https://wiki.frictionalgames.com/page/HPL3/Areas/Zoom_Area)
 - Revision: `6772`
 - Source update: `2024-02-08T17:36:09Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

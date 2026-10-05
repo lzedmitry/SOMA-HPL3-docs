@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_8_-_Classes"
 sourceRevision: 6191
 sourceUpdated: "2020-11-18T19:08:20Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: incomplete
 generated: true
 tags:
@@ -288,6 +288,6 @@ HPL3/Scripting/AngelScript Fundamentals/Chapter 7 - Calling Other Scripts|Chapte
 - Original Frictional Wiki page: [HPL3/Scripting/AngelScript Fundamentals/Chapter 8 - Classes](https://wiki.frictionalgames.com/page/HPL3/Scripting/AngelScript_Fundamentals/Chapter_8_-_Classes)
 - Revision: `6191`
 - Source update: `2020-11-18T19:08:20Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: modding
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Developer_Commands"
 sourceRevision: 5563
 sourceUpdated: "2020-11-10T03:36:25Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -33,6 +33,6 @@ You can add multiple arguments and combine them when launching the game. It does
 - Original Frictional Wiki page: [HPL3/SOMA/Developer Commands](https://wiki.frictionalgames.com/page/HPL3/SOMA/Developer_Commands)
 - Revision: `5563`
 - Source update: `2020-11-10T03:36:25Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

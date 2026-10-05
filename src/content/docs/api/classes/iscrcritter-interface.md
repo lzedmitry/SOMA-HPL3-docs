@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrCritter_Interface"
 sourceRevision: 3924
 sourceUpdated: "2020-08-06T15:08:18Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -75,6 +75,6 @@ cResourceVarsObject@ apInstanceVars
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/iScrCritter Interface](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/iScrCritter_Interface)
 - Revision: `3924`
 - Source update: `2020-08-06T15:08:18Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

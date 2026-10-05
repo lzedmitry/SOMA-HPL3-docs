@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/SlideDoor"
 sourceRevision: 5050
 sourceUpdated: "2020-08-24T20:58:44Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -24,7 +24,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `SlideDoor_GetOpenAmount`
 
-```angelscript
+```cpp
 float SlideDoor_GetOpenAmount(const tString &in asName)
 ```
 
@@ -38,7 +38,7 @@ Gets the open amount of a SlideDoor, 0 being completely closed and 1 being compl
 
     1. `SlideDoor_SetClosed`
 
-```angelscript
+```cpp
 void SlideDoor_SetClosed(const tString &in asName,
                          bool abClosed,
                          bool abInstant = false)
@@ -57,7 +57,7 @@ new position set instantly.
 
     1. `SlideDoor_SetOpenableByAgent`
 
-```angelscript
+```cpp
 void SlideDoor_SetOpenableByAgent(const tString &in asName,
                                   bool abX)
 ```
@@ -73,7 +73,7 @@ Sets if the agents should be able to open the slide door.
 
     1. `SlideDoor_SetOpenAmount`
 
-```angelscript
+```cpp
 void SlideDoor_SetOpenAmount(const tString &in asName,
                              float afOpenAmount,
                              bool abInstant = false)
@@ -95,6 +95,6 @@ new position set instantly.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/SlideDoor](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/SlideDoor)
 - Revision: `5050`
 - Source update: `2020-08-24T20:58:44Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

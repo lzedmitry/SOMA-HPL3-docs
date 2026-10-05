@@ -1,34 +1,27 @@
 # Content status
 
-Last sync: `2026-08-28T18:40:04Z`
+Last sync: `2026-10-05T14:11:59Z`
 
-- Raw pages loaded: **671**
-- Markdown pages written: **671**
+- Raw pages loaded: **672**
+- Markdown pages written: **672**
 - Editorial paths skipped (preserved): **0**
 - Empty / near-empty conversions: **2**
 - API functions indexed: **1054**
 - API functions without descriptions: **1054**
-- Markdown links classified: **14427** (see [link-audit.md](link-audit.md))
-- Internal broken links: **0**
-- Missing Wiki source pages (redlinks / unpublished): **8680**
+- External-or-unmapped wiki links remaining: **8889**
 
 ## Status counts
 
 - `undocumented`: 446
-- `imported`: 221
+- `imported`: 222
 - `wip`: 3
 - `incomplete`: 1
 
 ## WIP / construction pages
 
-- HPL3/SOMA/Level Design
-- HPL3/SOMA/Areas
 - HPL3/SOMA/Sound
 - HPL3/SOMA/Particles
-- HPL3/SOMA/Scripting
 - HPL3/Scripting/User Modules Overview
-- HPL3/SOMA/Modeling
-- HPL3/SOMA/Animation
 - HPL3/SOMA/Entities
 - HPL3/Language Configuration
 - HPL3/SOMA/Materials
@@ -48,6 +41,7 @@ Last sync: `2026-08-28T18:40:04Z`
 
 ## Path collisions
 
+- `entities/entity-notes.md`: HPL3/SOMA/Entities/Entity Notes, HPL3/Entities/Entity Notes
 - `generated/materials-hub.md`: HPL3/SOMA/Materials, HPL3/Materials
 - `generated/particles-hub.md`: HPL3/SOMA/Particles, HPL3/Particles
 
@@ -102,16 +96,6 @@ Last sync: `2026-08-28T18:40:04Z`
 - `Adobe_Photoshop` (from HPL3/SOMA/Third Party Tools)
 - `FMod_Designer_2010` (from HPL3/SOMA/Third Party Tools)
 - `Audacity` (from HPL3/SOMA/Third Party Tools)
-- `HPL3/SOMA/Level_Design/Your_First_Map` (from HPL3/SOMA/Level Design)
-- `Advice_for_Level_Designers` (from HPL3/SOMA/Level Design)
-- `HPL3/SOMA/Level_Design/Level_Editor_Controls` (from HPL3/SOMA/Level Design)
-- `HPL3/SOMA/Level_Design/Importing_and_Exporting_Objects` (from HPL3/SOMA/Level Design)
-- `HPL3/SOMA/Level_Design/Global_Spot_Light` (from HPL3/SOMA/Level Design)
-- `HPL3/SOMA/Level_Design/SH_Probes` (from HPL3/SOMA/Level Design)
-- `HPL3/Level_Design/Creating_Terrain` (from HPL3/SOMA/Level Design)
-- `HPL3/Level_Design/HDR` (from HPL3/SOMA/Level Design)
-- `HPL3/Level_Design/Environment_Particles` (from HPL3/SOMA/Level Design)
-- `HPL3/Level_Design/Combos` (from HPL3/SOMA/Level Design)
 - `HPL3/Areas/Liquid_Area` (from HPL3/SOMA/Areas)
 - `HPL3/Areas/Exposure_Area` (from HPL3/SOMA/Areas)
 - `HPL3/Areas/Visibility_Area` (from HPL3/SOMA/Areas)
@@ -120,8 +104,6 @@ Last sync: `2026-08-28T18:40:04Z`
 - `HPL3/SOMA/Areas/Sit_Area` (from HPL3/SOMA/Areas)
 - `HPL3/SOMA/Areas/DatamineAudioSource_Area` (from HPL3/SOMA/Areas)
 - `HPL3/SOMA/Areas/DatamineAnimNode_Area` (from HPL3/SOMA/Areas)
-- `HPL3/SOMA/Areas/PosNode` (from HPL3/SOMA/Areas)
-- `HPL3/SOMA/Areas/Rope` (from HPL3/SOMA/Areas)
 - `HPL3/Sound/Sound_Overview` (from HPL3/SOMA/Sound)
 - `HPL3/Sound/Playing_Music` (from HPL3/SOMA/Sound)
 - `HPL3/Particles/Particles_Overview` (from HPL3/SOMA/Particles)
@@ -129,3 +111,15 @@ Last sync: `2026-08-28T18:40:04Z`
 - `Advice_for_Scripting` (from HPL3/SOMA/Scripting)
 - `HPL3/Scripting/Scripting_Conventions` (from HPL3/SOMA/Scripting)
 - `HPL3/Scripting/Props` (from HPL3/SOMA/Scripting)
+- `HPL3/Scripting/Areas` (from HPL3/SOMA/Scripting)
+- `HPL3/Scripting/Level_Streaming` (from HPL3/SOMA/Scripting)
+- `HPL3/SOMA/Scripting/Game_Helper` (from HPL3/SOMA/Scripting)
+- `HPL3/SOMA/Scripting/Map_Helper` (from HPL3/SOMA/Scripting)
+- `HPL3/SOMA/Scripting/Player_Helper` (from HPL3/SOMA/Scripting)
+- `HPL3/SOMA/Scripting/Audio_Helper` (from HPL3/SOMA/Scripting)
+- `HPL3/SOMA/Scripting/Effects_Helper` (from HPL3/SOMA/Scripting)
+- `HPL3/SOMA/Scripting/Areas_Helper` (from HPL3/SOMA/Scripting)
+- `HPL3/SOMA/Scripting/Ai_Helper` (from HPL3/SOMA/Scripting)
+- `HPL3/SOMA/Scripting/Modules_Helper` (from HPL3/SOMA/Scripting)
+- `HPL3/SOMA/Scripting/Physics_Helper` (from HPL3/SOMA/Scripting)
+- `HPL3/SOMA/Scripting/Props_Helper` (from HPL3/SOMA/Scripting)

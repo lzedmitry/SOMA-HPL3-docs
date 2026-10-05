@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/What_is_scripting_in_HPL3?"
 sourceRevision: 4298
 sourceUpdated: "2020-08-13T21:04:41Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -25,6 +25,6 @@ HPL3/Scripting/Scripting_Guide/The Basics - Introduction|The Basics - Introducti
 - Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/What is scripting in HPL3?](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/What_is_scripting_in_HPL3?)
 - Revision: `4298`
 - Source update: `2020-08-13T21:04:41Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

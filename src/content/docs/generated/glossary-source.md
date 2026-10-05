@@ -5,7 +5,7 @@ category: glossary
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Glossary"
 sourceRevision: 6256
 sourceUpdated: "2021-09-15T08:02:42Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: incomplete
 generated: true
 tags:
@@ -73,6 +73,6 @@ text=Old glossary page. Will be removed once editing is complete.
 - Original Frictional Wiki page: [HPL3/SOMA/Glossary](https://wiki.frictionalgames.com/page/HPL3/SOMA/Glossary)
 - Revision: `6256`
 - Source update: `2021-09-15T08:02:42Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

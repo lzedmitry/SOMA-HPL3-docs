@@ -5,7 +5,7 @@ category: generated
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Resources_Configuration"
 sourceRevision: 6425
 sourceUpdated: "2023-06-08T13:29:59Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -72,6 +72,6 @@ The resources file will look like this:
 - Original Frictional Wiki page: [HPL3/Resources Configuration](https://wiki.frictionalgames.com/page/HPL3/Resources_Configuration)
 - Revision: `6425`
 - Source update: `2023-06-08T13:29:59Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

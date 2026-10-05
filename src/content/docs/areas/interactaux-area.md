@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Areas/InteractAux_Area"
 sourceRevision: 6726
 sourceUpdated: "2024-01-24T17:50:41Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -23,6 +23,6 @@ The interactable entity to call the interact function on.
 - Original Frictional Wiki page: [HPL3/Areas/InteractAux Area](https://wiki.frictionalgames.com/page/HPL3/Areas/InteractAux_Area)
 - Revision: `6726`
 - Source update: `2024-01-24T17:50:41Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Tool"
 sourceRevision: 5054
 sourceUpdated: "2020-08-24T21:00:15Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -24,7 +24,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Tool_GetHandAnimationSuffix`
 
-```angelscript
+```cpp
 tString Tool_GetHandAnimationSuffix(const tString &in asName)
 ```
 
@@ -38,7 +38,7 @@ Returns the hand animation prefix specified for the tool.
 
     1. `Tool_PickUp`
 
-```angelscript
+```cpp
 void Tool_PickUp(const tString &in asName,
                  bool abEquipTool,
                  bool abCallback)
@@ -56,7 +56,7 @@ Adds the specified tool to the player's inventory. Similar to calling the entity
 
     1. `Tool_SetAutoHideAfterPickup`
 
-```angelscript
+```cpp
 void Tool_SetAutoHideAfterPickup(const tString &in asName,
                                  bool abX)
 ```
@@ -72,7 +72,7 @@ Sets if a tool should be hidden automatically after getting picked up and being 
 
     1. `Tool_SetHighlightActive`
 
-```angelscript
+```cpp
 void Tool_SetHighlightActive(const tString &in asName,
                              bool abX)
 ```
@@ -91,6 +91,6 @@ Sets if a tool should have the highlight effect when looked at.
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Tool](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Tool)
 - Revision: `5054`
 - Source update: `2020-08-24T21:00:15Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Scripting_Workflow_and_Structure"
 sourceRevision: 5502
 sourceUpdated: "2020-11-07T13:05:31Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -181,6 +181,6 @@ HPL3/Scripting/Scripting_Guide/Setting up CodeLite|Setting up CodeLite|HPL3/Scri
 - Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/Scripting Workflow and Structure](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Scripting_Workflow_and_Structure)
 - Revision: `5502`
 - Source update: `2020-11-07T13:05:31Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Light"
 sourceRevision: 5038
 sourceUpdated: "2020-08-24T20:55:54Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -28,7 +28,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `Light_FadeTo`
 
-```angelscript
+```cpp
 void Light_FadeTo(const tString &in asLightName,
                   const cColor &in acColor,
                   float afRadius,
@@ -48,7 +48,7 @@ Fades one or more lights to a specified color and radius.
 
     1. `Light_GetBrightness`
 
-```angelscript
+```cpp
 float Light_GetBrightness(const tString &in asLightName)
 ```
 
@@ -62,7 +62,7 @@ Gets the brightness of a light
 
     1. `Light_SetBrightness`
 
-```angelscript
+```cpp
 void Light_SetBrightness(const tString &in asLightName,
                          float afBrightness)
 ```
@@ -78,7 +78,7 @@ Sets the brightness of one or more lights
 
     1. `Light_SetCastShadows`
 
-```angelscript
+```cpp
 void Light_SetCastShadows(const tString &in asLightName,
                           bool abX)
 ```
@@ -94,7 +94,7 @@ Sets the casts shadow. Used only by spotlights (for now).
 
     1. `Light_SetCheapGobo`
 
-```angelscript
+```cpp
 void Light_SetCheapGobo(const tString &in asLightName,
                         bool abX)
 ```
@@ -110,7 +110,7 @@ Sets if a cheaper version of gobo rendering should be used
 
     1. `Light_SetFlickerActive`
 
-```angelscript
+```cpp
 void Light_SetFlickerActive(const tString &in asLightName,
                             bool abX)
 ```
@@ -126,7 +126,7 @@ Activates or deactivates the flicker of one or more lights
 
     1. `Light_SetShadowBiasMul`
 
-```angelscript
+```cpp
 void Light_SetShadowBiasMul(const tString &in asLightName,
                             float afBias,
                             float afSlopeBias)
@@ -144,7 +144,7 @@ Sets the shadow bias for one or more lights
 
     1. `Light_SetVisible`
 
-```angelscript
+```cpp
 void Light_SetVisible(const tString &in asLightName,
                       bool abVisible)
 ```
@@ -163,6 +163,6 @@ Sets the visibility of one or more lights
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/Light](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/Light)
 - Revision: `5038`
 - Source update: `2020-08-24T20:55:54Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/The_OnAction_method"
 sourceRevision: 4321
 sourceUpdated: "2020-08-14T10:53:22Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -55,6 +55,6 @@ HPL3/Scripting/Scripting_Guide/Helper Files|Helper Files|HPL3/Scripting/HPL3 Scr
 - Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/The OnAction method](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/The_OnAction_method)
 - Revision: `4321`
 - Source update: `2020-08-14T10:53:22Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: areas
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Areas/Crawl_Area"
 sourceRevision: 6747
 sourceUpdated: "2024-01-25T21:30:43Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -22,6 +22,6 @@ The Crawl Area takes no properties
 - Original Frictional Wiki page: [HPL3/Areas/Crawl Area](https://wiki.frictionalgames.com/page/HPL3/Areas/Crawl_Area)
 - Revision: `6747`
 - Source update: `2024-01-25T21:30:43Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

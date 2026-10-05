@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cLux"
 sourceRevision: 5019
 sourceUpdated: "2020-08-24T20:49:09Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -201,7 +201,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cLux_AddAreaType`
 
-```angelscript
+```cpp
 void cLux_AddAreaType(const tString &in asName,
                       const tString &in asScriptFile,
                       const tString &in asScriptClass,
@@ -223,7 +223,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_AddCritterType`
 
-```angelscript
+```cpp
 void cLux_AddCritterType(const tString &in asName,
                          const tString &in asScriptFile,
                          const tString &in asScriptClass,
@@ -245,7 +245,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_AddDebugMessage`
 
-```angelscript
+```cpp
 void cLux_AddDebugMessage(const tString &in asText,
                           bool abCheckForDuplicates)
 ```
@@ -263,7 +263,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_AddDebugMessage`
 
-```angelscript
+```cpp
 void cLux_AddDebugMessage(const tString &in asText)
 ```
 
@@ -279,7 +279,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_AddEntityToInteractionWhiteList`
 
-```angelscript
+```cpp
 void cLux_AddEntityToInteractionWhiteList(iLuxEntity@ apEntity)
 ```
 
@@ -295,7 +295,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_AddLiquidAreaType`
 
-```angelscript
+```cpp
 void cLux_AddLiquidAreaType(const tString &in asName,
                             const tString &in asScriptFile,
                             const tString &in asScriptClass,
@@ -317,7 +317,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_AddModule`
 
-```angelscript
+```cpp
 void cLux_AddModule(const tString &in asName,
                     const tString &in asScriptFile,
                     const tString &in asScriptClass,
@@ -345,7 +345,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_AddPropType`
 
-```angelscript
+```cpp
 void cLux_AddPropType(const tString &in asName,
                       const tString &in asScriptFile,
                       const tString &in asScriptClass,
@@ -367,7 +367,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_AddTodoMessage`
 
-```angelscript
+```cpp
 void cLux_AddTodoMessage(const tString &in asText,
                          bool abCheckForDuplicates)
 ```
@@ -385,7 +385,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_AddTodoMessage`
 
-```angelscript
+```cpp
 void cLux_AddTodoMessage(const tString &in asText)
 ```
 
@@ -401,7 +401,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ApplyUserConfig`
 
-```angelscript
+```cpp
 bool cLux_ApplyUserConfig()
 ```
 
@@ -413,7 +413,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CanContinue`
 
-```angelscript
+```cpp
 bool cLux_CanContinue()
 ```
 
@@ -425,7 +425,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ChangeMap`
 
-```angelscript
+```cpp
 void cLux_ChangeMap(const tString &in asMapName,
                     const tString &in asStartPos,
                     const tString &in asTransferArea,
@@ -449,7 +449,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CheckLineOfSight`
 
-```angelscript
+```cpp
 bool cLux_CheckLineOfSight(const cVector3f &in avStart,
                            const cVector3f &in avEnd,
                            bool abCheckOnlyShadowCasters,
@@ -473,7 +473,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CleanupData`
 
-```angelscript
+```cpp
 void cLux_CleanupData()
 ```
 
@@ -485,7 +485,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_Continue`
 
-```angelscript
+```cpp
 void cLux_Continue()
 ```
 
@@ -497,7 +497,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateEntityComponent_BackboneTail`
 
-```angelscript
+```cpp
 cLuxBackboneTail@ cLux_CreateEntityComponent_BackboneTail(iLuxEntity @apEntity)
 ```
 
@@ -513,7 +513,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateEntityComponent_BarkMachine`
 
-```angelscript
+```cpp
 cLuxBarkMachine@ cLux_CreateEntityComponent_BarkMachine(iLuxEntity @apEntity)
 ```
 
@@ -529,7 +529,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateEntityComponent_CharMover`
 
-```angelscript
+```cpp
 cLuxCharMover@ cLux_CreateEntityComponent_CharMover(iLuxEntity @apEntity,
                                                     iCharacterBody @apCharBody)
 ```
@@ -547,7 +547,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateEntityComponent_EdgeGlow`
 
-```angelscript
+```cpp
 cLuxEdgeGlow@ cLux_CreateEntityComponent_EdgeGlow(iLuxEntity @apEntity)
 ```
 
@@ -563,7 +563,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateEntityComponent_ForceEmitter`
 
-```angelscript
+```cpp
 cLuxForceEmitter@ cLux_CreateEntityComponent_ForceEmitter(iLuxEntity @apEntity)
 ```
 
@@ -579,7 +579,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateEntityComponent_HeadTracker`
 
-```angelscript
+```cpp
 cLuxHeadTracker@ cLux_CreateEntityComponent_HeadTracker(iLuxEntity @apEntity)
 ```
 
@@ -595,7 +595,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateEntityComponent_LightSensor`
 
-```angelscript
+```cpp
 cLuxLightSensor@ cLux_CreateEntityComponent_LightSensor(iLuxEntity @apEntity)
 ```
 
@@ -611,7 +611,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateEntityComponent_Pathfinder`
 
-```angelscript
+```cpp
 cLuxPathfinder@ cLux_CreateEntityComponent_Pathfinder(iLuxEntity @apEntity)
 ```
 
@@ -627,7 +627,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateEntityComponent_SoundListener`
 
-```angelscript
+```cpp
 cLuxSoundListener@ cLux_CreateEntityComponent_SoundListener(iLuxEntity @apEntity)
 ```
 
@@ -643,7 +643,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateEntityComponent_StateMachine`
 
-```angelscript
+```cpp
 cLuxStateMachine@ cLux_CreateEntityComponent_StateMachine(iLuxEntity @apEntity)
 ```
 
@@ -659,7 +659,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateHTMLImage`
 
-```angelscript
+```cpp
 tString cLux_CreateHTMLImage(const tString &in asSrc,
                              const tString &in asTitle = "",
                              const cVector2l &in avSize = cVector2l_MinusOne)
@@ -679,7 +679,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateHTMLParagraph`
 
-```angelscript
+```cpp
 tString cLux_CreateHTMLParagraph(const tString &in asContent)
 ```
 
@@ -695,7 +695,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateHTMLTag`
 
-```angelscript
+```cpp
 tString cLux_CreateHTMLTag(const tString &in asTag,
                            const tString &in asContent = "",
                            const tString &in asParams = "")
@@ -715,7 +715,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_CreateScriptImGui`
 
-```angelscript
+```cpp
 cLuxScriptImGui@ cLux_CreateScriptImGui(const tString &in asName,
                                         bool abRegisterForDrawing,
                                         bool abSkipResetOnRegistration = true)
@@ -735,7 +735,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_DebugModeOn`
 
-```angelscript
+```cpp
 bool cLux_DebugModeOn()
 ```
 
@@ -747,7 +747,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_DecUnderwaterEffectUserCount`
 
-```angelscript
+```cpp
 void cLux_DecUnderwaterEffectUserCount()
 ```
 
@@ -759,7 +759,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_DeloadMap`
 
-```angelscript
+```cpp
 void cLux_DeloadMap(const tString &in asTransferArea)
 ```
 
@@ -775,7 +775,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_DrawDebugText`
 
-```angelscript
+```cpp
 float cLux_DrawDebugText(const tString &in asText,
                          float afY,
                          float afSize = 14,
@@ -803,7 +803,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_DrawHint`
 
-```angelscript
+```cpp
 void cLux_DrawHint(cImGui @apImGui,
                    float afTimeStep,
                    const cImGuiLabelData &in aLabel,
@@ -835,7 +835,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_DrawScreenText`
 
-```angelscript
+```cpp
 void cLux_DrawScreenText(cImGui @apImGui,
                          float afTimeStep,
                          const cImGuiLabelData &in aLabel,
@@ -867,7 +867,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_DrawSetToScreen`
 
-```angelscript
+```cpp
 void cLux_DrawSetToScreen(bool abClearScreen,
                           const cColor &in aCol,
                           cGuiSet@ apSet)
@@ -887,7 +887,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_DropPageFocus`
 
-```angelscript
+```cpp
 void cLux_DropPageFocus(const tString &in asX)
 ```
 
@@ -903,7 +903,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_Exit`
 
-```angelscript
+```cpp
 void cLux_Exit()
 ```
 
@@ -915,7 +915,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetAchievementHandler`
 
-```angelscript
+```cpp
 iLuxAchievementHandler@ cLux_GetAchievementHandler()
 ```
 
@@ -927,7 +927,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetBodyEntity`
 
-```angelscript
+```cpp
 iLuxEntity@ cLux_GetBodyEntity(iPhysicsBody @apBody)
 ```
 
@@ -943,7 +943,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetClosestBody`
 
-```angelscript
+```cpp
 iPhysicsBody@ cLux_GetClosestBody(const cVector3f &in avStart,
                                   const cVector3f &in avDir,
                                   float afRayLength,
@@ -967,7 +967,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetClosestCharCollider`
 
-```angelscript
+```cpp
 bool cLux_GetClosestCharCollider(const cVector3f &in avStart,
                                  const cVector3f &in avDir,
                                  float afRayLength,
@@ -991,7 +991,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetClosestEntity`
 
-```angelscript
+```cpp
 bool cLux_GetClosestEntity(const cVector3f &in avStart,
                            const cVector3f &in avDir,
                            float afRayLength,
@@ -1017,7 +1017,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetCurrentImGui`
 
-```angelscript
+```cpp
 cImGui@ cLux_GetCurrentImGui()
 ```
 
@@ -1029,7 +1029,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetCurrentLanguage`
 
-```angelscript
+```cpp
 const tString& cLux_GetCurrentLanguage()
 ```
 
@@ -1041,7 +1041,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetCurrentMap`
 
-```angelscript
+```cpp
 cLuxMap@ cLux_GetCurrentMap()
 ```
 
@@ -1053,7 +1053,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetCurrentUserProfilePath`
 
-```angelscript
+```cpp
 tWString cLux_GetCurrentUserProfilePath()
 ```
 
@@ -1065,7 +1065,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetDefaultFont`
 
-```angelscript
+```cpp
 iFontData@ cLux_GetDefaultFont()
 ```
 
@@ -1077,7 +1077,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetDefaultGameLanguage`
 
-```angelscript
+```cpp
 tString cLux_GetDefaultGameLanguage()
 ```
 
@@ -1089,7 +1089,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetDialogHandler`
 
-```angelscript
+```cpp
 cLuxDialogHandler@ cLux_GetDialogHandler()
 ```
 
@@ -1101,7 +1101,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetEffectHandler`
 
-```angelscript
+```cpp
 cLuxEffectHandler@ cLux_GetEffectHandler()
 ```
 
@@ -1113,7 +1113,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetEventDatabaseHandler`
 
-```angelscript
+```cpp
 cLuxEventDatabaseHandler@ cLux_GetEventDatabaseHandler()
 ```
 
@@ -1125,7 +1125,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetExplorationModeActive`
 
-```angelscript
+```cpp
 bool cLux_GetExplorationModeActive()
 ```
 
@@ -1137,7 +1137,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetGameConfig`
 
-```angelscript
+```cpp
 cConfigFile@ cLux_GetGameConfig()
 ```
 
@@ -1149,7 +1149,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetGameHudImGui`
 
-```angelscript
+```cpp
 cImGui@ cLux_GetGameHudImGui()
 ```
 
@@ -1161,7 +1161,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetGameHudSet`
 
-```angelscript
+```cpp
 cGuiSet@ cLux_GetGameHudSet()
 ```
 
@@ -1173,7 +1173,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetGameLanguageFolder`
 
-```angelscript
+```cpp
 tString cLux_GetGameLanguageFolder()
 ```
 
@@ -1185,7 +1185,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetGamePaused`
 
-```angelscript
+```cpp
 bool cLux_GetGamePaused()
 ```
 
@@ -1197,7 +1197,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetGameTime`
 
-```angelscript
+```cpp
 double cLux_GetGameTime()
 ```
 
@@ -1209,7 +1209,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetGodModeActivated`
 
-```angelscript
+```cpp
 bool cLux_GetGodModeActivated()
 ```
 
@@ -1221,7 +1221,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetGuiHandler`
 
-```angelscript
+```cpp
 cLuxGuiHandler@ cLux_GetGuiHandler()
 ```
 
@@ -1233,7 +1233,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetHelpGuiSet`
 
-```angelscript
+```cpp
 cGuiSet@ cLux_GetHelpGuiSet()
 ```
 
@@ -1245,7 +1245,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetHudVirtualCenterScreenSize`
 
-```angelscript
+```cpp
 const cVector2f& cLux_GetHudVirtualCenterScreenSize()
 ```
 
@@ -1257,7 +1257,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetHudVirtualCenterScreenStartPos`
 
-```angelscript
+```cpp
 const cVector3f& cLux_GetHudVirtualCenterScreenStartPos()
 ```
 
@@ -1269,7 +1269,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetHudVirtualCenterSize`
 
-```angelscript
+```cpp
 const cVector2f& cLux_GetHudVirtualCenterSize()
 ```
 
@@ -1281,7 +1281,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetHudVirtualOffset`
 
-```angelscript
+```cpp
 const cVector2f& cLux_GetHudVirtualOffset()
 ```
 
@@ -1293,7 +1293,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetHudVirtualSize`
 
-```angelscript
+```cpp
 const cVector2f& cLux_GetHudVirtualSize()
 ```
 
@@ -1305,7 +1305,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetHudVirtualStartPos`
 
-```angelscript
+```cpp
 const cVector3f& cLux_GetHudVirtualStartPos()
 ```
 
@@ -1317,7 +1317,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetInputFocusImGui`
 
-```angelscript
+```cpp
 cImGui@ cLux_GetInputFocusImGui()
 ```
 
@@ -1329,7 +1329,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetInputHandler`
 
-```angelscript
+```cpp
 cLuxInputHandler@ cLux_GetInputHandler()
 ```
 
@@ -1341,7 +1341,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetInteractionWhiteListActive`
 
-```angelscript
+```cpp
 bool cLux_GetInteractionWhiteListActive()
 ```
 
@@ -1353,7 +1353,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetKeyConfig`
 
-```angelscript
+```cpp
 cConfigFile@ cLux_GetKeyConfig()
 ```
 
@@ -1365,7 +1365,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetLightLevelAtPos`
 
-```angelscript
+```cpp
 float cLux_GetLightLevelAtPos(const cVector3f &in avPos,
                               iLight @apSkipLight,
                               float afRadiusAdd)
@@ -1385,7 +1385,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetMainMenuFile`
 
-```angelscript
+```cpp
 const tString& cLux_GetMainMenuFile()
 ```
 
@@ -1397,7 +1397,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetMusicHandler`
 
-```angelscript
+```cpp
 cLuxMusicHandler@ cLux_GetMusicHandler()
 ```
 
@@ -1409,7 +1409,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetPlayer`
 
-```angelscript
+```cpp
 cLuxPlayer@ cLux_GetPlayer()
 ```
 
@@ -1421,7 +1421,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetPreloadMap`
 
-```angelscript
+```cpp
 cLuxMap@ cLux_GetPreloadMap()
 ```
 
@@ -1433,7 +1433,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetPrevInputFocusImGui`
 
-```angelscript
+```cpp
 cImGui@ cLux_GetPrevInputFocusImGui()
 ```
 
@@ -1445,7 +1445,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetSaveConfigAtExit`
 
-```angelscript
+```cpp
 bool cLux_GetSaveConfigAtExit()
 ```
 
@@ -1457,7 +1457,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetSaveHandler`
 
-```angelscript
+```cpp
 cLuxSaveHandler@ cLux_GetSaveHandler()
 ```
 
@@ -1469,7 +1469,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetSoundscapeHandler`
 
-```angelscript
+```cpp
 cLuxSoundscapeHandler@ cLux_GetSoundscapeHandler()
 ```
 
@@ -1481,7 +1481,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetStringDuration`
 
-```angelscript
+```cpp
 float cLux_GetStringDuration(const tWString &in asStr)
 ```
 
@@ -1497,7 +1497,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetStringWFromDate`
 
-```angelscript
+```cpp
 tWString cLux_GetStringWFromDate(const cDate &in aDate)
 ```
 
@@ -1513,7 +1513,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetSupportExplorationMode`
 
-```angelscript
+```cpp
 bool cLux_GetSupportExplorationMode()
 ```
 
@@ -1525,7 +1525,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetTextCatAndEntryFromString`
 
-```angelscript
+```cpp
 void cLux_GetTextCatAndEntryFromString(const tString &in asData,
                                        tString &out asOutCat,
                                        tString &out asOutEntry)
@@ -1545,7 +1545,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetUnderwaterEffectsActive`
 
-```angelscript
+```cpp
 bool cLux_GetUnderwaterEffectsActive()
 ```
 
@@ -1557,7 +1557,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetUserConfig`
 
-```angelscript
+```cpp
 cConfigFile@ cLux_GetUserConfig()
 ```
 
@@ -1569,7 +1569,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetUserModuleFromID`
 
-```angelscript
+```cpp
 iScrUserModule_Interface@ cLux_GetUserModuleFromID(int alID)
 ```
 
@@ -1585,7 +1585,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetUserModuleFromName`
 
-```angelscript
+```cpp
 iScrUserModule_Interface@ cLux_GetUserModuleFromName(const tString &in asName)
 ```
 
@@ -1601,7 +1601,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetViewport`
 
-```angelscript
+```cpp
 cViewport@ cLux_GetViewport()
 ```
 
@@ -1613,7 +1613,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_GetVoiceHandler`
 
-```angelscript
+```cpp
 cLuxVoiceHandler@ cLux_GetVoiceHandler()
 ```
 
@@ -1625,7 +1625,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_HasConfigLoadError`
 
-```angelscript
+```cpp
 bool cLux_HasConfigLoadError(tString &out asError)
 ```
 
@@ -1641,7 +1641,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_HasTranslation`
 
-```angelscript
+```cpp
 bool cLux_HasTranslation(const tString &in asCat,
                          const tString &in asEntry)
 ```
@@ -1659,7 +1659,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_HasUnderwaterEffectUsers`
 
-```angelscript
+```cpp
 bool cLux_HasUnderwaterEffectUsers()
 ```
 
@@ -1671,7 +1671,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Agent`
 
-```angelscript
+```cpp
 cLuxAgent@ cLux_ID_Agent(tID aID)
 ```
 
@@ -1687,7 +1687,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Area`
 
-```angelscript
+```cpp
 cLuxArea@ cLux_ID_Area(tID aID)
 ```
 
@@ -1703,7 +1703,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Beam`
 
-```angelscript
+```cpp
 cBeam@ cLux_ID_Beam(tID aID)
 ```
 
@@ -1719,7 +1719,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Billboard`
 
-```angelscript
+```cpp
 cBillboard@ cLux_ID_Billboard(tID aID)
 ```
 
@@ -1735,7 +1735,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_BillboardGroup`
 
-```angelscript
+```cpp
 cBillboardGroup@ cLux_ID_BillboardGroup(tID aID)
 ```
 
@@ -1751,7 +1751,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Body`
 
-```angelscript
+```cpp
 iPhysicsBody@ cLux_ID_Body(tID aID)
 ```
 
@@ -1767,7 +1767,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_CharacterBody`
 
-```angelscript
+```cpp
 iCharacterBody@ cLux_ID_CharacterBody(tID aID)
 ```
 
@@ -1783,7 +1783,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_ClothEntity`
 
-```angelscript
+```cpp
 cClothEntity@ cLux_ID_ClothEntity(tID aID)
 ```
 
@@ -1799,7 +1799,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Critter`
 
-```angelscript
+```cpp
 cLuxCritter@ cLux_ID_Critter(tID aID)
 ```
 
@@ -1815,7 +1815,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Entity`
 
-```angelscript
+```cpp
 iLuxEntity@ cLux_ID_Entity(tID aID)
 ```
 
@@ -1831,7 +1831,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Entity3D`
 
-```angelscript
+```cpp
 iEntity3D@ cLux_ID_Entity3D(tID aID)
 ```
 
@@ -1847,7 +1847,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_ExposureArea`
 
-```angelscript
+```cpp
 cExposureArea@ cLux_ID_ExposureArea(tID aID)
 ```
 
@@ -1863,7 +1863,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_FogArea`
 
-```angelscript
+```cpp
 cFogArea@ cLux_ID_FogArea(tID aID)
 ```
 
@@ -1879,7 +1879,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_ForceField`
 
-```angelscript
+```cpp
 cForceField@ cLux_ID_ForceField(tID aID)
 ```
 
@@ -1895,7 +1895,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_GuiSetEntity`
 
-```angelscript
+```cpp
 cGuiSetEntity@ cLux_ID_GuiSetEntity(tID aID)
 ```
 
@@ -1911,7 +1911,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Joint`
 
-```angelscript
+```cpp
 iPhysicsJoint@ cLux_ID_Joint(tID aID)
 ```
 
@@ -1927,7 +1927,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_LensFlare`
 
-```angelscript
+```cpp
 cLensFlare@ cLux_ID_LensFlare(tID aID)
 ```
 
@@ -1943,7 +1943,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Light`
 
-```angelscript
+```cpp
 iLight@ cLux_ID_Light(tID aID)
 ```
 
@@ -1959,7 +1959,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_LightMaskBox`
 
-```angelscript
+```cpp
 cLightMaskBox@ cLux_ID_LightMaskBox(tID aID)
 ```
 
@@ -1975,7 +1975,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_LiquidArea`
 
-```angelscript
+```cpp
 cLuxLiquidArea@ cLux_ID_LiquidArea(tID aID)
 ```
 
@@ -1991,7 +1991,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_MeshEntity`
 
-```angelscript
+```cpp
 cMeshEntity@ cLux_ID_MeshEntity(tID aID)
 ```
 
@@ -2007,7 +2007,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_ParticleSystem`
 
-```angelscript
+```cpp
 cParticleSystem@ cLux_ID_ParticleSystem(tID aID)
 ```
 
@@ -2023,7 +2023,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_Prop`
 
-```angelscript
+```cpp
 cLuxProp@ cLux_ID_Prop(tID aID)
 ```
 
@@ -2039,7 +2039,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_ReverbArea`
 
-```angelscript
+```cpp
 cLuxSoundscapeArea@ cLux_ID_ReverbArea(tID aID)
 ```
 
@@ -2055,7 +2055,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_RopeEntity`
 
-```angelscript
+```cpp
 iRopeEntity@ cLux_ID_RopeEntity(tID aID)
 ```
 
@@ -2071,7 +2071,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_SoundEntity`
 
-```angelscript
+```cpp
 cSoundEntity@ cLux_ID_SoundEntity(tID aID)
 ```
 
@@ -2087,7 +2087,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ID_SubMeshEntity`
 
-```angelscript
+```cpp
 cSubMeshEntity@ cLux_ID_SubMeshEntity(tID aID)
 ```
 
@@ -2103,7 +2103,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_IncUnderwaterEffectUserCount`
 
-```angelscript
+```cpp
 void cLux_IncUnderwaterEffectUserCount()
 ```
 
@@ -2115,7 +2115,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_IsChangingMap`
 
-```angelscript
+```cpp
 bool cLux_IsChangingMap()
 ```
 
@@ -2127,7 +2127,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_IsLoadingScreenVisible`
 
-```angelscript
+```cpp
 bool cLux_IsLoadingScreenVisible()
 ```
 
@@ -2139,7 +2139,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_IsPlayGoReady`
 
-```angelscript
+```cpp
 bool cLux_IsPlayGoReady(int &out alETA)
 ```
 
@@ -2155,7 +2155,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_IsReadyToChangeMap`
 
-```angelscript
+```cpp
 bool cLux_IsReadyToChangeMap()
 ```
 
@@ -2167,7 +2167,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_IsStreamingMap`
 
-```angelscript
+```cpp
 bool cLux_IsStreamingMap()
 ```
 
@@ -2179,7 +2179,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_LoadScreenSetBarPosAndSize`
 
-```angelscript
+```cpp
 void cLux_LoadScreenSetBarPosAndSize(const cVector2f &in avPos,
                                      const cVector2f &in avSize)
 ```
@@ -2197,7 +2197,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_LoadScreenSetForceBackground`
 
-```angelscript
+```cpp
 void cLux_LoadScreenSetForceBackground(bool abX)
 ```
 
@@ -2213,7 +2213,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_LoadScreenSetUseSmallIcon`
 
-```angelscript
+```cpp
 void cLux_LoadScreenSetUseSmallIcon(bool abX)
 ```
 
@@ -2229,7 +2229,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_LoadScreenShowLoadingIcon`
 
-```angelscript
+```cpp
 void cLux_LoadScreenShowLoadingIcon(float afTime)
 ```
 
@@ -2245,7 +2245,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_MapChangeIsTransfer`
 
-```angelscript
+```cpp
 bool cLux_MapChangeIsTransfer()
 ```
 
@@ -2257,7 +2257,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_MapIsLoaded`
 
-```angelscript
+```cpp
 bool cLux_MapIsLoaded()
 ```
 
@@ -2269,7 +2269,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_OutputTextToFile`
 
-```angelscript
+```cpp
 void cLux_OutputTextToFile(const tWString &in asPath,
                            const tString &in asText)
 ```
@@ -2287,7 +2287,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ParseString`
 
-```angelscript
+```cpp
 tWString cLux_ParseString(const tWString &in asInput)
 ```
 
@@ -2303,7 +2303,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ParseStringIntoScreenText`
 
-```angelscript
+```cpp
 void cLux_ParseStringIntoScreenText(const tWString &in asInput,
                                     cImGui @apImGui,
                                     const cLuxScreenTextFormatParameters & aFormatParams,
@@ -2335,7 +2335,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_PlayGuiSoundData`
 
-```angelscript
+```cpp
 bool cLux_PlayGuiSoundData(const tString &in asName,
                            eSoundEntryType aDestType,
                            float afVolMul,
@@ -2357,7 +2357,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_PlayGuiSoundDataEx`
 
-```angelscript
+```cpp
 bool cLux_PlayGuiSoundDataEx(const tString &in asName,
                              eSoundEntryType aDestType,
                              float afVolMul,
@@ -2381,7 +2381,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_PreloadEntity`
 
-```angelscript
+```cpp
 void cLux_PreloadEntity(const tString &in asFile)
 ```
 
@@ -2397,7 +2397,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_PreloadGuiGfx`
 
-```angelscript
+```cpp
 void cLux_PreloadGuiGfx(const tString &in asFile,
                         eImGuiGfx aType)
 ```
@@ -2415,7 +2415,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_PreloadMap`
 
-```angelscript
+```cpp
 void cLux_PreloadMap(const tString &in asMapName,
                      eWorldStreamPriority aPrio = eWorldStreamPriority_Normal)
 ```
@@ -2433,7 +2433,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_PreloadMaterial`
 
-```angelscript
+```cpp
 void cLux_PreloadMaterial(const tString &in asFile)
 ```
 
@@ -2449,7 +2449,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_PreloadParticleSystem`
 
-```angelscript
+```cpp
 void cLux_PreloadParticleSystem(const tString &in asFile)
 ```
 
@@ -2465,7 +2465,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_PreloadSound`
 
-```angelscript
+```cpp
 void cLux_PreloadSound(const tString &in asFile)
 ```
 
@@ -2481,7 +2481,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_PreloadWebpage`
 
-```angelscript
+```cpp
 void cLux_PreloadWebpage(const tString &in asX)
 ```
 
@@ -2497,7 +2497,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_RegisterCollisionRadius`
 
-```angelscript
+```cpp
 void cLux_RegisterCollisionRadius(int alX)
 ```
 
@@ -2513,7 +2513,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_RegisterEventListenerUserModule_AgentSetActive`
 
-```angelscript
+```cpp
 void cLux_RegisterEventListenerUserModule_AgentSetActive(const tString &in asModuleName)
 ```
 
@@ -2529,7 +2529,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_RenderBackgroundScreen`
 
-```angelscript
+```cpp
 void cLux_RenderBackgroundScreen(bool abDrawFullHUD)
 ```
 
@@ -2545,7 +2545,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ResetShudderEffects`
 
-```angelscript
+```cpp
 void cLux_ResetShudderEffects(int alX)
 ```
 
@@ -2561,7 +2561,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SaveScreenshotToFile`
 
-```angelscript
+```cpp
 void cLux_SaveScreenshotToFile(const tWString &in asPath,
                                const cVector2l &in avSize = cVector2l_MinusOne,
                                bool abKeepAspect = true,
@@ -2583,7 +2583,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ScriptDebugOn`
 
-```angelscript
+```cpp
 bool cLux_ScriptDebugOn()
 ```
 
@@ -2595,7 +2595,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SendInputToGui`
 
-```angelscript
+```cpp
 void cLux_SendInputToGui(bool abX)
 ```
 
@@ -2611,7 +2611,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SetAreaOffline`
 
-```angelscript
+```cpp
 void cLux_SetAreaOffline(int alX)
 ```
 
@@ -2627,7 +2627,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SetDebugInfoWindowText`
 
-```angelscript
+```cpp
 void cLux_SetDebugInfoWindowText(const tString &in asText)
 ```
 
@@ -2643,7 +2643,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SetExplorationModeActive`
 
-```angelscript
+```cpp
 void cLux_SetExplorationModeActive(bool abX)
 ```
 
@@ -2659,7 +2659,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SetGamePaused`
 
-```angelscript
+```cpp
 void cLux_SetGamePaused(bool abX)
 ```
 
@@ -2675,7 +2675,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SetImGuiInputFocus`
 
-```angelscript
+```cpp
 void cLux_SetImGuiInputFocus(cImGui@ apImGui,
                              bool abShowMouse)
 ```
@@ -2693,7 +2693,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SetInteractionWhiteListActive`
 
-```angelscript
+```cpp
 void cLux_SetInteractionWhiteListActive(bool abX,
                                         bool abClearList)
 ```
@@ -2711,7 +2711,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SetMapPreloadPriority`
 
-```angelscript
+```cpp
 void cLux_SetMapPreloadPriority(eWorldStreamPriority aPrio)
 ```
 
@@ -2727,7 +2727,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SetUnderwaterEffectsActive`
 
-```angelscript
+```cpp
 void cLux_SetUnderwaterEffectsActive(bool abX,
                                      bool abUseStartAndEndEffects)
 ```
@@ -2745,7 +2745,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_SetupDefaultGlobalReverb`
 
-```angelscript
+```cpp
 void cLux_SetupDefaultGlobalReverb(eSoundReverbPreset aType,
                                    float afFadeTime)
 ```
@@ -2763,7 +2763,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ShapeDamage`
 
-```angelscript
+```cpp
 void cLux_ShapeDamage(int aShape,
                       const cMatrixf &in a_mtxTransform,
                       const cVector3f &in avOrigin,
@@ -2807,7 +2807,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ShapeDamage`
 
-```angelscript
+```cpp
 void cLux_ShapeDamage(iCollideShape@ aShape,
                       const cMatrixf &in a_mtxTransform,
                       const cVector3f &in avOrigin,
@@ -2851,7 +2851,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_StartMap`
 
-```angelscript
+```cpp
 void cLux_StartMap(const tString &in asMapName)
 ```
 
@@ -2867,7 +2867,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_StartNewGame`
 
-```angelscript
+```cpp
 void cLux_StartNewGame()
 ```
 
@@ -2879,7 +2879,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_TestModeOn`
 
-```angelscript
+```cpp
 bool cLux_TestModeOn()
 ```
 
@@ -2891,7 +2891,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ToAgent`
 
-```angelscript
+```cpp
 cLuxAgent@ cLux_ToAgent(iLuxEntity @apEntity)
 ```
 
@@ -2907,7 +2907,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ToArea`
 
-```angelscript
+```cpp
 cLuxArea@ cLux_ToArea(iLuxEntity @apEntity)
 ```
 
@@ -2923,7 +2923,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ToCritter`
 
-```angelscript
+```cpp
 cLuxCritter@ cLux_ToCritter(iLuxEntity @apEntity)
 ```
 
@@ -2939,7 +2939,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ToLiquidArea`
 
-```angelscript
+```cpp
 cLuxLiquidArea@ cLux_ToLiquidArea(iLuxEntity @apEntity)
 ```
 
@@ -2955,7 +2955,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_ToProp`
 
-```angelscript
+```cpp
 cLuxProp@ cLux_ToProp(iLuxEntity @apEntity)
 ```
 
@@ -2971,7 +2971,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_Translate`
 
-```angelscript
+```cpp
 const tWString& cLux_Translate(const tString &in asCat,
                                const tString &in asEntry)
 ```
@@ -2989,7 +2989,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cLux_TruncateTextFile`
 
-```angelscript
+```cpp
 void cLux_TruncateTextFile(const tWString &in asPath,
                            const tString &in asPattern,
                            int alTimes)
@@ -3012,6 +3012,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cLux](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cLux)
 - Revision: `5019`
 - Source update: `2020-08-24T20:49:09Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

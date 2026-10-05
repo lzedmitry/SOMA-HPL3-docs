@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Hello_World"
 sourceRevision: 4630
 sourceUpdated: "2020-08-16T10:58:27Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -32,6 +32,6 @@ HPL3/Scripting/Scripting_Guide/Scripting Workflow and Structure|Scripting Workfl
 - Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/Hello World](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Hello_World)
 - Revision: `4630`
 - Source update: `2020-08-16T10:58:27Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

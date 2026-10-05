@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Input_Types"
 sourceRevision: 6225
 sourceUpdated: "2021-09-14T01:57:39Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -113,6 +113,6 @@ With a slight combination of [Input Handler](https://wiki.frictionalgames.com/pa
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Input Types](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Input_Types)
 - Revision: `6225`
 - Source update: `2021-09-14T01:57:39Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cMath"
 sourceRevision: 5021
 sourceUpdated: "2020-08-24T20:50:00Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -228,7 +228,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cMath_Abs`
 
-```angelscript
+```cpp
 float cMath_Abs(float afX)
 ```
 
@@ -244,7 +244,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Abs`
 
-```angelscript
+```cpp
 int cMath_Abs(int alX)
 ```
 
@@ -260,7 +260,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_ACos`
 
-```angelscript
+```cpp
 float cMath_ACos(float afX)
 ```
 
@@ -276,7 +276,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_ASin`
 
-```angelscript
+```cpp
 float cMath_ASin(float afX)
 ```
 
@@ -292,7 +292,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_ATan`
 
-```angelscript
+```cpp
 float cMath_ATan(float afX)
 ```
 
@@ -308,7 +308,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_ATan2`
 
-```angelscript
+```cpp
 float cMath_ATan2(float afY,
                   float afX)
 ```
@@ -326,7 +326,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckAABBInside`
 
-```angelscript
+```cpp
 bool cMath_CheckAABBInside(const cVector3f &in avInsideMin,
                            const cVector3f &in avInsideMax,
                            const cVector3f &in avOutsideMin,
@@ -348,7 +348,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckAABBIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckAABBIntersection(const cVector3f &in avMin1,
                                  const cVector3f &in avMax1,
                                  const cVector3f &in avMin2,
@@ -370,7 +370,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckAABBLineIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckAABBLineIntersection(const cVector3f &in avMin,
                                      const cVector3f &in avMax,
                                      const cVector3f &in avLineStart,
@@ -396,7 +396,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckAABBSphereCollision`
 
-```angelscript
+```cpp
 bool cMath_CheckAABBSphereCollision(const cVector3f &in avMin,
                                     const cVector3f &in avMax,
                                     const cVector3f &in avCenter,
@@ -418,7 +418,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckBVIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckBVIntersection(cBoundingVolume@+ aBV1,
                                cBoundingVolume@+ aBV2)
 ```
@@ -436,7 +436,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckPlaneAABBCollision`
 
-```angelscript
+```cpp
 bool cMath_CheckPlaneAABBCollision(const cPlanef &in aPlane,
                                    const cVector3f &in avMin,
                                    const cVector3f &in avMax,
@@ -460,7 +460,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckPlaneAABBCollision`
 
-```angelscript
+```cpp
 bool cMath_CheckPlaneAABBCollision(const cPlanef &in aPlane,
                                    const cVector3f &in avMin,
                                    const cVector3f &in avMax)
@@ -480,7 +480,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckPlaneBVCollision`
 
-```angelscript
+```cpp
 bool cMath_CheckPlaneBVCollision(const cPlanef &in aPlane,
                                  cBoundingVolume@+ aBV)
 ```
@@ -498,7 +498,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckPlaneLineIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckPlaneLineIntersection(const cPlanef &in aPlane,
                                       const cVector3f &in avLineStart,
                                       const cVector3f &in avLineEnd,
@@ -522,7 +522,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckPlaneSphereCollision`
 
-```angelscript
+```cpp
 bool cMath_CheckPlaneSphereCollision(const cPlanef &in aPlane,
                                      const cVector3f &in avCenter,
                                      float afRadius)
@@ -542,7 +542,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckPointInAABBIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckPointInAABBIntersection(const cVector3f &in avPoint,
                                         const cVector3f &in avMin,
                                         const cVector3f &in avMax)
@@ -562,7 +562,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckPointInBVIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckPointInBVIntersection(const cVector3f &in avPoint,
                                       cBoundingVolume@+ aBV)
 ```
@@ -580,7 +580,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckPointInRectIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckPointInRectIntersection(const cVector2f &in avPoint,
                                         const cRect2f &in aRect)
 ```
@@ -598,7 +598,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckPointInSphereIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckPointInSphereIntersection(const cVector3f &in avPoint,
                                           const cVector3f &in avSpherePos,
                                           float afSphereRadius)
@@ -618,7 +618,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckRectFit`
 
-```angelscript
+```cpp
 bool cMath_CheckRectFit(const cRect2l &in aRectSrc,
                         const cRect2l &in aRectDest)
 ```
@@ -636,7 +636,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckRectFit`
 
-```angelscript
+```cpp
 bool cMath_CheckRectFit(const cRect2f &in aRectSrc,
                         const cRect2f &in aRectDest)
 ```
@@ -654,7 +654,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckRectIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckRectIntersection(const cRect2l &in aRect1,
                                  const cRect2l &in aRect2)
 ```
@@ -672,7 +672,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckRectIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckRectIntersection(const cRect2f &in aRect1,
                                  const cRect2f &in aRect2)
 ```
@@ -690,7 +690,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckRectIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckRectIntersection(const cVector2l &in avMin1,
                                  const cVector2l &in avMax1,
                                  const cVector2l &in avMin2,
@@ -712,7 +712,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckRectIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckRectIntersection(const cVector2f &in avMin1,
                                  const cVector2f &in avMax1,
                                  const cVector2f &in avMin2,
@@ -734,7 +734,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckSphereIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckSphereIntersection(const cVector3f &in avPosA,
                                    float afRadiusA,
                                    const cVector3f &in avPosB,
@@ -756,7 +756,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_CheckSphereLineIntersection`
 
-```angelscript
+```cpp
 bool cMath_CheckSphereLineIntersection(const cVector3f &in avSpherePos,
                                        float afSphereRadius,
                                        const cVector3f &in avLineStart,
@@ -786,7 +786,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Clamp`
 
-```angelscript
+```cpp
 float cMath_Clamp(float afX,
                   float afMin,
                   float afMax)
@@ -806,7 +806,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Clamp`
 
-```angelscript
+```cpp
 int cMath_Clamp(int alX,
                 int alMin,
                 int alMax)
@@ -826,7 +826,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Cos`
 
-```angelscript
+```cpp
 float cMath_Cos(float afX)
 ```
 
@@ -842,7 +842,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Easing`
 
-```angelscript
+```cpp
 float cMath_Easing(eEasing aType,
                    float afT,
                    float afMin = 0,
@@ -864,7 +864,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_ExpandAABBMax`
 
-```angelscript
+```cpp
 cVector3f cMath_ExpandAABBMax(const cVector3f &in avBaseMax,
                               const cVector3f &in avAddMax)
 ```
@@ -882,7 +882,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_ExpandAABBMin`
 
-```angelscript
+```cpp
 cVector3f cMath_ExpandAABBMin(const cVector3f &in avBaseMin,
                               const cVector3f &in avAddMin)
 ```
@@ -900,7 +900,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_FastRandomFloat`
 
-```angelscript
+```cpp
 float cMath_FastRandomFloat(int alSeed)
 ```
 
@@ -916,7 +916,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleDistance`
 
-```angelscript
+```cpp
 float cMath_GetAngleDistance(float afAngle1,
                              float afAngle2,
                              float afMaxAngle)
@@ -936,7 +936,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleDistanceDeg`
 
-```angelscript
+```cpp
 float cMath_GetAngleDistanceDeg(float afAngle1,
                                 float afAngle2)
 ```
@@ -954,7 +954,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleDistanceRad`
 
-```angelscript
+```cpp
 float cMath_GetAngleDistanceRad(float afAngle1,
                                 float afAngle2)
 ```
@@ -972,7 +972,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleDistanceVector2f`
 
-```angelscript
+```cpp
 cVector2f cMath_GetAngleDistanceVector2f(const cVector2f &in avAngle1,
                                          const cVector2f &in avAngle2,
                                          float afMaxAngle)
@@ -992,7 +992,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleDistanceVector2fDeg`
 
-```angelscript
+```cpp
 cVector2f cMath_GetAngleDistanceVector2fDeg(const cVector2f &in avAngle1,
                                             const cVector2f &in avAngle2)
 ```
@@ -1010,7 +1010,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleDistanceVector2fRad`
 
-```angelscript
+```cpp
 cVector2f cMath_GetAngleDistanceVector2fRad(const cVector2f &in avAngle1,
                                             const cVector2f &in avAngle2)
 ```
@@ -1028,7 +1028,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleDistanceVector3f`
 
-```angelscript
+```cpp
 cVector3f cMath_GetAngleDistanceVector3f(const cVector3f &in avAngle1,
                                          const cVector3f &in avAngle2,
                                          float afMaxAngle)
@@ -1048,7 +1048,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleDistanceVector3fDeg`
 
-```angelscript
+```cpp
 cVector3f cMath_GetAngleDistanceVector3fDeg(const cVector3f &in avAngle1,
                                             const cVector3f &in avAngle2)
 ```
@@ -1066,7 +1066,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleDistanceVector3fRad`
 
-```angelscript
+```cpp
 cVector3f cMath_GetAngleDistanceVector3fRad(const cVector3f &in avAngle1,
                                             const cVector3f &in avAngle2)
 ```
@@ -1084,7 +1084,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleFromPoints2D`
 
-```angelscript
+```cpp
 float cMath_GetAngleFromPoints2D(const cVector2f &in aStartPos,
                                  const cVector2f &in avGoalPos)
 ```
@@ -1102,7 +1102,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleFromPoints3D`
 
-```angelscript
+```cpp
 cVector3f cMath_GetAngleFromPoints3D(const cVector3f &in avStartPos,
                                      const cVector3f &in avGoalPos)
 ```
@@ -1120,7 +1120,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetAngleFromVector`
 
-```angelscript
+```cpp
 void cMath_GetAngleFromVector(const cVector2f &in avVec,
                               float &out afAngle,
                               float &out afLength)
@@ -1140,7 +1140,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetBit`
 
-```angelscript
+```cpp
 int cMath_GetBit(int alBitNum)
 ```
 
@@ -1156,7 +1156,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetBitFlag`
 
-```angelscript
+```cpp
 bool cMath_GetBitFlag(int alFlagNum,
                       int alBit)
 ```
@@ -1174,7 +1174,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetClipRect`
 
-```angelscript
+```cpp
 cRect2f cMath_GetClipRect(const cRect2f &in aRectSrc,
                           const cRect2f &in aRectDest)
 ```
@@ -1192,7 +1192,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetClipRectFromBV`
 
-```angelscript
+```cpp
 void cMath_GetClipRectFromBV(cRect2l &out aDestRect,
                              cBoundingVolume@+ aBV,
                              cFrustum@+ apFrustum,
@@ -1214,7 +1214,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetClipRectFromNormalizedMinMax`
 
-```angelscript
+```cpp
 cRect2l cMath_GetClipRectFromNormalizedMinMax(const cVector3f &in avMin,
                                               const cVector3f &in avMax,
                                               const cVector2l &in avScreenSize)
@@ -1234,7 +1234,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetClipRectFromSphere`
 
-```angelscript
+```cpp
 cRect2l cMath_GetClipRectFromSphere(const cVector3f &in avPosition,
                                     float afRadius,
                                     cFrustum@+ apFrustum,
@@ -1258,7 +1258,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetCorrectSignOfSpeed`
 
-```angelscript
+```cpp
 float cMath_GetCorrectSignOfSpeed(float afCurrent,
                                   float afDest,
                                   float afSpeed)
@@ -1278,7 +1278,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetFraction`
 
-```angelscript
+```cpp
 float cMath_GetFraction(float afVal)
 ```
 
@@ -1294,7 +1294,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetNormalizedClipRectFromBV`
 
-```angelscript
+```cpp
 bool cMath_GetNormalizedClipRectFromBV(cVector3f &out avDestMin,
                                        cVector3f &out avDestMax,
                                        cBoundingVolume@+ aBV,
@@ -1316,7 +1316,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetPoint3DFromSphericalCoords`
 
-```angelscript
+```cpp
 cVector3f cMath_GetPoint3DFromSphericalCoords(const cVector3f &in avSphCenter,
                                               float afSphRadius,
                                               const cVector2f &in avSphCoords)
@@ -1336,7 +1336,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetSphericalCoordsFromPoint3D`
 
-```angelscript
+```cpp
 cVector2f cMath_GetSphericalCoordsFromPoint3D(const cVector3f &in avSphCenter,
                                               const cVector3f &in avPoint)
 ```
@@ -1354,7 +1354,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_GetVectorFromAngle2D`
 
-```angelscript
+```cpp
 cVector2f cMath_GetVectorFromAngle2D(float afAngle,
                                      float afLength)
 ```
@@ -1372,7 +1372,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_HexToRGB`
 
-```angelscript
+```cpp
 cColor cMath_HexToRGB(const tString &in asHex)
 ```
 
@@ -1388,7 +1388,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_HexWToRGB`
 
-```angelscript
+```cpp
 cColor cMath_HexWToRGB(const tWString &in asHex)
 ```
 
@@ -1404,7 +1404,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_HSBToRGB`
 
-```angelscript
+```cpp
 cColor cMath_HSBToRGB(const cVector3f &in avHSB)
 ```
 
@@ -1420,7 +1420,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_IncreaseTo`
 
-```angelscript
+```cpp
 float cMath_IncreaseTo(float afX,
                        float afAdd,
                        float afDest)
@@ -1440,7 +1440,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_InterpolateCosine`
 
-```angelscript
+```cpp
 float cMath_InterpolateCosine(float afA,
                               float afB,
                               float afT)
@@ -1460,7 +1460,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_InterpolateCubic`
 
-```angelscript
+```cpp
 float cMath_InterpolateCubic(float afX0,
                              float afX1,
                              float afX2,
@@ -1484,7 +1484,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_InterpolateHermite`
 
-```angelscript
+```cpp
 float cMath_InterpolateHermite(float afX0,
                                float afX1,
                                float afX2,
@@ -1512,7 +1512,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_InterpolateLinear`
 
-```angelscript
+```cpp
 float cMath_InterpolateLinear(float afA,
                               float afB,
                               float afT)
@@ -1532,7 +1532,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_InterpolateSigmoid`
 
-```angelscript
+```cpp
 float cMath_InterpolateSigmoid(float afA,
                                float afB,
                                float afT)
@@ -1552,7 +1552,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_IsPow2`
 
-```angelscript
+```cpp
 bool cMath_IsPow2(int alX)
 ```
 
@@ -1568,7 +1568,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Log`
 
-```angelscript
+```cpp
 float cMath_Log(float afX)
 ```
 
@@ -1584,7 +1584,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Log2ToInt`
 
-```angelscript
+```cpp
 int cMath_Log2ToInt(int alX)
 ```
 
@@ -1600,7 +1600,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixEulerAngleDistance`
 
-```angelscript
+```cpp
 cVector3f cMath_MatrixEulerAngleDistance(const cMatrixf &in a_mtxA,
                                          const cMatrixf &in a_mtxB)
 ```
@@ -1618,7 +1618,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixInverse`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixInverse(const cMatrixf &in a_mtxA)
 ```
 
@@ -1634,7 +1634,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixMul`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixMul(const cMatrixf &in a_mtxA,
                          const cMatrixf &in a_mtxB)
 ```
@@ -1652,7 +1652,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixMul`
 
-```angelscript
+```cpp
 cVector3f cMath_MatrixMul(const cMatrixf &in a_mtxA,
                           const cVector3f &in avB)
 ```
@@ -1670,7 +1670,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixMul3x3`
 
-```angelscript
+```cpp
 cVector3f cMath_MatrixMul3x3(const cMatrixf &in a_mtxA,
                              const cVector3f &in avB)
 ```
@@ -1688,7 +1688,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixMulDivideW`
 
-```angelscript
+```cpp
 cVector3f cMath_MatrixMulDivideW(const cMatrixf &in a_mtxA,
                                  const cVector3f &in avB)
 ```
@@ -1706,7 +1706,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixMulScalar`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixMulScalar(const cMatrixf &in a_mtxA,
                                float afB)
 ```
@@ -1724,7 +1724,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixOrthographicProjection`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixOrthographicProjection(float afNearClipPlane,
                                             float afFarClipPlane,
                                             const cVector2f &in avViewSize)
@@ -1744,7 +1744,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixPerspectiveProjection`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixPerspectiveProjection(float afNearClipPlane,
                                            float afFarClipPlane,
                                            float afFOV,
@@ -1768,7 +1768,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixPlaneMirror`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixPlaneMirror(const cPlanef &in aPlane)
 ```
 
@@ -1784,7 +1784,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixQuaternion`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixQuaternion(const cQuaternion &in aqRot)
 ```
 
@@ -1800,7 +1800,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixRotateX`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixRotateX(float afAngle)
 ```
 
@@ -1816,7 +1816,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixRotateXYZ`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixRotateXYZ(const cVector3f &in avRot)
 ```
 
@@ -1832,7 +1832,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixRotateXZY`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixRotateXZY(const cVector3f &in avRot)
 ```
 
@@ -1848,7 +1848,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixRotateY`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixRotateY(float afAngle)
 ```
 
@@ -1864,7 +1864,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixRotateYXZ`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixRotateYXZ(const cVector3f &in avRot)
 ```
 
@@ -1880,7 +1880,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixRotateYZX`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixRotateYZX(const cVector3f &in avRot)
 ```
 
@@ -1896,7 +1896,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixRotateZ`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixRotateZ(float afAngle)
 ```
 
@@ -1912,7 +1912,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixRotateZXY`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixRotateZXY(const cVector3f &in avRot)
 ```
 
@@ -1928,7 +1928,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixRotateZYX`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixRotateZYX(const cVector3f &in avRot)
 ```
 
@@ -1944,7 +1944,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixScale`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixScale(const cVector3f &in avScale)
 ```
 
@@ -1960,7 +1960,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixSlerp`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixSlerp(float afT,
                            const cMatrixf &in a_mtxA,
                            const cMatrixf &in a_mtxB,
@@ -1982,7 +1982,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixToEulerAngles`
 
-```angelscript
+```cpp
 cVector3f cMath_MatrixToEulerAngles(const cMatrixf &in a_mtxA)
 ```
 
@@ -1998,7 +1998,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixToEulerAnglesMultiSolution`
 
-```angelscript
+```cpp
 cVector3f cMath_MatrixToEulerAnglesMultiSolution(const cMatrixf &in a_mtxA,
                                                  cVector3f &out avSolution1,
                                                  cVector3f &out avSolution2)
@@ -2018,7 +2018,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixTranslate`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixTranslate(const cVector3f &in avTrans)
 ```
 
@@ -2034,7 +2034,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_MatrixUnitVectors`
 
-```angelscript
+```cpp
 cMatrixf cMath_MatrixUnitVectors(const cVector3f &in avRight,
                                  const cVector3f &in avUp,
                                  const cVector3f &in avForward,
@@ -2056,7 +2056,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Max`
 
-```angelscript
+```cpp
 float cMath_Max(float afX,
                 float afY)
 ```
@@ -2074,7 +2074,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Max`
 
-```angelscript
+```cpp
 int cMath_Max(int alX,
               int alY)
 ```
@@ -2092,7 +2092,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Min`
 
-```angelscript
+```cpp
 float cMath_Min(float afX,
                 float afY)
 ```
@@ -2110,7 +2110,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Min`
 
-```angelscript
+```cpp
 int cMath_Min(int alX,
               int alY)
 ```
@@ -2128,7 +2128,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Modulus`
 
-```angelscript
+```cpp
 float cMath_Modulus(float afDividend,
                     float afDivisor)
 ```
@@ -2146,7 +2146,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_PlaneDot`
 
-```angelscript
+```cpp
 float cMath_PlaneDot(const cPlanef &in aPlaneA,
                      const cPlanef &in aPlaneB)
 ```
@@ -2164,7 +2164,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_PlaneIntersectionPoint`
 
-```angelscript
+```cpp
 bool cMath_PlaneIntersectionPoint(const cPlanef &in aP1,
                                   const cPlanef &in aP2,
                                   const cPlanef &in aP3,
@@ -2186,7 +2186,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_PlaneParallel`
 
-```angelscript
+```cpp
 bool cMath_PlaneParallel(const cPlanef &in aPlaneA,
                          const cPlanef &in aPlaneB)
 ```
@@ -2204,7 +2204,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_PlaneToPointDist`
 
-```angelscript
+```cpp
 float cMath_PlaneToPointDist(const cPlanef &in aPlane,
                              const cVector3f &in avVec)
 ```
@@ -2222,7 +2222,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Pow`
 
-```angelscript
+```cpp
 float cMath_Pow(float afX,
                 float afExp)
 ```
@@ -2240,7 +2240,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Pow2`
 
-```angelscript
+```cpp
 int cMath_Pow2(int alX)
 ```
 
@@ -2256,7 +2256,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_ProjectionMatrixObliqueNearClipPlane`
 
-```angelscript
+```cpp
 cMatrixf cMath_ProjectionMatrixObliqueNearClipPlane(const cMatrixf &in a_mtxProjMatrix,
                                                     const cPlanef &in aClipPlane)
 ```
@@ -2274,7 +2274,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_ProjectVector2D`
 
-```angelscript
+```cpp
 cVector2f cMath_ProjectVector2D(const cVector2f &in avSrcVec,
                                 const cVector2f &in avDestVec)
 ```
@@ -2292,7 +2292,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_QuaternionConjugate`
 
-```angelscript
+```cpp
 cQuaternion cMath_QuaternionConjugate(const cQuaternion &in aqA)
 ```
 
@@ -2308,7 +2308,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_QuaternionDot`
 
-```angelscript
+```cpp
 float cMath_QuaternionDot(const cQuaternion &in aqA,
                           const cQuaternion &in aqB)
 ```
@@ -2326,7 +2326,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_QuaternionEuler`
 
-```angelscript
+```cpp
 cQuaternion cMath_QuaternionEuler(const cVector3f &in avEuler,
                                   eEulerRotationOrder aOrder)
 ```
@@ -2344,7 +2344,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_QuaternionInverse`
 
-```angelscript
+```cpp
 cQuaternion cMath_QuaternionInverse(const cQuaternion &in aqA)
 ```
 
@@ -2360,7 +2360,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_QuaternionLerp`
 
-```angelscript
+```cpp
 cQuaternion cMath_QuaternionLerp(float afT,
                                  const cQuaternion &in aqA,
                                  const cQuaternion &in aqB)
@@ -2380,7 +2380,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_QuaternionMatrix`
 
-```angelscript
+```cpp
 cQuaternion cMath_QuaternionMatrix(const cMatrixf &in a_mtxA)
 ```
 
@@ -2396,7 +2396,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_QuaternionMul`
 
-```angelscript
+```cpp
 cQuaternion cMath_QuaternionMul(const cQuaternion &in aqA,
                                 const cQuaternion &in aqB)
 ```
@@ -2414,7 +2414,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_QuaternionNlerp`
 
-```angelscript
+```cpp
 cQuaternion cMath_QuaternionNlerp(float afT,
                                   const cQuaternion &in aqA,
                                   const cQuaternion &in aqB)
@@ -2434,7 +2434,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_QuaternionNormalize`
 
-```angelscript
+```cpp
 cQuaternion cMath_QuaternionNormalize(const cQuaternion &in aqA)
 ```
 
@@ -2450,7 +2450,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_QuaternionSlerp`
 
-```angelscript
+```cpp
 cQuaternion cMath_QuaternionSlerp(float afT,
                                   const cQuaternion &in aqA,
                                   const cQuaternion &in aqB,
@@ -2472,7 +2472,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RandomCircleEdgePoint`
 
-```angelscript
+```cpp
 cVector2f cMath_RandomCircleEdgePoint(float afRadius)
 ```
 
@@ -2488,7 +2488,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Randomize`
 
-```angelscript
+```cpp
 void cMath_Randomize(int alSeed)
 ```
 
@@ -2504,7 +2504,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RandRectColor`
 
-```angelscript
+```cpp
 cColor cMath_RandRectColor(const cColor &in aMin,
                            const cColor &in aMax)
 ```
@@ -2522,7 +2522,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RandRectf`
 
-```angelscript
+```cpp
 float cMath_RandRectf(float alMin,
                       float alMax)
 ```
@@ -2540,7 +2540,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RandRectl`
 
-```angelscript
+```cpp
 int cMath_RandRectl(int alMin,
                     int alMax)
 ```
@@ -2558,7 +2558,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RandRectVector2f`
 
-```angelscript
+```cpp
 cVector2f cMath_RandRectVector2f(const cVector2f &in avMin,
                                  const cVector2f &in avMax)
 ```
@@ -2576,7 +2576,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RandRectVector3f`
 
-```angelscript
+```cpp
 cVector3f cMath_RandRectVector3f(const cVector3f &in avMin,
                                  const cVector3f &in avMax)
 ```
@@ -2594,7 +2594,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RGBToHex`
 
-```angelscript
+```cpp
 tString cMath_RGBToHex(const cColor &in aRGB)
 ```
 
@@ -2610,7 +2610,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RGBToHexW`
 
-```angelscript
+```cpp
 tWString cMath_RGBToHexW(const cColor &in aRGB)
 ```
 
@@ -2626,7 +2626,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RGBToHSB`
 
-```angelscript
+```cpp
 cVector3f cMath_RGBToHSB(const cColor &in aX)
 ```
 
@@ -2642,7 +2642,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Round`
 
-```angelscript
+```cpp
 float cMath_Round(float afVal)
 ```
 
@@ -2658,7 +2658,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RoundFloatToDecimals`
 
-```angelscript
+```cpp
 float cMath_RoundFloatToDecimals(float afVal,
                                  int alPrecision)
 ```
@@ -2676,7 +2676,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RoundToInt`
 
-```angelscript
+```cpp
 int cMath_RoundToInt(float afVal)
 ```
 
@@ -2692,7 +2692,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RoundToInt`
 
-```angelscript
+```cpp
 cVector2l cMath_RoundToInt(const cVector2f &in avX)
 ```
 
@@ -2708,7 +2708,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_RoundToInt`
 
-```angelscript
+```cpp
 cVector3l cMath_RoundToInt(const cVector3f &in avX)
 ```
 
@@ -2724,7 +2724,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_SetBitFlag`
 
-```angelscript
+```cpp
 void cMath_SetBitFlag(int &out alFlagNum,
                       int alBit,
                       bool abSet)
@@ -2744,7 +2744,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_SigmoidCurve`
 
-```angelscript
+```cpp
 float cMath_SigmoidCurve(float afX)
 ```
 
@@ -2760,7 +2760,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Sign`
 
-```angelscript
+```cpp
 float cMath_Sign(float afX)
 ```
 
@@ -2776,7 +2776,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Sign`
 
-```angelscript
+```cpp
 int cMath_Sign(int alX)
 ```
 
@@ -2792,7 +2792,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Sin`
 
-```angelscript
+```cpp
 float cMath_Sin(float afX)
 ```
 
@@ -2808,7 +2808,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Sqrt`
 
-```angelscript
+```cpp
 float cMath_Sqrt(float afX)
 ```
 
@@ -2824,7 +2824,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Tan`
 
-```angelscript
+```cpp
 float cMath_Tan(float afX)
 ```
 
@@ -2840,7 +2840,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_ToDeg`
 
-```angelscript
+```cpp
 float cMath_ToDeg(float afAngle)
 ```
 
@@ -2856,7 +2856,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_ToRad`
 
-```angelscript
+```cpp
 float cMath_ToRad(float afAngle)
 ```
 
@@ -2872,7 +2872,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_TransformPlane`
 
-```angelscript
+```cpp
 cPlanef cMath_TransformPlane(const cMatrixf &in a_mtxTransform,
                              const cPlanef &in aPlane)
 ```
@@ -2890,7 +2890,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_TurnAngle`
 
-```angelscript
+```cpp
 float cMath_TurnAngle(float afAngle,
                       float afFinalAngle,
                       float afSpeed,
@@ -2912,7 +2912,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_TurnAngleDeg`
 
-```angelscript
+```cpp
 float cMath_TurnAngleDeg(float afAngle,
                          float afFinalAngle,
                          float afSpeed)
@@ -2932,7 +2932,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_TurnAngleRad`
 
-```angelscript
+```cpp
 float cMath_TurnAngleRad(float afAngle,
                          float afFinalAngle,
                          float afSpeed)
@@ -2952,7 +2952,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2Abs`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2Abs(const cVector2f &in avVec)
 ```
 
@@ -2968,7 +2968,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2CatmullRom`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2CatmullRom(const cVector2f &in avP0,
                                   const cVector2f &in avP1,
                                   const cVector2f &in avP2,
@@ -2992,7 +2992,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2Ceil`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2Ceil(const cVector2f &in avVec)
 ```
 
@@ -3008,7 +3008,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2Dist`
 
-```angelscript
+```cpp
 float cMath_Vector2Dist(const cVector2f &in avPosA,
                         const cVector2f &in avPosB)
 ```
@@ -3026,7 +3026,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2DistSqr`
 
-```angelscript
+```cpp
 float cMath_Vector2DistSqr(const cVector2f &in avPosA,
                            const cVector2f &in avPosB)
 ```
@@ -3044,7 +3044,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2DistSqrXY`
 
-```angelscript
+```cpp
 float cMath_Vector2DistSqrXY(const cVector3f &in avPosA,
                              const cVector3f &in avPosB)
 ```
@@ -3062,7 +3062,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2DistSqrXZ`
 
-```angelscript
+```cpp
 float cMath_Vector2DistSqrXZ(const cVector3f &in avPosA,
                              const cVector3f &in avPosB)
 ```
@@ -3080,7 +3080,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2DistSqrYZ`
 
-```angelscript
+```cpp
 float cMath_Vector2DistSqrYZ(const cVector3f &in avPosA,
                              const cVector3f &in avPosB)
 ```
@@ -3098,7 +3098,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2DistXY`
 
-```angelscript
+```cpp
 float cMath_Vector2DistXY(const cVector3f &in avPosA,
                           const cVector3f &in avPosB)
 ```
@@ -3116,7 +3116,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2DistXZ`
 
-```angelscript
+```cpp
 float cMath_Vector2DistXZ(const cVector3f &in avPosA,
                           const cVector3f &in avPosB)
 ```
@@ -3134,7 +3134,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2DistYZ`
 
-```angelscript
+```cpp
 float cMath_Vector2DistYZ(const cVector3f &in avPosA,
                           const cVector3f &in avPosB)
 ```
@@ -3152,7 +3152,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2Dot`
 
-```angelscript
+```cpp
 float cMath_Vector2Dot(const cVector2f &in avPosA,
                        const cVector2f &in avPosB)
 ```
@@ -3170,7 +3170,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2Floor`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2Floor(const cVector2f &in avVec)
 ```
 
@@ -3186,7 +3186,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2IncreaseTo`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2IncreaseTo(const cVector2f &in avX,
                                   const cVector2f &in avAdd,
                                   const cVector2f &in avDest)
@@ -3206,7 +3206,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2Max`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2Max(const cVector2f &in avVecA,
                            const cVector2f &in avVecB)
 ```
@@ -3224,7 +3224,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2MaxElement`
 
-```angelscript
+```cpp
 float cMath_Vector2MaxElement(const cVector2f &in avVec)
 ```
 
@@ -3240,7 +3240,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2Min`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2Min(const cVector2f &in avVecA,
                            const cVector2f &in avVecB)
 ```
@@ -3258,7 +3258,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2MinElement`
 
-```angelscript
+```cpp
 float cMath_Vector2MinElement(const cVector2f &in avVec)
 ```
 
@@ -3274,7 +3274,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2Normalize`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2Normalize(const cVector2f &in avVec)
 ```
 
@@ -3290,7 +3290,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2Rotate`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2Rotate(const cVector2f &in avVec,
                               float afAngle)
 ```
@@ -3308,7 +3308,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2ToDeg`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2ToDeg(const cVector2f &in avVec)
 ```
 
@@ -3324,7 +3324,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector2ToRad`
 
-```angelscript
+```cpp
 cVector2f cMath_Vector2ToRad(const cVector2f &in avVec)
 ```
 
@@ -3340,7 +3340,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Abs`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3Abs(const cVector3f &in avVec)
 ```
 
@@ -3356,7 +3356,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Angle`
 
-```angelscript
+```cpp
 float cMath_Vector3Angle(const cVector3f &in avVecA,
                          const cVector3f &in avVecB)
 ```
@@ -3374,7 +3374,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3AngleDistance`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3AngleDistance(const cVector3f &in avAngles1,
                                      const cVector3f &in avAngles2,
                                      float afMaxAngle)
@@ -3394,7 +3394,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3AngleDistanceDeg`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3AngleDistanceDeg(const cVector3f &in avAngles1,
                                         const cVector3f &in avAngles2)
 ```
@@ -3412,7 +3412,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3AngleDistanceRad`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3AngleDistanceRad(const cVector3f &in avAngles1,
                                         const cVector3f &in avAngles2)
 ```
@@ -3430,7 +3430,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3CatmullRom`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3CatmullRom(const cVector3f &in avP0,
                                   const cVector3f &in avP1,
                                   const cVector3f &in avP2,
@@ -3454,7 +3454,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Ceil`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3Ceil(const cVector3f &in avVec)
 ```
 
@@ -3470,7 +3470,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3ClampLength`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3ClampLength(const cVector3f &in avVec,
                                    float afMinLength,
                                    float afMaxLength)
@@ -3490,7 +3490,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3ClampToLength`
 
-```angelscript
+```cpp
 void cMath_Vector3ClampToLength(cVector3f &in avVec,
                                 float afMaxLength)
 ```
@@ -3508,7 +3508,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Cross`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3Cross(const cVector3f &in avVecA,
                              const cVector3f &in avVecB)
 ```
@@ -3526,7 +3526,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Dist`
 
-```angelscript
+```cpp
 float cMath_Vector3Dist(const cVector3f &in avStartPos,
                         const cVector3f &in avEndPos)
 ```
@@ -3544,7 +3544,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3DistSqr`
 
-```angelscript
+```cpp
 float cMath_Vector3DistSqr(const cVector3f &in avStartPos,
                            const cVector3f &in avEndPos)
 ```
@@ -3562,7 +3562,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Dot`
 
-```angelscript
+```cpp
 float cMath_Vector3Dot(const cVector3f &in avVecA,
                        const cVector3f &in avVecB)
 ```
@@ -3580,7 +3580,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Floor`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3Floor(const cVector3f &in avVec)
 ```
 
@@ -3596,7 +3596,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3IncreaseTo`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3IncreaseTo(const cVector3f &in avX,
                                   const cVector3f &in avAdd,
                                   const cVector3f &in avDest)
@@ -3616,7 +3616,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Max`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3Max(const cVector3f &in avVecA,
                            const cVector3f &in avVecB)
 ```
@@ -3634,7 +3634,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3MaxElement`
 
-```angelscript
+```cpp
 float cMath_Vector3MaxElement(const cVector3f &in avVec)
 ```
 
@@ -3650,7 +3650,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3MaxLength`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3MaxLength(const cVector3f &in avVec,
                                  float afMaxLength)
 ```
@@ -3668,7 +3668,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Min`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3Min(const cVector3f &in avVecA,
                            const cVector3f &in avVecB)
 ```
@@ -3686,7 +3686,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3MinElement`
 
-```angelscript
+```cpp
 float cMath_Vector3MinElement(const cVector3f &in avVec)
 ```
 
@@ -3702,7 +3702,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3MinLength`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3MinLength(const cVector3f &in avVec,
                                  float afMinLength)
 ```
@@ -3720,7 +3720,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Normalize`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3Normalize(const cVector3f &in avVec)
 ```
 
@@ -3736,7 +3736,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3OrthonormalizeBasis`
 
-```angelscript
+```cpp
 void cMath_Vector3OrthonormalizeBasis(const cVector3f &in avSrcRight,
                                       const cVector3f &in avSrcUp,
                                       const cVector3f &in avSrcForward,
@@ -3762,7 +3762,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Project`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3Project(const cVector3f &in avSrcVec,
                                const cVector3f &in avDestVec)
 ```
@@ -3780,7 +3780,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3ProjectOnPlane`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3ProjectOnPlane(const cVector3f &in avSrcVec,
                                       const cVector3f &in avPlaneNormal)
 ```
@@ -3798,7 +3798,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3Reflect`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3Reflect(const cVector3f &in avVec,
                                const cVector3f &in avNormal)
 ```
@@ -3816,7 +3816,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3SphereSurfacePoint`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3SphereSurfacePoint(const cVector2f &in avSeed,
                                           float afRadius)
 ```
@@ -3834,7 +3834,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3ToDeg`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3ToDeg(const cVector3f &in avVec)
 ```
 
@@ -3850,7 +3850,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3ToRad`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3ToRad(const cVector3f &in avVec)
 ```
 
@@ -3866,7 +3866,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Vector3UnProject`
 
-```angelscript
+```cpp
 cVector3f cMath_Vector3UnProject(const cVector3f &in avVec,
                                  const cRect2f &in aScreenRect,
                                  const cMatrixf &in a_mtxViewProj)
@@ -3886,7 +3886,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cMath_Wrap`
 
-```angelscript
+```cpp
 float cMath_Wrap(float afX,
                  float afMin,
                  float afMax)
@@ -3909,6 +3909,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cMath](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cMath)
 - Revision: `5021`
 - Source update: `2020-08-24T20:50:00Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

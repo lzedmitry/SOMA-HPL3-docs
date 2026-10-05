@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Setting_up_Visual_Studio_Code"
 sourceRevision: 7170
 sourceUpdated: "2026-07-30T22:18:53Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -252,6 +252,6 @@ HPL3/Scripting/Scripting_Guide/What is scripting in HPL3?|What is scripting in H
 - Original Frictional Wiki page: [HPL3/Scripting/Scripting Guide/Setting up Visual Studio Code](https://wiki.frictionalgames.com/page/HPL3/Scripting/Scripting_Guide/Setting_up_Visual_Studio_Code)
 - Revision: `7170`
 - Source update: `2026-07-30T22:18:53Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightListIterator"
 sourceRevision: 3602
 sourceUpdated: "2020-08-06T13:45:25Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -47,6 +47,6 @@ iLight@
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/cLightListIterator](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/cLightListIterator)
 - Revision: `3602`
 - Source update: `2020-08-06T13:45:25Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

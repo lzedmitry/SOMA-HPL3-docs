@@ -5,7 +5,7 @@ category: scripting
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Tutorials"
 sourceRevision: 7112
 sourceUpdated: "2026-07-30T10:39:21Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: incomplete
 generated: true
 tags:
@@ -36,6 +36,6 @@ tags:
 - Original Frictional Wiki page: [HPL3/SOMA/Tutorials](https://wiki.frictionalgames.com/page/HPL3/SOMA/Tutorials)
 - Revision: `7112`
 - Source update: `2026-07-30T10:39:21Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

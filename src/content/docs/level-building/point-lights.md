@@ -5,7 +5,7 @@ category: level-building
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Point_Lights"
 sourceRevision: 7052
 sourceUpdated: "2026-07-30T08:50:34Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -175,6 +175,6 @@ For example, SOMA's light helper functions include `Light_FadeTo`, `Light_SetBri
 - Original Frictional Wiki page: [HPL3/SOMA/Level Design/Point Lights](https://wiki.frictionalgames.com/page/HPL3/SOMA/Level_Design/Point_Lights)
 - Revision: `7052`
 - Source update: `2026-07-30T08:50:34Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

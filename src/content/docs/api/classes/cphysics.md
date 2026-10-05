@@ -5,7 +5,7 @@ category: api
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cPhysics"
 sourceRevision: 5020
 sourceUpdated: "2020-08-24T20:50:18Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: undocumented
 generated: true
 tags:
@@ -37,7 +37,7 @@ Have some helpful descriptions to add to this class? Edit this page and add your
 ## Function Detail
     1. `cPhysics_CreateWorld`
 
-```angelscript
+```cpp
 iPhysicsWorld@ cPhysics_CreateWorld(bool abAddSurfaceData)
 ```
 
@@ -53,7 +53,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cPhysics_DestroyWorld`
 
-```angelscript
+```cpp
 void cPhysics_DestroyWorld(iPhysicsWorld@ apWorld)
 ```
 
@@ -69,7 +69,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cPhysics_GetImpactDuration`
 
-```angelscript
+```cpp
 float cPhysics_GetImpactDuration()
 ```
 
@@ -81,7 +81,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cPhysics_GetMaxImpacts`
 
-```angelscript
+```cpp
 int cPhysics_GetMaxImpacts()
 ```
 
@@ -93,7 +93,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cPhysics_SetImpactDuration`
 
-```angelscript
+```cpp
 void cPhysics_SetImpactDuration(float afX)
 ```
 
@@ -109,7 +109,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cPhysics_SetMaxImpacts`
 
-```angelscript
+```cpp
 void cPhysics_SetMaxImpacts(int alX)
 ```
 
@@ -125,7 +125,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cPhysics_ToBody`
 
-```angelscript
+```cpp
 iPhysicsBody@ cPhysics_ToBody(iEntity3D@ apEntity)
 ```
 
@@ -141,7 +141,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cPhysics_ToJointBall`
 
-```angelscript
+```cpp
 iPhysicsJointBall@ cPhysics_ToJointBall(iPhysicsJoint@ apJoint)
 ```
 
@@ -157,7 +157,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cPhysics_ToJointHinge`
 
-```angelscript
+```cpp
 iPhysicsJointHinge@ cPhysics_ToJointHinge(iPhysicsJoint@ apJoint)
 ```
 
@@ -173,7 +173,7 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 
     1. `cPhysics_ToJointSlider`
 
-```angelscript
+```cpp
 iPhysicsJointSlider@ cPhysics_ToJointSlider(iPhysicsJoint@ apJoint)
 ```
 
@@ -192,6 +192,6 @@ Undocumented in the original Frictional Wiki. Signature preserved from the gener
 - Original Frictional Wiki page: [HPL3/SOMA/Scripting/Scripting Api/cPhysics](https://wiki.frictionalgames.com/page/HPL3/SOMA/Scripting/Scripting_Api/cPhysics)
 - Revision: `5020`
 - Source update: `2020-08-24T20:50:18Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

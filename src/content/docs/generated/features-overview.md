@@ -5,7 +5,7 @@ category: generated
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Features_Overview"
 sourceRevision: 4746
 sourceUpdated: "2020-08-21T09:41:06Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: incomplete
 generated: true
 tags:
@@ -37,6 +37,6 @@ The HPL3 engine has a number of new features since the previous version, HPL2:
 - Original Frictional Wiki page: [HPL3/Features Overview](https://wiki.frictionalgames.com/page/HPL3/Features_Overview)
 - Revision: `4746`
 - Source update: `2020-08-21T09:41:06Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

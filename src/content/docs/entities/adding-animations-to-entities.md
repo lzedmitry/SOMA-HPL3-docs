@@ -5,7 +5,7 @@ category: entities
 sourceUrl: "https://wiki.frictionalgames.com/page/HPL3/Entities/Adding_Animations_to_Entities"
 sourceRevision: 7138
 sourceUpdated: "2026-07-30T21:57:07Z"
-lastSynced: "2026-08-28T18:40:04Z"
+lastSynced: "2026-10-05T14:11:59Z"
 sourceStatus: verified
 generated: true
 tags:
@@ -62,6 +62,6 @@ Notes on the timeline workings: event markers will only be shown when the event 
 - Original Frictional Wiki page: [HPL3/Entities/Adding Animations to Entities](https://wiki.frictionalgames.com/page/HPL3/Entities/Adding_Animations_to_Entities)
 - Revision: `7138`
 - Source update: `2026-07-30T21:57:07Z`
-- Last synced: `2026-08-28T18:40:04Z`
+- Last synced: `2026-10-05T14:11:59Z`
 
 This is unofficial community documentation and is not affiliated with or endorsed by Frictional Games. Content is derived from the [Frictional Wiki](https://wiki.frictionalgames.com/page/HPL3/SOMA). See [Licensing](/about/licensing/).

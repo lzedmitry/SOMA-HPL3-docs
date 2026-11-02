@@ -1,9 +1,14 @@
 {
   "pageid": 3463,
   "title": "HPL3/Sound/Playing Sounds",
-  "requestedTitle": "HPL3/Sound/Playing Sounds",
+  "missing": false,
+  "redirect": false,
+  "length": 1774,
+  "touched": "2026-07-30T22:23:08Z",
   "revisionId": 7175,
   "revisionTimestamp": "2026-07-30T22:23:08Z",
+  "revisionUser": "TiMan",
   "wikitext": "= Sound Browser window =\nThis window helps when having to pick sounds. It can work in two different modes:\n\n* Sound Entity\n\n[[File:sound_entity.png]]\n\n''' '''Full path input''': This input will display the current full path, will show each step in the path as a row in the open list. Clicking on a row will make the dialog navigate to that folder.\n''' '''Up button''': will make the dialog navigate to the parent folder.\n''' '''Directory and file listing'''\n\n* Sound Event\n\n[[File:sound_event.png]]\n''' Two boxes will show up, left one will list available '''Sound Projects''' (or sound banks) and '''Sound Groups''' (pretty much like subdirectories) in a tree fashion. The one at the right will show '''Sound Events''' (sounds actually) present inside the picked Group. To use one of them, just select it there.\n\nThese are common for both modes.\n* '''Play button''': will play a sample of the picked sound.\n* '''Load file name''': The name of the file to load.\n* '''Load button''': Will try to load the given file name and close. \n* '''Cancel button''': Will just close the dialog.\n\n=Sound EditMode=\n\nThis EditMode is used to create Sound Entities in the map. These are used to add ambience sound, static sounds like water flowing, or pretty much any sound you want.\n\nTo create a Sound Entity, just click on the grid when this EditMode is active. This will create an \"empty\" Sound Entity, meaning it is just a container.\nOptionally, you can set up the .snt file that will be used by the newly created Sound Entity, in the only input that shows on the EditMode window. \n\nHave into account that these options will be valid for objects created right after changing them, so any Sound Entity that is already created will keep its settings.\n\nMore on sounds [[HPL2/Sounds|here]].",
-  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Sound/Playing_Sounds"
+  "sourceUrl": "https://wiki.frictionalgames.com/page/HPL3/Sound/Playing_Sounds",
+  "requestedTitle": "HPL3/Sound/Playing Sounds"
 }

@@ -3325,6 +3325,11 @@
     "to": "/dialogue/voice-handler-overview/"
   },
   {
+    "from": "HPL3/Entities/Entity Notes",
+    "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Entities/Entity_Notes",
+    "to": "/entities/entity-notes/"
+  },
+  {
     "from": "HPL3/Troubleshooting",
     "fromUrl": "https://wiki.frictionalgames.com/page/HPL3/Troubleshooting",
     "to": "/debugging/faq/"
